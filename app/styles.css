@@ -436,6 +436,42 @@ h3 { font-size: 1.1rem; margin: 24px 0 10px; }
 .aide-voix summary { cursor: pointer; color: var(--texte); font-weight: 700; }
 .aide-voix li { margin-bottom: 6px; }
 
+/* ---------- Soirée entre amis ---------- */
+.code-salle { text-transform: uppercase; letter-spacing: .3em; font-size: 1.3rem; font-weight: 800; }
+.code-grand {
+  text-align: center; font-size: 3.2rem; font-weight: 900; letter-spacing: .25em;
+  margin: 8px 0 0; color: var(--accent); font-variant-numeric: tabular-nums;
+}
+.soiree-attente { text-align: center; padding: 30px 0; }
+.salon-equipes { display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 10px; margin-bottom: 16px; }
+.equipe { background: var(--fond-2); border-radius: 12px; padding: 10px 12px; border-top: 5px solid var(--c); }
+.equipe ul, .liste-salon { margin: 6px 0 0; padding-left: 20px; }
+.liste-salon { grid-column: 1 / -1; font-size: 1.05rem; }
+.liste-salon li, .equipe li { margin: 3px 0; }
+.btn-retirer {
+  margin-left: 8px; border: 0; background: var(--fond-3); color: var(--texte-doux);
+  width: 26px; height: 26px; border-radius: 50%; cursor: pointer; font-size: 1rem; line-height: 1;
+}
+.choix-equipe { display: grid; grid-template-columns: repeat(auto-fill, minmax(130px, 1fr)); gap: 8px; margin: 8px 0 16px; }
+.choix-equipe .btn { background: var(--c); color: #fff; }
+#soiree-contenu .score > div { min-width: 0; }
+#soiree-contenu .score[style*="--c"] { border-left: 5px solid var(--c); }
+.points-rond {
+  flex: none; display: grid; place-items: center; width: 36px; height: 36px; border-radius: 50%;
+  background: var(--accent); color: var(--encre); font-weight: 900; font-size: .95rem;
+}
+.minuteur { text-align: center; font-weight: 800; font-size: 1.15rem; margin: 0 0 12px; font-variant-numeric: tabular-nums; }
+.minuteur.urgent { color: #ff8a80; }
+.reponses-soiree { list-style: none; padding: 0; margin: 14px 0; display: grid; gap: 6px; }
+.reponses-soiree li { background: var(--fond-2); border-radius: 10px; padding: 8px 12px; border-left: 4px solid #ff8a80; }
+.reponses-soiree li.juste { border-left-color: #5fd68b; }
+.classement { font-size: 1.1rem; padding-left: 26px; }
+.classement li { margin: 6px 0; }
+.classement li:first-child { color: var(--accent); }
+.arbitrage { margin: 14px 0; background: var(--fond-2); border-radius: 12px; padding: 10px 14px; }
+.arbitrage summary { cursor: pointer; color: var(--texte-doux); }
+.reponse-cachee { margin: 10px 0; }
+
 /* ---------- Parcourir ---------- */
 .filtres { display: grid; grid-template-columns: 1fr; gap: 8px; }
 @media (min-width: 600px) { .filtres { grid-template-columns: 2fr 1fr 1fr; } }

@@ -33,6 +33,7 @@
       <a href="#carte">Piocher</a>
       <a href="#solo">Solo</a>
       <a href="#partie">Partie</a>
+      <a href="#soiree">Soirée</a>
       <a href="#parcourir">Parcourir</a>
       <a href="#imprimer">Imprimer</a>
       <a href="#reglages" aria-label="Réglages">⚙︎</a>
@@ -65,6 +66,10 @@
         <a class="menu-item" href="#partie">
           <span class="menu-titre">Partie sans plateau</span>
           <span class="menu-desc">2 à 6 joueurs, le dé choisit la couleur, premier à remplir son camembert.</span>
+        </a>
+        <a class="menu-item" href="#soiree">
+          <span class="menu-titre">Soirée entre amis</span>
+          <span class="menu-desc">Chacun sur son téléphone : un code de partie, en équipes ou chacun pour soi, en direct.</span>
         </a>
         <a class="menu-item" href="#parcourir">
           <span class="menu-titre">Parcourir les questions</span>
@@ -182,6 +187,11 @@
       <div id="solo-jeu" hidden></div>
     </section>
 
+    <!-- SOIRÉE -->
+    <section class="vue" data-vue="soiree" hidden>
+      <div id="soiree-contenu"></div>
+    </section>
+
     <!-- PARTIE -->
     <section class="vue" data-vue="partie" hidden>
       <div id="partie-config" hidden>
@@ -278,5 +288,6 @@
 
   <script src="reponse.js"></script>
   <script src="app.js"></script>
+  <script src="soiree.js"></script>
 </body>
 </html>

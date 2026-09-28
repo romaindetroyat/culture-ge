@@ -1300,7 +1300,7 @@ function initImpression() {
 
 /* ---------------- Navigation ---------------- */
 
-const VUES = ['accueil', 'jour', 'carte', 'solo', 'partie', 'parcourir', 'imprimer', 'reglages'];
+const VUES = ['accueil', 'jour', 'carte', 'solo', 'partie', 'soiree', 'parcourir', 'imprimer', 'reglages'];
 
 function naviguer() {
   if (ecouteEnCours) ecouteEnCours.abort();
@@ -1315,6 +1315,7 @@ function naviguer() {
   if (vue === 'jour') rendreJour();
   if (vue === 'solo') rendreSolo();
   if (vue === 'partie') rendrePartie();
+  if (vue === 'soiree') rendreSoiree();
   if (vue === 'parcourir' && !$('#resultats').children.length) filtrer();
   window.scrollTo(0, 0);
 }
@@ -1371,11 +1372,14 @@ async function demarrer() {
   initParcourir();
   initImpression();
   initReglages();
+  initSoiree();
 
-  // Liens partagés : ?defi=… (défi sur une série) et ?jour (carte du jour).
+  // Liens partagés : ?defi=… (défi sur une série), ?jour (carte du jour), ?salle=… (soirée).
   const params = new URLSearchParams(location.search);
-  if (params.has('defi') || params.has('jour')) {
-    if (params.has('defi')) {
+  if (params.has('defi') || params.has('jour') || params.has('salle')) {
+    if (params.has('salle')) {
+      location.hash = '#soiree';
+    } else if (params.has('defi')) {
       defiRecu = decoderDefi(params.get('defi'));
       location.hash = defiRecu ? '#solo' : '#accueil';
     } else {
