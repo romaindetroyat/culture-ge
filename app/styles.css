@@ -150,6 +150,7 @@ main {
   cursor: pointer;
   transition: transform .1s, filter .15s;
 }
+a.btn { display: inline-block; text-align: center; text-decoration: none; }
 .btn:hover { filter: brightness(1.08); }
 .btn:active { transform: scale(.97); }
 .btn-clair { background: var(--fond-3); color: var(--texte); }
@@ -360,6 +361,80 @@ h3 { font-size: 1.1rem; margin: 24px 0 10px; }
 
 .btn-lire { text-decoration: none; font-weight: 700; color: var(--texte); }
 .btn-lire:hover { text-decoration: underline; }
+
+/* ---------- Carte du jour ---------- */
+.menu-jour {
+  display: block;
+  text-decoration: none;
+  margin-bottom: 14px;
+  padding: 18px 20px;
+  border-radius: var(--rayon);
+  background: linear-gradient(120deg, #f2c200, #f07c1b);
+  color: #1c1c24;
+  box-shadow: var(--ombre);
+}
+.menu-jour.fait { background: var(--fond-2); color: var(--texte); box-shadow: none; border: 1px solid rgba(255, 255, 255, .1); }
+.menu-jour-titre { display: block; font-weight: 800; font-size: 1.25rem; }
+.menu-jour-etat { display: block; font-size: .92rem; margin-top: 2px; }
+.menu-jour.fait .menu-jour-etat { color: var(--texte-doux); }
+.lien-reglages { text-align: center; margin-top: 18px; }
+.lien-reglages a { color: var(--texte-doux); }
+
+.jour-cases { display: flex; justify-content: center; gap: 10px; margin: 16px 0; }
+.jour-case {
+  width: 46px;
+  height: 46px;
+  border-radius: 10px;
+  background: var(--c);
+  display: grid;
+  place-items: center;
+  color: #fff;
+  font-weight: 900;
+  font-size: 1.4rem;
+}
+.jour-case.ko { opacity: .45; }
+.jour-stats { list-style: none; padding: 0; margin: 14px 0; display: grid; grid-template-columns: repeat(4, 1fr); gap: 8px; }
+.jour-stats li { background: var(--fond-2); border-radius: 12px; padding: 10px 4px; text-align: center; font-size: .78rem; color: var(--texte-doux); }
+.jour-stats b { display: block; font-size: 1.5rem; color: var(--texte); }
+#jour-contenu { text-align: center; }
+#jour-contenu .resultats { text-align: left; }
+
+/* ---------- Partage et défi ---------- */
+.partage { display: grid; gap: 10px; justify-items: center; margin: 10px 0 18px; }
+.btn-partage { min-width: 220px; }
+.partage-liens { display: flex; flex-wrap: wrap; justify-content: center; gap: 8px; }
+.lien-partage {
+  appearance: none;
+  border: 1px solid rgba(255, 255, 255, .15);
+  background: var(--fond-2);
+  color: var(--texte);
+  border-radius: 999px;
+  padding: 8px 14px;
+  font: inherit;
+  font-size: .88rem;
+  text-decoration: none;
+  cursor: pointer;
+}
+.lien-partage:hover { background: var(--fond-3); }
+.partage-info { margin: 0; font-size: .88rem; color: var(--texte-doux); min-height: 1.2em; white-space: pre-line; }
+.bloc-defi { margin-top: 18px; padding-top: 14px; border-top: 1px solid rgba(255, 255, 255, .08); }
+.bloc-defi h3 { margin-top: 0; }
+.champ-nom { display: inline-flex; gap: 8px; align-items: center; color: var(--texte-doux); font-size: .9rem; }
+.champ-nom input { width: 160px; padding: 6px 10px; }
+.defi-intro { text-align: center; padding-top: 10px; }
+.defi-cible { font-size: 3.5rem; margin: 0; }
+.solo-record.defi-gagne { color: #5fd68b; font-weight: 700; }
+.solo-record.defi-perdu { color: #ff8a80; font-weight: 700; }
+.solo-record.defi-egalite { color: var(--accent); font-weight: 700; }
+
+/* ---------- Réglages ---------- */
+.aide { color: var(--texte-doux); font-size: .88rem; margin: 0 0 8px; }
+.champ { display: grid; gap: 6px; margin-bottom: 14px; font-size: .92rem; color: var(--texte-doux); }
+.champ select, .champ input[type="range"] { width: 100%; }
+#form-reglages input[type="text"] { width: 100%; }
+.aide-voix { margin-top: 14px; font-size: .9rem; color: var(--texte-doux); }
+.aide-voix summary { cursor: pointer; color: var(--texte); font-weight: 700; }
+.aide-voix li { margin-bottom: 6px; }
 
 /* ---------- Parcourir ---------- */
 .filtres { display: grid; grid-template-columns: 1fr; gap: 8px; }

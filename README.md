@@ -14,6 +14,8 @@ dans une application web progressive (PWA) installable sur téléphone et utilis
 
 ## Ce que fait l'application
 
+- **Carte du jour** : chaque jour, la même carte de 6 questions pour tout le monde, jouable une seule
+  fois. Série de jours consécutifs, statistiques, et partage du résultat façon Wordle (lien `?jour`).
 - **Piocher une carte** : pour jouer avec un vrai plateau. Le paquet est mélangé et aucune carte
   ne ressort avant d'avoir vu toutes les autres. On peut piocher dans tout le paquet, ou seulement
   dans la base ou l'extension. Touchez une question pour voir sa réponse.
@@ -29,6 +31,11 @@ dans une application web progressive (PWA) installable sur téléphone et utilis
   (synonymes, graphies, sigles, noms courants). On peut toujours corriger le verdict.
   L'application peut **lire les questions à voix haute** (aussi en partie à plusieurs), et un mode
   **mains libres** enchaîne lecture de la question, écoute de la réponse, verdict et question suivante.
+  En fin de série, **Défier un ami** partage un lien (`?defi=…`) qui contient la série exacte : l'ami
+  joue les mêmes questions et voit qui l'emporte. Partage par le menu natif du téléphone, WhatsApp,
+  Messenger, SMS, Facebook, X, e-mail, copie du lien, ou une image du score.
+- **Réglages** : prénom affiché dans les défis, choix de la voix de lecture (les voix « améliorées »
+  ou « naturelles » du téléphone en tête), vitesse, et aide pour installer une voix plus naturelle.
 - **Partie sans plateau** : 2 à 6 joueurs. Le dé tire une couleur, une bonne réponse rapporte le
   camembert de la couleur et permet de rejouer. Avec les 6 camemberts, les autres joueurs choisissent
   la catégorie de la question finale. Réglages : difficulté des questions, nombre de bonnes

@@ -4,7 +4,15 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <title>Trivial 1000</title>
-  <meta name="description" content="1000 cartes de questions façon Trivial Pursuit : 6000 questions en 6 catégories, jouables hors ligne.">
+  <meta name="description" content="Jeu de questions façon Trivial Pursuit : près de 11 000 questions en 6 catégories, une carte du jour, des défis entre amis, jouable hors ligne.">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Trivial 1000 — relevez le défi !">
+  <meta property="og:description" content="Près de 11 000 questions façon Trivial Pursuit, une carte du jour et des défis entre amis.">
+  <meta property="og:image" content="https://romaindetroyat.github.io/trivialpursuit/icons/partage.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:url" content="https://romaindetroyat.github.io/trivialpursuit/">
+  <meta name="twitter:card" content="summary_large_image">
   <meta name="theme-color" content="#16213e">
   <link rel="manifest" href="manifest.webmanifest">
   <link rel="icon" href="icons/icon.svg" type="image/svg+xml">
@@ -21,11 +29,13 @@
       <span>Trivial <b>1000</b></span>
     </a>
     <nav class="topnav">
+      <a href="#jour">Du jour</a>
       <a href="#carte">Piocher</a>
       <a href="#solo">Solo</a>
       <a href="#partie">Partie</a>
       <a href="#parcourir">Parcourir</a>
       <a href="#imprimer">Imprimer</a>
+      <a href="#reglages" aria-label="Réglages">⚙︎</a>
     </nav>
   </header>
 
@@ -39,6 +49,10 @@
         <h1>Trivial <b>1000</b></h1>
         <p class="hero-sous"><span data-stat="cartes">1000</span> cartes · <span data-stat="questions">6000</span> questions · 6 catégories</p>
       </div>
+      <a class="menu-jour" href="#jour" id="menu-jour">
+        <span class="menu-jour-titre">Carte du jour</span>
+        <span class="menu-jour-etat" id="menu-jour-etat">6 questions, une par couleur. La même pour tout le monde.</span>
+      </a>
       <div class="menu">
         <a class="menu-item" href="#carte">
           <span class="menu-titre">Piocher une carte</span>
@@ -62,9 +76,52 @@
         </a>
       </div>
       <ul class="legende" id="legende"></ul>
+      <p class="lien-reglages"><a href="#reglages">⚙︎ Réglages : voix, prénom</a></p>
       <p class="installer" id="installer" hidden>
         <button type="button" class="btn btn-clair" id="btn-installer">Installer l'application</button>
       </p>
+    </section>
+
+    <!-- CARTE DU JOUR -->
+    <section class="vue" data-vue="jour" hidden>
+      <div id="jour-contenu"></div>
+    </section>
+
+    <!-- RÉGLAGES -->
+    <section class="vue" data-vue="reglages" hidden>
+      <h2>Réglages</h2>
+      <form id="form-reglages" class="formulaire" onsubmit="return false">
+        <fieldset>
+          <legend>Votre prénom</legend>
+          <p class="aide">Affiché dans les défis que vous envoyez.</p>
+          <input type="text" name="nom" maxlength="20" placeholder="Prénom ou pseudo" autocomplete="nickname">
+        </fieldset>
+        <fieldset id="reglages-voix">
+          <legend>Voix de lecture</legend>
+          <label class="champ">Voix
+            <select name="voix" id="choix-voix"></select>
+          </label>
+          <label class="champ">Vitesse
+            <input type="range" name="vitesse" min="0.7" max="1.3" step="0.05" value="1">
+            <span id="vitesse-valeur">1,00</span>
+          </label>
+          <button type="button" class="btn btn-clair" id="tester-voix">🔊 Tester la voix</button>
+          <details class="aide-voix">
+            <summary>Obtenir une voix plus naturelle</summary>
+            <p>La voix vient de votre téléphone. Les voix « améliorées », « premium » ou « naturelles » sont
+              bien plus agréables ; elles apparaissent dans la liste ci-dessus une fois installées, en tête de liste.</p>
+            <ul>
+              <li><b>iPhone / iPad</b> : Réglages → Accessibilité → Contenu énoncé → Voix → Français →
+                téléchargez <i>Amélie (améliorée)</i>, <i>Thomas (amélioré)</i> ou une voix <i>Premium</i>.</li>
+              <li><b>Android</b> : Paramètres → Accessibilité (ou Gestion générale) → Synthèse vocale →
+                moteur <i>Google</i> → Installer les données vocales → Français, puis choisissez une voix.</li>
+              <li><b>Ordinateur</b> : Microsoft Edge propose des voix « Online (Natural) » très naturelles
+                (Denise, Henri…).</li>
+            </ul>
+          </details>
+        </fieldset>
+      </form>
+      <p class="sans-voix" id="sans-voix" hidden>La lecture à voix haute n'est pas disponible dans ce navigateur.</p>
     </section>
 
     <!-- PIOCHE -->
