@@ -8,6 +8,9 @@ const CLE_SOLO = 'trivial1000.solo';
 const CLE_SOLO_VUES = 'trivial1000.solo.vues';
 const CLE_SOLO_RECORDS = 'trivial1000.solo.records';
 const CLE_VOIX = 'trivial1000.voix';
+const CLE_VOIX_CHOIX = 'trivial1000.voix.choix';
+const CLE_NOM = 'trivial1000.nom';
+const CLE_JOUR = 'trivial1000.jour';
 
 // Texte lisible sur fond clair pour les couleurs trop pâles (jaune).
 const COULEUR_TEXTE = { his: '#9a7a00' };
@@ -31,7 +34,7 @@ function h(balise, attrs = {}, ...enfants) {
   }
   for (const e of enfants.flat()) {
     if (e == null || e === false) continue;
-    el.append(e instanceof Node ? e : document.createTextNode(e));
+    el.append(e instanceof Node ? e : document.createTextNode(typo(e)));
   }
   return el;
 }
@@ -61,7 +64,7 @@ function melanger(tab) {
 const numero = n => String(n).padStart(4, '0');
 // Typographie française : espace insécable avant ? ! : ; » et après «, pour éviter
 // qu'un signe se retrouve seul en début de ligne.
-const typo = t => String(t).replace(/\s+([?!:;»])/g, '\u00a0$1').replace(/«\s+/g, '«\u00a0');
+function typo(t) { return String(t).replace(/\s+([?!:;»])/g, '\u00a0$1').replace(/«\s+/g, '«\u00a0'); }
 const styleCat = c => `--c:${c.couleur};--c-texte:${COULEUR_TEXTE[c.id] || c.couleur}`;
 const catParId = id => CATS.find(c => c.id === id);
 
@@ -438,12 +441,24 @@ function initPartie() {
 
 const Synthese = 'speechSynthesis' in window ? window.speechSynthesis : null;
 let voixFr = null;
+let voixDispo = [];
 let derniereLecture = null; // évite de relire la même question à chaque rafraîchissement
 
+// Les voix « naturelles », « améliorées » ou « premium » passent en tête.
+function scoreVoix(v) {
+  let s = 0;
+  if (/natural|neural|premium|enhanced|am[ée]lior|siri|online|wavenet|studio/i.test(v.name)) s += 10;
+  if (/google/i.test(v.name)) s += 5;
+  if (/fr[-_]FR/i.test(v.lang)) s += 2;
+  if (/compact|eloquence|espeak|robot/i.test(v.name)) s -= 5;
+  return s;
+}
+
 function choisirVoix() {
-  const voix = Synthese.getVoices().filter(v => /^fr([-_]|$)/i.test(v.lang));
-  voixFr = voix.find(v => /fr[-_]FR/i.test(v.lang) && /google|amélie|amelie|thomas|audrey|denise|henri/i.test(v.name))
-    || voix.find(v => /fr[-_]FR/i.test(v.lang)) || voix[0] || null;
+  voixDispo = Synthese.getVoices().filter(v => /^fr([-_]|$)/i.test(v.lang)).sort((a, b) => scoreVoix(b) - scoreVoix(a));
+  const pref = lire(CLE_VOIX_CHOIX, {});
+  voixFr = voixDispo.find(v => v.voiceURI === pref.uri) || voixDispo[0] || null;
+  if (typeof remplirChoixVoix === 'function') remplirChoixVoix();
 }
 if (Synthese) {
   choisirVoix();
@@ -456,15 +471,20 @@ function texteParle(t) {
   return String(t).replace(/\s*\(([^)]*)\)/g, ', $1').replace(/\s*[«»]\s*/g, ' ').replace(/\bN°\s*/g, 'numéro ');
 }
 
-/** Lit un texte ; `apres` est appelé à la fin de la lecture. */
+/** Lit un texte, phrase par phrase (pauses plus naturelles) ; `apres` est appelé à la fin. */
 function dire(texte, apres) {
   if (!Synthese) { if (apres) apres(); return; }
   Synthese.cancel();
-  const u = new SpeechSynthesisUtterance(texteParle(texte));
-  u.lang = 'fr-FR';
-  try { if (voixFr) u.voice = voixFr; } catch { /* voix indisponible : voix par défaut */ }
-  if (apres) u.onend = apres;
-  Synthese.speak(u);
+  const vitesse = lire(CLE_VOIX_CHOIX, {}).vitesse || 1;
+  const phrases = texteParle(texte).split(/(?<=[.!?])\s+(?=\S)/).filter(Boolean);
+  phrases.forEach((phrase, i) => {
+    const u = new SpeechSynthesisUtterance(phrase);
+    u.lang = voixFr ? voixFr.lang : 'fr-FR';
+    u.rate = vitesse;
+    try { if (voixFr) u.voice = voixFr; } catch { /* voix indisponible : voix par défaut */ }
+    if (apres && i === phrases.length - 1) u.onend = apres;
+    Synthese.speak(u);
+  });
 }
 
 function taire() { if (Synthese) Synthese.cancel(); }
@@ -513,12 +533,15 @@ function sauverSolo() { ecrire(CLE_SOLO, solo); }
 function cleRecord(s) { return `${s.format}|${s.cat || 'toutes'}|${s.niveau}`; }
 
 function libelleConfig(s) {
+  if (s.mode === 'jour') return `Carte du jour n°${s.jour}`;
   const format = s.format === 'survie' ? 'Survie' : `${s.format} questions`;
   const cat = s.cat ? catParId(s.cat).nom : 'toutes catégories';
   return `${format} · ${cat} · ${LIBELLE_NIVEAU[s.niveau]}`;
 }
 
 function tirerQuestionSolo() {
+  // Défi ou carte du jour : liste de questions imposée.
+  if (solo.liste) return solo.liste[solo.historique.length];
   const niveaux = NIVEAUX[solo.niveau] || NIVEAUX[0];
   const dansPartie = new Set(solo.historique.map(e => e.id));
   const convient = q => (!solo.cat || q.cat === solo.cat) && niveaux.includes(q.d) && !dansPartie.has(q.id);
@@ -537,6 +560,7 @@ function tirerQuestionSolo() {
 }
 
 function soloTermine() {
+  if (solo.liste && solo.historique.length >= solo.liste.length) return true;
   if (solo.format === 'survie') return solo.erreurs >= VIES;
   return solo.historique.length >= Number(solo.format);
 }
@@ -563,12 +587,16 @@ function repondreSolo(bon) {
   solo.historique.push({ id: q.id, ok: bon, pts });
   if (soloTermine()) {
     solo.phase = 'fin';
-    const records = lire(CLE_SOLO_RECORDS, {});
-    const cle = cleRecord(solo);
-    solo.ancienRecord = records[cle] ? records[cle].score : null;
-    if (solo.ancienRecord == null || solo.score > solo.ancienRecord) {
-      records[cle] = { score: solo.score, date: new Date().toISOString().slice(0, 10) };
-      ecrire(CLE_SOLO_RECORDS, records);
+    if (solo.mode === 'jour') enregistrerJour(solo);
+    if (!solo.mode) {
+      // Les records ne concernent que les séries libres (pas les défis ni la carte du jour).
+      const records = lire(CLE_SOLO_RECORDS, {});
+      const cle = cleRecord(solo);
+      solo.ancienRecord = records[cle] ? records[cle].score : null;
+      if (solo.ancienRecord == null || solo.score > solo.ancienRecord) {
+        records[cle] = { score: solo.score, date: new Date().toISOString().slice(0, 10) };
+        ecrire(CLE_SOLO_RECORDS, records);
+      }
     }
   } else {
     solo.question = tirerQuestionSolo();
@@ -652,6 +680,7 @@ function ecouter() {
 }
 
 function rendreSolo() {
+  if (defiRecu) { afficherDefiRecu(); return; }
   if (!solo) { afficherConfigSolo(); return; }
   $('#solo-config').hidden = true;
   const zone = $('#solo-jeu');
@@ -663,7 +692,7 @@ function rendreSolo() {
   const progression = solo.format === 'survie'
     ? h('span', { class: 'vies', 'aria-label': `${VIES - (solo.erreurs || 0)} vies restantes` },
       Array.from({ length: VIES }, (_, i) => h('i', { class: i < VIES - (solo.erreurs || 0) ? 'on' : null })))
-    : h('span', {}, `Question ${n} / ${solo.format}`);
+    : h('span', {}, `${solo.mode === 'jour' ? 'Carte du jour · ' : solo.mode === 'defi' ? 'Défi · ' : ''}Question ${n} / ${solo.liste ? solo.liste.length : solo.format}`);
   const derniere = solo.historique[solo.historique.length - 1];
 
   const q = QUESTIONS[solo.question];
@@ -722,10 +751,13 @@ function rendreSolo() {
     carte,
     h('div', { class: 'tour' }, actions),
     h('div', { class: 'partie-actions' },
-      h('button', {
-        type: 'button', class: 'btn-lien',
-        onclick: () => { if (confirm('Abandonner cette série ? Le score ne sera pas enregistré.')) { taire(); solo = null; effacer(CLE_SOLO); rendreSolo(); } },
-      }, 'Abandonner')),
+      solo.mode === 'jour'
+        // La carte du jour ne se rejoue pas : on peut seulement la reprendre plus tard.
+        ? h('a', { class: 'btn-lien', href: '#accueil', onclick: taire }, 'Reprendre plus tard')
+        : h('button', {
+          type: 'button', class: 'btn-lien',
+          onclick: () => { if (confirm('Abandonner cette série ? Le score ne sera pas enregistré.')) { taire(); solo = null; effacer(CLE_SOLO); rendreSolo(); } },
+        }, 'Abandonner')),
   );
   lireSolo(q, cat);
 }
@@ -751,6 +783,7 @@ function lireSolo(q, cat) {
 }
 
 function rendreFinSolo(zone) {
+  if (solo.mode === 'jour') { rendreFinJour(zone, solo.jour); return; }
   const total = solo.historique.length;
   const bonnes = solo.historique.filter(e => e.ok).length;
   const record = solo.ancienRecord == null || solo.score > solo.ancienRecord;
@@ -760,27 +793,34 @@ function rendreFinSolo(zone) {
   }).filter(x => x.total);
   const ratees = solo.historique.filter(e => !e.ok).map(e => QUESTIONS[e.id]);
   const reglages = { format: solo.format, cat: solo.cat, niveau: solo.niveau };
+  const defi = solo.mode === 'defi' ? solo.defi : null;
+  const issue = defi ? (solo.score > defi.score ? 'gagne' : solo.score < defi.score ? 'perdu' : 'egalite') : null;
+  const TEXTES_ISSUE = { gagne: 'Défi remporté ! 🏆', perdu: 'Défi perdu…', egalite: 'Égalité !' };
   direUneFois(`solo-fin-${solo.historique.length}-${solo.score}`,
     `Série terminée : ${solo.score} points, ${bonnes} bonne${bonnes > 1 ? 's' : ''} réponse${bonnes > 1 ? 's' : ''} sur ${total}.`
-    + (record ? ' Nouveau record !' : ''));
+    + (defi ? ` ${defi.nom} avait ${defi.score} points. ${TEXTES_ISSUE[issue]}` : record ? ' Nouveau record !' : ''));
 
   zone.replaceChildren(
     h('div', { class: 'solo-fin' },
       h('p', { class: 'solo-config-rappel' }, libelleConfig(solo)),
       h('div', { class: 'solo-total' }, h('b', {}, String(solo.score)), ' points'),
-      h('p', { class: 'solo-record' + (record ? ' nouveau' : '') },
-        record
-          ? (solo.ancienRecord == null ? 'Premier record établi !' : `Nouveau record ! (ancien : ${solo.ancienRecord})`)
-          : `Record à battre : ${solo.ancienRecord}`),
+      defi
+        ? h('p', { class: 'solo-record defi-' + issue },
+          `${TEXTES_ISSUE[issue]} ${defi.nom} : ${defi.score} pts (${defi.bonnes}/${defi.total}) · vous : ${solo.score} pts`)
+        : h('p', { class: 'solo-record' + (record ? ' nouveau' : '') },
+          record
+            ? (solo.ancienRecord == null ? 'Premier record établi !' : `Nouveau record ! (ancien : ${solo.ancienRecord})`)
+            : `Record à battre : ${solo.ancienRecord}`),
       h('p', { class: 'message' }, `${bonnes} bonne${bonnes > 1 ? 's' : ''} réponse${bonnes > 1 ? 's' : ''} sur ${total} · meilleure série : ${solo.meilleureSerie}`),
       h('ul', { class: 'barres' }, parCat.map(({ c, total: t, ok }) =>
         h('li', { style: styleCat(c) },
           h('span', { class: 'barre-nom' }, c.nom),
           h('span', { class: 'barre-fond' }, h('span', { class: 'barre-val', style: `width:${Math.round(100 * ok / t)}%` })),
           h('span', { class: 'barre-chiffre' }, `${ok}/${t}`)))),
+      panneauDefi(defi, issue, bonnes, total),
       h('div', { class: 'actions' },
-        h('button', { type: 'button', class: 'btn btn-clair', onclick: () => { solo = null; effacer(CLE_SOLO); rendreSolo(); } }, 'Changer les réglages'),
-        h('button', { type: 'button', class: 'btn', onclick: () => { derniereLecture = null; nouveauSolo(reglages); } }, 'Rejouer')),
+        h('button', { type: 'button', class: 'btn btn-clair', onclick: () => { solo = null; effacer(CLE_SOLO); rendreSolo(); } }, defi ? 'Nouvelle série' : 'Changer les réglages'),
+        defi ? null : h('button', { type: 'button', class: 'btn', onclick: () => { derniereLecture = null; nouveauSolo(reglages); } }, 'Rejouer')),
     ),
     ratees.length ? h('div', { class: 'ratees' },
       h('h3', {}, 'Les réponses que vous avez manquées'),
@@ -805,6 +845,352 @@ function initSolo() {
   solo = lire(CLE_SOLO, null);
   if (solo && (!Array.isArray(solo.historique) || (solo.question != null && !QUESTIONS[solo.question])
     || solo.historique.some(e => !QUESTIONS[e.id]))) solo = null;
+}
+
+/* ---------------- Partage ---------------- */
+
+const URL_JEU = location.origin + location.pathname;
+const EMOJI_CAT = { geo: '🔵', div: '🩷', his: '🟡', art: '🟤', sci: '🟢', spo: '🟠' };
+
+function encoderDefi(obj) {
+  const octets = new TextEncoder().encode(JSON.stringify(obj));
+  let bin = '';
+  octets.forEach(o => { bin += String.fromCharCode(o); });
+  return btoa(bin).replace(/\+/g, '-').replace(/\//g, '_').replace(/=+$/, '');
+}
+
+function decoderDefi(texte) {
+  try {
+    const bin = atob(texte.replace(/-/g, '+').replace(/_/g, '/'));
+    const obj = JSON.parse(new TextDecoder().decode(Uint8Array.from(bin, c => c.charCodeAt(0))));
+    if (!Array.isArray(obj.q) || !obj.q.length || obj.q.some(id => !QUESTIONS[id])) return null;
+    return obj;
+  } catch { return null; }
+}
+
+/** Image carrée du résultat, pour les réseaux sociaux (Promise<Blob>). */
+function imagePartage({ haut, grand, bas, pastilles }) {
+  const T = 1080;
+  const c = document.createElement('canvas');
+  c.width = T; c.height = T;
+  const g = c.getContext('2d');
+  const fond = g.createLinearGradient(0, 0, 0, T);
+  fond.addColorStop(0, '#2a3d6e'); fond.addColorStop(1, '#16213e');
+  g.fillStyle = fond; g.fillRect(0, 0, T, T);
+  // camembert
+  const cx = T / 2, cy = 250, r = 130;
+  g.fillStyle = '#fff'; g.beginPath(); g.arc(cx, cy, r + 14, 0, 2 * Math.PI); g.fill();
+  CATS.forEach((cat, i) => {
+    g.fillStyle = cat.couleur; g.beginPath(); g.moveTo(cx, cy);
+    g.arc(cx, cy, r, (i / 6) * 2 * Math.PI - Math.PI / 2, ((i + 1) / 6) * 2 * Math.PI - Math.PI / 2);
+    g.closePath(); g.fill();
+    g.strokeStyle = '#fff'; g.lineWidth = 6; g.stroke();
+  });
+  g.textAlign = 'center';
+  g.font = 'bold 64px system-ui, sans-serif';
+  const w1 = g.measureText('Trivial ').width, w2 = g.measureText('1000').width;
+  g.textAlign = 'left';
+  g.fillStyle = '#f4f1ea'; g.fillText('Trivial ', cx - (w1 + w2) / 2, 490);
+  g.fillStyle = '#f2c200'; g.fillText('1000', cx - (w1 + w2) / 2 + w1, 490);
+  g.textAlign = 'center';
+  g.fillStyle = '#b9c1d6'; g.font = '40px system-ui, sans-serif';
+  g.fillText(haut, cx, 570);
+  g.fillStyle = '#f2c200'; g.font = 'bold 150px system-ui, sans-serif';
+  g.fillText(grand, cx, 730);
+  if (pastilles) {
+    const taille = 90, ecart = 22, x0 = cx - (6 * taille + 5 * ecart) / 2;
+    pastilles.forEach((p, i) => {
+      const x = x0 + i * (taille + ecart), y = 790;
+      g.fillStyle = p.couleur; g.beginPath(); g.roundRect(x, y, taille, taille, 18); g.fill();
+      g.fillStyle = '#fff'; g.font = 'bold 60px system-ui, sans-serif';
+      g.fillText(p.ok ? '✓' : '✗', x + taille / 2, y + 68);
+    });
+  }
+  g.fillStyle = '#f4f1ea'; g.font = 'bold 44px system-ui, sans-serif';
+  g.fillText(bas, cx, pastilles ? 960 : 860);
+  g.fillStyle = '#b9c1d6'; g.font = '30px system-ui, sans-serif';
+  g.fillText(URL_JEU.replace(/^https?:\/\//, '').replace(/\/$/, ''), cx, 1035);
+  return new Promise(res => c.toBlob(res, 'image/png'));
+}
+
+/** Panneau de partage : menu natif du téléphone, puis liens directs vers les applications. */
+function panneauPartage({ titre, texte, lien, image }) {
+  const complet = `${texte}\n${lien}`;
+  const e = encodeURIComponent;
+  const info = h('p', { class: 'partage-info', 'aria-live': 'polite' });
+  const liens = [
+    ['WhatsApp', `https://wa.me/?text=${e(complet)}`],
+    ['Messenger', `fb-messenger://share/?link=${e(lien)}`],
+    ['SMS', `sms:?&body=${e(complet)}`],
+    ['Facebook', `https://www.facebook.com/sharer/sharer.php?u=${e(lien)}`],
+    ['X', `https://x.com/intent/post?text=${e(texte)}&url=${e(lien)}`],
+    ['E-mail', `mailto:?subject=${e(titre)}&body=${e(complet)}`],
+  ];
+  return h('div', { class: 'partage' },
+    navigator.share ? h('button', {
+      type: 'button', class: 'btn btn-partage',
+      onclick: () => navigator.share({ title: titre, text: texte, url: lien }).catch(() => {}),
+    }, '📤 Partager') : null,
+    h('div', { class: 'partage-liens' },
+      liens.map(([nom, url]) => h('a', { class: 'lien-partage', href: url, target: '_blank', rel: 'noopener' }, nom)),
+      h('button', {
+        type: 'button', class: 'lien-partage',
+        onclick: () => navigator.clipboard.writeText(complet)
+          .then(() => { info.textContent = 'Copié ! Collez-le où vous voulez.'; })
+          .catch(() => { info.textContent = complet; }),
+      }, 'Copier'),
+      image ? h('button', {
+        type: 'button', class: 'lien-partage',
+        onclick: async () => {
+          const blob = await imagePartage(image);
+          const fichier = new File([blob], 'trivial-1000.png', { type: 'image/png' });
+          if (navigator.canShare && navigator.canShare({ files: [fichier] })) {
+            navigator.share({ files: [fichier], text: complet }).catch(() => {});
+          } else {
+            const a = h('a', { href: URL.createObjectURL(blob), download: 'trivial-1000.png' });
+            document.body.append(a); a.click(); a.remove();
+            info.textContent = 'Image enregistrée : ajoutez-la à votre publication.';
+          }
+        },
+      }, 'Image') : null),
+    info);
+}
+
+function nomJoueur() { return lire(CLE_NOM, ''); }
+
+/* ---------------- Défi ---------------- */
+
+let defiRecu = null; // défi ouvert depuis un lien, en attente d'être joué
+
+function panneauDefi(defi, issue, bonnes, total) {
+  const nom = nomJoueur();
+  const champ = h('input', {
+    type: 'text', maxlength: 20, value: nom, placeholder: 'Votre prénom', 'aria-label': 'Votre prénom',
+    onchange: e => { ecrire(CLE_NOM, e.target.value.trim()); maj(); },
+  });
+  const zone = h('div');
+  function maj() {
+    const qui = nomJoueur() || 'Un ami';
+    const lien = `${URL_JEU}?defi=${encoderDefi({
+      v: 1, n: qui, s: solo.score, b: bonnes, t: total, f: solo.format, c: solo.cat, l: solo.niveau,
+      q: solo.historique.map(x => x.id),
+    })}`;
+    const texte = defi
+      ? `🎯 J'ai relevé le défi de ${defi.nom} au Trivial 1000 : ${solo.score} points contre ${defi.score}${issue === 'gagne' ? ' 🏆' : ''} ! À toi de jouer sur les mêmes questions :`
+      : `🎯 ${qui} te défie au Trivial 1000 : ${solo.score} points (${bonnes}/${total}) sur ${libelleConfig(solo).toLowerCase()}. Feras-tu mieux sur les mêmes questions ?`;
+    zone.replaceChildren(panneauPartage({
+      titre: 'Défi Trivial 1000', texte, lien,
+      image: { haut: defi ? `Défi de ${defi.nom}` : `${qui} vous défie`, grand: `${solo.score} pts`, bas: `${bonnes}/${total} · Relevez le défi !` },
+    }));
+  }
+  maj();
+  return h('div', { class: 'bloc-defi' },
+    h('h3', {}, defi ? 'Renvoyer le défi' : 'Défier un ami sur ces questions'),
+    h('label', { class: 'champ-nom' }, 'Signé : ', champ),
+    zone);
+}
+
+function afficherDefiRecu() {
+  const d = defiRecu;
+  $('#solo-config').hidden = true;
+  const zone = $('#solo-jeu');
+  zone.hidden = false;
+  const format = d.f === 'survie' ? 'mode survie' : `${d.q.length} questions`;
+  zone.replaceChildren(h('div', { class: 'defi-intro' },
+    h('p', { class: 'defi-cible' }, '🎯'),
+    h('h2', {}, `${d.n} vous lance un défi !`),
+    h('p', {}, `${d.n} a marqué `, h('b', {}, `${d.s} points`), ` (${d.b} bonnes réponses sur ${d.t}) en ${format}.`),
+    h('p', { class: 'message' }, 'Vous jouez exactement les mêmes questions. Ferez-vous mieux ?'),
+    h('div', { class: 'actions' },
+      h('button', {
+        type: 'button', class: 'btn btn-clair',
+        onclick: () => { defiRecu = null; rendreSolo(); },
+      }, 'Plus tard'),
+      h('button', {
+        type: 'button', class: 'btn',
+        onclick: () => {
+          if (solo && solo.phase !== 'fin' && !confirm('Une série est en cours : elle sera abandonnée. Continuer ?')) return;
+          derniereLecture = null;
+          const defi = { nom: d.n, score: d.s, bonnes: d.b, total: d.t };
+          defiRecu = null;
+          nouveauSolo({ mode: 'defi', format: d.f === 'survie' ? 'survie' : String(d.q.length), cat: d.c || '', niveau: d.l || 0, liste: d.q, defi });
+        },
+      }, 'Relever le défi'))));
+}
+
+/* ---------------- Carte du jour ---------------- */
+
+const JOUR_DEBUT = Date.UTC(2026, 8, 28); // carte du jour n°1 : 28 septembre 2026
+const JOUR_CARTES = 1833;
+
+function numeroJour(date = new Date()) {
+  return Math.floor((Date.UTC(date.getFullYear(), date.getMonth(), date.getDate()) - JOUR_DEBUT) / 864e5) + 1;
+}
+
+function carteDuJour(n) {
+  // Parcourt toutes les cartes dans un ordre fixe mais mélangé (787 est premier avec 1833).
+  const total = Math.min(JOUR_CARTES, DATA.cartes.length);
+  return (((n - 1) * 787 + 101) % total + total) % total;
+}
+
+function resultatsJour() { return lire(CLE_JOUR, {}); }
+
+function enregistrerJour(s) {
+  const tous = resultatsJour();
+  tous[s.jour] = { score: s.score, res: s.historique.map(x => x.ok) };
+  ecrire(CLE_JOUR, tous);
+}
+
+function serieJours() {
+  const tous = resultatsJour();
+  let n = numeroJour();
+  if (!tous[n]) n--; // aujourd'hui pas encore joué : la série court jusqu'à hier
+  let serie = 0;
+  while (tous[n]) { serie++; n--; }
+  return serie;
+}
+
+function statsJour() {
+  const tous = Object.entries(resultatsJour()).map(([n, r]) => ({ n: Number(n), ...r })).sort((a, b) => a.n - b.n);
+  let meilleure = 0, courante = 0, prec = null;
+  for (const r of tous) {
+    courante = prec !== null && r.n === prec + 1 ? courante + 1 : 1;
+    meilleure = Math.max(meilleure, courante);
+    prec = r.n;
+  }
+  const bonnes = tous.reduce((t, r) => t + r.res.filter(Boolean).length, 0);
+  return { joues: tous.length, meilleure, moyenne: tous.length ? bonnes / tous.length : 0 };
+}
+
+function avantDemain() {
+  const maintenant = new Date();
+  const demain = new Date(maintenant.getFullYear(), maintenant.getMonth(), maintenant.getDate() + 1);
+  const min = Math.round((demain - maintenant) / 60000);
+  return min >= 60 ? `${Math.floor(min / 60)} h ${String(min % 60).padStart(2, '0')}` : `${min} min`;
+}
+
+function jouerJour() {
+  const n = numeroJour();
+  if (resultatsJour()[n]) { location.hash = '#jour'; return; }
+  if (solo && solo.mode === 'jour' && solo.jour === n && solo.phase !== 'fin') { location.hash = '#solo'; return; }
+  if (solo && solo.phase !== 'fin' && solo.mode !== 'jour'
+    && !confirm('Une série est en cours : elle sera abandonnée. Continuer ?')) return;
+  const c = carteDuJour(n);
+  derniereLecture = null;
+  nouveauSolo({ mode: 'jour', jour: n, format: '6', cat: '', niveau: 0, liste: CATS.map((_, i) => c * 6 + i) });
+  location.hash = '#solo';
+}
+
+function partageJour(n, r) {
+  const bonnes = r.res.filter(Boolean).length;
+  const cases = CATS.map((c, i) => `${EMOJI_CAT[c.id]}${r.res[i] ? '✅' : '❌'}`);
+  const serie = serieJours();
+  const texte = `Trivial du jour n°${n} 🎯 ${bonnes}/6 · ${r.score} pts\n${cases.slice(0, 3).join(' ')}\n${cases.slice(3).join(' ')}`
+    + (serie > 1 ? `\n🔥 ${serie} jours d'affilée` : '');
+  return panneauPartage({
+    titre: `Trivial du jour n°${n}`, texte, lien: `${URL_JEU}?jour`,
+    image: {
+      haut: `Carte du jour n°${n}`, grand: `${bonnes}/6`, bas: `${r.score} points${serie > 1 ? ` · 🔥 ${serie} jours` : ''}`,
+      pastilles: CATS.map((c, i) => ({ couleur: c.couleur, ok: r.res[i] })),
+    },
+  });
+}
+
+function blocResultatJour(n, r, avecDetail) {
+  const bonnes = r.res.filter(Boolean).length;
+  const c = carteDuJour(n);
+  const serie = serieJours();
+  const stats = statsJour();
+  return h('div', { class: 'jour-resultat' },
+    h('p', { class: 'solo-config-rappel' }, `Carte du jour n°${n} · carte N° ${numero(c + 1)}`),
+    h('div', { class: 'jour-cases' }, CATS.map((cat, i) =>
+      h('span', { class: 'jour-case ' + (r.res[i] ? 'ok' : 'ko'), style: styleCat(cat), title: cat.nom }, r.res[i] ? '✓' : '✗'))),
+    h('div', { class: 'solo-total' }, h('b', {}, `${bonnes}/6`), `${r.score} points`),
+    h('ul', { class: 'jour-stats' },
+      h('li', {}, h('b', {}, String(serie)), 'série en cours'),
+      h('li', {}, h('b', {}, String(stats.meilleure)), 'meilleure série'),
+      h('li', {}, h('b', {}, String(stats.joues)), 'cartes jouées'),
+      h('li', {}, h('b', {}, stats.moyenne.toFixed(1).replace('.', ',')), 'moyenne /6')),
+    h('p', { class: 'message' }, `Prochaine carte dans ${avantDemain()}.`),
+    h('h3', {}, 'Partager votre résultat'),
+    partageJour(n, r),
+    avecDetail ? h('div', { class: 'ratees' },
+      h('h3', {}, 'Les réponses'),
+      h('ol', { class: 'resultats' }, CATS.map((cat, i) => {
+        const q = QUESTIONS[c * 6 + i];
+        return h('li', { style: styleCat(cat) },
+          h('div', { class: 'meta' }, `${cat.nom} ${r.res[i] ? '✅' : '❌'}`),
+          h('div', {}, q.q), h('div', { class: 'r' }, q.r));
+      }))) : null);
+}
+
+function rendreFinJour(zone, n) {
+  const r = resultatsJour()[n];
+  const bonnes = r.res.filter(Boolean).length;
+  direUneFois(`jour-fin-${n}`, `Carte du jour terminée : ${bonnes} bonne${bonnes > 1 ? 's' : ''} réponse${bonnes > 1 ? 's' : ''} sur 6, ${r.score} points.`);
+  zone.replaceChildren(h('div', { class: 'solo-fin' }, blocResultatJour(n, r, true),
+    h('div', { class: 'actions' },
+      h('a', { class: 'btn btn-clair', href: '#accueil', onclick: () => { solo = null; effacer(CLE_SOLO); } }, 'Accueil'),
+      h('button', { type: 'button', class: 'btn', onclick: () => { solo = null; effacer(CLE_SOLO); location.hash = '#solo'; rendreSolo(); } }, 'Une série en solo'))));
+}
+
+function rendreJour() {
+  const n = numeroJour();
+  const r = resultatsJour()[n];
+  const zone = $('#jour-contenu');
+  if (r) {
+    zone.replaceChildren(h('h2', {}, 'Carte du jour'), blocResultatJour(n, r, true));
+    return;
+  }
+  const enCours = solo && solo.mode === 'jour' && solo.jour === n && solo.phase !== 'fin';
+  const serie = serieJours();
+  zone.replaceChildren(
+    h('h2', {}, `Carte du jour n°${n}`),
+    h('p', {}, 'Six questions, une par couleur : la même carte pour tout le monde aujourd\'hui. Une seule tentative !'),
+    h('div', { class: 'jour-cases' }, CATS.map(cat => h('span', { class: 'jour-case', style: styleCat(cat), title: cat.nom }))),
+    serie ? h('p', { class: 'message' }, `🔥 Série en cours : ${serie} jour${serie > 1 ? 's' : ''}. Ne la cassez pas !`) : null,
+    h('div', { class: 'actions' },
+      h('button', { type: 'button', class: 'btn', onclick: jouerJour }, enCours ? 'Reprendre la carte du jour' : 'Jouer la carte du jour')));
+}
+
+function majMenuJour() {
+  const etat = $('#menu-jour-etat');
+  if (!etat) return;
+  const n = numeroJour();
+  const r = resultatsJour()[n];
+  const serie = serieJours();
+  etat.textContent = r
+    ? `Faite : ${r.res.filter(Boolean).length}/6 · ${r.score} pts${serie > 1 ? ` · 🔥 ${serie} jours` : ''} · prochaine dans ${avantDemain()}`
+    : `N°${n} à jouer · 6 questions, la même carte pour tout le monde${serie ? ` · 🔥 ${serie}` : ''}`;
+  $('#menu-jour').classList.toggle('fait', !!r);
+}
+
+/* ---------------- Réglages ---------------- */
+
+function remplirChoixVoix() {
+  const choix = $('#choix-voix');
+  if (!choix) return;
+  const qualite = v => scoreVoix(v) >= 10 ? ' ★' : '';
+  choix.replaceChildren(...voixDispo.map(v =>
+    h('option', { value: v.voiceURI, selected: voixFr && v.voiceURI === voixFr.voiceURI ? true : null },
+      `${v.name.replace(/^Microsoft |^Google /, '')} (${v.lang})${qualite(v)}`)));
+}
+
+function initReglages() {
+  const f = $('#form-reglages');
+  f.nom.value = nomJoueur();
+  f.nom.addEventListener('change', () => ecrire(CLE_NOM, f.nom.value.trim()));
+  if (!Synthese) { $('#reglages-voix').hidden = true; $('#sans-voix').hidden = false; return; }
+  remplirChoixVoix();
+  const pref = lire(CLE_VOIX_CHOIX, {});
+  f.vitesse.value = pref.vitesse || 1;
+  const afficherVitesse = () => { $('#vitesse-valeur').textContent = Number(f.vitesse.value).toFixed(2).replace('.', ','); };
+  afficherVitesse();
+  const sauver = () => ecrire(CLE_VOIX_CHOIX, { uri: f.voix.value, vitesse: Number(f.vitesse.value) });
+  f.voix.addEventListener('change', () => { sauver(); choisirVoix(); });
+  f.vitesse.addEventListener('input', () => { afficherVitesse(); sauver(); });
+  $('#tester-voix').addEventListener('click', () =>
+    dire('Histoire. Quelle reine exerce la régence pendant l\'enfance de Louis quatorze ? La réponse : Anne d\'Autriche.'));
 }
 
 /* ---------------- Parcourir ---------------- */
@@ -914,7 +1300,7 @@ function initImpression() {
 
 /* ---------------- Navigation ---------------- */
 
-const VUES = ['accueil', 'carte', 'solo', 'partie', 'parcourir', 'imprimer'];
+const VUES = ['accueil', 'jour', 'carte', 'solo', 'partie', 'soiree', 'parcourir', 'imprimer', 'reglages'];
 
 function naviguer() {
   if (ecouteEnCours) ecouteEnCours.abort();
@@ -923,8 +1309,13 @@ function naviguer() {
   document.querySelectorAll('.vue').forEach(v => { v.hidden = v.dataset.vue !== vue; });
   document.querySelectorAll('.topnav a').forEach(a => a.classList.toggle('actif', a.getAttribute('href') === '#' + vue));
   if (vue === 'carte') afficherPioche();
+  // Carte du jour terminée : son écran de fin ne sert plus une fois qu'on l'a quitté.
+  if (vue !== 'solo' && solo && solo.mode === 'jour' && solo.phase === 'fin') { solo = null; effacer(CLE_SOLO); }
+  if (vue === 'accueil') majMenuJour();
+  if (vue === 'jour') rendreJour();
   if (vue === 'solo') rendreSolo();
   if (vue === 'partie') rendrePartie();
+  if (vue === 'soiree') rendreSoiree();
   if (vue === 'parcourir' && !$('#resultats').children.length) filtrer();
   window.scrollTo(0, 0);
 }
@@ -980,6 +1371,22 @@ async function demarrer() {
   initPartie();
   initParcourir();
   initImpression();
+  initReglages();
+  initSoiree();
+
+  // Liens partagés : ?defi=… (défi sur une série), ?jour (carte du jour), ?salle=… (soirée).
+  const params = new URLSearchParams(location.search);
+  if (params.has('defi') || params.has('jour') || params.has('salle')) {
+    if (params.has('salle')) {
+      location.hash = '#soiree';
+    } else if (params.has('defi')) {
+      defiRecu = decoderDefi(params.get('defi'));
+      location.hash = defiRecu ? '#solo' : '#accueil';
+    } else {
+      location.hash = '#jour';
+    }
+    history.replaceState(null, '', location.pathname + location.hash);
+  }
 
   $('#chargement').remove();
   window.addEventListener('hashchange', naviguer);

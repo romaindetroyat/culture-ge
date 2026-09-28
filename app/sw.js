@@ -1,11 +1,13 @@
 /* Service worker : tout le jeu est mis en cache pour fonctionner hors ligne. */
-const VERSION = 'trivial1000-v4';
+const VERSION = 'trivial1000-v6';
 const FICHIERS = [
   './',
   'index.html',
   'styles.css',
   'app.js',
   'reponse.js',
+  'soiree.js',
+  'vendor/supabase.js',
   'cartes.json',
   'manifest.webmanifest',
   'icons/icon.svg',
