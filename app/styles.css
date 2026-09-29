@@ -454,6 +454,16 @@ h3 { font-size: 1.1rem; margin: 24px 0 10px; }
 .rappel select { font: inherit; padding: 4px 6px; border-radius: 8px; }
 .rappel-agenda .partage-liens { justify-content: flex-start; }
 
+/* Profil et code de transfert */
+.mon-code { display: flex; align-items: center; flex-wrap: wrap; gap: 10px; margin: 8px 0 12px; }
+.code-profil { font-size: 1.5rem; letter-spacing: .12em; color: var(--accent); font-variant-numeric: tabular-nums; }
+.code-ligne { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
+.code-ligne input { flex: 1 1 150px; min-width: 0; font-size: 1.15rem; letter-spacing: .15em; text-transform: uppercase; }
+.recuperer-profil summary { cursor: pointer; color: var(--texte-doux); padding: 6px 0; }
+.banniere-profil { border: 2px solid var(--accent); border-radius: var(--rayon); padding: 12px 16px; margin: 0 0 18px; }
+.banniere-profil h3 { margin: 0 0 6px; }
+.code-installation { background: var(--fond-2); border-radius: 12px; padding: 10px 14px; margin: 8px 0 12px; }
+
 /* ---------- Réglages ---------- */
 .aide { color: var(--texte-doux); font-size: .88rem; margin: 0 0 8px; }
 .champ { display: grid; gap: 6px; margin-bottom: 14px; font-size: .92rem; color: var(--texte-doux); }

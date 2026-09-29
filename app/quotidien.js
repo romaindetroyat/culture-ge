@@ -15,12 +15,33 @@ const CLE_GROUPES = 'trivial1000.groupes';
 const CLE_RAPPEL = 'trivial1000.rappel';
 const HEURE_RAPPEL_DEFAUT = 8;
 
+/* L'identifiant est aussi gardé dans un cookie : certains systèmes copient les cookies du
+ * navigateur vers l'appli installée, qui retrouve alors le profil toute seule. */
+const COOKIE_JOUEUR = 'cg_joueur';
+
+function cookieJoueur() {
+  const m = document.cookie.match(new RegExp(`(?:^|;\\s*)${COOKIE_JOUEUR}=([0-9a-f-]{36})`));
+  return m ? m[1] : null;
+}
+
+function ecrireCookieJoueur(id) {
+  const chemin = location.pathname.replace(/[^/]*$/, '');
+  document.cookie = `${COOKIE_JOUEUR}=${id}; max-age=${400 * 86400}; path=${chemin}; SameSite=Lax${location.protocol === 'https:' ? '; Secure' : ''}`;
+}
+
 function idJoueur() {
   let id = lire(CLE_JOUEUR, null);
   if (!id) {
-    id = crypto.randomUUID ? crypto.randomUUID()
-      : '10000000-1000-4000-8000-100000000000'.replace(/[018]/g, c => (c ^ crypto.getRandomValues(new Uint8Array(1))[0] & 15 >> c / 4).toString(16));
+    const cookie = cookieJoueur();
+    if (cookie) {
+      id = cookie;
+      sessionStorage.setItem('trivial1000.profil.cookie', '1'); // à compléter depuis le serveur (voir profil.js)
+    } else {
+      id = crypto.randomUUID ? crypto.randomUUID()
+        : '10000000-1000-4000-8000-100000000000'.replace(/[018]/g, c => (c ^ crypto.getRandomValues(new Uint8Array(1))[0] & 15 >> c / 4).toString(16));
+    }
     ecrire(CLE_JOUEUR, id);
+    ecrireCookieJoueur(id);
   }
   return id;
 }
@@ -50,6 +71,7 @@ async function publierJour(n) {
   });
   ecrire(CLE_JOUR_PUBLIE, [...new Set([...lire(CLE_JOUR_PUBLIE, []), n])].slice(-10));
   statsJourCache[n] = stats;
+  sauverProfil();
   return stats;
 }
 
@@ -318,6 +340,7 @@ function remplirRappel(zone) {
     blocs.push(h('p', { class: 'aide' }, surIOS()
       ? 'Sur iPhone, les notifications demandent d\'installer l\'appli : bouton Partager ⎋ puis « Sur l\'écran d\'accueil ». Ouvrez ensuite l\'appli installée pour activer le rappel. En attendant, ajoutez un rappel à votre agenda :'
       : 'Ce navigateur ne sait pas recevoir de notifications. Ajoutez plutôt un rappel à votre agenda :'));
+    if (surIOS()) blocs.push(blocCodeAvantInstallation());
   } else if (Notification.permission === 'denied') {
     blocs.push(h('p', { class: 'aide' }, 'Les notifications sont bloquées pour ce site. Autorisez-les dans les réglages du navigateur, ou ajoutez un rappel à votre agenda :'));
   } else if (r) {
@@ -370,6 +393,8 @@ function remplirRappel(zone) {
 function initQuotidien() {
   const params = new URLSearchParams(location.search);
   if (params.has('groupe')) sessionStorage.setItem('trivial1000.groupe.invite', params.get('groupe').toUpperCase().slice(0, 6));
+  ecrireCookieJoueur(idJoueur()); // prolonge le cookie
+  initProfil();
   rattraperPublication();
   window.addEventListener('online', rattraperPublication);
   // L'abonnement a pu être retiré par le navigateur : on oublie l'état local.

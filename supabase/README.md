@@ -5,6 +5,8 @@ Projet Supabase `trivial-1000` (région Paris). Il sert à trois choses, sans co
 - **classement du jour** : chaque téléphone envoie son score anonymement (identifiant aléatoire) ;
 - **groupes d'amis** : code de 6 lettres, classement de la semaine entre membres ;
 - **rappels** : abonnements Web Push et envoi d'une notification à l'heure choisie.
+- **profils** : code de transfert (secret) par joueur, prénom et records sauvegardés, pour
+  retrouver son profil dans l'appli installée ou sur un autre téléphone.
 
 Le navigateur n'accède jamais aux tables directement : il appelle les fonctions SQL de
 `migrations/` (API REST `rpc/…` avec la clé publique). La soirée entre amis utilise seulement
