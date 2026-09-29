@@ -23,6 +23,13 @@ let QUESTIONS = [];       // liste à plat : { id, carte, cat, q, r, d, t }
 
 const $ = (sel, racine = document) => racine.querySelector(sel);
 
+// Comme h(), replaceChildren, append et prepend ignorent les enfants null ou false
+// (sinon le navigateur affiche « null »).
+for (const m of ['replaceChildren', 'append', 'prepend']) {
+  const natif = Element.prototype[m];
+  Element.prototype[m] = function (...enfants) { return natif.apply(this, enfants.filter(e => e != null && e !== false)); };
+}
+
 function h(balise, attrs = {}, ...enfants) {
   const el = document.createElement(balise);
   for (const [k, v] of Object.entries(attrs)) {
@@ -1111,9 +1118,11 @@ function blocResultatJour(n, r, avecDetail) {
       h('li', {}, h('b', {}, String(stats.meilleure)), 'meilleure série'),
       h('li', {}, h('b', {}, String(stats.joues)), 'cartes jouées'),
       h('li', {}, h('b', {}, stats.moyenne.toFixed(1).replace('.', ',')), 'moyenne /6')),
+    blocClassementJour(n),
     h('p', { class: 'message' }, `Prochaine carte dans ${avantDemain()}.`),
     h('h3', {}, 'Partager votre résultat'),
     partageJour(n, r),
+    blocGroupes(),
     avecDetail ? h('div', { class: 'ratees' },
       h('h3', {}, 'Les réponses'),
       h('ol', { class: 'resultats' }, CATS.map((cat, i) => {
@@ -1129,6 +1138,7 @@ function rendreFinJour(zone, n) {
   const bonnes = r.res.filter(Boolean).length;
   direUneFois(`jour-fin-${n}`, `Carte du jour terminée : ${bonnes} bonne${bonnes > 1 ? 's' : ''} réponse${bonnes > 1 ? 's' : ''} sur 6, ${r.score} points.`);
   zone.replaceChildren(h('div', { class: 'solo-fin' }, blocResultatJour(n, r, true),
+    blocRappel(),
     h('div', { class: 'actions' },
       h('a', { class: 'btn btn-clair', href: '#accueil', onclick: () => { solo = null; effacer(CLE_SOLO); } }, 'Accueil'),
       h('button', { type: 'button', class: 'btn', onclick: () => { solo = null; effacer(CLE_SOLO); location.hash = '#solo'; rendreSolo(); } }, 'Une série en solo'))));
@@ -1139,18 +1149,20 @@ function rendreJour() {
   const r = resultatsJour()[n];
   const zone = $('#jour-contenu');
   if (r) {
-    zone.replaceChildren(h('h2', {}, 'Carte du jour'), blocResultatJour(n, r, true));
+    zone.replaceChildren(invitationGroupeEnAttente(), h('h2', {}, 'Carte du jour'), blocResultatJour(n, r, true), blocRappel());
     return;
   }
   const enCours = solo && solo.mode === 'jour' && solo.jour === n && solo.phase !== 'fin';
   const serie = serieJours();
   zone.replaceChildren(
+    invitationGroupeEnAttente(),
     h('h2', {}, `Carte du jour n°${n}`),
     h('p', {}, 'Six questions, une par couleur : la même carte pour tout le monde aujourd\'hui. Une seule tentative !'),
     h('div', { class: 'jour-cases' }, CATS.map(cat => h('span', { class: 'jour-case', style: styleCat(cat), title: cat.nom }))),
     serie ? h('p', { class: 'message' }, `🔥 Série en cours : ${serie} jour${serie > 1 ? 's' : ''}. Ne la cassez pas !`) : null,
     h('div', { class: 'actions' },
-      h('button', { type: 'button', class: 'btn', onclick: jouerJour }, enCours ? 'Reprendre la carte du jour' : 'Jouer la carte du jour')));
+      h('button', { type: 'button', class: 'btn', onclick: jouerJour }, enCours ? 'Reprendre la carte du jour' : 'Jouer la carte du jour')),
+    blocGroupes(), blocRappel());
 }
 
 function majMenuJour() {
@@ -1373,11 +1385,15 @@ async function demarrer() {
   initImpression();
   initReglages();
   initSoiree();
+  initQuotidien();
 
-  // Liens partagés : ?defi=… (défi sur une série), ?jour (carte du jour), ?salle=… (soirée).
+  // Liens partagés : ?defi=… (défi sur une série), ?jour (carte du jour), ?salle=… (soirée),
+  // ?groupe=… (invitation à un groupe d'amis de la carte du jour).
   const params = new URLSearchParams(location.search);
-  if (params.has('defi') || params.has('jour') || params.has('salle')) {
-    if (params.has('salle')) {
+  if (['defi', 'jour', 'salle', 'groupe'].some(p => params.has(p))) {
+    if (params.has('groupe')) {
+      location.hash = '#jour';
+    } else if (params.has('salle')) {
       location.hash = '#soiree';
     } else if (params.has('defi')) {
       defiRecu = decoderDefi(params.get('defi'));

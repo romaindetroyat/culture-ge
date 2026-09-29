@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Trivial 1000//Carte du jour//FR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:carte-du-jour-12h@trivial1000
+DTSTAMP:20260929T000000Z
+DTSTART:20260929T120000
+DURATION:PT10M
+RRULE:FREQ=DAILY
+SUMMARY:🎯 Trivial 1000 : carte du jour
+DESCRIPTION:Six questions\, une par couleur : la même carte pour tout le m
+ onde.\nhttps://romaindetroyat.github.io/trivialpursuit/?jour
+URL:https://romaindetroyat.github.io/trivialpursuit/?jour
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Trivial 1000 : la carte du jour vous attend
+TRIGGER:PT0M
+END:VALARM
+END:VEVENT
+END:VCALENDAR

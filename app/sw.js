@@ -1,11 +1,12 @@
 /* Service worker : tout le jeu est mis en cache pour fonctionner hors ligne. */
-const VERSION = 'trivial1000-v6';
+const VERSION = 'trivial1000-v7';
 const FICHIERS = [
   './',
   'index.html',
   'styles.css',
   'app.js',
   'reponse.js',
+  'quotidien.js',
   'soiree.js',
   'vendor/supabase.js',
   'cartes.json',
@@ -44,4 +45,27 @@ self.addEventListener('fetch', event => {
       })
       .catch(() => caches.match(req, { ignoreSearch: true }).then(r => r || caches.match('index.html'))),
   );
+});
+
+// Rappel de la carte du jour (voir quotidien.js et supabase/functions/rappels).
+self.addEventListener('push', event => {
+  let m = {};
+  try { m = event.data ? event.data.json() : {}; } catch { m = { corps: event.data && event.data.text() }; }
+  event.waitUntil(self.registration.showNotification(m.titre || 'Trivial 1000', {
+    body: m.corps || 'La carte du jour vous attend.',
+    icon: 'icons/icon-192.png',
+    badge: 'icons/icon-192.png',
+    tag: m.tag || 'trivial1000',
+    data: { url: new URL(m.url || './?jour', self.registration.scope).href },
+  }));
+});
+
+self.addEventListener('notificationclick', event => {
+  event.notification.close();
+  const url = (event.notification.data && event.notification.data.url) || self.registration.scope;
+  event.waitUntil(self.clients.matchAll({ type: 'window', includeUncontrolled: true }).then(fenetres => {
+    const ouverte = fenetres.find(f => f.url.startsWith(self.registration.scope));
+    if (ouverte) return ouverte.navigate(url).then(f => (f || ouverte).focus()).catch(() => ouverte.focus());
+    return self.clients.openWindow(url);
+  }));
 });

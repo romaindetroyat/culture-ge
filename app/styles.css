@@ -427,6 +427,32 @@ h3 { font-size: 1.1rem; margin: 24px 0 10px; }
 .solo-record.defi-perdu { color: #ff8a80; font-weight: 700; }
 .solo-record.defi-egalite { color: var(--accent); font-weight: 700; }
 
+/* Classement du jour, groupes d'amis, rappel */
+.classement-jour, .groupes, .rappel { margin: 22px 0; }
+.classement-phrase { font-weight: 700; font-size: 1.05rem; margin: 4px 0 12px; }
+.histogramme { display: grid; grid-template-columns: repeat(7, 1fr); gap: 6px; align-items: end; height: 130px; margin: 8px 0; }
+.barre { display: grid; grid-template-rows: auto 1fr auto; justify-items: center; height: 100%; gap: 3px; min-width: 0; }
+.barre-zone { display: flex; align-items: flex-end; width: 100%; height: 100%; }
+.barre-remplie { display: block; width: 100%; min-height: 3px; background: var(--fond-3); border-radius: 6px 6px 2px 2px; }
+.barre.moi .barre-remplie { background: var(--accent); }
+.barre-nb, .barre-label { font-size: .75rem; color: var(--texte-doux); }
+.barre.moi .barre-label { color: var(--accent); font-weight: 800; }
+.groupe { background: var(--fond-2); border-radius: 14px; padding: 12px 14px; margin: 10px 0; }
+.groupe-tete { display: flex; justify-content: space-between; align-items: baseline; gap: 10px; }
+.groupe-tete h4 { margin: 0; font-size: 1.05rem; }
+.tableau-groupe { width: 100%; border-collapse: collapse; margin: 8px 0; font-size: .95rem; }
+.tableau-groupe th { text-align: left; font-size: .75rem; font-weight: 600; color: var(--texte-doux); padding: 4px 6px; }
+.tableau-groupe td { padding: 7px 6px; border-top: 1px solid var(--fond-3); }
+.tableau-groupe td:first-child, .tableau-groupe th:first-child { width: 1.8em; color: var(--texte-doux); }
+.tableau-groupe tr.moi td { color: var(--accent); }
+.tableau-groupe tr.moi td:nth-child(2) { font-weight: 800; }
+.groupe-inviter summary, .nouveau-groupe summary, .rappel-agenda summary { cursor: pointer; color: var(--texte-doux); padding: 6px 0; }
+.groupe-inviter .partage { margin-top: 8px; }
+.nouveau-groupe .formulaire { margin-top: 8px; }
+.invitation-groupe { border: 2px solid var(--accent); border-radius: var(--rayon); padding: 4px 14px; margin-bottom: 18px; }
+.rappel select { font: inherit; padding: 4px 6px; border-radius: 8px; }
+.rappel-agenda .partage-liens { justify-content: flex-start; }
+
 /* ---------- Réglages ---------- */
 .aide { color: var(--texte-doux); font-size: .88rem; margin: 0 0 8px; }
 .champ { display: grid; gap: 6px; margin-bottom: 14px; font-size: .92rem; color: var(--texte-doux); }

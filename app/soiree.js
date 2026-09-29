@@ -7,8 +7,7 @@
  */
 'use strict';
 
-const SUPABASE_URL = 'https://udreqtxyvafojqefmkmt.supabase.co';
-const SUPABASE_CLE = 'sb_publishable_9Q895t0J5CA0sN5nQ8pncw_cK4S_mDz'; // clé publique, faite pour le navigateur
+// SUPABASE_URL et SUPABASE_CLE : voir quotidien.js.
 const CLE_ID = 'trivial1000.id';
 const CLE_SOIREE_HOTE = 'trivial1000.soiree.hote';
 const CLE_SOIREE_NOM_SALLE = 'trivial1000.soiree.salle';
