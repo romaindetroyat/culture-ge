@@ -1,6 +1,6 @@
-# Trivial 1000
+# Culture Gé
 
-Jeu de questions façon Trivial Pursuit : **1833 cartes de 6 questions** (base de 1000 cartes + extension de 833), soit près de 11 000 questions en français,
+Jeu de culture générale : **1833 cartes de 6 questions** (base de 1000 cartes + extension de 833), soit près de 11 000 questions en français,
 dans une application web progressive (PWA) installable sur téléphone et utilisable hors ligne.
 
 | Couleur | Catégorie |
@@ -16,6 +16,15 @@ dans une application web progressive (PWA) installable sur téléphone et utilis
 
 - **Carte du jour** : chaque jour, la même carte de 6 questions pour tout le monde, jouable une seule
   fois. Série de jours consécutifs, statistiques, et partage du résultat façon Wordle (lien `?jour`).
+  - **Classement du jour** : « vous faites mieux que 72 % des joueurs du jour » et répartition des
+    scores (scores anonymes, envoyés une fois la carte jouée, ou dès le retour de la connexion).
+  - **Entre amis** : un groupe (code de 6 lettres, lien `?groupe=…` à partager) affiche le score du
+    jour de chacun et le classement de la semaine (lundi à dimanche). Le prénom n'est visible que des
+    membres du groupe.
+  - **Rappel quotidien** : notification chaque jour à l'heure choisie (sauf si la carte est déjà
+    jouée), avec la série en cours. Sur iPhone, il faut avoir installé l'appli sur l'écran d'accueil.
+    Autre possibilité : un rendez-vous quotidien dans Google Agenda ou tout agenda (fichiers
+    `rappels/HHh.ics`).
 - **Piocher une carte** : pour jouer avec un vrai plateau. Le paquet est mélangé et aucune carte
   ne ressort avant d'avoir vu toutes les autres. On peut piocher dans tout le paquet, ou seulement
   dans la base ou l'extension. Touchez une question pour voir sa réponse.
@@ -63,7 +72,9 @@ dans une application web progressive (PWA) installable sur téléphone et utilis
 app/                 la PWA (fichiers statiques, sans étape de construction)
   index.html, styles.css, app.js
   reponse.js         comparaison tolérante des réponses données en solo
+  quotidien.js       classement du jour, groupes d'amis, rappel quotidien
   soiree.js          soirée entre amis sur plusieurs téléphones
+  rappels/*.ics      rendez-vous quotidiens à ajouter à un agenda (un fichier par heure)
   vendor/supabase.js bibliothèque supabase-js (licence MIT, voir supabase-LICENSE)
   cartes.json        toutes les cartes et leurs éditions (généré)
   manifest.webmanifest, sw.js, icons/
@@ -74,6 +85,7 @@ data/
   reserve.json       questions valides non utilisées, pour remplacer une question (généré)
   alias/*.json       par question : autres réponses acceptées ("a") et texte à lire à voix haute ("l")
 scripts/build.py     assemble data/raw en cartes équilibrées
+supabase/            serveur de la carte du jour : tables et fonctions SQL, envoi des rappels (voir son README)
 ```
 
 Chaque question source a la forme :
@@ -128,4 +140,4 @@ Après la première ouverture, le jeu fonctionne sans connexion.
 
 ---
 
-Projet personnel non affilié à Hasbro ; « Trivial Pursuit » est une marque de son propriétaire.
+Projet personnel indépendant, sans lien avec un éditeur de jeux de société.

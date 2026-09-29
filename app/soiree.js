@@ -1,4 +1,4 @@
-/* Trivial 1000 — soirée entre amis : une partie partagée entre plusieurs téléphones.
+/* Culture Gé — soirée entre amis : une partie partagée entre plusieurs téléphones.
  *
  * Le téléphone qui crée la partie (l'hôte) détient l'état du jeu et le diffuse à tous ;
  * les autres téléphones envoient seulement leurs actions (rejoindre, lancer le dé, répondre).
@@ -7,8 +7,7 @@
  */
 'use strict';
 
-const SUPABASE_URL = 'https://udreqtxyvafojqefmkmt.supabase.co';
-const SUPABASE_CLE = 'sb_publishable_9Q895t0J5CA0sN5nQ8pncw_cK4S_mDz'; // clé publique, faite pour le navigateur
+// SUPABASE_URL et SUPABASE_CLE : voir quotidien.js.
 const CLE_ID = 'trivial1000.id';
 const CLE_SOIREE_HOTE = 'trivial1000.soiree.hote';
 const CLE_SOIREE_NOM_SALLE = 'trivial1000.soiree.salle';
@@ -447,7 +446,7 @@ function rendreSalon(e) {
     h('p', { class: 'solo-config-rappel' }, e.mode === 'tour' ? 'Tour à tour · camemberts' : `Tous ensemble · ${e.nbQuestions} questions`),
     h('p', { class: 'code-grand' }, e.code),
     h('p', { class: 'message' }, 'Code à saisir dans « Soirée » sur chaque téléphone, ou lien à partager :'),
-    panneauPartage({ titre: 'Partie Trivial 1000', texte: `🎲 Rejoins ma partie de Trivial 1000 ! Code : ${e.code}`, lien }),
+    panneauPartage({ titre: 'Partie Culture Gé', texte: `🎲 Rejoins ma partie de Culture Gé ! Code : ${e.code}`, lien }),
   ];
   // Inscription (nom, équipe) pour les invités… et pour l'hôte s'il joue.
   const nom = soiree.nom || nomJoueur() || 'Joueur';
@@ -595,8 +594,8 @@ function rendreFinSoiree(e) {
       h('li', {}, h('b', {}, u.nom), ` — ${s.points} pts`, e.mode === 'tour' ? ` · ${s.parts.length}/6 camemberts` : ''))),
     h('h3', {}, 'Partager le résultat'),
     panneauPartage({
-      titre: 'Soirée Trivial 1000',
-      texte: `🎉 Soirée Trivial 1000 : victoire de ${premier.u.nom} ! ` + classement.map(({ u, s }, i) => `${i + 1}. ${u.nom} (${s.points} pts)`).join(', '),
+      titre: 'Soirée Culture Gé',
+      texte: `🎉 Soirée Culture Gé : victoire de ${premier.u.nom} ! ` + classement.map(({ u, s }, i) => `${i + 1}. ${u.nom} (${s.points} pts)`).join(', '),
       lien: URL_JEU,
     }),
     h('div', { class: 'actions' },

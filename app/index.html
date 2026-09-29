@@ -3,11 +3,11 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-  <title>Trivial 1000</title>
-  <meta name="description" content="Jeu de questions façon Trivial Pursuit : près de 11 000 questions en 6 catégories, une carte du jour, des défis entre amis, jouable hors ligne.">
+  <title>Culture Gé</title>
+  <meta name="description" content="Jeu de culture générale : près de 11 000 questions en 6 catégories, une carte du jour, des défis entre amis, jouable hors ligne.">
   <meta property="og:type" content="website">
-  <meta property="og:title" content="Trivial 1000 — relevez le défi !">
-  <meta property="og:description" content="Près de 11 000 questions façon Trivial Pursuit, une carte du jour et des défis entre amis.">
+  <meta property="og:title" content="Culture Gé — relevez le défi !">
+  <meta property="og:description" content="Près de 11 000 questions de culture générale, une carte du jour et des défis entre amis.">
   <meta property="og:image" content="https://romaindetroyat.github.io/trivialpursuit/icons/partage.png">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
@@ -15,18 +15,17 @@
   <meta name="twitter:card" content="summary_large_image">
   <meta name="theme-color" content="#16213e">
   <link rel="manifest" href="manifest.webmanifest">
-  <link rel="icon" href="icons/icon.svg" type="image/svg+xml">
+  <link rel="icon" href="icons/favicon.png" type="image/png">
   <link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-  <meta name="apple-mobile-web-app-title" content="Trivial 1000">
+  <meta name="apple-mobile-web-app-title" content="Culture Gé">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
   <header class="topbar">
     <a href="#accueil" class="brand" aria-label="Accueil">
-      <svg class="brand-logo" viewBox="0 0 64 64" aria-hidden="true"><use href="#camembert"/></svg>
-      <span>Trivial <b>1000</b></span>
+      <img class="brand-img" src="icons/logo.webp" alt="Culture Gé" width="720" height="620">
     </a>
     <nav class="topnav">
       <a href="#jour">Du jour</a>
@@ -46,8 +45,7 @@
     <!-- ACCUEIL -->
     <section class="vue" data-vue="accueil" hidden>
       <div class="hero">
-        <svg class="hero-logo" viewBox="0 0 64 64" aria-hidden="true"><use href="#camembert"/></svg>
-        <h1>Trivial <b>1000</b></h1>
+        <h1><img class="hero-img" src="icons/logo.webp" alt="Culture Gé" width="720" height="620"></h1>
         <p class="hero-sous"><span data-stat="cartes">1000</span> cartes · <span data-stat="questions">6000</span> questions · 6 catégories</p>
       </div>
       <a class="menu-jour" href="#jour" id="menu-jour">
@@ -288,6 +286,7 @@
 
   <script src="reponse.js"></script>
   <script src="app.js"></script>
+  <script src="quotidien.js"></script>
   <script src="soiree.js"></script>
 </body>
 </html>

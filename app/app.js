@@ -1,4 +1,4 @@
-/* Trivial 1000 — application sans dépendance. */
+/* Culture Gé — application sans dépendance. */
 'use strict';
 
 const CLE_PIOCHE = 'trivial1000.pioche';
@@ -22,6 +22,13 @@ let QUESTIONS = [];       // liste à plat : { id, carte, cat, q, r, d, t }
 /* ---------------- Utilitaires ---------------- */
 
 const $ = (sel, racine = document) => racine.querySelector(sel);
+
+// Comme h(), replaceChildren, append et prepend ignorent les enfants null ou false
+// (sinon le navigateur affiche « null »).
+for (const m of ['replaceChildren', 'append', 'prepend']) {
+  const natif = Element.prototype[m];
+  Element.prototype[m] = function (...enfants) { return natif.apply(this, enfants.filter(e => e != null && e !== false)); };
+}
 
 function h(balise, attrs = {}, ...enfants) {
   const el = document.createElement(balise);
@@ -869,7 +876,7 @@ function decoderDefi(texte) {
 }
 
 /** Image carrée du résultat, pour les réseaux sociaux (Promise<Blob>). */
-function imagePartage({ haut, grand, bas, pastilles }) {
+async function imagePartage({ haut, grand, bas, pastilles }) {
   const T = 1080;
   const c = document.createElement('canvas');
   c.width = T; c.height = T;
@@ -877,21 +884,19 @@ function imagePartage({ haut, grand, bas, pastilles }) {
   const fond = g.createLinearGradient(0, 0, 0, T);
   fond.addColorStop(0, '#2a3d6e'); fond.addColorStop(1, '#16213e');
   g.fillStyle = fond; g.fillRect(0, 0, T, T);
-  // camembert
-  const cx = T / 2, cy = 250, r = 130;
-  g.fillStyle = '#fff'; g.beginPath(); g.arc(cx, cy, r + 14, 0, 2 * Math.PI); g.fill();
-  CATS.forEach((cat, i) => {
-    g.fillStyle = cat.couleur; g.beginPath(); g.moveTo(cx, cy);
-    g.arc(cx, cy, r, (i / 6) * 2 * Math.PI - Math.PI / 2, ((i + 1) / 6) * 2 * Math.PI - Math.PI / 2);
-    g.closePath(); g.fill();
-    g.strokeStyle = '#fff'; g.lineWidth = 6; g.stroke();
-  });
-  g.textAlign = 'center';
-  g.font = 'bold 64px system-ui, sans-serif';
-  const w1 = g.measureText('Trivial ').width, w2 = g.measureText('1000').width;
-  g.textAlign = 'left';
-  g.fillStyle = '#f4f1ea'; g.fillText('Trivial ', cx - (w1 + w2) / 2, 490);
-  g.fillStyle = '#f2c200'; g.fillText('1000', cx - (w1 + w2) / 2 + w1, 490);
+  const cx = T / 2;
+  try {
+    const logo = new Image();
+    logo.src = 'icons/logo.webp';
+    await logo.decode();
+    const hLogo = 430, wLogo = hLogo * logo.naturalWidth / logo.naturalHeight;
+    g.drawImage(logo, cx - wLogo / 2, 60, wLogo, hLogo);
+  } catch {
+    // Logo indisponible : le nom en toutes lettres.
+    g.textAlign = 'center';
+    g.font = 'bold 96px system-ui, sans-serif';
+    g.fillStyle = '#f4f1ea'; g.fillText('Culture Gé', cx, 320);
+  }
   g.textAlign = 'center';
   g.fillStyle = '#b9c1d6'; g.font = '40px system-ui, sans-serif';
   g.fillText(haut, cx, 570);
@@ -943,11 +948,11 @@ function panneauPartage({ titre, texte, lien, image }) {
         type: 'button', class: 'lien-partage',
         onclick: async () => {
           const blob = await imagePartage(image);
-          const fichier = new File([blob], 'trivial-1000.png', { type: 'image/png' });
+          const fichier = new File([blob], 'culture-ge.png', { type: 'image/png' });
           if (navigator.canShare && navigator.canShare({ files: [fichier] })) {
             navigator.share({ files: [fichier], text: complet }).catch(() => {});
           } else {
-            const a = h('a', { href: URL.createObjectURL(blob), download: 'trivial-1000.png' });
+            const a = h('a', { href: URL.createObjectURL(blob), download: 'culture-ge.png' });
             document.body.append(a); a.click(); a.remove();
             info.textContent = 'Image enregistrée : ajoutez-la à votre publication.';
           }
@@ -976,10 +981,10 @@ function panneauDefi(defi, issue, bonnes, total) {
       q: solo.historique.map(x => x.id),
     })}`;
     const texte = defi
-      ? `🎯 J'ai relevé le défi de ${defi.nom} au Trivial 1000 : ${solo.score} points contre ${defi.score}${issue === 'gagne' ? ' 🏆' : ''} ! À toi de jouer sur les mêmes questions :`
-      : `🎯 ${qui} te défie au Trivial 1000 : ${solo.score} points (${bonnes}/${total}) sur ${libelleConfig(solo).toLowerCase()}. Feras-tu mieux sur les mêmes questions ?`;
+      ? `🎯 J'ai relevé le défi de ${defi.nom} à Culture Gé : ${solo.score} points contre ${defi.score}${issue === 'gagne' ? ' 🏆' : ''} ! À toi de jouer sur les mêmes questions :`
+      : `🎯 ${qui} te défie à Culture Gé : ${solo.score} points (${bonnes}/${total}) sur ${libelleConfig(solo).toLowerCase()}. Feras-tu mieux sur les mêmes questions ?`;
     zone.replaceChildren(panneauPartage({
-      titre: 'Défi Trivial 1000', texte, lien,
+      titre: 'Défi Culture Gé', texte, lien,
       image: { haut: defi ? `Défi de ${defi.nom}` : `${qui} vous défie`, grand: `${solo.score} pts`, bas: `${bonnes}/${total} · Relevez le défi !` },
     }));
   }
@@ -1085,10 +1090,10 @@ function partageJour(n, r) {
   const bonnes = r.res.filter(Boolean).length;
   const cases = CATS.map((c, i) => `${EMOJI_CAT[c.id]}${r.res[i] ? '✅' : '❌'}`);
   const serie = serieJours();
-  const texte = `Trivial du jour n°${n} 🎯 ${bonnes}/6 · ${r.score} pts\n${cases.slice(0, 3).join(' ')}\n${cases.slice(3).join(' ')}`
+  const texte = `Culture Gé du jour n°${n} 🎯 ${bonnes}/6 · ${r.score} pts\n${cases.slice(0, 3).join(' ')}\n${cases.slice(3).join(' ')}`
     + (serie > 1 ? `\n🔥 ${serie} jours d'affilée` : '');
   return panneauPartage({
-    titre: `Trivial du jour n°${n}`, texte, lien: `${URL_JEU}?jour`,
+    titre: `Culture Gé du jour n°${n}`, texte, lien: `${URL_JEU}?jour`,
     image: {
       haut: `Carte du jour n°${n}`, grand: `${bonnes}/6`, bas: `${r.score} points${serie > 1 ? ` · 🔥 ${serie} jours` : ''}`,
       pastilles: CATS.map((c, i) => ({ couleur: c.couleur, ok: r.res[i] })),
@@ -1111,9 +1116,11 @@ function blocResultatJour(n, r, avecDetail) {
       h('li', {}, h('b', {}, String(stats.meilleure)), 'meilleure série'),
       h('li', {}, h('b', {}, String(stats.joues)), 'cartes jouées'),
       h('li', {}, h('b', {}, stats.moyenne.toFixed(1).replace('.', ',')), 'moyenne /6')),
+    blocClassementJour(n),
     h('p', { class: 'message' }, `Prochaine carte dans ${avantDemain()}.`),
     h('h3', {}, 'Partager votre résultat'),
     partageJour(n, r),
+    blocGroupes(),
     avecDetail ? h('div', { class: 'ratees' },
       h('h3', {}, 'Les réponses'),
       h('ol', { class: 'resultats' }, CATS.map((cat, i) => {
@@ -1129,6 +1136,7 @@ function rendreFinJour(zone, n) {
   const bonnes = r.res.filter(Boolean).length;
   direUneFois(`jour-fin-${n}`, `Carte du jour terminée : ${bonnes} bonne${bonnes > 1 ? 's' : ''} réponse${bonnes > 1 ? 's' : ''} sur 6, ${r.score} points.`);
   zone.replaceChildren(h('div', { class: 'solo-fin' }, blocResultatJour(n, r, true),
+    blocRappel(),
     h('div', { class: 'actions' },
       h('a', { class: 'btn btn-clair', href: '#accueil', onclick: () => { solo = null; effacer(CLE_SOLO); } }, 'Accueil'),
       h('button', { type: 'button', class: 'btn', onclick: () => { solo = null; effacer(CLE_SOLO); location.hash = '#solo'; rendreSolo(); } }, 'Une série en solo'))));
@@ -1139,18 +1147,20 @@ function rendreJour() {
   const r = resultatsJour()[n];
   const zone = $('#jour-contenu');
   if (r) {
-    zone.replaceChildren(h('h2', {}, 'Carte du jour'), blocResultatJour(n, r, true));
+    zone.replaceChildren(invitationGroupeEnAttente(), h('h2', {}, 'Carte du jour'), blocResultatJour(n, r, true), blocRappel());
     return;
   }
   const enCours = solo && solo.mode === 'jour' && solo.jour === n && solo.phase !== 'fin';
   const serie = serieJours();
   zone.replaceChildren(
+    invitationGroupeEnAttente(),
     h('h2', {}, `Carte du jour n°${n}`),
     h('p', {}, 'Six questions, une par couleur : la même carte pour tout le monde aujourd\'hui. Une seule tentative !'),
     h('div', { class: 'jour-cases' }, CATS.map(cat => h('span', { class: 'jour-case', style: styleCat(cat), title: cat.nom }))),
     serie ? h('p', { class: 'message' }, `🔥 Série en cours : ${serie} jour${serie > 1 ? 's' : ''}. Ne la cassez pas !`) : null,
     h('div', { class: 'actions' },
-      h('button', { type: 'button', class: 'btn', onclick: jouerJour }, enCours ? 'Reprendre la carte du jour' : 'Jouer la carte du jour')));
+      h('button', { type: 'button', class: 'btn', onclick: jouerJour }, enCours ? 'Reprendre la carte du jour' : 'Jouer la carte du jour')),
+    blocGroupes(), blocRappel());
 }
 
 function majMenuJour() {
@@ -1248,7 +1258,7 @@ function carteImprimee(index, verso) {
   if (index == null) return h('div', { class: 'pc vide' });
   const carte = DATA.cartes[index];
   return h('div', { class: 'pc' },
-    h('div', { class: 'pc-tete' }, h('span', {}, verso ? 'RÉPONSES' : 'TRIVIAL 1000'), h('span', {}, 'N° ' + numero(index + 1))),
+    h('div', { class: 'pc-tete' }, h('span', {}, verso ? 'RÉPONSES' : 'CULTURE GÉ'), h('span', {}, 'N° ' + numero(index + 1))),
     h('div', { class: 'pc-lignes' }, CATS.map((c, i) =>
       h('div', { class: 'pc-l', style: `--c:${c.couleur}` }, h('i'), h('span', {}, verso ? carte[i][1] : carte[i][0])))));
 }
@@ -1373,11 +1383,15 @@ async function demarrer() {
   initImpression();
   initReglages();
   initSoiree();
+  initQuotidien();
 
-  // Liens partagés : ?defi=… (défi sur une série), ?jour (carte du jour), ?salle=… (soirée).
+  // Liens partagés : ?defi=… (défi sur une série), ?jour (carte du jour), ?salle=… (soirée),
+  // ?groupe=… (invitation à un groupe d'amis de la carte du jour).
   const params = new URLSearchParams(location.search);
-  if (params.has('defi') || params.has('jour') || params.has('salle')) {
-    if (params.has('salle')) {
+  if (['defi', 'jour', 'salle', 'groupe'].some(p => params.has(p))) {
+    if (params.has('groupe')) {
+      location.hash = '#jour';
+    } else if (params.has('salle')) {
       location.hash = '#soiree';
     } else if (params.has('defi')) {
       defiRecu = decoderDefi(params.get('defi'));
