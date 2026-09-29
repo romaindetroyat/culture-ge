@@ -52,8 +52,14 @@ function lire(cle, defaut) {
     return v ? JSON.parse(v) : defaut;
   } catch { return defaut; }
 }
+let minuterieProfil = null;
 function ecrire(cle, valeur) {
   try { localStorage.setItem(cle, JSON.stringify(valeur)); } catch { /* stockage indisponible */ }
+  // Prénom et records font partie du profil sauvegardé (voir profil.js).
+  if (cle === CLE_NOM || cle === CLE_SOLO_RECORDS) {
+    clearTimeout(minuterieProfil);
+    minuterieProfil = setTimeout(() => sauverProfil(), 800);
+  }
 }
 function effacer(cle) {
   try { localStorage.removeItem(cle); } catch { /* ignore */ }
@@ -1321,7 +1327,8 @@ function naviguer() {
   if (vue === 'carte') afficherPioche();
   // Carte du jour terminée : son écran de fin ne sert plus une fois qu'on l'a quitté.
   if (vue !== 'solo' && solo && solo.mode === 'jour' && solo.phase === 'fin') { solo = null; effacer(CLE_SOLO); }
-  if (vue === 'accueil') majMenuJour();
+  if (vue === 'accueil') { majMenuJour(); banniereProfil(); }
+  if (vue === 'reglages') rendreProfil();
   if (vue === 'jour') rendreJour();
   if (vue === 'solo') rendreSolo();
   if (vue === 'partie') rendrePartie();

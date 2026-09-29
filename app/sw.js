@@ -1,5 +1,5 @@
 /* Service worker : tout le jeu est mis en cache pour fonctionner hors ligne. */
-const VERSION = 'culturege-v9';
+const VERSION = 'culturege-v10';
 const FICHIERS = [
   './',
   'index.html',
@@ -7,6 +7,7 @@ const FICHIERS = [
   'app.js',
   'reponse.js',
   'quotidien.js',
+  'profil.js',
   'soiree.js',
   'vendor/supabase.js',
   'cartes.json',

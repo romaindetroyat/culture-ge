@@ -43,6 +43,11 @@ dans une application web progressive (PWA) installable sur téléphone et utilis
   En fin de série, **Défier un ami** partage un lien (`?defi=…`) qui contient la série exacte : l'ami
   joue les mêmes questions et voit qui l'emporte. Partage par le menu natif du téléphone, WhatsApp,
   Messenger, SMS, Facebook, X, e-mail, copie du lien, ou une image du score.
+- **Mon profil** (Réglages) : un code de transfert (`KX7P-2MQH`) retrouve groupes, historique de la
+  carte du jour (donc la série), prénom et records dans l'appli installée, un autre navigateur ou un
+  nouveau téléphone. Sur iPhone, Safari et l'appli installée ont chacun leur stockage : l'appli
+  installée propose de coller ce code à sa première ouverture (et le retrouve seule quand le système
+  a copié le cookie du navigateur).
 - **Réglages** : prénom affiché dans les défis, choix de la voix de lecture (les voix « améliorées »
   ou « naturelles » du téléphone en tête), vitesse, et aide pour installer une voix plus naturelle.
 - **Partie sans plateau** : 2 à 6 joueurs. Le dé tire une couleur, une bonne réponse rapporte le
@@ -73,6 +78,7 @@ app/                 la PWA (fichiers statiques, sans étape de construction)
   index.html, styles.css, app.js
   reponse.js         comparaison tolérante des réponses données en solo
   quotidien.js       classement du jour, groupes d'amis, rappel quotidien
+  profil.js          code de transfert et sauvegarde du profil
   soiree.js          soirée entre amis sur plusieurs téléphones
   rappels/*.ics      rendez-vous quotidiens à ajouter à un agenda (un fichier par heure)
   vendor/supabase.js bibliothèque supabase-js (licence MIT, voir supabase-LICENSE)
