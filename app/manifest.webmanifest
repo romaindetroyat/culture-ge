@@ -1,7 +1,7 @@
 {
-  "name": "Trivial 1000",
-  "short_name": "Trivial 1000",
-  "description": "1000 cartes de questions façon Trivial Pursuit, jouables hors ligne.",
+  "name": "Culture Gé",
+  "short_name": "Culture Gé",
+  "description": "Près de 11 000 questions de culture générale, jouables hors ligne.",
   "lang": "fr",
   "start_url": "./",
   "scope": "./",

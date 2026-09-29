@@ -1,4 +1,4 @@
-/* Trivial 1000 — application sans dépendance. */
+/* Culture Gé — application sans dépendance. */
 'use strict';
 
 const CLE_PIOCHE = 'trivial1000.pioche';
@@ -895,10 +895,10 @@ function imagePartage({ haut, grand, bas, pastilles }) {
   });
   g.textAlign = 'center';
   g.font = 'bold 64px system-ui, sans-serif';
-  const w1 = g.measureText('Trivial ').width, w2 = g.measureText('1000').width;
+  const w1 = g.measureText('Culture ').width, w2 = g.measureText('Gé').width;
   g.textAlign = 'left';
-  g.fillStyle = '#f4f1ea'; g.fillText('Trivial ', cx - (w1 + w2) / 2, 490);
-  g.fillStyle = '#f2c200'; g.fillText('1000', cx - (w1 + w2) / 2 + w1, 490);
+  g.fillStyle = '#f4f1ea'; g.fillText('Culture ', cx - (w1 + w2) / 2, 490);
+  g.fillStyle = '#f2c200'; g.fillText('Gé', cx - (w1 + w2) / 2 + w1, 490);
   g.textAlign = 'center';
   g.fillStyle = '#b9c1d6'; g.font = '40px system-ui, sans-serif';
   g.fillText(haut, cx, 570);
@@ -950,11 +950,11 @@ function panneauPartage({ titre, texte, lien, image }) {
         type: 'button', class: 'lien-partage',
         onclick: async () => {
           const blob = await imagePartage(image);
-          const fichier = new File([blob], 'trivial-1000.png', { type: 'image/png' });
+          const fichier = new File([blob], 'culture-ge.png', { type: 'image/png' });
           if (navigator.canShare && navigator.canShare({ files: [fichier] })) {
             navigator.share({ files: [fichier], text: complet }).catch(() => {});
           } else {
-            const a = h('a', { href: URL.createObjectURL(blob), download: 'trivial-1000.png' });
+            const a = h('a', { href: URL.createObjectURL(blob), download: 'culture-ge.png' });
             document.body.append(a); a.click(); a.remove();
             info.textContent = 'Image enregistrée : ajoutez-la à votre publication.';
           }
@@ -983,10 +983,10 @@ function panneauDefi(defi, issue, bonnes, total) {
       q: solo.historique.map(x => x.id),
     })}`;
     const texte = defi
-      ? `🎯 J'ai relevé le défi de ${defi.nom} au Trivial 1000 : ${solo.score} points contre ${defi.score}${issue === 'gagne' ? ' 🏆' : ''} ! À toi de jouer sur les mêmes questions :`
-      : `🎯 ${qui} te défie au Trivial 1000 : ${solo.score} points (${bonnes}/${total}) sur ${libelleConfig(solo).toLowerCase()}. Feras-tu mieux sur les mêmes questions ?`;
+      ? `🎯 J'ai relevé le défi de ${defi.nom} à Culture Gé : ${solo.score} points contre ${defi.score}${issue === 'gagne' ? ' 🏆' : ''} ! À toi de jouer sur les mêmes questions :`
+      : `🎯 ${qui} te défie à Culture Gé : ${solo.score} points (${bonnes}/${total}) sur ${libelleConfig(solo).toLowerCase()}. Feras-tu mieux sur les mêmes questions ?`;
     zone.replaceChildren(panneauPartage({
-      titre: 'Défi Trivial 1000', texte, lien,
+      titre: 'Défi Culture Gé', texte, lien,
       image: { haut: defi ? `Défi de ${defi.nom}` : `${qui} vous défie`, grand: `${solo.score} pts`, bas: `${bonnes}/${total} · Relevez le défi !` },
     }));
   }
@@ -1092,10 +1092,10 @@ function partageJour(n, r) {
   const bonnes = r.res.filter(Boolean).length;
   const cases = CATS.map((c, i) => `${EMOJI_CAT[c.id]}${r.res[i] ? '✅' : '❌'}`);
   const serie = serieJours();
-  const texte = `Trivial du jour n°${n} 🎯 ${bonnes}/6 · ${r.score} pts\n${cases.slice(0, 3).join(' ')}\n${cases.slice(3).join(' ')}`
+  const texte = `Culture Gé du jour n°${n} 🎯 ${bonnes}/6 · ${r.score} pts\n${cases.slice(0, 3).join(' ')}\n${cases.slice(3).join(' ')}`
     + (serie > 1 ? `\n🔥 ${serie} jours d'affilée` : '');
   return panneauPartage({
-    titre: `Trivial du jour n°${n}`, texte, lien: `${URL_JEU}?jour`,
+    titre: `Culture Gé du jour n°${n}`, texte, lien: `${URL_JEU}?jour`,
     image: {
       haut: `Carte du jour n°${n}`, grand: `${bonnes}/6`, bas: `${r.score} points${serie > 1 ? ` · 🔥 ${serie} jours` : ''}`,
       pastilles: CATS.map((c, i) => ({ couleur: c.couleur, ok: r.res[i] })),
@@ -1260,7 +1260,7 @@ function carteImprimee(index, verso) {
   if (index == null) return h('div', { class: 'pc vide' });
   const carte = DATA.cartes[index];
   return h('div', { class: 'pc' },
-    h('div', { class: 'pc-tete' }, h('span', {}, verso ? 'RÉPONSES' : 'TRIVIAL 1000'), h('span', {}, 'N° ' + numero(index + 1))),
+    h('div', { class: 'pc-tete' }, h('span', {}, verso ? 'RÉPONSES' : 'CULTURE GÉ'), h('span', {}, 'N° ' + numero(index + 1))),
     h('div', { class: 'pc-lignes' }, CATS.map((c, i) =>
       h('div', { class: 'pc-l', style: `--c:${c.couleur}` }, h('i'), h('span', {}, verso ? carte[i][1] : carte[i][0])))));
 }

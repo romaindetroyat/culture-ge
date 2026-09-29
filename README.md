@@ -1,6 +1,6 @@
-# Trivial 1000
+# Culture Gé
 
-Jeu de questions façon Trivial Pursuit : **1833 cartes de 6 questions** (base de 1000 cartes + extension de 833), soit près de 11 000 questions en français,
+Jeu de culture générale : **1833 cartes de 6 questions** (base de 1000 cartes + extension de 833), soit près de 11 000 questions en français,
 dans une application web progressive (PWA) installable sur téléphone et utilisable hors ligne.
 
 | Couleur | Catégorie |
@@ -140,4 +140,4 @@ Après la première ouverture, le jeu fonctionne sans connexion.
 
 ---
 
-Projet personnel non affilié à Hasbro ; « Trivial Pursuit » est une marque de son propriétaire.
+Projet personnel indépendant, sans lien avec un éditeur de jeux de société.

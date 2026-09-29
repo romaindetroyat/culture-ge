@@ -1,6 +1,6 @@
 BEGIN:VCALENDAR
 VERSION:2.0
-PRODID:-//Trivial 1000//Carte du jour//FR
+PRODID:-//Culture Gé//Carte du jour//FR
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
@@ -9,13 +9,13 @@ DTSTAMP:20260929T000000Z
 DTSTART:20260929T070000
 DURATION:PT10M
 RRULE:FREQ=DAILY
-SUMMARY:🎯 Trivial 1000 : carte du jour
+SUMMARY:🎯 Culture Gé : carte du jour
 DESCRIPTION:Six questions\, une par couleur : la même carte pour tout le m
  onde.\nhttps://romaindetroyat.github.io/trivialpursuit/?jour
 URL:https://romaindetroyat.github.io/trivialpursuit/?jour
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:Trivial 1000 : la carte du jour vous attend
+DESCRIPTION:Culture Gé : la carte du jour vous attend
 TRIGGER:PT0M
 END:VALARM
 END:VEVENT

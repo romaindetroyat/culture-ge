@@ -1,4 +1,4 @@
-/* Trivial 1000 — autour de la carte du jour : classement de tous les joueurs,
+/* Culture Gé — autour de la carte du jour : classement de tous les joueurs,
  * groupes d'amis (classement de la semaine), rappel quotidien par notification ou agenda.
  *
  * Les scores sont envoyés anonymement (identifiant aléatoire propre au téléphone) à Supabase ;
@@ -102,8 +102,8 @@ function mesGroupesLocaux() { return lire(CLE_GROUPES, []); }
 
 function inviterGroupe(g) {
   return panneauPartage({
-    titre: `Groupe « ${g.nom} » — Trivial 1000`,
-    texte: `🎯 Rejoins mon groupe « ${g.nom} » sur Trivial 1000 : chaque jour la même carte de 6 questions, et le classement de la semaine entre nous !`,
+    titre: `Groupe « ${g.nom} » — Culture Gé`,
+    texte: `🎯 Rejoins mon groupe « ${g.nom} » sur Culture Gé : chaque jour la même carte de 6 questions, et le classement de la semaine entre nous !`,
     lien: `${URL_JEU}?groupe=${g.code}`,
   });
 }
@@ -292,7 +292,7 @@ function lienGoogleAgenda(heure) {
   const jour = `${d.getFullYear()}${pad(d.getMonth() + 1)}${pad(d.getDate())}`;
   const p = new URLSearchParams({
     action: 'TEMPLATE',
-    text: '🎯 Trivial 1000 : carte du jour',
+    text: '🎯 Culture Gé : carte du jour',
     details: `Six questions, une par couleur : la même carte pour tout le monde.\n${URL_JEU}?jour`,
     dates: `${jour}T${pad(heure)}0000/${jour}T${pad(heure)}1000`,
     recur: 'RRULE:FREQ=DAILY',

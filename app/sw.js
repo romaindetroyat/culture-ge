@@ -1,5 +1,5 @@
 /* Service worker : tout le jeu est mis en cache pour fonctionner hors ligne. */
-const VERSION = 'trivial1000-v7';
+const VERSION = 'culturege-v8';
 const FICHIERS = [
   './',
   'index.html',
@@ -51,7 +51,7 @@ self.addEventListener('fetch', event => {
 self.addEventListener('push', event => {
   let m = {};
   try { m = event.data ? event.data.json() : {}; } catch { m = { corps: event.data && event.data.text() }; }
-  event.waitUntil(self.registration.showNotification(m.titre || 'Trivial 1000', {
+  event.waitUntil(self.registration.showNotification(m.titre || 'Culture Gé', {
     body: m.corps || 'La carte du jour vous attend.',
     icon: 'icons/icon-192.png',
     badge: 'icons/icon-192.png',
