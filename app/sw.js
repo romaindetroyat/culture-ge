@@ -1,5 +1,5 @@
 /* Service worker : tout le jeu est mis en cache pour fonctionner hors ligne. */
-const VERSION = 'culturege-v8';
+const VERSION = 'culturege-v9';
 const FICHIERS = [
   './',
   'index.html',
@@ -11,7 +11,8 @@ const FICHIERS = [
   'vendor/supabase.js',
   'cartes.json',
   'manifest.webmanifest',
-  'icons/icon.svg',
+  'icons/logo.webp',
+  'icons/favicon.png',
   'icons/icon-192.png',
   'icons/icon-512.png',
   'icons/icon-maskable-512.png',

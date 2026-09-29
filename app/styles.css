@@ -68,7 +68,7 @@ h2 { font-size: 1.5rem; }
   white-space: nowrap;
 }
 .brand b { color: var(--accent); }
-.brand-logo { width: 28px; height: 28px; stroke: #fff; stroke-width: 1.5; }
+.brand-img { display: block; height: 46px; width: auto; }
 .topnav { display: flex; gap: 4px; overflow-x: auto; scrollbar-width: none; }
 .topnav a {
   text-decoration: none;
@@ -95,7 +95,8 @@ main {
 /* ---------- Accueil ---------- */
 .hero { text-align: center; padding: 20px 0 24px; }
 .hero-logo { width: 104px; height: 104px; stroke: #fff; stroke-width: 1.5; filter: drop-shadow(0 8px 20px rgba(0,0,0,.4)); }
-.hero h1 { font-size: 2.6rem; margin: 12px 0 4px; letter-spacing: -.02em; }
+.hero h1 { font-size: 2.6rem; margin: 0 0 4px; letter-spacing: -.02em; }
+.hero-img { display: block; width: min(280px, 70vw); height: auto; margin: 0 auto; filter: drop-shadow(0 10px 24px rgba(0,0,0,.35)); }
 .hero h1 b { color: var(--accent); }
 .hero-sous { color: var(--texte-doux); margin: 0; }
 

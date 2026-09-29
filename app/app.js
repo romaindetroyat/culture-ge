@@ -876,7 +876,7 @@ function decoderDefi(texte) {
 }
 
 /** Image carrée du résultat, pour les réseaux sociaux (Promise<Blob>). */
-function imagePartage({ haut, grand, bas, pastilles }) {
+async function imagePartage({ haut, grand, bas, pastilles }) {
   const T = 1080;
   const c = document.createElement('canvas');
   c.width = T; c.height = T;
@@ -884,21 +884,19 @@ function imagePartage({ haut, grand, bas, pastilles }) {
   const fond = g.createLinearGradient(0, 0, 0, T);
   fond.addColorStop(0, '#2a3d6e'); fond.addColorStop(1, '#16213e');
   g.fillStyle = fond; g.fillRect(0, 0, T, T);
-  // camembert
-  const cx = T / 2, cy = 250, r = 130;
-  g.fillStyle = '#fff'; g.beginPath(); g.arc(cx, cy, r + 14, 0, 2 * Math.PI); g.fill();
-  CATS.forEach((cat, i) => {
-    g.fillStyle = cat.couleur; g.beginPath(); g.moveTo(cx, cy);
-    g.arc(cx, cy, r, (i / 6) * 2 * Math.PI - Math.PI / 2, ((i + 1) / 6) * 2 * Math.PI - Math.PI / 2);
-    g.closePath(); g.fill();
-    g.strokeStyle = '#fff'; g.lineWidth = 6; g.stroke();
-  });
-  g.textAlign = 'center';
-  g.font = 'bold 64px system-ui, sans-serif';
-  const w1 = g.measureText('Culture ').width, w2 = g.measureText('Gé').width;
-  g.textAlign = 'left';
-  g.fillStyle = '#f4f1ea'; g.fillText('Culture ', cx - (w1 + w2) / 2, 490);
-  g.fillStyle = '#f2c200'; g.fillText('Gé', cx - (w1 + w2) / 2 + w1, 490);
+  const cx = T / 2;
+  try {
+    const logo = new Image();
+    logo.src = 'icons/logo.webp';
+    await logo.decode();
+    const hLogo = 430, wLogo = hLogo * logo.naturalWidth / logo.naturalHeight;
+    g.drawImage(logo, cx - wLogo / 2, 60, wLogo, hLogo);
+  } catch {
+    // Logo indisponible : le nom en toutes lettres.
+    g.textAlign = 'center';
+    g.font = 'bold 96px system-ui, sans-serif';
+    g.fillStyle = '#f4f1ea'; g.fillText('Culture Gé', cx, 320);
+  }
   g.textAlign = 'center';
   g.fillStyle = '#b9c1d6'; g.font = '40px system-ui, sans-serif';
   g.fillText(haut, cx, 570);
