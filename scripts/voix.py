@@ -144,6 +144,9 @@ def prononcer(texte):
         n = int(brut) if brut.isdigit() else romain(brut)
         if not brut.isdigit() and (not romain_valide(brut) or brut in ('L', 'C')):  # « Le », « Ce »
             return m.group(0)
+        # « er », « re » seulement après 1 (« Ver » de terre) ; « nd(e) » seulement après un chiffre (« Inde »)
+        if (suffixe in ('er', 're', 'ère') and n != 1) or (suffixe in ('nd', 'nde') and not brut.isdigit()):
+            return m.group(0)
         feminin = suffixe in ('re', 'ère', 'nde')
         if suffixe in ('nd', 'nde'):
             return 'seconde' if feminin else 'second'
@@ -166,7 +169,7 @@ def prononcer(texte):
         (r'(\d) ?km\b', r'\1 kilomètres'), (r'(\d) ?cm\b', r'\1 centimètres'), (r'(\d) ?mm\b', r'\1 millimètres'),
         (r'(\d) ?kg\b', r'\1 kilos'), (r'(\d) ?m\b', r'\1 mètres'), (r'(\d) ?g\b', r'\1 grammes'),
         (r'\bM\. (?=[A-ZÀ-Ý])', 'Monsieur '), (r'\bMme (?=[A-ZÀ-Ý])', 'Madame '), (r'\bSt-', 'Saint-'), (r'\bSte-', 'Sainte-'),
-        (r' & ', ' et '),
+        (r' & ', ' et '), (r'\b2 CV\b', 'deux-chevaux'),
     ]
     for motif, rempl in remplacements:
         t = re.sub(motif, rempl, t)
@@ -246,6 +249,8 @@ def lexique():
 
 
 _LEXIQUE = None
+ELISIONS = {'c': 's', 'd': 'd', 'j': 'ʒ', 'l': 'l', 'm': 'm', 'n': 'n', 's': 's', 't': 't',
+            'qu': 'k', 'jusqu': 'ʒysk', 'lorsqu': 'lɔʁsk', 'puisqu': 'pyisk'}
 
 
 def mots_etrangers(t):
@@ -253,7 +258,8 @@ def mots_etrangers(t):
     global _LEXIQUE
     if _LEXIQUE is None:
         lex = lexique()
-        motif = re.compile(r"(?<![\w'’-])(" + '|'.join(re.escape(m) for m in sorted(lex, key=len, reverse=True))
+        motif = re.compile(r"(?<![\w'’-])((?:[CDJLMNSTcdjlmnst]|[Qq]u|[Jj]usqu|[Ll]orsqu|[Pp]uisqu)['’])?("
+                           + '|'.join(re.escape(m) for m in sorted(lex, key=len, reverse=True))
                            + r")(?![\w-])") if lex else None
         _LEXIQUE = (motif, lex)
     motif, lex = _LEXIQUE
@@ -261,7 +267,8 @@ def mots_etrangers(t):
         return t
 
     def sons(m):
-        return '[[' + sons_lexique(m.group(1), lex[m.group(1)]) + ']]'
+        article = ELISIONS.get((m.group(1) or '')[:-1].lower(), '')  # d'Harry → « daʁi »
+        return '[[' + article + sons_lexique(m.group(2), lex[m.group(2)]) + ']]'
     return motif.sub(sons, t)
 
 
