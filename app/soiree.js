@@ -275,6 +275,7 @@ function quitterSoiree() {
   }
   soiree = null;
   effacer(CLE_SOIREE_NOM_SALLE);
+  couperMicro();
   taire();
   rendreSoiree();
 }
@@ -351,8 +352,8 @@ function formulaireReponse(e, cle) {
     bouton = h('button', {
       type: 'button', class: 'btn btn-micro',
       onclick: () => {
-        const reco = new Reco();
-        reco.lang = 'fr-FR'; reco.interimResults = true; reco.maxAlternatives = 5;
+        if (ecoutesActives.size) { couperMicro(); bouton.classList.remove('ecoute-active'); return; }
+        const reco = nouvelleEcoute();
         let final = null;
         bouton.classList.add('ecoute-active');
         reco.onresult = ev => {
@@ -361,7 +362,10 @@ function formulaireReponse(e, cle) {
           if (res.isFinal) final = Array.from(res, alt => alt.transcript);
         };
         reco.onerror = () => { info.textContent = 'Je n\'ai pas compris, réessayez ou tapez la réponse.'; };
-        reco.onend = () => { bouton.classList.remove('ecoute-active'); if (final) envoyer(final, final[0]); };
+        reco.onend = () => {
+          document.querySelectorAll('#soiree-contenu .btn-micro').forEach(b => b.classList.remove('ecoute-active'));
+          if (final && !reco.coupee) envoyer(final, final[0]);
+        };
         try { reco.start(); } catch { /* déjà en cours */ }
       },
     }, iconeMicro(), 'Répondre à voix haute');
@@ -626,6 +630,9 @@ function rendreSoiree() {
   const nouvelle = zone.querySelector('.saisie input');
   const nouvelleCle = zone.querySelector('.repondre') ? zone.querySelector('.repondre').dataset.cle : null;
   if (nouvelle && brouillon && cle === nouvelleCle) { nouvelle.value = brouillon; nouvelle.focus(); }
+  // Plus de question à laquelle répondre (verdict, tour d'un autre, fin) : le micro se coupe.
+  if (!nouvelleCle || nouvelleCle !== cle) couperMicro();
+  else if (ecoutesActives.size) zone.querySelectorAll('.btn-micro').forEach(b => b.classList.add('ecoute-active'));
   if (e.phase !== 'fin') zone.append(h('div', { class: 'partie-actions' },
     h('span', { class: 'aide' }, `Partie ${soiree.code}${soiree.hote ? ' · vous êtes l\'hôte' : ''} · `),
     h('button', { type: 'button', class: 'btn-lien', onclick: () => { if (confirm('Quitter la partie ?')) quitterSoiree(); } }, 'Quitter')));

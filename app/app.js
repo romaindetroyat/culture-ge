@@ -645,6 +645,43 @@ function iconeMicro() {
 }
 let ecouteEnCours = null;
 
+/* Micro : toute écoute passe par nouvelleEcoute(), pour pouvoir tout couper d'un coup dès qu'on
+ * quitte le jeu (fin de partie, autre écran, appli en arrière-plan). */
+const ecoutesActives = new Set();
+
+function nouvelleEcoute() {
+  const reco = new Reco();
+  reco.lang = 'fr-FR';
+  reco.interimResults = true;
+  reco.maxAlternatives = 5;
+  ecoutesActives.add(reco);
+  if (reco.addEventListener) reco.addEventListener('end', () => ecoutesActives.delete(reco));
+  return reco;
+}
+
+function couperMicro() {
+  for (const reco of ecoutesActives) {
+    reco.coupee = true; // son résultat éventuel est ignoré
+    try { reco.abort(); } catch { /* déjà arrêtée */ }
+  }
+  ecoutesActives.clear();
+  ecouteEnCours = null;
+  const bouton = $('#btn-micro');
+  if (bouton) {
+    bouton.classList.remove('ecoute-active');
+    bouton.lastChild.textContent = 'Répondre à voix haute';
+  }
+}
+
+/** Le jeu est à l'écran et au premier plan : seule situation où le micro peut s'ouvrir tout seul. */
+function enJeu(vue) {
+  return document.visibilityState === 'visible' && location.hash === '#' + vue;
+}
+
+// Téléphone verrouillé, autre appli, onglet caché ou page quittée : micro et voix coupés.
+document.addEventListener('visibilitychange', () => { if (document.visibilityState === 'hidden') { couperMicro(); taire(); } });
+window.addEventListener('pagehide', () => { couperMicro(); taire(); });
+
 function juger(propositions, entendu) {
   const q = QUESTIONS[solo.question];
   solo.verdict = { ok: Reponse.verifier(propositions, q.r, { question: q.q, alias: q.a }), entendu };
@@ -657,10 +694,7 @@ function ecouter() {
   const bouton = $('#btn-micro');
   const info = $('#ecoute');
   if (ecouteEnCours) { ecouteEnCours.stop(); return; }
-  const reco = new Reco();
-  reco.lang = 'fr-FR';
-  reco.interimResults = true;
-  reco.maxAlternatives = 5;
+  const reco = nouvelleEcoute();
   let final = null;
   ecouteEnCours = reco;
   bouton.classList.add('ecoute-active');
@@ -682,7 +716,8 @@ function ecouter() {
     info.textContent = messages[e.error] || 'La reconnaissance vocale a échoué. Réessayez.';
   };
   reco.onend = () => {
-    ecouteEnCours = null;
+    if (ecouteEnCours === reco) ecouteEnCours = null;
+    if (reco.coupee) return;
     if (final && final.length) { juger(final, final[0]); return; }
     if (bouton.isConnected) {
       bouton.classList.remove('ecoute-active');
@@ -780,14 +815,14 @@ function lireSolo(q, cat) {
   const id = solo.question;
   if (solo.phase === 'question') {
     const ecouteAuto = prefs.mainsLibres && Reco
-      ? () => { if (solo && solo.question === id && solo.phase === 'question' && !ecouteEnCours && $('#btn-micro')) ecouter(); }
+      ? () => { if (enJeu('solo') && solo && solo.question === id && solo.phase === 'question' && !ecouteEnCours && $('#btn-micro')) ecouter(); }
       : null;
     direUneFois(`solo-q-${id}`, `${cat.nom}. ${q.l}`, ecouteAuto);
   } else if (solo.verdict) {
     const v = solo.verdict;
     // Mains libres : après le verdict, on passe seul à la question suivante (sauf correction entre-temps).
     const suite = prefs.mainsLibres
-      ? () => setTimeout(() => { if (solo && solo.question === id && solo.verdict === v) repondreSolo(v.ok); }, 1500)
+      ? () => setTimeout(() => { if (enJeu('solo') && solo && solo.question === id && solo.verdict === v) repondreSolo(v.ok); }, 1500)
       : null;
     direUneFois(`solo-v-${id}`, v.ok ? 'Bonne réponse !' : `Non. La réponse était : ${q.r}.`, suite);
   } else {
@@ -796,6 +831,7 @@ function lireSolo(q, cat) {
 }
 
 function rendreFinSolo(zone) {
+  couperMicro(); // partie terminée : le micro ne se rouvrira qu'à la prochaine question
   if (solo.mode === 'jour') { rendreFinJour(zone, solo.jour); return; }
   const total = solo.historique.length;
   const bonnes = solo.historique.filter(e => e.ok).length;
@@ -1319,7 +1355,7 @@ function initImpression() {
 const VUES = ['accueil', 'jour', 'carte', 'solo', 'partie', 'soiree', 'parcourir', 'imprimer', 'reglages'];
 
 function naviguer() {
-  if (ecouteEnCours) ecouteEnCours.abort();
+  couperMicro();
   taire();
   const vue = VUES.includes(location.hash.slice(1)) ? location.hash.slice(1) : 'accueil';
   document.querySelectorAll('.vue').forEach(v => { v.hidden = v.dataset.vue !== vue; });
