@@ -1,5 +1,5 @@
 /* Service worker : tout le jeu est mis en cache pour fonctionner hors ligne. */
-const VERSION = 'culturege-v12';
+const VERSION = 'culturege-v13';
 const FICHIERS = [
   './',
   'index.html',
@@ -35,7 +35,8 @@ self.addEventListener('activate', event => {
 // Réseau d'abord (pour recevoir les mises à jour), cache en secours hors ligne.
 self.addEventListener('fetch', event => {
   const req = event.request;
-  if (req.method !== 'GET' || new URL(req.url).origin !== self.location.origin) return;
+  // Seulement les fichiers du jeu : pas Supabase, ni les fichiers audio de la voix (…/culture-ge-voix/).
+  if (req.method !== 'GET' || !req.url.startsWith(self.registration.scope)) return;
   event.respondWith(
     fetch(req)
       .then(rep => {

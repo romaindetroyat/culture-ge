@@ -48,8 +48,9 @@ dans une application web progressive (PWA) installable sur téléphone et utilis
   nouveau téléphone. Sur iPhone, Safari et l'appli installée ont chacun leur stockage : l'appli
   installée propose de coller ce code à sa première ouverture (et le retrouve seule quand le système
   a copié le cookie du navigateur).
-- **Réglages** : prénom affiché dans les défis, choix de la voix de lecture (les voix « améliorées »
-  ou « naturelles » du téléphone en tête), vitesse, et aide pour installer une voix plus naturelle.
+- **Réglages** : prénom affiché dans les défis, choix de la voix de lecture, vitesse. Par défaut,
+  la voix **Siwis** lit des fichiers audio préparés pour chaque question et chaque réponse (voir
+  *Voix de lecture*) ; les voix du téléphone restent au choix, et servent de secours hors ligne.
 - **Partie sans plateau** : 2 à 6 joueurs. Le dé tire une couleur, une bonne réponse rapporte le
   camembert de la couleur et permet de rejouer. Avec les 6 camemberts, les autres joueurs choisissent
   la catégorie de la question finale. Réglages : difficulté des questions, nombre de bonnes
@@ -91,6 +92,7 @@ data/
   reserve.json       questions valides non utilisées, pour remplacer une question (généré)
   alias/*.json       par question : autres réponses acceptées ("a") et texte à lire à voix haute ("l")
 scripts/build.py     assemble data/raw en cartes équilibrées
+scripts/voix.py      produit les fichiers audio de la voix Siwis (dépôt culture-ge-voix)
 supabase/            serveur de la carte du jour : tables et fonctions SQL, envoi des rappels (voir son README)
 ```
 
@@ -123,6 +125,31 @@ restent valables après une mise à jour.
    remplacée par une question de la réserve de même catégorie. Les nouvelles cartes reprennent
    la répartition de difficulté et sont équilibrées entre elles.
 3. Incrémentez `VERSION` dans `app/sw.js` pour que les téléphones récupèrent la mise à jour.
+4. Produisez les fichiers audio des textes nouveaux ou modifiés (voir *Voix de lecture*) ; en
+   attendant, l'application lit ces textes avec la voix du téléphone.
+
+## Voix de lecture
+
+La voix Siwis (`fr_FR-siwis-medium`, modèle [Piper](https://github.com/rhasspy/piper), licence
+CC BY 4.0) est trop lourde pour tourner dans le navigateur : chaque texte lu (question avec sa
+catégorie, réponse, phrases de verdict et de fin de série) est synthétisé à l'avance en MP3, et
+publié dans le dépôt [culture-ge-voix](https://github.com/romaindetroyat/culture-ge-voix)
+(GitHub Pages, publication depuis la branche `main`), à l'adresse
+`https://romaindetroyat.github.io/culture-ge-voix/<xx>/<clé>.mp3`. La clé est un hachage du texte,
+calculé de la même façon par `scripts/voix.py` et `app/app.js` : un texte modifié change de fichier,
+et l'application se rabat sur la voix du téléphone tant que le nouveau fichier n'est pas publié.
+
+Avant la synthèse, le script réécrit ce qu'une voix lit mal : numéros de rois (Louis XIV → Louis
+quatorze), siècles et ordinaux (XVIIIe, 38e, 1re), milliers (1 500), unités (km/h, °C, m²),
+« av. J.-C. », « M. », « Mme ».
+
+```sh
+pip install piper-tts lameenc
+python3 scripts/voix.py essai "Le XVIIIe siècle"          # texte réellement prononcé
+python3 scripts/voix.py produire ../culture-ge-voix chemin/fr_FR-siwis-medium.onnx
+```
+
+`produire` ne génère que les fichiers absents (compter environ 0,2 s par texte).
 
 ## Lancer en local
 
