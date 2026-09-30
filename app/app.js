@@ -397,9 +397,10 @@ function rendrePartie() {
           type: 'button', class: 'btn',
           onclick: () => { partie.phase = 'reponse'; sauverPartie(); rendrePartie(); },
         }, 'Voir la réponse')));
-    direUneFois(`partie-q-${partie.utilisees.length}-${partie.question}`, `${j.nom}, ${cat.nom}. ${q.l}`);
+    direUneFois(`partie-q-${partie.utilisees.length}-${partie.question}`, [{ t: `${j.nom},`, s: null }, `${cat.nom}. ${q.l}`]);
+    prechargerVoix(q.r);
   } else {
-    direUneFois(`partie-r-${partie.utilisees.length}-${partie.question}`, `La réponse : ${q.r}.`);
+    direUneFois(`partie-r-${partie.utilisees.length}-${partie.question}`, ['La réponse :', reponseLue(q.r)]);
     tour.replaceChildren(entete, carte,
       h('div', { class: 'actions' },
         h('button', { type: 'button', class: 'btn btn-ko', onclick: () => repondre(false) }, 'Mauvaise réponse'),
@@ -452,10 +453,17 @@ function initPartie() {
 
 /* ---------------- Lecture à voix haute ---------------- */
 
+// Deux moteurs : la voix « Siwis » de Culture Gé (fichiers audio préparés par scripts/voix.py pour
+// chaque question et chaque réponse) et, en secours ou au choix, la voix du téléphone.
 const Synthese = 'speechSynthesis' in window ? window.speechSynthesis : null;
+const LECTURE_POSSIBLE = !!Synthese || typeof Audio === 'function';
+const URL_VOIX = 'https://romaindetroyat.github.io/culture-ge-voix/';
 let voixFr = null;
 let voixDispo = [];
 let derniereLecture = null; // évite de relire la même question à chaque rafraîchissement
+let jetonLecture = 0; // change à chaque nouvelle lecture ou à chaque arrêt : les suites en attente s'annulent
+let lecteur = null;
+let siwisEnPauseJusqua = 0; // réseau trop lent : voix du téléphone pendant une minute
 
 // Les voix « naturelles », « améliorées » ou « premium » passent en tête.
 function scoreVoix(v) {
@@ -479,43 +487,150 @@ if (Synthese) {
 }
 
 const prefsVoix = () => lire(CLE_VOIX, { lecture: false, mainsLibres: false });
+function voixSiwis() { return typeof Audio === 'function' && lire(CLE_VOIX_CHOIX, {}).siwis !== false; }
+function vitesseVoix() { return lire(CLE_VOIX_CHOIX, {}).vitesse || 1; }
 
 function texteParle(t) {
   return String(t).replace(/\s*\(([^)]*)\)/g, ', $1').replace(/\s*[«»]\s*/g, ' ').replace(/\bN°\s*/g, 'numéro ');
 }
 
-/** Lit un texte, phrase par phrase (pauses plus naturelles) ; `apres` est appelé à la fin. */
-function dire(texte, apres) {
+/** Clé du fichier audio d'un texte : cyrb53 du texte lu, en base 36 (même calcul dans scripts/voix.py). */
+function cleVoix(texte) {
+  const s = texteParle(texte).replace(/\s+/g, ' ').trim();
+  let h1 = 0xdeadbeef, h2 = 0x41c6ce57;
+  for (let i = 0; i < s.length; i++) {
+    const ch = s.charCodeAt(i);
+    h1 = Math.imul(h1 ^ ch, 2654435761);
+    h2 = Math.imul(h2 ^ ch, 1597334677);
+  }
+  h1 = Math.imul(h1 ^ (h1 >>> 16), 2246822507) ^ Math.imul(h2 ^ (h2 >>> 13), 3266489909);
+  h2 = Math.imul(h2 ^ (h2 >>> 16), 2246822507) ^ Math.imul(h1 ^ (h1 >>> 13), 3266489909);
+  return (4294967296 * (2097151 & h2) + (h1 >>> 0)).toString(36);
+}
+const urlVoix = texte => { const c = cleVoix(texte); return `${URL_VOIX}${c.slice(0, 2)}/${c}.mp3`; };
+
+/** Met un fichier en cache HTTP pour qu'il parte sans attente (réponse d'une question affichée…). */
+const dejaPrecharges = new Set();
+function prechargerVoix(texte) {
+  if (!voixSiwis() || !prefsVoix().lecture || navigator.onLine === false) return;
+  const url = urlVoix(texte);
+  if (dejaPrecharges.has(url)) return;
+  dejaPrecharges.add(url);
+  fetch(url).catch(() => dejaPrecharges.delete(url));
+}
+
+// Un seul élément audio, « débloqué » au premier toucher : iOS refuse ensuite de lire un son
+// déclenché sans geste (lecture automatique, mode mains libres) sur un élément jamais joué.
+function lecteurAudio() {
+  if (!lecteur && typeof Audio === 'function') { lecteur = new Audio(); lecteur.preload = 'auto'; }
+  return lecteur;
+}
+const SILENCE = 'data:audio/mpeg;base64,/+MYxAAAAANIAAAAAExBTUUzLjEwMFVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV/+MYxDsAAANIAAAAAFVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV';
+function debloquerAudio() {
+  document.removeEventListener('pointerdown', debloquerAudio, true);
+  const a = lecteurAudio();
+  if (!a || a.src) return;
+  a.src = SILENCE;
+  const p = a.play();
+  if (p && p.catch) p.catch(() => {});
+}
+document.addEventListener('pointerdown', debloquerAudio, true);
+
+/** Joue le fichier Siwis d'un texte ; résout à false s'il manque (404, hors ligne, lecture refusée). */
+function jouerClip(texte, jeton) {
+  return new Promise(resolve => {
+    const a = lecteurAudio();
+    let minuteur = null;
+    const terminer = ok => {
+      if (a.onended !== fin) return;
+      a.onended = a.onerror = a.onplaying = null;
+      clearTimeout(minuteur);
+      if (!ok) a.pause(); // un fichier arrivé trop tard ne doit pas se lancer par-dessus la voix du téléphone
+      resolve(ok && jeton === jetonLecture);
+    };
+    const fin = () => terminer(true);
+    a.onended = fin;
+    a.onerror = () => terminer(false);
+    a.onplaying = () => clearTimeout(minuteur);
+    minuteur = setTimeout(() => { siwisEnPauseJusqua = Date.now() + 60000; terminer(false); }, 6000);
+    a.src = urlVoix(texte);
+    a.defaultPlaybackRate = a.playbackRate = vitesseVoix();
+    const p = a.play();
+    if (p && p.catch) p.catch(() => terminer(false));
+  });
+}
+
+function direTelephone(texte, apres) {
   if (!Synthese) { if (apres) apres(); return; }
-  Synthese.cancel();
-  const vitesse = lire(CLE_VOIX_CHOIX, {}).vitesse || 1;
   const phrases = texteParle(texte).split(/(?<=[.!?])\s+(?=\S)/).filter(Boolean);
+  if (!phrases.length) { if (apres) apres(); return; }
   phrases.forEach((phrase, i) => {
     const u = new SpeechSynthesisUtterance(phrase);
     u.lang = voixFr ? voixFr.lang : 'fr-FR';
-    u.rate = vitesse;
+    u.rate = vitesseVoix();
     try { if (voixFr) u.voice = voixFr; } catch { /* voix indisponible : voix par défaut */ }
     if (apres && i === phrases.length - 1) u.onend = apres;
     Synthese.speak(u);
   });
 }
 
-function taire() { if (Synthese) Synthese.cancel(); }
+/**
+ * Lit un texte, ou une suite de morceaux lus l'un après l'autre ; `apres` est appelé à la fin.
+ * Un morceau est un texte, ou { t, s } : t pour la voix du téléphone, s pour Siwis (null : sauté,
+ * par exemple un prénom, qui n'a pas de fichier audio).
+ */
+function dire(morceaux, apres) {
+  taire();
+  const jeton = jetonLecture;
+  const liste = [].concat(morceaux).map(m => typeof m === 'string' ? { t: m, s: m } : m).filter(m => m.t || m.s);
+  const fin = () => { if (jeton === jetonLecture && apres) apres(); };
+  const siwis = voixSiwis() && navigator.onLine !== false && Date.now() >= siwisEnPauseJusqua;
+  if (!siwis) { direTelephone(liste.map(m => m.t).filter(Boolean).join(' '), fin); return; }
+  liste.slice(1).forEach(m => { if (m.s) prechargerVoix(m.s); });
+  const suivant = i => {
+    if (jeton !== jetonLecture) return;
+    if (i >= liste.length) { fin(); return; }
+    const m = liste[i];
+    if (!m.s) { suivant(i + 1); return; }
+    jouerClip(m.s, jeton).then(ok => {
+      if (jeton !== jetonLecture) return;
+      if (ok) suivant(i + 1);
+      // Réseau trop lent : le téléphone lit tout le reste d'un coup.
+      else if (Date.now() < siwisEnPauseJusqua) direTelephone(liste.slice(i).map(x => x.t).filter(Boolean).join(' '), fin);
+      else direTelephone(m.t || m.s, () => { if (jeton === jetonLecture) suivant(i + 1); }); // fichier absent
+    });
+  };
+  suivant(0);
+}
+
+function taire() {
+  jetonLecture++;
+  if (Synthese) Synthese.cancel();
+  if (lecteur && lecteur.src && lecteur.src !== SILENCE) {
+    lecteur.onended = lecteur.onerror = lecteur.onplaying = null;
+    lecteur.pause();
+  }
+}
 
 /** Lit une seule fois par clé (question, verdict…) si la lecture automatique est activée. */
-function direUneFois(cle, texte, apres) {
+function direUneFois(cle, morceaux, apres) {
   if (!prefsVoix().lecture || derniereLecture === cle) return;
   derniereLecture = cle;
-  dire(texte, apres);
+  dire(morceaux, apres);
 }
 
 function boutonLire(texte) {
-  if (!Synthese) return null;
+  if (!LECTURE_POSSIBLE) return null;
   return h('button', { type: 'button', class: 'btn-lien btn-lire', onclick: () => dire(texte) }, '🔊 Relire la question');
 }
 
+/** « 3 points », « 1 point », « 0 point ». */
+const points = n => `${n} point${n > 1 ? 's' : ''}`;
+const reponseLue = r => ({ t: `${r}.`, s: r });
+const bonnesSur = (n, total) => `${n} bonne${n > 1 ? 's' : ''} réponse${n > 1 ? 's' : ''} sur ${total}`;
+
 function initReglagesVoix(form) {
-  if (!Synthese) return;
+  if (!LECTURE_POSSIBLE) return;
   const bloc = $('.reglage-voix', form);
   bloc.hidden = false;
   const prefs = prefsVoix();
@@ -645,6 +760,43 @@ function iconeMicro() {
 }
 let ecouteEnCours = null;
 
+/* Micro : toute écoute passe par nouvelleEcoute(), pour pouvoir tout couper d'un coup dès qu'on
+ * quitte le jeu (fin de partie, autre écran, appli en arrière-plan). */
+const ecoutesActives = new Set();
+
+function nouvelleEcoute() {
+  const reco = new Reco();
+  reco.lang = 'fr-FR';
+  reco.interimResults = true;
+  reco.maxAlternatives = 5;
+  ecoutesActives.add(reco);
+  if (reco.addEventListener) reco.addEventListener('end', () => ecoutesActives.delete(reco));
+  return reco;
+}
+
+function couperMicro() {
+  for (const reco of ecoutesActives) {
+    reco.coupee = true; // son résultat éventuel est ignoré
+    try { reco.abort(); } catch { /* déjà arrêtée */ }
+  }
+  ecoutesActives.clear();
+  ecouteEnCours = null;
+  const bouton = $('#btn-micro');
+  if (bouton) {
+    bouton.classList.remove('ecoute-active');
+    bouton.lastChild.textContent = 'Répondre à voix haute';
+  }
+}
+
+/** Le jeu est à l'écran et au premier plan : seule situation où le micro peut s'ouvrir tout seul. */
+function enJeu(vue) {
+  return document.visibilityState === 'visible' && location.hash === '#' + vue;
+}
+
+// Téléphone verrouillé, autre appli, onglet caché ou page quittée : micro et voix coupés.
+document.addEventListener('visibilitychange', () => { if (document.visibilityState === 'hidden') { couperMicro(); taire(); } });
+window.addEventListener('pagehide', () => { couperMicro(); taire(); });
+
 function juger(propositions, entendu) {
   const q = QUESTIONS[solo.question];
   solo.verdict = { ok: Reponse.verifier(propositions, q.r, { question: q.q, alias: q.a }), entendu };
@@ -657,10 +809,7 @@ function ecouter() {
   const bouton = $('#btn-micro');
   const info = $('#ecoute');
   if (ecouteEnCours) { ecouteEnCours.stop(); return; }
-  const reco = new Reco();
-  reco.lang = 'fr-FR';
-  reco.interimResults = true;
-  reco.maxAlternatives = 5;
+  const reco = nouvelleEcoute();
   let final = null;
   ecouteEnCours = reco;
   bouton.classList.add('ecoute-active');
@@ -682,7 +831,8 @@ function ecouter() {
     info.textContent = messages[e.error] || 'La reconnaissance vocale a échoué. Réessayez.';
   };
   reco.onend = () => {
-    ecouteEnCours = null;
+    if (ecouteEnCours === reco) ecouteEnCours = null;
+    if (reco.coupee) return;
     if (final && final.length) { juger(final, final[0]); return; }
     if (bouton.isConnected) {
       bouton.classList.remove('ecoute-active');
@@ -780,22 +930,24 @@ function lireSolo(q, cat) {
   const id = solo.question;
   if (solo.phase === 'question') {
     const ecouteAuto = prefs.mainsLibres && Reco
-      ? () => { if (solo && solo.question === id && solo.phase === 'question' && !ecouteEnCours && $('#btn-micro')) ecouter(); }
+      ? () => { if (enJeu('solo') && solo && solo.question === id && solo.phase === 'question' && !ecouteEnCours && $('#btn-micro')) ecouter(); }
       : null;
     direUneFois(`solo-q-${id}`, `${cat.nom}. ${q.l}`, ecouteAuto);
+    prechargerVoix(q.r);
   } else if (solo.verdict) {
     const v = solo.verdict;
     // Mains libres : après le verdict, on passe seul à la question suivante (sauf correction entre-temps).
     const suite = prefs.mainsLibres
-      ? () => setTimeout(() => { if (solo && solo.question === id && solo.verdict === v) repondreSolo(v.ok); }, 1500)
+      ? () => setTimeout(() => { if (enJeu('solo') && solo && solo.question === id && solo.verdict === v) repondreSolo(v.ok); }, 1500)
       : null;
-    direUneFois(`solo-v-${id}`, v.ok ? 'Bonne réponse !' : `Non. La réponse était : ${q.r}.`, suite);
+    direUneFois(`solo-v-${id}`, v.ok ? 'Bonne réponse !' : ['Non. La réponse était :', reponseLue(q.r)], suite);
   } else {
-    direUneFois(`solo-r-${id}`, `La réponse : ${q.r}.`);
+    direUneFois(`solo-r-${id}`, ['La réponse :', reponseLue(q.r)]);
   }
 }
 
 function rendreFinSolo(zone) {
+  couperMicro(); // partie terminée : le micro ne se rouvrira qu'à la prochaine question
   if (solo.mode === 'jour') { rendreFinJour(zone, solo.jour); return; }
   const total = solo.historique.length;
   const bonnes = solo.historique.filter(e => e.ok).length;
@@ -809,9 +961,12 @@ function rendreFinSolo(zone) {
   const defi = solo.mode === 'defi' ? solo.defi : null;
   const issue = defi ? (solo.score > defi.score ? 'gagne' : solo.score < defi.score ? 'perdu' : 'egalite') : null;
   const TEXTES_ISSUE = { gagne: 'Défi remporté ! 🏆', perdu: 'Défi perdu…', egalite: 'Égalité !' };
-  direUneFois(`solo-fin-${solo.historique.length}-${solo.score}`,
-    `Série terminée : ${solo.score} points, ${bonnes} bonne${bonnes > 1 ? 's' : ''} réponse${bonnes > 1 ? 's' : ''} sur ${total}.`
-    + (defi ? ` ${defi.nom} avait ${defi.score} points. ${TEXTES_ISSUE[issue]}` : record ? ' Nouveau record !' : ''));
+  direUneFois(`solo-fin-${solo.historique.length}-${solo.score}`, [
+    'Série terminée :', `${points(solo.score)},`, `${bonnesSur(bonnes, total)}.`,
+    ...(defi
+      ? [{ t: `${defi.nom} avait ${points(defi.score)}.`, s: `Score adverse : ${points(defi.score)}.` }, TEXTES_ISSUE[issue].replace(' 🏆', '')]
+      : record ? ['Nouveau record !'] : []),
+  ]);
 
   zone.replaceChildren(
     h('div', { class: 'solo-fin' },
@@ -1140,7 +1295,7 @@ function blocResultatJour(n, r, avecDetail) {
 function rendreFinJour(zone, n) {
   const r = resultatsJour()[n];
   const bonnes = r.res.filter(Boolean).length;
-  direUneFois(`jour-fin-${n}`, `Carte du jour terminée : ${bonnes} bonne${bonnes > 1 ? 's' : ''} réponse${bonnes > 1 ? 's' : ''} sur 6, ${r.score} points.`);
+  direUneFois(`jour-fin-${n}`, ['Carte du jour terminée :', `${bonnesSur(bonnes, 6)},`, `${points(r.score)}.`]);
   zone.replaceChildren(h('div', { class: 'solo-fin' }, blocResultatJour(n, r, true),
     blocRappel(),
     h('div', { class: 'actions' },
@@ -1187,23 +1342,33 @@ function remplirChoixVoix() {
   const choix = $('#choix-voix');
   if (!choix) return;
   const qualite = v => scoreVoix(v) >= 10 ? ' ★' : '';
-  choix.replaceChildren(...voixDispo.map(v =>
-    h('option', { value: v.voiceURI, selected: voixFr && v.voiceURI === voixFr.voiceURI ? true : null },
-      `${v.name.replace(/^Microsoft |^Google /, '')} (${v.lang})${qualite(v)}`)));
+  const siwis = voixSiwis();
+  choix.replaceChildren(
+    typeof Audio === 'function' ? h('option', { value: 'siwis', selected: siwis ? true : null }, 'Siwis · voix de Culture Gé (recommandée)') : null,
+    voixDispo.length ? h('optgroup', { label: 'Voix du téléphone' }, voixDispo.map(v =>
+      h('option', { value: v.voiceURI, selected: !siwis && voixFr && v.voiceURI === voixFr.voiceURI ? true : null },
+        `${v.name.replace(/^Microsoft |^Google /, '')} (${v.lang})${qualite(v)}`))) : null);
 }
 
 function initReglages() {
   const f = $('#form-reglages');
   f.nom.value = nomJoueur();
   f.nom.addEventListener('change', () => ecrire(CLE_NOM, f.nom.value.trim()));
-  if (!Synthese) { $('#reglages-voix').hidden = true; $('#sans-voix').hidden = false; return; }
+  if (!LECTURE_POSSIBLE) { $('#reglages-voix').hidden = true; $('#sans-voix').hidden = false; return; }
   remplirChoixVoix();
   const pref = lire(CLE_VOIX_CHOIX, {});
   f.vitesse.value = pref.vitesse || 1;
   const afficherVitesse = () => { $('#vitesse-valeur').textContent = Number(f.vitesse.value).toFixed(2).replace('.', ','); };
   afficherVitesse();
-  const sauver = () => ecrire(CLE_VOIX_CHOIX, { uri: f.voix.value, vitesse: Number(f.vitesse.value) });
-  f.voix.addEventListener('change', () => { sauver(); choisirVoix(); });
+  // Siwis choisie : on garde la voix du téléphone précédente (lecture en secours).
+  const sauver = () => {
+    const siwis = f.voix.value === 'siwis';
+    ecrire(CLE_VOIX_CHOIX, {
+      uri: siwis ? (voixFr ? voixFr.voiceURI : lire(CLE_VOIX_CHOIX, {}).uri) : f.voix.value,
+      siwis, vitesse: Number(f.vitesse.value),
+    });
+  };
+  f.voix.addEventListener('change', () => { sauver(); if (Synthese) choisirVoix(); else remplirChoixVoix(); });
   f.vitesse.addEventListener('input', () => { afficherVitesse(); sauver(); });
   $('#tester-voix').addEventListener('click', () =>
     dire('Histoire. Quelle reine exerce la régence pendant l\'enfance de Louis quatorze ? La réponse : Anne d\'Autriche.'));
@@ -1319,7 +1484,7 @@ function initImpression() {
 const VUES = ['accueil', 'jour', 'carte', 'solo', 'partie', 'soiree', 'parcourir', 'imprimer', 'reglages'];
 
 function naviguer() {
-  if (ecouteEnCours) ecouteEnCours.abort();
+  couperMicro();
   taire();
   const vue = VUES.includes(location.hash.slice(1)) ? location.hash.slice(1) : 'accueil';
   document.querySelectorAll('.vue').forEach(v => { v.hidden = v.dataset.vue !== vue; });

@@ -275,6 +275,7 @@ function quitterSoiree() {
   }
   soiree = null;
   effacer(CLE_SOIREE_NOM_SALLE);
+  couperMicro();
   taire();
   rendreSoiree();
 }
@@ -351,8 +352,8 @@ function formulaireReponse(e, cle) {
     bouton = h('button', {
       type: 'button', class: 'btn btn-micro',
       onclick: () => {
-        const reco = new Reco();
-        reco.lang = 'fr-FR'; reco.interimResults = true; reco.maxAlternatives = 5;
+        if (ecoutesActives.size) { couperMicro(); bouton.classList.remove('ecoute-active'); return; }
+        const reco = nouvelleEcoute();
         let final = null;
         bouton.classList.add('ecoute-active');
         reco.onresult = ev => {
@@ -361,7 +362,10 @@ function formulaireReponse(e, cle) {
           if (res.isFinal) final = Array.from(res, alt => alt.transcript);
         };
         reco.onerror = () => { info.textContent = 'Je n\'ai pas compris, réessayez ou tapez la réponse.'; };
-        reco.onend = () => { bouton.classList.remove('ecoute-active'); if (final) envoyer(final, final[0]); };
+        reco.onend = () => {
+          document.querySelectorAll('#soiree-contenu .btn-micro').forEach(b => b.classList.remove('ecoute-active'));
+          if (final && !reco.coupee) envoyer(final, final[0]);
+        };
         try { reco.start(); } catch { /* déjà en cours */ }
       },
     }, iconeMicro(), 'Répondre à voix haute');
@@ -525,14 +529,17 @@ function rendreJeuTour(e) {
           h('button', { type: 'button', class: 'btn btn-ok', onclick: () => appliquerVerdictTour(true) }, 'Bonne réponse'),
           h('button', { type: 'button', class: 'btn btn-ko', onclick: () => appliquerVerdictTour(false) }, 'Mauvaise réponse'))));
     }
-    if (soiree.hote) direUneFois(`soiree-q-${e.utilisees.length}`, `${u.nom}, ${catParId(q.cat).nom}. ${q.l}`);
+    if (soiree.hote) {
+      direUneFois(`soiree-q-${e.utilisees.length}`, [{ t: `${u.nom},`, s: null }, `${catParId(q.cat).nom}. ${q.l}`]);
+      prechargerVoix(q.r);
+    }
   } else if (e.phase === 'resultat') {
     const q = QUESTIONS[e.qid];
     const v = e.verdict;
     blocs.push(carteQuestionSoiree(e, true),
       h('p', { class: 'verdict ' + (v.ok ? 'juste' : 'faux') }, v.ok ? 'Bonne réponse !' : 'Raté !',
         h('span', { class: 'entendu' }, `Réponse donnée : « ${v.texte} »`)));
-    if (soiree.hote) direUneFois(`soiree-v-${e.utilisees.length}`, v.ok ? 'Bonne réponse !' : `Raté. La réponse était : ${q.r}.`);
+    if (soiree.hote) direUneFois(`soiree-v-${e.utilisees.length}`, v.ok ? 'Bonne réponse !' : ['Raté. La réponse était :', reponseLue(q.r)]);
     if (soiree.hote) {
       blocs.push(h('div', { class: 'actions' },
         h('button', { type: 'button', class: 'btn ' + (v.ok ? 'btn-ok' : 'btn-ko'), onclick: () => appliquerVerdictTour(v.ok) }, 'Continuer')),
@@ -558,7 +565,10 @@ function rendreJeuEnsemble(e) {
     if (joue && !e.reponses[soiree.moi]) blocs.push(formulaireReponse(e, `e${e.n}`));
     else if (joue) blocs.push(h('p', { class: 'message' }, 'Réponse envoyée ! En attente des autres…'));
     if (soiree.hote) blocs.push(h('button', { type: 'button', class: 'btn-lien', onclick: cloreQuestionEnsemble }, 'Clore la question maintenant'));
-    if (soiree.hote) direUneFois(`soiree-e-${e.n}`, `Question ${e.n}. ${catParId(q.cat).nom}. ${q.l}`);
+    if (soiree.hote) {
+      direUneFois(`soiree-e-${e.n}`, [`Question ${e.n}.`, `${catParId(q.cat).nom}. ${q.l}`]);
+      prechargerVoix(q.r);
+    }
     clearInterval(soiree.decompte);
     soiree.decompte = setInterval(() => {
       const m = $('#minuteur');
@@ -574,7 +584,7 @@ function rendreJeuEnsemble(e) {
         return h('li', { class: r ? (r.ok ? 'juste' : 'faux') : 'faux' },
           h('b', {}, noms[j.id]), ' : ', r ? `« ${r.texte} »` : 'pas de réponse', r && r.ok ? ' ✅' : ' ❌');
       })));
-    if (soiree.hote) direUneFois(`soiree-r-${e.n}`, `La réponse était : ${q.r}.`);
+    if (soiree.hote) direUneFois(`soiree-r-${e.n}`, ['La réponse était :', reponseLue(q.r)]);
     if (soiree.hote) blocs.push(h('div', { class: 'actions' }, h('button', { type: 'button', class: 'btn', onclick: suiteEnsemble }, e.n >= e.nbQuestions ? 'Voir le classement' : 'Question suivante')));
     else blocs.push(h('p', { class: 'message' }, 'L\'hôte passe à la question suivante.'));
   }
@@ -585,7 +595,7 @@ function rendreFinSoiree(e) {
   const classement = unites(e).map(u => ({ u, s: scoreDe(e, u.id) })).sort((a, b) =>
     (e.mode === 'tour' ? (b.u.id === e.gagnant) - (a.u.id === e.gagnant) || b.s.parts.length - a.s.parts.length : 0) || b.s.points - a.s.points);
   const premier = classement[0];
-  if (soiree.hote) direUneFois(`soiree-fin-${e.code}-${e.utilisees.length}`, `Partie terminée. Victoire de ${premier.u.nom} !`);
+  if (soiree.hote) direUneFois(`soiree-fin-${e.code}-${e.utilisees.length}`, ['Partie terminée.', { t: `Victoire de ${premier.u.nom} !`, s: null }]);
   $('#soiree-contenu').replaceChildren(
     h('div', { class: 'hero victoire' },
       camembert(CATS.map(() => true), 120),
@@ -626,6 +636,9 @@ function rendreSoiree() {
   const nouvelle = zone.querySelector('.saisie input');
   const nouvelleCle = zone.querySelector('.repondre') ? zone.querySelector('.repondre').dataset.cle : null;
   if (nouvelle && brouillon && cle === nouvelleCle) { nouvelle.value = brouillon; nouvelle.focus(); }
+  // Plus de question à laquelle répondre (verdict, tour d'un autre, fin) : le micro se coupe.
+  if (!nouvelleCle || nouvelleCle !== cle) couperMicro();
+  else if (ecoutesActives.size) zone.querySelectorAll('.btn-micro').forEach(b => b.classList.add('ecoute-active'));
   if (e.phase !== 'fin') zone.append(h('div', { class: 'partie-actions' },
     h('span', { class: 'aide' }, `Partie ${soiree.code}${soiree.hote ? ' · vous êtes l\'hôte' : ''} · `),
     h('button', { type: 'button', class: 'btn-lien', onclick: () => { if (confirm('Quitter la partie ?')) quitterSoiree(); } }, 'Quitter')));
