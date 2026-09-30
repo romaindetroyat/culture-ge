@@ -770,7 +770,16 @@ function nouvelleEcoute() {
   reco.interimResults = true;
   reco.maxAlternatives = 5;
   ecoutesActives.add(reco);
-  if (reco.addEventListener) reco.addEventListener('end', () => ecoutesActives.delete(reco));
+  if (reco.addEventListener) {
+    reco.addEventListener('end', () => ecoutesActives.delete(reco));
+    // Safari ignore une coupure demandée avant que l'écoute ait vraiment démarré : on la renouvelle.
+    reco.addEventListener('start', () => { if (reco.coupee) try { reco.abort(); } catch { /* déjà arrêtée */ } });
+    // Réponse comprise : on ferme le micro tout de suite (Safari peut sinon continuer d'écouter).
+    reco.addEventListener('result', e => {
+      const res = e.results && e.results[e.results.length - 1];
+      if (res && res.isFinal) try { reco.stop(); } catch { /* déjà arrêtée */ }
+    });
+  }
   return reco;
 }
 
@@ -843,6 +852,8 @@ function ecouter() {
 }
 
 function rendreSolo() {
+  // Le micro ne sert que pendant une question : réponse tapée, réponse affichée, abandon ou fin → coupé.
+  if (!solo || solo.phase !== 'question') couperMicro();
   if (defiRecu) { afficherDefiRecu(); return; }
   if (!solo) { afficherConfigSolo(); return; }
   $('#solo-config').hidden = true;

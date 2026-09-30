@@ -143,13 +143,20 @@ Avant la synthèse, le script réécrit ce qu'une voix lit mal : numéros de roi
 quatorze), siècles et ordinaux (XVIIIe, 38e, 1re), milliers (1 500), unités (km/h, °C, m²),
 « av. J.-C. », « M. », « Mme ».
 
+Siwis n'a appris que les sons du français. Les mots étrangers sont donc prononcés comme le ferait un
+présentateur français : les sons étrangers (ɹ, θ, ʊ…) sont remplacés par les sons français les plus
+proches, et `data/prononciation.json` indique, pour les mots mal lus, leur langue (`en`, `de`,
+`it`…), des sons imposés (`[[betovɛn]]`) ou une graphie lue à la française (`=…`). Les sigles
+mal lus y sont épelés. Pour tester un mot : `python3 scripts/voix.py mot "Potter" en`.
+
 ```sh
 pip install piper-tts lameenc
 python3 scripts/voix.py essai "Le XVIIIe siècle"          # texte réellement prononcé
 python3 scripts/voix.py produire ../culture-ge-voix chemin/fr_FR-siwis-medium.onnx
 ```
 
-`produire` ne génère que les fichiers absents (compter environ 0,2 s par texte).
+`produire` ne génère que les fichiers absents ou dont les sons ont changé (index `sons.tsv` du
+dépôt culture-ge-voix ; compter environ 0,2 s par texte).
 
 ## Lancer en local
 
