@@ -278,7 +278,7 @@ async function abonnementPush() {
   return reg.pushManager.getSubscription();
 }
 
-async function activerRappel(heure) {
+async function activerRappel(heure, { confirmer = true } = {}) {
   if (await Notification.requestPermission() !== 'granted') throw new Error('refus');
   const reg = await navigator.serviceWorker.ready;
   const sub = await reg.pushManager.getSubscription()
@@ -286,6 +286,7 @@ async function activerRappel(heure) {
   const cles = sub.toJSON().keys;
   await rpc('s_abonner', { p_endpoint: sub.endpoint, p_p256dh: cles.p256dh, p_auth: cles.auth, p_heure: heure, p_joueur: idJoueur() });
   ecrire(CLE_RAPPEL, { heure, endpoint: sub.endpoint });
+  if (!confirmer) return;
   // Notification de confirmation : prouve que tout fonctionne de bout en bout.
   fetch(`${SUPABASE_URL}/functions/v1/rappels`, {
     method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ essai: sub.endpoint }),
@@ -397,9 +398,32 @@ function initQuotidien() {
   initProfil();
   rattraperPublication();
   window.addEventListener('online', rattraperPublication);
-  // L'abonnement a pu être retiré par le navigateur : on oublie l'état local.
-  if (pushPossible() && lire(CLE_RAPPEL, null)) {
-    abonnementPush().then(sub => { if (!sub) effacer(CLE_RAPPEL); }).catch(() => {});
+  reprendreAncienneAdresse().catch(() => {}).then(() => {
+    // L'abonnement a pu être retiré par le navigateur : on oublie l'état local.
+    if (pushPossible() && lire(CLE_RAPPEL, null)) {
+      abonnementPush().then(sub => { if (!sub) effacer(CLE_RAPPEL); }).catch(() => {});
+    }
+  });
+}
+
+/* Le jeu était publié à …/trivialpursuit/ : le navigateur y garde un service worker qui reçoit
+ * les rappels. Le stockage est commun (même origine) ; on reprend ici l'abonnement aux rappels
+ * et on retire l'ancien service worker. */
+async function reprendreAncienneAdresse() {
+  if (!('serviceWorker' in navigator) || !navigator.serviceWorker.getRegistrations) return;
+  const regs = await navigator.serviceWorker.getRegistrations();
+  for (const reg of regs) {
+    if (!/\/trivialpursuit\/$/.test(reg.scope)) continue;
+    const sub = reg.pushManager ? await reg.pushManager.getSubscription().catch(() => null) : null;
+    if (sub) {
+      await rpc('se_desabonner', { p_endpoint: sub.endpoint }).catch(() => {});
+      await sub.unsubscribe().catch(() => {});
+    }
+    await reg.unregister().catch(() => {});
+    const r = lire(CLE_RAPPEL, null);
+    if (sub && r && pushPossible() && Notification.permission === 'granted') {
+      await activerRappel(r.heure, { confirmer: false }).catch(() => {});
+    }
   }
 }
 

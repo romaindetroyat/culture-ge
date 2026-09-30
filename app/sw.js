@@ -1,5 +1,5 @@
 /* Service worker : tout le jeu est mis en cache pour fonctionner hors ligne. */
-const VERSION = 'culturege-v10';
+const VERSION = 'culturege-v11';
 const FICHIERS = [
   './',
   'index.html',

@@ -24,7 +24,7 @@ dans une application web progressive (PWA) installable sur téléphone et utilis
   - **Rappel quotidien** : notification chaque jour à l'heure choisie (sauf si la carte est déjà
     jouée), avec la série en cours. Sur iPhone, il faut avoir installé l'appli sur l'écran d'accueil.
     Autre possibilité : un rendez-vous quotidien dans Google Agenda ou tout agenda (fichiers
-    `rappels/HHh.ics`).
+    `rappels/HHh.ics`, générés par `scripts/rappels_ics.py`).
 - **Piocher une carte** : pour jouer avec un vrai plateau. Le paquet est mélangé et aucune carte
   ne ressort avant d'avoir vu toutes les autres. On peut piocher dans tout le paquet, ou seulement
   dans la base ou l'extension. Touchez une question pour voir sa réponse.
@@ -136,7 +136,7 @@ ouverte directement depuis le disque (`file://`).
 ## Publier et installer
 
 Le workflow `.github/workflows/pages.yml` publie le dossier `app/` sur GitHub Pages à chaque push
-sur `main`. Il faut l'activer une fois : **Settings → Pages → Source : GitHub Actions**.
+sur `main`, à l'adresse <https://romaindetroyat.github.io/culture-ge/>. Il faut l'activer une fois : **Settings → Pages → Source : GitHub Actions**.
 
 Sur téléphone, ouvrez l'adresse du site puis :
 - Android / Chrome : menu ⋮ → **Installer l'application** (ou le bouton sur l'accueil) ;
@@ -147,3 +147,6 @@ Après la première ouverture, le jeu fonctionne sans connexion.
 ---
 
 Projet personnel indépendant, sans lien avec un éditeur de jeux de société.
+
+Le dossier `redirection/` contient le mini-site publié à l'ancienne adresse
+(`…/trivialpursuit/`, dépôt `trivialpursuit`) : il renvoie vers la nouvelle en gardant la fin des liens.

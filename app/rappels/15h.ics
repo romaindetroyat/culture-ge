@@ -11,8 +11,8 @@ DURATION:PT10M
 RRULE:FREQ=DAILY
 SUMMARY:🎯 Culture Gé : carte du jour
 DESCRIPTION:Six questions\, une par couleur : la même carte pour tout le m
- onde.\nhttps://romaindetroyat.github.io/trivialpursuit/?jour
-URL:https://romaindetroyat.github.io/trivialpursuit/?jour
+ onde.\nhttps://romaindetroyat.github.io/culture-ge/?jour
+URL:https://romaindetroyat.github.io/culture-ge/?jour
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Culture Gé : la carte du jour vous attend
