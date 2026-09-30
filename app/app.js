@@ -764,6 +764,33 @@ let ecouteEnCours = null;
  * quitte le jeu (fin de partie, autre écran, appli en arrière-plan). */
 const ecoutesActives = new Set();
 
+// Safari (et tous les navigateurs d'iPhone) : quand une écoute se termine d'elle-même après une
+// phrase comprise, WebKit la marque finie sans libérer le micro, et ignore ensuite stop() et
+// abort(). Le micro n'est rendu qu'au démarrage d'une autre écoute : on en lance donc une,
+// qu'on arrête dès son démarrage (voir SpeechRecognitionServer::handleRequest dans WebKit).
+const WEBKIT = /AppleWebKit/.test(navigator.userAgent) && !/Chrome\/|Chromium\/|Edg\//.test(navigator.userAgent);
+let purgeEnCours = false;
+
+function libererMicro(essais = 0) {
+  if (!WEBKIT || purgeEnCours || ecoutesActives.size) return;
+  // Pas pendant la lecture : sur iPhone, ouvrir le micro fait passer le son en mode enregistrement.
+  const parle = (lecteur && lecteur.src !== SILENCE && !lecteur.paused && !lecteur.ended) || (Synthese && Synthese.speaking);
+  if (parle) {
+    if (essais < 120) setTimeout(() => libererMicro(essais + 1), 500);
+    return;
+  }
+  let purge;
+  try { purge = new Reco(); } catch { return; }
+  purgeEnCours = true;
+  purge.lang = 'fr-FR';
+  const arreter = () => { try { purge.abort(); } catch { /* déjà arrêtée */ } };
+  purge.onstart = arreter;
+  purge.onresult = arreter;
+  purge.onend = purge.onerror = () => { purgeEnCours = false; };
+  setTimeout(() => { purgeEnCours = false; }, 5000);
+  try { purge.start(); } catch { purgeEnCours = false; }
+}
+
 function nouvelleEcoute() {
   const reco = new Reco();
   reco.lang = 'fr-FR';
@@ -771,7 +798,11 @@ function nouvelleEcoute() {
   reco.maxAlternatives = 5;
   ecoutesActives.add(reco);
   if (reco.addEventListener) {
-    reco.addEventListener('end', () => ecoutesActives.delete(reco));
+    reco.addEventListener('end', () => {
+      ecoutesActives.delete(reco);
+      // Laisse à une écoute suivante (mains libres) le temps de démarrer : elle libère aussi le micro.
+      setTimeout(libererMicro, 400);
+    });
     // Safari ignore une coupure demandée avant que l'écoute ait vraiment démarré : on la renouvelle.
     reco.addEventListener('start', () => { if (reco.coupee) try { reco.abort(); } catch { /* déjà arrêtée */ } });
     // Réponse comprise : on ferme le micro tout de suite (Safari peut sinon continuer d'écouter).
