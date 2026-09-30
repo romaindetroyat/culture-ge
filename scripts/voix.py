@@ -172,6 +172,137 @@ def prononcer(texte):
         t = re.sub(motif, rempl, t)
     return t
 
+# ---------------------------------------------------------------- mots étrangers
+
+# Siwis n'a appris que les sons du français : un son anglais (ɹ, θ, ʊ…) sort déformé. Chaque son
+# étranger est remplacé par le son français le plus proche, comme le ferait un présentateur.
+SONS_FRANCAIS = set(' -abdefijklmnopstuvwyzøŋœɑɔəɛɡɪɲʁʃʒʲˈˌː\u0303,.;:!?…')
+VERS_FRANCAIS = [
+    ('ɪə', 'iʁ'), ('ɪɹ', 'iʁ'), ('eə', 'ɛʁ'), ('ɛə', 'ɛʁ'), ('ʊə', 'uʁ'), ('ɜː', 'œʁ'), ('ɜ', 'œʁ'), ('ɚ', 'œʁ'), ('ɝ', 'œʁ'),
+    ('eɪ', 'ɛj'), ('aɪ', 'aj'), ('ɔɪ', 'ɔj'), ('aʊ', 'aw'), ('əʊ', 'o'), ('oʊ', 'o'),
+    ('ɔː', 'ɔ'), ('ɑː', 'a'), ('uː', 'u'), ('iː', 'i'), ('ɪ', 'i'), ('ʊ', 'u'), ('æ', 'a'), ('ʌ', 'œ'), ('ɒ', 'ɔ'), ('ɐ', 'a'),
+    ('ɹ', 'ʁ'), ('ɾ', 'ʁ'), ('r', 'ʁ'), ('ɻ', 'ʁ'), ('θ', 's'), ('ð', 'z'), ('x', 'ʁ'), ('χ', 'ʁ'), ('ç', 'ʃ'), ('g', 'ɡ'),
+    ('h', ''), ('ɦ', ''), ('ʔ', ''), ('ħ', ''), ('ʕ', ''), ('ʰ', ''), ('\u0329', ''),
+    ('ɬ', 'l'), ('ɫ', 'l'), ('ʎ', 'j'), ('ɣ', 'ɡ'), ('β', 'b'), ('ʏ', 'y'), ('ɵ', 'ø'), ('ɨ', 'i'), ('ᵻ', 'i'), ('ʉ', 'y'),
+    ('ɘ', 'ə'), ('ɕ', 'ʃ'), ('ʑ', 'ʒ'), ('ʐ', 'ʒ'), ('ʂ', 'ʃ'), ('c', 'k'), ('ɟ', 'ɡ'), ('ʋ', 'v'), ('ɭ', 'l'), ('ɳ', 'n'),
+    ('ʈ', 't'), ('ɖ', 'd'), ('q', 'k'), ('ɯ', 'u'), ('ɤ', 'ø'), ('ɱ', 'm'), ('ʝ', 'j'), ('ɸ', 'f'), ('ʍ', 'w'),
+]
+
+
+def franciser(sons, etranger=True, langue='en'):
+    """Sons d'un mot étranger → sons français les plus proches (sinon : seulement les sons connus)."""
+    import unicodedata
+    sons = unicodedata.normalize('NFD', sons)
+    if etranger and langue != 'en':  # espagnol, grec… : « d » et « b » doux
+        sons = sons.replace('ð', 'd').replace('β', 'b')
+    if etranger:
+        for etr, fr in VERS_FRANCAIS:
+            sons = sons.replace(etr, fr)
+    return ''.join(c for c in sons if c in SONS_FRANCAIS)
+
+
+_ESPEAK = None
+
+
+def espeak(texte, langue):
+    """Morceaux (sons, ponctuation, fin de phrase) d'espeak-ng dans une langue (fr, en, de, it, es…)."""
+    global _ESPEAK
+    from piper import espeakbridge
+    if _ESPEAK is None:
+        from piper.phonemize_espeak import ESPEAK_DATA_DIR
+        espeakbridge.initialize(str(ESPEAK_DATA_DIR))
+        _ESPEAK = True
+    espeakbridge.set_voice(langue)
+    return espeakbridge.get_phonemes(texte)
+
+
+def sons_mot(mot, langue):
+    """Sons francisés d'un mot étranger. L'anglais est lu à la britannique (voyelles proches de
+    l'écrit : Potter, Hollywood), avec le « r » final que prononcent les Français (Potteur)."""
+    sons = ' '.join(re.sub(r'\([^)]+\)', '', ph) for ph, _, _ in espeak(mot, langue))
+    if langue == 'en':
+        mots, sons_mots = mot.split(), sons.split()
+        if len(mots) == len(sons_mots):
+            sons_mots = [re.sub(r'(iə|ɪə|eə|ʊə|ə|ɔː|ɑː)$', lambda m: {'ə': 'œʁ', 'iə': 'iʁ', 'ɪə': 'iʁ', 'eə': 'ɛʁ', 'ʊə': 'uʁ', 'ɔː': 'ɔʁ', 'ɑː': 'aʁ'}[m.group(1)], sm)
+                         if re.search(r'r+e?s?$', w.lower()) else sm for w, sm in zip(mots, sons_mots)]
+            sons = ' '.join(sons_mots)
+    return franciser(sons, langue=langue)
+
+
+def sons_lexique(mot, valeur):
+    if valeur.startswith('[['):
+        return franciser(valeur[2:-2])
+    if valeur.startswith('='):
+        return franciser(' '.join(re.sub(r'\([^)]+\)', '', ph) for ph, _, _ in espeak(valeur[1:], 'fr')))
+    return sons_mot(mot, valeur)
+
+
+def lexique():
+    """data/prononciation.json : mot (ou expression) → langue de prononciation (« en », « de », « it »,
+    « es »…), sons imposés en API française (« [[bak]] »), ou graphie lue à la française (« =Bak »)."""
+    chemin = RACINE / 'data' / 'prononciation.json'
+    d = json.loads(chemin.read_text()) if chemin.exists() else {}
+    return {m: v for m, v in d.items() if not m.startswith('_')}
+
+
+_LEXIQUE = None
+
+
+def mots_etrangers(t):
+    """Remplace les mots du lexique par leurs sons, dans un bloc [[ ]] lu tel quel."""
+    global _LEXIQUE
+    if _LEXIQUE is None:
+        lex = lexique()
+        motif = re.compile(r"(?<![\w'’-])(" + '|'.join(re.escape(m) for m in sorted(lex, key=len, reverse=True))
+                           + r")(?![\w-])") if lex else None
+        _LEXIQUE = (motif, lex)
+    motif, lex = _LEXIQUE
+    if not motif:
+        return t
+
+    def sons(m):
+        return '[[' + sons_lexique(m.group(1), lex[m.group(1)]) + ']]'
+    return motif.sub(sons, t)
+
+
+def phonemes(texte):
+    """Sons de chaque phrase, prêts pour la voix. Comme Piper, avec en plus : les mots du lexique,
+    et les mots qu'espeak lit en anglais (marqués « (en)…(fr) ») francisés."""
+    import unicodedata
+    phrases, phrase = [], ''
+    for i, partie in enumerate(re.split(r'(\[\[.*?\]\])', mots_etrangers(prononcer(texte)))):
+        if partie.startswith('[['):
+            phrase += partie[2:-2]
+            continue
+        if not partie.strip():
+            phrase += partie and ' '
+            continue
+        # Ponctuation juste après un bloc [[ ]] : espeak ignorerait une virgule en début de texte.
+        tete = re.match(r'\s*([,;:.!?…])', partie)
+        if tete and i:
+            phrase += tete.group(1)
+            if tete.group(1) in '.!?…':
+                phrases.append(phrase)
+                phrase = ''
+            else:
+                phrase += ' '
+            partie = partie[tete.end():]
+            if not partie.strip():
+                continue
+        elif partie[0].isspace() and phrase and not phrase.endswith(' '):
+            phrase += ' '
+        for sons, ponctuation, fin in espeak(partie, 'fr'):
+            sons = re.sub(r'\((\w+)\)(.*?)(?:\(fr\)|$)', lambda m: franciser(m.group(2)), sons)
+            phrase += franciser(sons, etranger=False) + ponctuation + (' ' if ponctuation and ponctuation in ',:;' else '')
+            if fin and ponctuation and ponctuation in '.!?…':
+                phrases.append(phrase)
+                phrase = ''
+        if partie[-1].isspace() and phrase and not phrase.endswith(' '):
+            phrase += ' '
+    if phrase.strip():
+        phrases.append(phrase)
+    return [list(unicodedata.normalize('NFD', p.lstrip())) for p in phrases if p.strip()]
+
 # ---------------------------------------------------------------- textes à produire
 
 
@@ -216,7 +347,14 @@ def textes():
     return uniques
 
 
+def empreinte(sons):
+    import hashlib
+    return hashlib.sha1('|'.join(''.join(p) for p in sons).encode()).hexdigest()[:12]
+
+
 def produire(dossier, lot=None):
+    """Génère les fichiers manquants, et ceux dont les sons ont changé (lexique, règles) : le fichier
+    sons.tsv du dossier garde l'empreinte des sons de chaque fichier."""
     import numpy as np
     import lameenc
     from piper import PiperVoice
@@ -227,6 +365,11 @@ def produire(dossier, lot=None):
     cfg = SynthesisConfig(length_scale=1.05)
     silence = np.zeros(int(sr * 0.25), dtype=np.int16)
     dossier = Path(dossier)
+    index_chemin = dossier / (f'sons-{lot.replace("/", "-")}.tsv' if lot else 'sons.tsv')
+    index = {}
+    for f in [dossier / 'sons.tsv', index_chemin]:
+        if f.exists():
+            index.update(dict(l.split('\t') for l in f.read_text().split('\n') if l))
     liste = textes()
     if lot:
         i, n = map(int, lot.split('/'))
@@ -234,11 +377,15 @@ def produire(dossier, lot=None):
     faits = 0
     for k, t in liste:
         chemin = dossier / k[:2] / f'{k}.mp3'
-        if chemin.exists():
+        sons_phrases = phonemes(t)
+        e = empreinte(sons_phrases)
+        if chemin.exists() and index.get(k) == e:
             continue
         morceaux = []
-        for ch in voix.synthesize(prononcer(t), syn_config=cfg):
-            morceaux += [ch.audio_int16_array, silence]
+        for sons in sons_phrases:
+            audio = voix.phoneme_ids_to_audio(voix.phonemes_to_ids(sons), cfg)
+            audio = audio / max(float(np.max(np.abs(audio))), 1e-8)
+            morceaux += [(np.clip(audio, -1, 1) * 32767).astype(np.int16), silence]
         pcm = np.concatenate(morceaux[:-1] or [silence]).tobytes()
         enc = lameenc.Encoder()
         enc.set_bit_rate(32)
@@ -247,17 +394,23 @@ def produire(dossier, lot=None):
         enc.set_quality(2)
         chemin.parent.mkdir(parents=True, exist_ok=True)
         chemin.write_bytes(enc.encode(pcm) + enc.flush())
+        index[k] = e
         faits += 1
         if faits % 500 == 0:
             print(lot or '', faits, 'fichiers', flush=True)
-    print(lot or '', 'terminé :', faits, 'nouveaux fichiers', flush=True)
+            index_chemin.write_text(''.join(f'{c}\t{v}\n' for c, v in sorted(index.items())))
+    index_chemin.write_text(''.join(f'{c}\t{v}\n' for c, v in sorted(index.items())))
+    print(lot or '', 'terminé :', faits, 'fichiers produits', flush=True)
 
 
 if __name__ == '__main__':
     commande = sys.argv[1] if len(sys.argv) > 1 else 'liste'
     if commande == 'liste':
         print(len(textes()), 'textes')
+    elif commande == 'mot':  # voix.py mot "Potter" en   → sons qui seront prononcés
+        print(sons_lexique(sys.argv[2], sys.argv[3]))
     elif commande == 'essai':
-        print(prononcer(sys.argv[2]), '→', cle(sys.argv[2]))
+        print(mots_etrangers(prononcer(sys.argv[2])), '→', cle(sys.argv[2]))
+        print(' | '.join(''.join(p) for p in phonemes(sys.argv[2])))
     elif commande == 'produire':
         produire(sys.argv[2], sys.argv[4] if len(sys.argv) > 4 else None)
