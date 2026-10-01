@@ -25,9 +25,6 @@ dans une application web progressive (PWA) installable sur téléphone et utilis
     jouée), avec la série en cours. Sur iPhone, il faut avoir installé l'appli sur l'écran d'accueil.
     Autre possibilité : un rendez-vous quotidien dans Google Agenda ou tout agenda (fichiers
     `rappels/HHh.ics`, générés par `scripts/rappels_ics.py`).
-- **Piocher une carte** : pour jouer avec un vrai plateau. Le paquet est mélangé et aucune carte
-  ne ressort avant d'avoir vu toutes les autres. On peut piocher dans tout le paquet, ou seulement
-  dans la base ou l'extension. Touchez une question pour voir sa réponse.
 - **Solo** : séries de 10, 20 ou 30 questions, ou mode survie (fin à la 3e erreur), sur toutes les
   catégories ou une seule. Une bonne réponse rapporte 1, 2 ou 3 points selon la difficulté, plus 1 point
   de bonus à partir de 3 bonnes réponses d'affilée. Le record de chaque réglage est conservé, et l'écran
@@ -38,7 +35,7 @@ dans une application web progressive (PWA) installable sur téléphone et utilis
   nombres en lettres ou en chiffres romains, variantes entre parenthèses, mots déjà présents dans la
   question) et aux **autres formulations acceptées** préparées par IA pour chaque question
   (synonymes, graphies, sigles, noms courants). On peut toujours corriger le verdict.
-  L'application peut **lire les questions à voix haute** (aussi en partie à plusieurs), et un mode
+  L'application peut **lire les questions à voix haute** (aussi en quiz en groupe), et un mode
   **mains libres** enchaîne lecture de la question, écoute de la réponse, verdict et question suivante.
   En fin de série, **Défier un ami** partage un lien (`?defi=…`) qui contient la série exacte : l'ami
   joue les mêmes questions et voit qui l'emporte. Partage par le menu natif du téléphone, WhatsApp,
@@ -51,17 +48,19 @@ dans une application web progressive (PWA) installable sur téléphone et utilis
 - **Réglages** : prénom affiché dans les défis, choix de la voix de lecture, vitesse. Par défaut,
   la voix **Siwis** lit des fichiers audio préparés pour chaque question et chaque réponse (voir
   *Voix de lecture*) ; les voix du téléphone restent au choix, et servent de secours hors ligne.
-- **Partie sans plateau** : 2 à 6 joueurs. Le dé tire une couleur, une bonne réponse rapporte le
-  camembert de la couleur et permet de rejouer. Avec les 6 camemberts, les autres joueurs choisissent
-  la catégorie de la question finale. Réglages : difficulté des questions, nombre de bonnes
-  réponses nécessaires par camembert. La partie est sauvegardée si l'application est fermée.
+- **Quiz en groupe** : un seul téléphone, celui de l'animateur. On inscrit les joueurs (2 à 12),
+  puis l'animateur lit chaque question à voix haute (ou la fait lire par l'application) ; tout le
+  monde peut répondre à chaque question. L'animateur touche le nom de celui ou celle qui a trouvé en
+  premier (ou « Personne ») : la bonne réponse rapporte 1, 2 ou 3 points selon la difficulté. En
+  touchant la question, l'animateur voit la réponse sans la révéler ; « Corriger » annule un mauvais
+  choix. 10, 20, 30 questions ou sans limite, toutes catégories à tour de rôle ou une seule,
+  difficulté au choix. Classement final partageable ; le quiz est sauvegardé si l'application est
+  fermée, et « Rejouer » garde les joueurs sans reposer les mêmes questions.
 - **Soirée entre amis** : une partie partagée, chacun sur son téléphone. L'hôte crée la partie et
   obtient un code de 4 lettres (et un lien à envoyer par WhatsApp, SMS…) ; les autres le saisissent
-  ou ouvrent le lien, donnent leur prénom et choisissent leur équipe. Deux formules :
-  **tour à tour** (le joueur ou l'équipe dont c'est le tour lance le dé et répond, camemberts
-  comme au vrai jeu ; l'hôte peut aussi lancer et valider une réponse donnée de vive voix) ou
-  **tous ensemble** (même question pour tous, 30 secondes, points selon la difficulté et +1 pour
-  la première bonne réponse ; une équipe marque si l'un de ses membres a trouvé). Seul le
+  ou ouvrent le lien, donnent leur prénom et choisissent leur équipe. Tout le monde répond à la
+  même question sur son téléphone, en 30 secondes : points selon la difficulté et +1 pour la
+  première bonne réponse ; une équipe marque si l'un de ses membres a trouvé. Seul le
   téléphone de l'hôte lit les questions à voix haute. Classement final partageable.
   Il faut une connexion internet : les téléphones communiquent par Supabase Realtime
   (canal éphémère, rien n'est enregistré sur le serveur ; c'est le téléphone de l'hôte qui garde
@@ -69,8 +68,6 @@ dans une application web progressive (PWA) installable sur téléphone et utilis
   plusieurs onglets avec `?reseau=local`.
 - **Parcourir** : recherche plein texte (sans accents), filtre par catégorie et difficulté, ou
   saisie d'un numéro de carte.
-- **Imprimer** : planches A4 de 6 cartes (95 × 92 mm), recto questions / verso réponses en miroir
-  pour une impression recto verso bord long. La taille du texte s'ajuste à chaque carte.
 
 ## Organisation
 
@@ -78,6 +75,7 @@ dans une application web progressive (PWA) installable sur téléphone et utilis
 app/                 la PWA (fichiers statiques, sans étape de construction)
   index.html, styles.css, app.js
   reponse.js         comparaison tolérante des réponses données en solo
+  groupe.js          quiz en groupe : l'animateur lit et désigne qui a trouvé
   quotidien.js       classement du jour, groupes d'amis, rappel quotidien
   profil.js          code de transfert et sauvegarde du profil
   soiree.js          soirée entre amis sur plusieurs téléphones
@@ -106,8 +104,8 @@ Chaque question source a la forme :
 stable, ajouté automatiquement par le script s'il manque.
 
 Le paquet est découpé en **éditions** : la base (cartes 1 à 1000) et l'extension (cartes 1001 et
-suivantes). Une carte déjà composée ne change jamais de numéro ni de questions : des cartes imprimées
-restent valables après une mise à jour.
+suivantes). Une carte déjà composée ne change jamais de numéro ni de questions : les cartes du jour déjà jouées
+et les défis déjà envoyés restent valables après une mise à jour.
 
 ## Modifier les questions
 

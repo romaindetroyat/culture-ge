@@ -1,10 +1,11 @@
 /* Service worker : tout le jeu est mis en cache pour fonctionner hors ligne. */
-const VERSION = 'culturege-v15';
+const VERSION = 'culturege-v16';
 const FICHIERS = [
   './',
   'index.html',
   'styles.css',
   'app.js',
+  'groupe.js',
   'reponse.js',
   'quotidien.js',
   'profil.js',

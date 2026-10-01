@@ -14,7 +14,7 @@ const CLE_SOIREE_NOM_SALLE = 'trivial1000.soiree.salle';
 const LETTRES_CODE = 'ABCDEFGHJKMNPQRSTUVWXYZ';
 const NOMS_EQUIPES = ['Les Bleus', 'Les Roses', 'Les Jaunes', 'Les Verts'];
 const COULEURS_EQUIPES = ['#1f6fd1', '#e0479e', '#f2c200', '#2e9e4f'];
-const DUREE_QUESTION = 30; // secondes, mode « tous ensemble »
+const DUREE_QUESTION = 30; // secondes pour répondre à chaque question
 
 function monId() {
   // En essai local, chaque onglet est un « téléphone » : identifiant propre à l'onglet.
@@ -76,7 +76,7 @@ let soiree = null; // { code, hote: bool, canal, etat, moi }
 let minuterieSoiree = null;
 
 function unites(e) {
-  // Tour à tour : chaque joueur ou chaque équipe est une « unité » qui a son tour et son score.
+  // Chaque joueur, ou chaque équipe, est une « unité » qui a son score.
   if (e.equipes) {
     return e.nomsEquipes.map((nom, i) => ({ id: 'e' + i, nom, couleur: COULEURS_EQUIPES[i], membres: e.joueurs.filter(j => j.equipe === i).map(j => j.id) }));
   }
@@ -87,7 +87,7 @@ function uniteDe(e, joueurId) {
   return unites(e).find(u => u.membres.includes(joueurId));
 }
 
-function scoreDe(e, uniteId) { return e.scores[uniteId] || { points: 0, parts: [] }; }
+function scoreDe(e, uniteId) { return e.scores[uniteId] || { points: 0 }; }
 
 function diffuser() {
   if (!soiree || !soiree.hote) return;
@@ -130,57 +130,18 @@ function traiterAction(a) {
     diffuser();
     return;
   }
-  if (a.type === 'lancer' && e.phase === 'de') {
-    const u = unites(e)[e.tour];
-    if (!u || !(u.membres.includes(a.de) || a.de === e.hote)) return;
-    const cat = CATS[Math.floor(Math.random() * CATS.length)];
-    e.cat = cat.id;
-    e.qid = tirerQuestionSoiree(e, cat.id);
-    e.phase = 'question';
-    e.verdict = null;
-    diffuser();
-    return;
-  }
   if (a.type === 'reponse' && e.phase === 'question') {
     const q = QUESTIONS[e.qid];
     const ok = Reponse.verifier(a.propositions || [a.texte], q.r, { question: q.q, alias: q.a });
-    if (e.mode === 'tour') {
-      const u = unites(e)[e.tour];
-      if (!u || !u.membres.includes(a.de)) return;
-      e.verdict = { ok, texte: a.texte, par: a.de };
-      e.phase = 'resultat';
-      diffuser();
-    } else {
-      if (e.reponses[a.de]) return;
-      e.reponses[a.de] = { texte: a.texte, ok, t: Date.now() };
-      const attendus = e.joueurs.map(j => j.id);
-      if (attendus.every(id => e.reponses[id])) cloreQuestionEnsemble();
-      else diffuser();
-    }
+    if (e.reponses[a.de]) return;
+    e.reponses[a.de] = { texte: a.texte, ok, t: Date.now() };
+    const attendus = e.joueurs.map(j => j.id);
+    if (attendus.every(id => e.reponses[id])) cloreQuestionEnsemble();
+    else diffuser();
   }
 }
 
-/* ---------------- Règles « tour à tour » ---------------- */
-
-function appliquerVerdictTour(ok) {
-  const e = soiree.etat;
-  const u = unites(e)[e.tour];
-  const s = e.scores[u.id] = scoreDe(e, u.id);
-  const complet = s.parts.length === CATS.length;
-  if (ok) {
-    if (complet) { e.phase = 'fin'; e.gagnant = u.id; diffuser(); return; }
-    if (!s.parts.includes(e.cat)) s.parts.push(e.cat);
-    s.points += QUESTIONS[e.qid].d;
-  } else {
-    e.tour = (e.tour + 1) % unites(e).length;
-  }
-  e.phase = 'de';
-  e.qid = null;
-  e.verdict = null;
-  diffuser();
-}
-
-/* ---------------- Règles « tous ensemble » ---------------- */
+/* ---------------- Règles : tout le monde répond à chaque question ---------------- */
 
 function lancerQuestionEnsemble() {
   const e = soiree.etat;
@@ -234,7 +195,7 @@ async function connecter(code, hote) {
   ecrire(CLE_SOIREE_NOM_SALLE, { code, hote });
   if (hote) {
     const e = soiree.etat;
-    if (e.mode === 'ensemble' && e.phase === 'question') {
+    if (e.phase === 'question') {
       clearTimeout(minuterieSoiree);
       minuterieSoiree = setTimeout(() => { if (soiree && soiree.etat.phase === 'question') cloreQuestionEnsemble(); }, Math.max(0, e.finQuestion - Date.now()) + 300);
     }
@@ -286,11 +247,11 @@ async function creerPartie(form) {
   const equipes = form.equipes.value === 'oui';
   const nbEquipes = Number(form.nbEquipes.value);
   const etat = {
-    v: 0, code: genererCode(), mode: form.mode.value, equipes,
+    v: 0, code: genererCode(), mode: 'ensemble', equipes,
     nomsEquipes: equipes ? NOMS_EQUIPES.slice(0, nbEquipes) : [],
     niveau: Number(form.niveau.value), nbQuestions: Number(form.nbQuestions.value),
     joueurs: form.joue.checked ? [{ id: monId(), nom, equipe: equipes ? 0 : null }] : [],
-    hote: monId(), phase: 'salon', tour: 0, scores: {}, utilisees: [], reponses: {}, n: 0,
+    hote: monId(), phase: 'salon', scores: {}, utilisees: [], reponses: {}, n: 0,
   };
   soiree = { code: etat.code, hote: true, etat };
   afficherAttente('Création de la partie…');
@@ -321,16 +282,14 @@ function afficherErreurSoiree(err) {
 }
 
 function tableauScores(e) {
-  const liste = unites(e).map(u => ({ u, s: scoreDe(e, u.id) }));
-  if (e.mode === 'ensemble' || e.phase === 'fin') liste.sort((a, b) => b.s.points - a.s.points);
-  const courant = e.mode === 'tour' ? unites(e)[e.tour] : null;
+  const liste = unites(e).map(u => ({ u, s: scoreDe(e, u.id) })).sort((a, b) => b.s.points - a.s.points);
   return h('div', { class: 'scores' }, liste.map(({ u, s }) =>
-    h('div', { class: 'score' + (courant && courant.id === u.id && e.phase !== 'fin' ? ' actif' : ''), style: u.couleur ? `--c:${u.couleur}` : null },
-      e.mode === 'tour' ? camembert(CATS.map(c => s.parts.includes(c.id))) : h('span', { class: 'points-rond' }, String(s.points)),
+    h('div', { class: 'score', style: u.couleur ? `--c:${u.couleur}` : null },
+      h('span', { class: 'points-rond' }, String(s.points)),
       h('div', {},
         h('div', { class: 'nom' }, u.nom, u.membres.includes(soiree.moi) ? ' (vous)' : ''),
         h('div', { class: 'meta', style: 'font-size:.8rem;color:var(--texte-doux)' },
-          e.mode === 'tour' ? `${s.parts.length}/6 · ${s.points} pts` : `${s.points} pts`,
+          `${s.points} pts`,
           e.equipes ? ` · ${u.membres.length} joueur${u.membres.length > 1 ? 's' : ''}` : '')))));
 }
 
@@ -339,7 +298,7 @@ function carteQuestionSoiree(e, ouvert) {
   const cat = catParId(q.cat);
   return h('article', { class: 'carte' },
     h('div', { class: 'carte-tete' },
-      h('span', {}, e.mode === 'ensemble' ? `QUESTION ${e.n} / ${e.nbQuestions}` : 'QUESTION'),
+      h('span', {}, `QUESTION ${e.n} / ${e.nbQuestions}`),
       h('span', { class: 'num' }, 'N° ' + numero(q.carte + 1))),
     ligneQuestion(cat, [q.q, q.r, q.d], { cliquable: false, ouvert }));
 }
@@ -427,16 +386,13 @@ function rendreAccueilSoiree() {
         h('label', { class: 'champ' }, 'Votre prénom',
           h('input', { type: 'text', name: 'nom', maxlength: 20, value: nom, placeholder: 'Prénom' })),
         h('div', { class: 'choix' },
-          h('label', {}, h('input', { type: 'radio', name: 'mode', value: 'tour', checked: true }), ' Tour à tour (camemberts)'),
-          h('label', {}, h('input', { type: 'radio', name: 'mode', value: 'ensemble' }), ' Tous ensemble (quiz rapide)')),
-        h('div', { class: 'choix' },
           h('label', {}, h('input', { type: 'radio', name: 'equipes', value: 'non', checked: true }), ' Chacun pour soi'),
           h('label', {}, h('input', { type: 'radio', name: 'equipes', value: 'oui' }), ' En équipes'),
           h('label', {}, 'Nombre d\'équipes ', h('select', { name: 'nbEquipes' }, [2, 3, 4].map(n => h('option', { value: n }, String(n)))))),
         h('div', { class: 'choix' },
           h('label', {}, 'Difficulté ', h('select', { name: 'niveau' },
             ['Toutes', 'Faciles', 'Faciles et moyennes', 'Moyennes et difficiles'].map((t, i) => h('option', { value: i }, t)))),
-          h('label', {}, 'Questions (quiz rapide) ', h('select', { name: 'nbQuestions' },
+          h('label', {}, 'Questions ', h('select', { name: 'nbQuestions' },
             [10, 15, 20, 30].map(n => h('option', { value: n }, String(n)))))),
         h('label', { class: 'choix' }, h('input', { type: 'checkbox', name: 'joue', checked: true }), ' Je joue aussi depuis ce téléphone'),
         h('button', { type: 'submit', class: 'btn' }, 'Créer la partie'))));
@@ -447,7 +403,7 @@ function rendreSalon(e) {
   const moi = e.joueurs.find(j => j.id === soiree.moi);
   const lien = `${URL_JEU}?salle=${e.code}`;
   const blocs = [
-    h('p', { class: 'solo-config-rappel' }, e.mode === 'tour' ? 'Tour à tour · camemberts' : `Tous ensemble · ${e.nbQuestions} questions`),
+    h('p', { class: 'solo-config-rappel' }, `${e.nbQuestions} questions · ${DUREE_QUESTION} s par question`),
     h('p', { class: 'code-grand' }, e.code),
     h('p', { class: 'message' }, 'Code à saisir dans « Soirée » sur chaque téléphone, ou lien à partager :'),
     panneauPartage({ titre: 'Partie Culture Gé', texte: `🎲 Rejoins ma partie de Culture Gé ! Code : ${e.code}`, lien }),
@@ -490,63 +446,11 @@ function rendreSalon(e) {
           e.joueurs.forEach(j => { j.equipe = gardees.indexOf(j.equipe); });
           e.nomsEquipes = gardees.map(i => e.nomsEquipes[i]);
         }
-        e.tour = Math.floor(Math.random() * unites(e).length);
-        if (e.mode === 'tour') { e.phase = 'de'; diffuser(); } else lancerQuestionEnsemble();
+        lancerQuestionEnsemble();
       },
     }, prets ? 'Commencer la partie' : 'En attente d\'au moins 2 joueurs')));
   } else {
     blocs.push(h('p', { class: 'message' }, 'L\'hôte lancera la partie quand tout le monde sera là.'));
-  }
-  zone.replaceChildren(...blocs);
-}
-
-function rendreJeuTour(e) {
-  const zone = $('#soiree-contenu');
-  const u = unites(e)[e.tour];
-  const moiJoue = u && u.membres.includes(soiree.moi);
-  const entete = h('p', { class: 'tour-joueur' }, 'À ', h('b', {}, u ? u.nom : '?'), moiJoue ? ' (vous) ' : ' ', 'de jouer');
-  const blocs = [tableauScores(e), entete];
-  if (e.phase === 'de') {
-    const complet = scoreDe(e, u.id).parts.length === 6;
-    blocs.push(h('div', { class: 'de' }, '?'),
-      complet ? h('p', { class: 'message' }, 'Camembert complet : question finale !') : null,
-      moiJoue
-        ? h('button', { type: 'button', class: 'btn', onclick: () => envoyerAction({ type: 'lancer' }) }, 'Lancer le dé')
-        : h('p', { class: 'message' }, `En attente de ${u.nom}…`),
-      !moiJoue && soiree.hote
-        ? h('button', { type: 'button', class: 'btn-lien', onclick: () => envoyerAction({ type: 'lancer' }) }, `Lancer le dé pour ${u.nom}`)
-        : null);
-  } else if (e.phase === 'question') {
-    const q = QUESTIONS[e.qid];
-    blocs.push(carteQuestionSoiree(e, false), boutonLire(`${catParId(q.cat).nom}. ${q.l}`),
-      moiJoue ? formulaireReponse(e, `t${e.utilisees.length}`) : h('p', { class: 'message' }, `${u.nom} réfléchit…`));
-    if (soiree.hote && !moiJoue) {
-      // Réponse donnée à voix haute autour de la table, ou téléphone du joueur absent : l'hôte tranche.
-      blocs.push(h('details', { class: 'arbitrage' },
-        h('summary', {}, 'Réponse donnée de vive voix ?'),
-        h('p', { class: 'reponse-cachee' }, 'Réponse : ', h('b', {}, q.r)),
-        h('div', { class: 'actions' },
-          h('button', { type: 'button', class: 'btn btn-ok', onclick: () => appliquerVerdictTour(true) }, 'Bonne réponse'),
-          h('button', { type: 'button', class: 'btn btn-ko', onclick: () => appliquerVerdictTour(false) }, 'Mauvaise réponse'))));
-    }
-    if (soiree.hote) {
-      direUneFois(`soiree-q-${e.utilisees.length}`, [{ t: `${u.nom},`, s: null }, `${catParId(q.cat).nom}. ${q.l}`]);
-      prechargerVoix(q.r);
-    }
-  } else if (e.phase === 'resultat') {
-    const q = QUESTIONS[e.qid];
-    const v = e.verdict;
-    blocs.push(carteQuestionSoiree(e, true),
-      h('p', { class: 'verdict ' + (v.ok ? 'juste' : 'faux') }, v.ok ? 'Bonne réponse !' : 'Raté !',
-        h('span', { class: 'entendu' }, `Réponse donnée : « ${v.texte} »`)));
-    if (soiree.hote) direUneFois(`soiree-v-${e.utilisees.length}`, v.ok ? 'Bonne réponse !' : ['Raté. La réponse était :', reponseLue(q.r)]);
-    if (soiree.hote) {
-      blocs.push(h('div', { class: 'actions' },
-        h('button', { type: 'button', class: 'btn ' + (v.ok ? 'btn-ok' : 'btn-ko'), onclick: () => appliquerVerdictTour(v.ok) }, 'Continuer')),
-      h('button', { type: 'button', class: 'btn-lien', onclick: () => appliquerVerdictTour(!v.ok) }, v.ok ? 'Compter faux' : 'Compter juste'));
-    } else {
-      blocs.push(h('p', { class: 'message' }, 'L\'hôte valide et passe à la suite.'));
-    }
   }
   zone.replaceChildren(...blocs);
 }
@@ -592,27 +496,26 @@ function rendreJeuEnsemble(e) {
 }
 
 function rendreFinSoiree(e) {
-  const classement = unites(e).map(u => ({ u, s: scoreDe(e, u.id) })).sort((a, b) =>
-    (e.mode === 'tour' ? (b.u.id === e.gagnant) - (a.u.id === e.gagnant) || b.s.parts.length - a.s.parts.length : 0) || b.s.points - a.s.points);
+  const classement = unites(e).map(u => ({ u, s: scoreDe(e, u.id) })).sort((a, b) => b.s.points - a.s.points);
   const premier = classement[0];
-  if (soiree.hote) direUneFois(`soiree-fin-${e.code}-${e.utilisees.length}`, ['Partie terminée.', { t: `Victoire de ${premier.u.nom} !`, s: null }]);
+  if (soiree.hote) direUneFois(`soiree-fin-${e.code}-${e.utilisees.length}`, ['Partie terminée.', { t: `Victoire ${deNom(premier.u.nom)} !`, s: null }]);
   $('#soiree-contenu').replaceChildren(
     h('div', { class: 'hero victoire' },
-      camembert(CATS.map(() => true), 120),
-      h('h2', { style: 'margin-top:14px' }, `Victoire de ${premier.u.nom} !`)),
+      h('p', { class: 'trophee', 'aria-hidden': 'true' }, '🏆'),
+      h('h2', {}, `Victoire ${deNom(premier.u.nom)} !`)),
     h('ol', { class: 'classement' }, classement.map(({ u, s }) =>
-      h('li', {}, h('b', {}, u.nom), ` — ${s.points} pts`, e.mode === 'tour' ? ` · ${s.parts.length}/6 camemberts` : ''))),
+      h('li', {}, h('b', {}, u.nom), ` — ${s.points} pts`))),
     h('h3', {}, 'Partager le résultat'),
     panneauPartage({
       titre: 'Soirée Culture Gé',
-      texte: `🎉 Soirée Culture Gé : victoire de ${premier.u.nom} ! ` + classement.map(({ u, s }, i) => `${i + 1}. ${u.nom} (${s.points} pts)`).join(', '),
+      texte: `🎉 Soirée Culture Gé : victoire ${deNom(premier.u.nom)} ! ` + classement.map(({ u, s }, i) => `${i + 1}. ${u.nom} (${s.points} pts)`).join(', '),
       lien: URL_JEU,
     }),
     h('div', { class: 'actions' },
       soiree.hote ? h('button', {
         type: 'button', class: 'btn',
         onclick: () => {
-          Object.assign(e, { phase: 'salon', tour: 0, scores: {}, utilisees: [], reponses: {}, n: 0, gagnant: null, qid: null, verdict: null });
+          Object.assign(e, { phase: 'salon', scores: {}, utilisees: [], reponses: {}, n: 0, qid: null });
           diffuser();
         },
       }, 'Rejouer avec les mêmes joueurs') : null,
@@ -629,14 +532,19 @@ function rendreSoiree() {
   const saisie = zone.querySelector('.saisie input');
   const brouillon = saisie ? saisie.value : '';
   const cle = zone.querySelector('.repondre') ? zone.querySelector('.repondre').dataset.cle : null;
+  // Partie créée avant le retrait du mode « tour à tour » : elle repart du salon.
+  if (e.mode === 'tour' && soiree.hote) {
+    Object.assign(e, { mode: 'ensemble', nbQuestions: e.nbQuestions || 10, phase: 'salon', scores: {}, utilisees: [], reponses: {}, n: 0, qid: null });
+    diffuser();
+    return;
+  }
   if (e.phase === 'salon') rendreSalon(e);
   else if (e.phase === 'fin') rendreFinSoiree(e);
-  else if (e.mode === 'tour') rendreJeuTour(e);
   else rendreJeuEnsemble(e);
   const nouvelle = zone.querySelector('.saisie input');
   const nouvelleCle = zone.querySelector('.repondre') ? zone.querySelector('.repondre').dataset.cle : null;
   if (nouvelle && brouillon && cle === nouvelleCle) { nouvelle.value = brouillon; nouvelle.focus(); }
-  // Plus de question à laquelle répondre (verdict, tour d'un autre, fin) : le micro se coupe.
+  // Plus de question à laquelle répondre (réponse envoyée, résultat, fin) : le micro se coupe.
   if (!nouvelleCle || nouvelleCle !== cle) couperMicro();
   else if (ecoutesActives.size) zone.querySelectorAll('.btn-micro').forEach(b => b.classList.add('ecoute-active'));
   if (e.phase !== 'fin') zone.append(h('div', { class: 'partie-actions' },

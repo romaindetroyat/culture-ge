@@ -29,12 +29,10 @@
     </a>
     <nav class="topnav">
       <a href="#jour">Du jour</a>
-      <a href="#carte">Piocher</a>
       <a href="#solo">Solo</a>
-      <a href="#partie">Partie</a>
+      <a href="#groupe">Groupe</a>
       <a href="#soiree">Soirée</a>
       <a href="#parcourir">Parcourir</a>
-      <a href="#imprimer">Imprimer</a>
       <a href="#reglages" aria-label="Réglages">⚙︎</a>
     </nav>
   </header>
@@ -54,17 +52,13 @@
         <span class="menu-jour-etat" id="menu-jour-etat">6 questions, une par couleur. La même pour tout le monde.</span>
       </a>
       <div class="menu">
-        <a class="menu-item" href="#carte">
-          <span class="menu-titre">Piocher une carte</span>
-          <span class="menu-desc">Pour jouer avec votre plateau : une carte, six questions, réponses au dos.</span>
-        </a>
         <a class="menu-item" href="#solo">
           <span class="menu-titre">Solo</span>
           <span class="menu-desc">Une série de questions, des points selon la difficulté, et votre record à battre.</span>
         </a>
-        <a class="menu-item" href="#partie">
-          <span class="menu-titre">Partie sans plateau</span>
-          <span class="menu-desc">2 à 6 joueurs, le dé choisit la couleur, premier à remplir son camembert.</span>
+        <a class="menu-item" href="#groupe">
+          <span class="menu-titre">Quiz en groupe</span>
+          <span class="menu-desc">Vous lisez les questions à voix haute, tout le monde répond, vous désignez qui a trouvé.</span>
         </a>
         <a class="menu-item" href="#soiree">
           <span class="menu-titre">Soirée entre amis</span>
@@ -73,10 +67,6 @@
         <a class="menu-item" href="#parcourir">
           <span class="menu-titre">Parcourir les questions</span>
           <span class="menu-desc">Rechercher une question, une réponse ou un numéro de carte.</span>
-        </a>
-        <a class="menu-item" href="#imprimer">
-          <span class="menu-titre">Imprimer les cartes</span>
-          <span class="menu-desc">Planches A4 recto verso, 6 cartes par page, prêtes à découper.</span>
         </a>
       </div>
       <ul class="legende" id="legende"></ul>
@@ -132,21 +122,6 @@
       <p class="sans-voix" id="sans-voix" hidden>La lecture à voix haute n'est pas disponible dans ce navigateur.</p>
     </section>
 
-    <!-- PIOCHE -->
-    <section class="vue" data-vue="carte" hidden>
-      <div class="barre">
-        <span class="barre-info" id="pioche-info"></span>
-        <select id="pioche-paquet" aria-label="Cartes à piocher" hidden></select>
-        <button type="button" class="btn-lien" id="pioche-reset">Remélanger</button>
-      </div>
-      <article class="carte" id="pioche-carte" aria-live="polite"></article>
-      <div class="actions">
-        <button type="button" class="btn btn-clair" id="pioche-retourner">Tout retourner</button>
-        <button type="button" class="btn" id="pioche-suivante">Carte suivante</button>
-      </div>
-      <p class="astuce">Touchez une question pour voir sa réponse.</p>
-    </section>
-
     <!-- SOLO -->
     <section class="vue" data-vue="solo" hidden>
       <div id="solo-config" hidden>
@@ -195,15 +170,30 @@
       <div id="soiree-contenu"></div>
     </section>
 
-    <!-- PARTIE -->
-    <section class="vue" data-vue="partie" hidden>
-      <div id="partie-config" hidden>
-        <h2>Nouvelle partie</h2>
-        <form id="form-partie" class="formulaire">
+    <!-- QUIZ EN GROUPE -->
+    <section class="vue" data-vue="groupe" hidden>
+      <div id="groupe-config" hidden>
+        <h2>Quiz en groupe</h2>
+        <p class="aide">Vous lisez chaque question à voix haute ; tout le monde peut répondre à chaque question.
+          Touchez le nom de celui ou celle qui a trouvé en premier.</p>
+        <form id="form-groupe" class="formulaire">
           <fieldset>
             <legend>Joueurs</legend>
             <div id="liste-joueurs" class="liste-joueurs"></div>
             <button type="button" class="btn-lien" id="ajout-joueur">+ Ajouter un joueur</button>
+          </fieldset>
+          <fieldset>
+            <legend>Nombre de questions</legend>
+            <div class="choix">
+              <label><input type="radio" name="nb" value="10"> 10</label>
+              <label><input type="radio" name="nb" value="20" checked> 20</label>
+              <label><input type="radio" name="nb" value="30"> 30</label>
+              <label><input type="radio" name="nb" value="0"> Sans limite</label>
+            </div>
+          </fieldset>
+          <fieldset>
+            <legend>Catégorie</legend>
+            <div class="choix" id="groupe-cats"></div>
           </fieldset>
           <fieldset>
             <legend>Difficulté des questions</legend>
@@ -217,28 +207,15 @@
           <fieldset class="reglage-voix" hidden>
             <legend>Voix</legend>
             <div class="choix">
-              <label><input type="checkbox" name="lecture"> Lire les questions à voix haute</label>
+              <label><input type="checkbox" name="lecture"> Lire les questions et les réponses à voix haute</label>
             </div>
           </fieldset>
-          <fieldset>
-            <legend>Pour gagner un camembert</legend>
-            <div class="choix">
-              <label><input type="radio" name="requis" value="1" checked> 1 bonne réponse</label>
-              <label><input type="radio" name="requis" value="2"> 2 bonnes réponses</label>
-              <label><input type="radio" name="requis" value="3"> 3 bonnes réponses</label>
-            </div>
-          </fieldset>
+          <p class="regle">Une bonne réponse rapporte des points selon la difficulté de la question :
+            facile 1 point, moyenne 2, difficile 3.</p>
           <button type="submit" class="btn">Commencer</button>
         </form>
       </div>
-
-      <div id="partie-jeu" hidden>
-        <div class="scores" id="scores"></div>
-        <div class="tour" id="tour"></div>
-        <div class="partie-actions">
-          <button type="button" class="btn-lien" id="partie-abandon">Terminer la partie</button>
-        </div>
-      </div>
+      <div id="groupe-jeu" hidden></div>
     </section>
 
     <!-- PARCOURIR -->
@@ -259,38 +236,11 @@
       <button type="button" class="btn btn-clair" id="plus-resultats" hidden>Afficher plus</button>
     </section>
 
-    <!-- IMPRIMER -->
-    <section class="vue" data-vue="imprimer" hidden>
-      <h2>Imprimer les cartes</h2>
-      <p>Chaque planche A4 contient 6 cartes. Les pages alternent <b>recto (questions)</b> et
-        <b>verso (réponses)</b> : imprimez en recto verso, retournement bord long.</p>
-      <form id="form-impression" class="formulaire ligne">
-        <label>De la carte <input type="number" id="imp-de" min="1" value="1" required></label>
-        <label>à la carte <input type="number" id="imp-a" min="1" value="60" required></label>
-        <button type="submit" class="btn">Imprimer</button>
-      </form>
-      <p class="astuce">Conseil : papier 160 g/m² ou plus, et imprimez par tranches de 60 à 120 cartes.</p>
-    </section>
   </main>
-
-  <div id="impression" class="impression" aria-hidden="true"></div>
-
-  <svg width="0" height="0" style="position:absolute" aria-hidden="true">
-    <defs>
-      <g id="camembert">
-        <circle cx="32" cy="32" r="30" fill="#fff"/>
-        <path d="M32 32 L32 5 A27 27 0 0 1 55.4 18.5 Z" fill="#1f6fd1"/>
-        <path d="M32 32 L55.4 18.5 A27 27 0 0 1 55.4 45.5 Z" fill="#e0479e"/>
-        <path d="M32 32 L55.4 45.5 A27 27 0 0 1 32 59 Z" fill="#f2c200"/>
-        <path d="M32 32 L32 59 A27 27 0 0 1 8.6 45.5 Z" fill="#8a5a2b"/>
-        <path d="M32 32 L8.6 45.5 A27 27 0 0 1 8.6 18.5 Z" fill="#2e9e4f"/>
-        <path d="M32 32 L8.6 18.5 A27 27 0 0 1 32 5 Z" fill="#f07c1b"/>
-      </g>
-    </defs>
-  </svg>
 
   <script src="reponse.js"></script>
   <script src="app.js"></script>
+  <script src="groupe.js"></script>
   <script src="quotidien.js"></script>
   <script src="profil.js"></script>
   <script src="soiree.js"></script>
