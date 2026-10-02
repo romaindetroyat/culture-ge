@@ -235,9 +235,11 @@ a.btn { display: inline-block; text-align: center; text-decoration: none; }
 
 @keyframes apparait { from { opacity: 0; transform: translateY(-3px); } to { opacity: 1; transform: none; } }
 
-.niv { display: inline-flex; gap: 2px; margin-left: 6px; vertical-align: middle; }
-.niv i { width: 5px; height: 5px; border-radius: 50%; background: currentColor; opacity: .25; }
-.niv i.on { opacity: 1; }
+.niv {
+  display: inline-block; margin-left: 8px; padding: 1px 7px; border-radius: 999px; vertical-align: middle;
+  font-size: .68rem; font-weight: 800; letter-spacing: .04em; text-transform: uppercase;
+  border: 1px solid currentColor; opacity: .75;
+}
 
 /* ---------- Partie ---------- */
 .formulaire fieldset {

@@ -79,22 +79,21 @@ function typo(t) { return String(t).replace(/\s+([?!:;»])/g, '\u00a0$1').replac
 const styleCat = c => `--c:${c.couleur};--c-texte:${COULEUR_TEXTE[c.id] || c.couleur}`;
 const catParId = id => CATS.find(c => c.id === id);
 
-function niveau(d) {
-  const libelle = ['', 'facile', 'moyenne', 'difficile'][d] || '';
-  return h('span', { class: 'niv', title: `Difficulté ${libelle}`, 'aria-label': `difficulté ${libelle}` },
-    [1, 2, 3].map(i => h('i', { class: i <= d ? 'on' : null })));
+function niveau(niv) {
+  const nom = NOMS_NIVEAUX[niv] || '';
+  return h('span', { class: `niv niv-${niv}`, title: `Niveau ${nom.toLowerCase()}` }, nom);
 }
 
 /* ---------------- Rendu d'une carte ---------------- */
 
-function ligneQuestion(cat, [q, r, d], { ouvert = false, cliquable = true } = {}) {
+function ligneQuestion(cat, [q, r, niv], { ouvert = false, cliquable = true } = {}) {
   const el = h(cliquable ? 'button' : 'div', {
     class: 'ligne-q' + (ouvert ? ' ouvert' : ''),
     style: styleCat(cat),
     type: cliquable ? 'button' : null,
     'aria-expanded': cliquable ? String(ouvert) : null,
   },
-    h('span', { class: 'cat' }, cat.nom, niveau(d)),
+    h('span', { class: 'cat' }, cat.nom, niveau(niv)),
     h('span', { class: 'q' }, q),
     h('span', { class: 'r' }, r),
   );
@@ -110,13 +109,22 @@ function ligneQuestion(cat, [q, r, d], { ouvert = false, cliquable = true } = {}
 
 /* ---------------- Difficulté ---------------- */
 
-// Niveaux proposés (solo, quiz en groupe, soirée) → difficultés de questions retenues.
+// Cinq niveaux de questions (champ niv) : 1 enfant (6 à 10 ans), 2 facile, 3 moyenne,
+// 4 difficile, 5 expert. Une bonne réponse rapporte 1 point jusqu'à moyenne, 2 en difficile, 3 en expert.
+const NOMS_NIVEAUX = ['', 'Enfant', 'Facile', 'Moyenne', 'Difficile', 'Expert'];
+const pointsNiveau = niv => (niv <= 3 ? 1 : niv - 2);
+
+// Réglages proposés (solo, quiz en groupe, soirée) → niveaux de questions retenus.
 const NIVEAUX = {
-  0: [1, 2, 3],
-  1: [1],
-  2: [1, 2],
-  3: [2, 3],
+  0: [2, 3, 4, 5], // toutes (sauf enfants)
+  1: [2],
+  2: [2, 3],
+  3: [3, 4],
+  4: [4, 5],
+  5: [5],
+  6: [1], // enfants
 };
+const NIVEAU_DEFAUT = 2;
 
 /* ---------------- Lecture à voix haute ---------------- */
 
@@ -321,7 +329,7 @@ function initReglagesVoix(form) {
 
 let solo = null;
 const VIES = 3;
-const LIBELLE_NIVEAU = ['toutes difficultés', 'faciles', 'faciles et moyennes', 'moyennes et difficiles'];
+const LIBELLE_NIVEAU = ['tous niveaux', 'faciles', 'faciles et moyennes', 'moyennes et difficiles', 'difficiles et expert', 'expert', 'enfants'];
 
 function sauverSolo() { ecrire(CLE_SOLO, solo); }
 
@@ -339,7 +347,7 @@ function tirerQuestionSolo() {
   if (solo.liste) return solo.liste[solo.historique.length];
   const niveaux = NIVEAUX[solo.niveau] || NIVEAUX[0];
   const dansPartie = new Set(solo.historique.map(e => e.id));
-  const convient = q => (!solo.cat || q.cat === solo.cat) && niveaux.includes(q.d) && !dansPartie.has(q.id);
+  const convient = q => (!solo.cat || q.cat === solo.cat) && niveaux.includes(q.niv) && !dansPartie.has(q.id);
   let vues = new Set(lire(CLE_SOLO_VUES, []));
   let pool = QUESTIONS.filter(q => convient(q) && !vues.has(q.id));
   if (!pool.length) {
@@ -348,6 +356,8 @@ function tirerQuestionSolo() {
     vues = new Set([...vues].filter(id => !aRetirer.has(id)));
     pool = QUESTIONS.filter(convient);
   }
+  // Niveau absent des données (ancienne version en cache) : n'importe quel niveau.
+  if (!pool.length) pool = QUESTIONS.filter(q => (!solo.cat || q.cat === solo.cat) && !dansPartie.has(q.id));
   const q = pool[Math.floor(Math.random() * pool.length)];
   vues.add(q.id);
   ecrire(CLE_SOLO_VUES, [...vues]);
@@ -582,7 +592,7 @@ function rendreSolo() {
     h('div', { class: 'carte-tete' },
       h('span', {}, `${q.d} PT${q.d > 1 ? 'S' : ''}${solo.serie >= 2 ? ' + 1 BONUS' : ''}`),
       h('span', { class: 'num' }, 'N° ' + numero(q.carte + 1))),
-    ligneQuestion(cat, [q.q, q.r, q.d], { cliquable: false, ouvert: solo.phase === 'reponse' }));
+    ligneQuestion(cat, [q.q, q.r, q.niv], { cliquable: false, ouvert: solo.phase === 'reponse' }));
 
   let actions;
   if (solo.phase === 'question') {
@@ -919,6 +929,42 @@ function carteDuJour(n) {
   return (((n - 1) * 787 + 101) % total + total) % total;
 }
 
+// À partir de la carte du jour n°6 (3 octobre 2026) : six questions de tous les niveaux, dans un
+// ordre aléatoire (les cinq niveaux, plus un tiré au sort), au lieu d'une carte du paquet.
+const JOUR_MELANGE = 6;
+
+function aleaJour(graine) { // mulberry32 : même suite pour tout le monde un jour donné
+  let a = graine >>> 0;
+  return () => {
+    a = (a + 0x6D2B79F5) >>> 0;
+    let t = Math.imul(a ^ (a >>> 15), a | 1);
+    t ^= t + Math.imul(t ^ (t >>> 7), t | 61);
+    return ((t ^ (t >>> 14)) >>> 0) / 4294967296;
+  };
+}
+
+let questionsParNiveau = null; // [catégorie][niveau - 1] → identifiants
+
+/** Les six questions (une par couleur, dans l'ordre des catégories) de la carte du jour n. */
+function questionsDuJour(n) {
+  if (n < JOUR_MELANGE) { const c = carteDuJour(n); return CATS.map((_, i) => c * 6 + i); }
+  if (!questionsParNiveau) {
+    questionsParNiveau = CATS.map(c => [1, 2, 3, 4, 5].map(niv => QUESTIONS.filter(q => q.cat === c.id && q.niv === niv).map(q => q.id)));
+  }
+  const alea = aleaJour(Math.imul(n, 2654435761));
+  const niveaux = [1, 2, 3, 4, 5, 1 + Math.floor(alea() * 5)];
+  for (let i = niveaux.length - 1; i > 0; i--) {
+    const j = Math.floor(alea() * (i + 1));
+    [niveaux[i], niveaux[j]] = [niveaux[j], niveaux[i]];
+  }
+  return CATS.map((c, i) => {
+    const niv = niveaux[i];
+    const pool = questionsParNiveau[i][niv - 1].length ? questionsParNiveau[i][niv - 1] : questionsParNiveau[i].find(p => p.length);
+    // Pas de 7919 premier avec la taille du lot : pas de répétition avant d'en avoir fait le tour.
+    return pool[((n * 7919 + (i + 1) * 104729 + niv * 15485863) % pool.length + pool.length) % pool.length];
+  });
+}
+
 function resultatsJour() { return lire(CLE_JOUR, {}); }
 
 function enregistrerJour(s) {
@@ -961,9 +1007,8 @@ function jouerJour() {
   if (solo && solo.mode === 'jour' && solo.jour === n && solo.phase !== 'fin') { location.hash = '#solo'; return; }
   if (solo && solo.phase !== 'fin' && solo.mode !== 'jour'
     && !confirm('Une série est en cours : elle sera abandonnée. Continuer ?')) return;
-  const c = carteDuJour(n);
   derniereLecture = null;
-  nouveauSolo({ mode: 'jour', jour: n, format: '6', cat: '', niveau: 0, liste: CATS.map((_, i) => c * 6 + i) });
+  nouveauSolo({ mode: 'jour', jour: n, format: '6', cat: '', niveau: 0, liste: questionsDuJour(n) });
   location.hash = '#solo';
 }
 
@@ -984,11 +1029,11 @@ function partageJour(n, r) {
 
 function blocResultatJour(n, r, avecDetail) {
   const bonnes = r.res.filter(Boolean).length;
-  const c = carteDuJour(n);
+  const ids = questionsDuJour(n);
   const serie = serieJours();
   const stats = statsJour();
   return h('div', { class: 'jour-resultat' },
-    h('p', { class: 'solo-config-rappel' }, `Carte du jour n°${n} · carte N° ${numero(c + 1)}`),
+    h('p', { class: 'solo-config-rappel' }, n < JOUR_MELANGE ? `Carte du jour n°${n} · carte N° ${numero(carteDuJour(n) + 1)}` : `Carte du jour n°${n}`),
     h('div', { class: 'jour-cases' }, CATS.map((cat, i) =>
       h('span', { class: 'jour-case ' + (r.res[i] ? 'ok' : 'ko'), style: styleCat(cat), title: cat.nom }, r.res[i] ? '✓' : '✗'))),
     h('div', { class: 'solo-total' }, h('b', {}, `${bonnes}/6`), `${r.score} points`),
@@ -1005,9 +1050,9 @@ function blocResultatJour(n, r, avecDetail) {
     avecDetail ? h('div', { class: 'ratees' },
       h('h3', {}, 'Les réponses'),
       h('ol', { class: 'resultats' }, CATS.map((cat, i) => {
-        const q = QUESTIONS[c * 6 + i];
+        const q = QUESTIONS[ids[i]];
         return h('li', { style: styleCat(cat) },
-          h('div', { class: 'meta' }, `${cat.nom} ${r.res[i] ? '✅' : '❌'}`),
+          h('div', { class: 'meta' }, `${cat.nom} ${r.res[i] ? '✅' : '❌'}`, niveau(q.niv)),
           h('div', {}, q.q), h('div', { class: 'r' }, q.r));
       }))) : null);
 }
@@ -1036,7 +1081,7 @@ function rendreJour() {
   zone.replaceChildren(
     invitationGroupeEnAttente(),
     h('h2', {}, `Carte du jour n°${n}`),
-    h('p', {}, 'Six questions, une par couleur : la même carte pour tout le monde aujourd\'hui. Une seule tentative !'),
+    h('p', {}, 'Six questions, une par couleur et de tous les niveaux, de « enfant » à « expert » : la même carte pour tout le monde aujourd\'hui. Une seule tentative !'),
     h('div', { class: 'jour-cases' }, CATS.map(cat => h('span', { class: 'jour-case', style: styleCat(cat), title: cat.nom }))),
     serie ? h('p', { class: 'message' }, `🔥 Série en cours : ${serie} jour${serie > 1 ? 's' : ''}. Ne la cassez pas !`) : null,
     h('div', { class: 'actions' },
@@ -1112,7 +1157,7 @@ function filtrer() {
   const mots = num ? [] : normaliser(texte).split(/\s+/).filter(Boolean);
   resultats = QUESTIONS.filter(q =>
     (!cat || q.cat === cat) &&
-    (!niv || q.d === niv) &&
+    (!niv || q.niv === niv) &&
     (num == null || q.carte + 1 === num) &&
     mots.every(m => INDEX_RECHERCHE[q.id].includes(m)));
   affiches = 0;
@@ -1126,7 +1171,7 @@ function afficherPlus() {
   $('#resultats').append(...lot.map(q => {
     const c = catParId(q.cat);
     return h('li', { style: styleCat(c) },
-      h('div', { class: 'meta' }, `${c.nom} · carte ${numero(q.carte + 1)} · ${q.t}`, niveau(q.d)),
+      h('div', { class: 'meta' }, `${c.nom} · carte ${numero(q.carte + 1)} · ${q.t}`, niveau(q.niv)),
       h('div', {}, q.q),
       h('div', { class: 'r' }, q.r));
   }));
@@ -1193,9 +1238,12 @@ async function demarrer() {
   CATS = DATA.categories;
   DATA.cartes.forEach(carte => carte.forEach(q => { q[0] = typo(q[0]); q[1] = typo(q[1]); }));
   QUESTIONS = [];
-  DATA.cartes.forEach((carte, n) => carte.forEach(([q, r, d, t, a, l], i) => {
-    // a : autres réponses acceptées ; l : texte à lire à voix haute (si différent de l'énoncé).
-    QUESTIONS.push({ id: QUESTIONS.length, carte: n, cat: CATS[i].id, q, r, d, t, a: a || [], l: l || q });
+  // Données d'avant les cinq niveaux (version 1) : difficulté 1 à 3 = moyenne à expert.
+  const decalage = (DATA.version || 1) >= 2 ? 0 : 2;
+  DATA.cartes.forEach((carte, n) => carte.forEach(([q, r, niv, t, a, l], i) => {
+    // niv : niveau 1 à 5 ; d : points ; a : autres réponses acceptées ; l : texte à lire (si différent).
+    niv += decalage;
+    QUESTIONS.push({ id: QUESTIONS.length, carte: n, cat: CATS[i].id, q, r, niv, d: pointsNiveau(niv), t, a: a || [], l: l || q });
   }));
 
   document.querySelectorAll('[data-stat="cartes"]').forEach(e => { e.textContent = DATA.cartes.length; });

@@ -141,12 +141,15 @@
             <div class="choix" id="solo-cats"></div>
           </fieldset>
           <fieldset>
-            <legend>Difficulté des questions</legend>
+            <legend>Niveau des questions</legend>
             <div class="choix">
-              <label><input type="radio" name="niveau" value="0" checked> Toutes</label>
+              <label><input type="radio" name="niveau" value="6"> Enfants (6 à 10 ans)</label>
               <label><input type="radio" name="niveau" value="1"> Faciles</label>
-              <label><input type="radio" name="niveau" value="2"> Faciles et moyennes</label>
+              <label><input type="radio" name="niveau" value="2" checked> Faciles et moyennes</label>
               <label><input type="radio" name="niveau" value="3"> Moyennes et difficiles</label>
+              <label><input type="radio" name="niveau" value="4"> Difficiles et expert</label>
+              <label><input type="radio" name="niveau" value="5"> Expert</label>
+              <label><input type="radio" name="niveau" value="0"> Tous (sauf enfants)</label>
             </div>
           </fieldset>
           <fieldset class="reglage-voix" hidden>
@@ -156,7 +159,7 @@
               <label class="si-micro"><input type="checkbox" name="mainsLibres"> Mains libres : écouter ma réponse après la lecture</label>
             </div>
           </fieldset>
-          <p class="regle">Facile : 1 point · moyenne : 2 · difficile : 3.
+          <p class="regle">Question enfant, facile ou moyenne : 1 point · difficile : 2 · expert : 3.
             À partir de 3 bonnes réponses d'affilée, chaque bonne réponse rapporte 1 point de plus.</p>
           <button type="submit" class="btn">Commencer</button>
         </form>
@@ -196,12 +199,15 @@
             <div class="choix" id="groupe-cats"></div>
           </fieldset>
           <fieldset>
-            <legend>Difficulté des questions</legend>
+            <legend>Niveau des questions</legend>
             <div class="choix">
-              <label><input type="radio" name="niveau" value="0" checked> Toutes</label>
+              <label><input type="radio" name="niveau" value="6"> Enfants (6 à 10 ans)</label>
               <label><input type="radio" name="niveau" value="1"> Faciles</label>
-              <label><input type="radio" name="niveau" value="2"> Faciles et moyennes</label>
+              <label><input type="radio" name="niveau" value="2" checked> Faciles et moyennes</label>
               <label><input type="radio" name="niveau" value="3"> Moyennes et difficiles</label>
+              <label><input type="radio" name="niveau" value="4"> Difficiles et expert</label>
+              <label><input type="radio" name="niveau" value="5"> Expert</label>
+              <label><input type="radio" name="niveau" value="0"> Tous (sauf enfants)</label>
             </div>
           </fieldset>
           <fieldset class="reglage-voix" hidden>
@@ -210,8 +216,8 @@
               <label><input type="checkbox" name="lecture"> Lire les questions et les réponses à voix haute</label>
             </div>
           </fieldset>
-          <p class="regle">Une bonne réponse rapporte des points selon la difficulté de la question :
-            facile 1 point, moyenne 2, difficile 3.</p>
+          <p class="regle">Une bonne réponse rapporte des points selon le niveau de la question :
+            1 point jusqu'à moyenne, 2 en difficile, 3 en expert.</p>
           <button type="submit" class="btn">Commencer</button>
         </form>
       </div>
@@ -225,10 +231,12 @@
         <input type="search" id="recherche" placeholder="Mot-clé ou n° de carte" autocomplete="off">
         <select id="filtre-cat" aria-label="Catégorie"><option value="">Toutes catégories</option></select>
         <select id="filtre-niv" aria-label="Difficulté">
-          <option value="">Toutes difficultés</option>
-          <option value="1">Facile</option>
-          <option value="2">Moyenne</option>
-          <option value="3">Difficile</option>
+          <option value="">Tous niveaux</option>
+          <option value="1">Enfant</option>
+          <option value="2">Facile</option>
+          <option value="3">Moyenne</option>
+          <option value="4">Difficile</option>
+          <option value="5">Expert</option>
         </select>
       </div>
       <p class="resultats-info" id="resultats-info"></p>

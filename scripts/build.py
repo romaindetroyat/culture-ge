@@ -6,12 +6,17 @@
   (une question supprimée des sources y est remplacée par une question de même catégorie) ;
 - valide et nettoie chaque question, écarte les doublons (texte identique ou quasi identique
   avec la même réponse), y compris avec les questions déjà placées sur une carte ;
-- ajoute si besoin de nouvelles cartes, équilibrées en difficulté, jusqu'au nombre demandé ;
+- ajoute si besoin de nouvelles cartes, équilibrées en difficulté, jusqu'au nombre demandé,
+  avec les questions des niveaux choisis (--niveaux) ;
 - écrit app/cartes.json (données de la PWA), data/cartes.csv (pour relire ou éditer),
   data/paquet.json et data/reserve.json (questions valides non utilisées).
 
-Usage : python3 scripts/build.py [--cartes N] [--edition NOM] [--graine 2026]
+Usage : python3 scripts/build.py [--cartes N] [--edition NOM] [--niveaux facile] [--graine 2026]
 Sans --cartes, le nombre de cartes du paquet existant est conservé.
+
+Niveaux (champ d de app/cartes.json, version 2) : 1 enfant, 2 facile, 3 moyenne, 4 difficile,
+5 expert. Dans data/raw/, les questions des premières éditions ont une difficulté « d » de 1 à 3
+(moyenne à expert) ; les questions plus simples portent « niveau » : « enfant » ou « facile ».
 """
 import argparse
 import csv
@@ -34,6 +39,9 @@ CATEGORIES = [
     {"id": "spo", "nom": "Sports & Loisirs", "couleur": "#f07c1b"},
 ]
 
+NIVEAUX = {"enfant": 1, "facile": 2, "moyenne": 3, "difficile": 4, "expert": 5}
+NOMS_NIVEAUX = {v: k for k, v in NIVEAUX.items()}
+
 MOTS_VIDES = set("""le la les un une des de du d l a à au aux en et est qui que quel quelle quels quelles
 dans par pour sur ce cette ces son sa ses il elle on se s y ou où comment combien quoi
 nom appelle appelait t il-t-on""".split())
@@ -53,10 +61,13 @@ def nettoyer(item, source):
     q = " ".join(str(item.get("q", "")).split())
     r = " ".join(str(item.get("r", "")).split())
     t = " ".join(str(item.get("t", "")).split()) or "Divers"
-    try:
-        d = int(item.get("d", 2))
-    except (TypeError, ValueError):
-        d = 2
+    if item.get("niveau") in NIVEAUX:
+        d = NIVEAUX[item["niveau"]]
+    else:
+        try:
+            d = min(3, max(1, int(item.get("d", 2)))) + 2  # anciennes difficultés 1 à 3 → moyenne à expert
+        except (TypeError, ValueError):
+            d = 4
     if not q or not r:
         return None, "question ou réponse vide"
     q = re.sub(r"\s*\?$", " ?", q)
@@ -66,7 +77,7 @@ def nettoyer(item, source):
         return None, "question trop longue"
     if len(r) > 70:
         return None, "réponse trop longue"
-    return {"id": item["id"], "q": q, "r": r, "d": min(3, max(1, d)), "t": t, "src": source}, None
+    return {"id": item["id"], "q": q, "r": r, "d": d, "t": t, "src": source}, None
 
 
 def attribuer_identifiants():
@@ -152,11 +163,12 @@ def selectionner(questions, n, rng):
         return questions, []
     melange = questions[:]
     rng.shuffle(melange)
-    par_niveau = {d: [q for q in melange if q["d"] == d] for d in (1, 2, 3)}
-    quotas = {d: round(n * len(par_niveau[d]) / len(melange)) for d in (1, 2, 3)}
-    quotas[2] += n - sum(quotas.values())
+    niveaux = sorted({q["d"] for q in melange})
+    par_niveau = {d: [q for q in melange if q["d"] == d] for d in niveaux}
+    quotas = {d: round(n * len(par_niveau[d]) / len(melange)) for d in niveaux}
+    quotas[niveaux[len(niveaux) // 2]] += n - sum(quotas.values())
     choisies, reserve = [], []
-    for d in (1, 2, 3):
+    for d in niveaux:
         choisies += par_niveau[d][: quotas[d]]
         reserve += par_niveau[d][quotas[d]:]
     return choisies, reserve
@@ -237,6 +249,8 @@ def main():
     ap.add_argument("--cartes", type=int, default=None, help="nombre total de cartes voulu")
     ap.add_argument("--graine", type=int, default=2026)
     ap.add_argument("--edition", default=None, help="nom de l'édition regroupant les nouvelles cartes")
+    ap.add_argument("--niveaux", default="moyenne,difficile,expert",
+                    help="niveaux des questions des nouvelles cartes (enfant, facile, moyenne, difficile, expert)")
     args = ap.parse_args()
     rng = random.Random(args.graine)
 
@@ -280,7 +294,7 @@ def main():
         if not pool:
             sys.exit(f"Plus de question disponible pour remplacer {qid} (carte {k + 1}).")
         rng.shuffle(pool)
-        pool.sort(key=lambda q: abs(q["d"] - 2))
+        pool.sort(key=lambda q: abs(q["d"] - 4))
         cartes[k][i] = pool.pop(0)
         print(f"  carte {k + 1} : {qid} introuvable, remplacée par {cartes[k][i]['id']}", file=sys.stderr)
 
@@ -290,12 +304,15 @@ def main():
     if a_creer < 0:
         sys.exit(f"Le paquet contient déjà {len(cartes)} cartes : impossible d'en garder seulement {objectif}.")
     if a_creer:
-        a_creer = min([a_creer] + [len(v) for v in libres.values()])
+        voulus = {NIVEAUX[n.strip()] for n in args.niveaux.split(",") if n.strip()}
+        eligibles = {k: [q for q in v if q["d"] in voulus] for k, v in libres.items()}
+        a_creer = min([a_creer] + [len(v) for v in eligibles.values()])
         if len(cartes) + a_creer < objectif:
             print(f"\nAttention : seulement {len(cartes) + a_creer} cartes possibles (objectif {objectif}).")
         choisies = {}
         for cat in CATEGORIES:
-            choisies[cat["id"]], libres[cat["id"]] = selectionner(libres[cat["id"]], a_creer, rng)
+            choisies[cat["id"]], reste = selectionner(eligibles[cat["id"]], a_creer, rng)
+            libres[cat["id"]] = reste + [q for q in libres[cat["id"]] if q["d"] not in voulus]
         debut = len(cartes) + 1
         cartes += composer(choisies, a_creer, rng)
         nom = args.edition or ("Base" if not editions else f"Extension {len(editions)}")
@@ -304,16 +321,16 @@ def main():
 
     for cat, nb_brutes, nb_rejets, nb_doublons in bilan:
         i = CATEGORIES.index(cat)
-        niveaux = [sum(1 for c in cartes if c[i]["d"] == d) for d in (1, 2, 3)]
+        niveaux = [sum(1 for c in cartes if c[i]["d"] == d) for d in range(1, 6)]
         print(f"{cat['nom']:<20} sources {nb_brutes:>5}  rejetées {nb_rejets:>3}  doublons {nb_doublons:>3}"
               f"  en jeu {len(cartes):>5}  réserve {len(reserve[cat['id']]):>4}"
-              f"  (faciles/moyennes/difficiles {niveaux[0]}/{niveaux[1]}/{niveaux[2]})")
+              f"  (enfant/facile/moyenne/difficile/expert {'/'.join(map(str, niveaux))})")
 
     ecrire_paquet(cartes, editions)
 
     alias = charger_alias()
     sortie = {
-        "version": 1,
+        "version": 2,
         "categories": CATEGORIES,
         "editions": editions,
         "cartes": [[enrichir(q, alias) for q in carte] for carte in cartes],
@@ -323,10 +340,10 @@ def main():
 
     with open(os.path.join(RACINE, "data", "cartes.csv"), "w", encoding="utf-8", newline="") as f:
         w = csv.writer(f)
-        w.writerow(["carte", "categorie", "question", "reponse", "difficulte", "theme", "id"])
+        w.writerow(["carte", "categorie", "question", "reponse", "niveau", "theme", "id"])
         for num, carte in enumerate(cartes, 1):
             for cat, q in zip(CATEGORIES, carte):
-                w.writerow([num, cat["nom"], q["q"], q["r"], q["d"], q["t"], q["id"]])
+                w.writerow([num, cat["nom"], q["q"], q["r"], NOMS_NIVEAUX[q["d"]], q["t"], q["id"]])
 
     with open(os.path.join(RACINE, "data", "reserve.json"), "w", encoding="utf-8") as f:
         json.dump({k: [{kk: q[kk] for kk in ("id", "q", "r", "d", "t")} for q in v] for k, v in reserve.items()},

@@ -106,8 +106,9 @@ function envoyerAction(action) {
 function tirerQuestionSoiree(e, catId) {
   const niveaux = NIVEAUX[e.niveau] || NIVEAUX[0];
   const deja = new Set(e.utilisees);
-  let pool = QUESTIONS.filter(q => q.cat === catId && niveaux.includes(q.d) && !deja.has(q.id));
-  if (!pool.length) pool = QUESTIONS.filter(q => q.cat === catId && niveaux.includes(q.d));
+  let pool = QUESTIONS.filter(q => q.cat === catId && niveaux.includes(q.niv) && !deja.has(q.id));
+  if (!pool.length) pool = QUESTIONS.filter(q => q.cat === catId && niveaux.includes(q.niv));
+  if (!pool.length) pool = QUESTIONS.filter(q => q.cat === catId); // niveau absent des données
   const q = pool[Math.floor(Math.random() * pool.length)];
   e.utilisees.push(q.id);
   return q.id;
@@ -300,7 +301,7 @@ function carteQuestionSoiree(e, ouvert) {
     h('div', { class: 'carte-tete' },
       h('span', {}, `QUESTION ${e.n} / ${e.nbQuestions}`),
       h('span', { class: 'num' }, 'N° ' + numero(q.carte + 1))),
-    ligneQuestion(cat, [q.q, q.r, q.d], { cliquable: false, ouvert }));
+    ligneQuestion(cat, [q.q, q.r, q.niv], { cliquable: false, ouvert }));
 }
 
 function formulaireReponse(e, cle) {
@@ -390,8 +391,9 @@ function rendreAccueilSoiree() {
           h('label', {}, h('input', { type: 'radio', name: 'equipes', value: 'oui' }), ' En équipes'),
           h('label', {}, 'Nombre d\'équipes ', h('select', { name: 'nbEquipes' }, [2, 3, 4].map(n => h('option', { value: n }, String(n)))))),
         h('div', { class: 'choix' },
-          h('label', {}, 'Difficulté ', h('select', { name: 'niveau' },
-            ['Toutes', 'Faciles', 'Faciles et moyennes', 'Moyennes et difficiles'].map((t, i) => h('option', { value: i }, t)))),
+          h('label', {}, 'Niveau ', h('select', { name: 'niveau' },
+            [[6, 'Enfants'], [1, 'Faciles'], [2, 'Faciles et moyennes'], [3, 'Moyennes et difficiles'], [4, 'Difficiles et expert'], [5, 'Expert'], [0, 'Tous (sauf enfants)']]
+              .map(([v, t]) => h('option', { value: v, selected: v === NIVEAU_DEFAUT ? true : null }, t)))),
           h('label', {}, 'Questions ', h('select', { name: 'nbQuestions' },
             [10, 15, 20, 30].map(n => h('option', { value: n }, String(n)))))),
         h('label', { class: 'choix' }, h('input', { type: 'checkbox', name: 'joue', checked: true }), ' Je joue aussi depuis ce téléphone'),

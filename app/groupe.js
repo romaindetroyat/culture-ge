@@ -12,15 +12,16 @@ let groupe = null;
 
 function sauverGroupe() { ecrire(CLE_GROUPE, groupe); }
 
-const pointsQuestion = q => q.d; // facile 1, moyenne 2, difficile 3
+const pointsQuestion = q => q.d; // 1 point jusqu'à moyenne, 2 en difficile, 3 en expert
 
 function tirerQuestionGroupe() {
   const niveaux = NIVEAUX[groupe.niveau] || NIVEAUX[0];
   // Toutes catégories : on les fait tourner, comme sur une carte.
   const cat = groupe.cat || CATS[(groupe.n - 1) % CATS.length].id;
   const deja = new Set(groupe.utilisees);
-  let pool = QUESTIONS.filter(q => q.cat === cat && niveaux.includes(q.d) && !deja.has(q.id));
-  if (!pool.length) pool = QUESTIONS.filter(q => q.cat === cat && niveaux.includes(q.d));
+  let pool = QUESTIONS.filter(q => q.cat === cat && niveaux.includes(q.niv) && !deja.has(q.id));
+  if (!pool.length) pool = QUESTIONS.filter(q => q.cat === cat && niveaux.includes(q.niv));
+  if (!pool.length) pool = QUESTIONS.filter(q => q.cat === cat); // niveau absent des données
   const q = pool[Math.floor(Math.random() * pool.length)];
   groupe.utilisees.push(q.id);
   return q.id;
@@ -137,7 +138,7 @@ function rendreGroupe() {
       h('span', {}, `QUESTION ${groupe.n}${groupe.nb ? ' / ' + groupe.nb : ''} · ${pts} PT${pts > 1 ? 'S' : ''}`),
       h('span', { class: 'num' }, 'N° ' + numero(q.carte + 1))),
     // Pendant la question, l'animateur peut toucher la question pour voir la réponse (sans la lire).
-    ligneQuestion(cat, [q.q, q.r, q.d], { cliquable: !reponse, ouvert: reponse }));
+    ligneQuestion(cat, [q.q, q.r, q.niv], { cliquable: !reponse, ouvert: reponse }));
 
   let actions;
   if (!reponse) {
