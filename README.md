@@ -14,8 +14,8 @@ dans une application web progressive (PWA) installable sur téléphone et utilis
 
 ## Ce que fait l'application
 
-- **Carte du jour** : chaque jour, la même carte de 6 questions pour tout le monde, jouable une seule
-  fois. Série de jours consécutifs, statistiques, et partage du résultat façon Wordle (lien `?jour`).
+- **Carte du jour** : chaque jour, les mêmes 6 questions pour tout le monde (une par couleur, de
+  tous les niveaux, de « enfant » à « expert », dans le désordre), jouables une seule fois. Série de jours consécutifs, statistiques, et partage du résultat façon Wordle (lien `?jour`).
   - **Classement du jour** : « vous faites mieux que 72 % des joueurs du jour » et répartition des
     scores (scores anonymes, envoyés une fois la carte jouée, ou dès le retour de la connexion).
   - **Entre amis** : un groupe (code de 6 lettres, lien `?groupe=…` à partager) affiche le score du
@@ -26,7 +26,8 @@ dans une application web progressive (PWA) installable sur téléphone et utilis
     Autre possibilité : un rendez-vous quotidien dans Google Agenda ou tout agenda (fichiers
     `rappels/HHh.ics`, générés par `scripts/rappels_ics.py`).
 - **Solo** : séries de 10, 20 ou 30 questions, ou mode survie (fin à la 3e erreur), sur toutes les
-  catégories ou une seule. Une bonne réponse rapporte 1, 2 ou 3 points selon la difficulté, plus 1 point
+  catégories ou une seule, au niveau choisi (« faciles et moyennes » par défaut). Une bonne réponse
+  rapporte 1 point jusqu'au niveau moyen, 2 en difficile et 3 en expert, plus 1 point
   de bonus à partir de 3 bonnes réponses d'affilée. Le record de chaque réglage est conservé, et l'écran
   de fin détaille le score par catégorie et rappelle les réponses manquées. Les questions déjà vues en
   solo ne reviennent qu'une fois toutes les autres épuisées.
@@ -51,22 +52,22 @@ dans une application web progressive (PWA) installable sur téléphone et utilis
 - **Quiz en groupe** : un seul téléphone, celui de l'animateur. On inscrit les joueurs (2 à 12),
   puis l'animateur lit chaque question à voix haute (ou la fait lire par l'application) ; tout le
   monde peut répondre à chaque question. L'animateur touche le nom de celui ou celle qui a trouvé en
-  premier (ou « Personne ») : la bonne réponse rapporte 1, 2 ou 3 points selon la difficulté. En
+  premier (ou « Personne ») : la bonne réponse rapporte 1, 2 ou 3 points selon le niveau. En
   touchant la question, l'animateur voit la réponse sans la révéler ; « Corriger » annule un mauvais
   choix. 10, 20, 30 questions ou sans limite, toutes catégories à tour de rôle ou une seule,
-  difficulté au choix. Classement final partageable ; le quiz est sauvegardé si l'application est
+  niveau au choix, des questions pour enfants à expert. Classement final partageable ; le quiz est sauvegardé si l'application est
   fermée, et « Rejouer » garde les joueurs sans reposer les mêmes questions.
 - **Soirée entre amis** : une partie partagée, chacun sur son téléphone. L'hôte crée la partie et
   obtient un code de 4 lettres (et un lien à envoyer par WhatsApp, SMS…) ; les autres le saisissent
   ou ouvrent le lien, donnent leur prénom et choisissent leur équipe. Tout le monde répond à la
-  même question sur son téléphone, en 30 secondes : points selon la difficulté et +1 pour la
+  même question sur son téléphone, en 30 secondes : points selon le niveau et +1 pour la
   première bonne réponse ; une équipe marque si l'un de ses membres a trouvé. Seul le
   téléphone de l'hôte lit les questions à voix haute. Classement final partageable.
   Il faut une connexion internet : les téléphones communiquent par Supabase Realtime
   (canal éphémère, rien n'est enregistré sur le serveur ; c'est le téléphone de l'hôte qui garde
   la partie et peut la reprendre s'il se recharge). Pour essayer dans un seul navigateur, ouvrez
   plusieurs onglets avec `?reseau=local`.
-- **Parcourir** : recherche plein texte (sans accents), filtre par catégorie et difficulté, ou
+- **Parcourir** : recherche plein texte (sans accents), filtre par catégorie et niveau, ou
   saisie d'un numéro de carte.
 
 ## Organisation
@@ -97,11 +98,13 @@ supabase/            serveur de la carte du jour : tables et fonctions SQL, envo
 Chaque question source a la forme :
 
 ```json
-{"id": "geo_a_2-017", "q": "Quel fleuve traverse Lyon avant de rejoindre le Rhône ?", "r": "La Saône", "d": 1, "t": "Fleuves"}
+{"id": "geo_facile-017", "q": "Quel fleuve traverse Paris ?", "r": "La Seine", "niveau": "facile", "t": "Fleuves"}
 ```
 
-`d` est la difficulté (1 facile, 2 moyenne, 3 difficile), `t` le sous-thème et `id` un identifiant
-stable, ajouté automatiquement par le script s'il manque.
+`niveau` vaut `enfant` (moins de 10 ans), `facile`, `moyenne`, `difficile` ou `expert`, `t` est le
+sous-thème et `id` un identifiant stable, ajouté automatiquement par le script s'il manque. Les
+premiers fichiers utilisent encore l'ancien champ `d` (1, 2 ou 3), lu comme moyenne, difficile ou
+expert.
 
 Le paquet est découpé en **éditions** : la base (cartes 1 à 1000) et l'extension (cartes 1001 et
 suivantes). Une carte déjà composée ne change jamais de numéro ni de questions : les cartes du jour déjà jouées
@@ -115,13 +118,14 @@ et les défis déjà envoyés restent valables après une mise à jour.
 
    ```sh
    python3 scripts/build.py                                   # garde le paquet tel quel
-   python3 scripts/build.py --cartes 2000 --edition "Extension 2"   # ajoute des cartes
+   python3 scripts/build.py --cartes 2400 --edition "Facile" --niveaux facile   # ajoute des cartes
    ```
 
    Le script valide les questions et écarte les doublons, y compris avec les questions déjà
    placées sur une carte. Une question corrigée garde sa place ; une question supprimée est
-   remplacée par une question de la réserve de même catégorie. Les nouvelles cartes reprennent
-   la répartition de difficulté et sont équilibrées entre elles.
+   remplacée par une question de la réserve de même catégorie. Les nouvelles cartes ne prennent
+   que les questions des niveaux demandés (par défaut moyenne, difficile et expert), en gardant
+   leur répartition, et sont équilibrées entre elles.
 3. Incrémentez `VERSION` dans `app/sw.js` pour que les téléphones récupèrent la mise à jour.
 4. Produisez les fichiers audio des textes nouveaux ou modifiés (voir *Voix de lecture*) ; en
    attendant, l'application lit ces textes avec la voix du téléphone.
