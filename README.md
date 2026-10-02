@@ -1,6 +1,8 @@
 # Culture Gé
 
-Jeu de culture générale : **1833 cartes de 6 questions** (base de 1000 cartes + extension de 833), soit près de 11 000 questions en français,
+Jeu de culture générale : **2830 cartes de 6 questions** (base de 1000 cartes, extension de 833, édition
+« Facile » de 498 et édition « Enfant » de 499), soit près de 17 000 questions en français, sur cinq
+niveaux (enfant, facile, moyenne, difficile, expert),
 dans une application web progressive (PWA) installable sur téléphone et utilisable hors ligne.
 
 | Couleur | Catégorie |
@@ -106,8 +108,11 @@ sous-thème et `id` un identifiant stable, ajouté automatiquement par le script
 premiers fichiers utilisent encore l'ancien champ `d` (1, 2 ou 3), lu comme moyenne, difficile ou
 expert.
 
-Le paquet est découpé en **éditions** : la base (cartes 1 à 1000) et l'extension (cartes 1001 et
-suivantes). Une carte déjà composée ne change jamais de numéro ni de questions : les cartes du jour déjà jouées
+Le paquet est découpé en **éditions** : la base (cartes 1 à 1000) et l'extension (1001 à 1833), aux
+questions moyennes, difficiles et expert, puis l'édition « Facile » (1834 à 2331) et l'édition
+« Enfant » (2332 à 2830). Les questions « enfant » forment un jeu à part : elles ne sont proposées
+qu'avec le niveau « Enfants » (et dans la carte du jour), et ne sont comparées qu'entre elles pour
+écarter les doublons. Une carte déjà composée ne change jamais de numéro ni de questions : les cartes du jour déjà jouées
 et les défis déjà envoyés restent valables après une mise à jour.
 
 ## Modifier les questions
