@@ -437,9 +437,16 @@ const ecoutesActives = new Set();
 // qu'on arrête dès son démarrage (voir SpeechRecognitionServer::handleRequest dans WebKit).
 const WEBKIT = /AppleWebKit/.test(navigator.userAgent) && !/Chrome\/|Chromium\/|Edg\//.test(navigator.userAgent);
 let purgeEnCours = false;
+let microAPurger = false; // une écoute a servi depuis la dernière purge : le micro est peut-être encore pris
+
+/** Mains libres en pleine série : la prochaine écoute reprend le micro (et rend l'ancien) ; une purge
+ * entre deux questions ferait seulement clignoter le micro. */
+function ecouteAttendue() {
+  return !!Reco && enJeu('solo') && !!solo && solo.phase !== 'fin' && prefsVoix().mainsLibres;
+}
 
 function libererMicro(essais = 0) {
-  if (!WEBKIT || purgeEnCours || ecoutesActives.size) return;
+  if (!WEBKIT || !microAPurger || purgeEnCours || ecoutesActives.size || ecouteAttendue()) return;
   // Pas pendant la lecture : sur iPhone, ouvrir le micro fait passer le son en mode enregistrement.
   const parle = (lecteur && lecteur.src !== SILENCE && !lecteur.paused && !lecteur.ended) || (Synthese && Synthese.speaking);
   if (parle) {
@@ -451,7 +458,7 @@ function libererMicro(essais = 0) {
   purgeEnCours = true;
   purge.lang = 'fr-FR';
   const arreter = () => { try { purge.abort(); } catch { /* déjà arrêtée */ } };
-  purge.onstart = arreter;
+  purge.onstart = () => { microAPurger = false; arreter(); };
   purge.onresult = arreter;
   purge.onend = purge.onerror = () => { purgeEnCours = false; };
   setTimeout(() => { purgeEnCours = false; }, 5000);
@@ -460,6 +467,7 @@ function libererMicro(essais = 0) {
 
 function nouvelleEcoute() {
   const reco = new Reco();
+  microAPurger = true;
   reco.lang = 'fr-FR';
   reco.interimResults = true;
   reco.maxAlternatives = 5;
@@ -488,6 +496,7 @@ function couperMicro() {
   }
   ecoutesActives.clear();
   ecouteEnCours = null;
+  setTimeout(libererMicro, 400); // écoute finie d'elle-même plus tôt : micro peut-être encore pris (Safari)
   const bouton = $('#btn-micro');
   if (bouton) {
     bouton.classList.remove('ecoute-active');
