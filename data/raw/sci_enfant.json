@@ -1,0 +1,3656 @@
+[
+ {
+  "id": "sci_enfant-001",
+  "q": "Quel verbe désigne le cri du chat ?",
+  "r": "Miauler",
+  "t": "Cris d'animaux",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-002",
+  "q": "Que fait le chien quand il dit « ouaf ouaf » ?",
+  "r": "Il aboie",
+  "t": "Cris d'animaux",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-003",
+  "q": "Que fait le lion quand il pousse son grand cri terrible ?",
+  "r": "Il rugit",
+  "t": "Cris d'animaux",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-004",
+  "q": "Que fait le loup quand il lance un long « aouuuh » dans la nuit ?",
+  "r": "Il hurle",
+  "t": "Cris d'animaux",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-005",
+  "q": "Que fait le cochon quand il dit « groin groin » ?",
+  "r": "Il grogne",
+  "t": "Cris d'animaux",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-006",
+  "q": "Quel animal sans pattes fait « sssss » en sortant sa langue ?",
+  "r": "Le serpent",
+  "t": "Cris d'animaux",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-007",
+  "q": "Quel animal de compagnie halète en tirant la langue quand il a très chaud ?",
+  "r": "Le chien",
+  "t": "Animaux de compagnie",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-008",
+  "q": "Que fait l'abeille quand elle vole en faisant « bzzz » ?",
+  "r": "Elle bourdonne",
+  "t": "Cris d'animaux",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-009",
+  "q": "Que fait le chat quand il est content et qu'on le caresse ?",
+  "r": "Il ronronne",
+  "t": "Cris d'animaux",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-010",
+  "q": "Comment appelle-t-on le petit du chat ?",
+  "r": "Le chaton",
+  "t": "Bébés animaux",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-011",
+  "q": "Comment appelle-t-on le petit du chien ?",
+  "r": "Le chiot",
+  "t": "Bébés animaux",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-012",
+  "q": "Comment appelle-t-on le petit de la poule ?",
+  "r": "Le poussin",
+  "t": "Bébés animaux",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-013",
+  "q": "Comment appelle-t-on le petit de la vache ?",
+  "r": "Le veau",
+  "t": "Bébés animaux",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-014",
+  "q": "Comment appelle-t-on le petit du mouton ?",
+  "r": "L'agneau",
+  "t": "Bébés animaux",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-015",
+  "q": "Comment appelle-t-on le petit du cheval ?",
+  "r": "Le poulain",
+  "t": "Bébés animaux",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-016",
+  "q": "Comment appelle-t-on le petit du lion ?",
+  "r": "Le lionceau",
+  "t": "Bébés animaux",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-017",
+  "q": "Comment appelle-t-on le petit de l'ours ?",
+  "r": "L'ourson",
+  "t": "Bébés animaux",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-018",
+  "q": "Comment appelle-t-on le petit de la girafe ?",
+  "r": "Le girafon",
+  "t": "Bébés animaux",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-019",
+  "q": "Comment appelle-t-on le petit de la baleine ?",
+  "r": "Le baleineau",
+  "t": "Bébés animaux",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-020",
+  "q": "Comment appelle-t-on un petit oiseau qui vient de sortir de l'œuf ?",
+  "r": "L'oisillon",
+  "t": "Bébés animaux",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-021",
+  "q": "Avant de devenir papillon, quel petit animal mange des feuilles en rampant ?",
+  "r": "La chenille",
+  "t": "Bébés animaux",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-022",
+  "q": "Comment appelle-t-on le petit de la mouche, qui ressemble à un petit ver blanc ?",
+  "r": "L'asticot",
+  "t": "Bébés animaux",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-023",
+  "q": "Comment appelle-t-on la femelle du mouton ?",
+  "r": "La brebis",
+  "t": "Familles d'animaux",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-024",
+  "q": "Quel petit poisson orangé vit souvent dans un bocal à la maison ?",
+  "r": "Le poisson rouge",
+  "t": "Animaux de compagnie",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-025",
+  "q": "Quel oiseau blanc, symbole de la paix, est souvent dessiné avec un rameau d'olivier dans le bec ?",
+  "r": "La colombe",
+  "t": "Oiseaux",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-026",
+  "q": "Comment appelle-t-on la femelle du cochon ?",
+  "r": "La truie",
+  "t": "Familles d'animaux",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-027",
+  "q": "Comment appelle-t-on la femelle du canard ?",
+  "r": "La cane",
+  "t": "Familles d'animaux",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-028",
+  "q": "Dans la savane, quel grand félin femelle part le plus souvent à la chasse pour nourrir sa troupe ?",
+  "r": "La lionne",
+  "t": "Familles d'animaux",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-029",
+  "q": "Comment s'appelle la maison en bois où l'apiculteur élève ses abeilles ?",
+  "r": "La ruche",
+  "t": "Maisons des animaux",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-030",
+  "q": "Comment s'appelle le trou creusé sous la terre où vit le lapin sauvage ?",
+  "r": "Le terrier",
+  "t": "Maisons des animaux",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-031",
+  "q": "Dans quelle petite cabane du jardin dort parfois le chien ?",
+  "r": "La niche",
+  "t": "Maisons des animaux",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-032",
+  "q": "Comment s'appelle le bâtiment de la ferme où dorment les chevaux ?",
+  "r": "L'écurie",
+  "t": "Maisons des animaux",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-033",
+  "q": "Comment s'appelle le bâtiment de la ferme où dorment les vaches ?",
+  "r": "L'étable",
+  "t": "Maisons des animaux",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-034",
+  "q": "Comment s'appelle le bâtiment de la ferme où dorment les moutons ?",
+  "r": "La bergerie",
+  "t": "Maisons des animaux",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-035",
+  "q": "Comment s'appelle l'endroit de la ferme où vivent les cochons ?",
+  "r": "La porcherie",
+  "t": "Maisons des animaux",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-036",
+  "q": "Que construit l'oiseau avec des brindilles pour y pondre ses œufs ?",
+  "r": "Un nid",
+  "t": "Maisons des animaux",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-037",
+  "q": "Que tisse l'araignée pour attraper les mouches ?",
+  "r": "Sa toile",
+  "t": "Maisons des animaux",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-038",
+  "q": "Comment s'appelle l'abri, souvent caché dans une grotte, où l'ours passe l'hiver ?",
+  "r": "La tanière",
+  "t": "Maisons des animaux",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-039",
+  "q": "Comment s'appelle la cage où l'on élève des lapins à la ferme ?",
+  "r": "Le clapier",
+  "t": "Maisons des animaux",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-040",
+  "q": "Comment s'appelle la maison dure que la tortue porte sur son dos ?",
+  "r": "La carapace",
+  "t": "Maisons des animaux",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-041",
+  "q": "Quel animal ressemble à un escargot, mais sans coquille ?",
+  "r": "La limace",
+  "t": "Petites bêtes",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-042",
+  "q": "Quel animal de la ferme se roule dans la boue pour se rafraîchir ?",
+  "r": "Le cochon",
+  "t": "Animaux de la ferme",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-043",
+  "q": "Que pond la poule ?",
+  "r": "Des œufs",
+  "t": "Animaux de la ferme",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-044",
+  "q": "Quelle boisson blanche nous donne la vache ?",
+  "r": "Le lait",
+  "t": "Animaux de la ferme",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-045",
+  "q": "Comment s'appellent les pieds durs du cheval ?",
+  "r": "Les sabots",
+  "t": "Animaux de la ferme",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-046",
+  "q": "Quel oiseau est l'un des symboles de la France ?",
+  "r": "Le coq",
+  "t": "Animaux de la ferme",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-047",
+  "q": "Combien de pattes a une araignée ?",
+  "r": "8",
+  "t": "Pattes",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-048",
+  "q": "Combien de bras a une pieuvre ?",
+  "r": "8",
+  "t": "Pattes",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-049",
+  "q": "Combien de pattes a une poule ?",
+  "r": "2",
+  "t": "Pattes",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-050",
+  "q": "Combien de pattes a un serpent ?",
+  "r": "Aucune",
+  "t": "Pattes",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-051",
+  "q": "Combien de bras a le plus souvent une étoile de mer ?",
+  "r": "5",
+  "t": "Pattes",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-052",
+  "q": "Combien de pattes a un crabe, en comptant ses deux pinces ?",
+  "r": "10",
+  "t": "Pattes",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-053",
+  "q": "Combien d'ailes a un papillon ?",
+  "r": "4",
+  "t": "Insectes",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-054",
+  "q": "Combien d'antennes a une fourmi ?",
+  "r": "2",
+  "t": "Insectes",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-055",
+  "q": "Comment s'appellent les deux longs fils sur la tête des insectes, qui leur servent à toucher et à sentir ?",
+  "r": "Les antennes",
+  "t": "Insectes",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-056",
+  "q": "En combien de parties est divisé le corps d'un insecte ?",
+  "r": "3",
+  "t": "Insectes",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-057",
+  "q": "Que mange surtout la vache dans les prés ?",
+  "r": "De l'herbe",
+  "t": "Ce que mangent les animaux",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-058",
+  "q": "Quel petit animal roux à la queue en panache cache des noisettes pour l'hiver ?",
+  "r": "L'écureuil",
+  "t": "Ce que mangent les animaux",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-059",
+  "q": "Quel liquide sucré les abeilles vont-elles chercher dans les fleurs pour faire le miel ?",
+  "r": "Le nectar",
+  "t": "Insectes",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-060",
+  "q": "Que mange la chenille pour grandir ?",
+  "r": "Des feuilles",
+  "t": "Ce que mangent les animaux",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-061",
+  "q": "Comment appelle-t-on un animal qui ne mange que des plantes ?",
+  "r": "Un herbivore",
+  "t": "Ce que mangent les animaux",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-062",
+  "q": "Comment appelle-t-on un animal qui mange de la viande ?",
+  "r": "Un carnivore",
+  "t": "Ce que mangent les animaux",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-063",
+  "q": "Comment appelle-t-on un animal qui mange de tout, des plantes comme de la viande ?",
+  "r": "Un omnivore",
+  "t": "Ce que mangent les animaux",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-064",
+  "q": "Quel petit rongeur gris est l'une des proies préférées du chat et de la chouette ?",
+  "r": "La souris",
+  "t": "Ce que mangent les animaux",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-065",
+  "q": "Quel animal marin l'ours polaire chasse-t-il surtout sur la banquise ?",
+  "r": "Le phoque",
+  "t": "Ce que mangent les animaux",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-066",
+  "q": "Quel petit animal couvert de piquants mange des limaces dans le jardin ?",
+  "r": "Le hérisson",
+  "t": "Animaux du jardin",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-067",
+  "q": "Quel animal au très long cou mange les feuilles en haut des arbres ?",
+  "r": "La girafe",
+  "t": "Animaux sauvages",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-068",
+  "q": "Avec quoi la grenouille attrape-t-elle les mouches ?",
+  "r": "Sa langue",
+  "t": "Ce que mangent les animaux",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-069",
+  "q": "Que va pêcher le manchot quand il plonge dans la mer ?",
+  "r": "Des poissons",
+  "t": "Ce que mangent les animaux",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-070",
+  "q": "Quel insecte fabrique le miel ?",
+  "r": "L'abeille",
+  "t": "Insectes",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-071",
+  "q": "Quel animal aux longues oreilles, cousin du lapin, court très vite dans les champs ?",
+  "r": "Le lièvre",
+  "t": "Animaux sauvages",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-072",
+  "q": "Comment s'appelle la personne qui élève des abeilles ?",
+  "r": "L'apiculteur",
+  "t": "Insectes",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-073",
+  "q": "Quel grand poisson de mer a plusieurs rangées de dents, qui repoussent quand elles tombent ?",
+  "r": "Le requin",
+  "t": "Animaux de la mer",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-074",
+  "q": "Quelle chenille fabrique un fil tout fin qui sert à faire de beaux foulards ?",
+  "r": "Le ver à soie",
+  "t": "Insectes",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-075",
+  "q": "Quel petit insecte rouge à points noirs est censé porter bonheur ?",
+  "r": "La coccinelle",
+  "t": "Insectes",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-076",
+  "q": "Avec quoi le papillon aspire-t-il le nectar des fleurs ?",
+  "r": "Sa trompe",
+  "t": "Insectes",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-077",
+  "q": "Quel petit insecte nous pique le soir et laisse un bouton qui gratte ?",
+  "r": "Le moustique",
+  "t": "Insectes",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-078",
+  "q": "Quel tout petit insecte peut vivre dans les cheveux et nous faire gratter la tête ?",
+  "r": "Le pou",
+  "t": "Insectes",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-079",
+  "q": "Quel gros insecte rond et poilu butine les fleurs comme l'abeille ?",
+  "r": "Le bourdon",
+  "t": "Insectes",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-080",
+  "q": "Quel petit insecte marche en longues files sur le sol et vit en colonie avec sa reine ?",
+  "r": "La fourmi",
+  "t": "Insectes",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-081",
+  "q": "Quel grand reptile aux dents pointues se cache dans l'eau des fleuves, en ne laissant dépasser que ses yeux ?",
+  "r": "Le crocodile",
+  "t": "Animaux sauvages",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-082",
+  "q": "Comment appelle-t-on les animaux dont les mamans nourrissent les petits avec leur lait ?",
+  "r": "Les mammifères",
+  "t": "Classer les animaux",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-083",
+  "q": "Comment appelle-t-on un animal qui pond des œufs ?",
+  "r": "Ovipare",
+  "t": "Classer les animaux",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-084",
+  "q": "Avec quoi les poissons respirent-ils sous l'eau ?",
+  "r": "Les branchies",
+  "t": "Classer les animaux",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-085",
+  "q": "Comment s'appellent les sortes de petites rames qui aident les poissons à avancer dans l'eau ?",
+  "r": "Les nageoires",
+  "t": "Classer les animaux",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-086",
+  "q": "De quoi le corps des oiseaux est-il couvert ?",
+  "r": "De plumes",
+  "t": "Classer les animaux",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-087",
+  "q": "Comment appelle-t-on le changement de peau du serpent quand il grandit ?",
+  "r": "La mue",
+  "t": "Classer les animaux",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-088",
+  "q": "Comment appelle-t-on un animal qui vit surtout la nuit, comme la chouette ?",
+  "r": "Un animal nocturne",
+  "t": "Classer les animaux",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-089",
+  "q": "Comment appelle-t-on les animaux qui vivent dans l'eau puis sur terre, comme la grenouille ?",
+  "r": "Les amphibiens",
+  "t": "Classer les animaux",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-090",
+  "q": "Avec quoi l'éléphant boit-il et attrape-t-il sa nourriture ?",
+  "r": "Sa trompe",
+  "t": "Animaux sauvages",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-091",
+  "q": "Sur quel continent vit l'éléphant aux plus grandes oreilles ?",
+  "r": "L'Afrique",
+  "t": "Animaux sauvages",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-092",
+  "q": "Quel est le plus gros animal qui vit sur la terre ferme ?",
+  "r": "L'éléphant",
+  "t": "Animaux sauvages",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-093",
+  "q": "Quel animal d'Afrique, cousin du cheval, a un pelage blanc à rayures noires ?",
+  "r": "Le zèbre",
+  "t": "Animaux sauvages",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-094",
+  "q": "Quel grand félin a un pelage orange à rayures noires ?",
+  "r": "Le tigre",
+  "t": "Animaux sauvages",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-095",
+  "q": "Quel animal d'Australie se déplace en faisant de grands bonds sur ses pattes arrière ?",
+  "r": "Le kangourou",
+  "t": "Animaux sauvages",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-096",
+  "q": "Quel gros animal porte une ou deux cornes sur le nez ?",
+  "r": "Le rhinocéros",
+  "t": "Animaux sauvages",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-097",
+  "q": "Quel très gros animal d'Afrique, dont le nom veut dire « cheval du fleuve », passe ses journées dans l'eau ?",
+  "r": "L'hippopotame",
+  "t": "Animaux sauvages",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-098",
+  "q": "De quelle couleur est le pelage de l'ours polaire ?",
+  "r": "Blanc",
+  "t": "Animaux sauvages",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-099",
+  "q": "Quel grand animal de la forêt, dont la femelle est la biche, porte des bois qui tombent et repoussent chaque année ?",
+  "r": "Le cerf",
+  "t": "Animaux sauvages",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-100",
+  "q": "Par quelle partie une plante boit-elle l'eau de la terre ?",
+  "r": "Les racines",
+  "t": "Plantes",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-101",
+  "q": "Que met-on dans la terre pour faire pousser une nouvelle plante ?",
+  "r": "Une graine",
+  "t": "Plantes",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-102",
+  "q": "Une plante enfermée longtemps dans le noir jaunit : de quoi manque-t-elle ?",
+  "r": "De lumière",
+  "t": "Plantes",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-103",
+  "q": "Comment s'appelle le moment où une graine se réveille et commence à pousser ?",
+  "r": "La germination",
+  "t": "Plantes",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-104",
+  "q": "Comment s'appelle la grosse tige d'un arbre, entre les racines et les branches ?",
+  "r": "Le tronc",
+  "t": "Arbres",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-105",
+  "q": "Comment appelle-t-on la « peau » dure qui recouvre le tronc d'un arbre ?",
+  "r": "L'écorce",
+  "t": "Arbres",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-106",
+  "q": "Comment s'appelle la petite boule sur une branche d'où sortira une feuille ou une fleur ?",
+  "r": "Le bourgeon",
+  "t": "Arbres",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-107",
+  "q": "Comment s'appelle le liquide qui circule à l'intérieur des plantes ?",
+  "r": "La sève",
+  "t": "Plantes",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-108",
+  "q": "Comment s'appelle la partie de la fleur qui la tient droite, entre les racines et la fleur ?",
+  "r": "La tige",
+  "t": "Fleurs",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-109",
+  "q": "Comment s'appellent les parties colorées d'une fleur, souvent douces comme du tissu ?",
+  "r": "Les pétales",
+  "t": "Fleurs",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-110",
+  "q": "Comment s'appellent les feuilles fines et piquantes du sapin ?",
+  "r": "Les aiguilles",
+  "t": "Arbres",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-111",
+  "q": "Sur quel arbre poussent les fruits qui servent à faire le cidre ?",
+  "r": "Le pommier",
+  "t": "Arbres fruitiers",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-112",
+  "q": "Sur quelle plante grimpante pousse le raisin ?",
+  "r": "La vigne",
+  "t": "Arbres fruitiers",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-113",
+  "q": "De quel arbre du Canada tire-t-on un sirop sucré que l'on verse sur les crêpes ?",
+  "r": "L'érable",
+  "t": "Arbres",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-114",
+  "q": "Comment s'appelle un endroit planté de nombreux arbres fruitiers ?",
+  "r": "Un verger",
+  "t": "Jardin",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-115",
+  "q": "Comment s'appelle le coin du jardin où l'on cultive des légumes ?",
+  "r": "Le potager",
+  "t": "Jardin",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-116",
+  "q": "Chez quel commerçant achète-t-on un bouquet de roses ?",
+  "r": "Le fleuriste",
+  "t": "Fleurs",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-117",
+  "q": "Que devient la fleur d'un arbre fruitier, quelques mois après le passage des abeilles ?",
+  "r": "Un fruit",
+  "t": "Fleurs",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-118",
+  "q": "Quelle plante piquante pousse dans le désert et garde l'eau dans ses tiges ?",
+  "r": "Le cactus",
+  "t": "Plantes",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-119",
+  "q": "Quelle fleur au parfum doux, souvent rouge, a des épines sur sa tige ?",
+  "r": "La rose",
+  "t": "Fleurs",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-120",
+  "q": "Quelle fleur rouge pousse dans les champs de blé en été ?",
+  "r": "Le coquelicot",
+  "t": "Fleurs",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-121",
+  "q": "Quelle fleur effeuille-t-on en disant « Il m'aime, un peu, beaucoup… » ?",
+  "r": "La marguerite",
+  "t": "Fleurs",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-122",
+  "q": "Sur quelle fleur devenue une boule blanche souffle-t-on pour faire s'envoler ses graines ?",
+  "r": "Le pissenlit",
+  "t": "Fleurs",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-123",
+  "q": "Quelle fleur jaune en forme de petite trompette fleurit au début du printemps ?",
+  "r": "La jonquille",
+  "t": "Fleurs",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-124",
+  "q": "Quelle petite fleur blanche en clochette fleurit à la fin de l'hiver, quand il fait encore très froid ?",
+  "r": "Le perce-neige",
+  "t": "Fleurs",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-125",
+  "q": "Quelle plante aux grandes feuilles rondes flotte sur l'eau des étangs ?",
+  "r": "Le nénuphar",
+  "t": "Plantes",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-126",
+  "q": "Quelle plante grimpe sur les murs et les arbres et reste verte tout l'hiver ?",
+  "r": "Le lierre",
+  "t": "Plantes",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-127",
+  "q": "Quelle plante pique et donne des boutons quand on la touche ?",
+  "r": "L'ortie",
+  "t": "Plantes",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-128",
+  "q": "Quelle petite plante porte bonheur quand on lui trouve quatre feuilles ?",
+  "r": "Le trèfle",
+  "t": "Plantes",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-129",
+  "q": "Quelle petite plante verte et douce pousse sur les pierres et les troncs humides ?",
+  "r": "La mousse",
+  "t": "Plantes",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-130",
+  "q": "Avec les grains de quelle plante fait-on la farine du pain ?",
+  "r": "Le blé",
+  "t": "Plantes",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-131",
+  "q": "Avec les grains de quelle plante fait-on le pop-corn ?",
+  "r": "Le maïs",
+  "t": "Plantes",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-132",
+  "q": "Quelle céréale pousse dans des champs pleins d'eau, en Asie ?",
+  "r": "Le riz",
+  "t": "Plantes",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-133",
+  "q": "Quelle plante donne des boules blanches toutes douces qui servent à fabriquer nos tee-shirts ?",
+  "r": "Le coton",
+  "t": "Plantes",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-134",
+  "q": "Avec les fèves de quel arbre fabrique-t-on le chocolat ?",
+  "r": "Le cacaoyer",
+  "t": "Plantes",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-135",
+  "q": "Quand on croque une carotte, quelle partie de la plante mange-t-on ?",
+  "r": "La racine",
+  "t": "Plantes",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-136",
+  "q": "Quand on mange du brocoli, mange-t-on ses fleurs ou ses racines ?",
+  "r": "Les fleurs",
+  "t": "Plantes",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-137",
+  "q": "Quelle partie de la salade mange-t-on ?",
+  "r": "Les feuilles",
+  "t": "Plantes",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-138",
+  "q": "Comment appelle-t-on une grande étendue couverte d'arbres ?",
+  "r": "Une forêt",
+  "t": "Arbres",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-139",
+  "q": "Quel fruit jaune et courbé faut-il éplucher avant de le manger ?",
+  "r": "La banane",
+  "t": "Fruits",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-140",
+  "q": "Quel fruit jaune est si acide qu'il fait grimacer ?",
+  "r": "Le citron",
+  "t": "Fruits",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-141",
+  "q": "Quel petit fruit rouge du printemps porte ses graines à l'extérieur ?",
+  "r": "La fraise",
+  "t": "Fruits",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-142",
+  "q": "Quel gros fruit vert à la chair rouge et pleine d'eau a des pépins noirs ?",
+  "r": "La pastèque",
+  "t": "Fruits",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-143",
+  "q": "Quel fruit pousse en grappes et sert à faire du jus ?",
+  "r": "Le raisin",
+  "t": "Fruits",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-144",
+  "q": "Comment appelle-t-on une prune séchée ?",
+  "r": "Un pruneau",
+  "t": "Fruits",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-145",
+  "q": "Quel gros fruit à la coque dure et poilue contient de l'eau et une chair blanche ?",
+  "r": "La noix de coco",
+  "t": "Fruits",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-146",
+  "q": "Quel fruit à la peau marron et poilue est vert à l'intérieur ?",
+  "r": "Le kiwi",
+  "t": "Fruits",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-147",
+  "q": "Quel fruit tropical porte une couronne de feuilles piquantes sur la tête ?",
+  "r": "L'ananas",
+  "t": "Fruits",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-148",
+  "q": "Quel fruit, dont on boit souvent le jus au petit-déjeuner, porte le même nom qu'une couleur ?",
+  "r": "L'orange",
+  "t": "Fruits",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-149",
+  "q": "Quelle petite baie bleue pousse dans les bois et colore la langue ?",
+  "r": "La myrtille",
+  "t": "Fruits",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-150",
+  "q": "Quel petit fruit noir pousse sur les ronces au bord des chemins ?",
+  "r": "La mûre",
+  "t": "Fruits",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-151",
+  "q": "Quel petit fruit rouge à noyau pousse souvent par deux, au bout de longues queues ?",
+  "r": "La cerise",
+  "t": "Fruits",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-152",
+  "q": "Quelle petite orange facile à éplucher mange-t-on souvent en hiver ?",
+  "r": "La clémentine",
+  "t": "Fruits",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-153",
+  "q": "Quel fruit rond à la chair orange et sucrée mange-t-on souvent en entrée l'été ?",
+  "r": "Le melon",
+  "t": "Fruits",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-154",
+  "q": "Comment s'appelle la grosse graine dure au centre d'une pêche ou d'un abricot ?",
+  "r": "Le noyau",
+  "t": "Fruits",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-155",
+  "q": "Comment s'appellent les petites graines au cœur d'une pomme ?",
+  "r": "Les pépins",
+  "t": "Fruits",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-156",
+  "q": "Quel fruit rouge, souvent rangé avec les légumes, sert à faire le ketchup ?",
+  "r": "La tomate",
+  "t": "Fruits",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-157",
+  "q": "Quelle graine pousse sous la terre et se mange grillée et salée à l'apéritif ?",
+  "r": "La cacahuète",
+  "t": "Fruits",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-158",
+  "q": "Quelle vitamine trouve-t-on en grande quantité dans l'orange et le kiwi ?",
+  "r": "La vitamine C",
+  "t": "Fruits",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-159",
+  "q": "Quel légume vert rend Popeye très fort ?",
+  "r": "Les épinards",
+  "t": "Légumes",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-160",
+  "q": "Avec quel légume fait-on les frites et la purée ?",
+  "r": "La pomme de terre",
+  "t": "Légumes",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-161",
+  "q": "Quels petits légumes verts et ronds se cachent dans une cosse ?",
+  "r": "Les petits pois",
+  "t": "Légumes",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-162",
+  "q": "Quel petit légume rouge et blanc, un peu piquant, se croque avec du beurre ?",
+  "r": "Le radis",
+  "t": "Légumes",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-163",
+  "q": "Quel légume vert ressemble à un petit arbre ?",
+  "r": "Le brocoli",
+  "t": "Légumes",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-164",
+  "q": "Quel légume blanc est formé de petits bouquets serrés, entourés de grandes feuilles vertes ?",
+  "r": "Le chou-fleur",
+  "t": "Légumes",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-165",
+  "q": "Quel légume fait pleurer quand on le coupe ?",
+  "r": "L'oignon",
+  "t": "Légumes",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-166",
+  "q": "Quel légume en gousses a une odeur très forte et parfume la cuisine ?",
+  "r": "L'ail",
+  "t": "Légumes",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-167",
+  "q": "Quel légume vert et long a pour petit cousin le cornichon ?",
+  "r": "Le concombre",
+  "t": "Légumes",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-168",
+  "q": "Quel légume rouge foncé tache les doigts quand on l'épluche ?",
+  "r": "La betterave",
+  "t": "Légumes",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-169",
+  "q": "Quel légume long, blanc et vert, se met dans la soupe avec les pommes de terre ?",
+  "r": "Le poireau",
+  "t": "Légumes",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-170",
+  "q": "Quel légume a une peau violette et brillante ?",
+  "r": "L'aubergine",
+  "t": "Légumes",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-171",
+  "q": "Quel légume creux peut être vert, jaune ou rouge ?",
+  "r": "Le poivron",
+  "t": "Légumes",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-172",
+  "q": "Quels petits légumes secs, ronds et plats, se mangent avec des saucisses ?",
+  "r": "Les lentilles",
+  "t": "Légumes",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-173",
+  "q": "Quels mini-légumes verts en forme de boule portent le nom de la capitale de la Belgique ?",
+  "r": "Les choux de Bruxelles",
+  "t": "Légumes",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-174",
+  "q": "Quel plat de Provence mélange tomate, courgette, aubergine et poivron ?",
+  "r": "La ratatouille",
+  "t": "Légumes",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-175",
+  "q": "Quel légume vert à feuilles mange-t-on souvent avec de la vinaigrette ?",
+  "r": "La salade",
+  "t": "Légumes",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-176",
+  "q": "Quel légume vert ressemble à un concombre et se cuisine dans la ratatouille ?",
+  "r": "La courgette",
+  "t": "Légumes",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-177",
+  "q": "Quel petit fruit rouge, creux au milieu, pousse sur des tiges piquantes, comme la mûre ?",
+  "r": "La framboise",
+  "t": "Fruits",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-178",
+  "q": "Quel fruit vert ou jaune, plus large en bas qu'en haut, a la forme d'une grosse goutte d'eau ?",
+  "r": "La poire",
+  "t": "Fruits",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-179",
+  "q": "Combien de sens avons-nous, d'après ce qu'on apprend à l'école ?",
+  "r": "5",
+  "t": "Les cinq sens",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-180",
+  "q": "Comment s'appelle le sens qui nous permet d'entendre ?",
+  "r": "L'ouïe",
+  "t": "Les cinq sens",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-181",
+  "q": "Comment s'appelle le sens qui nous permet de sentir les odeurs ?",
+  "r": "L'odorat",
+  "t": "Les cinq sens",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-182",
+  "q": "Comment s'appelle le sens qui nous permet de voir ?",
+  "r": "La vue",
+  "t": "Les cinq sens",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-183",
+  "q": "Quel sens nous dit si un aliment est sucré ou salé ?",
+  "r": "Le goût",
+  "t": "Les cinq sens",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-184",
+  "q": "Quel sens passe par la peau et nous dit si une chose est chaude ou froide ?",
+  "r": "Le toucher",
+  "t": "Les cinq sens",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-185",
+  "q": "Avec quels organes voit-on ?",
+  "r": "Les yeux",
+  "t": "Les cinq sens",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-186",
+  "q": "Avec quels organes entend-on les bruits ?",
+  "r": "Les oreilles",
+  "t": "Les cinq sens",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-187",
+  "q": "Par où l'air entre-t-il quand on respire la bouche fermée ?",
+  "r": "Par le nez",
+  "t": "Le corps",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-188",
+  "q": "Quel organe qui bouge dans la bouche nous aide à parler et à goûter ?",
+  "r": "La langue",
+  "t": "Le corps",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-189",
+  "q": "Quel organe bat dans la poitrine pour envoyer le sang dans tout le corps ?",
+  "r": "Le cœur",
+  "t": "Le corps",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-190",
+  "q": "Quels organes se gonflent d'air quand on respire ?",
+  "r": "Les poumons",
+  "t": "Le corps",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-191",
+  "q": "Dans quel organe en forme de poche arrive la nourriture après qu'on l'a avalée ?",
+  "r": "L'estomac",
+  "t": "Le corps",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-192",
+  "q": "Quel organe, bien protégé dans la tête, nous permet de penser ?",
+  "r": "Le cerveau",
+  "t": "Le corps",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-193",
+  "q": "Comment s'appelle l'os dur, comme un casque, qui protège le cerveau ?",
+  "r": "Le crâne",
+  "t": "Le corps",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-194",
+  "q": "Quels os courbés, en forme de cage, protègent le cœur et les poumons ?",
+  "r": "Les côtes",
+  "t": "Le corps",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-195",
+  "q": "Comment s'appelle l'ensemble de tous les os de notre corps ?",
+  "r": "Le squelette",
+  "t": "Le corps",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-196",
+  "q": "Comment s'appelle la longue chaîne d'os qui tient notre dos droit ?",
+  "r": "La colonne vertébrale",
+  "t": "Le corps",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-197",
+  "q": "Quelles parties du corps, attachées aux os, se contractent pour nous faire bouger ?",
+  "r": "Les muscles",
+  "t": "Le corps",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-198",
+  "q": "De quelle couleur est le sang ?",
+  "r": "Rouge",
+  "t": "Le corps",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-199",
+  "q": "Que fait notre cœur quand on fait la course ?",
+  "r": "Il bat plus vite",
+  "t": "Le corps",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-200",
+  "q": "Quel gaz de l'air respirons-nous pour vivre ?",
+  "r": "L'oxygène",
+  "t": "Le corps",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-201",
+  "q": "Que sent-on battre sous le doigt quand on le pose à l'intérieur du poignet ?",
+  "r": "Le pouls",
+  "t": "Le corps",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-202",
+  "q": "Comment appelle-t-on les premières dents, qui tombent quand on grandit ?",
+  "r": "Les dents de lait",
+  "t": "Les dents",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-203",
+  "q": "Quel docteur soigne les dents ?",
+  "r": "Le dentiste",
+  "t": "Les dents",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-204",
+  "q": "Comment s'appelle le trou que le sucre peut creuser dans une dent mal brossée ?",
+  "r": "Une carie",
+  "t": "Les dents",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-205",
+  "q": "Comment s'appellent les dents plates de devant, qui servent à couper ?",
+  "r": "Les incisives",
+  "t": "Les dents",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-206",
+  "q": "Comment s'appellent les dents pointues, à côté des dents de devant ?",
+  "r": "Les canines",
+  "t": "Les dents",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-207",
+  "q": "Comment s'appellent les grosses dents du fond qui écrasent les aliments ?",
+  "r": "Les molaires",
+  "t": "Les dents",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-208",
+  "q": "Combien de doigts avons-nous en tout sur nos deux mains ?",
+  "r": "10",
+  "t": "Le corps",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-209",
+  "q": "Comment s'appellent les doigts de pied ?",
+  "r": "Les orteils",
+  "t": "Le corps",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-210",
+  "q": "Quel est le doigt le plus court et le plus gros de la main ?",
+  "r": "Le pouce",
+  "t": "Le corps",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-211",
+  "q": "Où se plie le bras, au milieu ?",
+  "r": "Au coude",
+  "t": "Le corps",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-212",
+  "q": "Où se plie la jambe, au milieu ?",
+  "r": "Au genou",
+  "t": "Le corps",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-213",
+  "q": "Comment s'appelle la partie qui relie le pied à la jambe ?",
+  "r": "La cheville",
+  "t": "Le corps",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-214",
+  "q": "Comment s'appelle le petit creux au milieu du ventre ?",
+  "r": "Le nombril",
+  "t": "Le corps",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-215",
+  "q": "Comment s'appelle l'arrière du pied, sur lequel on pose en premier quand on marche ?",
+  "r": "Le talon",
+  "t": "Le corps",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-216",
+  "q": "Comment s'appellent les petits poils au bord des paupières ?",
+  "r": "Les cils",
+  "t": "Le corps",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-217",
+  "q": "Comment s'appellent les poils au-dessus des yeux ?",
+  "r": "Les sourcils",
+  "t": "Le corps",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-218",
+  "q": "Quelle eau salée coule des yeux quand on pleure ?",
+  "r": "Les larmes",
+  "t": "Le corps",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-219",
+  "q": "Quel liquide fabrique la bouche pour aider à mâcher et à avaler ?",
+  "r": "La salive",
+  "t": "Le corps",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-220",
+  "q": "Comment s'appelle le petit rond noir au milieu de l'œil ?",
+  "r": "La pupille",
+  "t": "Le corps",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-221",
+  "q": "Que fait la pupille de l'œil quand on se trouve dans le noir ?",
+  "r": "Elle s'agrandit",
+  "t": "Le corps",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-222",
+  "q": "Quelle petite peau se ferme sur l'œil quand on cligne ?",
+  "r": "La paupière",
+  "t": "Le corps",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-223",
+  "q": "Que fait-on en disant « atchoum » ?",
+  "r": "On éternue",
+  "t": "Le corps",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-224",
+  "q": "Que fait-on en ouvrant grand la bouche quand on est fatigué ou qu'on s'ennuie ?",
+  "r": "On bâille",
+  "t": "Le corps",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-225",
+  "q": "Quelle petite maladie fait couler le nez et éternuer ?",
+  "r": "Le rhume",
+  "t": "Le corps",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-226",
+  "q": "Comment appelle-t-on la température trop haute du corps quand on est malade ?",
+  "r": "La fièvre",
+  "t": "Le corps",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-227",
+  "q": "Quelle est la température normale du corps humain, en degrés ?",
+  "r": "37 °C",
+  "t": "Le corps",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-228",
+  "q": "Qu'est-ce qui se forme sur une égratignure pour la protéger pendant qu'elle guérit ?",
+  "r": "Une croûte",
+  "t": "Le corps",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-229",
+  "q": "Qu'est-ce qui pousse au bout des doigts et qu'il faut couper de temps en temps ?",
+  "r": "Les ongles",
+  "t": "Le corps",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-230",
+  "q": "La plupart des gens écrivent de la main droite. Comment appelle-t-on ceux qui écrivent de l'autre main ?",
+  "r": "Un gaucher",
+  "t": "Le corps",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-231",
+  "q": "Quand on a très froid, que fait notre corps pour se réchauffer ?",
+  "r": "Il frissonne",
+  "t": "Le corps",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-232",
+  "q": "Comment s'appelle le docteur des enfants ?",
+  "r": "Le pédiatre",
+  "t": "Le corps",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-233",
+  "q": "Quelle partie du corps relie la tête aux épaules ?",
+  "r": "Le cou",
+  "t": "Le corps",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-234",
+  "q": "Comment s'appellent les histoires que l'on voit dans sa tête en dormant ?",
+  "r": "Les rêves",
+  "t": "Le corps",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-235",
+  "q": "Quel animal de la mer, mou et transparent, peut piquer avec ses filaments quand on se baigne ?",
+  "r": "La méduse",
+  "t": "Animaux de la mer",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-236",
+  "q": "Quel petit animal de la mer, couvert de piquants, se cache sur les rochers ?",
+  "r": "L'oursin",
+  "t": "Animaux de la mer",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-237",
+  "q": "Quel animal de la plage marche de côté en levant ses deux pinces ?",
+  "r": "Le crabe",
+  "t": "Animaux de la mer",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-238",
+  "q": "Que crache la pieuvre pour se cacher de ses ennemis ?",
+  "r": "De l'encre",
+  "t": "Animaux de la mer",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-239",
+  "q": "Quel oiseau tout noir, au bec jaune, siffle dans les jardins ?",
+  "r": "Le merle",
+  "t": "Oiseaux",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-240",
+  "q": "Quel oiseau fait la roue en ouvrant sa grande queue aux plumes colorées ?",
+  "r": "Le paon",
+  "t": "Oiseaux",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-241",
+  "q": "Quel grand oiseau blanc au long cou glisse doucement sur les lacs ?",
+  "r": "Le cygne",
+  "t": "Oiseaux",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-242",
+  "q": "Quel petit rongeur fait tourner une roue dans sa cage ?",
+  "r": "Le hamster",
+  "t": "Animaux de compagnie",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-243",
+  "q": "Quel petit reptile peut perdre le bout de sa queue pour s'échapper, puis la voir repousser ?",
+  "r": "Le lézard",
+  "t": "Petites bêtes",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-244",
+  "q": "Quel animal sans pattes creuse des galeries dans la terre du jardin ?",
+  "r": "Le ver de terre",
+  "t": "Petites bêtes",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-245",
+  "q": "Quel astre nous éclaire et nous réchauffe pendant la journée ?",
+  "r": "Le Soleil",
+  "t": "Espace",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-246",
+  "q": "Quel astre brille dans le ciel la nuit et change de forme au fil du mois ?",
+  "r": "La Lune",
+  "t": "Espace",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-247",
+  "q": "Sur quelle planète vivons-nous ?",
+  "r": "La Terre",
+  "t": "Espace",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-248",
+  "q": "Comment appelle-t-on une personne qui voyage dans l'espace ?",
+  "r": "Un astronaute",
+  "t": "Espace",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-249",
+  "q": "Quel engin très puissant décolle dans un grand nuage de fumée pour aller dans l'espace ?",
+  "r": "Une fusée",
+  "t": "Espace",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-250",
+  "q": "Autour de quelle planète la Lune tourne-t-elle ?",
+  "r": "La Terre",
+  "t": "Espace",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-251",
+  "q": "Autour de quelle étoile la Terre tourne-t-elle ?",
+  "r": "Le Soleil",
+  "t": "Espace",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-252",
+  "q": "Combien de temps met la Terre pour faire un tour complet sur elle-même ?",
+  "r": "Un jour",
+  "t": "Espace",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-253",
+  "q": "La Lune ne brille pas toute seule : de quel astre renvoie-t-elle la lumière ?",
+  "r": "Le Soleil",
+  "t": "Espace",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-254",
+  "q": "Comment appelle-t-on la traînée lumineuse qui traverse vite le ciel la nuit et à laquelle on fait un vœu ?",
+  "r": "Une étoile filante",
+  "t": "Espace",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-255",
+  "q": "Quel grand instrument permet de regarder les étoiles et les planètes de plus près ?",
+  "r": "Le télescope",
+  "t": "Espace",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-256",
+  "q": "Quelle tenue spéciale, avec un casque, les astronautes portent-ils pour sortir dans l'espace ?",
+  "r": "Un scaphandre",
+  "t": "Espace",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-257",
+  "q": "Comment appelle-t-on le moment où notre étoile apparaît à l'horizon le matin ?",
+  "r": "Le lever du Soleil",
+  "t": "Espace",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-258",
+  "q": "Comment appelle-t-on le moment où notre étoile disparaît à l'horizon le soir ?",
+  "r": "Le coucher du Soleil",
+  "t": "Espace",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-259",
+  "q": "De quel côté du ciel le Soleil se lève-t-il le matin ?",
+  "r": "À l'est",
+  "t": "Espace",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-260",
+  "q": "Quelle forme a la Terre, vue de l'espace ?",
+  "r": "Une boule",
+  "t": "Espace",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-261",
+  "q": "Le Soleil n'est pas une planète : quel genre d'astre est-il ?",
+  "r": "Une étoile",
+  "t": "Espace",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-262",
+  "q": "Comment appelle-t-on le côté de la Lune que l'on ne voit jamais depuis la Terre ?",
+  "r": "La face cachée",
+  "t": "Espace",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-263",
+  "q": "Comment appelle-t-on les grands trous ronds que l'on voit à la surface de la Lune ?",
+  "r": "Des cratères",
+  "t": "Espace",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-264",
+  "q": "Combien la Terre a-t-elle de lunes ?",
+  "r": "Une",
+  "t": "Espace",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-265",
+  "q": "Comment appelle-t-on les engins qui tournent autour de la Terre pour la météo ou la télévision ?",
+  "r": "Des satellites",
+  "t": "Espace",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-266",
+  "q": "Comment appelle-t-on la science qui étudie les étoiles et les planètes ?",
+  "r": "L'astronomie",
+  "t": "Espace",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-267",
+  "q": "Comment appelle-t-on notre étoile et toutes les planètes qui tournent autour d'elle ?",
+  "r": "Le Système solaire",
+  "t": "Espace",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-268",
+  "q": "Comment s'appelle le lieu où des savants observent le ciel avec de grands télescopes ?",
+  "r": "Un observatoire",
+  "t": "Espace",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-269",
+  "q": "Comment appelle-t-on un regroupement immense de milliards d'étoiles, comme la Voie lactée ?",
+  "r": "Une galaxie",
+  "t": "Espace",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-270",
+  "q": "Quel objet, qui roule et prend des photos, envoie-t-on explorer le sol d'une autre planète ?",
+  "r": "Un robot",
+  "t": "Espace",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-271",
+  "q": "Combien y a-t-il de saisons dans une année ?",
+  "r": "4",
+  "t": "Saisons",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-272",
+  "q": "Quelle saison vient juste après l'hiver ?",
+  "r": "Le printemps",
+  "t": "Saisons",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-273",
+  "q": "Quelle saison vient juste après le printemps ?",
+  "r": "L'été",
+  "t": "Saisons",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-274",
+  "q": "Quelle saison vient juste après l'automne ?",
+  "r": "L'hiver",
+  "t": "Saisons",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-275",
+  "q": "En France, pendant quelle saison fête-t-on Noël ?",
+  "r": "L'hiver",
+  "t": "Saisons",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-276",
+  "q": "En France, pendant quelle saison ont lieu les grandes vacances ?",
+  "r": "L'été",
+  "t": "Saisons",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-277",
+  "q": "En quelle saison se trouve la nuit la plus longue de l'année ?",
+  "r": "L'hiver",
+  "t": "Saisons",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-278",
+  "q": "En quel mois commence le printemps ?",
+  "r": "Mars",
+  "t": "Saisons",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-279",
+  "q": "En quel mois commence l'été ?",
+  "r": "Juin",
+  "t": "Saisons",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-280",
+  "q": "En quel mois commence l'hiver ?",
+  "r": "Décembre",
+  "t": "Saisons",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-281",
+  "q": "Pendant quelle saison les fleurs se mettent-elles à pousser et les oiseaux à faire leur nid ?",
+  "r": "Le printemps",
+  "t": "Saisons",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-282",
+  "q": "Qu'est-ce qui tombe du ciel en flocons blancs quand il fait très froid ?",
+  "r": "La neige",
+  "t": "Météo",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-283",
+  "q": "Comment appelle-t-on l'eau qui tombe des nuages en gouttes ?",
+  "r": "La pluie",
+  "t": "Météo",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-284",
+  "q": "Comment appelle-t-on le grand bruit que l'on entend pendant un orage ?",
+  "r": "Le tonnerre",
+  "t": "Météo",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-285",
+  "q": "Comment appelle-t-on la lumière très vive qui zèbre le ciel pendant un orage ?",
+  "r": "Un éclair",
+  "t": "Météo",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-286",
+  "q": "Comment appelle-t-on le mauvais temps avec des éclairs, du tonnerre et de grosses averses ?",
+  "r": "Un orage",
+  "t": "Météo",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-287",
+  "q": "Quel instrument indique s'il fait chaud ou froid, en degrés ?",
+  "r": "Le thermomètre",
+  "t": "Météo",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-288",
+  "q": "Quel objet ouvre-t-on au-dessus de sa tête pour se protéger de la pluie ?",
+  "r": "Un parapluie",
+  "t": "Météo",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-289",
+  "q": "Comment appelle-t-on, en un mot court, les prévisions du temps qu'il va faire ?",
+  "r": "La météo",
+  "t": "Météo",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-290",
+  "q": "De quoi les nuages sont-ils faits ?",
+  "r": "De petites gouttes d'eau",
+  "t": "Météo",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-291",
+  "q": "Comment appelle-t-on un vent très violent qui tourbillonne en forme d'entonnoir ?",
+  "r": "Une tornade",
+  "t": "Météo",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-292",
+  "q": "Comment appelle-t-on un nuage posé au sol, qui empêche de voir loin ?",
+  "r": "Le brouillard",
+  "t": "Météo",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-293",
+  "q": "Quel objet en métal, souvent en forme de coq, tourne sur les toits pour montrer d'où vient le vent ?",
+  "r": "La girouette",
+  "t": "Météo",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-294",
+  "q": "Que fabrique-t-on en hiver avec de grosses boules blanches, une carotte pour le nez et une écharpe ?",
+  "r": "Un bonhomme de neige",
+  "t": "Saisons",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-295",
+  "q": "Que met-on sur la peau à la plage pour ne pas rougir et brûler ?",
+  "r": "De la crème solaire",
+  "t": "Météo",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-296",
+  "q": "Que met-on aux pieds pour sauter dans les flaques sans se mouiller ?",
+  "r": "Des bottes",
+  "t": "Météo",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-297",
+  "q": "Que devient la neige quand il se met à faire plus chaud ?",
+  "r": "De l'eau",
+  "t": "Eau",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-298",
+  "q": "En quelle unité mesure-t-on la température en France ?",
+  "r": "Le degré Celsius",
+  "t": "Météo",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-299",
+  "q": "Qu'est-ce qui souffle, fait bouger les feuilles des arbres et gonfle les voiles des bateaux ?",
+  "r": "Le vent",
+  "t": "Météo",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-300",
+  "q": "Comment appelle-t-on une longue période sans pluie, où la terre devient toute sèche ?",
+  "r": "La sécheresse",
+  "t": "Météo",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-301",
+  "q": "Comment appelle-t-on la montée des eaux quand une rivière déborde et recouvre les champs ?",
+  "r": "Une inondation",
+  "t": "Météo",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-302",
+  "q": "Quel est le premier mois de l'année ?",
+  "r": "Janvier",
+  "t": "Calendrier",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-303",
+  "q": "Combien y a-t-il de mois dans une année ?",
+  "r": "12",
+  "t": "Calendrier",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-304",
+  "q": "Combien y a-t-il de jours dans une semaine ?",
+  "r": "7",
+  "t": "Calendrier",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-305",
+  "q": "Quel est le mois le plus court de l'année ?",
+  "r": "Février",
+  "t": "Calendrier",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-306",
+  "q": "Combien y a-t-il d'heures dans une journée entière ?",
+  "r": "24",
+  "t": "Calendrier",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-307",
+  "q": "Combien y a-t-il de minutes dans une heure ?",
+  "r": "60",
+  "t": "Calendrier",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-308",
+  "q": "Combien y a-t-il de secondes dans une minute ?",
+  "r": "60",
+  "t": "Calendrier",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-309",
+  "q": "Quel jour de la semaine vient juste après le samedi ?",
+  "r": "Le dimanche",
+  "t": "Calendrier",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-310",
+  "q": "Combien y a-t-il de jours dans une année qui n'est pas bissextile ?",
+  "r": "365",
+  "t": "Calendrier",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-311",
+  "q": "Combien de jours compte le mois de décembre ?",
+  "r": "31",
+  "t": "Calendrier",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-312",
+  "q": "En général, tous les combien d'années revient une année bissextile ?",
+  "r": "4 ans",
+  "t": "Calendrier",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-313",
+  "q": "Quel mois de l'année suit le mois de juillet ?",
+  "r": "Août",
+  "t": "Calendrier",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-314",
+  "q": "Que devient l'eau quand on la met longtemps au congélateur ?",
+  "r": "De la glace",
+  "t": "Eau",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-315",
+  "q": "Que devient l'eau quand on la fait chauffer très fort dans une casserole ?",
+  "r": "De la vapeur",
+  "t": "Eau",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-316",
+  "q": "Comment appelle-t-on le petit cube d'eau gelée que l'on met dans les boissons ?",
+  "r": "Un glaçon",
+  "t": "Eau",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-317",
+  "q": "À combien de degrés l'eau se transforme-t-elle en glace ?",
+  "r": "0 °C",
+  "t": "Eau",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-318",
+  "q": "Quand l'eau bout dans une casserole, que voit-on remonter à la surface ?",
+  "r": "Des bulles",
+  "t": "Eau",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-319",
+  "q": "Que se forme-t-il sur une vitre froide quand on souffle dessus ?",
+  "r": "De la buée",
+  "t": "Eau",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-320",
+  "q": "Quel goût a l'eau de mer ?",
+  "r": "Salé",
+  "t": "Eau",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-321",
+  "q": "Dans quel état se trouve l'eau dans un glaçon ?",
+  "r": "Solide",
+  "t": "Eau",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-322",
+  "q": "Dans quel état se trouve l'eau qui coule du robinet ?",
+  "r": "Liquide",
+  "t": "Eau",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-323",
+  "q": "Quand une flaque sèche au soleil, sous quelle forme invisible son eau part-elle dans l'air ?",
+  "r": "La vapeur d'eau",
+  "t": "Eau",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-324",
+  "q": "Comment appelle-t-on le grand voyage de l'eau entre la mer, les nuages, la pluie et les rivières ?",
+  "r": "Le cycle de l'eau",
+  "t": "Eau",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-325",
+  "q": "Comment appelle-t-on le phénomène qui fait sécher le linge mouillé étendu au soleil ?",
+  "r": "L'évaporation",
+  "t": "Eau",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-326",
+  "q": "Que fait un caillou que l'on lâche dans l'eau ?",
+  "r": "Il coule",
+  "t": "Eau",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-327",
+  "q": "De quelle couleur est l'eau pure dans un verre ?",
+  "r": "Transparente",
+  "t": "Eau",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-328",
+  "q": "Que fait le sucre quand on le met dans de l'eau chaude et que l'on remue ?",
+  "r": "Il se dissout",
+  "t": "Eau",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-329",
+  "q": "Que fait une goutte d'huile versée dans un verre d'eau ?",
+  "r": "Elle flotte",
+  "t": "Eau",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-330",
+  "q": "Sur quoi glissent les patineurs dans une patinoire ?",
+  "r": "La glace",
+  "t": "Eau",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-331",
+  "q": "Quels sont les trois états de l'eau ?",
+  "r": "Solide, liquide et gazeux",
+  "t": "Eau",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-332",
+  "q": "Comment appelle-t-on le bâton de glace pointu qui pend au bord des toits en hiver ?",
+  "r": "Une stalactite",
+  "t": "Eau",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-333",
+  "q": "Qu'est-ce que l'eau de mer laisse au fond d'une assiette quand elle s'évapore au soleil ?",
+  "r": "Du sel",
+  "t": "Eau",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-334",
+  "q": "Combien font 2 plus 2 ?",
+  "r": "4",
+  "t": "Calcul",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-335",
+  "q": "Combien font 5 plus 5 ?",
+  "r": "10",
+  "t": "Calcul",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-336",
+  "q": "Combien font 3 fois 3 ?",
+  "r": "9",
+  "t": "Calcul",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-337",
+  "q": "Combien font 10 moins 4 ?",
+  "r": "6",
+  "t": "Calcul",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-338",
+  "q": "Combien font 7 plus 8 ?",
+  "r": "15",
+  "t": "Calcul",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-339",
+  "q": "Combien font 6 fois 7 ?",
+  "r": "42",
+  "t": "Calcul",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-340",
+  "q": "Combien font 100 moins 1 ?",
+  "r": "99",
+  "t": "Calcul",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-341",
+  "q": "Combien font 9 fois 9 ?",
+  "r": "81",
+  "t": "Calcul",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-342",
+  "q": "Combien font 20 plus 30 ?",
+  "r": "50",
+  "t": "Calcul",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-343",
+  "q": "Combien font 12 divisé par 3 ?",
+  "r": "4",
+  "t": "Calcul",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-344",
+  "q": "Combien font 5 fois 0 ?",
+  "r": "0",
+  "t": "Calcul",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-345",
+  "q": "Combien font 4 fois 5 ?",
+  "r": "20",
+  "t": "Calcul",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-346",
+  "q": "Combien font 10 fois 10 ?",
+  "r": "100",
+  "t": "Calcul",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-347",
+  "q": "Combien d'œufs y a-t-il dans une douzaine ?",
+  "r": "12",
+  "t": "Nombres",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-348",
+  "q": "Combien d'œufs y a-t-il dans une demi-douzaine ?",
+  "r": "6",
+  "t": "Nombres",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-349",
+  "q": "Quelle est la moitié de 10 ?",
+  "r": "5",
+  "t": "Calcul",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-350",
+  "q": "Quel est le double de 8 ?",
+  "r": "16",
+  "t": "Calcul",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-351",
+  "q": "Quelle est la moitié de 100 ?",
+  "r": "50",
+  "t": "Calcul",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-352",
+  "q": "Quel est le double de 50 ?",
+  "r": "100",
+  "t": "Calcul",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-353",
+  "q": "Combien y a-t-il de centimes dans un euro ?",
+  "r": "100",
+  "t": "Nombres",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-354",
+  "q": "Combien y a-t-il de centimètres dans un mètre ?",
+  "r": "100",
+  "t": "Mesures",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-355",
+  "q": "Combien y a-t-il de grammes dans un kilogramme ?",
+  "r": "1 000",
+  "t": "Mesures",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-356",
+  "q": "Combien y a-t-il de mètres dans un kilomètre ?",
+  "r": "1 000",
+  "t": "Mesures",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-357",
+  "q": "Quel nombre vient juste après 99 ?",
+  "r": "100",
+  "t": "Nombres",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-358",
+  "q": "Quel nombre vient juste avant 1 000 ?",
+  "r": "999",
+  "t": "Nombres",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-359",
+  "q": "Quel est le plus petit nombre qui s'écrit avec deux chiffres ?",
+  "r": "10",
+  "t": "Nombres",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-360",
+  "q": "Quel est le plus grand nombre qui s'écrit avec deux chiffres ?",
+  "r": "99",
+  "t": "Nombres",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-361",
+  "q": "Combien de chiffres différents utilise-t-on pour écrire tous les nombres ?",
+  "r": "10",
+  "t": "Nombres",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-362",
+  "q": "Comment appelle-t-on les nombres comme 2, 4, 6 ou 8, que l'on peut partager en deux parts égales ?",
+  "r": "Les nombres pairs",
+  "t": "Nombres",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-363",
+  "q": "Comment appelle-t-on les nombres comme 1, 3, 5 ou 7 ?",
+  "r": "Les nombres impairs",
+  "t": "Nombres",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-364",
+  "q": "Comment appelle-t-on le résultat d'une addition ?",
+  "r": "La somme",
+  "t": "Calcul",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-365",
+  "q": "Comment appelle-t-on le résultat d'une multiplication ?",
+  "r": "Le produit",
+  "t": "Calcul",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-366",
+  "q": "Comment appelle-t-on le résultat d'une soustraction ?",
+  "r": "La différence",
+  "t": "Calcul",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-367",
+  "q": "Combien de zéros faut-il pour écrire le nombre mille ?",
+  "r": "3",
+  "t": "Nombres",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-368",
+  "q": "Combien de zéros faut-il pour écrire le nombre un million ?",
+  "r": "6",
+  "t": "Nombres",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-369",
+  "q": "En chiffres romains, quel nombre s'écrit avec la lettre X ?",
+  "r": "10",
+  "t": "Nombres",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-370",
+  "q": "En chiffres romains, quelle lettre représente le nombre 5 ?",
+  "r": "V",
+  "t": "Nombres",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-371",
+  "q": "Si l'on inverse les deux chiffres du nombre 45, quel nombre obtient-on ?",
+  "r": "54",
+  "t": "Nombres",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-372",
+  "q": "Combien de minutes y a-t-il dans une demi-heure ?",
+  "r": "30",
+  "t": "Calendrier",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-373",
+  "q": "Combien de minutes y a-t-il dans un quart d'heure ?",
+  "r": "15",
+  "t": "Calendrier",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-374",
+  "q": "Comment appelle-t-on une période de 100 ans ?",
+  "r": "Un siècle",
+  "t": "Calendrier",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-375",
+  "q": "Comment appelle-t-on une période de 1 000 ans ?",
+  "r": "Un millénaire",
+  "t": "Calendrier",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-376",
+  "q": "Quel appareil à touches permet de faire des calculs très rapidement ?",
+  "r": "La calculatrice",
+  "t": "Calcul",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-377",
+  "q": "Combien de jours compte le mois de février quand l'année n'est pas bissextile ?",
+  "r": "28",
+  "t": "Calendrier",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-378",
+  "q": "Combien de semaines complètes y a-t-il dans une année ?",
+  "r": "52",
+  "t": "Calendrier",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-379",
+  "q": "Combien d'heures y a-t-il dans deux jours entiers ?",
+  "r": "48",
+  "t": "Calcul",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-380",
+  "q": "Combien de pièces de 50 centimes faut-il pour faire 2 euros ?",
+  "r": "4",
+  "t": "Calcul",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-381",
+  "q": "Quand on coupe une pizza en quatre parts égales, comment appelle-t-on chaque part ?",
+  "r": "Un quart",
+  "t": "Calcul",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-382",
+  "q": "Quand on coupe une pomme en deux parts égales, comment appelle-t-on chaque part ?",
+  "r": "Une moitié",
+  "t": "Calcul",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-383",
+  "q": "Sur un dé à jouer, combien de points y a-t-il en tout si l'on additionne toutes les faces ?",
+  "r": "21",
+  "t": "Calcul",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-384",
+  "q": "Sur un dé à jouer, combien font toujours les points de deux faces opposées additionnés ?",
+  "r": "7",
+  "t": "Calcul",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-385",
+  "q": "Quel nombre faut-il ajouter à 6 pour obtenir 10 ?",
+  "r": "4",
+  "t": "Calcul",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-386",
+  "q": "Combien de côtés a un triangle ?",
+  "r": "3",
+  "t": "Formes",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-387",
+  "q": "Combien de côtés a un carré ?",
+  "r": "4",
+  "t": "Formes",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-388",
+  "q": "Comment appelle-t-on la forme toute ronde, comme le contour d'une pièce de monnaie ?",
+  "r": "Un cercle",
+  "t": "Formes",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-389",
+  "q": "Quelle forme a quatre côtés de la même longueur et quatre angles droits ?",
+  "r": "Le carré",
+  "t": "Formes",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-390",
+  "q": "Quelle forme a quatre angles droits, avec deux grands côtés et deux petits côtés ?",
+  "r": "Le rectangle",
+  "t": "Formes",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-391",
+  "q": "Combien de sommets, ou de coins, a un carré ?",
+  "r": "4",
+  "t": "Formes",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-392",
+  "q": "Quelle forme a un cornet de glace, pointu en bas ?",
+  "r": "Un cône",
+  "t": "Formes",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-393",
+  "q": "Quelle forme a une boîte de conserve ?",
+  "r": "Un cylindre",
+  "t": "Formes",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-394",
+  "q": "Quelle forme dessine-t-on souvent pour dire « je t'aime » ?",
+  "r": "Un cœur",
+  "t": "Formes",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-395",
+  "q": "Quel solide a la forme d'une balle ou d'une bille ?",
+  "r": "Une sphère",
+  "t": "Formes",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-396",
+  "q": "Quelle forme ont les carreaux rouges sur les cartes à jouer ?",
+  "r": "Un losange",
+  "t": "Formes",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-397",
+  "q": "Quelle forme a un ballon de rugby ?",
+  "r": "Ovale",
+  "t": "Formes",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-398",
+  "q": "Comment appelle-t-on le point qui se trouve pile au milieu d'un cercle ?",
+  "r": "Le centre",
+  "t": "Formes",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-399",
+  "q": "Comment appelle-t-on le trait qui traverse un cercle d'un bord à l'autre en passant par son milieu ?",
+  "r": "Le diamètre",
+  "t": "Formes",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-400",
+  "q": "Quelle forme ont les panneaux qui signalent un danger sur la route ?",
+  "r": "Un triangle",
+  "t": "Formes",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-401",
+  "q": "Comment appelle-t-on une ligne qui s'enroule en tournant, comme la coquille d'un escargot ?",
+  "r": "Une spirale",
+  "t": "Formes",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-402",
+  "q": "Comment appelle-t-on deux lignes droites qui ne se croisent jamais, comme les rails d'un train ?",
+  "r": "Parallèles",
+  "t": "Formes",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-403",
+  "q": "Comment appelle-t-on deux lignes droites qui se croisent en formant un angle droit ?",
+  "r": "Perpendiculaires",
+  "t": "Formes",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-404",
+  "q": "Quand on plie un dessin et que les deux moitiés se superposent exactement, de quoi parle-t-on ?",
+  "r": "De symétrie",
+  "t": "Formes",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-405",
+  "q": "Combien d'axes de symétrie possède un carré ?",
+  "r": "4",
+  "t": "Formes",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-406",
+  "q": "Quel solide a une base carrée et quatre faces en triangle qui se rejoignent en pointe ?",
+  "r": "Une pyramide",
+  "t": "Formes",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-407",
+  "q": "Comment appelle-t-on la longueur du tour complet d'une figure ?",
+  "r": "Le périmètre",
+  "t": "Formes",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-408",
+  "q": "Comment appelle-t-on un triangle qui possède un angle droit ?",
+  "r": "Rectangle",
+  "t": "Formes",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-409",
+  "q": "Quel objet en forme de cube, avec des points sur chaque face, lance-t-on dans les jeux de société ?",
+  "r": "Un dé",
+  "t": "Formes",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-410",
+  "q": "Quelle forme, avec des branches pointues, dessine-t-on pour représenter un astre qui brille la nuit ?",
+  "r": "Une étoile",
+  "t": "Formes",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-411",
+  "q": "Quel instrument utilise-t-on pour tracer un trait bien droit ?",
+  "r": "La règle",
+  "t": "Formes",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-412",
+  "q": "Quelle couleur obtient-on en mélangeant de la peinture rouge et de la peinture jaune ?",
+  "r": "L'orange",
+  "t": "Couleurs",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-413",
+  "q": "Quelle couleur obtient-on en mélangeant de la peinture rouge et de la peinture blanche ?",
+  "r": "Le rose",
+  "t": "Couleurs",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-414",
+  "q": "Dans l'arc-en-ciel, quelle couleur se trouve entre le jaune et le bleu ?",
+  "r": "Le vert",
+  "t": "Arc-en-ciel",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-415",
+  "q": "Dans l'arc-en-ciel, quelle couleur vient juste après le rouge ?",
+  "r": "L'orange",
+  "t": "Arc-en-ciel",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-416",
+  "q": "Quelle est la dernière couleur de l'arc-en-ciel, après l'indigo ?",
+  "r": "Le violet",
+  "t": "Arc-en-ciel",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-417",
+  "q": "À l'école, quelles sont les trois couleurs primaires de la peinture ?",
+  "r": "Le rouge, le jaune et le bleu",
+  "t": "Couleurs",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-418",
+  "q": "De quelle couleur est le ciel par une belle journée sans nuages ?",
+  "r": "Bleu",
+  "t": "Couleurs",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-419",
+  "q": "De quelle couleur est la neige fraîche ?",
+  "r": "Blanche",
+  "t": "Couleurs",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-420",
+  "q": "De quelle couleur est le feu de circulation qui dit aux voitures de s'arrêter ?",
+  "r": "Rouge",
+  "t": "Couleurs",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-421",
+  "q": "Sur un feu de circulation, quelle couleur s'allume entre le vert et le rouge ?",
+  "r": "L'orange",
+  "t": "Couleurs",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-422",
+  "q": "Quel vêtement fluo doit-on enfiler en cas de panne au bord de la route ?",
+  "r": "Le gilet jaune",
+  "t": "Couleurs",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-423",
+  "q": "Quel appareil de cuisine réchauffe un bol de lait en une minute en le faisant tourner sur un plateau ?",
+  "r": "Le micro-ondes",
+  "t": "Objets du quotidien",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-424",
+  "q": "Quel appareil de la maison nettoie les vêtements sales avec de l'eau et de la lessive ?",
+  "r": "La machine à laver",
+  "t": "Objets du quotidien",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-425",
+  "q": "Quel appareil de cuisine nettoie les assiettes, les verres et les couverts ?",
+  "r": "Le lave-vaisselle",
+  "t": "Objets du quotidien",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-426",
+  "q": "Quel appareil bruyant avale la poussière sur le sol de la maison ?",
+  "r": "L'aspirateur",
+  "t": "Objets du quotidien",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-427",
+  "q": "Quel appareil rend les tranches de pain croustillantes et les fait sauter au petit-déjeuner ?",
+  "r": "Le grille-pain",
+  "t": "Objets du quotidien",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-428",
+  "q": "Quel appareil qui souffle de l'air chaud utilise-t-on après le shampoing ?",
+  "r": "Le sèche-cheveux",
+  "t": "Objets du quotidien",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-429",
+  "q": "Quel objet en verre, vissé dans une lampe, s'allume pour éclairer ?",
+  "r": "L'ampoule",
+  "t": "Objets du quotidien",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-430",
+  "q": "Quel objet porte-t-on au poignet pour lire l'heure ?",
+  "r": "Une montre",
+  "t": "Objets du quotidien",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-431",
+  "q": "Sur une horloge, quelle aiguille indique les heures ?",
+  "r": "La petite",
+  "t": "Objets du quotidien",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-432",
+  "q": "Quel appareil sonne le matin pour nous tirer du lit ?",
+  "r": "Le réveil",
+  "t": "Objets du quotidien",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-433",
+  "q": "Combien de roues a un vélo ?",
+  "r": "2",
+  "t": "Transports",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-434",
+  "q": "Combien de roues a un tricycle ?",
+  "r": "3",
+  "t": "Transports",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-435",
+  "q": "Quel long véhicule, tiré par une locomotive, roule sur des rails ?",
+  "r": "Le train",
+  "t": "Transports",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-436",
+  "q": "Que veulent dire les lettres TGV ?",
+  "r": "Train à grande vitesse",
+  "t": "Transports",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-437",
+  "q": "Quel engin vole grâce à de grandes pales qui tournent sur son toit ?",
+  "r": "L'hélicoptère",
+  "t": "Transports",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-438",
+  "q": "Quel bateau peut plonger et naviguer sous la mer ?",
+  "r": "Le sous-marin",
+  "t": "Transports",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-439",
+  "q": "Quel objet attire les trombones et colle sur la porte du réfrigérateur ?",
+  "r": "Un aimant",
+  "t": "Objets du quotidien",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-440",
+  "q": "Quel appareil avec un écran, un clavier et une souris sert à écrire, jouer ou aller sur Internet ?",
+  "r": "L'ordinateur",
+  "t": "Objets du quotidien",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-441",
+  "q": "Quel appareil permet de parler à quelqu'un qui est très loin ?",
+  "r": "Le téléphone",
+  "t": "Objets du quotidien",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-442",
+  "q": "Quel objet fait « clic » et garde en images les souvenirs de vacances ?",
+  "r": "L'appareil photo",
+  "t": "Objets du quotidien",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-443",
+  "q": "Quel outil utilise-t-on pour faire tourner une vis ?",
+  "r": "Le tournevis",
+  "t": "Outils",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-444",
+  "q": "Quel véhicule de la ferme tire la charrue et la remorque ?",
+  "r": "Le tracteur",
+  "t": "Transports",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-445",
+  "q": "Quel instrument de cuisine permet de peser la farine ?",
+  "r": "La balance",
+  "t": "Objets du quotidien",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-446",
+  "q": "Quel appareil à hélice brasse l'air pour rafraîchir la maison en été ?",
+  "r": "Le ventilateur",
+  "t": "Objets du quotidien",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-447",
+  "q": "Quelle grande machine à pales tournantes produit de l'électricité grâce au vent ?",
+  "r": "L'éolienne",
+  "t": "Machines",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-448",
+  "q": "Que pose-t-on sur les toits pour transformer la lumière du jour en électricité ?",
+  "r": "Des panneaux solaires",
+  "t": "Machines",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-449",
+  "q": "Que met-on dans une télécommande pour la faire fonctionner ?",
+  "r": "Des piles",
+  "t": "Objets du quotidien",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-450",
+  "q": "Sur quel petit bouton du mur appuie-t-on pour allumer la lumière ?",
+  "r": "L'interrupteur",
+  "t": "Objets du quotidien",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-451",
+  "q": "Dans quoi, au mur, branche-t-on un appareil électrique ?",
+  "r": "La prise",
+  "t": "Objets du quotidien",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-452",
+  "q": "Quel engin de chantier creuse des trous avec un grand bras articulé ?",
+  "r": "La pelleteuse",
+  "t": "Machines",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-453",
+  "q": "Quelle très haute machine soulève les charges lourdes sur les chantiers ?",
+  "r": "La grue",
+  "t": "Machines",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-454",
+  "q": "Quel objet grossit les petites choses quand on regarde à travers ?",
+  "r": "La loupe",
+  "t": "Objets du quotidien",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-455",
+  "q": "Quel objet de la salle de bains nous renvoie notre propre image ?",
+  "r": "Le miroir",
+  "t": "Objets du quotidien",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-456",
+  "q": "Quel appareil chaud fait disparaître les plis des vêtements ?",
+  "r": "Le fer à repasser",
+  "t": "Objets du quotidien",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-457",
+  "q": "Quelle cabine fait monter et descendre les gens d'un étage à l'autre dans un immeuble ?",
+  "r": "L'ascenseur",
+  "t": "Machines",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-458",
+  "q": "Quel petit engin volant télécommandé, avec plusieurs hélices, peut filmer d'en haut ?",
+  "r": "Un drone",
+  "t": "Machines",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-459",
+  "q": "Quelle machine reliée à l'ordinateur sort des feuilles avec des textes ou des dessins ?",
+  "r": "L'imprimante",
+  "t": "Machines",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-460",
+  "q": "Quelle machine bruyante coupe l'herbe du jardin ?",
+  "r": "La tondeuse",
+  "t": "Machines",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-461",
+  "q": "Sur quoi appuie le cycliste avec ses pieds pour faire avancer son vélo ?",
+  "r": "Les pédales",
+  "t": "Transports",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-462",
+  "q": "Quel appareil de cuisine garde les aliments au frais ?",
+  "r": "Le réfrigérateur",
+  "t": "Objets du quotidien",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-463",
+  "q": "Quel appareil de cuisine sert à faire chauffer l'eau du thé ?",
+  "r": "La bouilloire",
+  "t": "Objets du quotidien",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-464",
+  "q": "Dans quel appareil de cuisine fait-on cuire les gâteaux et les rôtis ?",
+  "r": "Le four",
+  "t": "Objets du quotidien",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-465",
+  "q": "Dans une fourmilière, quelle fourmi pond les œufs ?",
+  "r": "La reine",
+  "t": "Insectes",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-466",
+  "q": "Combien de branches a un flocon de neige ?",
+  "r": "6",
+  "t": "Saisons",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-467",
+  "q": "Chez qui achète-t-on des lunettes ?",
+  "r": "L'opticien",
+  "t": "Les cinq sens",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-468",
+  "q": "Avec quoi faut-il se laver les mains pour chasser les microbes ?",
+  "r": "Le savon",
+  "t": "Hygiène",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-469",
+  "q": "Combien de fois par jour faut-il au moins se brosser les dents ?",
+  "r": "2",
+  "t": "Hygiène",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-470",
+  "q": "Quelle pâte met-on sur sa brosse à dents ?",
+  "r": "Le dentifrice",
+  "t": "Hygiène",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-471",
+  "q": "Que colle-t-on sur une petite coupure pour la protéger ?",
+  "r": "Un pansement",
+  "t": "Hygiène",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-472",
+  "q": "Quelle piqûre faite chez le médecin protège contre certaines maladies ?",
+  "r": "Le vaccin",
+  "t": "Santé",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-473",
+  "q": "Que pose-t-on autour d'un bras cassé pour qu'il ne bouge plus ?",
+  "r": "Un plâtre",
+  "t": "Santé",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-474",
+  "q": "Comment appelle-t-on les êtres vivants minuscules et invisibles qui peuvent nous rendre malades ?",
+  "r": "Les microbes",
+  "t": "Santé",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-475",
+  "q": "Que font deux aimants quand on approche leurs deux pôles nord ?",
+  "r": "Ils se repoussent",
+  "t": "Aimants",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-476",
+  "q": "À quel moment de la journée notre ombre est-elle la plus courte ?",
+  "r": "Vers midi",
+  "t": "Lumière et ombres",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-477",
+  "q": "Comment dit-on d'un objet qui ne laisse pas du tout passer la lumière ?",
+  "r": "Opaque",
+  "t": "Lumière et ombres",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-478",
+  "q": "Quelle couleur de tee-shirt chauffe le plus quand on est au soleil ?",
+  "r": "Le noir",
+  "t": "Lumière et ombres",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-479",
+  "q": "Quel matériau des bouteilles et des pots de confiture se recycle à l'infini ?",
+  "r": "Le verre",
+  "t": "Recyclage",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-480",
+  "q": "Où apporte-t-on un vieux frigo ou de gros déchets pour qu'ils soient triés ?",
+  "r": "À la déchetterie",
+  "t": "Recyclage",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-481",
+  "q": "Quelle roue, avec une corde, aide à remonter un seau du fond d'un puits ?",
+  "r": "La poulie",
+  "t": "Machines simples",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-482",
+  "q": "Comment appelle-t-on les roues dentées qui tournent ensemble dans une horloge ?",
+  "r": "Les engrenages",
+  "t": "Machines simples",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-483",
+  "q": "Sur quel jeu deux enfants montent et descendent chacun à un bout d'une planche ?",
+  "r": "La bascule",
+  "t": "Machines simples",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-484",
+  "q": "Quel scientifique étudie les plantes ?",
+  "r": "Le botaniste",
+  "t": "Métiers de la science",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-485",
+  "q": "Comment s'appelle la salle où les scientifiques font leurs expériences ?",
+  "r": "Le laboratoire",
+  "t": "Métiers de la science",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-486",
+  "q": "Avec quoi la vache chasse-t-elle les mouches ?",
+  "r": "Sa queue",
+  "t": "Animaux de la ferme",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-487",
+  "q": "Que cloue-t-on sous les sabots du cheval pour les protéger ?",
+  "r": "Des fers",
+  "t": "Animaux de la ferme",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-488",
+  "q": "Comment s'appellent les petites cases en cire où les abeilles rangent leur miel ?",
+  "r": "Les alvéoles",
+  "t": "Insectes",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-489",
+  "q": "Comment appelle-t-on la poche sous le ventre de la vache d'où sort le lait ?",
+  "r": "Le pis",
+  "t": "Animaux de la ferme",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-490",
+  "q": "Comment s'appelle le nez du cochon ?",
+  "r": "Le groin",
+  "t": "Animaux de la ferme",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-491",
+  "q": "Comment appelle-t-on le moment où l'on coupe la laine des moutons ?",
+  "r": "La tonte",
+  "t": "Animaux de la ferme",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-492",
+  "q": "Que fait la poule quand elle reste assise sur ses œufs pour les garder au chaud ?",
+  "r": "Elle couve",
+  "t": "Animaux de la ferme",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-493",
+  "q": "Avec quoi la guêpe pique-t-elle ?",
+  "r": "Son dard",
+  "t": "Insectes",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-494",
+  "q": "Quel grand oiseau au cou sans plumes mange les animaux morts ?",
+  "r": "Le vautour",
+  "t": "Oiseaux",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-495",
+  "q": "Quel petit oiseau à tête noire et ventre jaune vient manger aux mangeoires ?",
+  "r": "La mésange",
+  "t": "Oiseaux",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-496",
+  "q": "Quel petit oiseau brun picore les miettes sur les terrasses des villes ?",
+  "r": "Le moineau",
+  "t": "Oiseaux",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-497",
+  "q": "Comment appelle-t-on les oiseaux chasseurs aux griffes crochues, comme l'aigle ?",
+  "r": "Les rapaces",
+  "t": "Oiseaux",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-498",
+  "q": "Comment dit-on d'une personne qui n'entend pas ?",
+  "r": "Sourde",
+  "t": "Les cinq sens",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-499",
+  "q": "Comment s'appelle la façon de parler avec les mains des personnes qui n'entendent pas ?",
+  "r": "La langue des signes",
+  "t": "Les cinq sens",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-500",
+  "q": "Avec quoi regarde-t-on les oiseaux de loin, en utilisant ses deux yeux ?",
+  "r": "Des jumelles",
+  "t": "Les cinq sens",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-501",
+  "q": "Quel produit sert à se laver les cheveux ?",
+  "r": "Le shampoing",
+  "t": "Hygiène",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-502",
+  "q": "Quel véhicule à sirène emmène les malades à l'hôpital ?",
+  "r": "L'ambulance",
+  "t": "Santé",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-503",
+  "q": "Que pose-t-on sur une bosse pour qu'elle gonfle moins ?",
+  "r": "De la glace",
+  "t": "Santé",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-504",
+  "q": "Comment dit-on d'une eau que l'on peut boire sans danger ?",
+  "r": "Potable",
+  "t": "Eau",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-505",
+  "q": "Quelle grande tour, souvent sur une colline, alimente les robinets du village ?",
+  "r": "Le château d'eau",
+  "t": "Eau",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-506",
+  "q": "Comment appelle-t-on l'image de soi qu'on voit dans une flaque ou un miroir ?",
+  "r": "Le reflet",
+  "t": "Lumière et ombres",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-507",
+  "q": "Si le soleil est devant toi, où se trouve ton ombre ?",
+  "r": "Derrière toi",
+  "t": "Lumière et ombres",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-508",
+  "q": "Comment appelle-t-on le geste de séparer ses déchets dans différentes poubelles ?",
+  "r": "Le tri",
+  "t": "Recyclage",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-509",
+  "q": "Quelle pente aide à faire rouler une lourde charge jusque dans un camion ?",
+  "r": "Une rampe",
+  "t": "Machines simples",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-510",
+  "q": "Quel outil soulève une voiture pour changer une roue ?",
+  "r": "Le cric",
+  "t": "Machines simples",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-511",
+  "q": "Quelle poignée tourne-t-on pour enrouler une corde, comme sur un puits ?",
+  "r": "La manivelle",
+  "t": "Machines simples",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-512",
+  "q": "Quel animal de la forêt retourne la terre avec son museau pour trouver des glands et des racines ?",
+  "r": "Le sanglier",
+  "t": "Animaux de la forêt",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-513",
+  "q": "Comment s'appellent les petits ronds collants sous les bras de la pieuvre ?",
+  "r": "Les ventouses",
+  "t": "Animaux de la mer",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-514",
+  "q": "Sur quel papier le médecin écrit-il les médicaments à acheter ?",
+  "r": "L'ordonnance",
+  "t": "Santé",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-515",
+  "q": "Au printemps, comment appelle-t-on le moment où la couche blanche des montagnes se transforme en eau ?",
+  "r": "La fonte des neiges",
+  "t": "Saisons",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-516",
+  "q": "Quelle bouteille réutilisable emporte-t-on en promenade pour éviter les bouteilles en plastique ?",
+  "r": "La gourde",
+  "t": "Recyclage",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-517",
+  "q": "Comment appelle-t-on les marches qui avancent toutes seules dans les grands magasins ?",
+  "r": "L'escalator",
+  "t": "Machines simples",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-518",
+  "q": "Que porte le chimiste devant ses yeux pendant ses expériences ?",
+  "r": "Des lunettes de protection",
+  "t": "Métiers de la science",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-519",
+  "q": "Quel ustensile de cuisine sert à découper le couvercle des conserves ?",
+  "r": "L'ouvre-boîte",
+  "t": "Machines simples",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-520",
+  "q": "Quel grand oiseau gris aux longues pattes pêche immobile au bord des rivières ?",
+  "r": "Le héron",
+  "t": "Oiseaux",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-521",
+  "q": "Quel insecte aux ailes poudrées tourne autour des lampes allumées le soir ?",
+  "r": "Le papillon de nuit",
+  "t": "Insectes",
+  "niveau": "enfant"
+ },
+ {
+  "id": "sci_enfant-522",
+  "q": "Quelle petite bête allongée rampe sous les feuilles mortes en remuant des dizaines de petits pieds ?",
+  "r": "Le mille-pattes",
+  "t": "Petites bêtes",
+  "niveau": "enfant"
+ }
+]

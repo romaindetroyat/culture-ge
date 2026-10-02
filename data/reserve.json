@@ -1,6 +1,146 @@
 {
  "geo": [
   {
+   "id": "geo_enfant-459",
+   "q": "Combien de pôles la Terre a-t-elle ?",
+   "r": "2",
+   "d": 1,
+   "t": "Globe"
+  },
+  {
+   "id": "geo_enfant-420",
+   "q": "Comment appelle-t-on la personne qui cultive la terre et s'occupe des champs ?",
+   "r": "L'agriculteur",
+   "d": 1,
+   "t": "Villes et campagne"
+  },
+  {
+   "id": "geo_enfant-006",
+   "q": "Dans quelle cathédrale vit Quasimodo, le sonneur de cloches d'un dessin animé de Disney ?",
+   "r": "Notre-Dame de Paris",
+   "d": 1,
+   "t": "Monuments"
+  },
+  {
+   "id": "geo_enfant-231",
+   "q": "Dans quel pays se trouve le Grand Canyon ?",
+   "r": "Les États-Unis",
+   "d": 1,
+   "t": "Pays et symboles"
+  },
+  {
+   "id": "geo_enfant-051",
+   "q": "Quel chapeau rond et plat porte-t-on traditionnellement au Pays basque ?",
+   "r": "Le béret",
+   "d": 1,
+   "t": "Régions"
+  },
+  {
+   "id": "geo_enfant-421",
+   "q": "Comment appelle-t-on la personne qui garde un troupeau de moutons ?",
+   "r": "Le berger",
+   "d": 1,
+   "t": "Villes et campagne"
+  },
+  {
+   "id": "geo_enfant-148",
+   "q": "Quel petit pays voisin se trouve au nord-est de la France, entre la Belgique et l'Allemagne ?",
+   "r": "Le Luxembourg",
+   "d": 1,
+   "t": "Pays voisins"
+  },
+  {
+   "id": "geo_enfant-057",
+   "q": "Sur quelle île de l'Atlantique peut-on voir des ânes qui portent des culottes ?",
+   "r": "L'île de Ré",
+   "d": 1,
+   "t": "Îles"
+  },
+  {
+   "id": "geo_enfant-042",
+   "q": "Dans quel zoo est né le premier bébé panda de France ?",
+   "r": "Le ZooParc de Beauval",
+   "d": 1,
+   "t": "Parcs d'attractions"
+  },
+  {
+   "id": "geo_enfant-315",
+   "q": "Combien de mois dure à peu près chaque saison ?",
+   "r": "3",
+   "d": 1,
+   "t": "Saisons"
+  },
+  {
+   "id": "geo_enfant-002",
+   "q": "Comment s'appelait Paris au temps des Gaulois et des Romains ?",
+   "r": "Lutèce",
+   "d": 1,
+   "t": "Paris"
+  },
+  {
+   "id": "geo_enfant-123",
+   "q": "Quelle tarte salée aux œufs, à la crème et aux lardons vient de Lorraine ?",
+   "r": "La quiche",
+   "d": 1,
+   "t": "Spécialités"
+  },
+  {
+   "id": "geo_enfant-454",
+   "q": "Comment appelle-t-on une personne dont le bateau a coulé et qui se retrouve seule sur une île, comme Robinson ?",
+   "r": "Un naufragé",
+   "d": 1,
+   "t": "Îles"
+  },
+  {
+   "id": "geo_enfant-505",
+   "q": "Comment appelle-t-on la petite étendue d'eau peu profonde, près de la ferme, où barbotent les canards ?",
+   "r": "La mare",
+   "d": 1,
+   "t": "Campagne"
+  },
+  {
+   "id": "geo_enfant-433",
+   "q": "Comment appelle-t-on chaque arrêt du métro, où l'on monte et où l'on descend ?",
+   "r": "Une station",
+   "d": 1,
+   "t": "Transports en ville"
+  },
+  {
+   "id": "geo_enfant-229",
+   "q": "Quel drôle d'animal d'Australie a un bec de canard et pond des œufs ?",
+   "r": "L'ornithorynque",
+   "d": 1,
+   "t": "Animaux du monde"
+  },
+  {
+   "id": "geo_enfant-106",
+   "q": "Comment appelle-t-on la masse de neige qui dévale d'un coup la pente d'une montagne ?",
+   "r": "Une avalanche",
+   "d": 1,
+   "t": "Montagne"
+  },
+  {
+   "id": "geo_enfant-517",
+   "q": "Dans « La Princesse et la Grenouille », dans quelle ville américaine, célèbre pour son jazz, vit Tiana ?",
+   "r": "La Nouvelle-Orléans",
+   "d": 1,
+   "t": "Dessins animés"
+  },
+  {
+   "id": "geo_enfant-328",
+   "q": "Quel petit cousin du cerf, au pelage roux et aux fesses blanches, bondit dans les champs de France ?",
+   "r": "Le chevreuil",
+   "d": 1,
+   "t": "Animaux"
+  },
+  {
+   "id": "geo_enfant-122",
+   "q": "Quel plat de Savoie consiste à tremper du pain, au bout d'une longue fourchette, dans du fromage chaud ?",
+   "r": "La fondue",
+   "d": 1,
+   "t": "Spécialités"
+  },
+  {
    "id": "geo_a_1-006",
    "q": "Quelle ville est le chef-lieu de la région Bretagne ?",
    "r": "Rennes",
@@ -1472,6 +1612,167 @@
   }
  ],
  "div": [
+  {
+   "id": "div_enfant-434",
+   "q": "Dans « Robocar Poli », quel véhicule est Poli, le chef de l'équipe de secours ?",
+   "r": "Une voiture de police",
+   "d": 1,
+   "t": "Dessins animés"
+  },
+  {
+   "id": "div_enfant-005",
+   "q": "Quels petits animaux qui couinent sont les meilleurs amis de Cendrillon ?",
+   "r": "Les souris",
+   "d": 1,
+   "t": "Films Disney"
+  },
+  {
+   "id": "div_enfant-323",
+   "q": "Dans quelles drôles de maisons vivent les petits lutins bleus de Peyo ?",
+   "r": "Des champignons",
+   "d": 1,
+   "t": "BD jeunesse"
+  },
+  {
+   "id": "div_enfant-383",
+   "q": "Que pose-t-on au pied du sapin le soir du 24 décembre pour que le Père Noël y dépose les cadeaux ?",
+   "r": "Ses chaussures",
+   "d": 1,
+   "t": "Noël"
+  },
+  {
+   "id": "div_enfant-500",
+   "q": "Dans quel jeu sur téléphone fait-on traverser des routes et des rivières à une petite poule en cubes ?",
+   "r": "Crossy Road",
+   "d": 1,
+   "t": "Jeux vidéo"
+  },
+  {
+   "id": "div_enfant-097",
+   "q": "Comment s'appelle le robot blanc dont WALL-E tombe amoureux ?",
+   "r": "EVE",
+   "d": 1,
+   "t": "Films Pixar"
+  },
+  {
+   "id": "div_enfant-199",
+   "q": "Quel petit garçon chauve de 4 ans découvre le monde dans un dessin animé canadien ?",
+   "r": "Caillou",
+   "d": 1,
+   "t": "Dessins animés"
+  },
+  {
+   "id": "div_enfant-499",
+   "q": "Dans « Animal Crossing », comment s'appelle la petite chienne jaune qui aide le joueur à la mairie ?",
+   "r": "Marie",
+   "d": 1,
+   "t": "Jeux vidéo"
+  },
+  {
+   "id": "div_enfant-069",
+   "q": "Comment s'appelle le gros robot blanc tout doux des « Nouveaux Héros » ?",
+   "r": "Baymax",
+   "d": 1,
+   "t": "Films Disney"
+  },
+  {
+   "id": "div_enfant-183",
+   "q": "Comment s'appelle le meilleur ami de Maya l'abeille ?",
+   "r": "Willy",
+   "d": 1,
+   "t": "Dessins animés"
+  },
+  {
+   "id": "div_enfant-147",
+   "q": "Comment s'appelle le petit chat noir qui parle avec Kiki, la petite sorcière ?",
+   "r": "Jiji",
+   "d": 1,
+   "t": "Films d'animation"
+  },
+  {
+   "id": "div_enfant-278",
+   "q": "Dans le jeu « Croque-Carotte », quels animaux font la course jusqu'en haut de la colline ?",
+   "r": "Les lapins",
+   "d": 1,
+   "t": "Jeux de société"
+  },
+  {
+   "id": "div_enfant-303",
+   "q": "Dans Minecraft, quel minerai bleu clair très précieux sert à fabriquer des outils très solides ?",
+   "r": "Le diamant",
+   "d": 1,
+   "t": "Jeux vidéo"
+  },
+  {
+   "id": "div_enfant-300",
+   "q": "En quel Pokémon Pikachu évolue-t-il ?",
+   "r": "Raichu",
+   "d": 1,
+   "t": "Jeux vidéo"
+  },
+  {
+   "id": "div_enfant-167",
+   "q": "Quel crabe qui adore l'argent est le patron de Bob l'éponge ?",
+   "r": "M. Krabs",
+   "d": 1,
+   "t": "Dessins animés"
+  },
+  {
+   "id": "div_enfant-195",
+   "q": "Dans « Phinéas et Ferb », quel ornithorynque est un agent secret ?",
+   "r": "Perry",
+   "d": 1,
+   "t": "Dessins animés"
+  },
+  {
+   "id": "div_enfant-043",
+   "q": "Comment s'appelle le fils de Dingo ?",
+   "r": "Max",
+   "d": 1,
+   "t": "Dessins animés"
+  },
+  {
+   "id": "div_enfant-318",
+   "q": "Comment s'appelle le grand et gros meilleur ami d'Astérix ?",
+   "r": "Obélix",
+   "d": 1,
+   "t": "BD jeunesse"
+  },
+  {
+   "id": "div_enfant-268",
+   "q": "Aux dames, combien de pions chaque joueur a-t-il sur un damier de 100 cases ?",
+   "r": "20",
+   "d": 1,
+   "t": "Jeux de société"
+  },
+  {
+   "id": "div_enfant-342",
+   "q": "Dans « Au clair de la lune », à quel ami demande-t-on de prêter sa plume ?",
+   "r": "Pierrot",
+   "d": 1,
+   "t": "Comptines"
+  },
+  {
+   "id": "div_enfant-399",
+   "q": "Quel animal en papier accroche-t-on dans le dos des gens le 1er avril ?",
+   "r": "Un poisson",
+   "d": 1,
+   "t": "Fêtes"
+  },
+  {
+   "id": "div_enfant-146",
+   "q": "Sur quoi vole Kiki, la petite sorcière du film de Miyazaki ?",
+   "r": "Un balai",
+   "d": 1,
+   "t": "Films d'animation"
+  },
+  {
+   "id": "div_enfant-088",
+   "q": "Dans « Cars », dans quelle petite ville Flash McQueen se retrouve-t-il perdu ?",
+   "r": "Radiator Springs",
+   "d": 1,
+   "t": "Films Pixar"
+  },
   {
    "id": "div_a_1-015",
    "q": "Comment s'appellent les récompenses du cinéma français, créées en 1976, équivalent des Oscars ?",
@@ -3179,9 +3480,268 @@
    "r": "Queen",
    "d": 3,
    "t": "Rock"
+  },
+  {
+   "id": "div_facile-003",
+   "q": "Quel matricule à trois chiffres porte l'agent secret James Bond ?",
+   "r": "007",
+   "d": 2,
+   "t": "James Bond"
+  },
+  {
+   "id": "div_facile-006",
+   "q": "Dans « Seul au monde » (2000), quel objet Tom Hanks, naufragé sur une île, baptise-t-il Wilson ?",
+   "r": "Un ballon de volley",
+   "d": 2,
+   "t": "Cinéma américain"
+  },
+  {
+   "id": "div_facile-051",
+   "q": "Dans « La Belle et la Bête » de Disney, quelle théière bienveillante est la mère du petit Zip ?",
+   "r": "Madame Samovar",
+   "d": 2,
+   "t": "Disney"
+  },
+  {
+   "id": "div_facile-083",
+   "q": "Quelle série suit trois sœurs sorcières nommées Prue, Piper et Phoebe Halliwell ?",
+   "r": "Charmed",
+   "d": 2,
+   "t": "Séries"
+  },
+  {
+   "id": "div_facile-106",
+   "q": "Dans quel film de 1984 un adolescent apprend-il les arts martiaux auprès de M. Miyagi ?",
+   "r": "Karaté Kid",
+   "d": 2,
+   "t": "Cinéma américain"
+  },
+  {
+   "id": "div_facile-108",
+   "q": "Dans « Les Indestructibles », quel super-pouvoir possède Elastigirl, la mère de famille ?",
+   "r": "Son corps s'étire",
+   "d": 2,
+   "t": "Films d'animation"
+  },
+  {
+   "id": "div_facile-114",
+   "q": "Quel aliment sucré Winnie l'ourson adore-t-il plus que tout ?",
+   "r": "Le miel",
+   "d": 2,
+   "t": "Dessins animés"
+  },
+  {
+   "id": "div_facile-122",
+   "q": "Quel détective maladroit de dessin animé, en imperméable et bardé d'inventions, combat le Docteur Gang ?",
+   "r": "L'Inspecteur Gadget",
+   "d": 2,
+   "t": "Dessins animés"
+  },
+  {
+   "id": "div_facile-148",
+   "q": "Quels deux petits tamias farceurs, souvent rivaux de Donald, sont des personnages de Disney ?",
+   "r": "Tic et Tac",
+   "d": 2,
+   "t": "Disney"
+  },
+  {
+   "id": "div_facile-161",
+   "q": "Quel acteur américain incarne l'inspecteur Harry Callahan, policier expéditif de San Francisco, à partir de 1971 ?",
+   "r": "Clint Eastwood",
+   "d": 2,
+   "t": "Acteurs et rôles"
+  },
+  {
+   "id": "div_facile-204",
+   "q": "Quel film d'animation de 2004 suit un petit garçon embarqué la nuit de Noël dans un train magique vers le pôle Nord ?",
+   "r": "Le Pôle Express",
+   "d": 2,
+   "t": "Films d'animation"
+  },
+  {
+   "id": "div_facile-229",
+   "q": "Dans « Le Magicien d'Oz », que souhaite obtenir l'Homme de fer-blanc, compagnon de Dorothy ?",
+   "r": "Un cœur",
+   "d": 2,
+   "t": "Cinéma américain"
+  },
+  {
+   "id": "div_facile-231",
+   "q": "Quel chanteur français a interprété « Allumer le feu » et « Que je t'aime » ?",
+   "r": "Johnny Hallyday",
+   "d": 2,
+   "t": "Chanson française"
+  },
+  {
+   "id": "div_facile-246",
+   "q": "Quelle chanteuse américaine a interprété « La Isla Bonita » et « Material Girl » ?",
+   "r": "Madonna",
+   "d": 2,
+   "t": "Musique internationale"
+  },
+  {
+   "id": "div_facile-253",
+   "q": "Combien de notes compte la gamme, de do à si ?",
+   "r": "7",
+   "d": 2,
+   "t": "Musique"
+  },
+  {
+   "id": "div_facile-329",
+   "q": "Quel jeu de cour d'école consiste à sauter à cloche-pied dans des cases dessinées à la craie ?",
+   "r": "La marelle",
+   "d": 2,
+   "t": "Jeux"
+  },
+  {
+   "id": "div_facile-349",
+   "q": "Quel petit fichier, au nom de biscuit, un site enregistre-t-il sur l'ordinateur des visiteurs ?",
+   "r": "Un cookie",
+   "d": 2,
+   "t": "Internet"
+  },
+  {
+   "id": "div_facile-352",
+   "q": "Combien de bandes parallèles figurent sur les vêtements Adidas ?",
+   "r": "3",
+   "d": 2,
+   "t": "Marques"
+  },
+  {
+   "id": "div_facile-420",
+   "q": "Quel burger emblématique est vendu par Burger King ?",
+   "r": "Le Whopper",
+   "d": 2,
+   "t": "Marques"
+  },
+  {
+   "id": "div_facile-421",
+   "q": "Quelle marque de soda, grande rivale de Coca-Cola, a un logo rond bleu, blanc et rouge ?",
+   "r": "Pepsi",
+   "d": 2,
+   "t": "Marques"
+  },
+  {
+   "id": "div_facile-433",
+   "q": "Quel chewing-gum rose en bâton a pour mascotte un costaud blond et offre des décalcomanies ?",
+   "r": "Malabar",
+   "d": 2,
+   "t": "Marques"
+  },
+  {
+   "id": "div_facile-454",
+   "q": "Quel chanteur québécois a chanté « Sous le vent » en duo avec Céline Dion en 2001 ?",
+   "r": "Garou",
+   "d": 2,
+   "t": "Chanson française"
+  },
+  {
+   "id": "div_facile-459",
+   "q": "Comment appelle-t-on une émission audio que l'on écoute sur Internet au moment de son choix ?",
+   "r": "Un podcast",
+   "d": 2,
+   "t": "Internet"
+  },
+  {
+   "id": "div_facile-505",
+   "q": "Quelle actrice italienne incarne Cléopâtre dans « Astérix et Obélix : Mission Cléopâtre » (2002) ?",
+   "r": "Monica Bellucci",
+   "d": 2,
+   "t": "Films français"
+  },
+  {
+   "id": "div_facile-517",
+   "q": "Quelle personne l'inspecteur Columbo évoque-t-il sans cesse sans qu'on la voie jamais ?",
+   "r": "Sa femme",
+   "d": 2,
+   "t": "Séries étrangères"
   }
  ],
  "his": [
+  {
+   "id": "his_enfant-509",
+   "q": "Quel appareil, au milieu de la classe, chauffait les écoliers d'autrefois en hiver ?",
+   "r": "Le poêle",
+   "d": 1,
+   "t": "École d'autrefois"
+  },
+  {
+   "id": "his_enfant-018",
+   "q": "Quel animal les premiers éleveurs ont-ils gardé pour sa laine ?",
+   "r": "Le mouton",
+   "d": 1,
+   "t": "Préhistoire"
+  },
+  {
+   "id": "his_enfant-375",
+   "q": "À quel jeu saute-t-on de case en case, dessinées à la craie, en poussant un caillou ?",
+   "r": "La marelle",
+   "d": 1,
+   "t": "Vie d'autrefois"
+  },
+  {
+   "id": "his_enfant-198",
+   "q": "Qui cultivait les champs du seigneur au Moyen Âge ?",
+   "r": "Les paysans",
+   "d": 1,
+   "t": "Moyen Âge"
+  },
+  {
+   "id": "his_enfant-113",
+   "q": "Dans quel animal géant en bois les Grecs se sont-ils cachés pour entrer dans Troie ?",
+   "r": "Un cheval",
+   "d": 1,
+   "t": "Grecs"
+  },
+  {
+   "id": "his_enfant-486",
+   "q": "Quel âge avait à peu près Jeanne d'Arc quand elle a délivré Orléans : 17 ans, 27 ans ou 37 ans ?",
+   "r": "17 ans",
+   "d": 1,
+   "t": "Jeanne d'Arc"
+  },
+  {
+   "id": "his_enfant-257",
+   "q": "Avant la couleur, comment étaient les images de la télévision ?",
+   "r": "En noir et blanc",
+   "d": 1,
+   "t": "Inventions"
+  },
+  {
+   "id": "his_enfant-009",
+   "q": "Quels animaux géants avaient disparu des millions d'années avant l'arrivée des premiers hommes ?",
+   "r": "Les dinosaures",
+   "d": 1,
+   "t": "Préhistoire"
+  },
+  {
+   "id": "his_enfant-273",
+   "q": "Quel véhicule à moteur, inventé à la fin du XIXe siècle, a remplacé peu à peu les calèches ?",
+   "r": "La voiture",
+   "d": 1,
+   "t": "Inventions"
+  },
+  {
+   "id": "his_enfant-249",
+   "q": "Quelle savante a été la première femme à recevoir un prix Nobel ?",
+   "r": "Marie Curie",
+   "d": 1,
+   "t": "Inventions"
+  },
+  {
+   "id": "his_enfant-197",
+   "q": "Quelle grande cathédrale a été touchée par un incendie en avril 2019 ?",
+   "r": "Notre-Dame de Paris",
+   "d": 1,
+   "t": "Moyen Âge"
+  },
+  {
+   "id": "his_enfant-304",
+   "q": "Quels sauveteurs organisent un grand bal dans leur caserne pour la fête du 14 Juillet ?",
+   "r": "Les pompiers",
+   "d": 1,
+   "t": "Symboles de la France"
+  },
   {
    "id": "his_a_1-042",
    "q": "Quel roi de France fit arrêter les Templiers en 1307 ?",
@@ -4728,9 +5288,800 @@
    "r": "George VI",
    "d": 3,
    "t": "Seconde Guerre mondiale"
+  },
+  {
+   "id": "his_facile-003",
+   "q": "Quelle découverte majeure a permis aux hommes préhistoriques de se chauffer, de s'éclairer et de cuire leurs aliments ?",
+   "r": "Le feu",
+   "d": 2,
+   "t": "Préhistoire"
+  },
+  {
+   "id": "his_facile-010",
+   "q": "Comment appelle-t-on les spécialistes qui étudient les traces matérielles du passé en réalisant des fouilles ?",
+   "r": "Les archéologues",
+   "d": 2,
+   "t": "Préhistoire"
+  },
+  {
+   "id": "his_facile-030",
+   "q": "Comment appelle-t-on les villes indépendantes de la Grèce antique, comme Athènes ou Sparte ?",
+   "r": "Les cités-États",
+   "d": 2,
+   "t": "Grèce antique"
+  },
+  {
+   "id": "his_facile-031",
+   "q": "Quel conquérant macédonien du IVe siècle av. J.-C. bâtit un empire s'étendant de la Grèce jusqu'à l'Inde ?",
+   "r": "Alexandre le Grand",
+   "d": 2,
+   "t": "Grèce antique"
+  },
+  {
+   "id": "his_facile-043",
+   "q": "Quelle mer les Romains surnommaient-ils « Mare Nostrum », c'est-à-dire « notre mer » ?",
+   "r": "La Méditerranée",
+   "d": 2,
+   "t": "Rome antique"
+  },
+  {
+   "id": "his_facile-066",
+   "q": "Comment appelle-t-on les hautes murailles qui protégeaient une ville ou un château ?",
+   "r": "Les remparts",
+   "d": 2,
+   "t": "Châteaux forts"
+  },
+  {
+   "id": "his_facile-071",
+   "q": "Comment appelle-t-on un soldat qui combat pour celui qui le paie, et non pour son pays ?",
+   "r": "Un mercenaire",
+   "d": 2,
+   "t": "Moyen Âge"
+  },
+  {
+   "id": "his_facile-075",
+   "q": "Comment appelle-t-on les expéditions militaires chrétiennes menées vers la Terre sainte du XIe au XIIIe siècle ?",
+   "r": "Les croisades",
+   "d": 2,
+   "t": "Croisades"
+  },
+  {
+   "id": "his_facile-080",
+   "q": "Contre quel royaume la France a-t-elle mené la guerre de Cent Ans ?",
+   "r": "L'Angleterre",
+   "d": 2,
+   "t": "Moyen Âge"
+  },
+  {
+   "id": "his_facile-085",
+   "q": "Sur quel support fait de peau d'animal écrivait-on les manuscrits du Moyen Âge ?",
+   "r": "Le parchemin",
+   "d": 2,
+   "t": "Moyen Âge"
+  },
+  {
+   "id": "his_facile-088",
+   "q": "Quel supplice infligeait-on aux personnes condamnées pour sorcellerie ou hérésie ?",
+   "r": "Le bûcher",
+   "d": 2,
+   "t": "Moyen Âge"
+  },
+  {
+   "id": "his_facile-090",
+   "q": "Quel artisan médiéval, ancêtre du coiffeur, pratiquait aussi saignées et arrachages de dents ?",
+   "r": "Le barbier",
+   "d": 2,
+   "t": "Moyen Âge"
+  },
+  {
+   "id": "his_facile-109",
+   "q": "Quel pays d'Amérique du Sud doit son nom à Christophe Colomb ?",
+   "r": "La Colombie",
+   "d": 2,
+   "t": "Grandes découvertes"
+  },
+  {
+   "id": "his_facile-110",
+   "q": "Comment appelle-t-on les conquérants espagnols de l'Amérique, comme Cortés ou Pizarro ?",
+   "r": "Les conquistadors",
+   "d": 2,
+   "t": "Grandes découvertes"
+  },
+  {
+   "id": "his_facile-120",
+   "q": "Quel navigateur portugais a donné son nom au détroit qui relie l'Atlantique au Pacifique, au sud de l'Amérique ?",
+   "r": "Fernand de Magellan",
+   "d": 2,
+   "t": "Grandes découvertes"
+  },
+  {
+   "id": "his_facile-121",
+   "q": "Comment appelait-on les marins autorisés par leur roi à attaquer les navires ennemis ?",
+   "r": "Les corsaires",
+   "d": 2,
+   "t": "Grandes découvertes"
+  },
+  {
+   "id": "his_facile-124",
+   "q": "Comment appelle-t-on le commerce des esclaves africains déportés vers les Amériques ?",
+   "r": "La traite négrière",
+   "d": 2,
+   "t": "Grandes découvertes"
+  },
+  {
+   "id": "his_facile-130",
+   "q": "Quel roi de France a donné son nom à la Louisiane ?",
+   "r": "Louis XIV",
+   "d": 2,
+   "t": "Louis XIV"
+  },
+  {
+   "id": "his_facile-138",
+   "q": "Sous le règne de quel roi la Révolution française a-t-elle éclaté ?",
+   "r": "Louis XVI",
+   "d": 2,
+   "t": "Révolution française"
+  },
+  {
+   "id": "his_facile-146",
+   "q": "Dans La Marseillaise, quels mots suivent « Allons enfants de la Patrie » ?",
+   "r": "« Le jour de gloire est arrivé »",
+   "d": 2,
+   "t": "Révolution française"
+  },
+  {
+   "id": "his_facile-149",
+   "q": "Quel surnom péjoratif, rappelant ses origines, le peuple donnait-il à Marie-Antoinette ?",
+   "r": "L'Autrichienne",
+   "d": 2,
+   "t": "Révolution française"
+  },
+  {
+   "id": "his_facile-158",
+   "q": "Quels sont les trois grands principes de l'école publique instaurés par les lois Jules Ferry ?",
+   "r": "Gratuite, laïque et obligatoire",
+   "d": 2,
+   "t": "XIXe siècle"
+  },
+  {
+   "id": "his_facile-167",
+   "q": "Dans quelle ville des Pyrénées Bernadette Soubirous affirma-t-elle avoir vu la Vierge en 1858 ?",
+   "r": "Lourdes",
+   "d": 2,
+   "t": "XIXe siècle"
+  },
+  {
+   "id": "his_facile-168",
+   "q": "Quel moyen de transport souterrain a été mis en service pour la première fois à Londres en 1863 ?",
+   "r": "Le métro",
+   "d": 2,
+   "t": "Inventions"
+  },
+  {
+   "id": "his_facile-173",
+   "q": "En quelle année commence la Première Guerre mondiale ?",
+   "r": "1914",
+   "d": 2,
+   "t": "Première Guerre mondiale"
+  },
+  {
+   "id": "his_facile-175",
+   "q": "Quelle date commémore chaque année en France l'armistice de la Première Guerre mondiale ?",
+   "r": "Le 11 novembre",
+   "d": 2,
+   "t": "Première Guerre mondiale"
+  },
+  {
+   "id": "his_facile-181",
+   "q": "Quel traité, signé en 1919, impose ses conditions de paix à l'Allemagne vaincue ?",
+   "r": "Le traité de Versailles",
+   "d": 2,
+   "t": "Première Guerre mondiale"
+  },
+  {
+   "id": "his_facile-184",
+   "q": "Quelles provinces perdues en 1871 la France récupère-t-elle à la fin de la Première Guerre mondiale ?",
+   "r": "L'Alsace et la Lorraine",
+   "d": 2,
+   "t": "Première Guerre mondiale"
+  },
+  {
+   "id": "his_facile-194",
+   "q": "Quel dirigeant soviétique, mort en 1953, a gouverné l'URSS d'une main de fer pendant près de trente ans ?",
+   "r": "Staline",
+   "d": 2,
+   "t": "Personnages célèbres"
+  },
+  {
+   "id": "his_facile-195",
+   "q": "Quel dictateur soviétique était surnommé par sa propagande le « Petit Père des peuples » ?",
+   "r": "Joseph Staline",
+   "d": 2,
+   "t": "Personnages célèbres"
+  },
+  {
+   "id": "his_facile-196",
+   "q": "Quels deux outils, symboles des ouvriers et des paysans, figuraient sur le drapeau de l'URSS ?",
+   "r": "La faucille et le marteau",
+   "d": 2,
+   "t": "Entre-deux-guerres"
+  },
+  {
+   "id": "his_facile-202",
+   "q": "Quel révolutionnaire russe repose embaumé dans un mausolée sur la place Rouge, à Moscou ?",
+   "r": "Lénine",
+   "d": 2,
+   "t": "Personnages célèbres"
+  },
+  {
+   "id": "his_facile-221",
+   "q": "Quelle expression française traduit le mot allemand « Blitzkrieg », qui désigne une offensive très rapide ?",
+   "r": "La guerre éclair",
+   "d": 2,
+   "t": "Seconde Guerre mondiale"
+  },
+  {
+   "id": "his_facile-222",
+   "q": "Quel surnom de deux lettres désignait les soldats américains pendant la Seconde Guerre mondiale ?",
+   "r": "GI",
+   "d": 2,
+   "t": "Seconde Guerre mondiale"
+  },
+  {
+   "id": "his_facile-226",
+   "q": "Comment appelle-t-on la longue rivalité, sans affrontement direct, entre les États-Unis et l'URSS de 1947 à 1991 ?",
+   "r": "La guerre froide",
+   "d": 2,
+   "t": "Guerre froide"
+  },
+  {
+   "id": "his_facile-227",
+   "q": "En quelle année le mur de Berlin est-il tombé ?",
+   "r": "1989",
+   "d": 2,
+   "t": "Guerre froide"
+  },
+  {
+   "id": "his_facile-232",
+   "q": "Quelle résidence de Washington accueille les présidents des États-Unis depuis 1800 ?",
+   "r": "La Maison-Blanche",
+   "d": 2,
+   "t": "Guerre froide"
+  },
+  {
+   "id": "his_facile-253",
+   "q": "Quelle reine du Royaume-Uni est morte en septembre 2022, après plus de soixante-dix ans de règne ?",
+   "r": "Élisabeth II",
+   "d": 2,
+   "t": "Personnages célèbres"
+  },
+  {
+   "id": "his_facile-255",
+   "q": "Quelle date a été choisie pour la Journée internationale des droits des femmes ?",
+   "r": "Le 8 mars",
+   "d": 2,
+   "t": "Dates célèbres"
+  },
+  {
+   "id": "his_facile-268",
+   "q": "Quel objet les astronautes d'Apollo 11 ont-ils planté sur le sol lunaire en juillet 1969 ?",
+   "r": "Le drapeau américain",
+   "d": 2,
+   "t": "Conquête spatiale"
+  },
+  {
+   "id": "his_facile-269",
+   "q": "Comment s'appelle en français le grand laboratoire habité qui tourne autour de la Terre, désigné par le sigle anglais ISS ?",
+   "r": "La Station spatiale internationale",
+   "d": 2,
+   "t": "Conquête spatiale"
+  },
+  {
+   "id": "his_facile-273",
+   "q": "Combien de pays comptait l'Union européenne juste après le départ du Royaume-Uni, en 2020 ?",
+   "r": "27",
+   "d": 2,
+   "t": "Construction européenne"
+  },
+  {
+   "id": "his_facile-292",
+   "q": "Quelle religieuse a consacré une grande partie de sa vie aux chiffonniers des bidonvilles du Caire ?",
+   "r": "Sœur Emmanuelle",
+   "d": 2,
+   "t": "Personnages célèbres"
+  },
+  {
+   "id": "his_facile-294",
+   "q": "Comment appelle-t-on les alignements de maisons ouvrières bâties près des mines de charbon ?",
+   "r": "Les corons",
+   "d": 2,
+   "t": "Révolution industrielle"
+  },
+  {
+   "id": "his_facile-301",
+   "q": "Quel adjectif, évoquant les souverains de l'Égypte antique, qualifie un projet aux dimensions démesurées ?",
+   "r": "Pharaonique",
+   "d": 2,
+   "t": "Égypte antique"
+  },
+  {
+   "id": "his_facile-304",
+   "q": "Quel peuple a conquis la Grèce au IIe siècle av. J.-C., tout en adoptant une grande partie de sa culture ?",
+   "r": "Les Romains",
+   "d": 2,
+   "t": "Grèce antique"
+  },
+  {
+   "id": "his_facile-310",
+   "q": "Quelle boisson les Grecs et les Romains avaient-ils l'habitude de couper avec de l'eau avant de la boire ?",
+   "r": "Le vin",
+   "d": 2,
+   "t": "Antiquité"
+  },
+  {
+   "id": "his_facile-311",
+   "q": "Quelle monnaie romaine, souvent citée dans les albums d'Astérix, servait d'unité de compte pour les prix et les fortunes ?",
+   "r": "Le sesterce",
+   "d": 2,
+   "t": "Rome antique"
+  },
+  {
+   "id": "his_facile-319",
+   "q": "Quel jour de l'année Charlemagne a-t-il été couronné empereur à Rome, en 800 ?",
+   "r": "Le jour de Noël",
+   "d": 2,
+   "t": "Haut Moyen Âge"
+  },
+  {
+   "id": "his_facile-321",
+   "q": "Quel fleuve les Vikings remontaient-ils à bord de leurs drakkars pour piller Rouen et assiéger Paris ?",
+   "r": "La Seine",
+   "d": 2,
+   "t": "Vikings"
+  },
+  {
+   "id": "his_facile-323",
+   "q": "Dans la société du Moyen Âge, quel ordre regroupait « ceux qui combattent » ?",
+   "r": "La noblesse",
+   "d": 2,
+   "t": "Moyen Âge"
+  },
+  {
+   "id": "his_facile-324",
+   "q": "Comment appelait-on au Moyen Âge les habitants des villes, marchands et artisans, qui obtinrent des libertés de leur seigneur ?",
+   "r": "Les bourgeois",
+   "d": 2,
+   "t": "Moyen Âge"
+  },
+  {
+   "id": "his_facile-332",
+   "q": "Quel droit, réservé aux seigneurs, était interdit aux paysans du Moyen Âge sous peine de lourdes sanctions ?",
+   "r": "Le droit de chasse",
+   "d": 2,
+   "t": "Moyen Âge"
+  },
+  {
+   "id": "his_facile-334",
+   "q": "Comment appelle-t-on la somme exigée pour libérer un prisonnier, comme celle versée pour délivrer Richard Cœur de Lion ?",
+   "r": "Une rançon",
+   "d": 2,
+   "t": "Moyen Âge"
+  },
+  {
+   "id": "his_facile-336",
+   "q": "Quelle arme à feu, qui se répand pendant la guerre de Cent Ans, a fini par rendre les châteaux forts vulnérables ?",
+   "r": "Le canon",
+   "d": 2,
+   "t": "Chevalerie"
+  },
+  {
+   "id": "his_facile-338",
+   "q": "Comment appelle-t-on la petite zone rasée au sommet du crâne que portaient les moines ?",
+   "r": "La tonsure",
+   "d": 2,
+   "t": "Église médiévale"
+  },
+  {
+   "id": "his_facile-341",
+   "q": "Quelle sanction le pape pouvait-il infliger à un roi ou à un fidèle en l'excluant de la communauté des chrétiens ?",
+   "r": "L'excommunication",
+   "d": 2,
+   "t": "Église médiévale"
+  },
+  {
+   "id": "his_facile-343",
+   "q": "Quel instrument mécanique, installé dans les beffrois et les clochers à partir du XIVe siècle, indiquait les heures à toute la ville ?",
+   "r": "L'horloge",
+   "d": 2,
+   "t": "Moyen Âge"
+  },
+  {
+   "id": "his_facile-355",
+   "q": "Dans quel pays a-t-on utilisé les premiers billets de banque en papier, dès le XIe siècle ?",
+   "r": "La Chine",
+   "d": 2,
+   "t": "Chine ancienne"
+  },
+  {
+   "id": "his_facile-358",
+   "q": "Quel métal précieux, que les Incas appelaient « la sueur du Soleil », attisa la convoitise des conquistadors ?",
+   "r": "L'or",
+   "d": 2,
+   "t": "Amériques précolombiennes"
+  },
+  {
+   "id": "his_facile-360",
+   "q": "Après avoir contourné l'Afrique, quel océan Vasco de Gama a-t-il traversé en 1498 pour atteindre Calicut ?",
+   "r": "L'océan Indien",
+   "d": 2,
+   "t": "Grandes Découvertes"
+  },
+  {
+   "id": "his_facile-366",
+   "q": "Avant de devenir roi de France en 1589, de quel petit royaume des Pyrénées Henri IV était-il déjà le roi ?",
+   "r": "La Navarre",
+   "d": 2,
+   "t": "Henri IV"
+  },
+  {
+   "id": "his_facile-367",
+   "q": "Quelle religion Henri IV a-t-il dû abandonner pour être accepté comme roi par les catholiques ?",
+   "r": "Le protestantisme",
+   "d": 2,
+   "t": "Henri IV"
+  },
+  {
+   "id": "his_facile-369",
+   "q": "Selon les partisans de la monarchie absolue, de qui le roi de France tenait-il son pouvoir ?",
+   "r": "De Dieu",
+   "d": 2,
+   "t": "Monarchie absolue"
+  },
+  {
+   "id": "his_facile-378",
+   "q": "Quel président américain figure sur le billet d'un dollar ?",
+   "r": "George Washington",
+   "d": 2,
+   "t": "États-Unis"
+  },
+  {
+   "id": "his_facile-382",
+   "q": "Quel titre Napoléon Bonaparte, jusque-là Premier consul, prend-il en 1804 ?",
+   "r": "Empereur des Français",
+   "d": 2,
+   "t": "Napoléon"
+  },
+  {
+   "id": "his_facile-385",
+   "q": "De quelle couleur est le ruban de la Légion d'honneur, la plus haute décoration française ?",
+   "r": "Rouge",
+   "d": 2,
+   "t": "Napoléon"
+  },
+  {
+   "id": "his_facile-392",
+   "q": "Quel grand bois de l'ouest de Paris Napoléon III a-t-il fait aménager en promenade, avec lacs et cascade ?",
+   "r": "Le bois de Boulogne",
+   "d": 2,
+   "t": "Second Empire"
+  },
+  {
+   "id": "his_facile-399",
+   "q": "Quelle procédure de séparation des époux, supprimée en 1816, a été rétablie en France en 1884 ?",
+   "r": "Le divorce",
+   "d": 2,
+   "t": "IIIe République"
+  },
+  {
+   "id": "his_facile-400",
+   "q": "Quel petit espace fermé, rendu obligatoire en 1913 dans les bureaux de vote, garantit le secret du vote ?",
+   "r": "L'isoloir",
+   "d": 2,
+   "t": "IIIe République"
+  },
+  {
+   "id": "his_facile-413",
+   "q": "Comment appelait-on les militants qui, aux XVIIIe et XIXe siècles, réclamaient la fin de l'esclavage ?",
+   "r": "Les abolitionnistes",
+   "d": 2,
+   "t": "Esclavage"
+  },
+  {
+   "id": "his_facile-414",
+   "q": "Comment appelle-t-on les grands domaines agricoles du sud des États-Unis où des esclaves cultivaient le coton ?",
+   "r": "Les plantations",
+   "d": 2,
+   "t": "Esclavage"
+  },
+  {
+   "id": "his_facile-421",
+   "q": "Quel port de Californie, où débarquaient les chercheurs d'or venus par la mer, a connu un essor spectaculaire lors de la ruée vers l'or de 1849 ?",
+   "r": "San Francisco",
+   "d": 2,
+   "t": "Conquête de l'Ouest"
+  },
+  {
+   "id": "his_facile-427",
+   "q": "Quelle rue de Londres abrite au numéro 10, depuis 1735, la résidence du Premier ministre britannique ?",
+   "r": "Downing Street",
+   "d": 2,
+   "t": "Royaume-Uni"
+  },
+  {
+   "id": "his_facile-434",
+   "q": "Comment appelle-t-on, au XIXe siècle, la classe des ouvriers qui ne possèdent que leur force de travail ?",
+   "r": "Le prolétariat",
+   "d": 2,
+   "t": "Révolution industrielle"
+  },
+  {
+   "id": "his_facile-444",
+   "q": "Quel empire d'Europe centrale, gouverné par les Habsbourg, a disparu à la fin de la Première Guerre mondiale ?",
+   "r": "L'Autriche-Hongrie",
+   "d": 2,
+   "t": "Première Guerre mondiale"
+  },
+  {
+   "id": "his_facile-468",
+   "q": "Quelle expression, inventée en 1952, désignait les pays pauvres qui n'appartenaient ni au bloc de l'Ouest ni au bloc de l'Est ?",
+   "r": "Le tiers-monde",
+   "d": 2,
+   "t": "Décolonisation"
+  },
+  {
+   "id": "his_facile-476",
+   "q": "Quel président est le seul de la Ve République à avoir accompli deux septennats complets ?",
+   "r": "François Mitterrand",
+   "d": 2,
+   "t": "Ve République"
+  },
+  {
+   "id": "his_facile-487",
+   "q": "Quel avion supersonique s'est écrasé à Gonesse, près de Paris, en juillet 2000 ?",
+   "r": "Le Concorde",
+   "d": 2,
+   "t": "France contemporaine"
+  },
+  {
+   "id": "his_facile-493",
+   "q": "Quel mouvement de contestation, né en France en novembre 2018, tire son nom d'un équipement de sécurité routière ?",
+   "r": "Les Gilets jaunes",
+   "d": 2,
+   "t": "France contemporaine"
+  },
+  {
+   "id": "his_facile-498",
+   "q": "Comment appelait-on les jeunes des années 1960 et 1970 qui prônaient « Peace and Love » et portaient des fleurs dans leurs cheveux longs ?",
+   "r": "Les hippies",
+   "d": 2,
+   "t": "Monde contemporain"
+  },
+  {
+   "id": "his_facile-507",
+   "q": "Quel pape, élu en 2013 et mort en 2025, a été le premier originaire du continent américain ?",
+   "r": "François",
+   "d": 2,
+   "t": "Monde contemporain"
+  },
+  {
+   "id": "his_facile-508",
+   "q": "Quelle péninsule ukrainienne de la mer Noire a été annexée par la Russie en 2014 ?",
+   "r": "La Crimée",
+   "d": 2,
+   "t": "Monde contemporain"
+  },
+  {
+   "id": "his_facile-512",
+   "q": "Quel magnat des médias a dirigé à plusieurs reprises le gouvernement italien entre 1994 et 2011 ?",
+   "r": "Silvio Berlusconi",
+   "d": 2,
+   "t": "Monde contemporain"
+  },
+  {
+   "id": "his_facile-520",
+   "q": "Quel pays de la zone euro a frôlé la faillite lors d'une grave crise de sa dette publique, à partir de 2010 ?",
+   "r": "La Grèce",
+   "d": 2,
+   "t": "Construction européenne"
+  },
+  {
+   "id": "his_facile-529",
+   "q": "Quelle formation d'avions militaires trace un panache bleu-blanc-rouge au-dessus des Champs-Élysées chaque 14-Juillet ?",
+   "r": "La Patrouille de France",
+   "d": 2,
+   "t": "Symboles"
+  },
+  {
+   "id": "his_facile-530",
+   "q": "Comment les anglophones appellent-ils la fête nationale française du 14-Juillet ?",
+   "r": "Bastille Day",
+   "d": 2,
+   "t": "Fêtes"
+  },
+  {
+   "id": "his_facile-533",
+   "q": "Quelle fête chrétienne, célébrée un jeudi quarante jours après Pâques, offre souvent un long « pont » de mai ?",
+   "r": "L'Ascension",
+   "d": 2,
+   "t": "Fêtes"
+  },
+  {
+   "id": "his_facile-544",
+   "q": "Quelle Française, morte à Arles en 1997, a vécu jusqu'à l'âge de 122 ans ?",
+   "r": "Jeanne Calment",
+   "d": 2,
+   "t": "Femmes célèbres"
+  },
+  {
+   "id": "his_facile-546",
+   "q": "Dans quel château, à l'ouest de Paris, l'impératrice Joséphine a-t-elle vécu après son divorce d'avec Napoléon ?",
+   "r": "La Malmaison",
+   "d": 2,
+   "t": "Châteaux"
+  },
+  {
+   "id": "his_facile-552",
+   "q": "Quelle épouse de président a présidé pendant 25 ans la Fondation des hôpitaux et son opération « Pièces jaunes » ?",
+   "r": "Bernadette Chirac",
+   "d": 2,
+   "t": "Femmes célèbres"
+  },
+  {
+   "id": "his_facile-553",
+   "q": "Quel était le prénom de l'épouse du général de Gaulle ?",
+   "r": "Yvonne",
+   "d": 2,
+   "t": "Femmes célèbres"
+  },
+  {
+   "id": "his_facile-554",
+   "q": "Quelle garde des Sceaux a défendu en 2013 la loi ouvrant le mariage aux couples de même sexe ?",
+   "r": "Christiane Taubira",
+   "d": 2,
+   "t": "Femmes célèbres"
+  },
+  {
+   "id": "his_facile-556",
+   "q": "Quelle avocate est devenue en 2009 la première « première dame » afro-américaine des États-Unis ?",
+   "r": "Michelle Obama",
+   "d": 2,
+   "t": "Femmes célèbres"
+  },
+  {
+   "id": "his_facile-560",
+   "q": "Depuis 1974, quelle est la vitesse maximale autorisée sur les autoroutes françaises par temps sec ?",
+   "r": "130 km/h",
+   "d": 2,
+   "t": "Transports"
+  },
+  {
+   "id": "his_facile-561",
+   "q": "Quelle célèbre Citroën noire, produite de 1934 à 1957, était surnommée la « reine de la route » ?",
+   "r": "La Traction Avant",
+   "d": 2,
+   "t": "Transports"
+  },
+  {
+   "id": "his_facile-562",
+   "q": "Quel deux-roues, lancé par Motobécane en 1949, a fini par donner son nom à tous les cyclomoteurs en France ?",
+   "r": "La Mobylette",
+   "d": 2,
+   "t": "Transports"
+  },
+  {
+   "id": "his_facile-586",
+   "q": "Quel trois-mâts français a apporté la flamme olympique de Grèce jusqu'à Marseille en mai 2024 ?",
+   "r": "Le Belem",
+   "d": 2,
+   "t": "Jeux olympiques"
   }
  ],
  "art": [
+  {
+   "id": "art_enfant-347",
+   "q": "Que tient la statue de la Liberté dans sa main levée ?",
+   "r": "Une torche",
+   "d": 1,
+   "t": "Monuments"
+  },
+  {
+   "id": "art_enfant-053",
+   "q": "Quelle arme Robin des Bois utilise-t-il pour tirer ses flèches ?",
+   "r": "Un arc",
+   "d": 1,
+   "t": "Contes"
+  },
+  {
+   "id": "art_enfant-234",
+   "q": "Quel animal couvert de laine rime avec « bouton » ?",
+   "r": "Le mouton",
+   "d": 1,
+   "t": "Rimes"
+  },
+  {
+   "id": "art_enfant-277",
+   "q": "Quelle grotte de Dordogne est célèbre pour ses peintures d'animaux faites par les hommes préhistoriques ?",
+   "r": "Lascaux",
+   "d": 1,
+   "t": "Peinture"
+  },
+  {
+   "id": "art_enfant-317",
+   "q": "Quel jour de l'année fête-t-on la musique en France, avec des concerts dans les rues ?",
+   "r": "Le 21 juin",
+   "d": 1,
+   "t": "Musique"
+  },
+  {
+   "id": "art_enfant-493",
+   "q": "Dans les livres « La Cabane magique », comment s'appelle la petite sœur de Tom ?",
+   "r": "Léa",
+   "d": 1,
+   "t": "Romans jeunesse"
+  },
+  {
+   "id": "art_enfant-446",
+   "q": "Dans l'album de Leo Lionni, de quelle couleur deviennent Petit-Bleu et Petit-Jaune quand ils se serrent très fort ?",
+   "r": "Vert",
+   "d": 1,
+   "t": "Albums jeunesse"
+  },
+  {
+   "id": "art_enfant-479",
+   "q": "Comment appelle-t-on une pièce de théâtre faite pour faire rire ?",
+   "r": "Une comédie",
+   "d": 1,
+   "t": "Théâtre"
+  },
+  {
+   "id": "art_enfant-188",
+   "q": "Quel est le contraire de « ouvert » ?",
+   "r": "Fermé",
+   "d": 1,
+   "t": "Contraires"
+  },
+  {
+   "id": "art_enfant-363",
+   "q": "Quelle terre que l'on mouille utilise le potier pour fabriquer des vases et des bols ?",
+   "r": "L'argile",
+   "d": 1,
+   "t": "Dessin et bricolage"
+  },
+  {
+   "id": "art_enfant-026",
+   "q": "Comment s'appelle la petite sirène dans le dessin animé de Disney ?",
+   "r": "Ariel",
+   "d": 1,
+   "t": "Contes"
+  },
+  {
+   "id": "art_enfant-091",
+   "q": "Quel grand oiseau est le symbole de Zeus, le roi des dieux grecs ?",
+   "r": "L'aigle",
+   "d": 1,
+   "t": "Mythologie"
+  },
+  {
+   "id": "art_enfant-235",
+   "q": "Quelle couleur obtient-on en mélangeant du bleu et du jaune ?",
+   "r": "Le vert",
+   "d": 1,
+   "t": "Couleurs"
+  },
+  {
+   "id": "art_enfant-080",
+   "q": "Quelle famille toute ronde peut prendre la forme qu'elle veut, comme une échelle ou une maison ?",
+   "r": "Les Barbapapa",
+   "d": 1,
+   "t": "Livres jeunesse"
+  },
+  {
+   "id": "art_enfant-060",
+   "q": "Dans « Le Petit Prince », quel personnage habite seul sur la première planète visitée et croit commander à tout ?",
+   "r": "Le roi",
+   "d": 1,
+   "t": "Livres jeunesse"
+  },
   {
    "id": "art_a_3-038",
    "q": "Quel mouvement littéraire, porté par Césaire, Senghor et Damas, revendique l'identité et la culture noires ?",
@@ -5822,9 +7173,317 @@
    "r": "Marjane Satrapi",
    "d": 3,
    "t": "BD franco-belge"
+  },
+  {
+   "id": "art_facile-016",
+   "q": "Sur quel fleuve Hercule Poirot enquête-t-il lors d'une croisière, dans un célèbre roman d'Agatha Christie ?",
+   "r": "Le Nil",
+   "d": 2,
+   "t": "Romans policiers"
+  },
+  {
+   "id": "art_facile-033",
+   "q": "Comment s'appelle la bien-aimée de Robin des Bois ?",
+   "r": "Lady Marianne",
+   "d": 2,
+   "t": "Légendes"
+  },
+  {
+   "id": "art_facile-046",
+   "q": "Quel titre de noblesse porte Dracula, le vampire de Bram Stoker ?",
+   "r": "Comte",
+   "d": 2,
+   "t": "Personnages de romans"
+  },
+  {
+   "id": "art_facile-085",
+   "q": "Quel poème d'Homère raconte la colère d'Achille pendant le siège de Troie ?",
+   "r": "L'Iliade",
+   "d": 2,
+   "t": "Mythologie"
+  },
+  {
+   "id": "art_facile-088",
+   "q": "Comment appelle-t-on la créature mythologique mi-homme, mi-cheval ?",
+   "r": "Un centaure",
+   "d": 2,
+   "t": "Mythologie"
+  },
+  {
+   "id": "art_facile-090",
+   "q": "Quelle cité les Grecs ont-ils assiégée pendant dix ans pour reprendre la belle Hélène ?",
+   "r": "Troie",
+   "d": 2,
+   "t": "Mythologie"
+  },
+  {
+   "id": "art_facile-092",
+   "q": "Comment appelle-t-on le peuple légendaire de femmes guerrières de la mythologie grecque ?",
+   "r": "Les Amazones",
+   "d": 2,
+   "t": "Mythologie"
+  },
+  {
+   "id": "art_facile-103",
+   "q": "Quel oiseau de proie est l'emblème de Zeus, roi des dieux ?",
+   "r": "L'aigle",
+   "d": 2,
+   "t": "Mythologie"
+  },
+  {
+   "id": "art_facile-122",
+   "q": "Comment appelle-t-on chacun des volumes d'une œuvre publiée en plusieurs livres ?",
+   "r": "Un tome",
+   "d": 2,
+   "t": "Livres"
+  },
+  {
+   "id": "art_facile-198",
+   "q": "Quel peintre français a peint « Les Coquelicots » et des séries de « Meules » ?",
+   "r": "Claude Monet",
+   "d": 2,
+   "t": "Peinture"
+  },
+  {
+   "id": "art_facile-226",
+   "q": "Comment appelle-t-on les grandes pierres dressées de la préhistoire, comme celles que livre Obélix ?",
+   "r": "Les menhirs",
+   "d": 2,
+   "t": "Art préhistorique"
+  },
+  {
+   "id": "art_facile-234",
+   "q": "Quel compositeur allemand est célèbre pour sa « Toccata et fugue en ré mineur » pour orgue ?",
+   "r": "Jean-Sébastien Bach",
+   "d": 2,
+   "t": "Musique classique"
+  },
+  {
+   "id": "art_facile-249",
+   "q": "Comment appelle-t-on une pièce de théâtre entièrement chantée et accompagnée par un orchestre ?",
+   "r": "Un opéra",
+   "d": 2,
+   "t": "Opéra"
+  },
+  {
+   "id": "art_facile-259",
+   "q": "Quelle danse de fête consiste à former une file en se tenant par les épaules ou la taille ?",
+   "r": "La chenille",
+   "d": 2,
+   "t": "Danse"
+  },
+  {
+   "id": "art_facile-285",
+   "q": "Petit à petit, que fait l'oiseau, selon le proverbe ?",
+   "r": "Son nid",
+   "d": 2,
+   "t": "Proverbes"
+  },
+  {
+   "id": "art_facile-287",
+   "q": "Selon le proverbe, de quelle couleur sont tous les chats la nuit ?",
+   "r": "Gris",
+   "d": 2,
+   "t": "Proverbes"
+  },
+  {
+   "id": "art_facile-319",
+   "q": "Comment appelle-t-on la longue estrade sur laquelle défilent les mannequins ?",
+   "r": "Le podium",
+   "d": 2,
+   "t": "Mode"
+  },
+  {
+   "id": "art_facile-346",
+   "q": "Comment appelle-t-on le petit signe qui remplace la voyelle effacée dans « l'arbre » ?",
+   "r": "L'apostrophe",
+   "d": 2,
+   "t": "Grammaire"
+  },
+  {
+   "id": "art_facile-361",
+   "q": "Quel adjectif, tiré du nom du poète de « L'Iliade », qualifie un rire bruyant qu'on ne peut plus arrêter ?",
+   "r": "Homérique",
+   "d": 2,
+   "t": "Mots venus des écrivains"
+  },
+  {
+   "id": "art_facile-403",
+   "q": "De quel astre le lundi tire-t-il son nom ?",
+   "r": "La Lune",
+   "d": 2,
+   "t": "Origine des mots"
+  },
+  {
+   "id": "art_facile-424",
+   "q": "Selon l'expression, combien de coups fait-on quand on mène une jeunesse agitée et pleine de bêtises ?",
+   "r": "400",
+   "d": 2,
+   "t": "Expressions"
+  },
+  {
+   "id": "art_facile-476",
+   "q": "Comment appelle-t-on la grande partie centrale et allongée d'une église, où se tiennent les fidèles ?",
+   "r": "La nef",
+   "d": 2,
+   "t": "Architecture"
   }
  ],
  "sci": [
+  {
+   "id": "sci_enfant-136",
+   "q": "Quand on mange du brocoli, mange-t-on ses fleurs ou ses racines ?",
+   "r": "Les fleurs",
+   "d": 1,
+   "t": "Plantes"
+  },
+  {
+   "id": "sci_enfant-193",
+   "q": "Comment s'appelle l'os dur, comme un casque, qui protège le cerveau ?",
+   "r": "Le crâne",
+   "d": 1,
+   "t": "Le corps"
+  },
+  {
+   "id": "sci_enfant-083",
+   "q": "Comment appelle-t-on un animal qui pond des œufs ?",
+   "r": "Ovipare",
+   "d": 1,
+   "t": "Classer les animaux"
+  },
+  {
+   "id": "sci_enfant-363",
+   "q": "Comment appelle-t-on les nombres comme 1, 3, 5 ou 7 ?",
+   "r": "Les nombres impairs",
+   "d": 1,
+   "t": "Nombres"
+  },
+  {
+   "id": "sci_enfant-350",
+   "q": "Quel est le double de 8 ?",
+   "r": "16",
+   "d": 1,
+   "t": "Calcul"
+  },
+  {
+   "id": "sci_enfant-352",
+   "q": "Quel est le double de 50 ?",
+   "r": "100",
+   "d": 1,
+   "t": "Calcul"
+  },
+  {
+   "id": "sci_enfant-509",
+   "q": "Quelle pente aide à faire rouler une lourde charge jusque dans un camion ?",
+   "r": "Une rampe",
+   "d": 1,
+   "t": "Machines simples"
+  },
+  {
+   "id": "sci_enfant-506",
+   "q": "Comment appelle-t-on l'image de soi qu'on voit dans une flaque ou un miroir ?",
+   "r": "Le reflet",
+   "d": 1,
+   "t": "Lumière et ombres"
+  },
+  {
+   "id": "sci_enfant-459",
+   "q": "Quelle machine reliée à l'ordinateur sort des feuilles avec des textes ou des dessins ?",
+   "r": "L'imprimante",
+   "d": 1,
+   "t": "Machines"
+  },
+  {
+   "id": "sci_enfant-234",
+   "q": "Comment s'appellent les histoires que l'on voit dans sa tête en dormant ?",
+   "r": "Les rêves",
+   "d": 1,
+   "t": "Le corps"
+  },
+  {
+   "id": "sci_enfant-061",
+   "q": "Comment appelle-t-on un animal qui ne mange que des plantes ?",
+   "r": "Un herbivore",
+   "d": 1,
+   "t": "Ce que mangent les animaux"
+  },
+  {
+   "id": "sci_enfant-137",
+   "q": "Quelle partie de la salade mange-t-on ?",
+   "r": "Les feuilles",
+   "d": 1,
+   "t": "Plantes"
+  },
+  {
+   "id": "sci_enfant-142",
+   "q": "Quel gros fruit vert à la chair rouge et pleine d'eau a des pépins noirs ?",
+   "r": "La pastèque",
+   "d": 1,
+   "t": "Fruits"
+  },
+  {
+   "id": "sci_enfant-094",
+   "q": "Quel grand félin a un pelage orange à rayures noires ?",
+   "r": "Le tigre",
+   "d": 1,
+   "t": "Animaux sauvages"
+  },
+  {
+   "id": "sci_enfant-261",
+   "q": "Le Soleil n'est pas une planète : quel genre d'astre est-il ?",
+   "r": "Une étoile",
+   "d": 1,
+   "t": "Espace"
+  },
+  {
+   "id": "sci_enfant-201",
+   "q": "Que sent-on battre sous le doigt quand on le pose à l'intérieur du poignet ?",
+   "r": "Le pouls",
+   "d": 1,
+   "t": "Le corps"
+  },
+  {
+   "id": "sci_enfant-476",
+   "q": "À quel moment de la journée notre ombre est-elle la plus courte ?",
+   "r": "Vers midi",
+   "d": 1,
+   "t": "Lumière et ombres"
+  },
+  {
+   "id": "sci_enfant-326",
+   "q": "Que fait un caillou que l'on lâche dans l'eau ?",
+   "r": "Il coule",
+   "d": 1,
+   "t": "Eau"
+  },
+  {
+   "id": "sci_enfant-151",
+   "q": "Quel petit fruit rouge à noyau pousse souvent par deux, au bout de longues queues ?",
+   "r": "La cerise",
+   "d": 1,
+   "t": "Fruits"
+  },
+  {
+   "id": "sci_enfant-426",
+   "q": "Quel appareil bruyant avale la poussière sur le sol de la maison ?",
+   "r": "L'aspirateur",
+   "d": 1,
+   "t": "Objets du quotidien"
+  },
+  {
+   "id": "sci_enfant-512",
+   "q": "Quel animal de la forêt retourne la terre avec son museau pour trouver des glands et des racines ?",
+   "r": "Le sanglier",
+   "d": 1,
+   "t": "Animaux de la forêt"
+  },
+  {
+   "id": "sci_enfant-406",
+   "q": "Quel solide a une base carrée et quatre faces en triangle qui se rejoignent en pointe ?",
+   "r": "Une pyramide",
+   "d": 1,
+   "t": "Formes"
+  },
   {
    "id": "sci_b_4-032",
    "q": "Quel procédé de conservation par chauffage en récipient hermétique porte le nom d'un confiseur français ?",
@@ -6979,6 +8638,181 @@
    "r": "Une herbe géante",
    "d": 4,
    "t": "Fruits et légumes"
+  },
+  {
+   "id": "sci_facile-034",
+   "q": "Comment appelle-t-on le petit de la vache ?",
+   "r": "Le veau",
+   "d": 2,
+   "t": "Petits des animaux"
+  },
+  {
+   "id": "sci_facile-070",
+   "q": "Quel animal de la savane est rayé noir et blanc ?",
+   "r": "Le zèbre",
+   "d": 2,
+   "t": "Animaux"
+  },
+  {
+   "id": "sci_facile-092",
+   "q": "Quel fruit, cousin de la pêche, a une peau lisse et sans duvet ?",
+   "r": "Le brugnon",
+   "d": 2,
+   "t": "Fruits"
+  },
+  {
+   "id": "sci_facile-097",
+   "q": "Quel fruit à coque donne son goût au Nutella, avec le cacao ?",
+   "r": "La noisette",
+   "d": 2,
+   "t": "Fruits"
+  },
+  {
+   "id": "sci_facile-098",
+   "q": "Quel fruit à coque est l'ingrédient principal du massepain et des calissons ?",
+   "r": "L'amande",
+   "d": 2,
+   "t": "Fruits"
+  },
+  {
+   "id": "sci_facile-123",
+   "q": "Quel légume sec blanc est l'ingrédient principal du cassoulet ?",
+   "r": "Le haricot blanc",
+   "d": 2,
+   "t": "Légumes"
+  },
+  {
+   "id": "sci_facile-141",
+   "q": "Quelle plante grasse du désert est couverte d'épines ?",
+   "r": "Le cactus",
+   "d": 2,
+   "t": "Plantes"
+  },
+  {
+   "id": "sci_facile-154",
+   "q": "Comment s'appelle l'abri souterrain creusé par le lapin de garenne ?",
+   "r": "Le terrier",
+   "d": 2,
+   "t": "Habitats"
+  },
+  {
+   "id": "sci_facile-175",
+   "q": "Quel oiseau noir et blanc est réputé voler les objets brillants ?",
+   "r": "La pie",
+   "d": 2,
+   "t": "Animaux"
+  },
+  {
+   "id": "sci_facile-185",
+   "q": "Quel crustacé marche de côté sur la plage ?",
+   "r": "Le crabe",
+   "d": 2,
+   "t": "Animaux"
+  },
+  {
+   "id": "sci_facile-186",
+   "q": "Quel gros crustacé marin aux deux grosses pinces est un mets de fête, notamment en Bretagne ?",
+   "r": "Le homard",
+   "d": 2,
+   "t": "Animaux"
+  },
+  {
+   "id": "sci_facile-199",
+   "q": "Quel animal de la ferme fournit la laine ?",
+   "r": "Le mouton",
+   "d": 2,
+   "t": "Animaux"
+  },
+  {
+   "id": "sci_facile-231",
+   "q": "Quel est le plus petit doigt de la main ?",
+   "r": "L'auriculaire",
+   "d": 2,
+   "t": "Corps humain"
+  },
+  {
+   "id": "sci_facile-243",
+   "q": "Quel fruit à noyau est récolté pour faire l'huile et la tapenade ?",
+   "r": "L'olive",
+   "d": 2,
+   "t": "Fruits"
+  },
+  {
+   "id": "sci_facile-258",
+   "q": "Comment appelle-t-on le scientifique qui étudie les étoiles, les planètes et les galaxies ?",
+   "r": "Un astronome",
+   "d": 2,
+   "t": "Espace"
+  },
+  {
+   "id": "sci_facile-259",
+   "q": "Quelle croyance prétend prédire le caractère ou l'avenir selon la position des astres à la naissance ?",
+   "r": "L'astrologie",
+   "d": 2,
+   "t": "Espace"
+  },
+  {
+   "id": "sci_facile-305",
+   "q": "Quel matériau, fabriqué à partir du pétrole, sert à faire la plupart des bouteilles d'eau ?",
+   "r": "Le plastique",
+   "d": 2,
+   "t": "Matériaux"
+  },
+  {
+   "id": "sci_facile-328",
+   "q": "Combien font 2 + 2 × 2, en respectant les priorités de calcul ?",
+   "r": "6",
+   "d": 2,
+   "t": "Calcul"
+  },
+  {
+   "id": "sci_facile-357",
+   "q": "Comment appelle-t-on un quadrilatère qui a seulement deux côtés parallèles ?",
+   "r": "Un trapèze",
+   "d": 2,
+   "t": "Géométrie"
+  },
+  {
+   "id": "sci_facile-390",
+   "q": "Quel organisme public est chargé des prévisions météorologiques officielles en France ?",
+   "r": "Météo-France",
+   "d": 2,
+   "t": "Météo"
+  },
+  {
+   "id": "sci_facile-400",
+   "q": "Quel type de climat, glacial toute l'année, règne en Antarctique ?",
+   "r": "Le climat polaire",
+   "d": 2,
+   "t": "Climat"
+  },
+  {
+   "id": "sci_facile-466",
+   "q": "Quelle unité de masse vaut 1 000 kilogrammes ?",
+   "r": "La tonne",
+   "d": 2,
+   "t": "Mesures"
+  },
+  {
+   "id": "sci_facile-476",
+   "q": "Comment appelle-t-on la ligne lointaine où le ciel semble toucher la terre ou la mer ?",
+   "r": "L'horizon",
+   "d": 2,
+   "t": "Météo"
+  },
+  {
+   "id": "sci_facile-481",
+   "q": "En quelle unité la pression atmosphérique est-elle indiquée sur les cartes météo ?",
+   "r": "L'hectopascal",
+   "d": 2,
+   "t": "Climat"
+  },
+  {
+   "id": "sci_facile-483",
+   "q": "Comment appelle-t-on les violents orages d'automne du Gard et de l'Hérault, nommés d'après un massif voisin ?",
+   "r": "Un épisode cévenol",
+   "d": 2,
+   "t": "Climat"
   }
  ],
  "spo": [
@@ -8465,6 +10299,153 @@
    "r": "La chocolatine",
    "d": 3,
    "t": "Pâtisserie"
+  },
+  {
+   "id": "spo_facile-038",
+   "q": "Au tennis, comment appelle-t-on le coup qui met la balle en jeu au début de chaque point ?",
+   "r": "Le service",
+   "d": 2,
+   "t": "Tennis"
+  },
+  {
+   "id": "spo_facile-055",
+   "q": "Quelle épreuve combinée d'athlétisme féminine regroupe sept disciplines ?",
+   "r": "L'heptathlon",
+   "d": 2,
+   "t": "Athlétisme"
+  },
+  {
+   "id": "spo_facile-073",
+   "q": "Quelle discipline de ski se pratique sur des pistes plates ou vallonnées, avec des skis étroits ?",
+   "r": "Le ski de fond",
+   "d": 2,
+   "t": "Ski"
+  },
+  {
+   "id": "spo_facile-075",
+   "q": "Comment appelle-t-on la remontée mécanique où les skieurs s'assoient sur un banc suspendu à un câble ?",
+   "r": "Le télésiège",
+   "d": 2,
+   "t": "Ski"
+  },
+  {
+   "id": "spo_facile-087",
+   "q": "Quel boxeur américain est devenu champion du monde des poids lourds en 1986, à seulement 20 ans ?",
+   "r": "Mike Tyson",
+   "d": 2,
+   "t": "Sports de combat"
+  },
+  {
+   "id": "spo_facile-116",
+   "q": "Quel attaquant argentin, star du FC Barcelone, est surnommé « la Pulga » ?",
+   "r": "Lionel Messi",
+   "d": 2,
+   "t": "Football"
+  },
+  {
+   "id": "spo_facile-121",
+   "q": "Comment appelle-t-on une rencontre sportive qui se termine sans vainqueur ni vaincu ?",
+   "r": "Un match nul",
+   "d": 2,
+   "t": "Règles de base"
+  },
+  {
+   "id": "spo_facile-127",
+   "q": "Quel capitaine a mené l'équipe de France à la victoire en Coupe Davis en 1991 ?",
+   "r": "Yannick Noah",
+   "d": 2,
+   "t": "Tennis"
+  },
+  {
+   "id": "spo_facile-139",
+   "q": "Quel instrument permet de mesurer le temps d'un coureur ?",
+   "r": "Le chronomètre",
+   "d": 2,
+   "t": "Équipements"
+  },
+  {
+   "id": "spo_facile-174",
+   "q": "En tête-à-tête à la pétanque, combien de boules chaque joueur a-t-il ?",
+   "r": "Trois",
+   "d": 2,
+   "t": "Règles de base"
+  },
+  {
+   "id": "spo_facile-188",
+   "q": "Comment appelle-t-on un vélo pour deux personnes assises l'une derrière l'autre ?",
+   "r": "Un tandem",
+   "d": 2,
+   "t": "Cyclisme"
+  },
+  {
+   "id": "spo_facile-199",
+   "q": "Au basket-ball, combien de points rapporte un panier marqué en jeu à l'intérieur de la ligne à trois points ?",
+   "r": "Deux",
+   "d": 2,
+   "t": "Basket-ball"
+  },
+  {
+   "id": "spo_facile-214",
+   "q": "Comment appelle-t-on le terrain sur lequel se joue un match de tennis ?",
+   "r": "Le court",
+   "d": 2,
+   "t": "Tennis"
+  },
+  {
+   "id": "spo_facile-284",
+   "q": "Quel petit fromage frais en forme de cylindre, emballé de papier, est souvent mangé sucré par les enfants ?",
+   "r": "Le petit-suisse",
+   "d": 2,
+   "t": "Fromages"
+  },
+  {
+   "id": "spo_facile-323",
+   "q": "Quel alcool, distillé à partir d'orge maltée, est la boisson emblématique de l'Écosse ?",
+   "r": "Le whisky",
+   "d": 2,
+   "t": "Boissons"
+  },
+  {
+   "id": "spo_facile-391",
+   "q": "Quel îlot normand, coiffé d'une abbaye et entouré par les marées, est l'un des sites les plus visités de France ?",
+   "r": "Le Mont-Saint-Michel",
+   "d": 2,
+   "t": "Voyages"
+  },
+  {
+   "id": "spo_facile-441",
+   "q": "Sous quelle plante aux baies blanches est-il de tradition de s'embrasser au Nouvel An ?",
+   "r": "Le gui",
+   "d": 2,
+   "t": "Fêtes"
+  },
+  {
+   "id": "spo_facile-447",
+   "q": "Quelle grande fête de Lyon illumine la ville autour du 8 décembre ?",
+   "r": "La Fête des lumières",
+   "d": 2,
+   "t": "Fêtes"
+  },
+  {
+   "id": "spo_facile-465",
+   "q": "Quel jeu de dés, joué au comptoir des cafés, porte le nom de sa meilleure combinaison ?",
+   "r": "Le 421",
+   "d": 2,
+   "t": "Jeux de dés"
+  },
+  {
+   "id": "spo_facile-486",
+   "q": "Comment appelle-t-on le célèbre marché de la brocante et des antiquités de Saint-Ouen, aux portes de Paris ?",
+   "r": "Le marché aux puces",
+   "d": 2,
+   "t": "Loisirs"
+  },
+  {
+   "id": "spo_facile-497",
+   "q": "Quelle remontée mécanique est formée de petits « œufs » fermés qui défilent en continu le long d'un câble ?",
+   "r": "La télécabine",
+   "d": 2,
+   "t": "Sports d'hiver"
   }
  ]
 }

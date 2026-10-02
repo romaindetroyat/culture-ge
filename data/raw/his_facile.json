@@ -1,0 +1,4181 @@
+[
+ {
+  "id": "his_facile-001",
+  "q": "Comment appelle-t-on la très longue période de l'histoire humaine qui précède l'invention de l'écriture ?",
+  "r": "La Préhistoire",
+  "t": "Préhistoire",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-002",
+  "q": "Quelle invention, apparue en Mésopotamie il y a environ 5 000 ans, marque le passage de la Préhistoire à l'Histoire ?",
+  "r": "L'écriture",
+  "t": "Préhistoire",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-003",
+  "q": "Quelle découverte majeure a permis aux hommes préhistoriques de se chauffer, de s'éclairer et de cuire leurs aliments ?",
+  "r": "Le feu",
+  "t": "Préhistoire",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-004",
+  "q": "Comment appelle-t-on les grands monuments préhistoriques en pierre, comme les menhirs et les dolmens ?",
+  "r": "Les mégalithes",
+  "t": "Préhistoire",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-005",
+  "q": "Quelle période de la Préhistoire, dont le nom signifie « pierre ancienne », est celle de la pierre taillée ?",
+  "r": "Le Paléolithique",
+  "t": "Préhistoire",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-006",
+  "q": "Quelle période succède à l'âge du bronze ?",
+  "r": "L'âge du fer",
+  "t": "Préhistoire",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-007",
+  "q": "Sur quel continent sont apparus les premiers représentants du genre humain ?",
+  "r": "L'Afrique",
+  "t": "Préhistoire",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-008",
+  "q": "Comment qualifie-t-on les hommes du Paléolithique, qui n'avaient pas d'habitat fixe et se déplaçaient pour suivre le gibier ?",
+  "r": "Nomades",
+  "t": "Préhistoire",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-009",
+  "q": "Quelle arme de pêche en os, munie de pointes en crochet, les hommes préhistoriques utilisaient-ils pour attraper les poissons ?",
+  "r": "Le harpon",
+  "t": "Préhistoire",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-010",
+  "q": "Comment appelle-t-on les spécialistes qui étudient les traces matérielles du passé en réalisant des fouilles ?",
+  "r": "Les archéologues",
+  "t": "Préhistoire",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-011",
+  "q": "Comment appelle-t-on les peintures et gravures réalisées par les hommes préhistoriques sur les parois des grottes ?",
+  "r": "L'art pariétal",
+  "t": "Préhistoire",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-012",
+  "q": "À quel pays actuel correspond principalement l'ancienne Mésopotamie ?",
+  "r": "L'Irak",
+  "t": "Antiquité",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-013",
+  "q": "Comment appelle-t-on la période de l'histoire qui va de l'invention de l'écriture à la chute de l'Empire romain d'Occident ?",
+  "r": "L'Antiquité",
+  "t": "Antiquité",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-014",
+  "q": "Combien de merveilles compte la célèbre liste des merveilles du monde antique ?",
+  "r": "Sept",
+  "t": "Antiquité",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-015",
+  "q": "Que signifie l'abréviation « av. J.-C. », utilisée pour les dates anciennes ?",
+  "r": "Avant Jésus-Christ",
+  "t": "Antiquité",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-016",
+  "q": "Quel fleuve, dont les crues fertilisaient les terres, a permis l'essor de la civilisation égyptienne ?",
+  "r": "Le Nil",
+  "t": "Égypte antique",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-017",
+  "q": "Quel titre portaient les souverains de l'Égypte antique ?",
+  "r": "Pharaon",
+  "t": "Égypte antique",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-018",
+  "q": "Comment appelle-t-on l'écriture de l'Égypte antique, composée de petits dessins ?",
+  "r": "Les hiéroglyphes",
+  "t": "Égypte antique",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-019",
+  "q": "Comment appelle-t-on le corps d'un défunt égyptien embaumé et enveloppé de bandelettes ?",
+  "r": "Une momie",
+  "t": "Égypte antique",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-020",
+  "q": "Combien de grandes pyramides se dressent sur le plateau de Gizeh ?",
+  "r": "Trois",
+  "t": "Égypte antique",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-021",
+  "q": "À quoi servaient principalement les pyramides de l'Égypte antique ?",
+  "r": "De tombeaux",
+  "t": "Égypte antique",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-022",
+  "q": "Quel dieu égyptien du Soleil, au nom très court, parcourait le ciel sur une barque ?",
+  "r": "Râ",
+  "t": "Égypte antique",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-023",
+  "q": "Comment appelait-on, dans l'Égypte antique, celui dont le métier était de lire et d'écrire ?",
+  "r": "Le scribe",
+  "t": "Égypte antique",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-024",
+  "q": "Quelle reine d'Égypte, à la beauté légendaire, fut l'amante de Jules César ?",
+  "r": "Cléopâtre",
+  "t": "Égypte antique",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-025",
+  "q": "Comment appelle-t-on les hauts monuments de pierre en forme d'aiguille que les Égyptiens dressaient devant leurs temples ?",
+  "r": "Les obélisques",
+  "t": "Égypte antique",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-026",
+  "q": "Quelle boisson fermentée à base d'orge était la plus consommée dans l'Égypte antique ?",
+  "r": "La bière",
+  "t": "Égypte antique",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-027",
+  "q": "Quel pays était surnommé « l'Empire du Milieu » ?",
+  "r": "La Chine",
+  "t": "Antiquité",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-028",
+  "q": "Dans quelle cité grecque de l'Antiquité est née la démocratie ?",
+  "r": "Athènes",
+  "t": "Grèce antique",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-029",
+  "q": "Que signifie le mot grec « démocratie » ?",
+  "r": "Le pouvoir du peuple",
+  "t": "Grèce antique",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-030",
+  "q": "Comment appelle-t-on les villes indépendantes de la Grèce antique, comme Athènes ou Sparte ?",
+  "r": "Les cités-États",
+  "t": "Grèce antique",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-031",
+  "q": "Quel conquérant macédonien du IVe siècle av. J.-C. bâtit un empire s'étendant de la Grèce jusqu'à l'Inde ?",
+  "r": "Alexandre le Grand",
+  "t": "Grèce antique",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-032",
+  "q": "Quel philosophe grec, élève de Socrate, a écrit La République ?",
+  "r": "Platon",
+  "t": "Grèce antique",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-033",
+  "q": "À quel philosophe grec attribue-t-on la formule « Je sais que je ne sais rien » ?",
+  "r": "Socrate",
+  "t": "Grèce antique",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-034",
+  "q": "Quel adjectif, tiré du nom d'une cité grecque rivale d'Athènes, qualifie un mode de vie austère et rude ?",
+  "r": "Spartiate",
+  "t": "Grèce antique",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-035",
+  "q": "Quelle langue a donné le mot « alphabet », formé à partir de ses deux premières lettres ?",
+  "r": "Le grec",
+  "t": "Grèce antique",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-036",
+  "q": "Quelle langue parlaient les Romains de l'Antiquité ?",
+  "r": "Le latin",
+  "t": "Rome antique",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-037",
+  "q": "Sur combien de collines la ville de Rome a-t-elle été bâtie selon la tradition ?",
+  "r": "Sept",
+  "t": "Rome antique",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-038",
+  "q": "Quel petit-neveu et fils adoptif de Jules César fut le premier empereur romain ?",
+  "r": "Auguste",
+  "t": "Rome antique",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-039",
+  "q": "Quel mois de l'année doit son nom à Jules César ?",
+  "r": "Juillet",
+  "t": "Rome antique",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-040",
+  "q": "Comment appelait-on les combattants qui s'affrontaient, souvent jusqu'à la mort, dans les arènes romaines ?",
+  "r": "Les gladiateurs",
+  "t": "Rome antique",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-041",
+  "q": "Comment appelait-on les soldats de l'armée romaine ?",
+  "r": "Les légionnaires",
+  "t": "Rome antique",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-042",
+  "q": "Quel nombre la lettre L représente-t-elle en chiffres romains ?",
+  "r": "50",
+  "t": "Rome antique",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-043",
+  "q": "Quelle mer les Romains surnommaient-ils « Mare Nostrum », c'est-à-dire « notre mer » ?",
+  "r": "La Méditerranée",
+  "t": "Rome antique",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-044",
+  "q": "Comment appelle-t-on l'ouvrage, souvent porté par des arches, qui acheminait l'eau jusqu'aux villes romaines ?",
+  "r": "L'aqueduc",
+  "t": "Rome antique",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-045",
+  "q": "Quelle assemblée de notables, dont les membres siégeaient à vie, conseillait les dirigeants de la Rome antique ?",
+  "r": "Le Sénat",
+  "t": "Rome antique",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-046",
+  "q": "Quel nom les Romains donnaient-ils au territoire correspondant en grande partie à la France actuelle ?",
+  "r": "La Gaule",
+  "t": "Gaulois",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-047",
+  "q": "Comment appelle-t-on les amphithéâtres romains de Nîmes et d'Arles, où se déroulaient les jeux ?",
+  "r": "Les arènes",
+  "t": "Rome antique",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-048",
+  "q": "Quel empire antique entourait entièrement la Méditerranée à son apogée ?",
+  "r": "L'Empire romain",
+  "t": "Rome antique",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-049",
+  "q": "Quel régime politique Rome a-t-elle connu entre la période des rois et celle des empereurs ?",
+  "r": "La République",
+  "t": "Rome antique",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-050",
+  "q": "Comment appelle-t-on les routes pavées construites par les Romains à travers leur empire ?",
+  "r": "Les voies romaines",
+  "t": "Rome antique",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-051",
+  "q": "Quel oiseau, en métal, ornait les enseignes des légions romaines ?",
+  "r": "L'aigle",
+  "t": "Rome antique",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-052",
+  "q": "Quelle formule des anciens manuels scolaires français commençait par « Nos ancêtres les… » ?",
+  "r": "Les Gaulois",
+  "t": "Gaulois",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-053",
+  "q": "Comment qualifie-t-on la civilisation qui s'est développée en Gaule après la conquête de Jules César ?",
+  "r": "Gallo-romaine",
+  "t": "Gaulois",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-054",
+  "q": "Quel animal sauvage, souvent associé aux Gaulois, figurait sur certaines de leurs enseignes militaires ?",
+  "r": "Le sanglier",
+  "t": "Gaulois",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-055",
+  "q": "Dans quelle région française parle-t-on encore une langue celtique ?",
+  "r": "La Bretagne",
+  "t": "Gaulois",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-056",
+  "q": "Comment appelle-t-on la longue période de l'histoire comprise entre la fin de l'Antiquité et la Renaissance ?",
+  "r": "Le Moyen Âge",
+  "t": "Moyen Âge",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-057",
+  "q": "Quel peuple germanique a donné son nom à la France ?",
+  "r": "Les Francs",
+  "t": "Moyen Âge",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-058",
+  "q": "Quel roi des Francs, mort en 511, est souvent présenté comme le premier roi de France ?",
+  "r": "Clovis",
+  "t": "Rois et reines",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-059",
+  "q": "Quelle ville Clovis choisit-il comme capitale de son royaume ?",
+  "r": "Paris",
+  "t": "Rois et reines",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-060",
+  "q": "Quel empereur est surnommé « l'empereur à la barbe fleurie » dans la Chanson de Roland ?",
+  "r": "Charlemagne",
+  "t": "Rois et reines",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-061",
+  "q": "Comment appelle-t-on les guerriers navigateurs scandinaves qui pillaient les côtes européennes au Moyen Âge ?",
+  "r": "Les Vikings",
+  "t": "Moyen Âge",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-062",
+  "q": "De quelle région d'Europe du Nord venaient les Vikings ?",
+  "r": "La Scandinavie",
+  "t": "Moyen Âge",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-063",
+  "q": "Quelle région française doit son nom aux Vikings, appelés « hommes du Nord » ?",
+  "r": "La Normandie",
+  "t": "Moyen Âge",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-064",
+  "q": "Comment appelle-t-on le passage aménagé au sommet des remparts, où circulaient les gardes ?",
+  "r": "Le chemin de ronde",
+  "t": "Châteaux forts",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-065",
+  "q": "Quelle lourde grille coulissante pouvait s'abaisser pour bloquer l'entrée d'un château fort ?",
+  "r": "La herse",
+  "t": "Châteaux forts",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-066",
+  "q": "Comment appelle-t-on les hautes murailles qui protégeaient une ville ou un château ?",
+  "r": "Les remparts",
+  "t": "Châteaux forts",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-067",
+  "q": "Comment appelle-t-on la grosse poutre utilisée par les assaillants pour enfoncer la porte d'un château ?",
+  "r": "Le bélier",
+  "t": "Châteaux forts",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-068",
+  "q": "Comment appelle-t-on l'opération militaire qui consiste à encercler une ville ou un château pour l'obliger à se rendre ?",
+  "r": "Le siège",
+  "t": "Châteaux forts",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-069",
+  "q": "Comment appelle-t-on la fête où plusieurs chevaliers s'affrontaient lors de combats simulés ?",
+  "r": "Le tournoi",
+  "t": "Chevalerie",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-070",
+  "q": "Comment appelle-t-on l'ensemble des emblèmes peints sur le bouclier d'un chevalier, propres à sa famille ?",
+  "r": "Les armoiries",
+  "t": "Chevalerie",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-071",
+  "q": "Comment appelle-t-on un soldat qui combat pour celui qui le paie, et non pour son pays ?",
+  "r": "Un mercenaire",
+  "t": "Moyen Âge",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-072",
+  "q": "Dans la société médiévale, comment appelait-on l'ordre de « ceux qui prient » ?",
+  "r": "Le clergé",
+  "t": "Moyen Âge",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-073",
+  "q": "Comment appelle-t-on le système de liens entre seigneurs et vassaux qui organisait la société médiévale ?",
+  "r": "La féodalité",
+  "t": "Moyen Âge",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-074",
+  "q": "Comment appelait-on le grand domaine agricole d'un riche Romain, avec sa maison de maître ?",
+  "r": "La villa",
+  "t": "Rome antique",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-075",
+  "q": "Comment appelle-t-on les expéditions militaires chrétiennes menées vers la Terre sainte du XIe au XIIIe siècle ?",
+  "r": "Les croisades",
+  "t": "Croisades",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-076",
+  "q": "Quelle ville sainte les chevaliers chrétiens voulaient-ils conquérir lors de l'expédition lancée par le pape en 1095 ?",
+  "r": "Jérusalem",
+  "t": "Croisades",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-077",
+  "q": "Quel symbole chrétien les chevaliers partant pour Jérusalem cousaient-ils sur leurs vêtements ?",
+  "r": "Une croix",
+  "t": "Croisades",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-078",
+  "q": "De quelle couleur était la croix cousue sur le manteau blanc des chevaliers du Temple ?",
+  "r": "Rouge",
+  "t": "Croisades",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-079",
+  "q": "Quelle jeune paysanne lorraine affirmait entendre des voix lui ordonnant de chasser les Anglais du royaume ?",
+  "r": "Jeanne d'Arc",
+  "t": "Moyen Âge",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-080",
+  "q": "Contre quel royaume la France a-t-elle mené la guerre de Cent Ans ?",
+  "r": "L'Angleterre",
+  "t": "Moyen Âge",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-081",
+  "q": "Combien d'années la guerre de Cent Ans a-t-elle réellement duré ?",
+  "r": "116 ans",
+  "t": "Moyen Âge",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-082",
+  "q": "Quel royaume est finalement sorti vainqueur de la guerre de Cent Ans ?",
+  "r": "La France",
+  "t": "Moyen Âge",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-083",
+  "q": "Comment appelle-t-on le bâtiment où vivent des moines ou des moniales ?",
+  "r": "Un monastère",
+  "t": "Moyen Âge",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-084",
+  "q": "Comment appelle-t-on l'église principale d'un diocèse, où se trouve le siège de l'évêque ?",
+  "r": "La cathédrale",
+  "t": "Moyen Âge",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-085",
+  "q": "Sur quel support fait de peau d'animal écrivait-on les manuscrits du Moyen Âge ?",
+  "r": "Le parchemin",
+  "t": "Moyen Âge",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-086",
+  "q": "Quelle maladie obligeait ses malades, tenus à l'écart, à agiter une crécelle au Moyen Âge ?",
+  "r": "La lèpre",
+  "t": "Moyen Âge",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-087",
+  "q": "Comment appelle-t-on les fidèles qui voyagent jusqu'à un lieu saint pour y prier ?",
+  "r": "Les pèlerins",
+  "t": "Moyen Âge",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-088",
+  "q": "Quel supplice infligeait-on aux personnes condamnées pour sorcellerie ou hérésie ?",
+  "r": "Le bûcher",
+  "t": "Moyen Âge",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-089",
+  "q": "Comment appelait-on l'homme qui annonçait à haute voix les nouvelles et les décisions dans les rues ?",
+  "r": "Le crieur public",
+  "t": "Moyen Âge",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-090",
+  "q": "Quel artisan médiéval, ancêtre du coiffeur, pratiquait aussi saignées et arrachages de dents ?",
+  "r": "Le barbier",
+  "t": "Moyen Âge",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-091",
+  "q": "Comment appelle-t-on la cérémonie religieuse au cours de laquelle un nouveau roi de France recevait l'onction et la couronne ?",
+  "r": "Le sacre",
+  "t": "Rois et reines",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-092",
+  "q": "Comment appelle-t-on le bâton orné que tient un roi, symbole de son autorité ?",
+  "r": "Le sceptre",
+  "t": "Rois et reines",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-093",
+  "q": "Comment appelait-on le personnage coiffé d'un bonnet à grelots, chargé d'amuser le roi par ses plaisanteries ?",
+  "r": "Le fou du roi",
+  "t": "Rois et reines",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-094",
+  "q": "Quelle formule annonçait à la fois la mort d'un roi de France et l'avènement de son successeur ?",
+  "r": "« Le roi est mort, vive le roi ! »",
+  "t": "Rois et reines",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-095",
+  "q": "Dans le cri de guerre des rois de France, repris dans le film Les Visiteurs, quel nom de saint suivait « Montjoie ! » ?",
+  "r": "Saint-Denis",
+  "t": "Rois et reines",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-096",
+  "q": "Quel titre porte traditionnellement l'héritier du trône britannique ?",
+  "r": "Prince de Galles",
+  "t": "Rois et reines",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-097",
+  "q": "Quelle religion est née en Arabie au VIIe siècle ?",
+  "r": "L'islam",
+  "t": "Moyen Âge",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-098",
+  "q": "Comment appelle-t-on la période de renouveau des arts et des sciences qui succède au Moyen Âge en Europe ?",
+  "r": "La Renaissance",
+  "t": "Renaissance",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-099",
+  "q": "Quelle ville italienne, gouvernée par les Médicis, est considérée comme le berceau de la Renaissance ?",
+  "r": "Florence",
+  "t": "Renaissance",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-100",
+  "q": "Comment appelle-t-on les chrétiens qui ont suivi la Réforme de Luther ou de Calvin ?",
+  "r": "Les protestants",
+  "t": "Renaissance",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-101",
+  "q": "Comment appelle-t-on les guerres qui opposèrent catholiques et protestants en France au XVIe siècle ?",
+  "r": "Les guerres de religion",
+  "t": "Renaissance",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-102",
+  "q": "Comment s'appelle l'Église créée en Angleterre après la rupture d'Henri VIII avec le pape ?",
+  "r": "L'Église anglicane",
+  "t": "Renaissance",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-103",
+  "q": "Quelle immense basilique du Vatican, reconstruite à la Renaissance, est coiffée d'un dôme dessiné par Michel-Ange ?",
+  "r": "La basilique Saint-Pierre",
+  "t": "Renaissance",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-104",
+  "q": "Quel roi de France de la Renaissance, surnommé le « Roi-Chevalier », a régné de 1515 à 1547 ?",
+  "r": "François Ier",
+  "t": "Rois et reines",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-105",
+  "q": "Quel roi de France aurait lancé à ses troupes « Ralliez-vous à mon panache blanc ! » ?",
+  "r": "Henri IV",
+  "t": "Rois et reines",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-106",
+  "q": "Comment appelle-t-on l'époque des explorations maritimes européennes des XVe et XVIe siècles, de Vasco de Gama à Magellan ?",
+  "r": "Les Grandes Découvertes",
+  "t": "Grandes découvertes",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-107",
+  "q": "Quel océan Christophe Colomb a-t-il traversé en 1492 ?",
+  "r": "L'océan Atlantique",
+  "t": "Grandes découvertes",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-108",
+  "q": "Comment Christophe Colomb appela-t-il les habitants des terres qu'il atteignit, croyant être arrivé en Asie ?",
+  "r": "Les Indiens",
+  "t": "Grandes découvertes",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-109",
+  "q": "Quel pays d'Amérique du Sud doit son nom à Christophe Colomb ?",
+  "r": "La Colombie",
+  "t": "Grandes découvertes",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-110",
+  "q": "Comment appelle-t-on les conquérants espagnols de l'Amérique, comme Cortés ou Pizarro ?",
+  "r": "Les conquistadors",
+  "t": "Grandes découvertes",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-111",
+  "q": "Quel adjectif qualifie les civilisations d'Amérique, comme les Mayas ou les Incas, antérieures à l'arrivée des Européens en 1492 ?",
+  "r": "Précolombiennes",
+  "t": "Grandes découvertes",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-112",
+  "q": "Quelles précieuses marchandises, comme le poivre ou la cannelle, les navigateurs européens allaient-ils chercher en Asie ?",
+  "r": "Les épices",
+  "t": "Grandes découvertes",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-113",
+  "q": "Quelle langue parle-t-on au Brésil, héritage de sa colonisation ?",
+  "r": "Le portugais",
+  "t": "Grandes découvertes",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-114",
+  "q": "Quel pays européen a conquis l'Empire aztèque au XVIe siècle ?",
+  "r": "L'Espagne",
+  "t": "Grandes découvertes",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-115",
+  "q": "Dans quel pays actuel se trouvait le cœur de l'Empire aztèque ?",
+  "r": "Le Mexique",
+  "t": "Grandes découvertes",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-116",
+  "q": "Dans quel pays actuel se trouvait le cœur de l'Empire inca ?",
+  "r": "Le Pérou",
+  "t": "Grandes découvertes",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-117",
+  "q": "Quels monuments à degrés, surmontés d'un temple, les Mayas et les Aztèques ont-ils bâtis ?",
+  "r": "Des pyramides",
+  "t": "Grandes découvertes",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-118",
+  "q": "Quelle boisson, préparée avec les fèves de cacao, les Espagnols ont-ils découverte chez les Aztèques ?",
+  "r": "Le chocolat",
+  "t": "Grandes découvertes",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-119",
+  "q": "Quelle céréale venue d'Amérique était la base de l'alimentation des Aztèques et des Mayas ?",
+  "r": "Le maïs",
+  "t": "Grandes découvertes",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-120",
+  "q": "Quel navigateur portugais a donné son nom au détroit qui relie l'Atlantique au Pacifique, au sud de l'Amérique ?",
+  "r": "Fernand de Magellan",
+  "t": "Grandes découvertes",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-121",
+  "q": "Comment appelait-on les marins autorisés par leur roi à attaquer les navires ennemis ?",
+  "r": "Les corsaires",
+  "t": "Grandes découvertes",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-122",
+  "q": "Quelle province du Canada parle majoritairement français, héritage de la Nouvelle-France ?",
+  "r": "Le Québec",
+  "t": "Grandes découvertes",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-123",
+  "q": "Quelle fête américaine de novembre commémore, selon la tradition, un repas partagé en 1621 par les colons du Mayflower et des Amérindiens ?",
+  "r": "Thanksgiving",
+  "t": "Grandes découvertes",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-124",
+  "q": "Comment appelle-t-on le commerce des esclaves africains déportés vers les Amériques ?",
+  "r": "La traite négrière",
+  "t": "Grandes découvertes",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-125",
+  "q": "Quelle plante, cultivée par des esclaves, faisait la richesse des colonies françaises des Antilles au XVIIIe siècle ?",
+  "r": "La canne à sucre",
+  "t": "Grandes découvertes",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-126",
+  "q": "Quelle phrase célèbre, sans doute jamais prononcée, résume le pouvoir absolu de Louis XIV ?",
+  "r": "« L'État, c'est moi »",
+  "t": "Louis XIV",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-127",
+  "q": "Comment appelle-t-on le régime où le roi concentre tous les pouvoirs, comme en France au XVIIe siècle ?",
+  "r": "La monarchie absolue",
+  "t": "Louis XIV",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-128",
+  "q": "Comment appelait-on les nobles qui vivaient auprès du roi à la cour de Versailles ?",
+  "r": "Les courtisans",
+  "t": "Louis XIV",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-129",
+  "q": "Comment s'appelaient les soldats d'élite de la garde du roi, rendus célèbres par un roman d'Alexandre Dumas ?",
+  "r": "Les mousquetaires",
+  "t": "Louis XIV",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-130",
+  "q": "Quel roi de France a donné son nom à la Louisiane ?",
+  "r": "Louis XIV",
+  "t": "Louis XIV",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-131",
+  "q": "Quel style de jardin, aux allées et aux parterres géométriques, a été porté à la perfection à Versailles ?",
+  "r": "Le jardin à la française",
+  "t": "Louis XIV",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-132",
+  "q": "Comment appelait-on le siège fermé, porté par deux hommes, dans lequel les nobles se déplaçaient en ville ?",
+  "r": "La chaise à porteurs",
+  "t": "Louis XIV",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-133",
+  "q": "Comment appelle-t-on la période pendant laquelle un roi trop jeune est remplacé par un proche pour gouverner ?",
+  "r": "La régence",
+  "t": "Rois et reines",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-134",
+  "q": "Dans quelle ville se trouve le château des ducs de Bretagne ?",
+  "r": "Nantes",
+  "t": "Châteaux",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-135",
+  "q": "Quelle date est la fête nationale des États-Unis, anniversaire de la Déclaration d'indépendance ?",
+  "r": "Le 4 juillet",
+  "t": "Lumières",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-136",
+  "q": "Quel pays fut le principal allié des insurgés américains dans leur guerre d'indépendance ?",
+  "r": "La France",
+  "t": "Lumières",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-137",
+  "q": "À quel siècle appartient l'année 1789 ?",
+  "r": "Le XVIIIe siècle",
+  "t": "Chronologie",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-138",
+  "q": "Sous le règne de quel roi la Révolution française a-t-elle éclaté ?",
+  "r": "Louis XVI",
+  "t": "Révolution française",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-139",
+  "q": "Quelle assemblée réunissant les trois ordres du royaume Louis XVI a-t-il convoquée en 1789 ?",
+  "r": "Les États généraux",
+  "t": "Révolution française",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-140",
+  "q": "Dans quelle ville les États généraux se sont-ils réunis en mai 1789 ?",
+  "r": "Versailles",
+  "t": "Révolution française",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-141",
+  "q": "Quels étaient les deux ordres privilégiés de la société d'Ancien Régime ?",
+  "r": "La noblesse et le clergé",
+  "t": "Révolution française",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-142",
+  "q": "Quel nom prirent les députés du tiers état réunis en assemblée le 17 juin 1789 ?",
+  "r": "L'Assemblée nationale",
+  "t": "Révolution française",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-143",
+  "q": "Comment appelle-t-on l'insigne rond aux couleurs bleu, blanc, rouge que portaient les révolutionnaires ?",
+  "r": "La cocarde",
+  "t": "Révolution française",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-144",
+  "q": "De quel texte de 1789 est tirée la phrase « Les hommes naissent et demeurent libres et égaux en droits » ?",
+  "r": "La Déclaration des droits de l'homme et du citoyen",
+  "t": "Révolution française",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-145",
+  "q": "Les volontaires de quelle ville ont popularisé à Paris, en 1792, le chant de Rouget de Lisle qui porte depuis son nom ?",
+  "r": "Marseille",
+  "t": "Révolution française",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-146",
+  "q": "Dans La Marseillaise, quels mots suivent « Allons enfants de la Patrie » ?",
+  "r": "« Le jour de gloire est arrivé »",
+  "t": "Révolution française",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-147",
+  "q": "Quel mot remplaça « monsieur » et « madame » pour s'adresser aux gens pendant la Révolution ?",
+  "r": "Citoyen",
+  "t": "Révolution française",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-148",
+  "q": "Que réclamaient avant tout les Parisiennes qui marchèrent sur Versailles en octobre 1789 ?",
+  "r": "Du pain",
+  "t": "Révolution française",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-149",
+  "q": "Quel surnom péjoratif, rappelant ses origines, le peuple donnait-il à Marie-Antoinette ?",
+  "r": "L'Autrichienne",
+  "t": "Révolution française",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-150",
+  "q": "Selon une phrase attribuée à tort à Marie-Antoinette, que devait manger le peuple s'il n'avait pas de pain ?",
+  "r": "De la brioche",
+  "t": "Révolution française",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-151",
+  "q": "Qu'est-il advenu de la forteresse de la Bastille dans les mois qui ont suivi sa prise ?",
+  "r": "Elle a été démolie",
+  "t": "Révolution française",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-152",
+  "q": "Quel ancien palais royal parisien a été ouvert au public comme musée en 1793 ?",
+  "r": "Le Louvre",
+  "t": "Révolution française",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-153",
+  "q": "Comment appelle-t-on le texte fondamental qui organise les pouvoirs, dont la France se dote pour la première fois en 1791 ?",
+  "r": "La Constitution",
+  "t": "Révolution française",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-154",
+  "q": "Quelle arme, faite d'une longue hampe terminée par une pointe de fer, brandissaient les sans-culottes ?",
+  "r": "La pique",
+  "t": "Révolution française",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-155",
+  "q": "Dans quel pays actuel se trouve la commune de Waterloo, célèbre pour sa bataille de 1815 ?",
+  "r": "La Belgique",
+  "t": "Napoléon",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-156",
+  "q": "Quel empereur, dernier souverain à avoir régné sur la France, a été renversé en 1870 ?",
+  "r": "Napoléon III",
+  "t": "XIXe siècle",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-157",
+  "q": "Quel écrivain, opposant à Napoléon III, a passé près de vingt ans en exil, notamment à Guernesey ?",
+  "r": "Victor Hugo",
+  "t": "Personnages célèbres",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-158",
+  "q": "Quels sont les trois grands principes de l'école publique instaurés par les lois Jules Ferry ?",
+  "r": "Gratuite, laïque et obligatoire",
+  "t": "XIXe siècle",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-159",
+  "q": "Quel signal de détresse s'écrit en morse avec trois points, trois traits et trois points ?",
+  "r": "SOS",
+  "t": "Inventeurs",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-160",
+  "q": "Quel nom de famille portaient les trois frères qui ont fondé en 1899 une grande marque automobile française ?",
+  "r": "Renault",
+  "t": "Inventions",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-161",
+  "q": "Quel obstacle le Titanic a-t-il heurté avant de couler, en avril 1912 ?",
+  "r": "Un iceberg",
+  "t": "Événements célèbres",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-162",
+  "q": "Quel surnom donnait-on aux mineurs de charbon, à cause de la poussière qui couvrait leur visage ?",
+  "r": "Les gueules noires",
+  "t": "Révolution industrielle",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-163",
+  "q": "Quelle énergie, qui éclaire les villes à la fin du XIXe siècle, symbolise la deuxième révolution industrielle ?",
+  "r": "L'électricité",
+  "t": "Révolution industrielle",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-164",
+  "q": "Quel titre allemand, dérivé du nom de César, portait l'empereur d'Allemagne de 1871 à 1918 ?",
+  "r": "Kaiser",
+  "t": "XIXe siècle",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-165",
+  "q": "Comment appelle-t-on les colons qui partirent à la conquête de l'Ouest américain au XIXe siècle ?",
+  "r": "Les pionniers",
+  "t": "XIXe siècle",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-166",
+  "q": "Quel diplôme, créé en 1808, sanctionne la fin des études au lycée ?",
+  "r": "Le baccalauréat",
+  "t": "XIXe siècle",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-167",
+  "q": "Dans quelle ville des Pyrénées Bernadette Soubirous affirma-t-elle avoir vu la Vierge en 1858 ?",
+  "r": "Lourdes",
+  "t": "XIXe siècle",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-168",
+  "q": "Quel moyen de transport souterrain a été mis en service pour la première fois à Londres en 1863 ?",
+  "r": "Le métro",
+  "t": "Inventions",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-169",
+  "q": "Quel pays d'Asie était surnommé le « joyau de la Couronne » britannique ?",
+  "r": "L'Inde",
+  "t": "XIXe siècle",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-170",
+  "q": "Quelle région française a été le principal bassin houiller du pays aux XIXe et XXe siècles ?",
+  "r": "Le Nord-Pas-de-Calais",
+  "t": "Révolution industrielle",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-171",
+  "q": "Quelle colonie française d'Asie du Sud-Est regroupait notamment le Viêt Nam, le Laos et le Cambodge ?",
+  "r": "L'Indochine",
+  "t": "Colonisation",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-172",
+  "q": "Quel président des États-Unis dirigeait le Nord pendant la guerre de Sécession ?",
+  "r": "Abraham Lincoln",
+  "t": "XIXe siècle",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-173",
+  "q": "En quelle année commence la Première Guerre mondiale ?",
+  "r": "1914",
+  "t": "Première Guerre mondiale",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-174",
+  "q": "En quelle année se termine la Première Guerre mondiale ?",
+  "r": "1918",
+  "t": "Première Guerre mondiale",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-175",
+  "q": "Quelle date commémore chaque année en France l'armistice de la Première Guerre mondiale ?",
+  "r": "Le 11 novembre",
+  "t": "Première Guerre mondiale",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-176",
+  "q": "Comment appelle-t-on les longues fosses creusées dans le sol où vivaient les soldats de 1914-1918 ?",
+  "r": "Les tranchées",
+  "t": "Première Guerre mondiale",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-177",
+  "q": "Quel surnom a-t-on donné à la guerre de 1914-1918, que l'on espérait être la toute dernière ?",
+  "r": "La der des ders",
+  "t": "Première Guerre mondiale",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-178",
+  "q": "Quel nom, qui souligne son ampleur, donnait-on au conflit de 1914-1918 avant qu'il y en ait un second ?",
+  "r": "La Grande Guerre",
+  "t": "Première Guerre mondiale",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-179",
+  "q": "Quelles stèles, érigées dans presque toutes les communes de France, portent les noms des soldats tués au combat ?",
+  "r": "Les monuments aux morts",
+  "t": "Première Guerre mondiale",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-180",
+  "q": "Contre quel pays voisin la France a-t-elle principalement combattu pendant la Première Guerre mondiale ?",
+  "r": "L'Allemagne",
+  "t": "Première Guerre mondiale",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-181",
+  "q": "Quel traité, signé en 1919, impose ses conditions de paix à l'Allemagne vaincue ?",
+  "r": "Le traité de Versailles",
+  "t": "Première Guerre mondiale",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-182",
+  "q": "De quelle couleur était le pantalon des fantassins français au début de la guerre de 1914 ?",
+  "r": "Rouge",
+  "t": "Première Guerre mondiale",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-183",
+  "q": "Sur quelle rivière une grande bataille a-t-elle stoppé l'avancée allemande vers Paris en septembre 1914 ?",
+  "r": "La Marne",
+  "t": "Première Guerre mondiale",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-184",
+  "q": "Quelles provinces perdues en 1871 la France récupère-t-elle à la fin de la Première Guerre mondiale ?",
+  "r": "L'Alsace et la Lorraine",
+  "t": "Première Guerre mondiale",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-185",
+  "q": "En quelle année a eu lieu la révolution russe qui a porté les bolcheviks au pouvoir ?",
+  "r": "1917",
+  "t": "Entre-deux-guerres",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-186",
+  "q": "Quel maréchal, surnommé « le vainqueur de Verdun », a ensuite dirigé le régime de Vichy ?",
+  "r": "Philippe Pétain",
+  "t": "Personnages célèbres",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-187",
+  "q": "Comment appelle-t-on la décennie d'insouciance et de fête qu'a connue la France après la Première Guerre mondiale ?",
+  "r": "Les Années folles",
+  "t": "Entre-deux-guerres",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-188",
+  "q": "En quelle année le krach de la Bourse de New York déclenche-t-il une grave crise économique mondiale ?",
+  "r": "1929",
+  "t": "Entre-deux-guerres",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-189",
+  "q": "Comment appelle-t-on la grave crise économique qui a frappé les États-Unis dans les années 1930 ?",
+  "r": "La Grande Dépression",
+  "t": "Entre-deux-guerres",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-190",
+  "q": "Quel dictateur a dirigé l'Allemagne nazie de 1933 à 1945 ?",
+  "r": "Adolf Hitler",
+  "t": "Personnages célèbres",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-191",
+  "q": "Quel livre-programme Adolf Hitler a-t-il rédigé en prison dans les années 1920 ?",
+  "r": "Mein Kampf",
+  "t": "Entre-deux-guerres",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-192",
+  "q": "Quel titre allemand, signifiant « guide », portait Adolf Hitler à la tête de l'Allemagne ?",
+  "r": "Führer",
+  "t": "Entre-deux-guerres",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-193",
+  "q": "Quel dictateur fasciste a gouverné l'Italie de 1922 à 1943 ?",
+  "r": "Benito Mussolini",
+  "t": "Personnages célèbres",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-194",
+  "q": "Quel dirigeant soviétique, mort en 1953, a gouverné l'URSS d'une main de fer pendant près de trente ans ?",
+  "r": "Staline",
+  "t": "Personnages célèbres",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-195",
+  "q": "Quel dictateur soviétique était surnommé par sa propagande le « Petit Père des peuples » ?",
+  "r": "Joseph Staline",
+  "t": "Personnages célèbres",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-196",
+  "q": "Quels deux outils, symboles des ouvriers et des paysans, figuraient sur le drapeau de l'URSS ?",
+  "r": "La faucille et le marteau",
+  "t": "Entre-deux-guerres",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-197",
+  "q": "Quel symbole figurait au centre du drapeau de l'Allemagne nazie ?",
+  "r": "La croix gammée",
+  "t": "Entre-deux-guerres",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-198",
+  "q": "Quel nom désignait l'État de l'Allemagne nazie, censé durer mille ans selon ses dirigeants ?",
+  "r": "Le Troisième Reich",
+  "t": "Entre-deux-guerres",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-199",
+  "q": "Quelle police politique secrète faisait régner la terreur dans l'Allemagne nazie ?",
+  "r": "La Gestapo",
+  "t": "Seconde Guerre mondiale",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-200",
+  "q": "Quel nom la ville de Saint-Pétersbourg a-t-elle porté de 1924 à 1991 ?",
+  "r": "Leningrad",
+  "t": "Entre-deux-guerres",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-201",
+  "q": "Quel couple de braqueurs américains a été abattu par la police en 1934 ?",
+  "r": "Bonnie et Clyde",
+  "t": "Personnages célèbres",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-202",
+  "q": "Quel révolutionnaire russe repose embaumé dans un mausolée sur la place Rouge, à Moscou ?",
+  "r": "Lénine",
+  "t": "Personnages célèbres",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-203",
+  "q": "Comment appelle-t-on un régime où un parti unique contrôle toute la société, comme l'Allemagne nazie ou l'URSS de Staline ?",
+  "r": "Le totalitarisme",
+  "t": "Entre-deux-guerres",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-204",
+  "q": "Comment appelle-t-on l'accord par lequel des pays en guerre décident d'arrêter les combats ?",
+  "r": "Un armistice",
+  "t": "Première Guerre mondiale",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-205",
+  "q": "En quelle année commence la Seconde Guerre mondiale ?",
+  "r": "1939",
+  "t": "Seconde Guerre mondiale",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-206",
+  "q": "En quelle année se termine la Seconde Guerre mondiale ?",
+  "r": "1945",
+  "t": "Seconde Guerre mondiale",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-207",
+  "q": "Quelle date célèbre chaque année en France la victoire de 1945 sur l'Allemagne nazie ?",
+  "r": "Le 8 mai",
+  "t": "Seconde Guerre mondiale",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-208",
+  "q": "À quelle date a eu lieu le débarquement allié sur les plages de Normandie ?",
+  "r": "Le 6 juin 1944",
+  "t": "Seconde Guerre mondiale",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-209",
+  "q": "Quel général a dirigé la France libre depuis Londres pendant la Seconde Guerre mondiale ?",
+  "r": "Charles de Gaulle",
+  "t": "Seconde Guerre mondiale",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-210",
+  "q": "Quel général s'est écrié en août 1944 : « Paris outragé, Paris brisé, Paris martyrisé, mais Paris libéré ! » ?",
+  "r": "Charles de Gaulle",
+  "t": "Seconde Guerre mondiale",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-211",
+  "q": "Comment appelle-t-on la coalition formée pendant la Seconde Guerre mondiale par l'Allemagne, l'Italie et le Japon ?",
+  "r": "L'Axe",
+  "t": "Seconde Guerre mondiale",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-212",
+  "q": "Comment appelle-t-on les pays qui ont combattu l'Allemagne nazie, comme le Royaume-Uni, les États-Unis et l'URSS ?",
+  "r": "Les Alliés",
+  "t": "Seconde Guerre mondiale",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-213",
+  "q": "Comment appelle-t-on la période de 1940 à 1944 pendant laquelle l'armée allemande contrôlait la France ?",
+  "r": "L'Occupation",
+  "t": "Seconde Guerre mondiale",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-214",
+  "q": "Comment appelle-t-on l'ensemble des mouvements qui ont combattu clandestinement l'occupant allemand en France ?",
+  "r": "La Résistance",
+  "t": "Seconde Guerre mondiale",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-215",
+  "q": "Comment appelait-on les résistants qui se cachaient dans les forêts et les montagnes pour combattre l'occupant ?",
+  "r": "Les maquisards",
+  "t": "Seconde Guerre mondiale",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-216",
+  "q": "Comment appelle-t-on la politique de coopération menée par le régime de Vichy avec l'Allemagne nazie ?",
+  "r": "La collaboration",
+  "t": "Seconde Guerre mondiale",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-217",
+  "q": "Quel mot hébreu, signifiant « catastrophe », désigne l'extermination des Juifs d'Europe par les nazis ?",
+  "r": "La Shoah",
+  "t": "Seconde Guerre mondiale",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-218",
+  "q": "Comment appelle-t-on les personnes envoyées de force par les nazis dans les camps de concentration ?",
+  "r": "Les déportés",
+  "t": "Seconde Guerre mondiale",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-219",
+  "q": "Comment appelait-on les pilotes japonais qui précipitaient volontairement leur avion sur les navires ennemis ?",
+  "r": "Les kamikazes",
+  "t": "Seconde Guerre mondiale",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-220",
+  "q": "Quel Premier ministre britannique, au cigare légendaire, faisait le « V » de la victoire avec deux doigts ?",
+  "r": "Winston Churchill",
+  "t": "Personnages célèbres",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-221",
+  "q": "Quelle expression française traduit le mot allemand « Blitzkrieg », qui désigne une offensive très rapide ?",
+  "r": "La guerre éclair",
+  "t": "Seconde Guerre mondiale",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-222",
+  "q": "Quel surnom de deux lettres désignait les soldats américains pendant la Seconde Guerre mondiale ?",
+  "r": "GI",
+  "t": "Seconde Guerre mondiale",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-223",
+  "q": "Quelle friandise à mâcher les soldats américains ont-ils fait découvrir aux Français à la Libération ?",
+  "r": "Le chewing-gum",
+  "t": "Seconde Guerre mondiale",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-224",
+  "q": "Quel héros de la Résistance est connu par une célèbre photo où il porte un chapeau et une écharpe ?",
+  "r": "Jean Moulin",
+  "t": "Seconde Guerre mondiale",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-225",
+  "q": "Comment appelle-t-on l'extermination volontaire et organisée d'un peuple entier ?",
+  "r": "Un génocide",
+  "t": "Seconde Guerre mondiale",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-226",
+  "q": "Comment appelle-t-on la longue rivalité, sans affrontement direct, entre les États-Unis et l'URSS de 1947 à 1991 ?",
+  "r": "La guerre froide",
+  "t": "Guerre froide",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-227",
+  "q": "En quelle année le mur de Berlin est-il tombé ?",
+  "r": "1989",
+  "t": "Guerre froide",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-228",
+  "q": "Quel sigle désignait l'Allemagne de l'Est communiste, de 1949 à 1990 ?",
+  "r": "La RDA",
+  "t": "Guerre froide",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-229",
+  "q": "Quel sigle désignait l'Allemagne de l'Ouest avant la réunification de 1990 ?",
+  "r": "La RFA",
+  "t": "Guerre froide",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-230",
+  "q": "Quelle était la capitale de l'Union soviétique ?",
+  "r": "Moscou",
+  "t": "Guerre froide",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-231",
+  "q": "Quel sigle de trois lettres désignait les services secrets de l'URSS ?",
+  "r": "Le KGB",
+  "t": "Guerre froide",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-232",
+  "q": "Quelle résidence de Washington accueille les présidents des États-Unis depuis 1800 ?",
+  "r": "La Maison-Blanche",
+  "t": "Guerre froide",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-233",
+  "q": "Dans quelle ville texane le président John F. Kennedy a-t-il été assassiné en 1963 ?",
+  "r": "Dallas",
+  "t": "Guerre froide",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-234",
+  "q": "Quel révolutionnaire d'origine argentine, compagnon de Fidel Castro, est surnommé « le Che » ?",
+  "r": "Ernesto Guevara",
+  "t": "Personnages célèbres",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-235",
+  "q": "Dans quel pays d'Asie du Sud-Est l'armée américaine a-t-elle combattu de 1965 à 1973 ?",
+  "r": "Le Viêt Nam",
+  "t": "Guerre froide",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-236",
+  "q": "Quel dirigeant soviétique, à la tache de naissance sur le front, a reçu le prix Nobel de la paix en 1990 ?",
+  "r": "Mikhaïl Gorbatchev",
+  "t": "Guerre froide",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-237",
+  "q": "Quels deux pays rivaux se sont livré une « course à l'espace » à partir de la fin des années 1950 ?",
+  "r": "Les États-Unis et l'URSS",
+  "t": "Conquête spatiale",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-238",
+  "q": "Dans quelle ville américaine se trouve le siège de l'Organisation des Nations unies ?",
+  "r": "New York",
+  "t": "Guerre froide",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-239",
+  "q": "Quel surnom, signifiant « grande âme », était donné au dirigeant indien Gandhi ?",
+  "r": "Mahatma",
+  "t": "Personnages célèbres",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-240",
+  "q": "Quel principe de lutte, qui refuse tout recours à la force, Gandhi a-t-il prôné contre la domination britannique ?",
+  "r": "La non-violence",
+  "t": "Personnages célèbres",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-241",
+  "q": "Quel homme est devenu en 1994 le premier président noir de l'Afrique du Sud ?",
+  "r": "Nelson Mandela",
+  "t": "Personnages célèbres",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-242",
+  "q": "Contre quelle forme de discrimination le pasteur Martin Luther King a-t-il lutté aux États-Unis ?",
+  "r": "La ségrégation raciale",
+  "t": "Personnages célèbres",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-243",
+  "q": "En quelle année l'Algérie est-elle devenue indépendante ?",
+  "r": "1962",
+  "t": "Décolonisation",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-244",
+  "q": "Comment appelle-t-on le mouvement par lequel les peuples d'Afrique et d'Asie dominés par l'Europe ont accédé à l'indépendance, surtout après 1945 ?",
+  "r": "La décolonisation",
+  "t": "Décolonisation",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-245",
+  "q": "Comment appelle-t-on un chef qui gouverne seul, par la force et sans aucun contrôle ?",
+  "r": "Un dictateur",
+  "t": "Vocabulaire historique",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-246",
+  "q": "Quels gratte-ciel new-yorkais ont été détruits lors des attentats du 11 septembre 2001 ?",
+  "r": "Les tours jumelles du World Trade Center",
+  "t": "Événements célèbres",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-247",
+  "q": "Quel mois de l'année 1968 est resté célèbre en France pour ses grandes manifestations étudiantes et ses grèves ?",
+  "r": "Mai",
+  "t": "Événements célèbres",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-248",
+  "q": "Combien d'années durait le mandat du président de la République française avant le passage au quinquennat ?",
+  "r": "Sept ans",
+  "t": "Ve République",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-249",
+  "q": "Quel maire de Paris a été élu président de la République en 1995 ?",
+  "r": "Jacques Chirac",
+  "t": "Ve République",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-250",
+  "q": "Quel président de la République a été élu en 1969, après la démission du général de Gaulle ?",
+  "r": "Georges Pompidou",
+  "t": "Ve République",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-251",
+  "q": "Quel est le nom du grand aéroport international situé à Roissy, au nord de Paris ?",
+  "r": "Charles-de-Gaulle",
+  "t": "Ve République",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-252",
+  "q": "Quel prince héritier britannique a épousé Diana Spencer en 1981 ?",
+  "r": "Charles",
+  "t": "Personnages célèbres",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-253",
+  "q": "Quelle reine du Royaume-Uni est morte en septembre 2022, après plus de soixante-dix ans de règne ?",
+  "r": "Élisabeth II",
+  "t": "Personnages célèbres",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-254",
+  "q": "Quel nom porte depuis 1917 la famille royale britannique ?",
+  "r": "Windsor",
+  "t": "Personnages célèbres",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-255",
+  "q": "Quelle date a été choisie pour la Journée internationale des droits des femmes ?",
+  "r": "Le 8 mars",
+  "t": "Dates célèbres",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-256",
+  "q": "Quel jour férié est consacré à la fête du Travail en France ?",
+  "r": "Le 1er mai",
+  "t": "Dates célèbres",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-257",
+  "q": "Quelle meneuse de revue, résistante et militante antiraciste, est entrée au Panthéon en 2021 ?",
+  "r": "Joséphine Baker",
+  "t": "Personnages célèbres",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-258",
+  "q": "Comment appelle-t-on la vague de révoltes qui a touché plusieurs pays arabes à partir de la fin de l'année 2010 ?",
+  "r": "Le Printemps arabe",
+  "t": "Événements célèbres",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-259",
+  "q": "Quelle guerre a opposé l'Irak à une coalition internationale menée par les États-Unis au début de 1991 ?",
+  "r": "La guerre du Golfe",
+  "t": "Événements célèbres",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-260",
+  "q": "Comment appelle-t-on les trois décennies de forte croissance économique qu'a connues la France après 1945 ?",
+  "r": "Les Trente Glorieuses",
+  "t": "Après 1945",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-261",
+  "q": "Comment appelle-t-on la forte hausse des naissances qui a suivi la Seconde Guerre mondiale ?",
+  "r": "Le baby-boom",
+  "t": "Après 1945",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-262",
+  "q": "Quel nom portait l'Iran jusqu'en 1935 ?",
+  "r": "La Perse",
+  "t": "Noms anciens",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-263",
+  "q": "Dans quelle colonie d'Amérique du Sud la France a-t-elle installé un bagne à partir de 1852 ?",
+  "r": "La Guyane",
+  "t": "Colonisation",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-264",
+  "q": "Quelle association de lutte contre la pauvreté l'abbé Pierre a-t-il fondée en 1949 ?",
+  "r": "Emmaüs",
+  "t": "Après 1945",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-265",
+  "q": "Comment appelle-t-on la période de l'histoire qui va de la Révolution française à nos jours ?",
+  "r": "L'époque contemporaine",
+  "t": "Vocabulaire historique",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-266",
+  "q": "Quel pays des Balkans a éclaté en plusieurs États, dont la Croatie et la Serbie, au cours des guerres des années 1990 ?",
+  "r": "La Yougoslavie",
+  "t": "Après 1945",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-267",
+  "q": "Dans quelle capitale l'aviateur Charles Lindbergh a-t-il atterri au terme de sa traversée de l'Atlantique en 1927 ?",
+  "r": "Paris",
+  "t": "Inventions",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-268",
+  "q": "Quel objet les astronautes d'Apollo 11 ont-ils planté sur le sol lunaire en juillet 1969 ?",
+  "r": "Le drapeau américain",
+  "t": "Conquête spatiale",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-269",
+  "q": "Comment s'appelle en français le grand laboratoire habité qui tourne autour de la Terre, désigné par le sigle anglais ISS ?",
+  "r": "La Station spatiale internationale",
+  "t": "Conquête spatiale",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-270",
+  "q": "Quelle base de lancement de Floride est célèbre pour les décollages des fusées américaines ?",
+  "r": "Cap Canaveral",
+  "t": "Conquête spatiale",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-271",
+  "q": "De quelle couleur est le fond du drapeau européen ?",
+  "r": "Bleu",
+  "t": "Construction européenne",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-272",
+  "q": "Dans quelle capitale siège la Commission européenne ?",
+  "r": "Bruxelles",
+  "t": "Construction européenne",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-273",
+  "q": "Combien de pays comptait l'Union européenne juste après le départ du Royaume-Uni, en 2020 ?",
+  "r": "27",
+  "t": "Construction européenne",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-274",
+  "q": "Quels deux pays voisins, anciens ennemis, sont considérés comme le « moteur » de la construction européenne ?",
+  "r": "La France et l'Allemagne",
+  "t": "Construction européenne",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-275",
+  "q": "Quel mot-valise anglais désigne la sortie du Royaume-Uni de l'Union européenne ?",
+  "r": "Le Brexit",
+  "t": "Construction européenne",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-276",
+  "q": "Quelle ancienne ministre de la Santé a présidé de 1979 à 1982 la première assemblée européenne élue ?",
+  "r": "Simone Veil",
+  "t": "Construction européenne",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-277",
+  "q": "Comment appelle-t-on un conflit armé entre habitants d'un même pays ?",
+  "r": "Une guerre civile",
+  "t": "Vocabulaire historique",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-278",
+  "q": "Comment appelle-t-on un vote où les citoyens répondent par oui ou par non à une question ?",
+  "r": "Un référendum",
+  "t": "Vocabulaire historique",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-279",
+  "q": "Comment appelle-t-on un soldat qui abandonne son armée sans autorisation ?",
+  "r": "Un déserteur",
+  "t": "Vocabulaire historique",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-280",
+  "q": "Comment appelle-t-on l'acte par lequel une armée vaincue cesse le combat et se rend à l'ennemi ?",
+  "r": "La capitulation",
+  "t": "Vocabulaire historique",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-281",
+  "q": "Comment appelle-t-on la fuite de millions de Français sur les routes devant l'avancée allemande, en mai-juin 1940 ?",
+  "r": "L'exode",
+  "t": "Seconde Guerre mondiale",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-282",
+  "q": "Comment appelait-on l'ensemble des pays communistes d'Europe dominés par l'URSS après 1945 ?",
+  "r": "Le bloc de l'Est",
+  "t": "Guerre froide",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-283",
+  "q": "Quel président de la République a inauguré la pyramide du Louvre en 1989 ?",
+  "r": "François Mitterrand",
+  "t": "Ve République",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-284",
+  "q": "Quel créateur américain a donné vie à la souris Mickey en 1928 ?",
+  "r": "Walt Disney",
+  "t": "Personnages célèbres",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-285",
+  "q": "Quel véhicule blindé à chenilles est apparu sur les champs de bataille pendant la Première Guerre mondiale ?",
+  "r": "Le char d'assaut",
+  "t": "Première Guerre mondiale",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-286",
+  "q": "Quel pays alpin, voisin de la France, est resté neutre pendant les deux guerres mondiales ?",
+  "r": "La Suisse",
+  "t": "Seconde Guerre mondiale",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-287",
+  "q": "Quel célèbre pont suspendu rouge a été inauguré en 1937 à l'entrée de la baie de San Francisco ?",
+  "r": "Le Golden Gate Bridge",
+  "t": "Monuments",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-288",
+  "q": "Quelle plante, cultivée par des esclaves dans le sud des États-Unis, alimentait les filatures anglaises au XIXe siècle ?",
+  "r": "Le coton",
+  "t": "Révolution industrielle",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-289",
+  "q": "Quel candidat à la présidence des États-Unis avait pour slogan « Yes we can » en 2008 ?",
+  "r": "Barack Obama",
+  "t": "Personnages célèbres",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-290",
+  "q": "Sous quel nom désignait-on avant 1989 le pays d'Asie aujourd'hui appelé Myanmar ?",
+  "r": "La Birmanie",
+  "t": "Noms anciens",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-291",
+  "q": "Quel pays d'Europe de l'Est était dirigé par le dictateur communiste Nicolae Ceaușescu ?",
+  "r": "La Roumanie",
+  "t": "Guerre froide",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-292",
+  "q": "Quelle religieuse a consacré une grande partie de sa vie aux chiffonniers des bidonvilles du Caire ?",
+  "r": "Sœur Emmanuelle",
+  "t": "Personnages célèbres",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-293",
+  "q": "Quelle grande course cycliste par étapes a été créée en 1903 par le journal L'Auto ?",
+  "r": "Le Tour de France",
+  "t": "Événements célèbres",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-294",
+  "q": "Comment appelle-t-on les alignements de maisons ouvrières bâties près des mines de charbon ?",
+  "r": "Les corons",
+  "t": "Révolution industrielle",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-295",
+  "q": "Comment appelle-t-on les collines artificielles formées par les déblais des mines de charbon ?",
+  "r": "Les terrils",
+  "t": "Révolution industrielle",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-296",
+  "q": "Quel cervidé, aujourd'hui cantonné au Grand Nord, était le principal gibier des chasseurs de la fin de la Préhistoire en France ?",
+  "r": "Le renne",
+  "t": "Préhistoire",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-297",
+  "q": "Quelle technique, qui se développe au Néolithique, permet de fabriquer des étoffes en entrecroisant des fils ?",
+  "r": "Le tissage",
+  "t": "Préhistoire",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-298",
+  "q": "Selon la tradition, quel animal Cléopâtre aurait-elle utilisé pour se donner la mort ?",
+  "r": "Un serpent",
+  "t": "Égypte antique",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-299",
+  "q": "Quel organe les embaumeurs égyptiens retiraient-ils par le nez, à l'aide d'un crochet, avant de momifier le corps ?",
+  "r": "Le cerveau",
+  "t": "Égypte antique",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-300",
+  "q": "Quel accessoire les Égyptiens aisés portaient-ils souvent sur leur crâne rasé ?",
+  "r": "Une perruque",
+  "t": "Égypte antique",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-301",
+  "q": "Quel adjectif, évoquant les souverains de l'Égypte antique, qualifie un projet aux dimensions démesurées ?",
+  "r": "Pharaonique",
+  "t": "Égypte antique",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-302",
+  "q": "Comment appelle-t-on un vaste ensemble de tombeaux antiques, comme celui de Saqqarah en Égypte ?",
+  "r": "Une nécropole",
+  "t": "Égypte antique",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-303",
+  "q": "À Athènes, en plus des esclaves et des étrangers, quelle partie de la population était privée de la citoyenneté ?",
+  "r": "Les femmes",
+  "t": "Grèce antique",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-304",
+  "q": "Quel peuple a conquis la Grèce au IIe siècle av. J.-C., tout en adoptant une grande partie de sa culture ?",
+  "r": "Les Romains",
+  "t": "Grèce antique",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-305",
+  "q": "Dans quelle tenue les athlètes concouraient-ils aux Jeux olympiques de l'Antiquité ?",
+  "r": "Nus",
+  "t": "Grèce antique",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-306",
+  "q": "Quel adjectif, tiré du nom d'un philosophe grec élève de Socrate, qualifie un amour purement spirituel ?",
+  "r": "Platonique",
+  "t": "Grèce antique",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-307",
+  "q": "Quel adjectif, tiré d'une école de philosophie grecque, qualifie une personne qui supporte la douleur sans se plaindre ?",
+  "r": "Stoïque",
+  "t": "Grèce antique",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-308",
+  "q": "Comment les Grecs, puis les Romains, appelaient-ils les peuples étrangers qui ne partageaient ni leur langue ni leur culture ?",
+  "r": "Les barbares",
+  "t": "Antiquité",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-309",
+  "q": "Comment appelle-t-on le grand vase de terre cuite à deux anses dans lequel Grecs et Romains transportaient le vin et l'huile ?",
+  "r": "Une amphore",
+  "t": "Antiquité",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-310",
+  "q": "Quelle boisson les Grecs et les Romains avaient-ils l'habitude de couper avec de l'eau avant de la boire ?",
+  "r": "Le vin",
+  "t": "Antiquité",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-311",
+  "q": "Quelle monnaie romaine, souvent citée dans les albums d'Astérix, servait d'unité de compte pour les prix et les fortunes ?",
+  "r": "Le sesterce",
+  "t": "Rome antique",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-312",
+  "q": "Comment appelait-on à Rome le grand défilé d'un général victorieux, debout sur son char, à travers la ville ?",
+  "r": "Le triomphe",
+  "t": "Rome antique",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-313",
+  "q": "Dans quelle position les riches Romains prenaient-ils leurs repas lors des banquets ?",
+  "r": "Allongés",
+  "t": "Rome antique",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-314",
+  "q": "Comment appelle-t-on l'Empire romain d'Orient, qui a survécu près de mille ans à la chute de Rome ?",
+  "r": "L'Empire byzantin",
+  "t": "Rome antique",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-315",
+  "q": "Quelle épée courte, qui a donné leur nom aux gladiateurs, était l'arme principale des légionnaires romains ?",
+  "r": "Le glaive",
+  "t": "Rome antique",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-316",
+  "q": "Quel nom portait Londres lorsque la ville a été fondée par les Romains ?",
+  "r": "Londinium",
+  "t": "Rome antique",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-317",
+  "q": "Quel mot, qu'on retrouve dans l'expression « de bon … », désignait à Rome le prêtre qui lisait la volonté des dieux dans le vol des oiseaux ?",
+  "r": "L'augure",
+  "t": "Rome antique",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-318",
+  "q": "Comment appelait-on au Moyen Âge la petite boutique d'artisan, souvent en bois, ouverte directement sur la rue ?",
+  "r": "Une échoppe",
+  "t": "Moyen Âge",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-319",
+  "q": "Quel jour de l'année Charlemagne a-t-il été couronné empereur à Rome, en 800 ?",
+  "r": "Le jour de Noël",
+  "t": "Haut Moyen Âge",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-320",
+  "q": "Selon son biographe Éginhard, quelle compétence Charlemagne n'a-t-il jamais vraiment maîtrisée, malgré ses efforts tardifs ?",
+  "r": "L'écriture",
+  "t": "Haut Moyen Âge",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-321",
+  "q": "Quel fleuve les Vikings remontaient-ils à bord de leurs drakkars pour piller Rouen et assiéger Paris ?",
+  "r": "La Seine",
+  "t": "Vikings",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-322",
+  "q": "Comment s'appelle le livre sacré de l'islam, rédigé en arabe ?",
+  "r": "Le Coran",
+  "t": "Islam médiéval",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-323",
+  "q": "Dans la société du Moyen Âge, quel ordre regroupait « ceux qui combattent » ?",
+  "r": "La noblesse",
+  "t": "Moyen Âge",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-324",
+  "q": "Comment appelait-on au Moyen Âge les habitants des villes, marchands et artisans, qui obtinrent des libertés de leur seigneur ?",
+  "r": "Les bourgeois",
+  "t": "Moyen Âge",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-325",
+  "q": "Comment appelait-on au Moyen Âge un chrétien qui défendait des idées condamnées par l'Église ?",
+  "r": "Un hérétique",
+  "t": "Moyen Âge",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-326",
+  "q": "Au Moyen Âge, comment appelait-on le jeune garçon placé chez un maître artisan pour être formé à son métier ?",
+  "r": "Un apprenti",
+  "t": "Moyen Âge",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-327",
+  "q": "Comment appelle-t-on les associations qui regroupaient, dans une ville du Moyen Âge, tous les artisans d'un même métier ?",
+  "r": "Les corporations",
+  "t": "Moyen Âge",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-328",
+  "q": "Comment appelait-on au Moyen Âge un prêteur d'argent à intérêt, activité condamnée par l'Église ?",
+  "r": "Un usurier",
+  "t": "Moyen Âge",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-329",
+  "q": "Au Moyen Âge, quel panneau illustré, accroché au-dessus de la porte, signalait une boutique aux passants ?",
+  "r": "Une enseigne",
+  "t": "Moyen Âge",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-330",
+  "q": "Comment appelle-t-on la sonnerie de cloche répétée et précipitée qui donnait l'alarme en cas d'incendie ou d'attaque ?",
+  "r": "Le tocsin",
+  "t": "Moyen Âge",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-331",
+  "q": "Comment appelait-on la taxe que les seigneurs faisaient payer pour franchir un pont ou emprunter une route ?",
+  "r": "Le péage",
+  "t": "Moyen Âge",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-332",
+  "q": "Quel droit, réservé aux seigneurs, était interdit aux paysans du Moyen Âge sous peine de lourdes sanctions ?",
+  "r": "Le droit de chasse",
+  "t": "Moyen Âge",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-333",
+  "q": "Quel titre de noblesse portaient les grands seigneurs qui gouvernaient la Normandie, la Bourgogne ou la Bretagne ?",
+  "r": "Duc",
+  "t": "Moyen Âge",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-334",
+  "q": "Comment appelle-t-on la somme exigée pour libérer un prisonnier, comme celle versée pour délivrer Richard Cœur de Lion ?",
+  "r": "Une rançon",
+  "t": "Moyen Âge",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-335",
+  "q": "Quel objet un chevalier jetait-il à terre devant son adversaire pour le défier en duel ?",
+  "r": "Son gant",
+  "t": "Chevalerie",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-336",
+  "q": "Quelle arme à feu, qui se répand pendant la guerre de Cent Ans, a fini par rendre les châteaux forts vulnérables ?",
+  "r": "Le canon",
+  "t": "Chevalerie",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-337",
+  "q": "Quelle arme, à la fois hache et pique fixées au bout d'une longue hampe, équipait notamment les fantassins suisses ?",
+  "r": "La hallebarde",
+  "t": "Chevalerie",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-338",
+  "q": "Comment appelle-t-on la petite zone rasée au sommet du crâne que portaient les moines ?",
+  "r": "La tonsure",
+  "t": "Église médiévale",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-339",
+  "q": "Comment appelle-t-on le moine élu pour diriger une communauté de moines bénédictins ?",
+  "r": "L'abbé",
+  "t": "Église médiévale",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-340",
+  "q": "Comment appelle-t-on un fragment du corps d'un saint, ou un objet lui ayant appartenu, que les pèlerins venaient vénérer ?",
+  "r": "Une relique",
+  "t": "Église médiévale",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-341",
+  "q": "Quelle sanction le pape pouvait-il infliger à un roi ou à un fidèle en l'excluant de la communauté des chrétiens ?",
+  "r": "L'excommunication",
+  "t": "Église médiévale",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-342",
+  "q": "Comment appelait-on au Moyen Âge l'hôpital tenu par des religieux, comme celui de Paris, au pied de Notre-Dame ?",
+  "r": "L'Hôtel-Dieu",
+  "t": "Moyen Âge",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-343",
+  "q": "Quel instrument mécanique, installé dans les beffrois et les clochers à partir du XIVe siècle, indiquait les heures à toute la ville ?",
+  "r": "L'horloge",
+  "t": "Moyen Âge",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-344",
+  "q": "Contrairement à une idée reçue, quelle forme les savants du Moyen Âge attribuaient-ils déjà à la Terre ?",
+  "r": "Ronde",
+  "t": "Moyen Âge",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-345",
+  "q": "Quel prénom a été porté par le plus grand nombre de rois de France ?",
+  "r": "Louis",
+  "t": "Rois de France",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-346",
+  "q": "Sur quel fond de couleur se détachaient les fleurs de lys d'or des armoiries des rois de France ?",
+  "r": "Bleu",
+  "t": "Rois de France",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-347",
+  "q": "Comment appelle-t-on une suite de souverains issus d'une même famille, comme les Mérovingiens ou les Capétiens ?",
+  "r": "Une dynastie",
+  "t": "Rois de France",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-348",
+  "q": "Sous quel surnom est resté célèbre Richard Ier, roi d'Angleterre et grand chef de la troisième croisade ?",
+  "r": "Cœur de Lion",
+  "t": "Croisades",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-349",
+  "q": "Au cours de quel siècle Jeanne d'Arc a-t-elle vécu ?",
+  "r": "Le XVe siècle",
+  "t": "Guerre de Cent Ans",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-350",
+  "q": "Quelle tenue, jugée scandaleuse pour une femme, a-t-on notamment reprochée à Jeanne d'Arc lors de son procès ?",
+  "r": "Des vêtements d'homme",
+  "t": "Guerre de Cent Ans",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-351",
+  "q": "Comment s'appelle le sabre courbe à un seul tranchant des samouraïs ?",
+  "r": "Le katana",
+  "t": "Japon féodal",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-352",
+  "q": "Comment appelait-on les espions et agents secrets du Japon féodal, que l'imaginaire populaire habille tout de noir ?",
+  "r": "Les ninjas",
+  "t": "Japon féodal",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-353",
+  "q": "Quelle boisson chaude, consommée en Chine depuis l'Antiquité, n'est arrivée en Europe qu'au XVIIe siècle ?",
+  "r": "Le thé",
+  "t": "Chine ancienne",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-354",
+  "q": "Quelle céramique blanche, fine et translucide, inventée en Chine, a longtemps été un secret jalousement gardé ?",
+  "r": "La porcelaine",
+  "t": "Chine ancienne",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-355",
+  "q": "Dans quel pays a-t-on utilisé les premiers billets de banque en papier, dès le XIe siècle ?",
+  "r": "La Chine",
+  "t": "Chine ancienne",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-356",
+  "q": "Quels sacrifices les Aztèques offraient-ils à leurs dieux au sommet de leurs pyramides ?",
+  "r": "Des sacrifices humains",
+  "t": "Amériques précolombiennes",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-357",
+  "q": "Quelle épice, originaire du Mexique, les Aztèques utilisaient-ils pour parfumer leur boisson au cacao ?",
+  "r": "La vanille",
+  "t": "Amériques précolombiennes",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-358",
+  "q": "Quel métal précieux, que les Incas appelaient « la sueur du Soleil », attisa la convoitise des conquistadors ?",
+  "r": "L'or",
+  "t": "Amériques précolombiennes",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-359",
+  "q": "Quel petit royaume européen, d'où partirent Bartolomeu Dias et Vasco de Gama, fut le pionnier des grandes découvertes ?",
+  "r": "Le Portugal",
+  "t": "Grandes Découvertes",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-360",
+  "q": "Après avoir contourné l'Afrique, quel océan Vasco de Gama a-t-il traversé en 1498 pour atteindre Calicut ?",
+  "r": "L'océan Indien",
+  "t": "Grandes Découvertes",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-361",
+  "q": "Comment appelle-t-on l'établissement commercial fondé par des Européens sur une côte lointaine, comme Goa pour les Portugais ?",
+  "r": "Un comptoir",
+  "t": "Grandes Découvertes",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-362",
+  "q": "À quel siècle la Renaissance s'épanouit-elle en France, sous le règne de François Ier ?",
+  "r": "Le XVIe siècle",
+  "t": "Renaissance",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-363",
+  "q": "Quelle famille de la Renaissance italienne, celle de César et de Lucrèce, est restée synonyme d'intrigues et d'empoisonnements ?",
+  "r": "Les Borgia",
+  "t": "Renaissance",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-364",
+  "q": "Dans quelle forteresse londonienne Anne Boleyn, épouse d'Henri VIII, a-t-elle été décapitée en 1536 ?",
+  "r": "La tour de Londres",
+  "t": "Renaissance",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-365",
+  "q": "Quel adjectif, tiré du nom de l'auteur florentin du « Prince », qualifie une personne rusée et sans scrupules ?",
+  "r": "Machiavélique",
+  "t": "Renaissance",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-366",
+  "q": "Avant de devenir roi de France en 1589, de quel petit royaume des Pyrénées Henri IV était-il déjà le roi ?",
+  "r": "La Navarre",
+  "t": "Henri IV",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-367",
+  "q": "Quelle religion Henri IV a-t-il dû abandonner pour être accepté comme roi par les catholiques ?",
+  "r": "Le protestantisme",
+  "t": "Henri IV",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-368",
+  "q": "Comment appelle-t-on l'assassinat d'un roi, comme celui d'Henri III par un moine en 1589 ?",
+  "r": "Un régicide",
+  "t": "Guerres de Religion",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-369",
+  "q": "Selon les partisans de la monarchie absolue, de qui le roi de France tenait-il son pouvoir ?",
+  "r": "De Dieu",
+  "t": "Monarchie absolue",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-370",
+  "q": "Qu'était à l'origine le château de Versailles construit par Louis XIII, avant les agrandissements de Louis XIV ?",
+  "r": "Un pavillon de chasse",
+  "t": "Louis XIV et Versailles",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-371",
+  "q": "Comment appelle-t-on l'ensemble des règles très strictes qui organisaient la vie de la cour à Versailles ?",
+  "r": "L'étiquette",
+  "t": "Louis XIV et Versailles",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-372",
+  "q": "Quelle grande ville d'Alsace Louis XIV a-t-il rattachée au royaume de France en 1681 ?",
+  "r": "Strasbourg",
+  "t": "Louis XIV",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-373",
+  "q": "Selon une phrase attribuée à Louis XIV, quelles montagnes « n'existaient plus » depuis que son petit-fils était devenu roi d'Espagne ?",
+  "r": "Les Pyrénées",
+  "t": "Louis XIV",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-374",
+  "q": "Selon une formule attribuée à Louis XV ou à Madame de Pompadour, que viendra-t-il « après nous » ?",
+  "r": "Le déluge",
+  "t": "Louis XV",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-375",
+  "q": "Quelle valeur, défendue par Voltaire dans l'affaire Calas, consiste à respecter les croyances des autres ?",
+  "r": "La tolérance",
+  "t": "Lumières",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-376",
+  "q": "Quel roi de France régnait pendant la guerre d'indépendance des États-Unis ?",
+  "r": "Louis XVI",
+  "t": "Indépendance américaine",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-377",
+  "q": "Quel marquis français, qui combattit pour l'indépendance américaine, était surnommé « le héros des deux mondes » ?",
+  "r": "La Fayette",
+  "t": "Indépendance américaine",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-378",
+  "q": "Quel président américain figure sur le billet d'un dollar ?",
+  "r": "George Washington",
+  "t": "États-Unis",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-379",
+  "q": "Quel régime la France adopte-t-elle en 1791, le roi gardant son trône mais partageant le pouvoir avec une assemblée élue ?",
+  "r": "La monarchie constitutionnelle",
+  "t": "Révolution française",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-380",
+  "q": "Par quels mots commence le refrain de La Marseillaise ?",
+  "r": "« Aux armes, citoyens ! »",
+  "t": "Révolution française",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-381",
+  "q": "Quelle grande école d'ingénieurs, créée en 1794, est surnommée « l'X » ?",
+  "r": "Polytechnique",
+  "t": "Révolution française",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-382",
+  "q": "Quel titre Napoléon Bonaparte, jusque-là Premier consul, prend-il en 1804 ?",
+  "r": "Empereur des Français",
+  "t": "Napoléon",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-383",
+  "q": "Sur combien d'îles différentes Napoléon Ier a-t-il été exilé ?",
+  "r": "2",
+  "t": "Napoléon",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-384",
+  "q": "Quelle école militaire, fondée en 1802, forme les officiers de l'armée de terre française ?",
+  "r": "Saint-Cyr",
+  "t": "Napoléon",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-385",
+  "q": "De quelle couleur est le ruban de la Légion d'honneur, la plus haute décoration française ?",
+  "r": "Rouge",
+  "t": "Napoléon",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-386",
+  "q": "Quel pays a détruit la flotte franco-espagnole à la bataille de Trafalgar, en 1805 ?",
+  "r": "Le Royaume-Uni",
+  "t": "Napoléon",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-387",
+  "q": "Quel vêtement une ordonnance de 1800 interdisait-elle aux Parisiennes de porter sans autorisation de la police ?",
+  "r": "Le pantalon",
+  "t": "Consulat",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-388",
+  "q": "Comment appelait-on, au XIXe siècle, les partisans de Napoléon et de sa famille ?",
+  "r": "Les bonapartistes",
+  "t": "XIXe siècle",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-389",
+  "q": "Comment appelle-t-on l'acte par lequel un souverain renonce à son trône, comme Charles X en 1830 ?",
+  "r": "L'abdication",
+  "t": "XIXe siècle",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-390",
+  "q": "Comment appelle-t-on l'amas de pavés, de meubles et de charrettes que dressaient les insurgés dans les rues de Paris au XIXe siècle ?",
+  "r": "Une barricade",
+  "t": "Révolutions du XIXe siècle",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-391",
+  "q": "Quel lien de parenté unissait l'empereur Napoléon III à Napoléon Ier ?",
+  "r": "Son neveu",
+  "t": "Second Empire",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-392",
+  "q": "Quel grand bois de l'ouest de Paris Napoléon III a-t-il fait aménager en promenade, avec lacs et cascade ?",
+  "r": "Le bois de Boulogne",
+  "t": "Second Empire",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-393",
+  "q": "Comment appelait-on le jupon à cerceaux qui donnait aux robes du Second Empire, comme celles de Sissi, une forme de cloche ?",
+  "r": "La crinoline",
+  "t": "Second Empire",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-394",
+  "q": "Quel drapeau, d'une seule couleur, les insurgés de la Commune de Paris ont-ils adopté en 1871 ?",
+  "r": "Le drapeau rouge",
+  "t": "Révolutions du XIXe siècle",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-395",
+  "q": "Quel chant, écrit par Eugène Pottier après la Commune de 1871, est devenu l'hymne des mouvements ouvriers du monde entier ?",
+  "r": "L'Internationale",
+  "t": "Révolutions du XIXe siècle",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-396",
+  "q": "Comment appelait-on la France d'Europe, par opposition à ses colonies d'outre-mer ?",
+  "r": "La métropole",
+  "t": "Colonisation",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-397",
+  "q": "Quel grand principe, fondé sur la loi de 1905, sépare les Églises et l'État en France ?",
+  "r": "La laïcité",
+  "t": "IIIe République",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-398",
+  "q": "Quel jour de la semaine une loi de 1906 a-t-elle fixé comme jour de repos hebdomadaire des salariés ?",
+  "r": "Le dimanche",
+  "t": "IIIe République",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-399",
+  "q": "Quelle procédure de séparation des époux, supprimée en 1816, a été rétablie en France en 1884 ?",
+  "r": "Le divorce",
+  "t": "IIIe République",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-400",
+  "q": "Quel petit espace fermé, rendu obligatoire en 1913 dans les bureaux de vote, garantit le secret du vote ?",
+  "r": "L'isoloir",
+  "t": "IIIe République",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-401",
+  "q": "Comment appelait-on les cabarets populaires des bords de Marne où les Parisiens allaient danser le dimanche à la Belle Époque ?",
+  "r": "Les guinguettes",
+  "t": "Belle Époque",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-402",
+  "q": "Comment appelait-on, au XIXe siècle, un homme d'une élégance très raffinée, à l'image de l'Anglais Brummell ?",
+  "r": "Un dandy",
+  "t": "XIXe siècle",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-403",
+  "q": "Comment appelait-on la petite poche du gilet où l'on glissait sa montre, d'où l'expression « une montre à… » ?",
+  "r": "Le gousset",
+  "t": "XIXe siècle",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-404",
+  "q": "Au cours de quel siècle la révolution industrielle a-t-elle transformé en profondeur la France ?",
+  "r": "Le XIXe siècle",
+  "t": "Révolution industrielle",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-405",
+  "q": "Quel nouveau moyen de transport relie Paris à Saint-Germain-en-Laye à partir de 1837 ?",
+  "r": "Le chemin de fer",
+  "t": "Révolution industrielle",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-406",
+  "q": "Quel droit, celui de cesser collectivement le travail, les ouvriers français obtiennent-ils en 1864 ?",
+  "r": "Le droit de grève",
+  "t": "Révolution industrielle",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-407",
+  "q": "Quelle classe sociale, enrichie par le commerce, la banque et l'industrie, domine la société française au XIXe siècle ?",
+  "r": "La bourgeoisie",
+  "t": "XIXe siècle",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-408",
+  "q": "Quelle expression, au cœur de la pensée de Karl Marx, désigne l'affrontement entre patrons et ouvriers ?",
+  "r": "La lutte des classes",
+  "t": "Révolution industrielle",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-409",
+  "q": "Quel grand ouvrage d'économie Karl Marx a-t-il publié en 1867 ?",
+  "r": "Le Capital",
+  "t": "Révolution industrielle",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-410",
+  "q": "Quel appareil, qui se répand dans les années 1840, transmet à distance des messages en morse par des fils électriques ?",
+  "r": "Le télégraphe",
+  "t": "Révolution industrielle",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-411",
+  "q": "Quel combustible liquide alimentait les lampes qui éclairaient les foyers à la fin du XIXe siècle, avant l'électricité ?",
+  "r": "Le pétrole",
+  "t": "Révolution industrielle",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-412",
+  "q": "Comment appelle-t-on la conquête et l'exploitation de territoires lointains par les puissances européennes, à son apogée à la fin du XIXe siècle ?",
+  "r": "La colonisation",
+  "t": "Colonisation",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-413",
+  "q": "Comment appelait-on les militants qui, aux XVIIIe et XIXe siècles, réclamaient la fin de l'esclavage ?",
+  "r": "Les abolitionnistes",
+  "t": "Esclavage",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-414",
+  "q": "Comment appelle-t-on les grands domaines agricoles du sud des États-Unis où des esclaves cultivaient le coton ?",
+  "r": "Les plantations",
+  "t": "Esclavage",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-415",
+  "q": "Quelle pratique, défendue par les États du Sud, est au cœur de la guerre de Sécession américaine ?",
+  "r": "L'esclavage",
+  "t": "États-Unis",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-416",
+  "q": "Quel grand chapeau noir et cylindrique est indissociable de la silhouette d'Abraham Lincoln ?",
+  "r": "Le haut-de-forme",
+  "t": "États-Unis",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-417",
+  "q": "Quel industriel américain, fondateur de la Standard Oil, a laissé un nom devenu synonyme de fortune colossale ?",
+  "r": "John D. Rockefeller",
+  "t": "États-Unis",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-418",
+  "q": "Comment appelait-on les bars des villes de l'Ouest américain, reconnaissables à leurs portes battantes ?",
+  "r": "Le saloon",
+  "t": "Conquête de l'Ouest",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-419",
+  "q": "Quel mot anglais, signifiant « recherché », s'affichait en gros sur les avis de recherche placardés dans l'Ouest américain ?",
+  "r": "Wanted",
+  "t": "Conquête de l'Ouest",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-420",
+  "q": "Comment appelle-t-on une grande exploitation d'élevage de bétail de l'Ouest américain, où travaillaient les cow-boys ?",
+  "r": "Un ranch",
+  "t": "Conquête de l'Ouest",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-421",
+  "q": "Quel port de Californie, où débarquaient les chercheurs d'or venus par la mer, a connu un essor spectaculaire lors de la ruée vers l'or de 1849 ?",
+  "r": "San Francisco",
+  "t": "Conquête de l'Ouest",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-422",
+  "q": "Comment appelait-on les chasseurs qui parcouraient les forêts d'Amérique du Nord pour récolter des fourrures ?",
+  "r": "Les trappeurs",
+  "t": "Conquête de l'Ouest",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-423",
+  "q": "Comment s'appelle la hache de guerre des Amérindiens d'Amérique du Nord ?",
+  "r": "Le tomahawk",
+  "t": "Amérindiens",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-424",
+  "q": "Quelle longue pipe les Amérindiens fumaient-ils pour sceller la paix ?",
+  "r": "Le calumet",
+  "t": "Amérindiens",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-425",
+  "q": "Comment appelle-t-on les territoires où le gouvernement américain a regroupé de force les Amérindiens au XIXe siècle ?",
+  "r": "Les réserves",
+  "t": "Amérindiens",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-426",
+  "q": "Quelle reine britannique a porté le deuil en noir jusqu'à la fin de sa vie, après la mort de son mari, le prince Albert, en 1861 ?",
+  "r": "Victoria",
+  "t": "Royaume-Uni",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-427",
+  "q": "Quelle rue de Londres abrite au numéro 10, depuis 1735, la résidence du Premier ministre britannique ?",
+  "r": "Downing Street",
+  "t": "Royaume-Uni",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-428",
+  "q": "De quel métal le chancelier allemand Otto von Bismarck tirait-il son surnom ?",
+  "r": "Le fer",
+  "t": "Allemagne",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-429",
+  "q": "Quelle ville devient en 1871 la capitale du nouvel Empire allemand ?",
+  "r": "Berlin",
+  "t": "Allemagne",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-430",
+  "q": "Sous quel surnom l'impératrice Catherine II de Russie est-elle passée à la postérité ?",
+  "r": "La Grande",
+  "t": "Russie",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-431",
+  "q": "Comment appelle-t-on l'exaltation de sa propre patrie, poussée jusqu'à l'hostilité envers les autres peuples, l'une des causes de la guerre de 1914 ?",
+  "r": "Le nationalisme",
+  "t": "Première Guerre mondiale",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-432",
+  "q": "Comment appelait-on les princes qui régnaient sur de nombreux États de l'Inde à l'époque de la domination britannique ?",
+  "r": "Les maharadjahs",
+  "t": "Colonisation",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-433",
+  "q": "Comment les Amérindiens auraient-ils surnommé la locomotive à vapeur, qu'ils comparaient à une monture de métal ?",
+  "r": "Le cheval de fer",
+  "t": "Amérindiens",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-434",
+  "q": "Comment appelle-t-on, au XIXe siècle, la classe des ouvriers qui ne possèdent que leur force de travail ?",
+  "r": "Le prolétariat",
+  "t": "Révolution industrielle",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-435",
+  "q": "Comment appelle-t-on l'apprentissage de la lecture et de l'écriture, généralisé en France grâce aux lois Jules Ferry ?",
+  "r": "L'alphabétisation",
+  "t": "IIIe République",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-436",
+  "q": "Comment appelle-t-on le départ de millions d'Européens, notamment Irlandais et Italiens, partis s'installer en Amérique au XIXe siècle ?",
+  "r": "L'émigration",
+  "t": "XIXe siècle",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-437",
+  "q": "Quel verre correcteur unique, coincé sous l'arcade du sourcil, portaient les messieurs élégants du XIXe siècle ?",
+  "r": "Le monocle",
+  "t": "XIXe siècle",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-438",
+  "q": "Quel type de navire, propulsé par une machine au charbon et souvent muni de grandes roues à aubes, se répand au XIXe siècle ?",
+  "r": "Le bateau à vapeur",
+  "t": "Révolution industrielle",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-439",
+  "q": "Quel ordre, affiché dans toutes les communes de France le 1er août 1914, appelait les hommes à rejoindre l'armée ?",
+  "r": "La mobilisation générale",
+  "t": "Première Guerre mondiale",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-440",
+  "q": "Selon l'expression restée célèbre, comment les soldats de 1914 seraient-ils partis au front, persuadés que la guerre serait courte ?",
+  "r": "La fleur au fusil",
+  "t": "Première Guerre mondiale",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-441",
+  "q": "Quel pays neutre l'Allemagne a-t-elle envahi en août 1914 pour contourner l'armée française par le nord ?",
+  "r": "La Belgique",
+  "t": "Première Guerre mondiale",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-442",
+  "q": "Comment appelle-t-on une exigence assortie d'une menace de guerre, comme celle adressée par Vienne à la Serbie en juillet 1914 ?",
+  "r": "Un ultimatum",
+  "t": "Première Guerre mondiale",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-443",
+  "q": "Quel hebdomadaire satirique, célèbre pour ses révélations et ses jeux de mots, a été fondé en 1915, en pleine Grande Guerre ?",
+  "r": "Le Canard enchaîné",
+  "t": "Première Guerre mondiale",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-444",
+  "q": "Quel empire d'Europe centrale, gouverné par les Habsbourg, a disparu à la fin de la Première Guerre mondiale ?",
+  "r": "L'Autriche-Hongrie",
+  "t": "Première Guerre mondiale",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-445",
+  "q": "Comment appelle-t-on la révolution de 1917 par laquelle Lénine et les bolcheviks ont pris le pouvoir en Russie ?",
+  "r": "La révolution d'Octobre",
+  "t": "Révolution russe",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-446",
+  "q": "Comment appelle-t-on la hausse vertigineuse des prix qui a frappé l'Allemagne en 1923, au point qu'il fallait des brouettes de billets pour acheter du pain ?",
+  "r": "L'inflation",
+  "t": "Entre-deux-guerres",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-447",
+  "q": "Comment appelle-t-on le courant d'opinion qui refuse la guerre, très puissant en France après l'hécatombe de 1914-1918 ?",
+  "r": "Le pacifisme",
+  "t": "Entre-deux-guerres",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-448",
+  "q": "Quelle idéologie raciste et antisémite était celle du régime qui a gouverné l'Allemagne de 1933 à 1945 ?",
+  "r": "Le nazisme",
+  "t": "Entre-deux-guerres",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-449",
+  "q": "Quelle idéologie, inspirée par Karl Marx, était celle de l'URSS de Lénine et de Staline ?",
+  "r": "Le communisme",
+  "t": "Entre-deux-guerres",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-450",
+  "q": "Comment appelle-t-on la glorification démesurée d'un dirigeant, comme celle qui entourait Staline en URSS ?",
+  "r": "Le culte de la personnalité",
+  "t": "Entre-deux-guerres",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-451",
+  "q": "Quelle armée s'est emparée de Berlin en mai 1945, hissant son drapeau sur le Reichstag ?",
+  "r": "L'Armée rouge",
+  "t": "Seconde Guerre mondiale",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-452",
+  "q": "Comment appelle-t-on le commerce clandestin de produits rationnés, vendus à prix d'or, qui s'est développé sous l'Occupation ?",
+  "r": "Le marché noir",
+  "t": "Seconde Guerre mondiale",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-453",
+  "q": "Comment appelle-t-on la petite feuille imprimée que les résistants distribuaient en cachette pour appeler à la lutte contre l'occupant ?",
+  "r": "Un tract",
+  "t": "Seconde Guerre mondiale",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-454",
+  "q": "Comment appelle-t-on la période de 1944-1945 pendant laquelle le territoire français a été délivré de l'occupation allemande ?",
+  "r": "La Libération",
+  "t": "Seconde Guerre mondiale",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-455",
+  "q": "Quelle avenue parisienne le général de Gaulle a-t-il descendue à pied, acclamé par une foule immense, le 26 août 1944 ?",
+  "r": "Les Champs-Élysées",
+  "t": "Seconde Guerre mondiale",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-456",
+  "q": "Comment s'appelait l'armée de l'air allemande pendant la Seconde Guerre mondiale ?",
+  "r": "La Luftwaffe",
+  "t": "Seconde Guerre mondiale",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-457",
+  "q": "Quel sigle de deux lettres désignait l'organisation d'élite du parti nazi, chargée notamment des camps de concentration ?",
+  "r": "Les SS",
+  "t": "Seconde Guerre mondiale",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-458",
+  "q": "Combien de bombes atomiques les États-Unis ont-ils larguées sur le Japon en août 1945 ?",
+  "r": "Deux",
+  "t": "Seconde Guerre mondiale",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-459",
+  "q": "Comment appelle-t-on le fait de nier la réalité du génocide des Juifs et l'existence des chambres à gaz ?",
+  "r": "Le négationnisme",
+  "t": "Seconde Guerre mondiale",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-460",
+  "q": "Quelle expression désigne l'obligation morale d'entretenir le souvenir des victimes des grandes tragédies, comme la Shoah ?",
+  "r": "Le devoir de mémoire",
+  "t": "Seconde Guerre mondiale",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-461",
+  "q": "Comment surnomme-t-on les soldats que l'ONU envoie dans les zones de conflit pour maintenir la paix ?",
+  "r": "Les Casques bleus",
+  "t": "Guerre froide",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-462",
+  "q": "Quel dirigeant communiste chinois, mort en 1976, était surnommé le « Grand Timonier » ?",
+  "r": "Mao Zedong",
+  "t": "Guerre froide",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-463",
+  "q": "Comment appelle-t-on la compétition qui a poussé les États-Unis et l'URSS à accumuler toujours plus d'armes nucléaires pendant la guerre froide ?",
+  "r": "La course aux armements",
+  "t": "Guerre froide",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-464",
+  "q": "Comment appelle-t-on la stratégie qui consiste à décourager toute attaque en menaçant l'ennemi d'une riposte atomique ?",
+  "r": "La dissuasion nucléaire",
+  "t": "Guerre froide",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-465",
+  "q": "Quelle agence de renseignement américaine, créée en 1947, était la grande rivale du KGB pendant la guerre froide ?",
+  "r": "La CIA",
+  "t": "Guerre froide",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-466",
+  "q": "Comment appelle-t-on le système économique fondé sur la propriété privée et la libre entreprise, défendu par les États-Unis pendant la guerre froide ?",
+  "r": "Le capitalisme",
+  "t": "Guerre froide",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-467",
+  "q": "Quelle mesure, interdisant presque tout commerce avec l'île, les États-Unis ont-ils imposée à Cuba à partir de 1962 ?",
+  "r": "L'embargo",
+  "t": "Guerre froide",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-468",
+  "q": "Quelle expression, inventée en 1952, désignait les pays pauvres qui n'appartenaient ni au bloc de l'Ouest ni au bloc de l'Est ?",
+  "r": "Le tiers-monde",
+  "t": "Décolonisation",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-469",
+  "q": "Comment désignait-on les États-Unis et l'URSS, les deux pays qui dominaient le monde pendant la guerre froide ?",
+  "r": "Les superpuissances",
+  "t": "Guerre froide",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-470",
+  "q": "Comment appelait-on en URSS les opposants qui critiquaient le régime, comme le physicien Andreï Sakharov ?",
+  "r": "Les dissidents",
+  "t": "Guerre froide",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-471",
+  "q": "Comment appelait-on les jeunes Français qui faisaient leur service militaire et furent envoyés combattre en Algérie de 1954 à 1962 ?",
+  "r": "Les appelés",
+  "t": "Décolonisation",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-472",
+  "q": "Quelle organisation regroupe le Royaume-Uni et la plupart de ses anciennes colonies, comme le Canada, l'Inde ou l'Australie ?",
+  "r": "Le Commonwealth",
+  "t": "Décolonisation",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-473",
+  "q": "Quel président de la République était au pouvoir lors des événements de Mai 68 ?",
+  "r": "Charles de Gaulle",
+  "t": "Ve République",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-474",
+  "q": "Qui a été élu président de la République en mai 1974, après la mort de Georges Pompidou ?",
+  "r": "Valéry Giscard d'Estaing",
+  "t": "Ve République",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-475",
+  "q": "Quel candidat a lancé à François Mitterrand, lors du débat télévisé de 1974 : « Vous n'avez pas le monopole du cœur » ?",
+  "r": "Valéry Giscard d'Estaing",
+  "t": "Ve République",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-476",
+  "q": "Quel président est le seul de la Ve République à avoir accompli deux septennats complets ?",
+  "r": "François Mitterrand",
+  "t": "Ve République",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-477",
+  "q": "Quel slogan, inscrit sur ses affiches de campagne, a accompagné l'élection de François Mitterrand en 1981 ?",
+  "r": "La force tranquille",
+  "t": "Ve République",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-478",
+  "q": "Quel candidat Jacques Chirac a-t-il affronté au second tour de l'élection présidentielle de 2002 ?",
+  "r": "Jean-Marie Le Pen",
+  "t": "Ve République",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-479",
+  "q": "Quel homme politique a succédé à Jacques Chirac à la présidence de la République en 2007 ?",
+  "r": "Nicolas Sarkozy",
+  "t": "Ve République",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-480",
+  "q": "Quel Premier ministre a dirigé le gouvernement de 2007 à 2012, sous la présidence de Nicolas Sarkozy ?",
+  "r": "François Fillon",
+  "t": "Ve République",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-481",
+  "q": "Quel candidat socialiste a été élu président de la République en mai 2012 ?",
+  "r": "François Hollande",
+  "t": "Ve République",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-482",
+  "q": "Qui a été élu président de la République en mai 2017, à l'âge de 39 ans ?",
+  "r": "Emmanuel Macron",
+  "t": "Ve République",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-483",
+  "q": "Quel Premier ministre a dirigé le gouvernement de 2017 à 2020, au début de la présidence d'Emmanuel Macron ?",
+  "r": "Édouard Philippe",
+  "t": "Ve République",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-484",
+  "q": "Quel président de la République a répété « Nous sommes en guerre » lors de son allocution du 16 mars 2020, face à l'épidémie de Covid-19 ?",
+  "r": "Emmanuel Macron",
+  "t": "Ve République",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-485",
+  "q": "Quel anniversaire la France a-t-elle célébré le 14 juillet 1989 avec un grand défilé dans les rues de Paris ?",
+  "r": "Le bicentenaire de la Révolution",
+  "t": "France contemporaine",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-486",
+  "q": "Comment appelle-t-on le principe d'égal accès des femmes et des hommes aux mandats électoraux, inscrit dans une loi française de 2000 ?",
+  "r": "La parité",
+  "t": "France contemporaine",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-487",
+  "q": "Quel avion supersonique s'est écrasé à Gonesse, près de Paris, en juillet 2000 ?",
+  "r": "Le Concorde",
+  "t": "France contemporaine",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-488",
+  "q": "Quelle ancienne ministre, rescapée d'Auschwitz, est entrée au Panthéon avec son mari en 2018 ?",
+  "r": "Simone Veil",
+  "t": "France contemporaine",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-489",
+  "q": "Quelle loi de 1991, qui porte le nom d'un ministre de la Santé, a fortement limité la publicité pour le tabac et l'alcool ?",
+  "r": "La loi Évin",
+  "t": "France contemporaine",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-490",
+  "q": "Quel journal satirique a été la cible d'un attentat meurtrier dans ses locaux parisiens, le 7 janvier 2015 ?",
+  "r": "Charlie Hebdo",
+  "t": "France contemporaine",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-491",
+  "q": "Quelle salle de concert parisienne a été la principale cible des attentats du 13 novembre 2015 ?",
+  "r": "Le Bataclan",
+  "t": "France contemporaine",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-492",
+  "q": "Dans quelle ville un camion a-t-il foncé sur la foule venue admirer le feu d'artifice du 14 juillet 2016 ?",
+  "r": "Nice",
+  "t": "France contemporaine",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-493",
+  "q": "Quel mouvement de contestation, né en France en novembre 2018, tire son nom d'un équipement de sécurité routière ?",
+  "r": "Les Gilets jaunes",
+  "t": "France contemporaine",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-494",
+  "q": "Comment appelle-t-on la mesure qui a obligé les Français à rester chez eux à partir du 17 mars 2020, pour freiner l'épidémie de Covid-19 ?",
+  "r": "Le confinement",
+  "t": "France contemporaine",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-495",
+  "q": "Comment appelle-t-on la société des Trente Glorieuses où l'achat de biens comme la voiture, la télévision ou le réfrigérateur devient central ?",
+  "r": "La société de consommation",
+  "t": "France contemporaine",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-496",
+  "q": "Comment appelle-t-on le mouvement qui lutte pour l'égalité entre les femmes et les hommes, très actif en France dans les années 1970 ?",
+  "r": "Le féminisme",
+  "t": "France contemporaine",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-497",
+  "q": "Quel gangster, surnommé « l'ennemi public numéro un », a été abattu par la police à Paris en 1979 ?",
+  "r": "Jacques Mesrine",
+  "t": "France contemporaine",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-498",
+  "q": "Comment appelait-on les jeunes des années 1960 et 1970 qui prônaient « Peace and Love » et portaient des fleurs dans leurs cheveux longs ?",
+  "r": "Les hippies",
+  "t": "Monde contemporain",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-499",
+  "q": "Quel pape a été grièvement blessé par balle sur la place Saint-Pierre de Rome, en mai 1981 ?",
+  "r": "Jean-Paul II",
+  "t": "Monde contemporain",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-500",
+  "q": "Quelle organisation armée a mené une lutte violente contre la présence britannique en Irlande du Nord, pendant les « Troubles » ?",
+  "r": "L'IRA",
+  "t": "Monde contemporain",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-501",
+  "q": "Outre les tours jumelles de New York, quel bâtiment a été percuté par un avion détourné lors des attentats du 11 septembre 2001 ?",
+  "r": "Le Pentagone",
+  "t": "Monde contemporain",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-502",
+  "q": "Quel président des États-Unis était au pouvoir lors des attentats du 11 septembre 2001 ?",
+  "r": "George W. Bush",
+  "t": "Monde contemporain",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-503",
+  "q": "Dans quel pays les États-Unis ont-ils lancé une guerre en octobre 2001 pour y traquer les chefs d'Al-Qaïda et renverser les talibans ?",
+  "r": "L'Afghanistan",
+  "t": "Monde contemporain",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-504",
+  "q": "Quel chef terroriste a été tué par un commando américain dans sa cachette d'Abbottabad, au Pakistan, en mai 2011 ?",
+  "r": "Oussama ben Laden",
+  "t": "Monde contemporain",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-505",
+  "q": "Quel homme d'affaires a remporté l'élection présidentielle américaine de 2016 face à Hillary Clinton ?",
+  "r": "Donald Trump",
+  "t": "Monde contemporain",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-506",
+  "q": "Quel pape allemand a renoncé à sa charge en février 2013, un geste rarissime dans l'histoire de l'Église ?",
+  "r": "Benoît XVI",
+  "t": "Monde contemporain",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-507",
+  "q": "Quel pape, élu en 2013 et mort en 2025, a été le premier originaire du continent américain ?",
+  "r": "François",
+  "t": "Monde contemporain",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-508",
+  "q": "Quelle péninsule ukrainienne de la mer Noire a été annexée par la Russie en 2014 ?",
+  "r": "La Crimée",
+  "t": "Monde contemporain",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-509",
+  "q": "Quel prince britannique, fils aîné de Charles et de Diana, a épousé Kate Middleton en 2011 ?",
+  "r": "William",
+  "t": "Monde contemporain",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-510",
+  "q": "Quel prince britannique a épousé l'actrice américaine Meghan Markle en 2018 ?",
+  "r": "Harry",
+  "t": "Monde contemporain",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-511",
+  "q": "Quel Afro-Américain est mort en mai 2020 à Minneapolis lors de son interpellation par un policier, déclenchant des manifestations dans le monde entier ?",
+  "r": "George Floyd",
+  "t": "Monde contemporain",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-512",
+  "q": "Quel magnat des médias a dirigé à plusieurs reprises le gouvernement italien entre 1994 et 2011 ?",
+  "r": "Silvio Berlusconi",
+  "t": "Monde contemporain",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-513",
+  "q": "Quel mot-clé anglais, devenu viral dans le monde entier en octobre 2017 après l'affaire Weinstein, a libéré la parole des femmes victimes de violences sexuelles ?",
+  "r": "MeToo",
+  "t": "Monde contemporain",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-514",
+  "q": "Quel site Internet, fondé par Julian Assange, a publié en 2010 des centaines de milliers de documents secrets américains ?",
+  "r": "WikiLeaks",
+  "t": "Monde contemporain",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-515",
+  "q": "Comment appelle-t-on l'intensification des échanges économiques et culturels à l'échelle de la planète, accélérée depuis la fin de la guerre froide ?",
+  "r": "La mondialisation",
+  "t": "Monde contemporain",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-516",
+  "q": "Dans quel pays la « révolution de jasmin » a-t-elle chassé le président Ben Ali du pouvoir, en janvier 2011 ?",
+  "r": "La Tunisie",
+  "t": "Monde contemporain",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-517",
+  "q": "Quelle fille du dernier tsar, héroïne d'un dessin animé de 1997, a fait naître la légende d'une survivante au massacre de la famille impériale en 1918 ?",
+  "r": "Anastasia",
+  "t": "Révolution russe",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-518",
+  "q": "Quel est le plus petit des six pays qui ont fondé la Communauté économique européenne en 1957 ?",
+  "r": "Le Luxembourg",
+  "t": "Construction européenne",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-519",
+  "q": "Quel fléau social, devenu massif avec la crise des années 1970, a privé d'emploi des millions de Français ?",
+  "r": "Le chômage",
+  "t": "France contemporaine",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-520",
+  "q": "Quel pays de la zone euro a frôlé la faillite lors d'une grave crise de sa dette publique, à partir de 2010 ?",
+  "r": "La Grèce",
+  "t": "Construction européenne",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-521",
+  "q": "Quel ministère est surnommé « le Quai d'Orsay » ?",
+  "r": "Le ministère des Affaires étrangères",
+  "t": "Institutions",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-522",
+  "q": "Depuis 1986, combien de députés siègent à l'Assemblée nationale ?",
+  "r": "577",
+  "t": "Institutions",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-523",
+  "q": "Selon la Constitution de 1958, qui nomme le Premier ministre ?",
+  "r": "Le président de la République",
+  "t": "Institutions",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-524",
+  "q": "Dans quel château le Parlement se réunit-il en Congrès pour réviser la Constitution ?",
+  "r": "Le château de Versailles",
+  "t": "Institutions",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-525",
+  "q": "Comment appelle-t-on la grande salle en demi-cercle où siègent les députés ?",
+  "r": "L'hémicycle",
+  "t": "Institutions",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-526",
+  "q": "Quel pouvoir du président de la République lui permet de mettre fin avant terme au mandat des députés ?",
+  "r": "La dissolution",
+  "t": "Institutions",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-527",
+  "q": "Quel ministre porte aussi le titre de garde des Sceaux ?",
+  "r": "Le ministre de la Justice",
+  "t": "Institutions",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-528",
+  "q": "Quelle actrice a été en 1969 la première célébrité à prêter ses traits à un buste de Marianne ?",
+  "r": "Brigitte Bardot",
+  "t": "Symboles",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-529",
+  "q": "Quelle formation d'avions militaires trace un panache bleu-blanc-rouge au-dessus des Champs-Élysées chaque 14-Juillet ?",
+  "r": "La Patrouille de France",
+  "t": "Symboles",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-530",
+  "q": "Comment les anglophones appellent-ils la fête nationale française du 14-Juillet ?",
+  "r": "Bastille Day",
+  "t": "Fêtes",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-531",
+  "q": "Quel jour férié a été choisi en 2004, après la canicule, pour devenir la « journée de solidarité » envers les personnes âgées ?",
+  "r": "Le lundi de Pentecôte",
+  "t": "Fêtes",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-532",
+  "q": "Quelle fête chrétienne, célébrée chaque 15 août, est un jour férié en France ?",
+  "r": "L'Assomption",
+  "t": "Fêtes",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-533",
+  "q": "Quelle fête chrétienne, célébrée un jeudi quarante jours après Pâques, offre souvent un long « pont » de mai ?",
+  "r": "L'Ascension",
+  "t": "Fêtes",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-534",
+  "q": "Quelle fleur rouge les Britanniques portent-ils à la boutonnière en novembre, en souvenir des soldats morts à la guerre ?",
+  "r": "Le coquelicot",
+  "t": "Fêtes",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-535",
+  "q": "En quelle année Robert Badinter, artisan de l'abolition de la peine de mort, est-il entré au Panthéon ?",
+  "r": "2025",
+  "t": "Symboles",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-536",
+  "q": "En quelle année la cathédrale Notre-Dame de Paris a-t-elle rouvert ses portes, cinq ans après son incendie ?",
+  "r": "2024",
+  "t": "Paris",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-537",
+  "q": "Dans quel musée parisien des bijoux de la Couronne ont-ils été dérobés lors d'un cambriolage spectaculaire en octobre 2025 ?",
+  "r": "Le musée du Louvre",
+  "t": "Procès et affaires",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-538",
+  "q": "Comment appelle-t-on les colonnes vertes, installées à Paris depuis 1868, où l'on affiche les spectacles ?",
+  "r": "Les colonnes Morris",
+  "t": "Paris",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-539",
+  "q": "Quelle femme est devenue en 2014 la première maire de Paris de l'histoire ?",
+  "r": "Anne Hidalgo",
+  "t": "Paris",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-540",
+  "q": "Quel service de vélos en libre-service a été lancé à Paris en juillet 2007 ?",
+  "r": "Vélib'",
+  "t": "Paris",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-541",
+  "q": "Quel titre de transport mensuel à coupon, créé en 1975, a précédé le passe Navigo en Île-de-France ?",
+  "r": "La carte Orange",
+  "t": "Paris",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-542",
+  "q": "Quelle entreprise publique exploite le métro parisien depuis 1949 ?",
+  "r": "La RATP",
+  "t": "Transports",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-543",
+  "q": "Dans quelle ville du Nord Charles de Gaulle est-il né en 1890 ?",
+  "r": "Lille",
+  "t": "Régions",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-544",
+  "q": "Quelle Française, morte à Arles en 1997, a vécu jusqu'à l'âge de 122 ans ?",
+  "r": "Jeanne Calment",
+  "t": "Femmes célèbres",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-545",
+  "q": "Quel facteur de la Drôme a bâti seul, pendant 33 ans, un « Palais idéal » avec les pierres ramassées lors de ses tournées ?",
+  "r": "Ferdinand Cheval",
+  "t": "Régions",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-546",
+  "q": "Dans quel château, à l'ouest de Paris, l'impératrice Joséphine a-t-elle vécu après son divorce d'avec Napoléon ?",
+  "r": "La Malmaison",
+  "t": "Châteaux",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-547",
+  "q": "Quelle pédagogue italienne a donné son nom à une méthode d'éducation fondée sur l'autonomie de l'enfant ?",
+  "r": "Maria Montessori",
+  "t": "École",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-548",
+  "q": "Comment appelait-on la pièce d'or de vingt francs frappée à l'effigie de l'empereur au XIXe siècle ?",
+  "r": "Le napoléon",
+  "t": "Monnaie",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-549",
+  "q": "Quelle carte verte à puce a commencé à remplacer en 1998 les feuilles de soins en papier ?",
+  "r": "La carte Vitale",
+  "t": "Vie quotidienne",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-550",
+  "q": "Quel changement d'horaire a été instauré en France en 1976, après le choc pétrolier, pour économiser l'énergie ?",
+  "r": "L'heure d'été",
+  "t": "Vie quotidienne",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-551",
+  "q": "Quel âge légal de départ à la retraite a été instauré en France en 1982 ?",
+  "r": "60 ans",
+  "t": "Vie quotidienne",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-552",
+  "q": "Quelle épouse de président a présidé pendant 25 ans la Fondation des hôpitaux et son opération « Pièces jaunes » ?",
+  "r": "Bernadette Chirac",
+  "t": "Femmes célèbres",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-553",
+  "q": "Quel était le prénom de l'épouse du général de Gaulle ?",
+  "r": "Yvonne",
+  "t": "Femmes célèbres",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-554",
+  "q": "Quelle garde des Sceaux a défendu en 2013 la loi ouvrant le mariage aux couples de même sexe ?",
+  "r": "Christiane Taubira",
+  "t": "Femmes célèbres",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-555",
+  "q": "Quelle compagne d'Adolf Hitler l'a épousé la veille de leur suicide, en avril 1945 ?",
+  "r": "Eva Braun",
+  "t": "Femmes célèbres",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-556",
+  "q": "Quelle avocate est devenue en 2009 la première « première dame » afro-américaine des États-Unis ?",
+  "r": "Michelle Obama",
+  "t": "Femmes célèbres",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-557",
+  "q": "Quelle première dame américaine, veuve en 1963, a épousé ensuite l'armateur grec Aristote Onassis ?",
+  "r": "Jacqueline Kennedy",
+  "t": "Femmes célèbres",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-558",
+  "q": "Quelle entreprise publique est née le 1er janvier 1938 de la réunion des compagnies de chemin de fer françaises ?",
+  "r": "La SNCF",
+  "t": "Transports",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-559",
+  "q": "Quel permis, entré en vigueur en France en juillet 1992, fait perdre au conducteur une partie de son capital à chaque infraction ?",
+  "r": "Le permis à points",
+  "t": "Transports",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-560",
+  "q": "Depuis 1974, quelle est la vitesse maximale autorisée sur les autoroutes françaises par temps sec ?",
+  "r": "130 km/h",
+  "t": "Transports",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-561",
+  "q": "Quelle célèbre Citroën noire, produite de 1934 à 1957, était surnommée la « reine de la route » ?",
+  "r": "La Traction Avant",
+  "t": "Transports",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-562",
+  "q": "Quel deux-roues, lancé par Motobécane en 1949, a fini par donner son nom à tous les cyclomoteurs en France ?",
+  "r": "La Mobylette",
+  "t": "Transports",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-563",
+  "q": "Quel cyclomoteur noir, au moteur posé sur la roue avant, a été vendu à des millions d'exemplaires après-guerre ?",
+  "r": "Le Solex",
+  "t": "Transports",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-564",
+  "q": "Quel tueur en série, guillotiné en 1922, faisait disparaître ses fiancées dans sa villa de Gambais ?",
+  "r": "Henri Désiré Landru",
+  "t": "Procès et affaires",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-565",
+  "q": "À quelle peine le maréchal Pétain fut-il condamné en août 1945, avant que de Gaulle ne la commue ?",
+  "r": "La peine de mort",
+  "t": "Procès et affaires",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-566",
+  "q": "Quel président de l'Olympique de Marseille a été condamné dans l'affaire du match truqué VA-OM de 1993 ?",
+  "r": "Bernard Tapie",
+  "t": "Procès et affaires",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-567",
+  "q": "Quel roi a été couronné à l'abbaye de Westminster en mai 2023 ?",
+  "r": "Charles III",
+  "t": "Rois et reines",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-568",
+  "q": "Quel roi des Belges a abdiqué en 2013 en faveur de son fils Philippe ?",
+  "r": "Albert II",
+  "t": "Rois et reines",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-569",
+  "q": "Quel roi a succédé à son père Juan Carlos sur le trône d'Espagne en 2014 ?",
+  "r": "Felipe VI",
+  "t": "Rois et reines",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-570",
+  "q": "Quel prince, duc d'Édimbourg, a été l'époux de la reine Elizabeth II pendant 73 ans ?",
+  "r": "Le prince Philip",
+  "t": "Rois et reines",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-571",
+  "q": "Quelle durée de travail hebdomadaire le Front populaire a-t-il instaurée en 1936 ?",
+  "r": "40 heures",
+  "t": "Vie quotidienne",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-572",
+  "q": "Quelle ancienne unité de poids, encore utilisée sur les marchés, correspond à 500 grammes ?",
+  "r": "La livre",
+  "t": "Mesures",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-573",
+  "q": "Quelle ancienne petite pièce de monnaie complète l'expression « être sans le… », qui veut dire n'avoir pas d'argent ?",
+  "r": "Le sou",
+  "t": "Monnaie",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-574",
+  "q": "Quelle entreprise de vente par correspondance de Roubaix a longtemps été célèbre pour son gros catalogue ?",
+  "r": "La Redoute",
+  "t": "Vie quotidienne",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-575",
+  "q": "Tous les combien d'années les Français élisent-ils leurs conseillers municipaux ?",
+  "r": "Tous les six ans",
+  "t": "Institutions",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-576",
+  "q": "Dans quelle publication officielle une loi doit-elle paraître pour entrer en vigueur ?",
+  "r": "Le Journal officiel",
+  "t": "Institutions",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-577",
+  "q": "Quel président a dissous l'Assemblée nationale en 1997, ouvrant une cohabitation avec Lionel Jospin ?",
+  "r": "Jacques Chirac",
+  "t": "Institutions",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-578",
+  "q": "Quelle opération estivale, lancée en 2002, installe sable et transats sur les berges de la Seine ?",
+  "r": "Paris Plages",
+  "t": "Paris",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-579",
+  "q": "Quel grand magasin parisien, près du Pont-Neuf, a rouvert en 2021 après seize ans de fermeture ?",
+  "r": "La Samaritaine",
+  "t": "Paris",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-580",
+  "q": "Quelle carte à puce permettait, à partir des années 1980, de téléphoner depuis les cabines publiques ?",
+  "r": "La télécarte",
+  "t": "Vie quotidienne",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-581",
+  "q": "Quelles radios, autorisées en 1981, ont mis fin au monopole de l'État sur les ondes ?",
+  "r": "Les radios libres",
+  "t": "Vie quotidienne",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-582",
+  "q": "Quelle taxe annuelle, créée en 1956 et collée sur le pare-brise, devait financer le minimum vieillesse ?",
+  "r": "La vignette automobile",
+  "t": "Vie quotidienne",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-583",
+  "q": "Quel médicament des laboratoires Servier, retiré du marché en 2009, est au cœur d'un grand scandale sanitaire ?",
+  "r": "Le Mediator",
+  "t": "Procès et affaires",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-584",
+  "q": "Quel ancien consultant de l'agence américaine NSA a révélé en 2013 la surveillance de masse pratiquée par les États-Unis ?",
+  "r": "Edward Snowden",
+  "t": "Procès et affaires",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-585",
+  "q": "Quel ancien joueur de football américain a été acquitté en 1995 du meurtre de son ex-femme, au terme d'un procès très médiatisé ?",
+  "r": "O. J. Simpson",
+  "t": "Procès et affaires",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-586",
+  "q": "Quel trois-mâts français a apporté la flamme olympique de Grèce jusqu'à Marseille en mai 2024 ?",
+  "r": "Le Belem",
+  "t": "Jeux olympiques",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-587",
+  "q": "Quelle femme a succédé à David Cameron au poste de Premier ministre britannique en 2016 ?",
+  "r": "Theresa May",
+  "t": "Femmes célèbres",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-588",
+  "q": "Quelle femme est devenue en 2021 la première vice-présidente des États-Unis ?",
+  "r": "Kamala Harris",
+  "t": "Femmes célèbres",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-589",
+  "q": "Comment s'appelle le bureau du président des États-Unis à la Maison-Blanche ?",
+  "r": "Le Bureau ovale",
+  "t": "Institutions",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-590",
+  "q": "Quel indicatif radio désigne l'avion qui transporte le président des États-Unis ?",
+  "r": "Air Force One",
+  "t": "Institutions",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-591",
+  "q": "Que représentent les treize bandes rouges et blanches du drapeau des États-Unis ?",
+  "r": "Les treize colonies fondatrices",
+  "t": "Symboles",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-592",
+  "q": "Quel est le titre de l'hymne national du Royaume-Uni ?",
+  "r": "God Save the King",
+  "t": "Symboles",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-593",
+  "q": "Comment s'appelle la chambre du Parlement britannique dont les membres sont élus par les citoyens ?",
+  "r": "La Chambre des communes",
+  "t": "Institutions",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-594",
+  "q": "Combien d'années dure le mandat d'un président des États-Unis ?",
+  "r": "4 ans",
+  "t": "Institutions",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-595",
+  "q": "Quel corps de l'armée française, créé en 1831, est célèbre pour son képi blanc ?",
+  "r": "La Légion étrangère",
+  "t": "Institutions",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-596",
+  "q": "Quelle unité d'élite de la gendarmerie, créée en 1974, a donné l'assaut à l'avion d'Air France détourné à Marignane en 1994 ?",
+  "r": "Le GIGN",
+  "t": "Institutions",
+  "niveau": "facile"
+ },
+ {
+  "id": "his_facile-597",
+  "q": "Quel corps de la gendarmerie, à cheval et casqué, escorte le président de la République lors des grandes cérémonies ?",
+  "r": "La Garde républicaine",
+  "t": "Institutions",
+  "niveau": "facile"
+ }
+]

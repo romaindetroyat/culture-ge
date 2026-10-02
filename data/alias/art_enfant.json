@@ -1,0 +1,2342 @@
+{
+ "art_enfant-001": {
+  "a": [
+   "Petit Chaperon rouge",
+   "Le Chaperon rouge"
+  ]
+ },
+ "art_enfant-002": {
+  "a": [
+   "Un loup",
+   "Le grand méchant loup"
+  ]
+ },
+ "art_enfant-003": {
+  "a": [
+   "C'est pour mieux te manger",
+   "Pour mieux te manger",
+   "C'est pour te manger"
+  ]
+ },
+ "art_enfant-004": {
+  "a": [
+   "Minuit"
+  ]
+ },
+ "art_enfant-005": {
+  "a": [
+   "Une pantoufle",
+   "Sa chaussure",
+   "Une chaussure",
+   "Son soulier",
+   "Un soulier",
+   "Sa pantoufle de verre"
+  ]
+ },
+ "art_enfant-006": {
+  "a": [
+   "Sa marraine",
+   "La fée",
+   "La fée marraine",
+   "Sa marraine fée",
+   "La bonne fée"
+  ]
+ },
+ "art_enfant-007": {
+  "a": [
+   "7"
+  ]
+ },
+ "art_enfant-008": {
+  "a": [
+   "La pomme",
+   "Pomme"
+  ]
+ },
+ "art_enfant-010": {
+  "a": [
+   "Le fuseau",
+   "Sur un fuseau",
+   "Le fuseau d'un rouet",
+   "Un rouet"
+  ]
+ },
+ "art_enfant-011": {
+  "a": [
+   "Le prince",
+   "Le prince charmant",
+   "Un prince charmant"
+  ]
+ },
+ "art_enfant-012": {
+  "a": [
+   "Des miettes de pain",
+   "Le pain",
+   "Du pain sec",
+   "Des miettes"
+  ]
+ },
+ "art_enfant-013": {
+  "a": [
+   "Briques",
+   "En brique",
+   "En pierre",
+   "En pierres"
+  ]
+ },
+ "art_enfant-014": {
+  "a": [
+   "Paille"
+  ]
+ },
+ "art_enfant-015": {
+  "a": [
+   "Il souffle",
+   "Souffler",
+   "En soufflant"
+  ]
+ },
+ "art_enfant-016": {
+  "a": [
+   "Boucles d'or"
+  ]
+ },
+ "art_enfant-017": {
+  "a": [
+   "3"
+  ]
+ },
+ "art_enfant-018": {
+  "a": [
+   "Le lit du petit ours",
+   "Du petit ours",
+   "Le petit lit",
+   "Celui du bébé ours",
+   "Le lit de bébé ours"
+  ]
+ },
+ "art_enfant-019": {
+  "a": [
+   "En pain d'épice",
+   "En gâteau",
+   "En bonbons",
+   "En friandises",
+   "En sucreries",
+   "En pain",
+   "En sucre"
+  ]
+ },
+ "art_enfant-020": {
+  "a": [
+   "Hänsel",
+   "Jeannot"
+  ]
+ },
+ "art_enfant-021": {
+  "a": [
+   "Une souris",
+   "Souris"
+  ]
+ },
+ "art_enfant-022": {
+  "a": [
+   "La rose",
+   "Rose"
+  ]
+ },
+ "art_enfant-023": {
+  "a": [
+   "Mme Samovar",
+   "Samovar"
+  ]
+ },
+ "art_enfant-025": {
+  "a": [
+   "Sa langue",
+   "La voix"
+  ]
+ },
+ "art_enfant-027": {
+  "a": [
+   "Un grillon",
+   "Jiminy Cricket",
+   "Jiminy",
+   "Le grillon parlant"
+  ]
+ },
+ "art_enfant-028": {
+  "a": [
+   "Jack et le haricot magique",
+   "Le haricot magique"
+  ]
+ },
+ "art_enfant-029": {
+  "a": [
+   "Un géant",
+   "L'ogre",
+   "Le géant"
+  ]
+ },
+ "art_enfant-030": {
+  "a": [
+   "Des oeufs d'or",
+   "Des œufs en or",
+   "Des oeufs en or"
+  ]
+ },
+ "art_enfant-031": {
+  "a": [
+   "Abou"
+  ]
+ },
+ "art_enfant-032": {
+  "a": [
+   "3"
+  ]
+ },
+ "art_enfant-033": {
+  "a": [
+   "Le tapis volant",
+   "Un tapis",
+   "Le tapis magique",
+   "Un tapis magique"
+  ]
+ },
+ "art_enfant-034": {
+  "a": [
+   "La grenouille",
+   "Un crapaud",
+   "Le crapaud"
+  ]
+ },
+ "art_enfant-035": {
+  "a": [
+   "Un renard"
+  ]
+ },
+ "art_enfant-036": {
+  "a": [
+   "Aucun animal",
+   "Personne ne l'aide"
+  ]
+ },
+ "art_enfant-037": {
+  "a": [
+   "Une fleur",
+   "Dans une tulipe",
+   "Une tulipe"
+  ]
+ },
+ "art_enfant-038": {
+  "a": [
+   "L'ogre",
+   "Une ogresse"
+  ]
+ },
+ "art_enfant-039": {
+  "a": [
+   "Eurent beaucoup d'enfants",
+   "Ils eurent beaucoup d'enfants"
+  ]
+ },
+ "art_enfant-040": {
+  "a": [
+   "Sa baguette",
+   "Une baguette",
+   "La baguette magique"
+  ]
+ },
+ "art_enfant-041": {
+  "a": [
+   "Leur balai",
+   "Sur un balai",
+   "Le balai"
+  ]
+ },
+ "art_enfant-042": {
+  "a": [
+   "Un épouvantail",
+   "L'homme de paille"
+  ]
+ },
+ "art_enfant-043": {
+  "a": [
+   "Un lion",
+   "Le lion peureux"
+  ]
+ },
+ "art_enfant-044": {
+  "a": [
+   "Le bûcheron de fer-blanc",
+   "Le bûcheron en fer-blanc",
+   "L'homme en fer-blanc",
+   "Le Bûcheron",
+   "L'homme de fer"
+  ]
+ },
+ "art_enfant-045": {
+  "a": [
+   "Le crocodile",
+   "Tic-Tac",
+   "Tic Tac"
+  ]
+ },
+ "art_enfant-046": {
+  "a": [
+   "Wendy Darling"
+  ]
+ },
+ "art_enfant-047": {
+  "a": [
+   "Un lapin blanc",
+   "Un lapin",
+   "Le lapin"
+  ]
+ },
+ "art_enfant-049": {
+  "a": [
+   "Du miel"
+  ]
+ },
+ "art_enfant-053": {
+  "a": [
+   "L'arc",
+   "Son arc",
+   "Arc"
+  ]
+ },
+ "art_enfant-054": {
+  "a": [
+   "Les pauvres",
+   "Aux gens pauvres"
+  ]
+ },
+ "art_enfant-055": {
+  "a": [
+   "Le bonhomme en pain d'épices",
+   "Bonhomme de pain d'épice",
+   "Le petit bonhomme de pain d'épices"
+  ]
+ },
+ "art_enfant-056": {
+  "a": [
+   "L'horloge",
+   "Dans la grande horloge",
+   "Dans la pendule",
+   "La pendule"
+  ]
+ },
+ "art_enfant-058": {
+  "a": [
+   "Hermione Granger"
+  ]
+ },
+ "art_enfant-060": {
+  "a": [
+   "Un roi"
+  ]
+ },
+ "art_enfant-061": {
+  "a": [
+   "Un petit âne",
+   "Âne",
+   "Un ânon"
+  ]
+ },
+ "art_enfant-063": {
+  "a": [
+   "Un papillon",
+   "Un beau papillon"
+  ]
+ },
+ "art_enfant-065": {
+  "a": [
+   "Le ticket d'or",
+   "Un ticket doré",
+   "Un billet d'or",
+   "Le billet d'or"
+  ]
+ },
+ "art_enfant-066": {
+  "a": [
+   "Le BGG",
+   "BGG",
+   "Le Bon Gros Géant (BGG)"
+  ]
+ },
+ "art_enfant-068": {
+  "a": [
+   "Oui Oui"
+  ]
+ },
+ "art_enfant-069": {
+  "a": [
+   "Geronimo"
+  ]
+ },
+ "art_enfant-070": {
+  "a": [
+   "Greg"
+  ]
+ },
+ "art_enfant-072": {
+  "a": [
+   "Les Monsieur Madame",
+   "Monsieur Madame (Mr. Men)",
+   "Mr. Men"
+  ]
+ },
+ "art_enfant-074": {
+  "a": [
+   "Des sangliers",
+   "Un sanglier",
+   "Les sangliers"
+  ]
+ },
+ "art_enfant-075": {
+  "a": [
+   "Journaliste",
+   "Reporter journaliste",
+   "Il est reporter",
+   "Il est journaliste"
+  ]
+ },
+ "art_enfant-076": {
+  "a": [
+   "La houppe",
+   "Sa houppe",
+   "Une houppette"
+  ]
+ },
+ "art_enfant-077": {
+  "a": [
+   "Schtroumpfette"
+  ]
+ },
+ "art_enfant-078": {
+  "a": [
+   "Grand Schtroumpf",
+   "Grand-Schtroumpf"
+  ]
+ },
+ "art_enfant-080": {
+  "a": [
+   "Barbapapa",
+   "Les Barbapapas"
+  ]
+ },
+ "art_enfant-082": {
+  "a": [
+   "Charlie"
+  ]
+ },
+ "art_enfant-084": {
+  "a": [
+   "Oncle Picsou",
+   "Balthazar Picsou"
+  ]
+ },
+ "art_enfant-085": {
+  "a": [
+   "Poseidon",
+   "Neptune"
+  ]
+ },
+ "art_enfant-086": {
+  "a": [
+   "Héraclès",
+   "Heracles"
+  ]
+ },
+ "art_enfant-087": {
+  "a": [
+   "Le centaure",
+   "Centaure"
+  ]
+ },
+ "art_enfant-088": {
+  "a": [
+   "La sirène",
+   "Sirène"
+  ]
+ },
+ "art_enfant-089": {
+  "a": [
+   "Le cyclope",
+   "Cyclope"
+  ]
+ },
+ "art_enfant-090": {
+  "a": [
+   "Une chouette"
+  ]
+ },
+ "art_enfant-091": {
+  "a": [
+   "Un aigle",
+   "Aigle"
+  ]
+ },
+ "art_enfant-092": {
+  "a": [
+   "De la cire",
+   "La cire",
+   "Cire"
+  ]
+ },
+ "art_enfant-093": {
+  "a": [
+   "Un phénix",
+   "Phénix",
+   "Le phoenix"
+  ]
+ },
+ "art_enfant-094": {
+  "a": [
+   "Odysseus"
+  ]
+ },
+ "art_enfant-096": {
+  "a": [
+   "La poussière de fée",
+   "Poussière de fée",
+   "De la poudre de fée",
+   "Poudre de fée",
+   "De la poudre magique"
+  ]
+ },
+ "art_enfant-097": {
+  "a": [
+   "Un griffon",
+   "Griffon"
+  ]
+ },
+ "art_enfant-098": {
+  "a": [
+   "Elle rétrécit",
+   "Elle devient toute petite",
+   "Elle devient petite",
+   "Elle diminue"
+  ]
+ },
+ "art_enfant-099": {
+  "a": [
+   "Un kraken",
+   "Kraken"
+  ]
+ },
+ "art_enfant-100": {
+  "a": [
+   "Une fourmi",
+   "Chez la fourmi"
+  ]
+ },
+ "art_enfant-101": {
+  "a": [
+   "« Dansez »",
+   "Dansez maintenant"
+  ]
+ },
+ "art_enfant-102": {
+  "a": [
+   "En hiver",
+   "Hiver"
+  ]
+ },
+ "art_enfant-103": {
+  "a": [
+   "Une tortue"
+  ]
+ },
+ "art_enfant-104": {
+  "a": [
+   "Un renard",
+   "Maître Renard"
+  ]
+ },
+ "art_enfant-105": {
+  "a": [
+   "Un arbre",
+   "Dans un arbre",
+   "Sur une branche"
+  ]
+ },
+ "art_enfant-106": {
+  "a": [
+   "Le Rat de ville",
+   "Un rat",
+   "Le rat des villes"
+  ]
+ },
+ "art_enfant-107": {
+  "a": [
+   "Une assiette",
+   "Dans une assiette",
+   "Une assiette plate"
+  ]
+ },
+ "art_enfant-108": {
+  "a": [
+   "Un vase à long col",
+   "Un vase",
+   "Un pot à long col",
+   "Un vase au long cou"
+  ]
+ },
+ "art_enfant-109": {
+  "a": [
+   "Les raisins",
+   "Du raisin",
+   "Le raisin"
+  ]
+ },
+ "art_enfant-110": {
+  "a": [
+   "L'os",
+   "Un petit os"
+  ]
+ },
+ "art_enfant-111": {
+  "a": [
+   "Une belette"
+  ]
+ },
+ "art_enfant-112": {
+  "a": [
+   "Le bâton",
+   "Une branche"
+  ]
+ },
+ "art_enfant-113": {
+  "a": [
+   "Un puits",
+   "Le puits",
+   "Dans un puits"
+  ]
+ },
+ "art_enfant-114": {
+  "a": [
+   "Le gland"
+  ]
+ },
+ "art_enfant-115": {
+  "a": [
+   "En rongeant les mailles",
+   "En rongeant le filet",
+   "Il ronge le filet",
+   "Avec ses dents",
+   "Il le grignote"
+  ]
+ },
+ "art_enfant-116": {
+  "a": [
+   "Une morale"
+  ]
+ },
+ "art_enfant-117": {
+  "a": [
+   "Un lion"
+  ]
+ },
+ "art_enfant-118": {
+  "a": [
+   "Le roi Arthur",
+   "Le jeune Arthur"
+  ]
+ },
+ "art_enfant-119": {
+  "a": [
+   "Un vrai garçon",
+   "Un petit garçon",
+   "Un garçon",
+   "Un vrai enfant"
+  ]
+ },
+ "art_enfant-120": {
+  "a": [
+   "Lady Marianne",
+   "Belle Marianne",
+   "Dame Marianne"
+  ]
+ },
+ "art_enfant-121": {
+  "a": [
+   "Une souris",
+   "La souris",
+   "Une petite souris"
+  ]
+ },
+ "art_enfant-122": {
+  "a": [
+   "La lettre A",
+   "Le A"
+  ]
+ },
+ "art_enfant-123": {
+  "a": [
+   "La lettre Z",
+   "Le Z",
+   "Zède"
+  ]
+ },
+ "art_enfant-124": {
+  "a": [
+   "La lettre B",
+   "Le B"
+  ]
+ },
+ "art_enfant-125": {
+  "a": [
+   "La lettre L",
+   "Le L"
+  ]
+ },
+ "art_enfant-126": {
+  "a": [
+   "6"
+  ]
+ },
+ "art_enfant-127": {
+  "a": [
+   "Des voyelles",
+   "Voyelles"
+  ]
+ },
+ "art_enfant-128": {
+  "a": [
+   "Des consonnes",
+   "Consonnes"
+  ]
+ },
+ "art_enfant-129": {
+  "a": [
+   "La lettre O",
+   "Le O"
+  ]
+ },
+ "art_enfant-130": {
+  "a": [
+   "La lettre S",
+   "Le S"
+  ]
+ },
+ "art_enfant-131": {
+  "a": [
+   "La lettre T",
+   "Le T"
+  ]
+ },
+ "art_enfant-132": {
+  "a": [
+   "La lettre P",
+   "Le P"
+  ]
+ },
+ "art_enfant-133": {
+  "a": [
+   "La lettre H",
+   "Le H"
+  ]
+ },
+ "art_enfant-134": {
+  "a": [
+   "La lettre T",
+   "Le T"
+  ]
+ },
+ "art_enfant-135": {
+  "a": [
+   "La lettre K",
+   "Le K"
+  ]
+ },
+ "art_enfant-136": {
+  "a": [
+   "La lettre X",
+   "Le X"
+  ]
+ },
+ "art_enfant-137": {
+  "a": [
+   "La lettre M",
+   "Le M"
+  ]
+ },
+ "art_enfant-138": {
+  "a": [
+   "La lettre U",
+   "Le U"
+  ]
+ },
+ "art_enfant-139": {
+  "a": [
+   "4"
+  ]
+ },
+ "art_enfant-140": {
+  "a": [
+   "3"
+  ]
+ },
+ "art_enfant-141": {
+  "a": [
+   "4"
+  ]
+ },
+ "art_enfant-142": {
+  "a": [
+   "La syllabe",
+   "Syllabe"
+  ]
+ },
+ "art_enfant-143": {
+  "a": [
+   "Ordre alphabétique",
+   "Par ordre alphabétique"
+  ]
+ },
+ "art_enfant-144": {
+  "a": [
+   "Un dictionnaire",
+   "Dictionnaire"
+  ]
+ },
+ "art_enfant-145": {
+  "a": [
+   "La majuscule",
+   "Une lettre majuscule",
+   "Une capitale"
+  ]
+ },
+ "art_enfant-146": {
+  "a": [
+   "Des minuscules",
+   "Minuscules"
+  ]
+ },
+ "art_enfant-147": {
+  "a": [
+   "Un point d'interrogation",
+   "Point d'interrogation"
+  ]
+ },
+ "art_enfant-148": {
+  "a": [
+   "Un point d'exclamation",
+   "Point d'exclamation"
+  ]
+ },
+ "art_enfant-149": {
+  "a": [
+   "Un point",
+   "Point"
+  ]
+ },
+ "art_enfant-150": {
+  "a": [
+   "Une virgule",
+   "Virgule"
+  ]
+ },
+ "art_enfant-151": {
+  "a": [
+   "Accent aigu",
+   "Un accent aigu"
+  ]
+ },
+ "art_enfant-152": {
+  "a": [
+   "Accent grave",
+   "Un accent grave"
+  ]
+ },
+ "art_enfant-153": {
+  "a": [
+   "Accent circonflexe",
+   "Un accent circonflexe",
+   "Le circonflexe"
+  ]
+ },
+ "art_enfant-154": {
+  "a": [
+   "Un trait d'union",
+   "Trait d'union",
+   "Le tiret"
+  ]
+ },
+ "art_enfant-155": {
+  "a": [
+   "Une apostrophe",
+   "Apostrophe"
+  ]
+ },
+ "art_enfant-156": {
+  "a": [
+   "Les synonymes",
+   "Synonymes"
+  ]
+ },
+ "art_enfant-157": {
+  "a": [
+   "Des antonymes",
+   "Les contraires",
+   "Les antonymes"
+  ]
+ },
+ "art_enfant-158": {
+  "a": [
+   "Le verbe",
+   "Verbe",
+   "Des verbes"
+  ]
+ },
+ "art_enfant-159": {
+  "a": [
+   "L'adjectif",
+   "Adjectif",
+   "Un adjectif qualificatif"
+  ]
+ },
+ "art_enfant-160": {
+  "a": [
+   "Des noms communs",
+   "Un nom",
+   "Un nom commun",
+   "Les noms"
+  ]
+ },
+ "art_enfant-161": {
+  "a": [
+   "Les articles",
+   "Des déterminants",
+   "Les déterminants",
+   "Articles"
+  ]
+ },
+ "art_enfant-162": {
+  "a": [
+   "Les pronoms",
+   "Un pronom",
+   "Pronoms"
+  ]
+ },
+ "art_enfant-163": {
+  "a": [
+   "Une poule",
+   "Poule"
+  ]
+ },
+ "art_enfant-164": {
+  "a": [
+   "La reine",
+   "Une reine"
+  ]
+ },
+ "art_enfant-165": {
+  "a": [
+   "Une jument",
+   "Jument"
+  ]
+ },
+ "art_enfant-166": {
+  "a": [
+   "Un taureau",
+   "Taureau",
+   "Le bœuf"
+  ]
+ },
+ "art_enfant-167": {
+  "a": [
+   "S'il vous plaît",
+   "Stp",
+   "Svp"
+  ]
+ },
+ "art_enfant-168": {
+  "a": [
+   "Un auteur",
+   "Une autrice",
+   "Une écrivaine",
+   "Un romancier",
+   "Une romancière",
+   "L'auteur"
+  ]
+ },
+ "art_enfant-169": {
+  "a": [
+   "Une illustratrice",
+   "Un dessinateur",
+   "Une dessinatrice"
+  ]
+ },
+ "art_enfant-170": {
+  "a": [
+   "Un titre",
+   "Titre"
+  ]
+ },
+ "art_enfant-171": {
+  "a": [
+   "Une bibliothèque",
+   "La médiathèque",
+   "Une médiathèque"
+  ]
+ },
+ "art_enfant-172": {
+  "a": [
+   "Une librairie",
+   "Librairie"
+  ]
+ },
+ "art_enfant-173": {
+  "a": [
+   "Une BD",
+   "La bande dessinée",
+   "BD",
+   "Une bédé"
+  ]
+ },
+ "art_enfant-174": {
+  "a": [
+   "Des bulles",
+   "Les bulles",
+   "Une bulle",
+   "Dans une bulle",
+   "Des phylactères"
+  ]
+ },
+ "art_enfant-175": {
+  "a": [
+   "Une poésie",
+   "Le poème"
+  ]
+ },
+ "art_enfant-176": {
+  "a": [
+   "Le vers",
+   "Des vers"
+  ]
+ },
+ "art_enfant-177": {
+  "a": [
+   "Une poétesse",
+   "Le poète"
+  ]
+ },
+ "art_enfant-178": {
+  "a": [
+   "Une rime",
+   "Ils riment",
+   "Des mots qui riment",
+   "Rime"
+  ]
+ },
+ "art_enfant-179": {
+  "a": [
+   "La strophe"
+  ]
+ },
+ "art_enfant-180": {
+  "a": [
+   "Le rébus",
+   "Rébus"
+  ]
+ },
+ "art_enfant-181": {
+  "a": [
+   "Cocorico !"
+  ]
+ },
+ "art_enfant-183": {
+  "a": [
+   "Nuit"
+  ]
+ },
+ "art_enfant-185": {
+  "a": [
+   "Âgé",
+   "Vieille"
+  ]
+ },
+ "art_enfant-186": {
+  "a": [
+   "Lente"
+  ]
+ },
+ "art_enfant-193": {
+  "a": [
+   "Fin"
+  ]
+ },
+ "art_enfant-201": {
+  "a": [
+   "Un peu"
+  ]
+ },
+ "art_enfant-202": {
+  "a": [
+   "Joyeux",
+   "Content",
+   "Heureux"
+  ]
+ },
+ "art_enfant-204": {
+  "a": [
+   "Dur"
+  ]
+ },
+ "art_enfant-215": {
+  "a": [
+   "Une vache"
+  ]
+ },
+ "art_enfant-216": {
+  "a": [
+   "Un chat"
+  ]
+ },
+ "art_enfant-217": {
+  "a": [
+   "Un coq"
+  ]
+ },
+ "art_enfant-218": {
+  "a": [
+   "Un canard"
+  ]
+ },
+ "art_enfant-219": {
+  "a": [
+   "Un lapin"
+  ]
+ },
+ "art_enfant-220": {
+  "a": [
+   "Un lion"
+  ]
+ },
+ "art_enfant-221": {
+  "a": [
+   "Un éléphant"
+  ]
+ },
+ "art_enfant-222": {
+  "a": [
+   "Une banane"
+  ]
+ },
+ "art_enfant-223": {
+  "a": [
+   "Une pomme"
+  ]
+ },
+ "art_enfant-224": {
+  "a": [
+   "Une carotte"
+  ]
+ },
+ "art_enfant-225": {
+  "a": [
+   "Été"
+  ]
+ },
+ "art_enfant-226": {
+  "a": [
+   "Lune"
+  ]
+ },
+ "art_enfant-227": {
+  "a": [
+   "Soleil"
+  ]
+ },
+ "art_enfant-228": {
+  "a": [
+   "Un hérisson"
+  ]
+ },
+ "art_enfant-229": {
+  "a": [
+   "De l'eau"
+  ]
+ },
+ "art_enfant-230": {
+  "a": [
+   "Une souris"
+  ]
+ },
+ "art_enfant-231": {
+  "a": [
+   "Une tortue"
+  ]
+ },
+ "art_enfant-232": {
+  "a": [
+   "Un chien"
+  ]
+ },
+ "art_enfant-233": {
+  "a": [
+   "Un cochon"
+  ]
+ },
+ "art_enfant-234": {
+  "a": [
+   "Un mouton"
+  ]
+ },
+ "art_enfant-235": {
+  "a": [
+   "Vert"
+  ]
+ },
+ "art_enfant-236": {
+  "a": [
+   "Violet",
+   "Le mauve"
+  ]
+ },
+ "art_enfant-237": {
+  "a": [
+   "Gris"
+  ]
+ },
+ "art_enfant-238": {
+  "a": [
+   "Bleu"
+  ]
+ },
+ "art_enfant-239": {
+  "a": [
+   "Rouge"
+  ]
+ },
+ "art_enfant-240": {
+  "a": [
+   "Blanc"
+  ]
+ },
+ "art_enfant-241": {
+  "a": [
+   "Bleu clair",
+   "Le bleu ciel",
+   "Bleu ciel",
+   "Le bleu pâle",
+   "Bleu pâle"
+  ]
+ },
+ "art_enfant-242": {
+  "a": [
+   "Les primaires"
+  ]
+ },
+ "art_enfant-243": {
+  "a": [
+   "Bleu"
+  ]
+ },
+ "art_enfant-244": {
+  "a": [
+   "Sept"
+  ]
+ },
+ "art_enfant-245": {
+  "a": [
+   "Rouge"
+  ]
+ },
+ "art_enfant-248": {
+  "a": [
+   "Bariolé",
+   "Coloré"
+  ]
+ },
+ "art_enfant-249": {
+  "a": [
+   "Le vert"
+  ]
+ },
+ "art_enfant-250": {
+  "a": [
+   "Turquoise"
+  ]
+ },
+ "art_enfant-251": {
+  "a": [
+   "Brun",
+   "Le marron"
+  ]
+ },
+ "art_enfant-252": {
+  "a": [
+   "L'orange"
+  ]
+ },
+ "art_enfant-253": {
+  "a": [
+   "Le rouge"
+  ]
+ },
+ "art_enfant-254": {
+  "a": [
+   "Noir",
+   "Le gris"
+  ]
+ },
+ "art_enfant-255": {
+  "a": [
+   "Doré",
+   "Or"
+  ]
+ },
+ "art_enfant-256": {
+  "a": [
+   "Noir"
+  ]
+ },
+ "art_enfant-257": {
+  "a": [
+   "Pastel"
+  ]
+ },
+ "art_enfant-267": {
+  "a": [
+   "Une sculptrice"
+  ]
+ },
+ "art_enfant-269": {
+  "a": [
+   "Les tags",
+   "Le graff",
+   "Les graffs"
+  ]
+ },
+ "art_enfant-271": {
+  "a": [
+   "Louvre",
+   "Le musée du Louvre"
+  ]
+ },
+ "art_enfant-272": {
+  "a": [
+   "Ses bras",
+   "Bras"
+  ]
+ },
+ "art_enfant-273": {
+  "a": [
+   "Pyramide",
+   "La pyramide"
+  ]
+ },
+ "art_enfant-274": {
+  "a": [
+   "Van Gogh"
+  ]
+ },
+ "art_enfant-275": {
+  "a": [
+   "Picasso"
+  ]
+ },
+ "art_enfant-276": {
+  "a": [
+   "Kandinsky",
+   "Wassily Kandinsky"
+  ]
+ },
+ "art_enfant-277": {
+  "a": [
+   "La grotte de Lascaux"
+  ]
+ },
+ "art_enfant-279": {
+  "a": [
+   "Six"
+  ]
+ },
+ "art_enfant-280": {
+  "a": [
+   "L'alto",
+   "Alto"
+  ]
+ },
+ "art_enfant-283": {
+  "a": [
+   "La caisse claire"
+  ]
+ },
+ "art_enfant-286": {
+  "a": [
+   "Flûte à bec",
+   "La flûte"
+  ]
+ },
+ "art_enfant-292": {
+  "a": [
+   "Le tambour de basque"
+  ]
+ },
+ "art_enfant-294": {
+  "a": [
+   "Ukulélé"
+  ]
+ },
+ "art_enfant-296": {
+  "a": [
+   "Le cor de chasse",
+   "La trompe de chasse"
+  ]
+ },
+ "art_enfant-301": {
+  "a": [
+   "Les vents"
+  ]
+ },
+ "art_enfant-302": {
+  "a": [
+   "Le saxo"
+  ]
+ },
+ "art_enfant-305": {
+  "a": [
+   "La flûte traversière"
+  ]
+ },
+ "art_enfant-307": {
+  "a": [
+   "Un orchestre symphonique"
+  ]
+ },
+ "art_enfant-308": {
+  "a": [
+   "Le chef",
+   "La cheffe d'orchestre"
+  ]
+ },
+ "art_enfant-309": {
+  "a": [
+   "Un chœur"
+  ]
+ },
+ "art_enfant-310": {
+  "a": [
+   "Sept"
+  ]
+ },
+ "art_enfant-311": {
+  "a": [
+   "Le ré"
+  ]
+ },
+ "art_enfant-312": {
+  "a": [
+   "Le fa"
+  ]
+ },
+ "art_enfant-313": {
+  "a": [
+   "Le si"
+  ]
+ },
+ "art_enfant-314": {
+  "a": [
+   "La clef de sol"
+  ]
+ },
+ "art_enfant-315": {
+  "a": [
+   "Blanche"
+  ]
+ },
+ "art_enfant-317": {
+  "a": [
+   "21 juin"
+  ]
+ },
+ "art_enfant-318": {
+  "a": [
+   "Wolfgang Amadeus Mozart"
+  ]
+ },
+ "art_enfant-321": {
+  "a": [
+   "Les chaussons à pointes"
+  ]
+ },
+ "art_enfant-322": {
+  "a": [
+   "La ronde",
+   "Une farandole"
+  ]
+ },
+ "art_enfant-323": {
+  "a": [
+   "La danse classique"
+  ]
+ },
+ "art_enfant-326": {
+  "a": [
+   "L'herbe"
+  ]
+ },
+ "art_enfant-327": {
+  "a": [
+   "Ton moulin"
+  ]
+ },
+ "art_enfant-329": {
+  "a": [
+   "Le pain dur",
+   "Du pain"
+  ]
+ },
+ "art_enfant-330": {
+  "a": [
+   "La culotte"
+  ]
+ },
+ "art_enfant-332": {
+  "a": [
+   "Mon petit soulier",
+   "Le soulier"
+  ]
+ },
+ "art_enfant-333": {
+  "a": [
+   "Le carton",
+   "Carton"
+  ]
+ },
+ "art_enfant-335": {
+  "a": [
+   "Marionnettes"
+  ]
+ },
+ "art_enfant-336": {
+  "a": [
+   "D'hiver",
+   "Hiver"
+  ]
+ },
+ "art_enfant-338": {
+  "a": [
+   "Fer",
+   "En fer"
+  ]
+ },
+ "art_enfant-340": {
+  "a": [
+   "Notre-Dame"
+  ]
+ },
+ "art_enfant-341": {
+  "a": [
+   "Égypte"
+  ]
+ },
+ "art_enfant-342": {
+  "a": [
+   "Un pharaon",
+   "Le pharaon",
+   "Pour les pharaons"
+  ]
+ },
+ "art_enfant-343": {
+  "a": [
+   "Le grand Sphinx"
+  ]
+ },
+ "art_enfant-344": {
+  "a": [
+   "La Grande Muraille de Chine",
+   "La muraille de Chine"
+  ]
+ },
+ "art_enfant-347": {
+  "a": [
+   "Un flambeau",
+   "La torche",
+   "Le flambeau"
+  ]
+ },
+ "art_enfant-349": {
+  "a": [
+   "Un menhir"
+  ]
+ },
+ "art_enfant-350": {
+  "a": [
+   "Versailles"
+  ]
+ },
+ "art_enfant-351": {
+  "a": [
+   "Une gondole"
+  ]
+ },
+ "art_enfant-353": {
+  "a": [
+   "Le fossé"
+  ]
+ },
+ "art_enfant-355": {
+  "a": [
+   "Une règle"
+  ]
+ },
+ "art_enfant-356": {
+  "a": [
+   "Un compas"
+  ]
+ },
+ "art_enfant-357": {
+  "a": [
+   "Une gomme"
+  ]
+ },
+ "art_enfant-358": {
+  "a": [
+   "Une paire de ciseaux",
+   "Des ciseaux"
+  ]
+ },
+ "art_enfant-359": {
+  "a": [
+   "Le scotch",
+   "Du scotch",
+   "L'adhésif"
+  ]
+ },
+ "art_enfant-360": {
+  "a": [
+   "Le calque"
+  ]
+ },
+ "art_enfant-361": {
+  "a": [
+   "Le pliage"
+  ]
+ },
+ "art_enfant-362": {
+  "a": [
+   "La plasticine"
+  ]
+ },
+ "art_enfant-363": {
+  "a": [
+   "La glaise",
+   "La terre glaise"
+  ]
+ },
+ "art_enfant-364": {
+  "a": [
+   "Le tour de potier"
+  ]
+ },
+ "art_enfant-365": {
+  "a": [
+   "Une esquisse",
+   "Un brouillon"
+  ]
+ },
+ "art_enfant-366": {
+  "a": [
+   "Un feutre",
+   "Le marqueur"
+  ]
+ },
+ "art_enfant-367": {
+  "a": [
+   "Un marteau"
+  ]
+ },
+ "art_enfant-368": {
+  "a": [
+   "Une scie"
+  ]
+ },
+ "art_enfant-369": {
+  "a": [
+   "Une punaise"
+  ]
+ },
+ "art_enfant-370": {
+  "a": [
+   "Une aiguille"
+  ]
+ },
+ "art_enfant-371": {
+  "a": [
+   "Un dé à coudre",
+   "Le dé"
+  ]
+ },
+ "art_enfant-374": {
+  "a": [
+   "Un rouleau"
+  ]
+ },
+ "art_enfant-375": {
+  "a": [
+   "Un pochoir"
+  ]
+ },
+ "art_enfant-376": {
+  "a": [
+   "Un tampon"
+  ]
+ },
+ "art_enfant-377": {
+  "a": [
+   "Des perles"
+  ]
+ },
+ "art_enfant-378": {
+  "a": [
+   "Une blouse",
+   "Le tablier"
+  ]
+ },
+ "art_enfant-379": {
+  "a": [
+   "Un kaléidoscope"
+  ]
+ },
+ "art_enfant-380": {
+  "a": [
+   "Autocollant",
+   "Une gommette"
+  ]
+ },
+ "art_enfant-381": {
+  "a": [
+   "La salière",
+   "La cocotte"
+  ]
+ },
+ "art_enfant-382": {
+  "a": [
+   "Le crayon gris",
+   "Le crayon de papier"
+  ]
+ },
+ "art_enfant-383": {
+  "a": [
+   "Tendre"
+  ]
+ },
+ "art_enfant-385": {
+  "a": [
+   "Haïr"
+  ]
+ },
+ "art_enfant-386": {
+  "a": [
+   "Terminer",
+   "Achever"
+  ]
+ },
+ "art_enfant-387": {
+  "a": [
+   "Im",
+   "IM"
+  ]
+ },
+ "art_enfant-388": {
+  "a": [
+   "Chevaux"
+  ]
+ },
+ "art_enfant-389": {
+  "a": [
+   "Yeux"
+  ]
+ },
+ "art_enfant-390": {
+  "a": [
+   "Journaux"
+  ]
+ },
+ "art_enfant-391": {
+  "a": [
+   "Animaux"
+  ]
+ },
+ "art_enfant-392": {
+  "a": [
+   "Des messieurs"
+  ]
+ },
+ "art_enfant-393": {
+  "a": [
+   "Un x"
+  ]
+ },
+ "art_enfant-394": {
+  "a": [
+   "Un s"
+  ]
+ },
+ "art_enfant-395": {
+  "a": [
+   "La tante"
+  ]
+ },
+ "art_enfant-396": {
+  "a": [
+   "La marraine"
+  ]
+ },
+ "art_enfant-397": {
+  "a": [
+   "Biche"
+  ]
+ },
+ "art_enfant-399": {
+  "a": [
+   "Le crapaud"
+  ]
+ },
+ "art_enfant-400": {
+  "a": [
+   "La corneille"
+  ]
+ },
+ "art_enfant-403": {
+  "a": [
+   "Le hibou"
+  ]
+ },
+ "art_enfant-408": {
+  "a": [
+   "Été"
+  ]
+ },
+ "art_enfant-409": {
+  "a": [
+   "Mère"
+  ]
+ },
+ "art_enfant-410": {
+  "a": [
+   "Le ver de terre"
+  ]
+ },
+ "art_enfant-411": {
+  "a": [
+   "Cent"
+  ]
+ },
+ "art_enfant-414": {
+  "a": [
+   "La bicyclette",
+   "Bécane",
+   "La bécane"
+  ]
+ },
+ "art_enfant-415": {
+  "a": [
+   "Belle"
+  ]
+ },
+ "art_enfant-416": {
+  "a": [
+   "Démarrer"
+  ]
+ },
+ "art_enfant-418": {
+  "a": [
+   "Adorable"
+  ]
+ },
+ "art_enfant-422": {
+  "a": [
+   "Auto"
+  ]
+ },
+ "art_enfant-423": {
+  "a": [
+   "Une perforatrice",
+   "Le perforateur"
+  ]
+ },
+ "art_enfant-424": {
+  "a": [
+   "Une agrafeuse"
+  ]
+ },
+ "art_enfant-425": {
+  "a": [
+   "L'avion en papier"
+  ]
+ },
+ "art_enfant-426": {
+  "a": [
+   "Frère Jacques"
+  ]
+ },
+ "art_enfant-427": {
+  "a": [
+   "Il était un petit navire",
+   "Le petit navire"
+  ]
+ },
+ "art_enfant-428": {
+  "a": [
+   "Ses moutons",
+   "Les moutons",
+   "Les blancs moutons"
+  ]
+ },
+ "art_enfant-429": {
+  "a": [
+   "Un furet"
+  ]
+ },
+ "art_enfant-430": {
+  "a": [
+   "Un escargot",
+   "Le petit escargot"
+  ]
+ },
+ "art_enfant-431": {
+  "a": [
+   "3"
+  ]
+ },
+ "art_enfant-432": {
+  "a": [
+   "Joyeux anniversaire",
+   "Bon anniversaire",
+   "Happy Birthday"
+  ]
+ },
+ "art_enfant-433": {
+  "a": [
+   "Le canard",
+   "Canards",
+   "Les petits canards",
+   "La danse des canards"
+  ]
+ },
+ "art_enfant-434": {
+  "a": [
+   "Pieds",
+   "Le pied"
+  ]
+ },
+ "art_enfant-435": {
+  "a": [
+   "Nil"
+  ]
+ },
+ "art_enfant-436": {
+  "a": [
+   "Le chat",
+   "Un chat"
+  ]
+ },
+ "art_enfant-437": {
+  "a": [
+   "Un empereur"
+  ]
+ },
+ "art_enfant-438": {
+  "a": [
+   "L'éléphant"
+  ]
+ },
+ "art_enfant-442": {
+  "a": [
+   "Un renard"
+  ]
+ },
+ "art_enfant-443": {
+  "a": [
+   "La pomme",
+   "Pomme"
+  ]
+ },
+ "art_enfant-445": {
+  "a": [
+   "Tout noir"
+  ]
+ },
+ "art_enfant-446": {
+  "a": [
+   "Verts",
+   "Tout verts"
+  ]
+ },
+ "art_enfant-447": {
+  "a": [
+   "Le rouge"
+  ]
+ },
+ "art_enfant-448": {
+  "a": [
+   "Le koala",
+   "Koala"
+  ]
+ },
+ "art_enfant-449": {
+  "a": [
+   "Le vert"
+  ]
+ },
+ "art_enfant-450": {
+  "a": [
+   "La rose"
+  ]
+ },
+ "art_enfant-451": {
+  "a": [
+   "M. Nilsson",
+   "Nilsson"
+  ]
+ },
+ "art_enfant-453": {
+  "a": [
+   "Wally",
+   "Waldo"
+  ]
+ },
+ "art_enfant-454": {
+  "a": [
+   "Un pois",
+   "Le petit pois"
+  ]
+ },
+ "art_enfant-456": {
+  "a": [
+   "Le vitrail",
+   "Des vitraux"
+  ]
+ },
+ "art_enfant-457": {
+  "a": [
+   "Le buste"
+  ]
+ },
+ "art_enfant-458": {
+  "a": [
+   "L'obélisque"
+  ]
+ },
+ "art_enfant-459": {
+  "a": [
+   "4"
+  ]
+ },
+ "art_enfant-460": {
+  "a": [
+   "Le carillon"
+  ]
+ },
+ "art_enfant-461": {
+  "a": [
+   "Flûte de Pan",
+   "Pan",
+   "De Pan"
+  ]
+ },
+ "art_enfant-462": {
+  "a": [
+   "La boîte à musique"
+  ]
+ },
+ "art_enfant-463": {
+  "a": [
+   "Le piano à queue"
+  ]
+ },
+ "art_enfant-464": {
+  "a": [
+   "Le sol"
+  ]
+ },
+ "art_enfant-465": {
+  "a": [
+   "La partition"
+  ]
+ },
+ "art_enfant-466": {
+  "a": [
+   "Une farandole"
+  ]
+ },
+ "art_enfant-467": {
+  "a": [
+   "Un grand écart"
+  ]
+ },
+ "art_enfant-468": {
+  "a": [
+   "Un clown"
+  ]
+ },
+ "art_enfant-469": {
+  "a": [
+   "Un chapiteau"
+  ]
+ },
+ "art_enfant-470": {
+  "a": [
+   "Une piste"
+  ]
+ },
+ "art_enfant-471": {
+  "a": [
+   "Un jongleur",
+   "Une jongleuse"
+  ]
+ },
+ "art_enfant-472": {
+  "a": [
+   "Un funambule",
+   "Un équilibriste",
+   "Le fildefériste"
+  ]
+ },
+ "art_enfant-473": {
+  "a": [
+   "Un trapèze"
+  ]
+ },
+ "art_enfant-474": {
+  "a": [
+   "M. Loyal"
+  ]
+ },
+ "art_enfant-475": {
+  "a": [
+   "Un rideau"
+  ]
+ },
+ "art_enfant-476": {
+  "a": [
+   "La coulisse"
+  ]
+ },
+ "art_enfant-477": {
+  "a": [
+   "Le mime"
+  ]
+ },
+ "art_enfant-478": {
+  "a": [
+   "Ombres chinoises",
+   "Le théâtre d'ombres"
+  ]
+ },
+ "art_enfant-479": {
+  "a": [
+   "La comédie"
+  ]
+ },
+ "art_enfant-480": {
+  "a": [
+   "Un taille-crayon"
+  ]
+ },
+ "art_enfant-481": {
+  "a": [
+   "Le coloriage",
+   "Un dessin à colorier"
+  ]
+ },
+ "art_enfant-482": {
+  "a": [
+   "Le bleu"
+  ]
+ },
+ "art_enfant-483": {
+  "a": [
+   "Jaunes",
+   "Le jaune"
+  ]
+ },
+ "art_enfant-484": {
+  "a": [
+   "Vert",
+   "Le vert"
+  ]
+ },
+ "art_enfant-485": {
+  "a": [
+   "Une boîte",
+   "Une caisse en bois",
+   "Une boîte en carton"
+  ]
+ },
+ "art_enfant-486": {
+  "a": [
+   "Cœur",
+   "Le coeur",
+   "Coeur"
+  ]
+ },
+ "art_enfant-489": {
+  "a": [
+   "Cochon",
+   "Le cochon",
+   "Un petit cochon"
+  ]
+ },
+ "art_enfant-490": {
+  "a": [
+   "Chevalier Cheval"
+  ]
+ },
+ "art_enfant-491": {
+  "a": [
+   "Geoffrey"
+  ]
+ },
+ "art_enfant-492": {
+  "a": [
+   "Claudine"
+  ]
+ },
+ "art_enfant-493": {
+  "a": [
+   "Lea"
+  ]
+ },
+ "art_enfant-495": {
+  "a": [
+   "L'aigle",
+   "Un aigle",
+   "Grand-Aigle",
+   "Le Grand Aigle"
+  ]
+ },
+ "art_enfant-496": {
+  "a": [
+   "La force",
+   "De la force",
+   "Une grande force",
+   "Une force extraordinaire",
+   "La force surhumaine",
+   "Une super force",
+   "Une force incroyable"
+  ]
+ },
+ "art_enfant-497": {
+  "a": [
+   "Un gendarme",
+   "Gendarme",
+   "Le policier",
+   "Les gendarmes"
+  ]
+ },
+ "art_enfant-499": {
+  "a": [
+   "Un marionnettiste",
+   "Marionnettiste"
+  ]
+ },
+ "art_enfant-500": {
+  "a": [
+   "À la barre",
+   "Une barre",
+   "Barre"
+  ]
+ },
+ "art_enfant-501": {
+  "a": [
+   "Un chignon",
+   "Le chignon",
+   "Chignon"
+  ]
+ },
+ "art_enfant-502": {
+  "a": [
+   "Sa tête",
+   "Tête"
+  ]
+ },
+ "art_enfant-503": {
+  "a": [
+   "Le pain",
+   "Pas de pain",
+   "Pain"
+  ]
+ },
+ "art_enfant-504": {
+  "a": [
+   "Mon panier",
+   "Le panier",
+   "Un panier",
+   "Panier"
+  ]
+ },
+ "art_enfant-505": {
+  "a": [
+   "Des souliers",
+   "Ses souliers",
+   "Les chaussures",
+   "Souliers"
+  ]
+ },
+ "art_enfant-506": {
+  "a": [
+   "Un chat",
+   "Son chat",
+   "Chat"
+  ]
+ },
+ "art_enfant-507": {
+  "a": [
+   "Lustucru",
+   "Père Lustucru"
+  ]
+ },
+ "art_enfant-508": {
+  "a": [
+   "Un facteur",
+   "Facteur"
+  ]
+ },
+ "art_enfant-509": {
+  "a": [
+   "La chandelle",
+   "Sa chandelle",
+   "Une chandelle",
+   "Chandelle"
+  ]
+ },
+ "art_enfant-510": {
+  "a": [
+   "Do"
+  ]
+ },
+ "art_enfant-511": {
+  "a": [
+   "Basson",
+   "Un basson"
+  ]
+ },
+ "art_enfant-512": {
+  "a": [
+   "Le cor",
+   "Des cors",
+   "Trois cors",
+   "Cors",
+   "Les cors d'harmonie"
+  ]
+ },
+ "art_enfant-513": {
+  "a": [
+   "Un bâton de pluie",
+   "Bâton de pluie"
+  ]
+ },
+ "art_enfant-514": {
+  "a": [
+   "Une grosse caisse",
+   "Grosse caisse"
+  ]
+ }
+}

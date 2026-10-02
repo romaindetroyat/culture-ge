@@ -130,17 +130,20 @@ def dedoublonner(questions, vus=None, par_reponse=None):
     """Écarte les questions identiques, ou proches avec la même réponse.
 
     `vus` et `par_reponse` peuvent être partagés entre catégories pour détecter
-    un même fait posé dans deux catégories différentes.
+    un même fait posé dans deux catégories différentes. Les questions « enfant » forment un jeu à
+    part (jamais mêlées aux autres niveaux, sauf dans la carte du jour) : elles ne sont comparées
+    qu'entre elles.
     """
     gardees, doublons = [], []
     vus = set() if vus is None else vus
     par_reponse = {} if par_reponse is None else par_reponse
     for q in questions:
-        cle = normaliser(q["q"])
+        public = "enfant:" if q["d"] == 1 else ""
+        cle = public + normaliser(q["q"])
         if cle in vus:
             doublons.append(q)
             continue
-        rep = normaliser(q["r"])
+        rep = public + normaliser(q["r"])
         m = mots(q["q"])
         similaire = False
         for autre in par_reponse.get(rep, []):
