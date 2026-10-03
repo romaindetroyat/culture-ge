@@ -929,9 +929,9 @@ function carteDuJour(n) {
   return (((n - 1) * 787 + 101) % total + total) % total;
 }
 
-// À partir de la carte du jour n°6 (3 octobre 2026) : six questions de tous les niveaux, dans un
+// À partir de la carte du jour n°7 (4 octobre 2026) : six questions de tous les niveaux, dans un
 // ordre aléatoire (les cinq niveaux, plus un tiré au sort), au lieu d'une carte du paquet.
-const JOUR_MELANGE = 6;
+const JOUR_MELANGE = 7;
 
 function aleaJour(graine) { // mulberry32 : même suite pour tout le monde un jour donné
   let a = graine >>> 0;
