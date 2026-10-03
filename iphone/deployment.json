@@ -1,9 +1,47 @@
 {
   "version": "0.5.1",
-  "startedAt": "2026-10-03T16:37:42.286997+00:00",
-  "status": "error",
-  "encryptedClaim": "aJ7g7iiWlB3nAcmTYe58EP+/fsixIY/r3qnNDc8dRftkY4kVmhoYwUsIYA3LhWeV86XJj5yGqCleATKlRRvXlKMlhhsFdkXu4nsWFs3r0OOO7daUn/RVbwzwRReXhlqBoUGrxoGd/lljy68rxT0rFyKOFABXzzNpgVXr1EUlNsiBkrKWqttBFUgn8I7OVdhjXt6kpxJVZGmHhFO7ajzSEU7PatnHYNpDXxhNNz76vmCOI8kRqmTgMnkn/xbLgqJJyy9I8LP7NvS4b9DmDKHy4oB0siy7qnLf3B4C2kT24bRaR8rUPG9mdwZd5rjjzcYfOLBneCg9hPywQ1TPwV8rdiasNiY8SC3NB7GjJ/RloGxZ+A0QTBj1OCA/67whY9agblKCPO5vAxZ5obVlk2Wng6DQYmEj/3LjrubTgn65FiNbcIevK68Cz1p3VBRt8rOr4Tioo0uZ4LxmnxIzkWjPJ1oFAt8dSduxS9ZLJaxBZnp3NRFKCywPx3HagUcTy8Q8PWklxJ+esTvTnG9Cf+EGjWOEd+vqq08Azj2DsHUeIwrQwxu9y6ev83hixEx2UPRg22VZtX2Mb6BA36pjL3p8o93F4+LtnOtZJ/FHgReiY24kLTZtPg6zWzbplrbhJWv2jQi4HQqPzkeGNF9fcNdy2y2dcP5C7zPqlswO7hx5A8A=",
+  "startedAt": "2026-10-03T16:41:57.536490+00:00",
+  "status": "verified-http",
+  "checks": [
+    {
+      "path": "/health",
+      "http": 404,
+      "body": "error code: 1042\n"
+    },
+    {
+      "path": "/",
+      "http": 404,
+      "body": "error code: 1042\n"
+    },
+    {
+      "path": "/health",
+      "http": 404,
+      "body": "error code: 1042\n"
+    },
+    {
+      "path": "/",
+      "http": 200,
+      "body": true
+    },
+    {
+      "path": "/health",
+      "http": 200,
+      "body": "{\"ok\":true,\"service\":\"LOMBRIX\",\"version\":\"0.5.1\",\"hosting\":\"cloudflare-durable-object\"}"
+    },
+    {
+      "path": "/",
+      "http": 200,
+      "body": true
+    }
+  ],
+  "encryptedClaim": "fZZphOKAgv8i+wW62pAiak/qB+v1g+4WORhkq6fmn+Un39WDcUv1tuk++1DZHik17UxJZadyYurRzPXh94VAOkMDVI60LMz9P+w+F3T1n+ZXL1MwMNa/p2wyoPNMjvmqnCgHOmxzFYAf6dBVkrEiT4eLCCGv84BAzP4fU6PzUVjWwek10bvMX8rVQkZb7i/6d25ogx28I4y7OJC6GV0kk4dsEXE0oJROHlwlQOce6MQvUMZQY/1qvXZQuWNodgpR3GYkx50ny8/+1r1WUSFYfMh0/K/S9CQypEYpC1ofWtgXrp+anqwDfhlSDkEm9+M50/nypGJP56Qw8nMJdNrGHtfGUfVfSFSpCt+ECx9dvR2E/KZfcHZJrt8/Ozneu2fCLHrq91DXJO9u1Hi7TTYEeaqgZu4YfemZpS1xYjwk+wuXB+N++fAl2VwRQx/K6f3MWkPQEQzxJkGXEcc4Osmu6Z8NnF7ALjeg9Hu5wgAir+hyrgQlNBu9OvjnFPwwyjSuwI5pAm22tBoLBzM0JZ0PKtfarnWV4Ke4QTstxi4qkHADGVKe+1l6d5xzlvgyEPqYKaeY7lf+lya0grwZnkhRyECCLTiujIeLXDRxI+VfLE1cZmiUIlkYIlHqpFQtUwL+WBPimqaNiUQCZEWem+dlhSYuiRP6CA4Exan2m4TSKVU=",
   "exitCode": 0,
-  "url": "https://lombrix-iphone.chemical-donkey.workers.dev",
-  "error": "HTTPError: HTTP Error 403: Forbidden"
+  "url": "https://lombrix-iphone.zealous-turquoise.workers.dev",
+  "htmlVerified": true,
+  "health": {
+    "ok": true,
+    "service": "LOMBRIX",
+    "version": "0.5.1",
+    "hosting": "cloudflare-durable-object"
+  }
 }
