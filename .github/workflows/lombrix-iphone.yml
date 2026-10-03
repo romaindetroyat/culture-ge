@@ -4,10 +4,77 @@ on:
     branches: [lombrix-iphone-20261003]
     paths: ['.github/workflows/lombrix-iphone.yml']
 permissions:
-  contents: read
+  contents: write
+concurrency:
+  group: lombrix-iphone-preview
+  cancel-in-progress: false
 jobs:
-  preparation:
+  deploy:
     runs-on: ubuntu-latest
-    timeout-minutes: 2
+    timeout-minutes: 12
     steps:
-      - run: echo 'Dedicated LOMBRIX preview branch prepared. No production application is modified.'
+      - uses: actions/checkout@v4
+        with:
+          ref: lombrix-iphone-20261003
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Fetch verified game bundle
+        run: |
+          curl --fail --location --retry 2 --max-time 90 'https://at.adobe.com/nBCsN8yx5fIfIZSS' -o /tmp/lombrix.zip
+          echo '4ff62d8ce9248a3e326cce376fa804092a93439ddd37fd29f9afabad2bd9c220  /tmp/lombrix.zip' | sha256sum -c -
+          mkdir -p iphone
+          unzip -oq /tmp/lombrix.zip -d iphone
+      - name: Test Fetch authority adapter
+        working-directory: iphone
+        run: node --test worker.test.mjs
+      - name: Install deployment tool
+        working-directory: iphone
+        run: npm install --ignore-scripts --no-audit --no-fund
+      - name: Deploy with private claim handling
+        working-directory: iphone
+        env:
+          CI: 'true'
+          WRANGLER_SEND_METRICS: 'false'
+        run: |
+          python3 - <<'PY'
+          import subprocess,re,json,base64,os,datetime,urllib.request
+          from pathlib import Path
+          result={'version':'0.5.1','startedAt':datetime.datetime.now(datetime.timezone.utc).isoformat(),'status':'pending'}
+          try:
+            proc=subprocess.run(['npx','--no-install','wrangler','deploy','--temporary'],capture_output=True,text=True,timeout=300)
+            text=re.sub(r'\x1b\[[0-9;]*m','',proc.stdout+'\n'+proc.stderr)
+            Path('/tmp/lombrix-deploy-private.log').write_text(text)
+            live=re.findall(r'https://[a-zA-Z0-9.-]+\.workers\.dev',text)
+            claims=re.findall(r'https://dash\.cloudflare\.com/claim-preview\?[^\s\x1b]+',text)
+            if claims:
+              encrypted=subprocess.run(['openssl','pkeyutl','-encrypt','-pubin','-inkey','claim-public.pem','-pkeyopt','rsa_padding_mode:oaep','-pkeyopt','rsa_oaep_md:sha256'],input=claims[-1].encode(),capture_output=True,check=True).stdout
+              result['encryptedClaim']=base64.b64encode(encrypted).decode()
+            result['exitCode']=proc.returncode
+            if proc.returncode==0 and live:
+              result['url']=live[-1];result['status']='deployed'
+              with urllib.request.urlopen(live[-1]+'/health',timeout=30) as r:result['health']=json.load(r)
+              with urllib.request.urlopen(live[-1]+'/',timeout=30) as r:
+                html=r.read().decode();result['htmlVerified']=('LOMBRIX 0.5.1' in html and 'id="solo"' in html)
+              print('DEPLOYED',result['url'],'health=',result.get('health'),'html=',result.get('htmlVerified'))
+            else:
+              result['status']='deployment-failed'
+              safe=re.sub(r'https://dash\.cloudflare\.com/claim-preview\?[^\s]+','[PRIVATE CLAIM REDACTED]',text)
+              safe=re.sub(r'(?i)(api.?token|claimToken)([\s:=]+)[^\s]+',r'\1\2[REDACTED]',safe)
+              result['error']=safe[-10000:];print(result['error'])
+          except Exception as e:
+            result['status']='error';result['error']=type(e).__name__+': '+str(e)
+            print(result['status'],result['error'])
+          Path('deployment.json').write_text(json.dumps(result,indent=2))
+          PY
+      - name: Save deployment and sources on isolated branch only
+        if: always()
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          git config user.name 'LOMBRIX build'
+          git config user.email 'lombrix-build@users.noreply.github.com'
+          printf 'node_modules/\n.wrangler/\n*.log\n' > iphone/.gitignore
+          git add iphone
+          git diff --cached --quiet || git commit -m 'LOMBRIX iPhone deployment result and reproducible source'
+          git push origin HEAD:lombrix-iphone-20261003
