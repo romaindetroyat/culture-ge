@@ -1,0 +1,9 @@
+{
+  "version": "0.5.1",
+  "startedAt": "2026-10-03T16:37:42.286997+00:00",
+  "status": "error",
+  "encryptedClaim": "aJ7g7iiWlB3nAcmTYe58EP+/fsixIY/r3qnNDc8dRftkY4kVmhoYwUsIYA3LhWeV86XJj5yGqCleATKlRRvXlKMlhhsFdkXu4nsWFs3r0OOO7daUn/RVbwzwRReXhlqBoUGrxoGd/lljy68rxT0rFyKOFABXzzNpgVXr1EUlNsiBkrKWqttBFUgn8I7OVdhjXt6kpxJVZGmHhFO7ajzSEU7PatnHYNpDXxhNNz76vmCOI8kRqmTgMnkn/xbLgqJJyy9I8LP7NvS4b9DmDKHy4oB0siy7qnLf3B4C2kT24bRaR8rUPG9mdwZd5rjjzcYfOLBneCg9hPywQ1TPwV8rdiasNiY8SC3NB7GjJ/RloGxZ+A0QTBj1OCA/67whY9agblKCPO5vAxZ5obVlk2Wng6DQYmEj/3LjrubTgn65FiNbcIevK68Cz1p3VBRt8rOr4Tioo0uZ4LxmnxIzkWjPJ1oFAt8dSduxS9ZLJaxBZnp3NRFKCywPx3HagUcTy8Q8PWklxJ+esTvTnG9Cf+EGjWOEd+vqq08Azj2DsHUeIwrQwxu9y6ev83hixEx2UPRg22VZtX2Mb6BA36pjL3p8o93F4+LtnOtZJ/FHgReiY24kLTZtPg6zWzbplrbhJWv2jQi4HQqPzkeGNF9fcNdy2y2dcP5C7zPqlswO7hx5A8A=",
+  "exitCode": 0,
+  "url": "https://lombrix-iphone.chemical-donkey.workers.dev",
+  "error": "HTTPError: HTTP Error 403: Forbidden"
+}
