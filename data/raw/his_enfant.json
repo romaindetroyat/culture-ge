@@ -1,0 +1,3586 @@
+[
+ {
+  "id": "his_enfant-001",
+  "q": "Quel grand animal à longs poils et à grandes défenses vivait à l'époque des hommes préhistoriques ?",
+  "r": "Le mammouth",
+  "t": "Préhistoire",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-002",
+  "q": "Comment s'appellent les deux grandes dents courbées du mammouth ?",
+  "r": "Les défenses",
+  "t": "Préhistoire",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-003",
+  "q": "Quel animal d'aujourd'hui, avec une trompe, est un cousin du mammouth ?",
+  "r": "L'éléphant",
+  "t": "Préhistoire",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-004",
+  "q": "Quelle grande découverte permettait aux hommes préhistoriques de se chauffer et de cuire la viande ?",
+  "r": "Le feu",
+  "t": "Préhistoire",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-005",
+  "q": "Quel reste noir du feu les hommes préhistoriques utilisaient-ils pour dessiner ?",
+  "r": "Le charbon de bois",
+  "t": "Préhistoire",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-006",
+  "q": "Sur les murs de quels endroits sombres les hommes préhistoriques ont-ils peint des animaux ?",
+  "r": "Les grottes",
+  "t": "Préhistoire",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-007",
+  "q": "Quel gros animal à bosse et à cornes est souvent peint dans les grottes préhistoriques ?",
+  "r": "Le bison",
+  "t": "Préhistoire",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-008",
+  "q": "Comment appelle-t-on la période des tout premiers hommes, avant l'Antiquité ?",
+  "r": "La préhistoire",
+  "t": "Préhistoire",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-009",
+  "q": "Quels animaux géants avaient disparu des millions d'années avant l'arrivée des premiers hommes ?",
+  "r": "Les dinosaures",
+  "t": "Préhistoire",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-010",
+  "q": "Avec quoi les hommes préhistoriques s'habillaient-ils pour avoir chaud ?",
+  "r": "Des peaux de bêtes",
+  "t": "Préhistoire",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-011",
+  "q": "Avec quoi les hommes préhistoriques fabriquaient-ils des aiguilles pour coudre ?",
+  "r": "L'os",
+  "t": "Préhistoire",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-012",
+  "q": "Quelle arme les hommes préhistoriques ont-ils inventée pour lancer des flèches ?",
+  "r": "L'arc",
+  "t": "Préhistoire",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-013",
+  "q": "Quel instrument de musique très ancien les hommes préhistoriques taillaient-ils dans des os d'oiseaux ?",
+  "r": "La flûte",
+  "t": "Préhistoire",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-014",
+  "q": "Quel grand félin préhistorique avait deux immenses crocs en forme de lame ?",
+  "r": "Le tigre à dents de sabre",
+  "t": "Préhistoire",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-015",
+  "q": "Quel gros animal couvert de poils, avec deux cornes sur le nez, vivait à la préhistoire ?",
+  "r": "Le rhinocéros laineux",
+  "t": "Préhistoire",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-016",
+  "q": "Avec quoi les hommes préhistoriques s'éclairaient-ils au fond des grottes ?",
+  "r": "Des torches",
+  "t": "Préhistoire",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-017",
+  "q": "Sur quel continent les tout premiers humains sont-ils apparus ?",
+  "r": "L'Afrique",
+  "t": "Préhistoire",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-018",
+  "q": "Quel animal les premiers éleveurs ont-ils gardé pour sa laine ?",
+  "r": "Le mouton",
+  "t": "Préhistoire",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-019",
+  "q": "Comment appelle-t-on le fait de semer des graines et de faire pousser des plantes pour se nourrir ?",
+  "r": "L'agriculture",
+  "t": "Préhistoire",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-020",
+  "q": "Comment appelle-t-on le fait de ramasser des fruits sauvages, des baies et des champignons ?",
+  "r": "La cueillette",
+  "t": "Préhistoire",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-021",
+  "q": "Comment appelle-t-on des gens qui se déplacent tout le temps, sans maison fixe ?",
+  "r": "Des nomades",
+  "t": "Préhistoire",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-022",
+  "q": "Comment appelle-t-on la très longue époque où les hommes n'avaient pas encore de métal pour leurs outils ?",
+  "r": "L'âge de pierre",
+  "t": "Préhistoire",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-023",
+  "q": "Quel métal a donné son nom à un âge, juste après l'âge du bronze ?",
+  "r": "Le fer",
+  "t": "Préhistoire",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-024",
+  "q": "Comment appelle-t-on les scientifiques qui fouillent le sol pour retrouver des objets très anciens ?",
+  "r": "Les archéologues",
+  "t": "Préhistoire",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-025",
+  "q": "Comment appelle-t-on une très longue époque où la Terre était beaucoup plus froide et couverte de neige ?",
+  "r": "La période glaciaire",
+  "t": "Préhistoire",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-026",
+  "q": "Quelle activité permettait aux hommes préhistoriques de trouver de la viande ?",
+  "r": "La chasse",
+  "t": "Préhistoire",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-027",
+  "q": "Quelle arme longue et pointue les chasseurs préhistoriques lançaient-ils sur les animaux ?",
+  "r": "La lance",
+  "t": "Préhistoire",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-028",
+  "q": "Quand ils sont devenus agriculteurs, où les hommes se sont-ils installés pour vivre ensemble ?",
+  "r": "Dans des villages",
+  "t": "Préhistoire",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-029",
+  "q": "Avec quelle matière les premiers agriculteurs fabriquaient-ils des pots ?",
+  "r": "L'argile",
+  "t": "Préhistoire",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-030",
+  "q": "Quelle céréale, qui sert à faire le pain, les premiers agriculteurs cultivaient-ils ?",
+  "r": "Le blé",
+  "t": "Préhistoire",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-031",
+  "q": "Quel animal est le plus souvent peint dans les grottes préhistoriques de France ?",
+  "r": "Le cheval",
+  "t": "Préhistoire",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-032",
+  "q": "Avec quelle partie de leur corps les hommes préhistoriques peignaient-ils parfois, à la place d'un pinceau ?",
+  "r": "Les doigts",
+  "t": "Préhistoire",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-033",
+  "q": "Quelle invention marque la fin de la préhistoire ?",
+  "r": "L'écriture",
+  "t": "Préhistoire",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-034",
+  "q": "Quelle sorte de lance à pointe crochue servait aux hommes préhistoriques à pêcher les poissons ?",
+  "r": "Le harpon",
+  "t": "Préhistoire",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-035",
+  "q": "Quel grand bœuf sauvage à longues cornes, ancêtre de la vache, est peint dans les grottes ?",
+  "r": "L'aurochs",
+  "t": "Préhistoire",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-036",
+  "q": "Dans quelle matière, tirée des défenses de gros animaux, les hommes préhistoriques sculptaient-ils des statuettes ?",
+  "r": "L'ivoire",
+  "t": "Préhistoire",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-037",
+  "q": "Quel dinosaure géant et carnivore avait de tout petits bras ?",
+  "r": "Le tyrannosaure",
+  "t": "Dinosaures",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-038",
+  "q": "Que mangeait le tyrannosaure ?",
+  "r": "De la viande",
+  "t": "Dinosaures",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-039",
+  "q": "Lequel a vécu le plus près de notre époque : le tyrannosaure ou le stégosaure ?",
+  "r": "Le tyrannosaure",
+  "t": "Dinosaures",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-040",
+  "q": "Quel dinosaure avait trois cornes sur la tête ?",
+  "r": "Le tricératops",
+  "t": "Dinosaures",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-041",
+  "q": "Que mangeait le tricératops ?",
+  "r": "Des plantes",
+  "t": "Dinosaures",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-042",
+  "q": "Comment s'appelle la grande plaque d'os autour du cou du tricératops ?",
+  "r": "La collerette",
+  "t": "Dinosaures",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-043",
+  "q": "Quel dinosaure avait de grandes plaques sur le dos et des pointes au bout de la queue ?",
+  "r": "Le stégosaure",
+  "t": "Dinosaures",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-044",
+  "q": "Quel immense dinosaure au long cou avait les pattes avant plus longues que les pattes arrière ?",
+  "r": "Le brachiosaure",
+  "t": "Dinosaures",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-045",
+  "q": "Quel dinosaure au long cou porte un nom qui veut dire « lézard tonnerre » ?",
+  "r": "Le brontosaure",
+  "t": "Dinosaures",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-046",
+  "q": "Quel dinosaure carnivore, rapide et rusé, chasse en groupe dans le film Jurassic Park ?",
+  "r": "Le vélociraptor",
+  "t": "Dinosaures",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-047",
+  "q": "Le vrai vélociraptor avait à peu près la taille de quel animal : une dinde ou un cheval ?",
+  "r": "Une dinde",
+  "t": "Dinosaures",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-048",
+  "q": "Qu'avait le vrai vélociraptor sur le corps, comme les oiseaux ?",
+  "r": "Des plumes",
+  "t": "Dinosaures",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-049",
+  "q": "Dans quel film de Steven Spielberg des dinosaures vivent-ils dans un parc sur une île ?",
+  "r": "Jurassic Park",
+  "t": "Dinosaures",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-050",
+  "q": "Quel dinosaure carnivore avait une grande voile sur le dos ?",
+  "r": "Le spinosaure",
+  "t": "Dinosaures",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-051",
+  "q": "Quel dinosaure avait le corps couvert de plaques d'os et une massue au bout de la queue ?",
+  "r": "L'ankylosaure",
+  "t": "Dinosaures",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-052",
+  "q": "Quel dinosaure portait une pointe sur le pouce, comme un poignard ?",
+  "r": "L'iguanodon",
+  "t": "Dinosaures",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-053",
+  "q": "Quel dinosaure avait une longue crête creuse en forme de tube sur la tête ?",
+  "r": "Le parasaurolophus",
+  "t": "Dinosaures",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-054",
+  "q": "Quel dinosaure avait un crâne très épais et bombé, comme un casque ?",
+  "r": "Le pachycéphalosaure",
+  "t": "Dinosaures",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-055",
+  "q": "Quel dinosaure géant au long cou porte le nom d'un pays d'Amérique du Sud ?",
+  "r": "L'argentinosaure",
+  "t": "Dinosaures",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-056",
+  "q": "Comment naissaient les bébés dinosaures ?",
+  "r": "Dans des œufs",
+  "t": "Dinosaures",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-057",
+  "q": "Quels animaux d'aujourd'hui descendent des dinosaures ?",
+  "r": "Les oiseaux",
+  "t": "Dinosaures",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-058",
+  "q": "Quel gros rocher venu de l'espace a frappé la Terre à la fin des dinosaures ?",
+  "r": "Un astéroïde",
+  "t": "Dinosaures",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-059",
+  "q": "Que veut dire le mot « dinosaure » ?",
+  "r": "Lézard terrible",
+  "t": "Dinosaures",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-060",
+  "q": "Comment appelle-t-on les scientifiques qui étudient les fossiles de dinosaures ?",
+  "r": "Les paléontologues",
+  "t": "Dinosaures",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-061",
+  "q": "Comment appelle-t-on les restes d'animaux très anciens conservés dans la roche ?",
+  "r": "Les fossiles",
+  "t": "Dinosaures",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-062",
+  "q": "Comment appelle-t-on la marque laissée par le pied d'un dinosaure dans la boue devenue pierre ?",
+  "r": "Une empreinte",
+  "t": "Dinosaures",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-063",
+  "q": "Dans quel groupe d'animaux classe-t-on les dinosaures, avec les lézards et les crocodiles ?",
+  "r": "Les reptiles",
+  "t": "Dinosaures",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-064",
+  "q": "Comment s'appelle le reptile volant aux grandes ailes qui vivait à l'époque des dinosaures ?",
+  "r": "Le ptérodactyle",
+  "t": "Dinosaures",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-065",
+  "q": "Quel grand reptile marin au long cou et aux nageoires vivait à l'époque des dinosaures ?",
+  "r": "Le plésiosaure",
+  "t": "Dinosaures",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-066",
+  "q": "Quel reptile marin ressemblant à un dauphin vivait à l'époque des dinosaures ?",
+  "r": "L'ichtyosaure",
+  "t": "Dinosaures",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-067",
+  "q": "Quel oiseau très ancien, avec des dents et des plumes, a été découvert en Allemagne ?",
+  "r": "L'archéoptéryx",
+  "t": "Dinosaures",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-068",
+  "q": "Quel reptile aux grandes mâchoires, qui vit encore aujourd'hui, existait déjà à l'époque des dinosaures ?",
+  "r": "Le crocodile",
+  "t": "Dinosaures",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-069",
+  "q": "Les hadrosaures sont des dinosaures « à bec de » quel animal ?",
+  "r": "Le canard",
+  "t": "Dinosaures",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-070",
+  "q": "Quel dinosaure carnivore avait deux crêtes sur la tête ?",
+  "r": "Le dilophosaure",
+  "t": "Dinosaures",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-071",
+  "q": "Où la toute première vie est-elle apparue sur Terre ?",
+  "r": "Dans l'eau",
+  "t": "Dinosaures",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-072",
+  "q": "Sur quel continent glacé a-t-on aussi trouvé des fossiles de dinosaures ?",
+  "r": "L'Antarctique",
+  "t": "Dinosaures",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-073",
+  "q": "Comment s'appelle la dernière période des dinosaures, juste avant leur disparition ?",
+  "r": "Le Crétacé",
+  "t": "Dinosaures",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-074",
+  "q": "Quelle période des dinosaures porte le nom de montagnes entre la France et la Suisse ?",
+  "r": "Le Jurassique",
+  "t": "Dinosaures",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-075",
+  "q": "Quels petits animaux à poils vivaient déjà à l'époque des dinosaures ?",
+  "r": "Les mammifères",
+  "t": "Dinosaures",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-076",
+  "q": "Quel animal d'aujourd'hui est plus gros que tous les dinosaures ?",
+  "r": "La baleine bleue",
+  "t": "Dinosaures",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-077",
+  "q": "Comment appelait-on les rois de l'Égypte ancienne ?",
+  "r": "Les pharaons",
+  "t": "Égypte ancienne",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-078",
+  "q": "Quel grand fleuve traverse l'Égypte ?",
+  "r": "Le Nil",
+  "t": "Égypte ancienne",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-079",
+  "q": "Comment appelle-t-on le corps d'un pharaon conservé pour l'éternité ?",
+  "r": "Une momie",
+  "t": "Égypte ancienne",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-080",
+  "q": "Avec quoi enroulait-on le corps des momies ?",
+  "r": "Des bandelettes",
+  "t": "Égypte ancienne",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-081",
+  "q": "Quelle forme a la base d'une pyramide d'Égypte ?",
+  "r": "Un carré",
+  "t": "Égypte ancienne",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-082",
+  "q": "Combien de grandes pyramides se dressent sur le plateau de Gizeh ?",
+  "r": "3",
+  "t": "Égypte ancienne",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-083",
+  "q": "Comment s'appelle l'écriture des Égyptiens faite de petits dessins ?",
+  "r": "Les hiéroglyphes",
+  "t": "Égypte ancienne",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-084",
+  "q": "Quel jeune pharaon portait un célèbre masque funéraire en or ?",
+  "r": "Toutânkhamon",
+  "t": "Égypte ancienne",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-085",
+  "q": "Quel animal domestique, qui ronronne, était sacré pour les Égyptiens ?",
+  "r": "Le chat",
+  "t": "Égypte ancienne",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-086",
+  "q": "Comment s'appelait la célèbre reine d'Égypte, amie de Jules César ?",
+  "r": "Cléopâtre",
+  "t": "Égypte ancienne",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-087",
+  "q": "Quel dieu du Soleil était très important pour les Égyptiens ?",
+  "r": "Rê",
+  "t": "Égypte ancienne",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-088",
+  "q": "Comment appelait-on les Égyptiens qui savaient lire et écrire pour le pharaon ?",
+  "r": "Les scribes",
+  "t": "Égypte ancienne",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-089",
+  "q": "Comment appelle-t-on la montée des eaux du Nil qui rendait chaque année les champs fertiles ?",
+  "r": "La crue",
+  "t": "Égypte ancienne",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-090",
+  "q": "Dans quel grand coffre de pierre décoré plaçait-on la momie d'un pharaon ?",
+  "r": "Le sarcophage",
+  "t": "Égypte ancienne",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-091",
+  "q": "Quel organe les Égyptiens laissaient-ils dans le corps de la momie, car ils le croyaient très important ?",
+  "r": "Le cœur",
+  "t": "Égypte ancienne",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-092",
+  "q": "Comment appelle-t-on une haute pierre pointue à quatre faces, dressée devant les temples égyptiens ?",
+  "r": "Un obélisque",
+  "t": "Égypte ancienne",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-093",
+  "q": "Sur quel continent se trouve l'Égypte ?",
+  "r": "L'Afrique",
+  "t": "Égypte ancienne",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-094",
+  "q": "Quelle mer borde le nord de l'Égypte ?",
+  "r": "La Méditerranée",
+  "t": "Égypte ancienne",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-095",
+  "q": "Pour les Égyptiens, qu'était le pharaon, en plus d'être un roi ?",
+  "r": "Un dieu",
+  "t": "Égypte ancienne",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-096",
+  "q": "Que portait le pharaon au menton pour montrer son pouvoir ?",
+  "r": "Une fausse barbe",
+  "t": "Égypte ancienne",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-097",
+  "q": "Dans quel musée de Paris, avec une pyramide de verre, peut-on voir des momies égyptiennes ?",
+  "r": "Le Louvre",
+  "t": "Égypte ancienne",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-098",
+  "q": "Quels animaux tiraient les chars de guerre des pharaons ?",
+  "r": "Les chevaux",
+  "t": "Égypte ancienne",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-099",
+  "q": "Selon les archéologues, qui a construit les pyramides : des esclaves ou des ouvriers ?",
+  "r": "Des ouvriers",
+  "t": "Égypte ancienne",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-100",
+  "q": "Quel immense désert d'Afrique couvre une grande partie de l'Égypte ?",
+  "r": "Le Sahara",
+  "t": "Égypte ancienne",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-101",
+  "q": "Quelle est la capitale de l'Égypte, une grande ville tout près des pyramides ?",
+  "r": "Le Caire",
+  "t": "Égypte ancienne",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-102",
+  "q": "Quelle déesse était la reine des dieux grecs et l'épouse de Zeus ?",
+  "r": "Héra",
+  "t": "Grecs",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-103",
+  "q": "Quelle déesse grecque de la sagesse serait sortie tout armée de la tête de son père ?",
+  "r": "Athéna",
+  "t": "Grecs",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-104",
+  "q": "Quel dieu grec de la mer tient un trident ?",
+  "r": "Poséidon",
+  "t": "Grecs",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-105",
+  "q": "Quel dieu messager des Grecs portait des sandales ailées ?",
+  "r": "Hermès",
+  "t": "Grecs",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-106",
+  "q": "Quel dieu grec de la musique et des arts, frère jumeau d'Artémis, joue de la lyre ?",
+  "r": "Apollon",
+  "t": "Grecs",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-107",
+  "q": "Quelle déesse grecque de la chasse se promène avec un arc et des flèches ?",
+  "r": "Artémis",
+  "t": "Grecs",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-108",
+  "q": "Quelle déesse grecque de l'amour et de la beauté est née de l'écume de la mer ?",
+  "r": "Aphrodite",
+  "t": "Grecs",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-109",
+  "q": "Sur quelle montagne vivaient les dieux grecs ?",
+  "r": "L'Olympe",
+  "t": "Grecs",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-110",
+  "q": "Comment appelle-t-on l'ensemble des histoires de dieux et de héros grecs ?",
+  "r": "La mythologie",
+  "t": "Grecs",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-111",
+  "q": "Quel héros grec à la force extraordinaire a dû accomplir douze travaux ?",
+  "r": "Hercule",
+  "t": "Grecs",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-112",
+  "q": "Quel monstre à plusieurs têtes, qui repoussaient quand on les coupait, Hercule a-t-il combattu ?",
+  "r": "L'hydre de Lerne",
+  "t": "Grecs",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-113",
+  "q": "Dans quel animal géant en bois les Grecs se sont-ils cachés pour entrer dans Troie ?",
+  "r": "Un cheval",
+  "t": "Grecs",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-114",
+  "q": "Comment s'appelle le long poème qui raconte le voyage de retour d'Ulysse ?",
+  "r": "L'Odyssée",
+  "t": "Grecs",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-115",
+  "q": "Quel est le seul endroit du corps où le héros Achille pouvait être blessé ?",
+  "r": "Le talon",
+  "t": "Grecs",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-116",
+  "q": "Quelle créature avait des serpents à la place des cheveux ?",
+  "r": "Méduse",
+  "t": "Grecs",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-117",
+  "q": "Quel héros grec a vaincu Méduse en regardant son reflet dans un bouclier ?",
+  "r": "Persée",
+  "t": "Grecs",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-118",
+  "q": "Quelle créature mi-homme mi-taureau vivait dans un labyrinthe ?",
+  "r": "Le Minotaure",
+  "t": "Grecs",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-119",
+  "q": "Quel héros grec a réussi à sortir du labyrinthe grâce au fil d'Ariane ?",
+  "r": "Thésée",
+  "t": "Grecs",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-120",
+  "q": "Quel jeune homme s'est envolé avec des ailes collées à la cire, trop près du soleil ?",
+  "r": "Icare",
+  "t": "Grecs",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-121",
+  "q": "Quel roi transformait en or tout ce qu'il touchait ?",
+  "r": "Midas",
+  "t": "Grecs",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-122",
+  "q": "Quel personnage des légendes grecques a volé le feu aux dieux pour le donner aux hommes ?",
+  "r": "Prométhée",
+  "t": "Grecs",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-123",
+  "q": "Comment s'appelle la femme qui ouvrit une boîte d'où sortirent tous les malheurs du monde ?",
+  "r": "Pandore",
+  "t": "Grecs",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-124",
+  "q": "Dans quel pays sont nés les Jeux olympiques ?",
+  "r": "La Grèce",
+  "t": "Grecs",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-125",
+  "q": "Tous les combien d'années avaient lieu les Jeux olympiques de l'Antiquité ?",
+  "r": "4 ans",
+  "t": "Grecs",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-126",
+  "q": "Quelle est la première lettre de l'écriture grecque ?",
+  "r": "L'alpha",
+  "t": "Grecs",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-127",
+  "q": "Selon le proverbe, tous les chemins mènent à quelle ville ?",
+  "r": "Rome",
+  "t": "Romains",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-128",
+  "q": "Sur combien de collines la ville de Rome a-t-elle été bâtie, selon la tradition ?",
+  "r": "7",
+  "t": "Romains",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-129",
+  "q": "Quelle langue parlaient les Romains ?",
+  "r": "Le latin",
+  "t": "Romains",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-130",
+  "q": "Quel titre portaient Néron, Caligula ou Marc Aurèle à Rome ?",
+  "r": "Empereur",
+  "t": "Romains",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-131",
+  "q": "Quel général romain a conquis la Gaule ?",
+  "r": "Jules César",
+  "t": "Romains",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-132",
+  "q": "Quel mois de l'année porte le nom de Jules César ?",
+  "r": "Juillet",
+  "t": "Romains",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-133",
+  "q": "Comment appelle-t-on les combattants qui s'affrontaient dans les arènes pour le spectacle ?",
+  "r": "Les gladiateurs",
+  "t": "Romains",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-134",
+  "q": "Comment appelle-t-on un soldat de l'armée romaine ?",
+  "r": "Un légionnaire",
+  "t": "Romains",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-135",
+  "q": "Quel nombre le chiffre romain V représente-t-il ?",
+  "r": "5",
+  "t": "Romains",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-136",
+  "q": "Quel nombre le chiffre romain X représente-t-il ?",
+  "r": "10",
+  "t": "Romains",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-137",
+  "q": "Comment appelle-t-on un pont qui transporte de l'eau, comme le pont du Gard ?",
+  "r": "Un aqueduc",
+  "t": "Romains",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-138",
+  "q": "De quelle plante était faite la couronne des généraux romains vainqueurs ?",
+  "r": "Le laurier",
+  "t": "Romains",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-139",
+  "q": "Quelles chaussures portaient les soldats romains ?",
+  "r": "Des sandales",
+  "t": "Romains",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-140",
+  "q": "Sur quoi les écoliers romains écrivaient-ils avec un stylet ?",
+  "r": "Une tablette de cire",
+  "t": "Romains",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-141",
+  "q": "Quel peuple a construit des routes droites et pavées dans toute l'Europe, il y a 2 000 ans ?",
+  "r": "Les Romains",
+  "t": "Romains",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-142",
+  "q": "Comment appelle-t-on les grands bâtiments ovales à gradins où les Romains regardaient des spectacles ?",
+  "r": "Les amphithéâtres",
+  "t": "Romains",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-143",
+  "q": "Quel dieu romain correspond au dieu grec Zeus ?",
+  "r": "Jupiter",
+  "t": "Romains",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-144",
+  "q": "Quel dieu romain de la guerre a donné son nom à la planète rouge ?",
+  "r": "Mars",
+  "t": "Romains",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-145",
+  "q": "Quelle déesse romaine de l'amour a donné son nom à une planète ?",
+  "r": "Vénus",
+  "t": "Romains",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-146",
+  "q": "Quel dieu romain de la mer a donné son nom à la planète la plus éloignée du Soleil ?",
+  "r": "Neptune",
+  "t": "Romains",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-147",
+  "q": "Quel dieu romain messager a donné son nom à la planète la plus proche du Soleil ?",
+  "r": "Mercure",
+  "t": "Romains",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-148",
+  "q": "Quel petit dieu romain de l'amour tire des flèches dans les cœurs ?",
+  "r": "Cupidon",
+  "t": "Romains",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-149",
+  "q": "Comment s'appelait le pays des Gaulois ?",
+  "r": "La Gaule",
+  "t": "Gaulois",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-150",
+  "q": "Quel pays d'aujourd'hui correspond en grande partie à l'ancienne Gaule ?",
+  "r": "La France",
+  "t": "Gaulois",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-151",
+  "q": "Quel célèbre chef gaulois est resté six ans prisonnier à Rome après sa défaite ?",
+  "r": "Vercingétorix",
+  "t": "Gaulois",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-152",
+  "q": "Comment s'appelaient les pantalons des Gaulois ?",
+  "r": "Les braies",
+  "t": "Gaulois",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-153",
+  "q": "À quel grand ensemble de peuples les Gaulois appartenaient-ils ?",
+  "r": "Les Celtes",
+  "t": "Gaulois",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-154",
+  "q": "Selon les archéologues, les Gaulois mangeaient-ils surtout du gibier ou des animaux de la ferme ?",
+  "r": "Des animaux de la ferme",
+  "t": "Gaulois",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-155",
+  "q": "Quel personnage d'Astérix est le druide du village ?",
+  "r": "Panoramix",
+  "t": "Gaulois",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-156",
+  "q": "Selon un récit antique, de quelle seule chose les Celtes disaient-ils avoir peur ?",
+  "r": "Que le ciel leur tombe sur la tête",
+  "t": "Gaulois",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-157",
+  "q": "Comment les Romains appelaient-ils la région de la Gaule qui correspond en grande partie à la Bretagne ?",
+  "r": "L'Armorique",
+  "t": "Gaulois",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-158",
+  "q": "Sur quel arbre les druides allaient-ils cueillir le gui sacré ?",
+  "r": "Le chêne",
+  "t": "Gaulois",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-159",
+  "q": "Comment appelait-on les poètes qui chantaient les exploits des héros gaulois ?",
+  "r": "Les bardes",
+  "t": "Gaulois",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-160",
+  "q": "Comment appelle-t-on les « dents » en haut des murailles, derrière lesquelles se cachaient les soldats ?",
+  "r": "Les créneaux",
+  "t": "Châteaux forts",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-161",
+  "q": "Comment s'appelle la grille qui descend pour fermer l'entrée d'un château fort ?",
+  "r": "La herse",
+  "t": "Châteaux forts",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-162",
+  "q": "Comment appelle-t-on les grands murs épais qui entourent un château fort ou une ville ?",
+  "r": "Les remparts",
+  "t": "Châteaux forts",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-163",
+  "q": "Comment s'appelle le passage en haut des murailles où marchent les gardes ?",
+  "r": "Le chemin de ronde",
+  "t": "Châteaux forts",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-164",
+  "q": "Dans quelle matière construisait-on les tout premiers châteaux forts ?",
+  "r": "Le bois",
+  "t": "Châteaux forts",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-165",
+  "q": "Qui est le maître du château fort ?",
+  "r": "Le seigneur",
+  "t": "Châteaux forts",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-166",
+  "q": "Comment appelle-t-on la partie du château où vivaient les animaux et les serviteurs ?",
+  "r": "La basse-cour",
+  "t": "Châteaux forts",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-167",
+  "q": "Comment s'appelle la petite église d'un château, où le seigneur allait prier ?",
+  "r": "La chapelle",
+  "t": "Châteaux forts",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-168",
+  "q": "Comment appelle-t-on le soldat qui surveille les environs du haut d'une tour ?",
+  "r": "Le guetteur",
+  "t": "Châteaux forts",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-169",
+  "q": "Comment appelle-t-on l'attaque d'une ville ou d'un château qu'on encercle très longtemps ?",
+  "r": "Un siège",
+  "t": "Châteaux forts",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-170",
+  "q": "Quelle grosse poutre servait à enfoncer les portes des châteaux attaqués ?",
+  "r": "Le bélier",
+  "t": "Châteaux forts",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-171",
+  "q": "Que porte un chevalier sur la tête pour se protéger ?",
+  "r": "Un casque",
+  "t": "Chevaliers",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-172",
+  "q": "Avec quoi le chevalier se protège-t-il des coups, en le tenant à son bras ?",
+  "r": "Le bouclier",
+  "t": "Chevaliers",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-173",
+  "q": "Quelle longue arme le chevalier tient-il à cheval pendant un tournoi ?",
+  "r": "La lance",
+  "t": "Chevaliers",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-174",
+  "q": "Comment appelle-t-on les dessins sur le bouclier d'un chevalier, qui montrent sa famille ?",
+  "r": "Le blason",
+  "t": "Chevaliers",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-175",
+  "q": "Comment appelle-t-on l'habit de métal qui protège tout le corps du chevalier ?",
+  "r": "L'armure",
+  "t": "Chevaliers",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-176",
+  "q": "Quelle arme tire de courtes flèches appelées carreaux ?",
+  "r": "L'arbalète",
+  "t": "Chevaliers",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-177",
+  "q": "Comment appelle-t-on les combats entre chevaliers organisés comme une grande fête ?",
+  "r": "Le tournoi",
+  "t": "Chevaliers",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-178",
+  "q": "Comment appelle-t-on le jeune garçon noble qui commence à apprendre le métier de chevalier, avant d'être écuyer ?",
+  "r": "Le page",
+  "t": "Chevaliers",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-179",
+  "q": "Quel animal fabuleux qui crache du feu affronte les chevaliers dans les légendes ?",
+  "r": "Le dragon",
+  "t": "Chevaliers",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-180",
+  "q": "Comment s'appelle l'épée magique du roi Arthur ?",
+  "r": "Excalibur",
+  "t": "Chevaliers",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-181",
+  "q": "Quel enchanteur des légendes du Moyen Âge vivait dans la forêt de Brocéliande ?",
+  "r": "Merlin",
+  "t": "Chevaliers",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-182",
+  "q": "Quel héros anglais, habile à l'arc, volait les riches pour donner aux pauvres ?",
+  "r": "Robin des Bois",
+  "t": "Chevaliers",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-183",
+  "q": "Quel animal légendaire, blanc avec une seule corne sur le front, apparaît dans les contes du Moyen Âge ?",
+  "r": "La licorne",
+  "t": "Chevaliers",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-184",
+  "q": "Comment appelait-on les chevaliers qui partaient en expédition vers Jérusalem ?",
+  "r": "Les croisés",
+  "t": "Chevaliers",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-185",
+  "q": "Comment appelle-t-on la longue période qui vient juste après l'Antiquité ?",
+  "r": "Le Moyen Âge",
+  "t": "Moyen Âge",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-186",
+  "q": "Quelle période vient juste après le Moyen Âge ?",
+  "r": "La Renaissance",
+  "t": "Moyen Âge",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-187",
+  "q": "Comment s'appelle l'amuseur du château, avec un bonnet à grelots ?",
+  "r": "Le bouffon",
+  "t": "Moyen Âge",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-188",
+  "q": "Comment appelle-t-on le musicien-poète qui allait de château en château pour chanter ?",
+  "r": "Le ménestrel",
+  "t": "Moyen Âge",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-189",
+  "q": "Comment appelle-t-on un grand repas de fête au château ?",
+  "r": "Un banquet",
+  "t": "Moyen Âge",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-190",
+  "q": "Quel couvert à dents, banal aujourd'hui, était très rare sur les tables du Moyen Âge ?",
+  "r": "La fourchette",
+  "t": "Moyen Âge",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-191",
+  "q": "Quel jeu, avec un roi, des fous et des cavaliers, était très aimé des seigneurs du Moyen Âge ?",
+  "r": "Les échecs",
+  "t": "Moyen Âge",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-192",
+  "q": "Dans quel bâtiment vivent et prient les moines ?",
+  "r": "Un monastère",
+  "t": "Moyen Âge",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-193",
+  "q": "Avec quoi les moines écrivaient-ils, en la trempant dans l'encre ?",
+  "r": "Une plume",
+  "t": "Moyen Âge",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-194",
+  "q": "Comment appelle-t-on les livres recopiés à la main, avant l'invention de l'imprimerie ?",
+  "r": "Les manuscrits",
+  "t": "Moyen Âge",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-195",
+  "q": "Comment s'appellent les fenêtres faites de morceaux de verre colorés, dans les églises ?",
+  "r": "Les vitraux",
+  "t": "Moyen Âge",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-196",
+  "q": "Quel genre de très grande église est Notre-Dame de Paris ?",
+  "r": "Une cathédrale",
+  "t": "Moyen Âge",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-197",
+  "q": "Quelle grande cathédrale a été touchée par un incendie en avril 2019 ?",
+  "r": "Notre-Dame de Paris",
+  "t": "Moyen Âge",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-198",
+  "q": "Qui cultivait les champs du seigneur au Moyen Âge ?",
+  "r": "Les paysans",
+  "t": "Moyen Âge",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-199",
+  "q": "Avec quel outil en forme de croissant le paysan coupait-il le blé ?",
+  "r": "La faucille",
+  "t": "Moyen Âge",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-200",
+  "q": "Où les paysans apportaient-ils leur blé pour en faire de la farine ?",
+  "r": "Au moulin",
+  "t": "Moyen Âge",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-201",
+  "q": "Comment appelle-t-on la petite maison de paysan au toit de paille ?",
+  "r": "La chaumière",
+  "t": "Moyen Âge",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-202",
+  "q": "Comment appelle-t-on l'artisan qui fabrique les épées et les fers à cheval ?",
+  "r": "Le forgeron",
+  "t": "Moyen Âge",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-203",
+  "q": "Quels guerriers navigateurs venus du nord de l'Europe attaquaient les côtes au Moyen Âge ?",
+  "r": "Les Vikings",
+  "t": "Moyen Âge",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-204",
+  "q": "Qu'est-ce qu'on dessine souvent sur les casques des Vikings, alors qu'ils n'en avaient pas en vrai ?",
+  "r": "Des cornes",
+  "t": "Moyen Âge",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-205",
+  "q": "Quel dieu des Vikings, armé d'un marteau, faisait gronder le tonnerre ?",
+  "r": "Thor",
+  "t": "Moyen Âge",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-206",
+  "q": "Quelle région de France doit son nom aux « hommes du Nord » ?",
+  "r": "La Normandie",
+  "t": "Moyen Âge",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-207",
+  "q": "Quelle jeune fille a aidé le roi de France à combattre les Anglais au Moyen Âge ?",
+  "r": "Jeanne d'Arc",
+  "t": "Moyen Âge",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-208",
+  "q": "Quel roi de France était surnommé le Roi-Soleil ?",
+  "r": "Louis XIV",
+  "t": "Rois et reines",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-209",
+  "q": "Quel bijou en or un roi porte-t-il sur la tête ?",
+  "r": "La couronne",
+  "t": "Rois et reines",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-210",
+  "q": "Comment appelle-t-on le grand fauteuil sur lequel s'assoit un roi ?",
+  "r": "Le trône",
+  "t": "Rois et reines",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-211",
+  "q": "Comment appelle-t-on le bâton précieux que tient un roi dans sa main ?",
+  "r": "Le sceptre",
+  "t": "Rois et reines",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-212",
+  "q": "Comment appelle-t-on la fille d'un roi et d'une reine ?",
+  "r": "La princesse",
+  "t": "Rois et reines",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-213",
+  "q": "Comment appelle-t-on la femme d'un empereur ?",
+  "r": "L'impératrice",
+  "t": "Rois et reines",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-214",
+  "q": "Comment s'appelait la grande cérémonie où un nouveau roi de France recevait sa couronne ?",
+  "r": "Le sacre",
+  "t": "Rois et reines",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-215",
+  "q": "Avant la Révolution de 1789, qui gouvernait la France ?",
+  "r": "Le roi",
+  "t": "Rois et reines",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-216",
+  "q": "Comment appelle-t-on un pays dirigé par un roi ou une reine ?",
+  "r": "Une monarchie",
+  "t": "Rois et reines",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-217",
+  "q": "Comment appelle-t-on un pays sans roi, où les habitants élisent un président ?",
+  "r": "Une république",
+  "t": "Rois et reines",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-218",
+  "q": "Comment appelait-on tous les nobles qui vivaient autour du roi à Versailles ?",
+  "r": "La cour",
+  "t": "Rois et reines",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-219",
+  "q": "Que portaient sur la tête les messieurs de la cour du Roi-Soleil ?",
+  "r": "Une perruque",
+  "t": "Rois et reines",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-220",
+  "q": "Quel était le nom de famille de l'empereur Napoléon Ier ?",
+  "r": "Bonaparte",
+  "t": "Rois et reines",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-221",
+  "q": "Quelle école, où l'on va après le collège, Napoléon Bonaparte a-t-il créée en 1802 ?",
+  "r": "Le lycée",
+  "t": "Rois et reines",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-222",
+  "q": "Dans quel monument de Paris, au dôme doré, se trouve le tombeau de Napoléon ?",
+  "r": "Les Invalides",
+  "t": "Rois et reines",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-223",
+  "q": "Quel roi régnait sur la France au moment de la Révolution de 1789 ?",
+  "r": "Louis XVI",
+  "t": "Rois et reines",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-224",
+  "q": "Quels soldats célèbres, comme d'Artagnan, servaient le roi Louis XIII ?",
+  "r": "Les mousquetaires",
+  "t": "Rois et reines",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-225",
+  "q": "Quelle reine du Royaume-Uni a régné plus de 70 ans, de 1952 à 2022 ?",
+  "r": "Élisabeth II",
+  "t": "Rois et reines",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-226",
+  "q": "Quels petits chiens aux pattes courtes la reine Élisabeth II adorait-elle ?",
+  "r": "Les corgis",
+  "t": "Rois et reines",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-227",
+  "q": "Quel petit pays au bord de la Méditerranée, voisin de la France, est gouverné par un prince ?",
+  "r": "Monaco",
+  "t": "Rois et reines",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-228",
+  "q": "Quel grand musée de Paris était autrefois un palais des rois de France ?",
+  "r": "Le Louvre",
+  "t": "Rois et reines",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-229",
+  "q": "Devant quel palais de Londres peut-on voir la relève de la garde royale ?",
+  "r": "Buckingham Palace",
+  "t": "Rois et reines",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-230",
+  "q": "Quel océan Christophe Colomb a-t-il traversé avec ses bateaux en 1492 ?",
+  "r": "L'Atlantique",
+  "t": "Explorateurs",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-231",
+  "q": "Dans quelle région d'Asie Christophe Colomb croyait-il être arrivé en touchant l'Amérique ?",
+  "r": "Les Indes",
+  "t": "Explorateurs",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-232",
+  "q": "Comment Christophe Colomb a-t-il appelé les habitants qu'il a rencontrés en Amérique ?",
+  "r": "Les Indiens",
+  "t": "Explorateurs",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-233",
+  "q": "Quels animaux tiraient les traîneaux du premier explorateur arrivé au pôle Sud, en 1911 ?",
+  "r": "Les chiens",
+  "t": "Explorateurs",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-234",
+  "q": "Quel légume venu d'Amérique le savant Parmentier a-t-il fait aimer aux Français ?",
+  "r": "La pomme de terre",
+  "t": "Explorateurs",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-235",
+  "q": "Quelle céréale aux gros épis jaunes les explorateurs ont-ils rapportée d'Amérique ?",
+  "r": "Le maïs",
+  "t": "Explorateurs",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-236",
+  "q": "Quelle gourmandise faite avec les fèves de cacao est arrivée d'Amérique en Europe ?",
+  "r": "Le chocolat",
+  "t": "Explorateurs",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-237",
+  "q": "Avec quel instrument les marins d'autrefois regardaient-ils les bateaux au loin ?",
+  "r": "La longue-vue",
+  "t": "Explorateurs",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-238",
+  "q": "Comment appelait-on les marins autorisés par le roi à attaquer les navires ennemis ?",
+  "r": "Les corsaires",
+  "t": "Explorateurs",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-239",
+  "q": "Comment appelait-on les voleurs des mers qui attaquaient les bateaux pour prendre leurs trésors ?",
+  "r": "Les pirates",
+  "t": "Explorateurs",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-240",
+  "q": "Quel jeune reporter de bande dessinée, avec son chien Milou, a marché sur la Lune dans un album de 1954 ?",
+  "r": "Tintin",
+  "t": "Conquête de l'espace",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-241",
+  "q": "Comment appelle-t-on le fils d'un roi et d'une reine ?",
+  "r": "Le prince",
+  "t": "Rois et reines",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-242",
+  "q": "Quelle invention ronde, très ancienne, a permis de fabriquer des chariots ?",
+  "r": "La roue",
+  "t": "Inventions",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-243",
+  "q": "Grâce à l'imprimerie de Gutenberg, quels objets a-t-on pu fabriquer beaucoup plus vite ?",
+  "r": "Les livres",
+  "t": "Inventions",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-244",
+  "q": "Quel inventeur américain est célèbre pour avoir mis au point l'ampoule électrique ?",
+  "r": "Thomas Edison",
+  "t": "Inventions",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-245",
+  "q": "Avant l'électricité, avec quoi s'éclairait-on le soir dans les maisons ?",
+  "r": "Des bougies",
+  "t": "Inventions",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-246",
+  "q": "Quels deux Américains ont fait voler le premier avion à moteur, en 1903 ?",
+  "r": "Les frères Wright",
+  "t": "Inventions",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-247",
+  "q": "Quel savant français a inventé le vaccin contre la rage ?",
+  "r": "Louis Pasteur",
+  "t": "Inventions",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-248",
+  "q": "Quel jeune Français aveugle a inventé une écriture faite de petits points en relief ?",
+  "r": "Louis Braille",
+  "t": "Inventions",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-249",
+  "q": "Quelle savante a été la première femme à recevoir un prix Nobel ?",
+  "r": "Marie Curie",
+  "t": "Inventions",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-250",
+  "q": "Combien de prix Nobel la savante Marie Curie a-t-elle reçus ?",
+  "r": "2",
+  "t": "Inventions",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-251",
+  "q": "Comment s'appelle le ballon gonflé à l'air chaud qui a emporté les premiers voyageurs dans le ciel en 1783 ?",
+  "r": "La montgolfière",
+  "t": "Inventions",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-252",
+  "q": "Quel animal de la ferme, avec un coq et un canard, a été l'un des premiers passagers d'un ballon, en 1783 ?",
+  "r": "Le mouton",
+  "t": "Inventions",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-253",
+  "q": "Avant les portables, où pouvait-on passer un appel dans la rue, avec des pièces ou une carte ?",
+  "r": "La cabine téléphonique",
+  "t": "Inventions",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-254",
+  "q": "Sur les vieux téléphones, que tournait-on avec le doigt pour faire un numéro ?",
+  "r": "Le cadran",
+  "t": "Inventions",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-255",
+  "q": "Quel objet, inventé par l'Italien Volta, fait marcher les lampes de poche et les télécommandes ?",
+  "r": "La pile",
+  "t": "Inventions",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-256",
+  "q": "Comment s'appelait l'ancêtre du vélo, sans pédales, que l'on poussait avec les pieds ?",
+  "r": "La draisienne",
+  "t": "Inventions",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-257",
+  "q": "Avant la couleur, comment étaient les images de la télévision ?",
+  "r": "En noir et blanc",
+  "t": "Inventions",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-258",
+  "q": "Quel moyen de transport, qui roule sous terre, a ouvert à Paris en 1900 ?",
+  "r": "Le métro",
+  "t": "Inventions",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-259",
+  "q": "Quel code fait de points et de traits servait à envoyer des messages à distance ?",
+  "r": "Le morse",
+  "t": "Inventions",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-260",
+  "q": "Quel instrument à perles qui glissent sur des tiges servait à compter avant les calculatrices ?",
+  "r": "Le boulier",
+  "t": "Inventions",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-261",
+  "q": "Quel savant à la coiffure ébouriffée est célèbre pour la formule E = mc² ?",
+  "r": "Albert Einstein",
+  "t": "Inventions",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-262",
+  "q": "Quel grand artiste de la Renaissance a dessiné des machines volantes, bien avant les avions ?",
+  "r": "Léonard de Vinci",
+  "t": "Inventions",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-263",
+  "q": "Comment appelle-t-on le grand ballon allongé, en forme de cigare, qui transportait des passagers vers 1930 ?",
+  "r": "Le dirigeable",
+  "t": "Inventions",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-264",
+  "q": "Comment appelle-t-on la machine qui tire les wagons d'un train ?",
+  "r": "La locomotive",
+  "t": "Inventions",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-265",
+  "q": "Quel objet mesure le temps grâce à des grains qui coulent d'un côté à l'autre ?",
+  "r": "Le sablier",
+  "t": "Inventions",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-266",
+  "q": "Quel instrument très ancien donne l'heure grâce à l'ombre d'un bâton ?",
+  "r": "Le cadran solaire",
+  "t": "Inventions",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-267",
+  "q": "Quel instrument permet de voir les microbes, trop petits pour nos yeux ?",
+  "r": "Le microscope",
+  "t": "Inventions",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-268",
+  "q": "Quel appareil électrique a remplacé les lavandières pour nettoyer le linge ?",
+  "r": "La machine à laver",
+  "t": "Inventions",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-269",
+  "q": "Quel appareil à touches faisait « clac clac » pour taper des lettres, avant l'ordinateur ?",
+  "r": "La machine à écrire",
+  "t": "Inventions",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-270",
+  "q": "Quel jouet en papier ou en tissu, inventé en Chine, monte dans le ciel grâce au vent ?",
+  "r": "Le cerf-volant",
+  "t": "Inventions",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-271",
+  "q": "Quel appareil volant peut décoller tout droit et rester immobile dans les airs ?",
+  "r": "L'hélicoptère",
+  "t": "Inventions",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-272",
+  "q": "Avec quel objet pour écrire, qui a une petite boule au bout, la marque Bic est-elle devenue célèbre ?",
+  "r": "Le stylo à bille",
+  "t": "Inventions",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-273",
+  "q": "Quel véhicule à moteur, inventé à la fin du XIXe siècle, a remplacé peu à peu les calèches ?",
+  "r": "La voiture",
+  "t": "Inventions",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-274",
+  "q": "Comment appelle-t-on une personne qui imagine et fabrique une machine nouvelle ?",
+  "r": "Un inventeur",
+  "t": "Inventions",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-275",
+  "q": "Quels petits bâtons de bois à bout rouge frotte-t-on pour allumer un feu ?",
+  "r": "Les allumettes",
+  "t": "Inventions",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-276",
+  "q": "Quelle grande boîte remplie de pains de glace servait de frigo autrefois ?",
+  "r": "La glacière",
+  "t": "Inventions",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-277",
+  "q": "Avant le réveille-matin, quel animal de la ferme réveillait tout le monde à l'aube ?",
+  "r": "Le coq",
+  "t": "Vie d'autrefois",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-278",
+  "q": "Comment appelait-on les premiers pilotes d'avion, au début du XXe siècle ?",
+  "r": "Les aviateurs",
+  "t": "Inventions",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-279",
+  "q": "En quelle année un homme a-t-il marché sur la Lune pour la première fois ?",
+  "r": "1969",
+  "t": "Conquête de l'espace",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-280",
+  "q": "Quel astronaute a marché sur la Lune juste après Neil Armstrong ?",
+  "r": "Buzz Aldrin",
+  "t": "Conquête de l'espace",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-281",
+  "q": "De quel pays venaient les premiers hommes à marcher sur la Lune ?",
+  "r": "Les États-Unis",
+  "t": "Conquête de l'espace",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-282",
+  "q": "Complète la phrase de Neil Armstrong sur la Lune : « Un petit pas pour l'homme, un bond de géant pour… » ?",
+  "r": "L'humanité",
+  "t": "Conquête de l'espace",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-283",
+  "q": "Qu'est-ce qui manque sur la Lune pour effacer les traces de pas des astronautes ?",
+  "r": "Le vent",
+  "t": "Conquête de l'espace",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-284",
+  "q": "Comment appelle-t-on les voyageurs de l'espace américains ?",
+  "r": "Les astronautes",
+  "t": "Conquête de l'espace",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-285",
+  "q": "Comment appelle-t-on les voyageurs de l'espace russes ?",
+  "r": "Les cosmonautes",
+  "t": "Conquête de l'espace",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-286",
+  "q": "Où l'astronaute français Thomas Pesquet a-t-il vécu plusieurs mois, en tournant autour de la Terre ?",
+  "r": "La Station spatiale internationale",
+  "t": "Conquête de l'espace",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-287",
+  "q": "Comment s'appellent les fusées européennes lancées depuis la Guyane ?",
+  "r": "Ariane",
+  "t": "Conquête de l'espace",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-288",
+  "q": "Dans quel territoire français d'Amérique du Sud décollent les fusées européennes ?",
+  "r": "La Guyane",
+  "t": "Conquête de l'espace",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-289",
+  "q": "Qu'ont rapporté sur Terre les astronautes qui sont allés sur la Lune ?",
+  "r": "Des roches",
+  "t": "Conquête de l'espace",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-290",
+  "q": "Quel véhicule électrique à quatre roues des astronautes ont-ils conduit hors de la Terre, en 1971 ?",
+  "r": "La jeep lunaire",
+  "t": "Conquête de l'espace",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-291",
+  "q": "Quelle planète bleue les astronautes pouvaient-ils admirer depuis la Lune ?",
+  "r": "La Terre",
+  "t": "Conquête de l'espace",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-292",
+  "q": "Quel vêtement spécial un astronaute enfile-t-il pour sortir dans l'espace ?",
+  "r": "Le scaphandre",
+  "t": "Conquête de l'espace",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-293",
+  "q": "Quelle agence spatiale américaine a envoyé des hommes sur la Lune ?",
+  "r": "La NASA",
+  "t": "Conquête de l'espace",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-294",
+  "q": "Sur quelle planète rouge les robots américains Curiosity et Perseverance se sont-ils posés ?",
+  "r": "Mars",
+  "t": "Conquête de l'espace",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-295",
+  "q": "Quelles sont les trois couleurs du drapeau français ?",
+  "r": "Bleu, blanc, rouge",
+  "t": "Symboles de la France",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-296",
+  "q": "Quelle couleur se trouve au milieu du drapeau français ?",
+  "r": "Le blanc",
+  "t": "Symboles de la France",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-297",
+  "q": "Quelle couleur du drapeau français est placée tout près du mât ?",
+  "r": "Le bleu",
+  "t": "Symboles de la France",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-298",
+  "q": "Quel surnom donne-t-on au drapeau bleu, blanc, rouge ?",
+  "r": "Le Tricolore",
+  "t": "Symboles de la France",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-299",
+  "q": "Quelle est la devise de la République française ?",
+  "r": "Liberté, Égalité, Fraternité",
+  "t": "Symboles de la France",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-300",
+  "q": "Quel chant commence par « Allons enfants de la Patrie » ?",
+  "r": "La Marseillaise",
+  "t": "Symboles de la France",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-301",
+  "q": "Quel chant les joueurs de l'équipe de France chantent-ils avant le coup d'envoi des grands matchs ?",
+  "r": "La Marseillaise",
+  "t": "Symboles de la France",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-302",
+  "q": "Que tire-t-on dans le ciel le soir de la fête nationale, pour l'illuminer de couleurs ?",
+  "r": "Le feu d'artifice",
+  "t": "Symboles de la France",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-303",
+  "q": "Sur quelle grande avenue de Paris a lieu le défilé militaire du 14 Juillet ?",
+  "r": "Les Champs-Élysées",
+  "t": "Symboles de la France",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-304",
+  "q": "Quels sauveteurs organisent un grand bal dans leur caserne pour la fête du 14 Juillet ?",
+  "r": "Les pompiers",
+  "t": "Symboles de la France",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-305",
+  "q": "Sur quels petits papiers collés sur les enveloppes voit-on souvent le visage de Marianne ?",
+  "r": "Les timbres",
+  "t": "Symboles de la France",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-306",
+  "q": "Dans quel bâtiment de la commune trouve-t-on souvent un buste de Marianne ?",
+  "r": "La mairie",
+  "t": "Symboles de la France",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-307",
+  "q": "Quel animal est dessiné sur le maillot de l'équipe de France de football ?",
+  "r": "Le coq",
+  "t": "Symboles de la France",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-308",
+  "q": "Comment surnomme-t-on la France, à cause de sa forme à six côtés ?",
+  "r": "L'Hexagone",
+  "t": "Symboles de la France",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-309",
+  "q": "Quelle monnaie les Français utilisaient-ils avant l'euro ?",
+  "r": "Le franc",
+  "t": "Symboles de la France",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-310",
+  "q": "Sous quel monument de Paris repose le Soldat inconnu ?",
+  "r": "L'Arc de triomphe",
+  "t": "Symboles de la France",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-311",
+  "q": "Quelle bande de tissu bleu, blanc, rouge le maire porte-t-il lors des cérémonies ?",
+  "r": "L'écharpe tricolore",
+  "t": "Symboles de la France",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-312",
+  "q": "Quel ingénieur a donné son nom à la grande tour de fer de Paris ?",
+  "r": "Gustave Eiffel",
+  "t": "Symboles de la France",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-313",
+  "q": "Quel pain long et croustillant est un symbole de la France dans le monde entier ?",
+  "r": "La baguette",
+  "t": "Symboles de la France",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-314",
+  "q": "Quelle fleur bleue porte-t-on le 11 Novembre, en souvenir des soldats ?",
+  "r": "Le bleuet",
+  "t": "Symboles de la France",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-315",
+  "q": "Le 11 Novembre, on se souvient de la fin de quel grand conflit, en 1918 ?",
+  "r": "La Première Guerre mondiale",
+  "t": "Symboles de la France",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-316",
+  "q": "Le 8 Mai, on se souvient de la fin de quel grand conflit en Europe, en 1945 ?",
+  "r": "La Seconde Guerre mondiale",
+  "t": "Symboles de la France",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-317",
+  "q": "Quel jour férié célèbre-t-on en France le 1er mai ?",
+  "r": "La fête du Travail",
+  "t": "Symboles de la France",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-318",
+  "q": "Qui est le chef de l'État en France ?",
+  "r": "Le président de la République",
+  "t": "Symboles de la France",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-319",
+  "q": "Comment s'appellent les élus qui votent les lois à l'Assemblée nationale ?",
+  "r": "Les députés",
+  "t": "Symboles de la France",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-320",
+  "q": "Comment s'appelle la boîte transparente où l'on glisse son bulletin le jour du vote ?",
+  "r": "L'urne",
+  "t": "Symboles de la France",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-321",
+  "q": "Combien d'étoiles jaunes y a-t-il sur le drapeau bleu de l'Union européenne ?",
+  "r": "12",
+  "t": "Symboles de la France",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-322",
+  "q": "Quel gâteau mange-t-on en janvier pour l'Épiphanie, avec une fève cachée dedans ?",
+  "r": "La galette des rois",
+  "t": "Fêtes et traditions",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-323",
+  "q": "Que devient celui qui trouve la fève dans sa part de galette ?",
+  "r": "Le roi",
+  "t": "Fêtes et traditions",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-324",
+  "q": "Que mange-t-on traditionnellement le jour de la Chandeleur ?",
+  "r": "Des crêpes",
+  "t": "Fêtes et traditions",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-325",
+  "q": "En quel mois fête-t-on la Chandeleur ?",
+  "r": "Février",
+  "t": "Fêtes et traditions",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-326",
+  "q": "Quelle petite fleur blanche en clochettes offre-t-on le 1er mai ?",
+  "r": "Le muguet",
+  "t": "Fêtes et traditions",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-327",
+  "q": "Que cherchent les enfants dans le jardin le matin de Pâques ?",
+  "r": "Des œufs en chocolat",
+  "t": "Fêtes et traditions",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-328",
+  "q": "Quel arbre décore-t-on avec des boules et des guirlandes en décembre ?",
+  "r": "Le sapin",
+  "t": "Fêtes et traditions",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-329",
+  "q": "À quelle date fête-t-on Noël ?",
+  "r": "Le 25 décembre",
+  "t": "Fêtes et traditions",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-330",
+  "q": "Quel vieux monsieur à barbe blanche, habillé de rouge, apporte les cadeaux le 25 décembre ?",
+  "r": "Le père Noël",
+  "t": "Fêtes et traditions",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-331",
+  "q": "Comment appelle-t-on les quatre semaines qui précèdent Noël ?",
+  "r": "L'Avent",
+  "t": "Fêtes et traditions",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-332",
+  "q": "Quelles petites figurines de Provence place-t-on dans la crèche ?",
+  "r": "Les santons",
+  "t": "Fêtes et traditions",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-333",
+  "q": "Selon la tradition, combien de rois mages apportent des cadeaux à l'Enfant Jésus ?",
+  "r": "3",
+  "t": "Fêtes et traditions",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-334",
+  "q": "Autrefois, quel fruit les enfants trouvaient-ils souvent dans leurs souliers à Noël ?",
+  "r": "Une orange",
+  "t": "Fêtes et traditions",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-335",
+  "q": "Quel saint a donné son nom à la soirée du 31 décembre ?",
+  "r": "Saint Sylvestre",
+  "t": "Fêtes et traditions",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-336",
+  "q": "Comment appelle-t-on le grand repas de fête du soir du 24 ou du 31 décembre ?",
+  "r": "Le réveillon",
+  "t": "Fêtes et traditions",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-337",
+  "q": "Quel jour commence la nouvelle année ?",
+  "r": "Le 1er janvier",
+  "t": "Fêtes et traditions",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-338",
+  "q": "En quel mois fête-t-on Halloween ?",
+  "r": "Octobre",
+  "t": "Fêtes et traditions",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-339",
+  "q": "Quelle phrase disent les enfants déguisés en sonnant aux portes le soir d'Halloween ?",
+  "r": "Des bonbons ou un sort",
+  "t": "Fêtes et traditions",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-340",
+  "q": "À quelle fête de février ou de mars se déguise-t-on en mangeant des beignets ?",
+  "r": "Mardi gras",
+  "t": "Fêtes et traditions",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-341",
+  "q": "Quel jour fête-t-on les amoureux, à la Saint-Valentin ?",
+  "r": "Le 14 février",
+  "t": "Fêtes et traditions",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-342",
+  "q": "Selon la tradition, quel animal accompagne saint Nicolas dans sa tournée du 6 décembre ?",
+  "r": "L'âne",
+  "t": "Fêtes et traditions",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-343",
+  "q": "Quelle fête américaine de la fin novembre se célèbre en famille autour d'une dinde ?",
+  "r": "Thanksgiving",
+  "t": "Fêtes et traditions",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-344",
+  "q": "Quel grand animal en tissu danse dans les rues pendant le Nouvel An chinois ?",
+  "r": "Le dragon",
+  "t": "Fêtes et traditions",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-345",
+  "q": "Dans quelle région française se trouve le célèbre marché de Noël de Strasbourg ?",
+  "r": "L'Alsace",
+  "t": "Fêtes et traditions",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-346",
+  "q": "Quelles fleurs pose-t-on traditionnellement au cimetière pour la Toussaint ?",
+  "r": "Les chrysanthèmes",
+  "t": "Fêtes et traditions",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-347",
+  "q": "Quelle viande mange-t-on souvent en rôti, avec des haricots, au repas de Pâques ?",
+  "r": "L'agneau",
+  "t": "Fêtes et traditions",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-348",
+  "q": "Quelle fête, au printemps, permet aux enfants d'offrir un cadeau à leur maman ?",
+  "r": "La fête des Mères",
+  "t": "Fêtes et traditions",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-349",
+  "q": "Quelle fête de juin permet aux enfants d'offrir un cadeau à leur papa ?",
+  "r": "La fête des Pères",
+  "t": "Fêtes et traditions",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-350",
+  "q": "Quel saint donne son nom aux grands feux qu'on allume dans les villages vers le 24 juin ?",
+  "r": "Saint Jean",
+  "t": "Fêtes et traditions",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-351",
+  "q": "Que souhaite-t-on à tout le monde à minuit, le soir du 31 décembre ?",
+  "r": "Bonne année",
+  "t": "Fêtes et traditions",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-352",
+  "q": "Dans quel petit pot les écoliers d'autrefois trempaient-ils leur plume ?",
+  "r": "L'encrier",
+  "t": "Vie d'autrefois",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-353",
+  "q": "Sur quelle petite plaque noire les écoliers d'autrefois écrivaient-ils à la craie ?",
+  "r": "L'ardoise",
+  "t": "Vie d'autrefois",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-354",
+  "q": "Quel chapeau pointu à grandes oreilles mettait-on autrefois aux élèves punis ?",
+  "r": "Le bonnet d'âne",
+  "t": "Vie d'autrefois",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-355",
+  "q": "Que portaient les écoliers par-dessus leurs vêtements pour ne pas les tacher d'encre ?",
+  "r": "La blouse",
+  "t": "Vie d'autrefois",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-356",
+  "q": "Avec quel petit bâton blanc écrit-on sur le tableau noir ?",
+  "r": "La craie",
+  "t": "Vie d'autrefois",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-357",
+  "q": "Avec la plume de quel oiseau de la ferme écrivait-on autrefois ?",
+  "r": "L'oie",
+  "t": "Vie d'autrefois",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-358",
+  "q": "Quelle petite carte donnait-on autrefois aux élèves sages, pour les récompenser ?",
+  "r": "Le bon point",
+  "t": "Vie d'autrefois",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-359",
+  "q": "Comment appelait-on autrefois le maître de l'école du village ?",
+  "r": "L'instituteur",
+  "t": "Vie d'autrefois",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-360",
+  "q": "Où allait-on nettoyer son linge au village, avant les machines ?",
+  "r": "Au lavoir",
+  "t": "Vie d'autrefois",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-361",
+  "q": "Comment appelait-on les femmes dont le métier était de nettoyer le linge à la rivière ?",
+  "r": "Les lavandières",
+  "t": "Vie d'autrefois",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-362",
+  "q": "Où allait-on chercher l'eau avant d'avoir un robinet à la maison ?",
+  "r": "Au puits",
+  "t": "Vie d'autrefois",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-363",
+  "q": "Quel artisan s'occupe de chausser les sabots des chevaux ?",
+  "r": "Le maréchal-ferrant",
+  "t": "Vie d'autrefois",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-364",
+  "q": "Quelles chaussures taillées dans le bois portaient les paysans autrefois ?",
+  "r": "Les sabots",
+  "t": "Vie d'autrefois",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-365",
+  "q": "Quelle poudre blanche le meunier fabriquait-il avec le blé ?",
+  "r": "La farine",
+  "t": "Vie d'autrefois",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-366",
+  "q": "Avant le tracteur, quels animaux tiraient les outils pour labourer les champs ?",
+  "r": "Les bœufs",
+  "t": "Vie d'autrefois",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-367",
+  "q": "Quel outil, tiré par des animaux, retournait la terre des champs ?",
+  "r": "La charrue",
+  "t": "Vie d'autrefois",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-368",
+  "q": "Quel grand outil à lame courbe servait à couper le blé et l'herbe à la main ?",
+  "r": "La faux",
+  "t": "Vie d'autrefois",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-369",
+  "q": "Quelle bouteille remplie d'eau chaude glissait-on dans le lit pour avoir chaud ?",
+  "r": "La bouillotte",
+  "t": "Vie d'autrefois",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-370",
+  "q": "Quel métier consistait à passer chaque soir dans les rues pour mettre en marche les lampes à gaz ?",
+  "r": "L'allumeur de réverbères",
+  "t": "Vie d'autrefois",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-371",
+  "q": "Sur quoi écoutait-on la musique avec un tourne-disque, avant les CD ?",
+  "r": "Les vinyles",
+  "t": "Vie d'autrefois",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-372",
+  "q": "Quelle petite boîte en plastique, avec une bande à l'intérieur, contenait de la musique dans les années 1980 ?",
+  "r": "La cassette",
+  "t": "Vie d'autrefois",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-373",
+  "q": "Qui grimpait sur les toits pour nettoyer les cheminées pleines de suie ?",
+  "r": "Le ramoneur",
+  "t": "Vie d'autrefois",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-374",
+  "q": "Quel grand anneau en bois les enfants d'autrefois faisaient-ils rouler en le poussant avec un bâton ?",
+  "r": "Le cerceau",
+  "t": "Vie d'autrefois",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-375",
+  "q": "À quel jeu saute-t-on de case en case, dessinées à la craie, en poussant un caillou ?",
+  "r": "La marelle",
+  "t": "Vie d'autrefois",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-376",
+  "q": "Qui distribuait les lettres à vélo dans les villages ?",
+  "r": "Le facteur",
+  "t": "Vie d'autrefois",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-377",
+  "q": "Avant la voiture, quel animal était le moyen de transport le plus utilisé ?",
+  "r": "Le cheval",
+  "t": "Vie d'autrefois",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-378",
+  "q": "Quel grand véhicule doré, tiré par des chevaux, transportait les rois et les reines ?",
+  "r": "Le carrosse",
+  "t": "Vie d'autrefois",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-379",
+  "q": "Comment appelle-t-on l'homme qui conduit une voiture tirée par des chevaux ?",
+  "r": "Le cocher",
+  "t": "Vie d'autrefois",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-380",
+  "q": "Quel combustible noir brûlait-on dans le poêle pour chauffer la maison ?",
+  "r": "Le charbon",
+  "t": "Vie d'autrefois",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-381",
+  "q": "Avant le gaz et l'électricité, que brûlait-on dans la cheminée pour faire la cuisine ?",
+  "r": "Le bois",
+  "t": "Vie d'autrefois",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-382",
+  "q": "Sans réfrigérateur, avec quoi recouvrait-on la viande pour la conserver longtemps ?",
+  "r": "Le sel",
+  "t": "Vie d'autrefois",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-383",
+  "q": "Dans quelle pièce sous la maison gardait-on le vin et les légumes au frais ?",
+  "r": "La cave",
+  "t": "Vie d'autrefois",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-384",
+  "q": "Quel petit appareil à manivelle servait autrefois à écraser les grains de café à la maison ?",
+  "r": "Le moulin à café",
+  "t": "Vie d'autrefois",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-385",
+  "q": "Quelle célèbre marionnette, née à Lyon, amuse les enfants depuis plus de 200 ans ?",
+  "r": "Guignol",
+  "t": "Vie d'autrefois",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-386",
+  "q": "Quel appareil à pédale permettait de fabriquer des vêtements à la maison ?",
+  "r": "La machine à coudre",
+  "t": "Vie d'autrefois",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-387",
+  "q": "Autour de quel appareil la famille se réunissait-elle pour écouter les nouvelles, avant la télévision ?",
+  "r": "La radio",
+  "t": "Vie d'autrefois",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-388",
+  "q": "Que gardait-on sous le lit pour faire pipi la nuit, quand les toilettes étaient au fond du jardin ?",
+  "r": "Le pot de chambre",
+  "t": "Vie d'autrefois",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-389",
+  "q": "Quel vêtement très serré les dames portaient-elles autrefois pour avoir la taille fine ?",
+  "r": "Le corset",
+  "t": "Vie d'autrefois",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-390",
+  "q": "Quel grand bateau transportait les passagers d'un continent à l'autre, avant les avions ?",
+  "r": "Le paquebot",
+  "t": "Vie d'autrefois",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-391",
+  "q": "Chez qui les messieurs d'autrefois allaient-ils se faire raser les joues et couper les cheveux ?",
+  "r": "Le barbier",
+  "t": "Vie d'autrefois",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-392",
+  "q": "Dans quel gros livre cherchait-on autrefois le numéro de téléphone de quelqu'un ?",
+  "r": "L'annuaire",
+  "t": "Vie d'autrefois",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-393",
+  "q": "Qui annonçait les nouvelles sur la place du village en battant du tambour ?",
+  "r": "Le garde champêtre",
+  "t": "Vie d'autrefois",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-394",
+  "q": "Quel moyen de transport roule sur des rails au milieu des rues des villes ?",
+  "r": "Le tramway",
+  "t": "Inventions",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-395",
+  "q": "De quelle couleur sont les boîtes aux lettres de La Poste en France ?",
+  "r": "Jaune",
+  "t": "Symboles de la France",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-396",
+  "q": "Quel pays fête chaque année son indépendance le 4 juillet ?",
+  "r": "Les États-Unis",
+  "t": "Fêtes et traditions",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-397",
+  "q": "Quel Américain a créé la souris Mickey en 1928, avant de donner son nom à un grand studio ?",
+  "r": "Walt Disney",
+  "t": "Personnages célèbres",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-398",
+  "q": "Quel inventeur suédois a créé les célèbres prix qui portent son nom ?",
+  "r": "Alfred Nobel",
+  "t": "Inventions",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-399",
+  "q": "Quel engin spatial américain, qui se posait comme un avion, a volé de 1981 à 2011 ?",
+  "r": "La navette spatiale",
+  "t": "Conquête de l'espace",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-400",
+  "q": "Comment appelle-t-on la fête de l'école, en fin d'année, avec des stands de jeux ?",
+  "r": "La kermesse",
+  "t": "Fêtes et traditions",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-401",
+  "q": "Que lance-t-on souvent sur les mariés à la sortie de la mairie ?",
+  "r": "Du riz",
+  "t": "Fêtes et traditions",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-402",
+  "q": "Quelle couleur porte-t-on pour fêter la Saint-Patrick, le 17 mars ?",
+  "r": "Le vert",
+  "t": "Fêtes et traditions",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-403",
+  "q": "Combien de bougies allume-t-on sur la couronne de l'Avent ?",
+  "r": "4",
+  "t": "Fêtes et traditions",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-404",
+  "q": "Quelle grosse volaille rôtie mange-t-on souvent au repas de Noël ?",
+  "r": "La dinde",
+  "t": "Fêtes et traditions",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-405",
+  "q": "Quel arbre en fleurs roses les Japonais admirent-ils au printemps lors d'une grande fête ?",
+  "r": "Le cerisier",
+  "t": "Fêtes et traditions",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-406",
+  "q": "Quel personnage de carnaval porte un costume fait de losanges de toutes les couleurs ?",
+  "r": "Arlequin",
+  "t": "Fêtes et traditions",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-407",
+  "q": "Quel pays voisin de la France, au sud des Pyrénées, est gouverné par un roi ?",
+  "r": "L'Espagne",
+  "t": "Rois et reines",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-408",
+  "q": "Quel pays voisin, au nord de la France, a un roi et est célèbre pour ses frites et ses gaufres ?",
+  "r": "La Belgique",
+  "t": "Rois et reines",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-409",
+  "q": "Dans quel pays d'Asie le souverain porte-t-il encore le titre d'empereur ?",
+  "r": "Le Japon",
+  "t": "Rois et reines",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-410",
+  "q": "Quel personnage tout de blanc vêtu, ami de Colombine, est toujours triste et rêveur ?",
+  "r": "Pierrot",
+  "t": "Fêtes et traditions",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-411",
+  "q": "Quelle fête du 1er novembre donne aux écoliers des vacances d'automne ?",
+  "r": "La Toussaint",
+  "t": "Fêtes et traditions",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-412",
+  "q": "De quelle grande région du nord de l'Europe, avec la Norvège, la Suède et le Danemark, venaient les Vikings ?",
+  "r": "La Scandinavie",
+  "t": "Vikings",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-413",
+  "q": "Sur quel continent des Vikings sont-ils arrivés vers l'an 1000, presque 500 ans avant Christophe Colomb ?",
+  "r": "L'Amérique",
+  "t": "Vikings",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-414",
+  "q": "Dans les légendes des Vikings, quel dieu, chef de tous les autres, n'avait qu'un seul œil ?",
+  "r": "Odin",
+  "t": "Vikings",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-415",
+  "q": "En plus des rames, qu'est-ce qui faisait avancer les bateaux des Vikings grâce au vent ?",
+  "r": "La voile",
+  "t": "Vikings",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-416",
+  "q": "Quel métier exerçaient la plupart des Vikings quand ils ne partaient pas en mer ?",
+  "r": "Paysan",
+  "t": "Vikings",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-417",
+  "q": "Sur quelle île du nord, pleine de volcans et de glaciers, des Vikings se sont-ils installés il y a plus de 1 000 ans ?",
+  "r": "L'Islande",
+  "t": "Vikings",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-418",
+  "q": "Quelle forme avaient les boucliers en bois des Vikings ?",
+  "r": "Ronde",
+  "t": "Vikings",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-419",
+  "q": "Quelle ville de Bretagne, entourée de remparts, est surnommée la « cité corsaire » ?",
+  "r": "Saint-Malo",
+  "t": "Pirates et corsaires",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-420",
+  "q": "Quelle mer chaude d'Amérique, pleine d'îles, était un grand repaire de pirates au XVIIe siècle ?",
+  "r": "La mer des Caraïbes",
+  "t": "Pirates et corsaires",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-421",
+  "q": "Quel célèbre pharaon d'Égypte a régné pendant plus de 60 ans ?",
+  "r": "Ramsès II",
+  "t": "Égypte ancienne",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-422",
+  "q": "Avec quel matériau les pyramides de Gizeh ont-elles été bâties ?",
+  "r": "La pierre",
+  "t": "Égypte ancienne",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-423",
+  "q": "Comment appelait-on la personne dont le métier était de transformer les corps en momies ?",
+  "r": "L'embaumeur",
+  "t": "Égypte ancienne",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-424",
+  "q": "Dans quel sanctuaire grec, où l'on allume aujourd'hui la flamme des Jeux, se déroulaient les Jeux de l'Antiquité ?",
+  "r": "Olympie",
+  "t": "Jeux de l'Antiquité",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-425",
+  "q": "Aux Jeux de l'Antiquité, qui avait le droit de participer aux épreuves : les hommes ou les femmes ?",
+  "r": "Les hommes",
+  "t": "Jeux de l'Antiquité",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-426",
+  "q": "Quelle course spectaculaire, avec des chevaux attelés à une voiture à deux roues, avait lieu aux Jeux de l'Antiquité ?",
+  "r": "La course de chars",
+  "t": "Jeux de l'Antiquité",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-427",
+  "q": "Quel sport de combat, où il fallait faire tomber trois fois l'adversaire, existait déjà aux Jeux de l'Antiquité ?",
+  "r": "La lutte",
+  "t": "Jeux de l'Antiquité",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-428",
+  "q": "Quel Français a fait renaître les Jeux olympiques à l'époque moderne, à la fin du XIXe siècle ?",
+  "r": "Pierre de Coubertin",
+  "t": "Jeux olympiques",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-429",
+  "q": "Dans quelle ville grecque ont eu lieu les premiers Jeux olympiques modernes, en 1896 ?",
+  "r": "Athènes",
+  "t": "Jeux olympiques",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-430",
+  "q": "Quel artisan du Moyen Âge donnait leur forme aux gros blocs qui servaient à bâtir les cathédrales ?",
+  "r": "Le tailleur de pierre",
+  "t": "Moyen Âge",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-431",
+  "q": "Au Moyen Âge, quel artisan fabriquait les tonneaux en bois pour garder le vin ?",
+  "r": "Le tonnelier",
+  "t": "Moyen Âge",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-432",
+  "q": "Quelle petite graine noire et piquante, venue d'Asie, était une épice très chère au Moyen Âge ?",
+  "r": "Le poivre",
+  "t": "Moyen Âge",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-433",
+  "q": "Avant que le sucre devienne courant, avec quoi sucrait-on surtout les plats au Moyen Âge ?",
+  "r": "Le miel",
+  "t": "Moyen Âge",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-434",
+  "q": "Comment appelle-t-on le grand marché où des marchands venus de très loin se retrouvaient au Moyen Âge ?",
+  "r": "La foire",
+  "t": "Moyen Âge",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-435",
+  "q": "Quel animal de la ferme se promenait librement dans les rues des villes du Moyen Âge pour manger les ordures ?",
+  "r": "Le cochon",
+  "t": "Moyen Âge",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-436",
+  "q": "Quelle grande basilique blanche domine Paris du haut de la butte Montmartre ?",
+  "r": "Le Sacré-Cœur",
+  "t": "Monuments de France",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-437",
+  "q": "Combien d'étages ouverts aux visiteurs compte la tour Eiffel ?",
+  "r": "3",
+  "t": "Monuments de France",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-438",
+  "q": "Quel est le plus ancien pont de Paris encore debout, malgré son nom qui dit le contraire ?",
+  "r": "Le Pont-Neuf",
+  "t": "Monuments de France",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-439",
+  "q": "Dans quel monument de Paris, au grand dôme, reposent des personnages célèbres comme Victor Hugo et Marie Curie ?",
+  "r": "Le Panthéon",
+  "t": "Monuments de France",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-440",
+  "q": "Quel liquide fallait-il faire bouillir pour qu'une locomotive à vapeur avance ?",
+  "r": "L'eau",
+  "t": "Transports d'autrefois",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-441",
+  "q": "Comment s'appelait le vélo d'autrefois avec une roue avant immense et une toute petite roue arrière ?",
+  "r": "Le grand-bi",
+  "t": "Transports d'autrefois",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-442",
+  "q": "Quelle petite voiture Citroën, surnommée la « deudeuche », a été présentée au public en 1948 ?",
+  "r": "La 2 CV",
+  "t": "Transports d'autrefois",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-443",
+  "q": "Avec les lois de Jules Ferry, en 1882, à partir de quel âge l'école est-elle devenue obligatoire pour tous les enfants ?",
+  "r": "6 ans",
+  "t": "École d'autrefois",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-444",
+  "q": "Avec Jules Ferry, l'école publique devient laïque, obligatoire et quoi d'autre, pour que personne n'ait à payer ?",
+  "r": "Gratuite",
+  "t": "École d'autrefois",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-445",
+  "q": "Quel papier spécial posait-on sur le cahier pour sécher l'encre ?",
+  "r": "Le buvard",
+  "t": "École d'autrefois",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-446",
+  "q": "Comment s'appelle la table d'écolier d'autrefois, avec un couvercle qui se soulève et un trou pour l'encrier ?",
+  "r": "Le pupitre",
+  "t": "École d'autrefois",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-447",
+  "q": "Quel diplôme les écoliers d'autrefois passaient-ils à la fin de l'école primaire ?",
+  "r": "Le certificat d'études",
+  "t": "École d'autrefois",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-448",
+  "q": "Comment s'appelait la petite boîte en bois, au couvercle qui glisse, où l'écolier d'autrefois rangeait ses crayons ?",
+  "r": "Le plumier",
+  "t": "École d'autrefois",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-449",
+  "q": "Sur quel petit manche en bois fixait-on la pointe en métal qui servait à écrire à l'encre ?",
+  "r": "Le porte-plume",
+  "t": "École d'autrefois",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-450",
+  "q": "Quel nom anglais, inspiré du surnom d'un président américain, donne-t-on à l'ours en peluche ?",
+  "r": "Teddy bear",
+  "t": "Histoire des jouets",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-451",
+  "q": "Quel casse-tête en forme de cube aux faces colorées a été inventé par un Hongrois en 1974 ?",
+  "r": "Le Rubik's Cube",
+  "t": "Histoire des jouets",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-452",
+  "q": "Comment s'appellent les poupées en bois de Russie qui se rangent les unes dans les autres ?",
+  "r": "Les matriochkas",
+  "t": "Histoire des jouets",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-453",
+  "q": "Quels petits personnages en plastique, au grand sourire, ont été lancés en Allemagne en 1974 ?",
+  "r": "Les Playmobil",
+  "t": "Histoire des jouets",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-454",
+  "q": "Quel jouet en bois en forme d'animal, posé sur deux arcs, se balance d'avant en arrière ?",
+  "r": "Le cheval à bascule",
+  "t": "Histoire des jouets",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-455",
+  "q": "Quelle console de jeu portable de Nintendo, sortie en 1989, avait un petit écran vert et gris ?",
+  "r": "La Game Boy",
+  "t": "Histoire des jouets",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-456",
+  "q": "Quel jouet ancien est fait d'une boule percée, reliée par une ficelle à un bâton sur lequel il faut l'enfiler ?",
+  "r": "Le bilboquet",
+  "t": "Histoire des jouets",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-457",
+  "q": "Quel jeu de plateau très ancien, avec 63 cases en spirale, porte le nom d'un oiseau de la ferme ?",
+  "r": "Le jeu de l'oie",
+  "t": "Histoire des jouets",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-458",
+  "q": "Quel petit animal virtuel, dans un boîtier en forme d'œuf, venu du Japon en 1996, fallait-il nourrir et soigner ?",
+  "r": "Le Tamagotchi",
+  "t": "Histoire des jouets",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-459",
+  "q": "À quel jeu, déjà connu des Grecs, lance-t-on et rattrape-t-on cinq petites pièces, autrefois tirées de pattes de mouton ?",
+  "r": "Les osselets",
+  "t": "Histoire des jouets",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-460",
+  "q": "Quel jeu vidéo, où il faut empiler des blocs qui tombent, a été inventé à Moscou en 1984 ?",
+  "r": "Tetris",
+  "t": "Histoire des jouets",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-461",
+  "q": "Quel peuple germanique, dont Clovis était le roi, a donné son nom à la France ?",
+  "r": "Les Francs",
+  "t": "Grands personnages",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-462",
+  "q": "Que veut dire le nom « Charlemagne » ?",
+  "r": "Charles le Grand",
+  "t": "Grands personnages",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-463",
+  "q": "Quelle bataille, perdue en 1815 dans l'actuelle Belgique, a marqué la fin du règne de Napoléon ?",
+  "r": "Waterloo",
+  "t": "Grands personnages",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-464",
+  "q": "Dans quelle cathédrale de Paris Napoléon a-t-il été sacré empereur, en 1804 ?",
+  "r": "Notre-Dame de Paris",
+  "t": "Grands personnages",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-465",
+  "q": "Comment appelle-t-on les gants de fer que porte un chevalier en armure ?",
+  "r": "Les gantelets",
+  "t": "Chevaliers",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-466",
+  "q": "Comment s'appelle la partie du casque qui se baisse pour protéger le visage du chevalier ?",
+  "r": "La visière",
+  "t": "Chevaliers",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-467",
+  "q": "Dans quel étui le chevalier range-t-il son épée, accroché à sa ceinture ?",
+  "r": "Le fourreau",
+  "t": "Chevaliers",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-468",
+  "q": "Quels grands tissus brodés accrochait-on aux murs des châteaux forts, pour les décorer et garder la chaleur ?",
+  "r": "Les tapisseries",
+  "t": "Châteaux forts",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-469",
+  "q": "Comment appelle-t-on l'attaque d'un navire quand les pirates sautent à bord ?",
+  "r": "L'abordage",
+  "t": "Pirates",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-470",
+  "q": "Dans quelle partie basse du navire les pirates entassaient-ils les marchandises volées ?",
+  "r": "La cale",
+  "t": "Pirates",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-471",
+  "q": "Quel oiseau coloré est souvent posé sur l'épaule des pirates dans les histoires ?",
+  "r": "Le perroquet",
+  "t": "Pirates",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-472",
+  "q": "Comment appelle-t-on le jeune garçon qui fait les petits travaux à bord d'un bateau ?",
+  "r": "Le mousse",
+  "t": "Marins d'autrefois",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-473",
+  "q": "Comment appelle-t-on le cuisinier d'un bateau, qui porte le même nom qu'un oiseau de la ferme ?",
+  "r": "Le coq",
+  "t": "Marins d'autrefois",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-474",
+  "q": "Comment appelle-t-on le marin qui surveille l'horizon tout en haut du mât ?",
+  "r": "La vigie",
+  "t": "Marins d'autrefois",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-475",
+  "q": "Dans quel lit en toile, suspendu, dormaient les marins à bord des navires ?",
+  "r": "Le hamac",
+  "t": "Marins d'autrefois",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-476",
+  "q": "Quel mot crie le marin perché en haut du mât quand il aperçoit enfin la côte ?",
+  "r": "Terre !",
+  "t": "Explorateurs",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-477",
+  "q": "Dans quel cahier le capitaine d'un navire notait-il chaque jour tout ce qui arrivait pendant le voyage ?",
+  "r": "Le journal de bord",
+  "t": "Explorateurs",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-478",
+  "q": "Avec quoi les Gaulois couvraient-ils le plus souvent le toit de leurs maisons ?",
+  "r": "De la paille",
+  "t": "Gaulois",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-479",
+  "q": "Quelle arme, faite d'une large lame au bout d'un manche en bois, est souvent associée aux guerriers vikings ?",
+  "r": "La hache",
+  "t": "Vikings",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-480",
+  "q": "Comment s'appellent les chaussures souples en cuir que portaient les Amérindiens ?",
+  "r": "Les mocassins",
+  "t": "Amérindiens",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-481",
+  "q": "Quel objet rond, avec des fils et des plumes, des Amérindiens accrochaient-ils près du lit pour chasser les cauchemars ?",
+  "r": "L'attrape-rêves",
+  "t": "Amérindiens",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-482",
+  "q": "Comment appelle-t-on le long bateau étroit des Amérindiens d'Amérique du Nord, que l'on fait avancer avec une pagaie ?",
+  "r": "Le canoë",
+  "t": "Amérindiens",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-483",
+  "q": "Avec l'écorce de quel arbre, toute blanche, les Amérindiens du Nord fabriquaient-ils leurs canoës ?",
+  "r": "Le bouleau",
+  "t": "Amérindiens",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-484",
+  "q": "Que portaient souvent sur la tête les chefs amérindiens des grandes plaines, lors des cérémonies ?",
+  "r": "Une coiffe de plumes",
+  "t": "Amérindiens",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-485",
+  "q": "Avec quoi des Amérindiens envoyaient-ils des messages au loin, en couvrant puis découvrant un feu ?",
+  "r": "La fumée",
+  "t": "Amérindiens",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-486",
+  "q": "Quel âge avait à peu près Jeanne d'Arc quand elle a délivré Orléans : 17 ans, 27 ans ou 37 ans ?",
+  "r": "17 ans",
+  "t": "Jeanne d'Arc",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-487",
+  "q": "Sur quel animal Napoléon a-t-il vraiment traversé les Alpes, et non sur un fier cheval comme dans le tableau ?",
+  "r": "Une mule",
+  "t": "Napoléon",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-488",
+  "q": "De quelle couleur étaient les talons des chaussures du roi Louis XIV ?",
+  "r": "Rouges",
+  "t": "Louis XIV",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-489",
+  "q": "Quel roi de France, mari de Marie-Antoinette, aimait fabriquer lui-même des clés et des serrures ?",
+  "r": "Louis XVI",
+  "t": "Rois de France",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-490",
+  "q": "Quels oiseaux noirs vivent à la tour de Londres, car une légende dit que le royaume tomberait s'ils partaient ?",
+  "r": "Les corbeaux",
+  "t": "Monuments",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-491",
+  "q": "Quelle grande horloge en bois, posée au sol, a un balancier qui va de gauche à droite ?",
+  "r": "L'horloge comtoise",
+  "t": "Objets anciens",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-492",
+  "q": "Dans quel grand bac en bois préparait-on la pâte à pain, autrefois, dans les fermes ?",
+  "r": "Le pétrin",
+  "t": "Objets anciens",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-493",
+  "q": "Quel petit placard aéré, au grillage fin, gardait les aliments à l'abri des mouches avant le frigo ?",
+  "r": "Le garde-manger",
+  "t": "Objets anciens",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-494",
+  "q": "Comment s'appelle le grand support à plusieurs branches où l'on plante des bougies ?",
+  "r": "Le chandelier",
+  "t": "Objets anciens",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-495",
+  "q": "Quel appareil permettait d'enregistrer les émissions de télévision sur une cassette ?",
+  "r": "Le magnétoscope",
+  "t": "Objets anciens",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-496",
+  "q": "Avec quelle machine à grande roue filait-on la laine à la maison, autrefois ?",
+  "r": "Le rouet",
+  "t": "Objets anciens",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-497",
+  "q": "Sur quel petit carré de plastique enregistrait-on les fichiers d'un ordinateur, avant les clés USB ?",
+  "r": "La disquette",
+  "t": "Objets anciens",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-498",
+  "q": "Quel appareil, relié au téléphone, envoyait la copie d'une feuille de papier à l'autre bout du monde ?",
+  "r": "Le fax",
+  "t": "Objets anciens",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-499",
+  "q": "Quel message court, envoyé par la poste et livré très vite, existait bien avant les SMS ?",
+  "r": "Le télégramme",
+  "t": "Objets anciens",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-500",
+  "q": "Avec quel objet, qu'on ouvre et qu'on referme à deux mains, envoie-t-on de l'air sur le feu de la cheminée ?",
+  "r": "Le soufflet",
+  "t": "Objets anciens",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-501",
+  "q": "Quel objet pliant, en papier ou en tissu, les dames agitaient-elles pour se rafraîchir ?",
+  "r": "L'éventail",
+  "t": "Objets anciens",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-502",
+  "q": "Quel petit parapluie léger protégeait les dames du soleil, autrefois ?",
+  "r": "L'ombrelle",
+  "t": "Objets anciens",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-503",
+  "q": "Dans quel grand meuble en bois, avec un couvercle, rangeait-on le linge avant l'arrivée des armoires ?",
+  "r": "Le coffre",
+  "t": "Objets anciens",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-504",
+  "q": "Sur quelle petite plate-forme en bois était posé le bureau du maître, dans les classes d'autrefois ?",
+  "r": "L'estrade",
+  "t": "École d'autrefois",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-505",
+  "q": "Comment appelait-on la cérémonie de fin d'année où les meilleurs élèves recevaient des livres en cadeau ?",
+  "r": "La distribution des prix",
+  "t": "École d'autrefois",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-506",
+  "q": "Où envoyait-on autrefois l'élève puni, debout face au mur ?",
+  "r": "Au coin",
+  "t": "École d'autrefois",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-507",
+  "q": "De quelle couleur était souvent l'encre des écoliers d'autrefois ?",
+  "r": "Violette",
+  "t": "École d'autrefois",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-508",
+  "q": "Quelle courte leçon sur la bonne conduite le maître écrivait-il au tableau chaque matin, autrefois ?",
+  "r": "La morale",
+  "t": "École d'autrefois",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-509",
+  "q": "Quel appareil, au milieu de la classe, chauffait les écoliers d'autrefois en hiver ?",
+  "r": "Le poêle",
+  "t": "École d'autrefois",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-510",
+  "q": "Dans les années 1950, quelle boisson distribuait-on aux écoliers à la récréation ?",
+  "r": "Le lait",
+  "t": "École d'autrefois",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-511",
+  "q": "Quelle punition, à l'école, consistait à recopier cent fois la même phrase ?",
+  "r": "Les lignes",
+  "t": "École d'autrefois",
+  "niveau": "enfant"
+ },
+ {
+  "id": "his_enfant-512",
+  "q": "Dans quelle boîte en métal les écoliers d'autrefois apportaient-ils leur repas de midi ?",
+  "r": "La gamelle",
+  "t": "École d'autrefois",
+  "niveau": "enfant"
+ }
+]

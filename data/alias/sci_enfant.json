@@ -1,0 +1,3101 @@
+{
+ "sci_enfant-001": {
+  "a": [
+   "Il miaule"
+  ]
+ },
+ "sci_enfant-002": {
+  "a": [
+   "Aboyer",
+   "L'aboiement",
+   "Il jappe",
+   "Japper"
+  ]
+ },
+ "sci_enfant-003": {
+  "a": [
+   "Rugir",
+   "Le rugissement"
+  ]
+ },
+ "sci_enfant-004": {
+  "a": [
+   "Hurler",
+   "Le hurlement"
+  ]
+ },
+ "sci_enfant-005": {
+  "a": [
+   "Grogner",
+   "Le grognement",
+   "Il grouine",
+   "Grouiner"
+  ]
+ },
+ "sci_enfant-006": {
+  "a": [
+   "Serpent"
+  ]
+ },
+ "sci_enfant-007": {
+  "a": [
+   "Chien"
+  ]
+ },
+ "sci_enfant-008": {
+  "a": [
+   "Bourdonner",
+   "Le bourdonnement"
+  ]
+ },
+ "sci_enfant-009": {
+  "a": [
+   "Ronronner",
+   "Le ronronnement"
+  ]
+ },
+ "sci_enfant-010": {
+  "a": [
+   "Chaton"
+  ]
+ },
+ "sci_enfant-011": {
+  "a": [
+   "Chiot"
+  ]
+ },
+ "sci_enfant-012": {
+  "a": [
+   "Poussin"
+  ]
+ },
+ "sci_enfant-013": {
+  "a": [
+   "Veau"
+  ]
+ },
+ "sci_enfant-014": {
+  "a": [
+   "Agneau"
+  ]
+ },
+ "sci_enfant-015": {
+  "a": [
+   "Poulain",
+   "La pouliche"
+  ]
+ },
+ "sci_enfant-016": {
+  "a": [
+   "Lionceau"
+  ]
+ },
+ "sci_enfant-017": {
+  "a": [
+   "Ourson"
+  ]
+ },
+ "sci_enfant-018": {
+  "a": [
+   "Girafon",
+   "Le girafeau",
+   "Girafeau"
+  ]
+ },
+ "sci_enfant-019": {
+  "a": [
+   "Baleineau"
+  ]
+ },
+ "sci_enfant-020": {
+  "a": [
+   "Oisillon"
+  ]
+ },
+ "sci_enfant-021": {
+  "a": [
+   "Chenille"
+  ]
+ },
+ "sci_enfant-022": {
+  "a": [
+   "Asticot",
+   "La larve"
+  ]
+ },
+ "sci_enfant-023": {
+  "a": [
+   "Brebis"
+  ]
+ },
+ "sci_enfant-024": {
+  "a": [
+   "Poisson rouge"
+  ]
+ },
+ "sci_enfant-025": {
+  "a": [
+   "Colombe"
+  ]
+ },
+ "sci_enfant-026": {
+  "a": [
+   "Truie"
+  ]
+ },
+ "sci_enfant-027": {
+  "a": [
+   "Cane"
+  ]
+ },
+ "sci_enfant-028": {
+  "a": [
+   "Lionne"
+  ]
+ },
+ "sci_enfant-029": {
+  "a": [
+   "Ruche"
+  ]
+ },
+ "sci_enfant-030": {
+  "a": [
+   "Terrier"
+  ]
+ },
+ "sci_enfant-031": {
+  "a": [
+   "Niche"
+  ]
+ },
+ "sci_enfant-032": {
+  "a": [
+   "Écurie",
+   "Ecurie"
+  ]
+ },
+ "sci_enfant-033": {
+  "a": [
+   "Étable",
+   "Etable"
+  ]
+ },
+ "sci_enfant-034": {
+  "a": [
+   "Bergerie"
+  ]
+ },
+ "sci_enfant-035": {
+  "a": [
+   "Porcherie"
+  ]
+ },
+ "sci_enfant-036": {
+  "a": [
+   "Le nid",
+   "Nid"
+  ]
+ },
+ "sci_enfant-037": {
+  "a": [
+   "Une toile",
+   "La toile",
+   "Toile"
+  ]
+ },
+ "sci_enfant-038": {
+  "a": [
+   "Tanière",
+   "L'antre"
+  ]
+ },
+ "sci_enfant-039": {
+  "a": [
+   "Clapier"
+  ]
+ },
+ "sci_enfant-040": {
+  "a": [
+   "Carapace"
+  ]
+ },
+ "sci_enfant-041": {
+  "a": [
+   "Limace"
+  ]
+ },
+ "sci_enfant-042": {
+  "a": [
+   "Cochon",
+   "Le porc"
+  ]
+ },
+ "sci_enfant-043": {
+  "a": [
+   "Un œuf",
+   "Les œufs",
+   "Œufs",
+   "Oeufs"
+  ]
+ },
+ "sci_enfant-044": {
+  "a": [
+   "Du lait",
+   "Lait"
+  ]
+ },
+ "sci_enfant-045": {
+  "a": [
+   "Sabots",
+   "Le sabot"
+  ]
+ },
+ "sci_enfant-046": {
+  "a": [
+   "Coq",
+   "Le coq gaulois"
+  ]
+ },
+ "sci_enfant-047": {
+  "a": [
+   "Huit"
+  ]
+ },
+ "sci_enfant-048": {
+  "a": [
+   "Huit"
+  ]
+ },
+ "sci_enfant-049": {
+  "a": [
+   "Deux"
+  ]
+ },
+ "sci_enfant-050": {
+  "a": [
+   "0",
+   "Zéro",
+   "Pas de pattes"
+  ]
+ },
+ "sci_enfant-051": {
+  "a": [
+   "Cinq"
+  ]
+ },
+ "sci_enfant-052": {
+  "a": [
+   "Dix"
+  ]
+ },
+ "sci_enfant-053": {
+  "a": [
+   "Quatre"
+  ]
+ },
+ "sci_enfant-054": {
+  "a": [
+   "Deux"
+  ]
+ },
+ "sci_enfant-055": {
+  "a": [
+   "Antennes",
+   "Des antennes"
+  ]
+ },
+ "sci_enfant-056": {
+  "a": [
+   "Trois",
+   "Trois parties"
+  ]
+ },
+ "sci_enfant-057": {
+  "a": [
+   "L'herbe",
+   "Herbe"
+  ]
+ },
+ "sci_enfant-058": {
+  "a": [
+   "Écureuil",
+   "Ecureuil"
+  ]
+ },
+ "sci_enfant-059": {
+  "a": [
+   "Nectar"
+  ]
+ },
+ "sci_enfant-060": {
+  "a": [
+   "Les feuilles",
+   "Feuilles"
+  ]
+ },
+ "sci_enfant-061": {
+  "a": [
+   "Herbivore"
+  ]
+ },
+ "sci_enfant-062": {
+  "a": [
+   "Carnivore"
+  ]
+ },
+ "sci_enfant-063": {
+  "a": [
+   "Omnivore"
+  ]
+ },
+ "sci_enfant-064": {
+  "a": [
+   "Souris",
+   "Le mulot",
+   "Le campagnol"
+  ]
+ },
+ "sci_enfant-065": {
+  "a": [
+   "Phoque",
+   "Les phoques"
+  ]
+ },
+ "sci_enfant-066": {
+  "a": [
+   "Hérisson"
+  ]
+ },
+ "sci_enfant-067": {
+  "a": [
+   "Girafe"
+  ]
+ },
+ "sci_enfant-068": {
+  "a": [
+   "La langue",
+   "Langue",
+   "Avec sa langue"
+  ]
+ },
+ "sci_enfant-069": {
+  "a": [
+   "Du poisson",
+   "Les poissons",
+   "Poisson",
+   "Du krill",
+   "Des crevettes",
+   "Des calmars"
+  ]
+ },
+ "sci_enfant-070": {
+  "a": [
+   "Abeille",
+   "Les abeilles"
+  ]
+ },
+ "sci_enfant-071": {
+  "a": [
+   "Lièvre",
+   "Lievre"
+  ]
+ },
+ "sci_enfant-072": {
+  "a": [
+   "Apiculteur",
+   "L'apicultrice"
+  ]
+ },
+ "sci_enfant-073": {
+  "a": [
+   "Requin"
+  ]
+ },
+ "sci_enfant-074": {
+  "a": [
+   "Ver à soie",
+   "La chenille du bombyx"
+  ]
+ },
+ "sci_enfant-075": {
+  "a": [
+   "Coccinelle"
+  ]
+ },
+ "sci_enfant-076": {
+  "a": [
+   "La trompe",
+   "Trompe"
+  ]
+ },
+ "sci_enfant-077": {
+  "a": [
+   "Moustique"
+  ]
+ },
+ "sci_enfant-078": {
+  "a": [
+   "Pou",
+   "Les poux"
+  ]
+ },
+ "sci_enfant-079": {
+  "a": [
+   "Bourdon"
+  ]
+ },
+ "sci_enfant-080": {
+  "a": [
+   "Fourmi",
+   "Les fourmis"
+  ]
+ },
+ "sci_enfant-081": {
+  "a": [
+   "Crocodile",
+   "L'alligator",
+   "Le caïman"
+  ]
+ },
+ "sci_enfant-082": {
+  "a": [
+   "Mammifères",
+   "Un mammifère"
+  ]
+ },
+ "sci_enfant-083": {
+  "a": [
+   "Un ovipare",
+   "Un animal ovipare"
+  ]
+ },
+ "sci_enfant-084": {
+  "a": [
+   "Branchies",
+   "Avec leurs branchies"
+  ]
+ },
+ "sci_enfant-085": {
+  "a": [
+   "Nageoires"
+  ]
+ },
+ "sci_enfant-086": {
+  "a": [
+   "Des plumes",
+   "Les plumes",
+   "Plumes"
+  ]
+ },
+ "sci_enfant-087": {
+  "a": [
+   "Mue",
+   "Muer"
+  ]
+ },
+ "sci_enfant-088": {
+  "a": [
+   "Nocturne"
+  ]
+ },
+ "sci_enfant-089": {
+  "a": [
+   "Amphibiens",
+   "Les batraciens"
+  ]
+ },
+ "sci_enfant-090": {
+  "a": [
+   "La trompe",
+   "Trompe"
+  ]
+ },
+ "sci_enfant-091": {
+  "a": [
+   "Afrique",
+   "En Afrique"
+  ]
+ },
+ "sci_enfant-092": {
+  "a": [
+   "Éléphant",
+   "L'éléphant d'Afrique"
+  ]
+ },
+ "sci_enfant-093": {
+  "a": [
+   "Zèbre"
+  ]
+ },
+ "sci_enfant-094": {
+  "a": [
+   "Tigre"
+  ]
+ },
+ "sci_enfant-095": {
+  "a": [
+   "Kangourou"
+  ]
+ },
+ "sci_enfant-096": {
+  "a": [
+   "Rhinocéros",
+   "Rhinoceros"
+  ]
+ },
+ "sci_enfant-097": {
+  "a": [
+   "Hippopotame"
+  ]
+ },
+ "sci_enfant-098": {
+  "a": [
+   "Blanche",
+   "Il est blanc"
+  ]
+ },
+ "sci_enfant-099": {
+  "a": [
+   "Cerf"
+  ]
+ },
+ "sci_enfant-100": {
+  "a": [
+   "Racines",
+   "Par ses racines",
+   "La racine"
+  ]
+ },
+ "sci_enfant-101": {
+  "a": [
+   "Des graines",
+   "La graine",
+   "Graine"
+  ]
+ },
+ "sci_enfant-102": {
+  "a": [
+   "La lumière",
+   "Lumière",
+   "Le soleil",
+   "De soleil"
+  ]
+ },
+ "sci_enfant-103": {
+  "a": [
+   "Germination",
+   "Germer"
+  ]
+ },
+ "sci_enfant-104": {
+  "a": [
+   "Tronc"
+  ]
+ },
+ "sci_enfant-105": {
+  "a": [
+   "Écorce",
+   "Ecorce"
+  ]
+ },
+ "sci_enfant-106": {
+  "a": [
+   "Bourgeon",
+   "Un bourgeon"
+  ]
+ },
+ "sci_enfant-107": {
+  "a": [
+   "Sève",
+   "Seve"
+  ]
+ },
+ "sci_enfant-108": {
+  "a": [
+   "Tige"
+  ]
+ },
+ "sci_enfant-109": {
+  "a": [
+   "Pétales",
+   "Un pétale",
+   "Petales"
+  ]
+ },
+ "sci_enfant-110": {
+  "a": [
+   "Aiguilles",
+   "Des aiguilles"
+  ]
+ },
+ "sci_enfant-111": {
+  "a": [
+   "Pommier"
+  ]
+ },
+ "sci_enfant-112": {
+  "a": [
+   "Vigne",
+   "Le pied de vigne"
+  ]
+ },
+ "sci_enfant-113": {
+  "a": [
+   "Érable",
+   "Erable",
+   "L'érable à sucre"
+  ]
+ },
+ "sci_enfant-114": {
+  "a": [
+   "Le verger",
+   "Verger"
+  ]
+ },
+ "sci_enfant-115": {
+  "a": [
+   "Un potager",
+   "Potager"
+  ]
+ },
+ "sci_enfant-116": {
+  "a": [
+   "Fleuriste",
+   "La fleuriste",
+   "Chez le fleuriste"
+  ]
+ },
+ "sci_enfant-117": {
+  "a": [
+   "Le fruit",
+   "Fruit",
+   "Des fruits"
+  ]
+ },
+ "sci_enfant-118": {
+  "a": [
+   "Cactus"
+  ]
+ },
+ "sci_enfant-119": {
+  "a": [
+   "Rose",
+   "Le rosier"
+  ]
+ },
+ "sci_enfant-120": {
+  "a": [
+   "Coquelicot"
+  ]
+ },
+ "sci_enfant-121": {
+  "a": [
+   "Marguerite",
+   "La pâquerette"
+  ]
+ },
+ "sci_enfant-122": {
+  "a": [
+   "Pissenlit"
+  ]
+ },
+ "sci_enfant-123": {
+  "a": [
+   "Jonquille",
+   "Le narcisse"
+  ]
+ },
+ "sci_enfant-124": {
+  "a": [
+   "Perce-neige",
+   "La perce-neige"
+  ]
+ },
+ "sci_enfant-125": {
+  "a": [
+   "Nénuphar",
+   "Nenuphar"
+  ]
+ },
+ "sci_enfant-126": {
+  "a": [
+   "Lierre"
+  ]
+ },
+ "sci_enfant-127": {
+  "a": [
+   "Ortie",
+   "Les orties"
+  ]
+ },
+ "sci_enfant-128": {
+  "a": [
+   "Trèfle",
+   "Trefle",
+   "Le trèfle à quatre feuilles"
+  ]
+ },
+ "sci_enfant-129": {
+  "a": [
+   "Mousse"
+  ]
+ },
+ "sci_enfant-130": {
+  "a": [
+   "Blé",
+   "Ble"
+  ]
+ },
+ "sci_enfant-131": {
+  "a": [
+   "Maïs",
+   "Mais"
+  ]
+ },
+ "sci_enfant-132": {
+  "a": [
+   "Riz"
+  ]
+ },
+ "sci_enfant-133": {
+  "a": [
+   "Coton",
+   "Le cotonnier"
+  ]
+ },
+ "sci_enfant-134": {
+  "a": [
+   "Cacaoyer",
+   "Le cacaotier",
+   "Le cacao"
+  ]
+ },
+ "sci_enfant-135": {
+  "a": [
+   "Racine"
+  ]
+ },
+ "sci_enfant-136": {
+  "a": [
+   "Fleurs",
+   "Ses fleurs",
+   "Les boutons de fleurs"
+  ]
+ },
+ "sci_enfant-137": {
+  "a": [
+   "Feuilles",
+   "Ses feuilles"
+  ]
+ },
+ "sci_enfant-138": {
+  "a": [
+   "La forêt",
+   "Forêt",
+   "Un bois"
+  ]
+ },
+ "sci_enfant-139": {
+  "a": [
+   "Banane"
+  ]
+ },
+ "sci_enfant-140": {
+  "a": [
+   "Citron"
+  ]
+ },
+ "sci_enfant-141": {
+  "a": [
+   "Fraise"
+  ]
+ },
+ "sci_enfant-142": {
+  "a": [
+   "Pastèque",
+   "Le melon d'eau"
+  ]
+ },
+ "sci_enfant-143": {
+  "a": [
+   "Raisin",
+   "Les raisins"
+  ]
+ },
+ "sci_enfant-144": {
+  "a": [
+   "Le pruneau",
+   "Pruneau"
+  ]
+ },
+ "sci_enfant-145": {
+  "a": [
+   "Noix de coco",
+   "La coco"
+  ]
+ },
+ "sci_enfant-146": {
+  "a": [
+   "Kiwi"
+  ]
+ },
+ "sci_enfant-147": {
+  "a": [
+   "Ananas"
+  ]
+ },
+ "sci_enfant-148": {
+  "a": [
+   "Orange"
+  ]
+ },
+ "sci_enfant-149": {
+  "a": [
+   "Myrtille",
+   "Les myrtilles"
+  ]
+ },
+ "sci_enfant-150": {
+  "a": [
+   "Mûre",
+   "Mure",
+   "Les mûres"
+  ]
+ },
+ "sci_enfant-151": {
+  "a": [
+   "Cerise",
+   "Les cerises"
+  ]
+ },
+ "sci_enfant-152": {
+  "a": [
+   "Clémentine",
+   "La mandarine",
+   "Mandarine"
+  ]
+ },
+ "sci_enfant-153": {
+  "a": [
+   "Melon"
+  ]
+ },
+ "sci_enfant-154": {
+  "a": [
+   "Noyau",
+   "Un noyau"
+  ]
+ },
+ "sci_enfant-155": {
+  "a": [
+   "Pépins",
+   "Des pépins",
+   "Pepins"
+  ]
+ },
+ "sci_enfant-156": {
+  "a": [
+   "Tomate"
+  ]
+ },
+ "sci_enfant-157": {
+  "a": [
+   "Cacahuète",
+   "L'arachide",
+   "Cacahouète",
+   "La cacahouète"
+  ]
+ },
+ "sci_enfant-158": {
+  "a": [
+   "Vitamine C",
+   "C"
+  ]
+ },
+ "sci_enfant-159": {
+  "a": [
+   "Épinards",
+   "Epinards",
+   "Des épinards"
+  ]
+ },
+ "sci_enfant-160": {
+  "a": [
+   "Pomme de terre",
+   "Les pommes de terre",
+   "La patate"
+  ]
+ },
+ "sci_enfant-161": {
+  "a": [
+   "Petits pois",
+   "Des petits pois"
+  ]
+ },
+ "sci_enfant-162": {
+  "a": [
+   "Radis",
+   "Les radis"
+  ]
+ },
+ "sci_enfant-163": {
+  "a": [
+   "Brocoli",
+   "Brocolis"
+  ]
+ },
+ "sci_enfant-164": {
+  "a": [
+   "Chou-fleur",
+   "Chou fleur"
+  ]
+ },
+ "sci_enfant-165": {
+  "a": [
+   "Oignon",
+   "Ognon"
+  ]
+ },
+ "sci_enfant-166": {
+  "a": [
+   "Ail",
+   "Une gousse d'ail"
+  ]
+ },
+ "sci_enfant-167": {
+  "a": [
+   "Concombre"
+  ]
+ },
+ "sci_enfant-168": {
+  "a": [
+   "Betterave"
+  ]
+ },
+ "sci_enfant-169": {
+  "a": [
+   "Poireau"
+  ]
+ },
+ "sci_enfant-170": {
+  "a": [
+   "Aubergine"
+  ]
+ },
+ "sci_enfant-171": {
+  "a": [
+   "Poivron"
+  ]
+ },
+ "sci_enfant-172": {
+  "a": [
+   "Lentilles",
+   "Des lentilles"
+  ]
+ },
+ "sci_enfant-173": {
+  "a": [
+   "Choux de Bruxelles",
+   "Chou de Bruxelles"
+  ]
+ },
+ "sci_enfant-174": {
+  "a": [
+   "Ratatouille"
+  ]
+ },
+ "sci_enfant-175": {
+  "a": [
+   "Salade",
+   "La laitue",
+   "Laitue"
+  ]
+ },
+ "sci_enfant-176": {
+  "a": [
+   "Courgette"
+  ]
+ },
+ "sci_enfant-177": {
+  "a": [
+   "Framboise"
+  ]
+ },
+ "sci_enfant-178": {
+  "a": [
+   "Poire"
+  ]
+ },
+ "sci_enfant-179": {
+  "a": [
+   "Cinq"
+  ]
+ },
+ "sci_enfant-180": {
+  "a": [
+   "Ouïe",
+   "Ouie",
+   "L'audition"
+  ]
+ },
+ "sci_enfant-181": {
+  "a": [
+   "Odorat"
+  ]
+ },
+ "sci_enfant-182": {
+  "a": [
+   "Vue"
+  ]
+ },
+ "sci_enfant-183": {
+  "a": [
+   "Goût",
+   "Gout"
+  ]
+ },
+ "sci_enfant-184": {
+  "a": [
+   "Toucher"
+  ]
+ },
+ "sci_enfant-185": {
+  "a": [
+   "Yeux",
+   "Avec les yeux",
+   "Les deux yeux"
+  ]
+ },
+ "sci_enfant-186": {
+  "a": [
+   "Oreilles",
+   "Avec les oreilles"
+  ]
+ },
+ "sci_enfant-187": {
+  "a": [
+   "Le nez",
+   "Nez"
+  ]
+ },
+ "sci_enfant-188": {
+  "a": [
+   "Langue"
+  ]
+ },
+ "sci_enfant-189": {
+  "a": [
+   "Cœur",
+   "Coeur",
+   "Le coeur"
+  ]
+ },
+ "sci_enfant-190": {
+  "a": [
+   "Poumons"
+  ]
+ },
+ "sci_enfant-191": {
+  "a": [
+   "Estomac"
+  ]
+ },
+ "sci_enfant-192": {
+  "a": [
+   "Cerveau"
+  ]
+ },
+ "sci_enfant-193": {
+  "a": [
+   "Crâne",
+   "Crane"
+  ]
+ },
+ "sci_enfant-194": {
+  "a": [
+   "Côtes",
+   "La cage thoracique"
+  ]
+ },
+ "sci_enfant-195": {
+  "a": [
+   "Squelette"
+  ]
+ },
+ "sci_enfant-196": {
+  "a": [
+   "Colonne vertébrale",
+   "L'épine dorsale",
+   "La colonne"
+  ]
+ },
+ "sci_enfant-197": {
+  "a": [
+   "Muscles"
+  ]
+ },
+ "sci_enfant-198": {
+  "a": [
+   "Il est rouge"
+  ]
+ },
+ "sci_enfant-199": {
+  "a": [
+   "Il accélère",
+   "Il bat plus fort",
+   "Plus vite"
+  ]
+ },
+ "sci_enfant-200": {
+  "a": [
+   "Oxygène",
+   "Le dioxygène"
+  ]
+ },
+ "sci_enfant-201": {
+  "a": [
+   "Pouls",
+   "Le cœur",
+   "Les battements du cœur"
+  ]
+ },
+ "sci_enfant-202": {
+  "a": [
+   "Dents de lait"
+  ]
+ },
+ "sci_enfant-203": {
+  "a": [
+   "Dentiste",
+   "Le chirurgien-dentiste"
+  ]
+ },
+ "sci_enfant-204": {
+  "a": [
+   "La carie",
+   "Carie"
+  ]
+ },
+ "sci_enfant-205": {
+  "a": [
+   "Incisives"
+  ]
+ },
+ "sci_enfant-206": {
+  "a": [
+   "Canines"
+  ]
+ },
+ "sci_enfant-207": {
+  "a": [
+   "Molaires"
+  ]
+ },
+ "sci_enfant-208": {
+  "a": [
+   "Dix"
+  ]
+ },
+ "sci_enfant-209": {
+  "a": [
+   "Orteils"
+  ]
+ },
+ "sci_enfant-210": {
+  "a": [
+   "Pouce"
+  ]
+ },
+ "sci_enfant-211": {
+  "a": [
+   "Le coude",
+   "Coude"
+  ]
+ },
+ "sci_enfant-212": {
+  "a": [
+   "Le genou",
+   "Genou"
+  ]
+ },
+ "sci_enfant-213": {
+  "a": [
+   "Cheville"
+  ]
+ },
+ "sci_enfant-214": {
+  "a": [
+   "Nombril"
+  ]
+ },
+ "sci_enfant-215": {
+  "a": [
+   "Talon"
+  ]
+ },
+ "sci_enfant-216": {
+  "a": [
+   "Cils"
+  ]
+ },
+ "sci_enfant-217": {
+  "a": [
+   "Sourcils"
+  ]
+ },
+ "sci_enfant-218": {
+  "a": [
+   "Larmes",
+   "Des larmes"
+  ]
+ },
+ "sci_enfant-219": {
+  "a": [
+   "Salive",
+   "La bave"
+  ]
+ },
+ "sci_enfant-220": {
+  "a": [
+   "Pupille"
+  ]
+ },
+ "sci_enfant-221": {
+  "a": [
+   "Elle grandit",
+   "Elle devient plus grande",
+   "Plus grande",
+   "Elle se dilate"
+  ]
+ },
+ "sci_enfant-222": {
+  "a": [
+   "Paupière",
+   "Les paupières"
+  ]
+ },
+ "sci_enfant-223": {
+  "a": [
+   "Éternuer",
+   "Un éternuement",
+   "Eternuer"
+  ]
+ },
+ "sci_enfant-224": {
+  "a": [
+   "Bâiller",
+   "Un bâillement",
+   "Bailler"
+  ]
+ },
+ "sci_enfant-225": {
+  "a": [
+   "Rhume"
+  ]
+ },
+ "sci_enfant-226": {
+  "a": [
+   "Fièvre",
+   "Fievre"
+  ]
+ },
+ "sci_enfant-227": {
+  "a": [
+   "37",
+   "37 degrés",
+   "Trente-sept"
+  ]
+ },
+ "sci_enfant-228": {
+  "a": [
+   "La croûte",
+   "Croûte",
+   "Croute"
+  ]
+ },
+ "sci_enfant-229": {
+  "a": [
+   "Ongles"
+  ]
+ },
+ "sci_enfant-230": {
+  "a": [
+   "Gaucher",
+   "Une gauchère",
+   "Gauchère"
+  ]
+ },
+ "sci_enfant-231": {
+  "a": [
+   "Frissonner",
+   "Il tremble",
+   "Trembler",
+   "Il grelotte",
+   "Grelotter"
+  ]
+ },
+ "sci_enfant-232": {
+  "a": [
+   "Pédiatre",
+   "Pediatre"
+  ]
+ },
+ "sci_enfant-233": {
+  "a": [
+   "Cou"
+  ]
+ },
+ "sci_enfant-234": {
+  "a": [
+   "Rêves",
+   "Un rêve",
+   "Des rêves"
+  ]
+ },
+ "sci_enfant-235": {
+  "a": [
+   "Méduse",
+   "Meduse"
+  ]
+ },
+ "sci_enfant-236": {
+  "a": [
+   "Oursin"
+  ]
+ },
+ "sci_enfant-237": {
+  "a": [
+   "Crabe"
+  ]
+ },
+ "sci_enfant-238": {
+  "a": [
+   "L'encre",
+   "Encre",
+   "Un nuage d'encre"
+  ]
+ },
+ "sci_enfant-239": {
+  "a": [
+   "Merle",
+   "Le merle noir"
+  ]
+ },
+ "sci_enfant-240": {
+  "a": [
+   "Paon"
+  ]
+ },
+ "sci_enfant-241": {
+  "a": [
+   "Cygne"
+  ]
+ },
+ "sci_enfant-242": {
+  "a": [
+   "Hamster"
+  ]
+ },
+ "sci_enfant-243": {
+  "a": [
+   "Lézard",
+   "Lezard"
+  ]
+ },
+ "sci_enfant-244": {
+  "a": [
+   "Ver de terre",
+   "Le lombric"
+  ]
+ },
+ "sci_enfant-245": {
+  "a": [
+   "Soleil"
+  ]
+ },
+ "sci_enfant-246": {
+  "a": [
+   "Lune"
+  ]
+ },
+ "sci_enfant-247": {
+  "a": [
+   "Terre"
+  ]
+ },
+ "sci_enfant-248": {
+  "a": [
+   "Astronaute",
+   "Un cosmonaute",
+   "Un spationaute"
+  ]
+ },
+ "sci_enfant-249": {
+  "a": [
+   "La fusée",
+   "Fusée"
+  ]
+ },
+ "sci_enfant-250": {
+  "a": [
+   "Terre"
+  ]
+ },
+ "sci_enfant-251": {
+  "a": [
+   "Soleil"
+  ]
+ },
+ "sci_enfant-252": {
+  "a": [
+   "24 heures",
+   "Une journée",
+   "24 h"
+  ]
+ },
+ "sci_enfant-253": {
+  "a": [
+   "La lumière du Soleil",
+   "Du Soleil",
+   "Soleil"
+  ]
+ },
+ "sci_enfant-254": {
+  "a": [
+   "Étoile filante",
+   "Un météore"
+  ]
+ },
+ "sci_enfant-255": {
+  "a": [
+   "Un télescope",
+   "Une lunette astronomique",
+   "La lunette"
+  ]
+ },
+ "sci_enfant-256": {
+  "a": [
+   "Une combinaison spatiale",
+   "Une combinaison",
+   "Le scaphandre"
+  ]
+ },
+ "sci_enfant-257": {
+  "a": [
+   "Le lever du jour",
+   "L'aube",
+   "Le lever"
+  ]
+ },
+ "sci_enfant-258": {
+  "a": [
+   "Le coucher",
+   "Le crépuscule"
+  ]
+ },
+ "sci_enfant-259": {
+  "a": [
+   "L'est",
+   "Est",
+   "Côté est"
+  ]
+ },
+ "sci_enfant-260": {
+  "a": [
+   "Ronde",
+   "Une sphère",
+   "Sphérique",
+   "Un rond"
+  ]
+ },
+ "sci_enfant-261": {
+  "a": [
+   "Étoile"
+  ]
+ },
+ "sci_enfant-262": {
+  "a": [
+   "Face cachée",
+   "La face cachée de la Lune"
+  ]
+ },
+ "sci_enfant-263": {
+  "a": [
+   "Les cratères",
+   "Cratères",
+   "Un cratère"
+  ]
+ },
+ "sci_enfant-264": {
+  "a": [
+   "1",
+   "Une seule"
+  ]
+ },
+ "sci_enfant-265": {
+  "a": [
+   "Les satellites",
+   "Un satellite",
+   "Satellites"
+  ]
+ },
+ "sci_enfant-266": {
+  "a": [
+   "Astronomie"
+  ]
+ },
+ "sci_enfant-267": {
+  "a": [
+   "Système solaire"
+  ]
+ },
+ "sci_enfant-268": {
+  "a": [
+   "L'observatoire",
+   "Observatoire"
+  ]
+ },
+ "sci_enfant-269": {
+  "a": [
+   "Galaxie",
+   "La galaxie"
+  ]
+ },
+ "sci_enfant-270": {
+  "a": [
+   "Un rover",
+   "Un astromobile",
+   "Un robot explorateur"
+  ]
+ },
+ "sci_enfant-271": {
+  "a": [
+   "Quatre"
+  ]
+ },
+ "sci_enfant-272": {
+  "a": [
+   "Printemps"
+  ]
+ },
+ "sci_enfant-273": {
+  "a": [
+   "Été"
+  ]
+ },
+ "sci_enfant-274": {
+  "a": [
+   "Hiver"
+  ]
+ },
+ "sci_enfant-275": {
+  "a": [
+   "Hiver"
+  ]
+ },
+ "sci_enfant-276": {
+  "a": [
+   "Été"
+  ]
+ },
+ "sci_enfant-277": {
+  "a": [
+   "Hiver"
+  ]
+ },
+ "sci_enfant-278": {
+  "a": [
+   "En mars"
+  ]
+ },
+ "sci_enfant-279": {
+  "a": [
+   "En juin"
+  ]
+ },
+ "sci_enfant-280": {
+  "a": [
+   "En décembre"
+  ]
+ },
+ "sci_enfant-281": {
+  "a": [
+   "Printemps"
+  ]
+ },
+ "sci_enfant-282": {
+  "a": [
+   "Neige",
+   "De la neige"
+  ]
+ },
+ "sci_enfant-283": {
+  "a": [
+   "Pluie",
+   "De la pluie"
+  ]
+ },
+ "sci_enfant-284": {
+  "a": [
+   "Tonnerre"
+  ]
+ },
+ "sci_enfant-285": {
+  "a": [
+   "L'éclair",
+   "Des éclairs",
+   "La foudre"
+  ]
+ },
+ "sci_enfant-286": {
+  "a": [
+   "L'orage",
+   "Orage"
+  ]
+ },
+ "sci_enfant-287": {
+  "a": [
+   "Un thermomètre",
+   "Thermomètre"
+  ]
+ },
+ "sci_enfant-288": {
+  "a": [
+   "Le parapluie",
+   "Parapluie"
+  ]
+ },
+ "sci_enfant-289": {
+  "a": [
+   "Météo",
+   "La météorologie",
+   "Les prévisions météo"
+  ]
+ },
+ "sci_enfant-290": {
+  "a": [
+   "D'eau",
+   "Eau",
+   "De gouttelettes d'eau",
+   "De l'eau",
+   "De gouttes d'eau",
+   "De cristaux de glace",
+   "De glace"
+  ]
+ },
+ "sci_enfant-291": {
+  "a": [
+   "La tornade",
+   "Tornade",
+   "Une trombe"
+  ]
+ },
+ "sci_enfant-292": {
+  "a": [
+   "Du brouillard",
+   "La brume",
+   "Brouillard"
+  ]
+ },
+ "sci_enfant-293": {
+  "a": [
+   "Une girouette",
+   "Girouette"
+  ]
+ },
+ "sci_enfant-294": {
+  "a": [
+   "Le bonhomme de neige",
+   "Bonhomme de neige"
+  ]
+ },
+ "sci_enfant-295": {
+  "a": [
+   "Crème solaire",
+   "La crème solaire",
+   "De l'écran solaire",
+   "De la crème"
+  ]
+ },
+ "sci_enfant-296": {
+  "a": [
+   "Les bottes",
+   "Des bottes de pluie",
+   "Des bottes en caoutchouc",
+   "Bottes"
+  ]
+ },
+ "sci_enfant-297": {
+  "a": [
+   "Elle fond",
+   "Eau",
+   "De l'eau liquide"
+  ]
+ },
+ "sci_enfant-298": {
+  "a": [
+   "Les degrés",
+   "Degré",
+   "Degrés Celsius",
+   "Le degré"
+  ]
+ },
+ "sci_enfant-299": {
+  "a": [
+   "Vent",
+   "Du vent"
+  ]
+ },
+ "sci_enfant-300": {
+  "a": [
+   "Une sécheresse",
+   "Sécheresse"
+  ]
+ },
+ "sci_enfant-301": {
+  "a": [
+   "La crue",
+   "Une crue",
+   "L'inondation"
+  ]
+ },
+ "sci_enfant-303": {
+  "a": [
+   "Douze"
+  ]
+ },
+ "sci_enfant-304": {
+  "a": [
+   "Sept"
+  ]
+ },
+ "sci_enfant-306": {
+  "a": [
+   "Vingt-quatre"
+  ]
+ },
+ "sci_enfant-307": {
+  "a": [
+   "Soixante"
+  ]
+ },
+ "sci_enfant-308": {
+  "a": [
+   "Soixante"
+  ]
+ },
+ "sci_enfant-309": {
+  "a": [
+   "Dimanche"
+  ]
+ },
+ "sci_enfant-310": {
+  "a": [
+   "Trois cent soixante-cinq"
+  ]
+ },
+ "sci_enfant-311": {
+  "a": [
+   "Trente et un"
+  ]
+ },
+ "sci_enfant-312": {
+  "a": [
+   "4",
+   "Quatre",
+   "Quatre ans",
+   "Tous les 4 ans"
+  ]
+ },
+ "sci_enfant-314": {
+  "a": [
+   "Glace",
+   "La glace",
+   "Des glaçons"
+  ]
+ },
+ "sci_enfant-315": {
+  "a": [
+   "De la vapeur d'eau",
+   "Vapeur",
+   "La vapeur"
+  ]
+ },
+ "sci_enfant-316": {
+  "a": [
+   "Glaçon",
+   "Les glaçons"
+  ]
+ },
+ "sci_enfant-317": {
+  "a": [
+   "0",
+   "Zéro",
+   "Zéro degré",
+   "0 degré"
+  ]
+ },
+ "sci_enfant-318": {
+  "a": [
+   "Les bulles",
+   "Bulles"
+  ]
+ },
+ "sci_enfant-319": {
+  "a": [
+   "La buée",
+   "Buée"
+  ]
+ },
+ "sci_enfant-320": {
+  "a": [
+   "Salée",
+   "Elle est salée",
+   "Le goût salé",
+   "Un goût salé"
+  ]
+ },
+ "sci_enfant-321": {
+  "a": [
+   "À l'état solide",
+   "L'état solide"
+  ]
+ },
+ "sci_enfant-322": {
+  "a": [
+   "À l'état liquide",
+   "L'état liquide"
+  ]
+ },
+ "sci_enfant-323": {
+  "a": [
+   "Vapeur",
+   "De la vapeur",
+   "De la vapeur d'eau",
+   "Un gaz"
+  ]
+ },
+ "sci_enfant-324": {
+  "a": [
+   "Cycle de l'eau"
+  ]
+ },
+ "sci_enfant-325": {
+  "a": [
+   "Évaporation"
+  ]
+ },
+ "sci_enfant-326": {
+  "a": [
+   "Coule",
+   "Il va au fond",
+   "Il tombe au fond"
+  ]
+ },
+ "sci_enfant-327": {
+  "a": [
+   "Incolore",
+   "Aucune",
+   "Elle n'a pas de couleur",
+   "Sans couleur"
+  ]
+ },
+ "sci_enfant-328": {
+  "a": [
+   "Il fond",
+   "Il disparaît",
+   "Il se dissout dans l'eau"
+  ]
+ },
+ "sci_enfant-329": {
+  "a": [
+   "Elle reste à la surface",
+   "Elle reste au-dessus",
+   "Elle remonte",
+   "Flotte"
+  ]
+ },
+ "sci_enfant-330": {
+  "a": [
+   "Sur la glace",
+   "Glace"
+  ]
+ },
+ "sci_enfant-331": {
+  "a": [
+   "Solide, liquide, gaz",
+   "Glace, eau et vapeur",
+   "Solide liquide gazeux"
+  ]
+ },
+ "sci_enfant-332": {
+  "a": [
+   "Une stalactite de glace",
+   "Un glaçon",
+   "Une chandelle de glace"
+  ]
+ },
+ "sci_enfant-333": {
+  "a": [
+   "Le sel",
+   "Sel"
+  ]
+ },
+ "sci_enfant-334": {
+  "a": [
+   "Quatre"
+  ]
+ },
+ "sci_enfant-335": {
+  "a": [
+   "Dix"
+  ]
+ },
+ "sci_enfant-336": {
+  "a": [
+   "Neuf"
+  ]
+ },
+ "sci_enfant-337": {
+  "a": [
+   "Six"
+  ]
+ },
+ "sci_enfant-338": {
+  "a": [
+   "Quinze"
+  ]
+ },
+ "sci_enfant-339": {
+  "a": [
+   "Quarante-deux"
+  ]
+ },
+ "sci_enfant-340": {
+  "a": [
+   "Quatre-vingt-dix-neuf"
+  ]
+ },
+ "sci_enfant-341": {
+  "a": [
+   "Quatre-vingt-un",
+   "Quatre-vingt-et-un"
+  ]
+ },
+ "sci_enfant-342": {
+  "a": [
+   "Cinquante"
+  ]
+ },
+ "sci_enfant-343": {
+  "a": [
+   "Quatre"
+  ]
+ },
+ "sci_enfant-344": {
+  "a": [
+   "Zéro"
+  ]
+ },
+ "sci_enfant-345": {
+  "a": [
+   "Vingt"
+  ]
+ },
+ "sci_enfant-346": {
+  "a": [
+   "Cent"
+  ]
+ },
+ "sci_enfant-347": {
+  "a": [
+   "Douze"
+  ]
+ },
+ "sci_enfant-348": {
+  "a": [
+   "Six"
+  ]
+ },
+ "sci_enfant-349": {
+  "a": [
+   "Cinq"
+  ]
+ },
+ "sci_enfant-350": {
+  "a": [
+   "Seize"
+  ]
+ },
+ "sci_enfant-351": {
+  "a": [
+   "Cinquante"
+  ]
+ },
+ "sci_enfant-352": {
+  "a": [
+   "Cent"
+  ]
+ },
+ "sci_enfant-353": {
+  "a": [
+   "Cent"
+  ]
+ },
+ "sci_enfant-354": {
+  "a": [
+   "Cent"
+  ]
+ },
+ "sci_enfant-355": {
+  "a": [
+   "1000",
+   "Mille"
+  ]
+ },
+ "sci_enfant-356": {
+  "a": [
+   "1000",
+   "Mille"
+  ]
+ },
+ "sci_enfant-357": {
+  "a": [
+   "Cent"
+  ]
+ },
+ "sci_enfant-358": {
+  "a": [
+   "Neuf cent quatre-vingt-dix-neuf"
+  ]
+ },
+ "sci_enfant-359": {
+  "a": [
+   "Dix"
+  ]
+ },
+ "sci_enfant-360": {
+  "a": [
+   "Quatre-vingt-dix-neuf"
+  ]
+ },
+ "sci_enfant-361": {
+  "a": [
+   "Dix"
+  ]
+ },
+ "sci_enfant-362": {
+  "a": [
+   "Pairs",
+   "Pair",
+   "Des nombres pairs"
+  ]
+ },
+ "sci_enfant-363": {
+  "a": [
+   "Impairs",
+   "Impair",
+   "Des nombres impairs"
+  ]
+ },
+ "sci_enfant-364": {
+  "a": [
+   "Somme",
+   "Une somme"
+  ]
+ },
+ "sci_enfant-365": {
+  "a": [
+   "Produit"
+  ]
+ },
+ "sci_enfant-366": {
+  "a": [
+   "Différence"
+  ]
+ },
+ "sci_enfant-367": {
+  "a": [
+   "Trois"
+  ]
+ },
+ "sci_enfant-368": {
+  "a": [
+   "Six"
+  ]
+ },
+ "sci_enfant-369": {
+  "a": [
+   "Dix"
+  ]
+ },
+ "sci_enfant-370": {
+  "a": [
+   "La lettre V"
+  ]
+ },
+ "sci_enfant-371": {
+  "a": [
+   "Cinquante-quatre"
+  ]
+ },
+ "sci_enfant-372": {
+  "a": [
+   "Trente"
+  ]
+ },
+ "sci_enfant-373": {
+  "a": [
+   "Quinze"
+  ]
+ },
+ "sci_enfant-374": {
+  "a": [
+   "Siècle",
+   "Le siècle"
+  ]
+ },
+ "sci_enfant-375": {
+  "a": [
+   "Millénaire",
+   "Le millénaire"
+  ]
+ },
+ "sci_enfant-376": {
+  "a": [
+   "Une calculatrice",
+   "La calculette",
+   "Une calculette"
+  ]
+ },
+ "sci_enfant-377": {
+  "a": [
+   "Vingt-huit"
+  ]
+ },
+ "sci_enfant-378": {
+  "a": [
+   "Cinquante-deux"
+  ]
+ },
+ "sci_enfant-379": {
+  "a": [
+   "Quarante-huit"
+  ]
+ },
+ "sci_enfant-380": {
+  "a": [
+   "Quatre"
+  ]
+ },
+ "sci_enfant-381": {
+  "a": [
+   "Le quart",
+   "Quart"
+  ]
+ },
+ "sci_enfant-382": {
+  "a": [
+   "La moitié",
+   "Un demi",
+   "Moitié"
+  ]
+ },
+ "sci_enfant-383": {
+  "a": [
+   "Vingt et un",
+   "Vingt-et-un"
+  ]
+ },
+ "sci_enfant-384": {
+  "a": [
+   "Sept"
+  ]
+ },
+ "sci_enfant-385": {
+  "a": [
+   "Quatre"
+  ]
+ },
+ "sci_enfant-386": {
+  "a": [
+   "Trois"
+  ]
+ },
+ "sci_enfant-387": {
+  "a": [
+   "Quatre"
+  ]
+ },
+ "sci_enfant-388": {
+  "a": [
+   "Le cercle",
+   "Un rond",
+   "Rond",
+   "Cercle"
+  ]
+ },
+ "sci_enfant-389": {
+  "a": [
+   "Un carré",
+   "Carré"
+  ]
+ },
+ "sci_enfant-390": {
+  "a": [
+   "Un rectangle",
+   "Rectangle"
+  ]
+ },
+ "sci_enfant-391": {
+  "a": [
+   "Quatre"
+  ]
+ },
+ "sci_enfant-392": {
+  "a": [
+   "Le cône",
+   "Cône"
+  ]
+ },
+ "sci_enfant-393": {
+  "a": [
+   "Le cylindre",
+   "Cylindre"
+  ]
+ },
+ "sci_enfant-394": {
+  "a": [
+   "Le cœur",
+   "Cœur"
+  ]
+ },
+ "sci_enfant-395": {
+  "a": [
+   "La sphère",
+   "Une boule",
+   "Sphère"
+  ]
+ },
+ "sci_enfant-396": {
+  "a": [
+   "Le losange",
+   "Losange"
+  ]
+ },
+ "sci_enfant-397": {
+  "a": [
+   "Un ovale",
+   "Ovoïde"
+  ]
+ },
+ "sci_enfant-398": {
+  "a": [
+   "Centre"
+  ]
+ },
+ "sci_enfant-399": {
+  "a": [
+   "Un diamètre",
+   "Diamètre"
+  ]
+ },
+ "sci_enfant-400": {
+  "a": [
+   "Le triangle",
+   "Triangle",
+   "Triangulaire"
+  ]
+ },
+ "sci_enfant-401": {
+  "a": [
+   "La spirale",
+   "Spirale"
+  ]
+ },
+ "sci_enfant-402": {
+  "a": [
+   "Des droites parallèles",
+   "Des parallèles",
+   "Parallèle"
+  ]
+ },
+ "sci_enfant-403": {
+  "a": [
+   "Des droites perpendiculaires",
+   "Perpendiculaire"
+  ]
+ },
+ "sci_enfant-404": {
+  "a": [
+   "La symétrie",
+   "Symétrie",
+   "Un axe de symétrie",
+   "Symétrique"
+  ]
+ },
+ "sci_enfant-405": {
+  "a": [
+   "Quatre"
+  ]
+ },
+ "sci_enfant-406": {
+  "a": [
+   "La pyramide",
+   "Pyramide"
+  ]
+ },
+ "sci_enfant-407": {
+  "a": [
+   "Périmètre"
+  ]
+ },
+ "sci_enfant-408": {
+  "a": [
+   "Un triangle rectangle",
+   "Triangle rectangle"
+  ]
+ },
+ "sci_enfant-409": {
+  "a": [
+   "Le dé",
+   "Dé",
+   "Les dés"
+  ]
+ },
+ "sci_enfant-410": {
+  "a": [
+   "L'étoile",
+   "Étoile"
+  ]
+ },
+ "sci_enfant-411": {
+  "a": [
+   "Une règle",
+   "Règle"
+  ]
+ },
+ "sci_enfant-412": {
+  "a": [
+   "Orange"
+  ]
+ },
+ "sci_enfant-413": {
+  "a": [
+   "Rose"
+  ]
+ },
+ "sci_enfant-414": {
+  "a": [
+   "Vert"
+  ]
+ },
+ "sci_enfant-415": {
+  "a": [
+   "Orange"
+  ]
+ },
+ "sci_enfant-416": {
+  "a": [
+   "Violet"
+  ]
+ },
+ "sci_enfant-417": {
+  "a": [
+   "Rouge, jaune, bleu",
+   "Rouge jaune bleu",
+   "Magenta, jaune, cyan"
+  ]
+ },
+ "sci_enfant-418": {
+  "a": [
+   "Le bleu",
+   "Bleue"
+  ]
+ },
+ "sci_enfant-419": {
+  "a": [
+   "Le blanc",
+   "Blanc"
+  ]
+ },
+ "sci_enfant-420": {
+  "a": [
+   "Le rouge"
+  ]
+ },
+ "sci_enfant-421": {
+  "a": [
+   "Orange",
+   "Le jaune",
+   "Jaune"
+  ]
+ },
+ "sci_enfant-422": {
+  "a": [
+   "Un gilet jaune",
+   "Gilet de sécurité",
+   "Le gilet fluo",
+   "Le gilet réfléchissant"
+  ]
+ },
+ "sci_enfant-423": {
+  "a": [
+   "Le four à micro-ondes",
+   "Un micro-ondes",
+   "Micro-ondes"
+  ]
+ },
+ "sci_enfant-424": {
+  "a": [
+   "Le lave-linge",
+   "Une machine à laver",
+   "Lave-linge"
+  ]
+ },
+ "sci_enfant-425": {
+  "a": [
+   "Un lave-vaisselle",
+   "Lave-vaisselle"
+  ]
+ },
+ "sci_enfant-426": {
+  "a": [
+   "Un aspirateur",
+   "Aspirateur"
+  ]
+ },
+ "sci_enfant-427": {
+  "a": [
+   "Un grille-pain",
+   "Le toaster",
+   "Grille-pain"
+  ]
+ },
+ "sci_enfant-428": {
+  "a": [
+   "Un sèche-cheveux",
+   "Le séchoir",
+   "Sèche-cheveux"
+  ]
+ },
+ "sci_enfant-429": {
+  "a": [
+   "Une ampoule",
+   "Ampoule"
+  ]
+ },
+ "sci_enfant-430": {
+  "a": [
+   "La montre",
+   "Montre"
+  ]
+ },
+ "sci_enfant-431": {
+  "a": [
+   "La petite aiguille",
+   "Petite"
+  ]
+ },
+ "sci_enfant-432": {
+  "a": [
+   "Un réveil",
+   "Le réveille-matin",
+   "Réveil"
+  ]
+ },
+ "sci_enfant-433": {
+  "a": [
+   "Deux"
+  ]
+ },
+ "sci_enfant-434": {
+  "a": [
+   "Trois"
+  ]
+ },
+ "sci_enfant-435": {
+  "a": [
+   "Un train",
+   "Train"
+  ]
+ },
+ "sci_enfant-436": {
+  "a": [
+   "Le train à grande vitesse"
+  ],
+  "l": "Que veulent dire les lettres T G V ?"
+ },
+ "sci_enfant-437": {
+  "a": [
+   "Un hélicoptère",
+   "Hélicoptère"
+  ]
+ },
+ "sci_enfant-438": {
+  "a": [
+   "Un sous-marin",
+   "Sous-marin"
+  ]
+ },
+ "sci_enfant-439": {
+  "a": [
+   "L'aimant",
+   "Aimant",
+   "Des aimants"
+  ]
+ },
+ "sci_enfant-440": {
+  "a": [
+   "Un ordinateur",
+   "Ordinateur",
+   "Le PC"
+  ]
+ },
+ "sci_enfant-441": {
+  "a": [
+   "Un téléphone",
+   "Le portable",
+   "Le smartphone",
+   "Téléphone"
+  ]
+ },
+ "sci_enfant-442": {
+  "a": [
+   "Un appareil photo",
+   "Appareil photo"
+  ]
+ },
+ "sci_enfant-443": {
+  "a": [
+   "Un tournevis",
+   "Tournevis"
+  ]
+ },
+ "sci_enfant-444": {
+  "a": [
+   "Un tracteur",
+   "Tracteur"
+  ]
+ },
+ "sci_enfant-445": {
+  "a": [
+   "Une balance",
+   "Balance"
+  ]
+ },
+ "sci_enfant-446": {
+  "a": [
+   "Un ventilateur",
+   "Ventilateur"
+  ]
+ },
+ "sci_enfant-447": {
+  "a": [
+   "Une éolienne",
+   "Éolienne"
+  ]
+ },
+ "sci_enfant-448": {
+  "a": [
+   "Les panneaux solaires",
+   "Des panneaux photovoltaïques",
+   "Des capteurs solaires"
+  ]
+ },
+ "sci_enfant-449": {
+  "a": [
+   "Les piles",
+   "Une pile",
+   "Piles"
+  ]
+ },
+ "sci_enfant-450": {
+  "a": [
+   "Un interrupteur",
+   "Interrupteur"
+  ]
+ },
+ "sci_enfant-451": {
+  "a": [
+   "Une prise",
+   "Une prise électrique",
+   "La prise de courant"
+  ]
+ },
+ "sci_enfant-452": {
+  "a": [
+   "Une pelleteuse",
+   "La pelle mécanique",
+   "Une excavatrice",
+   "Pelleteuse"
+  ]
+ },
+ "sci_enfant-453": {
+  "a": [
+   "Une grue",
+   "Grue"
+  ]
+ },
+ "sci_enfant-454": {
+  "a": [
+   "Une loupe",
+   "Loupe"
+  ]
+ },
+ "sci_enfant-455": {
+  "a": [
+   "Un miroir",
+   "Une glace",
+   "Miroir"
+  ]
+ },
+ "sci_enfant-456": {
+  "a": [
+   "Un fer à repasser",
+   "Le fer"
+  ]
+ },
+ "sci_enfant-457": {
+  "a": [
+   "Un ascenseur",
+   "Ascenseur"
+  ]
+ },
+ "sci_enfant-458": {
+  "a": [
+   "Le drone",
+   "Drone"
+  ]
+ },
+ "sci_enfant-459": {
+  "a": [
+   "Une imprimante",
+   "Imprimante"
+  ]
+ },
+ "sci_enfant-460": {
+  "a": [
+   "Une tondeuse",
+   "La tondeuse à gazon",
+   "Tondeuse"
+  ]
+ },
+ "sci_enfant-461": {
+  "a": [
+   "Des pédales",
+   "Pédales",
+   "Le pédalier"
+  ]
+ },
+ "sci_enfant-462": {
+  "a": [
+   "Le frigo",
+   "Le frigidaire",
+   "Un réfrigérateur",
+   "Un frigo"
+  ]
+ },
+ "sci_enfant-463": {
+  "a": [
+   "Une bouilloire",
+   "Bouilloire"
+  ]
+ },
+ "sci_enfant-464": {
+  "a": [
+   "Un four",
+   "Four"
+  ]
+ },
+ "sci_enfant-465": {
+  "a": [
+   "Reine",
+   "La fourmi reine"
+  ]
+ },
+ "sci_enfant-466": {
+  "a": [
+   "Six",
+   "Six branches",
+   "6 branches"
+  ]
+ },
+ "sci_enfant-467": {
+  "a": [
+   "Chez l'opticien",
+   "Opticien",
+   "L'opticienne"
+  ]
+ },
+ "sci_enfant-468": {
+  "a": [
+   "Du savon",
+   "Savon",
+   "De l'eau et du savon",
+   "L'eau et le savon",
+   "Eau et savon"
+  ]
+ },
+ "sci_enfant-469": {
+  "a": [
+   "Deux",
+   "Deux fois",
+   "2 fois",
+   "Deux fois par jour",
+   "2 fois par jour"
+  ]
+ },
+ "sci_enfant-470": {
+  "a": [
+   "Du dentifrice",
+   "Dentifrice"
+  ]
+ },
+ "sci_enfant-471": {
+  "a": [
+   "Le pansement",
+   "Pansement",
+   "Un sparadrap",
+   "Du sparadrap"
+  ]
+ },
+ "sci_enfant-472": {
+  "a": [
+   "Un vaccin",
+   "La vaccination"
+  ]
+ },
+ "sci_enfant-473": {
+  "a": [
+   "Le plâtre",
+   "Plâtre",
+   "Une attelle"
+  ]
+ },
+ "sci_enfant-474": {
+  "a": [
+   "Des microbes",
+   "Microbes",
+   "Les bactéries",
+   "Des bactéries",
+   "Les germes"
+  ]
+ },
+ "sci_enfant-475": {
+  "a": [
+   "Ils se poussent",
+   "Ils se fuient",
+   "Se repousser",
+   "Repoussent"
+  ]
+ },
+ "sci_enfant-476": {
+  "a": [
+   "À midi",
+   "Midi",
+   "Au milieu de la journée",
+   "En milieu de journée",
+   "Le midi"
+  ]
+ },
+ "sci_enfant-477": {
+  "a": [
+   "Il est opaque"
+  ]
+ },
+ "sci_enfant-478": {
+  "a": [
+   "Noir",
+   "Noire",
+   "Un tee-shirt noir"
+  ]
+ },
+ "sci_enfant-479": {
+  "a": [
+   "Verre",
+   "Du verre"
+  ]
+ },
+ "sci_enfant-480": {
+  "a": [
+   "La déchetterie",
+   "Déchetterie",
+   "La déchèterie",
+   "Déchèterie",
+   "À la déchèterie"
+  ]
+ },
+ "sci_enfant-481": {
+  "a": [
+   "Poulie",
+   "Une poulie"
+  ]
+ },
+ "sci_enfant-482": {
+  "a": [
+   "Un engrenage",
+   "Engrenages",
+   "Les rouages"
+  ]
+ },
+ "sci_enfant-483": {
+  "a": [
+   "La balançoire à bascule",
+   "Le tape-cul",
+   "Bascule",
+   "Une bascule"
+  ]
+ },
+ "sci_enfant-484": {
+  "a": [
+   "Botaniste",
+   "La botaniste"
+  ]
+ },
+ "sci_enfant-485": {
+  "a": [
+   "Laboratoire",
+   "Le labo",
+   "Un laboratoire"
+  ]
+ },
+ "sci_enfant-486": {
+  "a": [
+   "La queue",
+   "Avec sa queue"
+  ]
+ },
+ "sci_enfant-487": {
+  "a": [
+   "Les fers",
+   "Des fers à cheval",
+   "Un fer à cheval"
+  ]
+ },
+ "sci_enfant-488": {
+  "a": [
+   "Des alvéoles",
+   "Alvéoles",
+   "Les cellules",
+   "Des cellules"
+  ]
+ },
+ "sci_enfant-489": {
+  "a": [
+   "Pis",
+   "La mamelle"
+  ]
+ },
+ "sci_enfant-490": {
+  "a": [
+   "Groin"
+  ]
+ },
+ "sci_enfant-491": {
+  "a": [
+   "Tonte"
+  ]
+ },
+ "sci_enfant-492": {
+  "a": [
+   "Couver",
+   "Elle les couve"
+  ]
+ },
+ "sci_enfant-493": {
+  "a": [
+   "Le dard",
+   "Dard",
+   "L'aiguillon"
+  ]
+ },
+ "sci_enfant-494": {
+  "a": [
+   "Vautour",
+   "Le condor",
+   "Le marabout"
+  ]
+ },
+ "sci_enfant-495": {
+  "a": [
+   "Mésange",
+   "La mésange charbonnière"
+  ]
+ },
+ "sci_enfant-496": {
+  "a": [
+   "Moineau",
+   "Le piaf"
+  ]
+ },
+ "sci_enfant-497": {
+  "a": [
+   "Rapaces",
+   "Un rapace",
+   "Des rapaces"
+  ]
+ },
+ "sci_enfant-498": {
+  "a": [
+   "Sourd",
+   "Elle est sourde",
+   "Il est sourd"
+  ]
+ },
+ "sci_enfant-499": {
+  "a": [
+   "Langue des signes",
+   "La LSF"
+  ]
+ },
+ "sci_enfant-500": {
+  "a": [
+   "Les jumelles",
+   "Jumelles"
+  ]
+ },
+ "sci_enfant-501": {
+  "a": [
+   "Le shampooing",
+   "Du shampoing",
+   "Shampoing"
+  ]
+ },
+ "sci_enfant-502": {
+  "a": [
+   "Ambulance",
+   "Une ambulance"
+  ]
+ },
+ "sci_enfant-503": {
+  "a": [
+   "Du froid",
+   "Un glaçon",
+   "Des glaçons",
+   "Une poche de glace"
+  ]
+ },
+ "sci_enfant-504": {
+  "a": [
+   "Elle est potable",
+   "L'eau potable"
+  ]
+ },
+ "sci_enfant-505": {
+  "a": [
+   "Château d'eau",
+   "Un château d'eau"
+  ]
+ },
+ "sci_enfant-506": {
+  "a": [
+   "Un reflet",
+   "Reflet"
+  ]
+ },
+ "sci_enfant-507": {
+  "a": [
+   "Derrière",
+   "Derrière moi",
+   "Dans mon dos"
+  ]
+ },
+ "sci_enfant-508": {
+  "a": [
+   "Le tri sélectif",
+   "Trier",
+   "Le tri des déchets"
+  ]
+ },
+ "sci_enfant-509": {
+  "a": [
+   "La rampe",
+   "Un plan incliné",
+   "Le plan incliné"
+  ]
+ },
+ "sci_enfant-510": {
+  "a": [
+   "Cric",
+   "Un cric"
+  ]
+ },
+ "sci_enfant-511": {
+  "a": [
+   "Manivelle",
+   "Une manivelle"
+  ]
+ },
+ "sci_enfant-512": {
+  "a": [
+   "Sanglier",
+   "La laie"
+  ]
+ },
+ "sci_enfant-513": {
+  "a": [
+   "Des ventouses",
+   "Ventouses"
+  ]
+ },
+ "sci_enfant-514": {
+  "a": [
+   "Une ordonnance",
+   "Ordonnance"
+  ]
+ },
+ "sci_enfant-515": {
+  "a": [
+   "La fonte",
+   "Le dégel"
+  ]
+ },
+ "sci_enfant-516": {
+  "a": [
+   "Une gourde",
+   "Gourde"
+  ]
+ },
+ "sci_enfant-517": {
+  "a": [
+   "L'escalier mécanique",
+   "L'escalier roulant",
+   "Un escalator",
+   "Escalator"
+  ]
+ },
+ "sci_enfant-518": {
+  "a": [
+   "Des lunettes",
+   "Les lunettes de protection",
+   "Des lunettes de sécurité"
+  ]
+ },
+ "sci_enfant-519": {
+  "a": [
+   "Ouvre-boîte",
+   "Un ouvre-boîte",
+   "L'ouvre-boîtes"
+  ]
+ },
+ "sci_enfant-520": {
+  "a": [
+   "Héron",
+   "Le héron cendré"
+  ]
+ },
+ "sci_enfant-521": {
+  "a": [
+   "Papillon de nuit",
+   "La phalène",
+   "Un papillon de nuit"
+  ]
+ },
+ "sci_enfant-522": {
+  "a": [
+   "Mille-pattes",
+   "Un mille-pattes"
+  ]
+ }
+}

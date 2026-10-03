@@ -1,0 +1,3600 @@
+[
+ {
+  "id": "art_enfant-001",
+  "q": "Quelle fillette d'un conte rencontre le loup en allant chez sa mère-grand ?",
+  "r": "Le Petit Chaperon rouge",
+  "t": "Contes",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-002",
+  "q": "Dans « Le Petit Chaperon rouge », qui se cache dans le lit de la grand-mère ?",
+  "r": "Le loup",
+  "t": "Contes",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-003",
+  "q": "Dans « Le Petit Chaperon rouge », que répond le loup quand la fillette s'étonne de ses grandes dents ?",
+  "r": "« C'est pour mieux te manger »",
+  "t": "Contes",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-004",
+  "q": "Dans « Cendrillon », à quelle heure la jeune fille doit-elle avoir quitté le bal ?",
+  "r": "À minuit",
+  "t": "Contes",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-005",
+  "q": "Que perd Cendrillon dans l'escalier en quittant le bal ?",
+  "r": "Sa pantoufle",
+  "t": "Contes",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-006",
+  "q": "Qui, d'un coup de baguette, permet à Cendrillon d'aller au bal ?",
+  "r": "Sa marraine la fée",
+  "t": "Contes",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-007",
+  "q": "Combien de nains vivent avec Blanche-Neige dans la forêt ?",
+  "r": "Sept",
+  "t": "Contes",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-008",
+  "q": "Quel fruit empoisonné la méchante reine fait-elle croquer à Blanche-Neige ?",
+  "r": "Une pomme",
+  "t": "Contes",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-009",
+  "q": "Dans le dessin animé de Disney, quel nain de Blanche-Neige est toujours de mauvaise humeur ?",
+  "r": "Grincheux",
+  "t": "Contes",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-010",
+  "q": "Dans « La Belle au bois dormant », sur quoi la princesse se pique-t-elle le doigt ?",
+  "r": "Un fuseau",
+  "t": "Contes",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-011",
+  "q": "Dans « La Belle au bois dormant », qui vient réveiller la jeune fille endormie dans le château ?",
+  "r": "Un prince",
+  "t": "Contes",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-012",
+  "q": "Dans « Le Petit Poucet », que sème le garçon sur le chemin la deuxième fois, avant que les oiseaux le mangent ?",
+  "r": "Du pain",
+  "t": "Contes",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-013",
+  "q": "Dans « Les Trois Petits Cochons », en quoi est construite la maison qui résiste au loup ?",
+  "r": "En briques",
+  "t": "Contes",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-014",
+  "q": "Dans « Les Trois Petits Cochons », en quoi est faite la toute première maison, la plus fragile ?",
+  "r": "En paille",
+  "t": "Contes",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-015",
+  "q": "Dans « Les Trois Petits Cochons », que fait le loup pour faire tomber les maisons ?",
+  "r": "Il souffle dessus",
+  "t": "Contes",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-016",
+  "q": "Quelle fillette aux cheveux blonds entre dans la maison des trois ours ?",
+  "r": "Boucle d'or",
+  "t": "Contes",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-017",
+  "q": "Dans « Boucle d'or », combien d'ours vivent dans la maison ?",
+  "r": "Trois",
+  "t": "Contes",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-018",
+  "q": "Dans « Boucle d'or », dans quel lit la fillette finit-elle par s'endormir ?",
+  "r": "Celui du petit ours",
+  "t": "Contes",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-019",
+  "q": "Dans « Hansel et Gretel », en quoi est faite la maison de la sorcière ?",
+  "r": "En pain d'épices",
+  "t": "Contes",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-020",
+  "q": "Comment s'appelle le frère de Gretel, perdu avec elle dans la forêt ?",
+  "r": "Hansel",
+  "t": "Contes",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-021",
+  "q": "Chez Perrault, en quel petit animal l'ogre se change-t-il avant d'être mangé par le Chat botté ?",
+  "r": "En souris",
+  "t": "Contes",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-022",
+  "q": "Dans « La Belle et la Bête », quelle fleur le père de Belle cueille-t-il dans le jardin de la Bête ?",
+  "r": "Une rose",
+  "t": "Contes",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-023",
+  "q": "Dans « La Belle et la Bête » de Disney, comment s'appelle la théière ?",
+  "r": "Madame Samovar",
+  "t": "Contes",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-024",
+  "q": "Dans « La Belle et la Bête » de Disney, comment s'appelle le chandelier qui chante ?",
+  "r": "Lumière",
+  "t": "Contes",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-025",
+  "q": "Que donne la petite sirène à la sorcière des mers en échange de jambes ?",
+  "r": "Sa voix",
+  "t": "Contes",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-026",
+  "q": "Comment s'appelle la petite sirène dans le dessin animé de Disney ?",
+  "r": "Ariel",
+  "t": "Contes",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-027",
+  "q": "Quel insecte joue le rôle de la conscience de Pinocchio ?",
+  "r": "Le grillon",
+  "t": "Contes",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-028",
+  "q": "Quel conte raconte l'histoire d'un garçon qui grimpe le long d'une plante géante jusqu'au ciel ?",
+  "r": "Jacques et le haricot magique",
+  "t": "Contes",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-029",
+  "q": "Qui vit tout en haut de la tige géante dans « Jacques et le haricot magique » ?",
+  "r": "Un ogre",
+  "t": "Contes",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-030",
+  "q": "Dans « Jacques et le haricot magique », que pond la poule merveilleuse de l'ogre ?",
+  "r": "Des œufs d'or",
+  "t": "Contes",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-031",
+  "q": "Dans le film « Aladdin » de Disney, comment s'appelle le petit singe d'Aladdin ?",
+  "r": "Abu",
+  "t": "Contes",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-032",
+  "q": "Dans le film « Aladdin » de Disney, combien de vœux le génie accorde-t-il à son maître ?",
+  "r": "Trois",
+  "t": "Contes",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-033",
+  "q": "Sur quel objet magique Aladdin emmène-t-il la princesse Jasmine dans le ciel ?",
+  "r": "Un tapis volant",
+  "t": "Contes",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-034",
+  "q": "Dans un conte célèbre, quel animal se transforme en prince grâce à une princesse ?",
+  "r": "Une grenouille",
+  "t": "Contes",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-035",
+  "q": "Dans « Roule galette », quel animal rusé finit par manger la galette ?",
+  "r": "Le renard",
+  "t": "Contes",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-036",
+  "q": "Dans « La Petite Poule rousse », qui aide la poule à semer, couper et moudre le blé ?",
+  "r": "Personne",
+  "t": "Contes",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-037",
+  "q": "Dans quoi naît la minuscule Poucette, dans le conte d'Andersen ?",
+  "r": "Dans une fleur",
+  "t": "Contes",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-038",
+  "q": "Comment appelle-t-on, dans les contes, un géant qui mange les enfants ?",
+  "r": "Un ogre",
+  "t": "Contes",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-039",
+  "q": "Comment se terminent souvent les contes : « Ils vécurent heureux et… » ?",
+  "r": "« … eurent beaucoup d'enfants »",
+  "t": "Contes",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-040",
+  "q": "Quel objet la fée agite-t-elle pour faire ses enchantements ?",
+  "r": "Une baguette magique",
+  "t": "Contes",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-041",
+  "q": "Sur quel objet les sorcières des contes volent-elles dans le ciel ?",
+  "r": "Un balai",
+  "t": "Contes",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-042",
+  "q": "Dans « Le Magicien d'Oz », quel personnage en paille voudrait avoir un cerveau ?",
+  "r": "L'épouvantail",
+  "t": "Contes",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-043",
+  "q": "Dans « Le Magicien d'Oz », quel animal peureux aimerait avoir du courage ?",
+  "r": "Le lion",
+  "t": "Contes",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-044",
+  "q": "Dans « Le Magicien d'Oz », quel personnage en métal rêve d'avoir un cœur ?",
+  "r": "L'homme de fer-blanc",
+  "t": "Contes",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-045",
+  "q": "Quel animal a avalé la main du capitaine Crochet, l'ennemi de Peter Pan ?",
+  "r": "Un crocodile",
+  "t": "Contes",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-046",
+  "q": "Comment s'appelle la jeune fille que Peter Pan emmène au Pays imaginaire avec ses frères ?",
+  "r": "Wendy",
+  "t": "Contes",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-047",
+  "q": "Quel animal pressé, qui regarde sa montre, Alice suit-elle dans un terrier ?",
+  "r": "Le lapin blanc",
+  "t": "Livres jeunesse",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-048",
+  "q": "Dans le dessin animé « Le Livre de la jungle » de Disney, quel serpent essaie d'hypnotiser Mowgli ?",
+  "r": "Kaa",
+  "t": "Livres jeunesse",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-049",
+  "q": "Quel aliment sucré Winnie l'ourson adore-t-il plus que tout ?",
+  "r": "Le miel",
+  "t": "Livres jeunesse",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-050",
+  "q": "Comment s'appelle le petit cochon rose, ami de Winnie l'ourson ?",
+  "r": "Porcinet",
+  "t": "Livres jeunesse",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-051",
+  "q": "Dans « La Reine des neiges » de Disney, comment s'appelle le bonhomme de neige qui rêve de l'été ?",
+  "r": "Olaf",
+  "t": "Contes",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-052",
+  "q": "Dans « La Reine des neiges » de Disney, comment s'appelle la petite sœur d'Elsa ?",
+  "r": "Anna",
+  "t": "Contes",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-053",
+  "q": "Quelle arme Robin des Bois utilise-t-il pour tirer ses flèches ?",
+  "r": "Un arc",
+  "t": "Contes",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-054",
+  "q": "À qui Robin des Bois donne-t-il l'argent qu'il prend aux riches ?",
+  "r": "Aux pauvres",
+  "t": "Contes",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-055",
+  "q": "Quel biscuit en forme de petit homme s'enfuit en courant pour ne pas être mangé ?",
+  "r": "Le bonhomme de pain d'épices",
+  "t": "Contes",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-056",
+  "q": "Dans « Le Loup et les Sept Chevreaux », où se cache le plus petit chevreau pour échapper au loup ?",
+  "r": "Dans l'horloge",
+  "t": "Contes",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-057",
+  "q": "Dans « Pinocchio » de Disney, comment s'appelle la baleine géante qui avale Geppetto ?",
+  "r": "Monstro",
+  "t": "Contes",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-058",
+  "q": "Comment s'appelle la meilleure amie de Harry Potter, une élève qui connaît tous ses livres par cœur ?",
+  "r": "Hermione",
+  "t": "Livres jeunesse",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-059",
+  "q": "Dans quelle maison de Poudlard Harry Potter est-il envoyé par le Choixpeau ?",
+  "r": "Gryffondor",
+  "t": "Livres jeunesse",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-060",
+  "q": "Dans « Le Petit Prince », quel personnage habite seul sur la première planète visitée et croit commander à tout ?",
+  "r": "Le roi",
+  "t": "Livres jeunesse",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-061",
+  "q": "Quel animal est Trotro, le héros des livres de Bénédicte Guettier ?",
+  "r": "Un âne",
+  "t": "Livres jeunesse",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-062",
+  "q": "Quel éléphant des livres pour enfants a une peau à carreaux de toutes les couleurs ?",
+  "r": "Elmer",
+  "t": "Livres jeunesse",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-063",
+  "q": "En quoi se transforme « La Chenille qui fait des trous » à la fin du livre ?",
+  "r": "En papillon",
+  "t": "Livres jeunesse",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-064",
+  "q": "Comment s'appelle la femme de Babar, la reine des éléphants ?",
+  "r": "Céleste",
+  "t": "Livres jeunesse",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-065",
+  "q": "Dans « Charlie et la Chocolaterie », que doit trouver Charlie dans sa tablette pour visiter l'usine ?",
+  "r": "Un ticket d'or",
+  "t": "Livres jeunesse",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-066",
+  "q": "Quel gentil colosse de Roald Dahl souffle de beaux rêves dans les chambres des enfants ?",
+  "r": "Le Bon Gros Géant",
+  "t": "Livres jeunesse",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-067",
+  "q": "Comment s'appelle le chien du « Club des Cinq » ?",
+  "r": "Dagobert",
+  "t": "Livres jeunesse",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-068",
+  "q": "Quel petit personnage en bois, avec une clochette sur son bonnet, conduit un taxi jaune et rouge ?",
+  "r": "Oui-Oui",
+  "t": "Livres jeunesse",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-069",
+  "q": "Quelle souris journaliste est le héros d'une grande série de livres d'aventures pour enfants ?",
+  "r": "Geronimo Stilton",
+  "t": "Livres jeunesse",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-070",
+  "q": "Comment s'appelle le garçon héros du « Journal d'un dégonflé » ?",
+  "r": "Greg Heffley",
+  "t": "Livres jeunesse",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-071",
+  "q": "Comment s'appelle le gros chat de Mortelle Adèle ?",
+  "r": "Ajax",
+  "t": "Bande dessinée",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-072",
+  "q": "Quelle collection de petits livres a pour héros des personnages tout ronds appelés Chatouille, Glouton ou Bavarde ?",
+  "r": "Monsieur Madame",
+  "t": "Livres jeunesse",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-073",
+  "q": "Quel Gaulois très gros est tombé dans la marmite de potion magique quand il était petit ?",
+  "r": "Obélix",
+  "t": "Bande dessinée",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-074",
+  "q": "Quel animal Obélix adore-t-il manger rôti ?",
+  "r": "Le sanglier",
+  "t": "Bande dessinée",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-075",
+  "q": "Quel est le métier de Tintin ?",
+  "r": "Reporter",
+  "t": "Bande dessinée",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-076",
+  "q": "Comment appelle-t-on la petite mèche de cheveux dressée sur la tête de Tintin ?",
+  "r": "Une houppe",
+  "t": "Bande dessinée",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-077",
+  "q": "Quelle petite fille Gargamel a-t-il fabriquée pour semer la zizanie chez les petits lutins bleus ?",
+  "r": "La Schtroumpfette",
+  "t": "Bande dessinée",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-078",
+  "q": "Comment s'appelle le chef des petits lutins bleus, qui porte un bonnet rouge et une barbe blanche ?",
+  "r": "Le Grand Schtroumpf",
+  "t": "Bande dessinée",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-079",
+  "q": "Quel petit Indien de bande dessinée sait parler aux animaux ?",
+  "r": "Yakari",
+  "t": "Bande dessinée",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-080",
+  "q": "Quelle famille toute ronde peut prendre la forme qu'elle veut, comme une échelle ou une maison ?",
+  "r": "Les Barbapapa",
+  "t": "Livres jeunesse",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-081",
+  "q": "Quel chien blanc et noir de bande dessinée aime dormir sur le toit de sa niche ?",
+  "r": "Snoopy",
+  "t": "Bande dessinée",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-082",
+  "q": "Comment s'appelle le petit garçon maître de Snoopy ?",
+  "r": "Charlie Brown",
+  "t": "Bande dessinée",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-083",
+  "q": "Quel gros chat orange de bande dessinée adore les lasagnes et déteste le lundi ?",
+  "r": "Garfield",
+  "t": "Bande dessinée",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-084",
+  "q": "Quel vieux canard très riche aime plonger dans son coffre rempli de pièces d'or ?",
+  "r": "Picsou",
+  "t": "Bande dessinée",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-085",
+  "q": "De quel dieu grec de la mer Percy Jackson est-il le fils ?",
+  "r": "Poséidon",
+  "t": "Livres jeunesse",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-086",
+  "q": "Quel héros grec très fort a étouffé deux serpents dans son berceau quand il était bébé ?",
+  "r": "Hercule",
+  "t": "Mythologie",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-087",
+  "q": "Comment appelle-t-on une créature moitié homme, moitié cheval ?",
+  "r": "Un centaure",
+  "t": "Mythologie",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-088",
+  "q": "Comment appelle-t-on une créature des légendes moitié femme, moitié poisson ?",
+  "r": "Une sirène",
+  "t": "Mythologie",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-089",
+  "q": "Comment appelle-t-on un géant qui n'a qu'un seul œil au milieu du front ?",
+  "r": "Un cyclope",
+  "t": "Mythologie",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-090",
+  "q": "Quel oiseau de nuit accompagne la déesse grecque Athéna ?",
+  "r": "La chouette",
+  "t": "Mythologie",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-091",
+  "q": "Quel grand oiseau est le symbole de Zeus, le roi des dieux grecs ?",
+  "r": "L'aigle",
+  "t": "Mythologie",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-092",
+  "q": "Avec quoi Dédale colle-t-il les plumes des ailes qu'il fabrique pour son fils Icare ?",
+  "r": "Avec de la cire",
+  "t": "Mythologie",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-093",
+  "q": "Quel oiseau magique renaît de ses cendres ?",
+  "r": "Le phénix",
+  "t": "Mythologie",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-094",
+  "q": "Quel héros grec met dix ans à rentrer chez lui après la guerre de Troie ?",
+  "r": "Ulysse",
+  "t": "Mythologie",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-095",
+  "q": "Quelle ville les Grecs ont-ils assiégée pendant dix ans avant d'y entrer par une ruse ?",
+  "r": "Troie",
+  "t": "Mythologie",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-096",
+  "q": "Que saupoudre la fée Clochette sur les enfants pour qu'ils puissent voler avec Peter Pan ?",
+  "r": "De la poussière de fée",
+  "t": "Contes",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-097",
+  "q": "Quelle créature a le corps d'un lion, et la tête et les ailes d'un aigle ?",
+  "r": "Le griffon",
+  "t": "Mythologie",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-098",
+  "q": "Dans « Alice au pays des merveilles », que fait Alice quand elle boit la petite bouteille marquée « Bois-moi » ?",
+  "r": "Elle rapetisse",
+  "t": "Livres jeunesse",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-099",
+  "q": "Quel monstre géant des légendes de marins ressemble à une énorme pieuvre ?",
+  "r": "Le kraken",
+  "t": "Mythologie",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-100",
+  "q": "Dans une fable de La Fontaine, chez quelle petite voisine travailleuse la cigale va-t-elle demander à manger ?",
+  "r": "La fourmi",
+  "t": "Fables",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-101",
+  "q": "Que dit la fourmi à la cigale qui a chanté tout l'été : « Eh bien ! … maintenant » ?",
+  "r": "Dansez",
+  "t": "Fables",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-102",
+  "q": "Dans la fable de La Fontaine, en quelle saison la cigale n'a-t-elle plus rien à manger ?",
+  "r": "L'hiver",
+  "t": "Fables",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-103",
+  "q": "Dans la fable de La Fontaine, quel animal très lent gagne la course contre le lièvre ?",
+  "r": "La tortue",
+  "t": "Fables",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-104",
+  "q": "Dans une fable de La Fontaine, quel animal rusé flatte le corbeau pour lui prendre son fromage ?",
+  "r": "Le renard",
+  "t": "Fables",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-105",
+  "q": "Dans « Le Corbeau et le Renard », où le corbeau est-il perché au début de la fable ?",
+  "r": "Sur un arbre",
+  "t": "Fables",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-106",
+  "q": "Dans une fable de La Fontaine, quel rongeur citadin invite son cousin des champs à un festin ?",
+  "r": "Le rat de ville",
+  "t": "Fables",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-107",
+  "q": "Dans « Le Renard et la Cigogne », sur quoi le renard sert-il la soupe à son invitée ?",
+  "r": "Sur une assiette",
+  "t": "Fables",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-108",
+  "q": "Dans « Le Renard et la Cigogne », dans quoi la cigogne sert-elle ensuite le repas du renard ?",
+  "r": "Dans un vase à long col",
+  "t": "Fables",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-109",
+  "q": "Dans une fable de La Fontaine, quels fruits le renard ne peut-il pas attraper, en disant qu'ils sont « trop verts » ?",
+  "r": "Des raisins",
+  "t": "Fables",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-110",
+  "q": "Dans « Le Loup et la Cigogne », qu'est-ce que la cigogne retire de la gorge du loup ?",
+  "r": "Un os",
+  "t": "Fables",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-111",
+  "q": "Dans une fable de La Fontaine, quel animal s'installe dans le terrier du petit lapin pendant son absence ?",
+  "r": "La belette",
+  "t": "Fables",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-112",
+  "q": "Dans une fable de La Fontaine, que tiennent les deux canards dans leur bec pour emmener la tortue en voyage ?",
+  "r": "Un bâton",
+  "t": "Fables",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-113",
+  "q": "Dans « Le Renard et le Bouc », au fond de quoi les deux animaux descendent-ils pour boire ?",
+  "r": "D'un puits",
+  "t": "Fables",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-114",
+  "q": "Dans une fable de La Fontaine, quel petit fruit du chêne tombe sur le nez de Garo endormi ?",
+  "r": "Un gland",
+  "t": "Fables",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-115",
+  "q": "Dans « Le Lion et le Rat », comment le rat délivre-t-il le lion prisonnier d'un filet ?",
+  "r": "Il ronge les mailles",
+  "t": "Fables",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-116",
+  "q": "Comment appelle-t-on la leçon à retenir, souvent écrite à la fin d'une fable ?",
+  "r": "La morale",
+  "t": "Fables",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-117",
+  "q": "Dans les fables de La Fontaine, quel animal est le roi des animaux ?",
+  "r": "Le lion",
+  "t": "Fables",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-118",
+  "q": "Quel jeune garçon réussit à retirer l'épée plantée dans le rocher et devient roi ?",
+  "r": "Arthur",
+  "t": "Légendes",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-119",
+  "q": "Que devient Pinocchio à la fin de ses aventures, pour récompenser sa gentillesse ?",
+  "r": "Un vrai petit garçon",
+  "t": "Contes",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-120",
+  "q": "Comment s'appelle la jeune femme dont Robin des Bois est amoureux ?",
+  "r": "Marianne",
+  "t": "Légendes",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-121",
+  "q": "En France, quel animal apporte une pièce en échange d'une dent de lait cachée sous l'oreiller ?",
+  "r": "La petite souris",
+  "t": "Légendes",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-122",
+  "q": "Quelle est la première lettre de l'alphabet ?",
+  "r": "A",
+  "t": "Lettres",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-123",
+  "q": "Quelle est la dernière lettre de l'alphabet ?",
+  "r": "Z",
+  "t": "Lettres",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-124",
+  "q": "Quelle lettre vient juste après le A dans l'alphabet ?",
+  "r": "B",
+  "t": "Lettres",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-125",
+  "q": "Quelle lettre se trouve entre le K et le M dans l'alphabet ?",
+  "r": "L",
+  "t": "Lettres",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-126",
+  "q": "Combien y a-t-il de voyelles dans l'alphabet français ?",
+  "r": "Six",
+  "t": "Lettres",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-127",
+  "q": "Comment appelle-t-on les lettres A, E, I, O, U et Y ?",
+  "r": "Les voyelles",
+  "t": "Lettres",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-128",
+  "q": "Comment appelle-t-on les lettres comme B, D ou T, qui ne sont pas des voyelles ?",
+  "r": "Les consonnes",
+  "t": "Lettres",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-129",
+  "q": "Quelle lettre de l'alphabet a la forme d'un rond ?",
+  "r": "O",
+  "t": "Lettres",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-130",
+  "q": "Quelle lettre de l'alphabet ressemble à un serpent qui ondule ?",
+  "r": "S",
+  "t": "Lettres",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-131",
+  "q": "Quelle lettre se prononce comme la boisson chaude, le « thé » ?",
+  "r": "T",
+  "t": "Lettres",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-132",
+  "q": "Quelle lettre se prononce exactement comme le mot « paix » ?",
+  "r": "P",
+  "t": "Lettres",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-133",
+  "q": "Quelle lettre ne se prononce pas au début du mot « hibou » ?",
+  "r": "H",
+  "t": "Lettres",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-134",
+  "q": "Quelle lettre ne s'entend pas à la fin du mot « chocolat » ?",
+  "r": "T",
+  "t": "Lettres",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-135",
+  "q": "Par quelle lettre commence le mot « kangourou » ?",
+  "r": "K",
+  "t": "Lettres",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-136",
+  "q": "Par quelle lettre commence le mot « xylophone » ?",
+  "r": "X",
+  "t": "Lettres",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-137",
+  "q": "Quelle lettre est écrite deux fois de suite dans le mot « pomme » ?",
+  "r": "M",
+  "t": "Lettres",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-138",
+  "q": "Quelle est la seule voyelle du mot « bus » ?",
+  "r": "U",
+  "t": "Lettres",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-139",
+  "q": "Combien de lettres faut-il pour écrire le mot « chat » ?",
+  "r": "Quatre",
+  "t": "Lettres",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-140",
+  "q": "Combien de syllabes entend-on dans le mot « chocolat » ?",
+  "r": "Trois",
+  "t": "Mots",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-141",
+  "q": "Combien de syllabes entend-on dans le mot « ordinateur » ?",
+  "r": "Quatre",
+  "t": "Mots",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-142",
+  "q": "Comment appelle-t-on un morceau de mot qu'on prononce d'un seul coup de voix, comme « pa » dans « papa » ?",
+  "r": "Une syllabe",
+  "t": "Mots",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-143",
+  "q": "Comment appelle-t-on le rangement des mots de A à Z ?",
+  "r": "L'ordre alphabétique",
+  "t": "Mots",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-144",
+  "q": "Quel gros livre explique le sens des mots, rangés de A à Z ?",
+  "r": "Le dictionnaire",
+  "t": "Mots",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-145",
+  "q": "Comment appelle-t-on la grande lettre qu'on écrit au début d'une phrase ?",
+  "r": "Une majuscule",
+  "t": "Mots",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-146",
+  "q": "Comment appelle-t-on les petites lettres, qui ne sont pas des majuscules ?",
+  "r": "Les minuscules",
+  "t": "Mots",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-147",
+  "q": "Quel signe met-on à la fin d'une phrase qui pose une question ?",
+  "r": "Le point d'interrogation",
+  "t": "Ponctuation",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-148",
+  "q": "Quel signe met-on à la fin d'une phrase pour montrer la surprise ou la colère ?",
+  "r": "Le point d'exclamation",
+  "t": "Ponctuation",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-149",
+  "q": "Quel petit signe rond termine une phrase toute simple ?",
+  "r": "Le point",
+  "t": "Ponctuation",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-150",
+  "q": "Quel petit signe à queue sert à faire une courte pause au milieu d'une phrase ?",
+  "r": "La virgule",
+  "t": "Ponctuation",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-151",
+  "q": "Comment s'appelle le petit signe sur la lettre « e » du mot « été » ?",
+  "r": "L'accent aigu",
+  "t": "Ponctuation",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-152",
+  "q": "Comment s'appelle le petit signe sur la lettre « e » du mot « mère » ?",
+  "r": "L'accent grave",
+  "t": "Ponctuation",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-153",
+  "q": "Comment s'appelle le petit chapeau posé sur la lettre « e » du mot « forêt » ?",
+  "r": "L'accent circonflexe",
+  "t": "Ponctuation",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-154",
+  "q": "Comment appelle-t-on le petit signe qui relie les mots dans « arc-en-ciel » ?",
+  "r": "Le trait d'union",
+  "t": "Ponctuation",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-155",
+  "q": "Quel petit signe en haut remplace une lettre dans « l'école » ?",
+  "r": "L'apostrophe",
+  "t": "Ponctuation",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-156",
+  "q": "Comment appelle-t-on deux mots qui veulent dire la même chose, comme « content » et « joyeux » ?",
+  "r": "Des synonymes",
+  "t": "Mots",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-157",
+  "q": "Comment appelle-t-on deux mots de sens opposé, comme « grand » et « petit » ?",
+  "r": "Des contraires",
+  "t": "Mots",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-158",
+  "q": "Comment appelle-t-on un mot qui dit une action, comme « courir » ou « manger » ?",
+  "r": "Un verbe",
+  "t": "Grammaire",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-159",
+  "q": "Comment appelle-t-on un mot qui dit comment est une chose, comme « joli » ou « rapide » ?",
+  "r": "Un adjectif",
+  "t": "Grammaire",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-160",
+  "q": "En grammaire, comment appelle-t-on les mots « table », « chien » ou « maison » ?",
+  "r": "Des noms",
+  "t": "Grammaire",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-161",
+  "q": "Comment appelle-t-on les petits mots « le », « la » et « les » placés devant un nom ?",
+  "r": "Des articles",
+  "t": "Grammaire",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-162",
+  "q": "Comment appelle-t-on les petits mots « il » ou « elle », qui remplacent un nom ?",
+  "r": "Des pronoms",
+  "t": "Grammaire",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-163",
+  "q": "Quelle est la femelle du coq ?",
+  "r": "La poule",
+  "t": "Grammaire",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-164",
+  "q": "Quel est le féminin du mot « roi » ?",
+  "r": "Reine",
+  "t": "Grammaire",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-165",
+  "q": "Comment appelle-t-on la femelle du cheval ?",
+  "r": "La jument",
+  "t": "Grammaire",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-166",
+  "q": "Quel est le mâle de la vache ?",
+  "r": "Le taureau",
+  "t": "Grammaire",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-167",
+  "q": "Quels petits mots polis dit-on pour demander quelque chose gentiment ?",
+  "r": "S'il te plaît",
+  "t": "Mots",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-168",
+  "q": "Comment appelle-t-on la personne qui écrit des livres ?",
+  "r": "Un écrivain",
+  "t": "Livres",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-169",
+  "q": "Comment appelle-t-on la personne qui fait les images d'un livre ?",
+  "r": "Un illustrateur",
+  "t": "Livres",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-170",
+  "q": "Comment appelle-t-on le nom d'un livre, écrit en gros sur sa couverture ?",
+  "r": "Le titre",
+  "t": "Livres",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-171",
+  "q": "Comment appelle-t-on le lieu où l'on peut emprunter des livres gratuitement ?",
+  "r": "La bibliothèque",
+  "t": "Livres",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-172",
+  "q": "Comment appelle-t-on le magasin où l'on achète des livres ?",
+  "r": "La librairie",
+  "t": "Livres",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-173",
+  "q": "Comment appelle-t-on une histoire en images où les personnages parlent dans des bulles ?",
+  "r": "Une bande dessinée",
+  "t": "Livres",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-174",
+  "q": "Dans une bande dessinée, dans quoi sont écrites les paroles des personnages ?",
+  "r": "Dans des bulles",
+  "t": "Livres",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-175",
+  "q": "Comment appelle-t-on un texte écrit en vers, souvent avec des rimes ?",
+  "r": "Un poème",
+  "t": "Poésie",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-176",
+  "q": "Comment appelle-t-on chaque ligne d'un poème ?",
+  "r": "Un vers",
+  "t": "Poésie",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-177",
+  "q": "Comment appelle-t-on un artiste qui écrit des vers ?",
+  "r": "Un poète",
+  "t": "Poésie",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-178",
+  "q": "Comment appelle-t-on deux mots qui se terminent par le même son, comme « chat » et « rat » ?",
+  "r": "Des rimes",
+  "t": "Poésie",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-179",
+  "q": "Comment appelle-t-on un groupe de vers séparé des autres par une ligne vide dans un poème ?",
+  "r": "Une strophe",
+  "t": "Poésie",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-180",
+  "q": "Comment appelle-t-on une devinette en dessins, comme un chat et une peau pour dire « chapeau » ?",
+  "r": "Un rébus",
+  "t": "Mots",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-181",
+  "q": "Comment écrit-on le chant du coq dans les livres ?",
+  "r": "Cocorico",
+  "t": "Mots",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-182",
+  "q": "Quel est le contraire de « chaud » ?",
+  "r": "Froid",
+  "t": "Contraires",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-183",
+  "q": "Quel est le contraire de « jour » ?",
+  "r": "La nuit",
+  "t": "Contraires",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-184",
+  "q": "Quel est le contraire de « haut » ?",
+  "r": "Bas",
+  "t": "Contraires",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-185",
+  "q": "Quel est le contraire de « jeune » ?",
+  "r": "Vieux",
+  "t": "Contraires",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-186",
+  "q": "Quel est le contraire de « rapide » ?",
+  "r": "Lent",
+  "t": "Contraires",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-187",
+  "q": "Quel est le contraire de « plein » ?",
+  "r": "Vide",
+  "t": "Contraires",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-188",
+  "q": "Quel est le contraire de « ouvert » ?",
+  "r": "Fermé",
+  "t": "Contraires",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-189",
+  "q": "Quel est le contraire de « gentil » ?",
+  "r": "Méchant",
+  "t": "Contraires",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-190",
+  "q": "Quel est le contraire de « propre » ?",
+  "r": "Sale",
+  "t": "Contraires",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-191",
+  "q": "Quel est le contraire de « lourd » ?",
+  "r": "Léger",
+  "t": "Contraires",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-192",
+  "q": "Quel est le contraire de « riche » ?",
+  "r": "Pauvre",
+  "t": "Contraires",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-193",
+  "q": "Quel est le contraire de « début » ?",
+  "r": "La fin",
+  "t": "Contraires",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-194",
+  "q": "Quel est le contraire de « entrer » ?",
+  "r": "Sortir",
+  "t": "Contraires",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-195",
+  "q": "Quel est le contraire de « monter » ?",
+  "r": "Descendre",
+  "t": "Contraires",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-196",
+  "q": "Quel est le contraire de « gagner » ?",
+  "r": "Perdre",
+  "t": "Contraires",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-197",
+  "q": "Quel est le contraire de « dedans » ?",
+  "r": "Dehors",
+  "t": "Contraires",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-198",
+  "q": "Quel est le contraire de « devant » ?",
+  "r": "Derrière",
+  "t": "Contraires",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-199",
+  "q": "Quel est le contraire de « toujours » ?",
+  "r": "Jamais",
+  "t": "Contraires",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-200",
+  "q": "Quel est le contraire de « tôt » ?",
+  "r": "Tard",
+  "t": "Contraires",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-201",
+  "q": "Quel est le contraire de « beaucoup » ?",
+  "r": "Peu",
+  "t": "Contraires",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-202",
+  "q": "Quel est le contraire de « triste » ?",
+  "r": "Gai",
+  "t": "Contraires",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-203",
+  "q": "Quel est le contraire de « vrai » ?",
+  "r": "Faux",
+  "t": "Contraires",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-204",
+  "q": "Quel est le contraire de « facile » ?",
+  "r": "Difficile",
+  "t": "Contraires",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-205",
+  "q": "Quel est le contraire de « large » ?",
+  "r": "Étroit",
+  "t": "Contraires",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-206",
+  "q": "Quel est le contraire de « mouillé » ?",
+  "r": "Sec",
+  "t": "Contraires",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-207",
+  "q": "Quel est le contraire de « allumer » ?",
+  "r": "Éteindre",
+  "t": "Contraires",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-208",
+  "q": "Quel est le contraire de « rire » ?",
+  "r": "Pleurer",
+  "t": "Contraires",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-209",
+  "q": "Quel est le contraire de « gauche » ?",
+  "r": "Droite",
+  "t": "Contraires",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-210",
+  "q": "Quel est le contraire de « long » ?",
+  "r": "Court",
+  "t": "Contraires",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-211",
+  "q": "Quel est le contraire de « fort » ?",
+  "r": "Faible",
+  "t": "Contraires",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-212",
+  "q": "Quel est le contraire de « acheter » ?",
+  "r": "Vendre",
+  "t": "Contraires",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-213",
+  "q": "Quel est le contraire de « premier » ?",
+  "r": "Dernier",
+  "t": "Contraires",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-214",
+  "q": "Quel est le contraire de « pousser » ?",
+  "r": "Tirer",
+  "t": "Contraires",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-215",
+  "q": "Quel animal qui fait « meuh » rime avec « tache » ?",
+  "r": "La vache",
+  "t": "Rimes",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-216",
+  "q": "Quel animal qui miaule rime avec « chocolat » ?",
+  "r": "Le chat",
+  "t": "Rimes",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-217",
+  "q": "Quel oiseau de la ferme, qui chante le matin, rime avec « toc » ?",
+  "r": "Le coq",
+  "t": "Rimes",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-218",
+  "q": "Quel oiseau qui fait « coin-coin » rime avec « renard » ?",
+  "r": "Le canard",
+  "t": "Rimes",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-219",
+  "q": "Quel animal aux longues oreilles rime avec « sapin » ?",
+  "r": "Le lapin",
+  "t": "Rimes",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-220",
+  "q": "Quel roi des animaux rime avec « camion » ?",
+  "r": "Le lion",
+  "t": "Rimes",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-221",
+  "q": "Quel animal avec une trompe rime avec « enfant » ?",
+  "r": "L'éléphant",
+  "t": "Rimes",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-222",
+  "q": "Quel fruit jaune rime avec « cabane » ?",
+  "r": "La banane",
+  "t": "Rimes",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-223",
+  "q": "Quel fruit qui croque, rouge ou vert, rime avec « gomme » ?",
+  "r": "La pomme",
+  "t": "Rimes",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-224",
+  "q": "Quel légume orange rime avec « botte » ?",
+  "r": "La carotte",
+  "t": "Rimes",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-225",
+  "q": "Quelle saison rime avec « bébé » ?",
+  "r": "L'été",
+  "t": "Rimes",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-226",
+  "q": "Quel astre qui brille la nuit rime avec « prune » ?",
+  "r": "La Lune",
+  "t": "Rimes",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-227",
+  "q": "Quel astre qui brille le jour rime avec « abeille » ?",
+  "r": "Le Soleil",
+  "t": "Rimes",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-228",
+  "q": "Quel petit animal couvert de piquants rime avec « maison » ?",
+  "r": "Le hérisson",
+  "t": "Rimes",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-229",
+  "q": "Quel liquide qu'on boit quand on a soif rime avec « gâteau » ?",
+  "r": "L'eau",
+  "t": "Rimes",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-230",
+  "q": "Quel petit rongeur gris rime avec « tapis » ?",
+  "r": "La souris",
+  "t": "Rimes",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-231",
+  "q": "Quel animal à carapace rime avec « laitue » ?",
+  "r": "La tortue",
+  "t": "Rimes",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-232",
+  "q": "Quel animal qui aboie rime avec « bien » ?",
+  "r": "Le chien",
+  "t": "Rimes",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-233",
+  "q": "Quel animal rose de la ferme rime avec « bouchon » ?",
+  "r": "Le cochon",
+  "t": "Rimes",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-234",
+  "q": "Quel animal couvert de laine rime avec « bouton » ?",
+  "r": "Le mouton",
+  "t": "Rimes",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-235",
+  "q": "Quelle couleur obtient-on en mélangeant du bleu et du jaune ?",
+  "r": "Le vert",
+  "t": "Couleurs",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-236",
+  "q": "Quelle couleur obtient-on en mélangeant du bleu et du rouge ?",
+  "r": "Le violet",
+  "t": "Couleurs",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-237",
+  "q": "Quelle couleur obtient-on en mélangeant du noir et du blanc ?",
+  "r": "Le gris",
+  "t": "Couleurs",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-238",
+  "q": "Quelle couleur faut-il ajouter au jaune pour obtenir du vert ?",
+  "r": "Le bleu",
+  "t": "Couleurs",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-239",
+  "q": "Quelle couleur faut-il ajouter au bleu pour obtenir du violet ?",
+  "r": "Le rouge",
+  "t": "Couleurs",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-240",
+  "q": "Quelle couleur faut-il ajouter au noir pour obtenir du gris ?",
+  "r": "Le blanc",
+  "t": "Couleurs",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-241",
+  "q": "Quelle couleur obtient-on en mélangeant du bleu et du blanc ?",
+  "r": "Le bleu clair",
+  "t": "Couleurs",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-242",
+  "q": "Comment appelle-t-on les trois couleurs de base qui servent à fabriquer toutes les autres en peinture ?",
+  "r": "Les couleurs primaires",
+  "t": "Couleurs",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-243",
+  "q": "En peinture, le rouge, le jaune et quelle autre couleur sont les trois couleurs primaires ?",
+  "r": "Le bleu",
+  "t": "Couleurs",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-244",
+  "q": "Combien de couleurs compte-t-on dans un arc-en-ciel ?",
+  "r": "7",
+  "t": "Couleurs",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-245",
+  "q": "Quelle couleur se trouve tout en haut d'un arc-en-ciel ?",
+  "r": "Le rouge",
+  "t": "Couleurs",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-246",
+  "q": "Comment appelle-t-on le rouge, l'orange et le jaune, qui font penser au feu et au soleil ?",
+  "r": "Les couleurs chaudes",
+  "t": "Couleurs",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-247",
+  "q": "Comment appelle-t-on le bleu et le vert, qui font penser à l'eau et à la glace ?",
+  "r": "Les couleurs froides",
+  "t": "Couleurs",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-248",
+  "q": "Quel mot veut dire « qui a plein de couleurs différentes » ?",
+  "r": "Multicolore",
+  "t": "Couleurs",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-249",
+  "q": "De quelle couleur est le feu qui dit aux piétons qu'ils peuvent traverser ?",
+  "r": "Vert",
+  "t": "Couleurs",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-250",
+  "q": "Quelle couleur est entre le vert et le bleu, comme l'eau d'un lagon ?",
+  "r": "Le turquoise",
+  "t": "Couleurs",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-251",
+  "q": "De quelle couleur est le chocolat au lait ?",
+  "r": "Marron",
+  "t": "Couleurs",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-252",
+  "q": "De quelle couleur est une carotte ?",
+  "r": "Orange",
+  "t": "Couleurs",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-253",
+  "q": "De quelle couleur sont les camions de pompiers en France ?",
+  "r": "Rouge",
+  "t": "Couleurs",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-254",
+  "q": "De quelle couleur sont les gros nuages qui annoncent la pluie ?",
+  "r": "Gris",
+  "t": "Couleurs",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-255",
+  "q": "Quel est le nom de la couleur jaune très brillante des bijoux précieux et des médailles de champion ?",
+  "r": "L'or",
+  "t": "Couleurs",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-256",
+  "q": "Quelle couleur est le contraire du blanc ?",
+  "r": "Le noir",
+  "t": "Couleurs",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-257",
+  "q": "Comment appelle-t-on une couleur très claire et douce, comme le rose bébé ou le bleu ciel ?",
+  "r": "Une couleur pastel",
+  "t": "Couleurs",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-258",
+  "q": "Avec quel outil, fait de poils au bout d'un manche, étale-t-on la peinture ?",
+  "r": "Le pinceau",
+  "t": "Peinture",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-259",
+  "q": "Sur quel tissu tendu sur un cadre en bois les peintres peignent-ils souvent ?",
+  "r": "La toile",
+  "t": "Peinture",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-260",
+  "q": "Comment appelle-t-on la pièce où un peintre ou un sculpteur travaille ?",
+  "r": "L'atelier",
+  "t": "Peinture",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-261",
+  "q": "Comment appelle-t-on un tableau qui représente le visage d'une personne ?",
+  "r": "Un portrait",
+  "t": "Peinture",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-262",
+  "q": "Comment appelle-t-on le tableau qu'un peintre fait de lui-même ?",
+  "r": "Un autoportrait",
+  "t": "Peinture",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-263",
+  "q": "Comment appelle-t-on un tableau qui montre la campagne, la mer ou la montagne ?",
+  "r": "Un paysage",
+  "t": "Peinture",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-264",
+  "q": "Comment appelle-t-on le bord en bois, souvent doré, autour d'un tableau ?",
+  "r": "Le cadre",
+  "t": "Peinture",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-265",
+  "q": "Comment appelle-t-on la personne qui pose sans bouger pendant qu'un artiste la peint ?",
+  "r": "Le modèle",
+  "t": "Peinture",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-266",
+  "q": "Comment appelle-t-on un bâtiment où l'on peut admirer des tableaux et des statues ?",
+  "r": "Un musée",
+  "t": "Peinture",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-267",
+  "q": "Comment appelle-t-on un artiste qui fabrique des statues ?",
+  "r": "Un sculpteur",
+  "t": "Peinture",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-268",
+  "q": "Comment appelle-t-on une image faite de petits morceaux de pierre ou de verre collés les uns à côté des autres ?",
+  "r": "Une mosaïque",
+  "t": "Peinture",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-269",
+  "q": "Comment appelle-t-on les dessins et les mots peints à la bombe sur les murs ?",
+  "r": "Les graffitis",
+  "t": "Peinture",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-270",
+  "q": "Quelle peinture à l'eau, très transparente, utilise-t-on avec un pinceau bien mouillé ?",
+  "r": "L'aquarelle",
+  "t": "Peinture",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-271",
+  "q": "Dans quel musée de Paris peut-on admirer La Joconde ?",
+  "r": "Le Louvre",
+  "t": "Peinture",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-272",
+  "q": "Quelle partie du corps manque à la célèbre statue de la Vénus de Milo ?",
+  "r": "Les bras",
+  "t": "Peinture",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-273",
+  "q": "De quelle forme est l'entrée en verre du musée du Louvre ?",
+  "r": "Une pyramide",
+  "t": "Peinture",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-274",
+  "q": "Quel peintre a peint de grands bouquets de tournesols jaunes ?",
+  "r": "Vincent van Gogh",
+  "t": "Peinture",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-275",
+  "q": "Quel peintre espagnol a peint des visages avec un œil de face et le nez de profil ?",
+  "r": "Pablo Picasso",
+  "t": "Peinture",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-276",
+  "q": "Quel peintre russe est célèbre pour ses tableaux de ronds et de cercles de toutes les couleurs ?",
+  "r": "Vassily Kandinsky",
+  "t": "Peinture",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-277",
+  "q": "Quelle grotte de Dordogne est célèbre pour ses peintures d'animaux faites par les hommes préhistoriques ?",
+  "r": "Lascaux",
+  "t": "Peinture",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-278",
+  "q": "Quel instrument a un grand clavier avec des touches blanches et des touches noires ?",
+  "r": "Le piano",
+  "t": "Instruments",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-279",
+  "q": "Combien de cordes a une guitare classique ?",
+  "r": "6",
+  "t": "Instruments",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-280",
+  "q": "Quel instrument à cordes se joue avec un archet et se tient sous le menton ?",
+  "r": "Le violon",
+  "t": "Instruments",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-281",
+  "q": "Comment s'appelle la longue baguette avec des crins de cheval qui sert à jouer du violon ?",
+  "r": "L'archet",
+  "t": "Instruments",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-282",
+  "q": "Quel instrument à cordes a un grand cadre en forme de triangle et se joue en pinçant les cordes avec les doigts ?",
+  "r": "La harpe",
+  "t": "Instruments",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-283",
+  "q": "Quel instrument est fait d'une peau tendue sur un cylindre, que l'on frappe avec des baguettes ?",
+  "r": "Le tambour",
+  "t": "Instruments",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-284",
+  "q": "Comment appelle-t-on l'ensemble de tambours et de cymbales joué par un seul musicien dans un groupe de rock ?",
+  "r": "La batterie",
+  "t": "Instruments",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-285",
+  "q": "Quel instrument à vent, en métal doré, a trois pistons et sonne très fort ?",
+  "r": "La trompette",
+  "t": "Instruments",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-286",
+  "q": "Quelle petite flûte en plastique apprend-on souvent à jouer à l'école ?",
+  "r": "La flûte à bec",
+  "t": "Instruments",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-287",
+  "q": "Quel instrument a un soufflet qu'on ouvre et qu'on ferme, avec des boutons ou un petit clavier ?",
+  "r": "L'accordéon",
+  "t": "Instruments",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-288",
+  "q": "Quel petit instrument à trous se place contre la bouche et se joue en soufflant et en aspirant ?",
+  "r": "L'harmonica",
+  "t": "Instruments",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-289",
+  "q": "Quel instrument de percussion en métal a trois côtés et se frappe avec une petite tige ?",
+  "r": "Le triangle",
+  "t": "Instruments",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-290",
+  "q": "Comment s'appellent les deux grands disques de métal que l'on frappe l'un contre l'autre ?",
+  "r": "Les cymbales",
+  "t": "Instruments",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-291",
+  "q": "Quels petits instruments espagnols en bois claquent dans la main des danseuses ?",
+  "r": "Les castagnettes",
+  "t": "Instruments",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-292",
+  "q": "Quel instrument rond, avec des petites cymbales tout autour, se secoue et se frappe avec la main ?",
+  "r": "Le tambourin",
+  "t": "Instruments",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-293",
+  "q": "Quels instruments en forme de petites boules avec un manche contiennent des graines qu'on secoue ?",
+  "r": "Les maracas",
+  "t": "Instruments",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-294",
+  "q": "Quelle petite guitare à quatre cordes vient de l'île d'Hawaï ?",
+  "r": "Le ukulélé",
+  "t": "Instruments",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-295",
+  "q": "Quel instrument à vent a un sac que le musicien gonfle, et est célèbre en Écosse ?",
+  "r": "La cornemuse",
+  "t": "Instruments",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-296",
+  "q": "Quel instrument en cuivre, enroulé en rond, servait autrefois à la chasse ?",
+  "r": "Le cor",
+  "t": "Instruments",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-297",
+  "q": "Quel tambour africain en bois, en forme de grand verre à pied, se joue avec les mains ?",
+  "r": "Le djembé",
+  "t": "Instruments",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-298",
+  "q": "Quel grand disque de métal suspendu fait un grand « bong » quand on le frappe ?",
+  "r": "Le gong",
+  "t": "Instruments",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-299",
+  "q": "Quel instrument à cordes, avec une caisse ronde comme un tambour, est joué dans la musique country ?",
+  "r": "Le banjo",
+  "t": "Instruments",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-300",
+  "q": "Comment appelle-t-on tous les instruments que l'on frappe ou que l'on secoue, comme le tambour ?",
+  "r": "Les percussions",
+  "t": "Instruments",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-301",
+  "q": "Comment appelle-t-on les instruments dans lesquels on souffle, comme la flûte ou la trompette ?",
+  "r": "Les instruments à vent",
+  "t": "Instruments",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-302",
+  "q": "Quel instrument à vent en métal doré, en forme de pipe recourbée, est très utilisé dans le jazz ?",
+  "r": "Le saxophone",
+  "t": "Instruments",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-303",
+  "q": "Quel instrument de musique porte le même nom que la petite agrafe en métal qui sert à tenir des feuilles ensemble ?",
+  "r": "Le trombone",
+  "t": "Instruments",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-304",
+  "q": "Quel instrument de musique à manivelle, sur roues, est souvent joué dans la rue ?",
+  "r": "L'orgue de Barbarie",
+  "t": "Instruments",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-305",
+  "q": "Dans « Pierre et le Loup », quel instrument joue le rôle de l'oiseau ?",
+  "r": "La flûte",
+  "t": "Musique",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-306",
+  "q": "Dans « Pierre et le Loup », quel instrument joue le rôle du chat ?",
+  "r": "La clarinette",
+  "t": "Musique",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-307",
+  "q": "Comment appelle-t-on un grand groupe de musiciens qui jouent ensemble de la musique classique ?",
+  "r": "Un orchestre",
+  "t": "Musique",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-308",
+  "q": "Comment appelle-t-on la personne qui dirige un grand groupe de musiciens avec une petite baguette ?",
+  "r": "Le chef d'orchestre",
+  "t": "Musique",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-309",
+  "q": "Comment appelle-t-on un groupe de personnes qui chantent ensemble ?",
+  "r": "Une chorale",
+  "t": "Musique",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-310",
+  "q": "Combien y a-t-il de notes dans la gamme do, ré, mi, fa, sol, la, si ?",
+  "r": "7",
+  "t": "Musique",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-311",
+  "q": "Quelle note de musique vient juste après « do » ?",
+  "r": "Ré",
+  "t": "Musique",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-312",
+  "q": "Quelle note de musique vient juste après « mi » ?",
+  "r": "Fa",
+  "t": "Musique",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-313",
+  "q": "Quelle est la dernière note de la gamme qui commence par do, ré, mi ?",
+  "r": "Si",
+  "t": "Musique",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-314",
+  "q": "Quel signe, placé au début des lignes de musique, ressemble à un escargot ?",
+  "r": "La clé de sol",
+  "t": "Musique",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-315",
+  "q": "Quelle note dure le plus longtemps : la blanche ou la noire ?",
+  "r": "La blanche",
+  "t": "Musique",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-316",
+  "q": "Comment appelle-t-on une chanson douce que l'on chante pour endormir un bébé ?",
+  "r": "Une berceuse",
+  "t": "Musique",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-317",
+  "q": "Quel jour de l'année fête-t-on la musique en France, avec des concerts dans les rues ?",
+  "r": "Le 21 juin",
+  "t": "Musique",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-318",
+  "q": "Quel compositeur autrichien très célèbre avait pour prénoms Wolfgang Amadeus ?",
+  "r": "Mozart",
+  "t": "Musique",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-319",
+  "q": "Comment appelle-t-on un spectacle de théâtre où les chanteurs chantent au lieu de parler, avec un orchestre ?",
+  "r": "Un opéra",
+  "t": "Musique",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-320",
+  "q": "Quelle danse de couple, à trois temps, fait tourner les danseurs comme des toupies, notamment à Vienne ?",
+  "r": "La valse",
+  "t": "Danse",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-321",
+  "q": "Comment appelle-t-on les chaussons qui permettent aux danseuses de se tenir sur le bout des pieds ?",
+  "r": "Les pointes",
+  "t": "Danse",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-322",
+  "q": "Comment appelle-t-on une danse où l'on tourne en cercle en se tenant par la main ?",
+  "r": "Une ronde",
+  "t": "Danse",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-323",
+  "q": "Quelle danse permet de raconter une histoire sans paroles, avec des danseuses en tutu ?",
+  "r": "Le ballet",
+  "t": "Danse",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-324",
+  "q": "Comment appelle-t-on la suite de pas inventée pour un spectacle de danse ?",
+  "r": "Une chorégraphie",
+  "t": "Danse",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-325",
+  "q": "Dans la comptine « Promenons-nous dans les bois », quel animal n'est pas là ?",
+  "r": "Le loup",
+  "t": "Musique",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-326",
+  "q": "Dans la comptine « Une souris verte », où courait la souris ?",
+  "r": "Dans l'herbe",
+  "t": "Musique",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-327",
+  "q": "Dans la comptine « Meunier, tu dors », qu'est-ce qui va trop vite ?",
+  "r": "Le moulin",
+  "t": "Musique",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-328",
+  "q": "Dans la chanson « À la claire fontaine », quel oiseau chante sur la plus haute branche ?",
+  "r": "Le rossignol",
+  "t": "Musique",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-329",
+  "q": "Dans la comptine « Une poule sur un mur », que picore la poule ?",
+  "r": "Du pain dur",
+  "t": "Musique",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-330",
+  "q": "Dans la chanson « Le bon roi Dagobert », qu'est-ce que le roi a mis à l'envers ?",
+  "r": "Sa culotte",
+  "t": "Musique",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-331",
+  "q": "Dans quelle ville se trouve le pont de la chanson où « l'on y danse tous en rond » ?",
+  "r": "Avignon",
+  "t": "Musique",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-332",
+  "q": "Dans la chanson « Petit Papa Noël », qu'est-ce qu'il ne faut pas oublier ?",
+  "r": "Le petit soulier",
+  "t": "Musique",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-333",
+  "q": "Dans la comptine « Pirouette, cacahuète », en quoi est la maison du petit homme ?",
+  "r": "En carton",
+  "t": "Musique",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-334",
+  "q": "Dans la comptine « Dans sa maison un grand cerf », quel animal vient frapper à la porte ?",
+  "r": "Le lapin",
+  "t": "Musique",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-335",
+  "q": "Dans la comptine « Ainsi font, font, font », qui fait trois petits tours et puis s'en va ?",
+  "r": "Les marionnettes",
+  "t": "Musique",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-336",
+  "q": "Dans la chanson de Noël « Vive le vent », de quelle saison est le vent ?",
+  "r": "L'hiver",
+  "t": "Musique",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-337",
+  "q": "Dans quelle ville se trouve la tour Eiffel ?",
+  "r": "Paris",
+  "t": "Monuments",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-338",
+  "q": "En quel métal est construite la tour Eiffel ?",
+  "r": "Le fer",
+  "t": "Monuments",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-339",
+  "q": "Quel grand arc se dresse en haut de l'avenue des Champs-Élysées, à Paris ?",
+  "r": "L'Arc de triomphe",
+  "t": "Monuments",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-340",
+  "q": "Quelle célèbre cathédrale de Paris se trouve sur l'île de la Cité ?",
+  "r": "Notre-Dame de Paris",
+  "t": "Monuments",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-341",
+  "q": "Dans quel pays se trouvent les grandes pyramides de Gizeh ?",
+  "r": "L'Égypte",
+  "t": "Monuments",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-342",
+  "q": "Pour qui les grandes pyramides d'Égypte ont-elles été construites ?",
+  "r": "Les pharaons",
+  "t": "Monuments",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-343",
+  "q": "Quelle grande statue à corps de lion et à tête d'homme garde les pyramides d'Égypte ?",
+  "r": "Le Sphinx",
+  "t": "Monuments",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-344",
+  "q": "Quel immense mur, long de milliers de kilomètres, traverse la Chine ?",
+  "r": "La Grande Muraille",
+  "t": "Monuments",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-345",
+  "q": "Dans quelle ville se trouve le Colisée, où combattaient les gladiateurs ?",
+  "r": "Rome",
+  "t": "Monuments",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-346",
+  "q": "Quelle statue, offerte par la France, accueille les bateaux à l'entrée de New York ?",
+  "r": "La statue de la Liberté",
+  "t": "Monuments",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-347",
+  "q": "Que tient la statue de la Liberté dans sa main levée ?",
+  "r": "Une torche",
+  "t": "Monuments",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-348",
+  "q": "Dans quelle ville se trouve l'horloge Big Ben ?",
+  "r": "Londres",
+  "t": "Monuments",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-349",
+  "q": "Comment appelle-t-on les grandes pierres dressées que l'on trouve par milliers à Carnac, en Bretagne ?",
+  "r": "Les menhirs",
+  "t": "Monuments",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-350",
+  "q": "Dans quel château, près de Paris, vivait le roi Louis XIV ?",
+  "r": "Le château de Versailles",
+  "t": "Monuments",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-351",
+  "q": "Comment s'appellent les longues barques noires qui glissent sur les canaux de Venise ?",
+  "r": "Les gondoles",
+  "t": "Monuments",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-352",
+  "q": "Comment appelle-t-on la partie d'un château fort qui est la tour la plus haute et la plus solide ?",
+  "r": "Le donjon",
+  "t": "Monuments",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-353",
+  "q": "Comment appelle-t-on le fossé rempli d'eau qui entoure un château fort ?",
+  "r": "Les douves",
+  "t": "Monuments",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-354",
+  "q": "Comment appelle-t-on le pont qu'on peut lever pour fermer l'entrée d'un château fort ?",
+  "r": "Le pont-levis",
+  "t": "Monuments",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-355",
+  "q": "Quel outil sert à tracer des traits bien droits ?",
+  "r": "La règle",
+  "t": "Dessin et bricolage",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-356",
+  "q": "Quel outil à deux branches sert à tracer des cercles parfaits ?",
+  "r": "Le compas",
+  "t": "Dessin et bricolage",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-357",
+  "q": "Avec quoi efface-t-on un trait de crayon à papier ?",
+  "r": "La gomme",
+  "t": "Dessin et bricolage",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-358",
+  "q": "Avec quoi découpe-t-on une feuille de papier ?",
+  "r": "Les ciseaux",
+  "t": "Dessin et bricolage",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-359",
+  "q": "Quel ruban transparent qui colle sert à réparer une page déchirée ?",
+  "r": "Le ruban adhésif",
+  "t": "Dessin et bricolage",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-360",
+  "q": "Quel papier très fin et transparent permet de recopier un dessin en le posant dessus ?",
+  "r": "Le papier calque",
+  "t": "Dessin et bricolage",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-361",
+  "q": "Quel art japonais consiste à plier du papier pour faire des animaux, sans ciseaux ni colle ?",
+  "r": "L'origami",
+  "t": "Dessin et bricolage",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-362",
+  "q": "Quelle pâte molle et colorée sert à fabriquer des petits personnages avec les mains ?",
+  "r": "La pâte à modeler",
+  "t": "Dessin et bricolage",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-363",
+  "q": "Quelle terre que l'on mouille utilise le potier pour fabriquer des vases et des bols ?",
+  "r": "L'argile",
+  "t": "Dessin et bricolage",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-364",
+  "q": "Sur quelle machine à plateau rond le potier façonne-t-il ses vases ?",
+  "r": "Le tour",
+  "t": "Dessin et bricolage",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-365",
+  "q": "Comment appelle-t-on un dessin rapide fait pour préparer un dessin plus soigné ?",
+  "r": "Un croquis",
+  "t": "Dessin et bricolage",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-366",
+  "q": "Quel crayon a une pointe douce remplie d'encre de couleur et sèche si on oublie le bouchon ?",
+  "r": "Le feutre",
+  "t": "Dessin et bricolage",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-367",
+  "q": "Quel outil sert à enfoncer un clou ?",
+  "r": "Le marteau",
+  "t": "Dessin et bricolage",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-368",
+  "q": "Quel outil à dents sert à couper une planche de bois ?",
+  "r": "La scie",
+  "t": "Dessin et bricolage",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-369",
+  "q": "Quel petit clou à tête plate sert à accrocher une affiche sur un panneau en liège ?",
+  "r": "La punaise",
+  "t": "Dessin et bricolage",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-370",
+  "q": "Quel petit objet pointu, percé d'un trou pour le fil, sert à coudre ?",
+  "r": "L'aiguille",
+  "t": "Dessin et bricolage",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-371",
+  "q": "Quel petit chapeau de métal protège le bout du doigt contre la pointe de l'aiguille ?",
+  "r": "Le dé à coudre",
+  "t": "Dessin et bricolage",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-372",
+  "q": "Quelle matière, qui vient de la toison des moutons, sert à tricoter des écharpes ?",
+  "r": "La laine",
+  "t": "Dessin et bricolage",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-373",
+  "q": "Comment appelle-t-on un dessin qui exagère les traits d'une personne pour faire rire ?",
+  "r": "Une caricature",
+  "t": "Dessin et bricolage",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-374",
+  "q": "Quel outil de peintre, en forme de cylindre, sert à peindre rapidement les grands murs ?",
+  "r": "Le rouleau",
+  "t": "Dessin et bricolage",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-375",
+  "q": "Comment appelle-t-on une feuille trouée que l'on pose sur le papier pour peindre une forme à travers le trou ?",
+  "r": "Le pochoir",
+  "t": "Dessin et bricolage",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-376",
+  "q": "Quel objet que l'on trempe dans l'encre permet d'imprimer plusieurs fois le même dessin ?",
+  "r": "Le tampon",
+  "t": "Dessin et bricolage",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-377",
+  "q": "Quels petits objets troués enfile-t-on sur un fil pour fabriquer un collier ?",
+  "r": "Les perles",
+  "t": "Dessin et bricolage",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-378",
+  "q": "Que met-on par-dessus ses habits pour ne pas les salir quand on peint ?",
+  "r": "Un tablier",
+  "t": "Dessin et bricolage",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-379",
+  "q": "Quel tube rempli de petits morceaux de verre de couleur fait de jolis dessins quand on le tourne ?",
+  "r": "Le kaléidoscope",
+  "t": "Dessin et bricolage",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-380",
+  "q": "Comment dit-on « sticker » en français ?",
+  "r": "Un autocollant",
+  "t": "Dessin et bricolage",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-381",
+  "q": "Comment s'appelle le pliage en papier qu'on ouvre et ferme avec les doigts pour dire la bonne aventure ?",
+  "r": "La cocotte en papier",
+  "t": "Dessin et bricolage",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-382",
+  "q": "Avec quel outil à mine grise écrit-on quand on veut pouvoir gommer ?",
+  "r": "Le crayon à papier",
+  "t": "Dessin et bricolage",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-383",
+  "q": "Quel est le contraire de « dur » ?",
+  "r": "Mou",
+  "t": "Contraires",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-384",
+  "q": "Quel est le contraire de « près » ?",
+  "r": "Loin",
+  "t": "Contraires",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-385",
+  "q": "Quel est le contraire de « aimer » ?",
+  "r": "Détester",
+  "t": "Contraires",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-386",
+  "q": "Quel est le contraire de « commencer » ?",
+  "r": "Finir",
+  "t": "Contraires",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-387",
+  "q": "Quelles deux petites lettres ajoute-t-on devant « possible » pour dire le contraire ?",
+  "r": "I et M",
+  "t": "Contraires",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-388",
+  "q": "Quel est le pluriel de « un cheval » ?",
+  "r": "Des chevaux",
+  "t": "Pluriels",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-389",
+  "q": "Quel est le pluriel de « un œil » ?",
+  "r": "Des yeux",
+  "t": "Pluriels",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-390",
+  "q": "Quel est le pluriel de « un journal » ?",
+  "r": "Des journaux",
+  "t": "Pluriels",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-391",
+  "q": "Quel est le pluriel de « un animal » ?",
+  "r": "Des animaux",
+  "t": "Pluriels",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-392",
+  "q": "Quel est le pluriel de « monsieur » ?",
+  "r": "Messieurs",
+  "t": "Pluriels",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-393",
+  "q": "Au pluriel, quelle lettre ajoute-t-on à la fin de « bijou » ?",
+  "r": "X",
+  "t": "Pluriels",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-394",
+  "q": "Au pluriel, quelle lettre ajoute-t-on à la fin de « pneu » ?",
+  "r": "S",
+  "t": "Pluriels",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-395",
+  "q": "Quel est le féminin de « oncle » ?",
+  "r": "Tante",
+  "t": "Lettres et mots",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-396",
+  "q": "Quel est le féminin de « parrain » ?",
+  "r": "Marraine",
+  "t": "Lettres et mots",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-397",
+  "q": "Comment appelle-t-on la femelle du cerf ?",
+  "r": "La biche",
+  "t": "Lettres et mots",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-398",
+  "q": "Quel animal hennit ?",
+  "r": "Le cheval",
+  "t": "Lettres et mots",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-399",
+  "q": "Quel animal coasse au bord de la mare ?",
+  "r": "La grenouille",
+  "t": "Lettres et mots",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-400",
+  "q": "Quel grand oiseau noir croasse ?",
+  "r": "Le corbeau",
+  "t": "Lettres et mots",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-401",
+  "q": "Quel animal barrit en levant sa trompe ?",
+  "r": "L'éléphant",
+  "t": "Lettres et mots",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-402",
+  "q": "Quel animal brait en faisant « hi-han » ?",
+  "r": "L'âne",
+  "t": "Lettres et mots",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-403",
+  "q": "Quel oiseau de nuit hulule ?",
+  "r": "La chouette",
+  "t": "Lettres et mots",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-404",
+  "q": "Quelle lettre de l'alphabet appelle-t-on aussi « i grec » ?",
+  "r": "Y",
+  "t": "Lettres et mots",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-405",
+  "q": "Dans le dictionnaire, quel mot vient en premier : « chien » ou « chat » ?",
+  "r": "Chat",
+  "t": "Lettres et mots",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-406",
+  "q": "Quel mot est le plus long à écrire : « éléphant » ou « souris » ?",
+  "r": "Éléphant",
+  "t": "Lettres et mots",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-407",
+  "q": "Quel prénom de fille se lit pareil dans les deux sens : Anna ou Emma ?",
+  "r": "Anna",
+  "t": "Lettres et mots",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-408",
+  "q": "Quel nom de saison s'écrit de la même façon à l'endroit et à l'envers ?",
+  "r": "L'été",
+  "t": "Lettres et mots",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-409",
+  "q": "Quel mot qui se prononce comme « mer » désigne la maman ?",
+  "r": "La mère",
+  "t": "Lettres et mots",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-410",
+  "q": "Quel mot qui se prononce comme « vert » désigne un petit animal sans pattes qui vit dans la terre ?",
+  "r": "Le ver",
+  "t": "Lettres et mots",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-411",
+  "q": "Quel nombre se prononce comme le mot « sang » ?",
+  "r": "100",
+  "t": "Lettres et mots",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-412",
+  "q": "Quel arbre se prononce comme le mot « pain » ?",
+  "r": "Le pin",
+  "t": "Lettres et mots",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-413",
+  "q": "Quel mot qui se prononce comme « sel » désigne le siège qu'on pose sur le dos d'un cheval ?",
+  "r": "La selle",
+  "t": "Lettres et mots",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-414",
+  "q": "Quel synonyme de « vélo » commence par la lettre B ?",
+  "r": "Bicyclette",
+  "t": "Synonymes",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-415",
+  "q": "Quel synonyme de « joli » commence par la lettre B ?",
+  "r": "Beau",
+  "t": "Synonymes",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-416",
+  "q": "Quel synonyme de « commencer » commence par la lettre D ?",
+  "r": "Débuter",
+  "t": "Synonymes",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-417",
+  "q": "Quel synonyme de « finir » commence par la lettre T ?",
+  "r": "Terminer",
+  "t": "Synonymes",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-418",
+  "q": "Quel synonyme de « gentil » commence par la lettre A ?",
+  "r": "Aimable",
+  "t": "Synonymes",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-419",
+  "q": "Quel synonyme de « habit » commence par la lettre V ?",
+  "r": "Vêtement",
+  "t": "Synonymes",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-420",
+  "q": "Quel synonyme de « soulier » commence par « ch » ?",
+  "r": "Chaussure",
+  "t": "Synonymes",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-421",
+  "q": "Quel synonyme de « docteur » commence par la lettre M ?",
+  "r": "Médecin",
+  "t": "Synonymes",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-422",
+  "q": "Quel synonyme de « voiture » commence par la lettre A ?",
+  "r": "Automobile",
+  "t": "Synonymes",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-423",
+  "q": "Quel outil sert à faire des trous dans les feuilles pour les ranger dans un classeur ?",
+  "r": "La perforatrice",
+  "t": "Dessin et bricolage",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-424",
+  "q": "Quel outil plante de petites pattes de métal pour attacher des feuilles ensemble ?",
+  "r": "L'agrafeuse",
+  "t": "Dessin et bricolage",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-425",
+  "q": "Quel objet de papier plié peut-on lancer pour le faire planer dans les airs ?",
+  "r": "Un avion en papier",
+  "t": "Dessin et bricolage",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-426",
+  "q": "Dans quelle chanson réveille-t-on un moine endormi en lui demandant « Dormez-vous ? » ?",
+  "r": "« Frère Jacques »",
+  "t": "Comptines",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-427",
+  "q": "Dans quelle chanson un petit bateau n'avait « ja-ja-jamais navigué » ?",
+  "r": "« Il était un petit navire »",
+  "t": "Comptines",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-428",
+  "q": "Dans la chanson « Il pleut, il pleut, bergère », que doit rentrer la bergère ?",
+  "r": "Ses blancs moutons",
+  "t": "Comptines",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-429",
+  "q": "Dans la comptine, quel petit animal « court, court » et « est passé par ici » ?",
+  "r": "Le furet",
+  "t": "Comptines",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-430",
+  "q": "Dans la comptine, quel petit animal « porte sur son dos sa maisonnette » ?",
+  "r": "L'escargot",
+  "t": "Comptines",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-431",
+  "q": "Dans la chanson, combien de maisons a Cadet Rousselle ?",
+  "r": "Trois",
+  "t": "Comptines",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-432",
+  "q": "Quelle chanson chante-t-on devant un gâteau plein de bougies allumées ?",
+  "r": "« Joyeux anniversaire »",
+  "t": "Chansons",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-433",
+  "q": "Quels animaux donnent leur nom à une danse où l'on bat des ailes en remuant le derrière ?",
+  "r": "Les canards",
+  "t": "Chansons",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-434",
+  "q": "Dans la chanson « Tête, épaules, genoux et… », quelle partie du corps vient tout à la fin ?",
+  "r": "Les pieds",
+  "t": "Comptines",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-435",
+  "q": "Dans la chanson « Ah ! les crocodiles », au bord de quel fleuve sont-ils partis ?",
+  "r": "Le Nil",
+  "t": "Comptines",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-436",
+  "q": "Dans la chanson « C'est la mère Michel », qu'a perdu la mère Michel ?",
+  "r": "Son chat",
+  "t": "Comptines",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-437",
+  "q": "Dans la comptine « Lundi matin », qui vient avec sa femme et le petit prince ?",
+  "r": "L'empereur",
+  "t": "Comptines",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-438",
+  "q": "Dans la comptine, quel gros animal se balançait sur une toile d'araignée ?",
+  "r": "Un éléphant",
+  "t": "Comptines",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-439",
+  "q": "Dans « Le Roi lion » de Disney, quelle expression chantée par Timon et Pumbaa veut dire « sans aucun souci » ?",
+  "r": "Hakuna Matata",
+  "t": "Chansons",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-440",
+  "q": "Comment s'appelle le petit chien de Martine, dans les albums de Marcel Marlier ?",
+  "r": "Patapouf",
+  "t": "Albums jeunesse",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-441",
+  "q": "Dans « Les Trois Brigands » de Tomi Ungerer, comment s'appelle la petite fille qu'ils emmènent ?",
+  "r": "Tiffany",
+  "t": "Albums jeunesse",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-442",
+  "q": "Dans l'album « Gruffalo », quel animal la petite souris rencontre-t-elle en premier dans le bois ?",
+  "r": "Le renard",
+  "t": "Albums jeunesse",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-443",
+  "q": "Dans « La Chenille qui fait des trous », quel fruit la chenille mange-t-elle le lundi ?",
+  "r": "Une pomme",
+  "t": "Albums jeunesse",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-444",
+  "q": "Quel petit garçon en costume de loup devient le roi des monstres, dans l'album de Maurice Sendak ?",
+  "r": "Max",
+  "t": "Albums jeunesse",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-445",
+  "q": "Dans « Le Loup qui voulait changer de couleur », de quelle couleur est le loup au début ?",
+  "r": "Noir",
+  "t": "Albums jeunesse",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-446",
+  "q": "Dans l'album de Leo Lionni, de quelle couleur deviennent Petit-Bleu et Petit-Jaune quand ils se serrent très fort ?",
+  "r": "Vert",
+  "t": "Albums jeunesse",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-447",
+  "q": "Dans l'album « La Couleur des émotions », de quelle couleur est la colère ?",
+  "r": "Rouge",
+  "t": "Albums jeunesse",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-448",
+  "q": "Quel animal bleu est Pénélope, la petite héroïne étourdie des albums d'Anne Gutman ?",
+  "r": "Un koala",
+  "t": "Albums jeunesse",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-449",
+  "q": "De quelle couleur est le costume de Babar, le roi des éléphants ?",
+  "r": "Vert",
+  "t": "Albums jeunesse",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-450",
+  "q": "Quelle fleur le Petit Prince aime-t-il et protège-t-il sur sa planète ?",
+  "r": "Une rose",
+  "t": "Livres jeunesse",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-451",
+  "q": "Comment s'appelle le petit singe de Fifi Brindacier ?",
+  "r": "Monsieur Nilsson",
+  "t": "Livres jeunesse",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-452",
+  "q": "Dans « Les P'tites Poules », comment s'appelle la petite poule qui voulait voir la mer ?",
+  "r": "Carmela",
+  "t": "Albums jeunesse",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-453",
+  "q": "Quel personnage à lunettes, en bonnet et pull rayés rouge et blanc, faut-il retrouver dans la foule ?",
+  "r": "Charlie",
+  "t": "Albums jeunesse",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-454",
+  "q": "Dans le conte d'Andersen, que cache-t-on sous les matelas pour savoir si la jeune fille est une vraie princesse ?",
+  "r": "Un petit pois",
+  "t": "Contes",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-455",
+  "q": "Quel tout petit garçon d'Afrique, héros de dessin animé, tient tête à la sorcière Karaba ?",
+  "r": "Kirikou",
+  "t": "Dessins animés",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-456",
+  "q": "Comment appelle-t-on une fenêtre d'église faite de morceaux de verre de toutes les couleurs ?",
+  "r": "Un vitrail",
+  "t": "Monuments",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-457",
+  "q": "Comment appelle-t-on une statue qui montre seulement la tête et les épaules d'une personne ?",
+  "r": "Un buste",
+  "t": "Sculpture",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-458",
+  "q": "Quelle haute colonne de pierre pointue, venue d'Égypte, a un nom qui ressemble à celui de l'ami d'Astérix ?",
+  "r": "Un obélisque",
+  "t": "Monuments",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-459",
+  "q": "Combien de cordes a un violon ?",
+  "r": "Quatre",
+  "t": "Instruments",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-460",
+  "q": "Comment appelle-t-on un ensemble de cloches qui jouent un air dans un clocher ?",
+  "r": "Un carillon",
+  "t": "Instruments",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-461",
+  "q": "Quelle flûte est faite de plusieurs tubes de longueurs différentes, collés côte à côte ?",
+  "r": "La flûte de Pan",
+  "t": "Instruments",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-462",
+  "q": "Quel petit coffret joue une mélodie quand on l'ouvre, parfois avec une danseuse qui tourne ?",
+  "r": "Une boîte à musique",
+  "t": "Instruments",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-463",
+  "q": "Comment appelle-t-on le grand piano allongé que l'on voit dans les salles de concert ?",
+  "r": "Un piano à queue",
+  "t": "Instruments",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-464",
+  "q": "Quelle note de musique se trouve entre « fa » et « la » ?",
+  "r": "Sol",
+  "t": "Musique",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-465",
+  "q": "Comment appelle-t-on la feuille sur laquelle la musique est écrite avec des notes ?",
+  "r": "Une partition",
+  "t": "Musique",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-466",
+  "q": "Comment appelle-t-on une danse où l'on avance en longue file en se tenant par la main ?",
+  "r": "La farandole",
+  "t": "Danse",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-467",
+  "q": "Quelle figure de danse consiste à descendre jusqu'au sol, une jambe tendue devant et l'autre derrière ?",
+  "r": "Le grand écart",
+  "t": "Danse",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-468",
+  "q": "Quel artiste du cirque, avec un gros nez rouge et de grandes chaussures, fait rire le public ?",
+  "r": "Le clown",
+  "t": "Cirque",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-469",
+  "q": "Comment appelle-t-on la grande tente sous laquelle a lieu le spectacle de cirque ?",
+  "r": "Le chapiteau",
+  "t": "Cirque",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-470",
+  "q": "Comment appelle-t-on le grand rond, au milieu du cirque, où les artistes font leur numéro ?",
+  "r": "La piste",
+  "t": "Cirque",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-471",
+  "q": "Comment appelle-t-on l'artiste qui lance et rattrape plusieurs balles sans les faire tomber ?",
+  "r": "Le jongleur",
+  "t": "Cirque",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-472",
+  "q": "Comment appelle-t-on l'acrobate qui marche sur un fil tendu tout en haut ?",
+  "r": "Le funambule",
+  "t": "Cirque",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-473",
+  "q": "Sur quelle barre, suspendue par deux cordes, les acrobates se balancent-ils dans les airs ?",
+  "r": "Le trapèze",
+  "t": "Cirque",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-474",
+  "q": "Comment appelle-t-on le présentateur du cirque qui annonce les numéros au public ?",
+  "r": "Monsieur Loyal",
+  "t": "Cirque",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-475",
+  "q": "Quel grand tissu s'ouvre au début d'un spectacle de théâtre et se ferme à la fin ?",
+  "r": "Le rideau",
+  "t": "Théâtre",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-476",
+  "q": "Comment appelle-t-on l'endroit caché derrière la scène, où les comédiens attendent leur tour ?",
+  "r": "Les coulisses",
+  "t": "Théâtre",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-477",
+  "q": "Comment appelle-t-on l'artiste qui raconte une histoire avec des gestes, sans dire un mot ?",
+  "r": "Un mime",
+  "t": "Théâtre",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-478",
+  "q": "Comment appelle-t-on le spectacle où l'on fait des animaux sur le mur avec l'ombre de ses mains ?",
+  "r": "Les ombres chinoises",
+  "t": "Théâtre",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-479",
+  "q": "Comment appelle-t-on une pièce de théâtre faite pour faire rire ?",
+  "r": "Une comédie",
+  "t": "Théâtre",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-480",
+  "q": "Quel petit objet de la trousse sert à refaire une pointe bien fine quand la mine est usée ?",
+  "r": "Le taille-crayon",
+  "t": "Dessin",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-481",
+  "q": "Comment appelle-t-on un dessin aux contours déjà tracés, qu'on remplit avec ses feutres sans dépasser ?",
+  "r": "Un coloriage",
+  "t": "Dessin",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-482",
+  "q": "De quelle couleur est Stitch, le petit extraterrestre du film de Disney « Lilo et Stitch » ?",
+  "r": "Bleu",
+  "t": "Couleurs",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-483",
+  "q": "De quelle couleur sont les Minions, les petits personnages à lunettes de « Moi, moche et méchant » ?",
+  "r": "Jaune",
+  "t": "Couleurs",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-484",
+  "q": "De quelle couleur est la peau de Shrek, le gentil ogre des films de Dreamworks ?",
+  "r": "Verte",
+  "t": "Couleurs",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-485",
+  "q": "Dans « Le Petit Prince », aucun mouton dessiné ne plaît au petit prince : que dessine alors l'aviateur, avec le mouton caché dedans ?",
+  "r": "Une caisse",
+  "t": "Romans jeunesse",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-486",
+  "q": "Dans « Le Petit Prince », le renard dit : « On ne voit bien qu'avec le… » quoi ?",
+  "r": "Le cœur",
+  "t": "Romans jeunesse",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-487",
+  "q": "Quel copain du Petit Nicolas, à lunettes, est le premier de la classe et le chouchou de la maîtresse ?",
+  "r": "Agnan",
+  "t": "Romans jeunesse",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-488",
+  "q": "Quel copain du Petit Nicolas est le dernier de la classe ?",
+  "r": "Clotaire",
+  "t": "Romans jeunesse",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-489",
+  "q": "Quel animal est Ramono, le meilleur copain d'Ariol ?",
+  "r": "Un cochon",
+  "t": "BD jeunesse",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-490",
+  "q": "Quel super-héros de dessin animé Ariol, le petit âne à lunettes, admire-t-il plus que tout ?",
+  "r": "Le Chevalier Cheval",
+  "t": "BD jeunesse",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-491",
+  "q": "Comment s'appelle le garçon amoureux fou de Mortelle Adèle ?",
+  "r": "Geoffroy",
+  "t": "BD jeunesse",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-492",
+  "q": "Dans « Le Club des Cinq », quelle fille, qui veut qu'on la prenne pour un garçon, a pour chien Dagobert ?",
+  "r": "Claude",
+  "t": "Romans jeunesse",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-493",
+  "q": "Dans les livres « La Cabane magique », comment s'appelle la petite sœur de Tom ?",
+  "r": "Léa",
+  "t": "Romans jeunesse",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-494",
+  "q": "Dans les petits livres de Dominique de Saint Mars, comment s'appelle le frère de Lili ?",
+  "r": "Max",
+  "t": "Albums jeunesse",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-495",
+  "q": "Quel oiseau de proie est le totem protecteur du petit Indien Yakari ?",
+  "r": "Grand Aigle",
+  "t": "BD jeunesse",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-496",
+  "q": "Que donne la potion magique de Panoramix aux Gaulois qui la boivent ?",
+  "r": "Une force surhumaine",
+  "t": "BD jeunesse",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-497",
+  "q": "Dans les spectacles de Guignol, quel homme en uniforme, chargé de faire respecter la loi, reçoit souvent des coups de bâton ?",
+  "r": "Le gendarme",
+  "t": "Marionnettes",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-498",
+  "q": "Comment s'appelle la femme de Guignol ?",
+  "r": "Madelon",
+  "t": "Marionnettes",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-499",
+  "q": "Comment appelle-t-on l'artiste caché dans le castelet, qui fait bouger Guignol et ses amis ?",
+  "r": "Le marionnettiste",
+  "t": "Marionnettes",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-500",
+  "q": "Pendant le cours de danse classique, à quoi les danseurs se tiennent-ils, le long du mur, pour s'échauffer ?",
+  "r": "La barre",
+  "t": "Danse",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-501",
+  "q": "Comment les danseuses classiques coiffent-elles souvent leurs cheveux, enroulés en boule derrière la tête ?",
+  "r": "En chignon",
+  "t": "Danse",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-502",
+  "q": "Dans la chanson « Alouette, gentille alouette », quelle partie de l'oiseau va-t-on plumer en premier ?",
+  "r": "La tête",
+  "t": "Comptines",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-503",
+  "q": "Dans la comptine « Dansons la capucine », qu'est-ce qu'il n'y a pas chez nous ?",
+  "r": "Du pain",
+  "t": "Comptines",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-504",
+  "q": "Dans la chanson « À la pêche aux moules », qu'est-ce que les gens de la ville ont pris à l'enfant ?",
+  "r": "Son panier",
+  "t": "Chansons",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-505",
+  "q": "Dans la chanson « Un kilomètre à pied », qu'est-ce que ça use ?",
+  "r": "Les souliers",
+  "t": "Chansons",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-506",
+  "q": "Dans la chanson « Il était une bergère », quel animal regarde la bergère d'un petit air coquin ?",
+  "r": "Le chat",
+  "t": "Comptines",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-507",
+  "q": "Dans la chanson « C'est la mère Michel », qui répond à la mère Michel ?",
+  "r": "Le père Lustucru",
+  "t": "Comptines",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-508",
+  "q": "Dans la comptine « Pirouette, cacahuète », qui monte sur la drôle de maison et se casse le bout du nez ?",
+  "r": "Le facteur",
+  "t": "Comptines",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-509",
+  "q": "Dans « Au clair de la lune », qu'est-ce qui est « morte », si bien qu'on n'a plus de feu ?",
+  "r": "Ma chandelle",
+  "t": "Comptines",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-510",
+  "q": "Dans la chanson « J'ai perdu le… de ma clarinette », quelle note de musique a-t-on perdue ?",
+  "r": "Le do",
+  "t": "Chansons",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-511",
+  "q": "Dans « Pierre et le Loup », quel instrument au son grave joue le rôle du grand-père ?",
+  "r": "Le basson",
+  "t": "Musique",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-512",
+  "q": "Dans « Pierre et le Loup », quels instruments en cuivre jouent le rôle du loup ?",
+  "r": "Les cors",
+  "t": "Musique",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-513",
+  "q": "Quel long tube rempli de petites graines fait un bruit d'averse quand on le retourne ?",
+  "r": "Le bâton de pluie",
+  "t": "Instruments",
+  "niveau": "enfant"
+ },
+ {
+  "id": "art_enfant-514",
+  "q": "Quel énorme tambour fait « boum » dans les fanfares, frappé avec une mailloche ?",
+  "r": "La grosse caisse",
+  "t": "Instruments",
+  "niveau": "enfant"
+ }
+]

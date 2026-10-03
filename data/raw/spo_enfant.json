@@ -1,0 +1,3509 @@
+[
+ {
+  "id": "spo_enfant-001",
+  "q": "Au football, quel joueur a le droit de prendre le ballon avec les mains ?",
+  "r": "Le gardien",
+  "t": "Football",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-002",
+  "q": "Au football, de quelle couleur est le carton qui sert d'avertissement ?",
+  "r": "Jaune",
+  "t": "Football",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-003",
+  "q": "Avec quelle partie du corps joue-t-on surtout au football ?",
+  "r": "Les pieds",
+  "t": "Football",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-004",
+  "q": "Qui siffle les fautes pendant un match de football ?",
+  "r": "L'arbitre",
+  "t": "Football",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-005",
+  "q": "Dans quel petit objet l'arbitre souffle-t-il pour arrêter le jeu ?",
+  "r": "Le sifflet",
+  "t": "Football",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-006",
+  "q": "Que crie-t-on quand une équipe de football marque ?",
+  "r": "But",
+  "t": "Football",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-007",
+  "q": "Combien de gardiens chaque équipe de football a-t-elle sur le terrain ?",
+  "r": "Un",
+  "t": "Football",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-008",
+  "q": "Au football, comment appelle-t-on la faute de toucher le ballon avec le bras ?",
+  "r": "Une main",
+  "t": "Football",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-009",
+  "q": "Au football, qu'agite l'arbitre assistant au bord du terrain pour signaler une faute ?",
+  "r": "Un drapeau",
+  "t": "Football",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-010",
+  "q": "Au football, comment s'appelle le joueur placé tout devant, chargé de marquer ?",
+  "r": "L'attaquant",
+  "t": "Football",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-011",
+  "q": "Comment appelle-t-on le grand cercle tracé au milieu d'un terrain de football ?",
+  "r": "Le rond central",
+  "t": "Football",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-012",
+  "q": "Au football, comment appelle-t-on la toute première passe du match, au milieu du terrain ?",
+  "r": "Le coup d'envoi",
+  "t": "Football",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-013",
+  "q": "Combien de mi-temps y a-t-il dans un match de football ?",
+  "r": "Deux",
+  "t": "Football",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-014",
+  "q": "Quelle grande compétition réunit tous les quatre ans les meilleures équipes nationales de football de la planète ?",
+  "r": "La Coupe du monde",
+  "t": "Football",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-015",
+  "q": "Quel surnom donne-t-on aux joueurs de l'équipe de France, à cause de la couleur de leur maillot ?",
+  "r": "Les Bleus",
+  "t": "Football",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-016",
+  "q": "En quelle année la France a-t-elle gagné la Coupe du monde de football en Russie ?",
+  "r": "2018",
+  "t": "Football",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-017",
+  "q": "Quel jeune attaquant français est devenu champion du monde de football en 2018, à seulement 19 ans ?",
+  "r": "Kylian Mbappé",
+  "t": "Football",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-018",
+  "q": "Comment appelle-t-on un match qui se termine à égalité, par exemple 1 à 1 ?",
+  "r": "Un match nul",
+  "t": "Matchs",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-019",
+  "q": "Quelle forme a un ballon de football ?",
+  "r": "Ronde",
+  "t": "Sports de ballon",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-020",
+  "q": "Au rugby, vers où doit-on faire les passes avec les mains ?",
+  "r": "Vers l'arrière",
+  "t": "Rugby",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-021",
+  "q": "Au rugby, comment appelle-t-on le fait d'aplatir le ballon derrière la ligne de l'adversaire ?",
+  "r": "Un essai",
+  "t": "Rugby",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-022",
+  "q": "Au basket, dans quoi faut-il lancer le ballon pour marquer ?",
+  "r": "Le panier",
+  "t": "Basket",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-023",
+  "q": "Au basket, comment appelle-t-on le fait de faire rebondir le ballon au sol en avançant ?",
+  "r": "Le dribble",
+  "t": "Basket",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-024",
+  "q": "Quel ballon de sport est orange avec des lignes noires ?",
+  "r": "Le ballon de basket",
+  "t": "Sports de ballon",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-025",
+  "q": "Au volley-ball, au-dessus de quoi le ballon doit-il passer ?",
+  "r": "Le filet",
+  "t": "Sports de ballon",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-026",
+  "q": "Dans quel sport frappe-t-on un ballon avec les mains par-dessus un grand filet, sans jamais le garder ?",
+  "r": "Le volley-ball",
+  "t": "Sports de ballon",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-027",
+  "q": "Au tennis, avec quoi frappe-t-on la balle ?",
+  "r": "Une raquette",
+  "t": "Tennis",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-028",
+  "q": "De quelle couleur sont la plupart des balles de tennis ?",
+  "r": "Jaune",
+  "t": "Tennis",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-029",
+  "q": "Au tennis, comment appelle-t-on le coup qui met la balle en jeu au début de chaque point ?",
+  "r": "Le service",
+  "t": "Tennis",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-030",
+  "q": "Au tennis, combien de rebonds la balle peut-elle faire au sol avant qu'on la renvoie ?",
+  "r": "Un",
+  "t": "Tennis",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-031",
+  "q": "Comment appelle-t-on un match de tennis où l'on joue à deux contre deux ?",
+  "r": "Un double",
+  "t": "Tennis",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-032",
+  "q": "Comment s'appelle le terrain sur lequel on joue au tennis ?",
+  "r": "Un court",
+  "t": "Tennis",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-033",
+  "q": "Dans quel sport se renvoie-t-on un volant à plumes avec une raquette ?",
+  "r": "Le badminton",
+  "t": "Jeux de raquette",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-034",
+  "q": "Au golf, dans quoi faut-il faire entrer la petite balle ?",
+  "r": "Un trou",
+  "t": "Sports de quilles et de balle",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-035",
+  "q": "Comment s'appelle le bâton avec lequel on frappe la balle au golf ?",
+  "r": "Un club",
+  "t": "Sports de quilles et de balle",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-036",
+  "q": "Au hockey sur glace, avec quel bâton pousse-t-on le palet ?",
+  "r": "La crosse",
+  "t": "Sports de ballon",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-037",
+  "q": "Avec quoi frappe-t-on la balle au baseball ?",
+  "r": "Une batte",
+  "t": "Sports de quilles et de balle",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-038",
+  "q": "Quel jeu d'école, cousin du baseball, se joue avec une batte, une balle et des bases ?",
+  "r": "La thèque",
+  "t": "Sports de quilles et de balle",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-039",
+  "q": "Au bowling, que doit-on faire tomber avec la boule ?",
+  "r": "Les quilles",
+  "t": "Sports de quilles et de balle",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-040",
+  "q": "Comment s'appelle le grand terrain entouré de tribunes où se jouent les matchs ?",
+  "r": "Le stade",
+  "t": "Matchs",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-041",
+  "q": "Comment appelle-t-on les personnes qui encouragent une équipe dans les tribunes ?",
+  "r": "Les supporters",
+  "t": "Matchs",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-042",
+  "q": "Quel mouvement font les spectateurs d'un stade en se levant les uns après les autres, bras en l'air ?",
+  "r": "La ola",
+  "t": "Matchs",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-043",
+  "q": "Comment appelle-t-on le joueur qui porte un brassard et mène son équipe sur le terrain ?",
+  "r": "Le capitaine",
+  "t": "Matchs",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-044",
+  "q": "Comment appelle-t-on la personne qui prépare les sportifs et leur donne des conseils ?",
+  "r": "L'entraîneur",
+  "t": "Matchs",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-045",
+  "q": "Que lance-t-on en l'air avant un match pour faire « pile ou face » ?",
+  "r": "Une pièce",
+  "t": "Matchs",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-046",
+  "q": "Quel sport se joue sur le sable, à deux contre deux, avec un ballon et un filet ?",
+  "r": "Le beach-volley",
+  "t": "Sports de ballon",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-047",
+  "q": "Combien de roues a un vélo ?",
+  "r": "Deux",
+  "t": "Vélo",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-048",
+  "q": "Combien de roues a un tricycle ?",
+  "r": "Trois",
+  "t": "Vélo",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-049",
+  "q": "Comment s'appelle le vélo qui n'a qu'une seule roue, souvent utilisé au cirque ?",
+  "r": "Le monocycle",
+  "t": "Vélo",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-050",
+  "q": "Que tient-on avec les deux mains pour diriger un vélo ?",
+  "r": "Le guidon",
+  "t": "Vélo",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-051",
+  "q": "Sur quoi s'assoit-on quand on fait du vélo ?",
+  "r": "La selle",
+  "t": "Vélo",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-052",
+  "q": "Comment appelle-t-on les deux petites roues qu'on ajoute au vélo d'un enfant pour qu'il ne tombe pas ?",
+  "r": "Les roulettes",
+  "t": "Vélo",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-053",
+  "q": "Quel objet fait « dring dring » sur un vélo pour prévenir les piétons ?",
+  "r": "La sonnette",
+  "t": "Vélo",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-054",
+  "q": "Quelle pièce du vélo relie les pédales à la roue arrière ?",
+  "r": "La chaîne",
+  "t": "Vélo",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-055",
+  "q": "Avec quel outil gonfle-t-on les pneus d'un vélo ?",
+  "r": "Une pompe",
+  "t": "Vélo",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-056",
+  "q": "Comment appelle-t-on les fines tiges de métal qui relient le centre d'une roue de vélo à son bord ?",
+  "r": "Les rayons",
+  "t": "Vélo",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-057",
+  "q": "Quel objet en caoutchouc, rempli d'air, entoure la roue d'un vélo ?",
+  "r": "Le pneu",
+  "t": "Vélo",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-058",
+  "q": "Que porte-t-on sur la tête pour faire du vélo en sécurité ?",
+  "r": "Un casque",
+  "t": "Vélo",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-059",
+  "q": "Avec quoi attache-t-on son vélo pour qu'on ne le vole pas ?",
+  "r": "Un antivol",
+  "t": "Vélo",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-060",
+  "q": "Comment s'appelle la petite tige qui permet au vélo de tenir debout tout seul ?",
+  "r": "La béquille",
+  "t": "Vélo",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-061",
+  "q": "Que serre-t-on avec les mains, sur le guidon, pour arrêter le vélo ?",
+  "r": "Les freins",
+  "t": "Vélo",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-062",
+  "q": "Comment s'appelle un vélo pour deux personnes assises l'une derrière l'autre ?",
+  "r": "Un tandem",
+  "t": "Vélo",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-063",
+  "q": "Comment s'appelle la voie réservée aux vélos, à côté de la route ?",
+  "r": "La piste cyclable",
+  "t": "Vélo",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-064",
+  "q": "En France, de quel côté de la route roule-t-on à vélo ?",
+  "r": "À droite",
+  "t": "Vélo",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-065",
+  "q": "Quel vêtement jaune fluo porte-t-on à vélo la nuit pour être bien vu ?",
+  "r": "Un gilet réfléchissant",
+  "t": "Vélo",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-066",
+  "q": "Comment appelle-t-on un sportif qui fait des courses à vélo ?",
+  "r": "Un cycliste",
+  "t": "Vélo",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-067",
+  "q": "Quel vélo à gros pneus est fait pour rouler dans les forêts et sur les chemins ?",
+  "r": "Le VTT",
+  "t": "Vélo",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-068",
+  "q": "Comment appelle-t-on les patins dont les roues sont alignées les unes derrière les autres ?",
+  "r": "Les rollers",
+  "t": "Roller et skate",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-069",
+  "q": "Que met-on sur les genoux pour ne pas se faire mal en tombant en roller ?",
+  "r": "Des genouillères",
+  "t": "Roller et skate",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-070",
+  "q": "Combien de roues a une planche de skateboard ?",
+  "r": "Quatre",
+  "t": "Roller et skate",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-071",
+  "q": "Que met-on sur les yeux pour nager sous l'eau sans qu'ils piquent ?",
+  "r": "Des lunettes de natation",
+  "t": "Natation",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-072",
+  "q": "Que met-on sur la tête à la piscine pour couvrir ses cheveux ?",
+  "r": "Un bonnet de bain",
+  "t": "Natation",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-073",
+  "q": "Que met-on autour des bras des enfants qui ne savent pas encore nager ?",
+  "r": "Des brassards",
+  "t": "Natation",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-074",
+  "q": "Quel long boudin en mousse colorée aide à flotter à la piscine ?",
+  "r": "Une frite",
+  "t": "Natation",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-075",
+  "q": "Que met-on aux pieds pour nager plus vite, comme un poisson ?",
+  "r": "Des palmes",
+  "t": "Natation",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-076",
+  "q": "Quelle nage imite les mouvements de la grenouille ?",
+  "r": "La brasse",
+  "t": "Natation",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-077",
+  "q": "Comment appelle-t-on un saut dans l'eau la tête la première ?",
+  "r": "Un plongeon",
+  "t": "Natation",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-078",
+  "q": "Comment appelle-t-on le saut dans l'eau en boule, les genoux serrés dans les bras ?",
+  "r": "La bombe",
+  "t": "Natation",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-079",
+  "q": "Qui surveille les nageurs au bord de la piscine ?",
+  "r": "Le maître-nageur",
+  "t": "Natation",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-080",
+  "q": "Comment dit-on quand on flotte sans bouger, allongé sur le dos ?",
+  "r": "Faire la planche",
+  "t": "Natation",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-081",
+  "q": "Que doit-on prendre avant d'entrer dans le bassin d'une piscine, pour se laver ?",
+  "r": "Une douche",
+  "t": "Natation",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-082",
+  "q": "Dans quelle partie de la piscine les plus jeunes ont-ils pied ?",
+  "r": "Le petit bain",
+  "t": "Natation",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-083",
+  "q": "Sur une plage surveillée, quelle couleur de drapeau interdit la baignade ?",
+  "r": "Rouge",
+  "t": "Natation",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-084",
+  "q": "Que porte-t-on sur un bateau pour flotter si l'on tombe à l'eau ?",
+  "r": "Un gilet de sauvetage",
+  "t": "Sports nautiques",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-085",
+  "q": "Quelle façon de nager, la tête hors de l'eau, porte le nom d'un animal qui aboie ?",
+  "r": "La nage du chien",
+  "t": "Natation",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-086",
+  "q": "Comment s'appelle la planche souple d'où l'on saute pour plonger à la piscine ?",
+  "r": "Le plongeoir",
+  "t": "Natation",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-087",
+  "q": "Que tient-on dans chaque main pour skier ?",
+  "r": "Des bâtons",
+  "t": "Sports d'hiver",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-088",
+  "q": "En France, quelle couleur de piste de ski est la plus facile ?",
+  "r": "Verte",
+  "t": "Sports d'hiver",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-089",
+  "q": "En France, quelle couleur de piste de ski est la plus difficile ?",
+  "r": "Noire",
+  "t": "Sports d'hiver",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-090",
+  "q": "Comment s'appelle le remonte-pente où l'on s'assoit à plusieurs, les pieds dans le vide ?",
+  "r": "Le télésiège",
+  "t": "Sports d'hiver",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-091",
+  "q": "Sur quel petit traîneau descend-on les pentes enneigées, assis ?",
+  "r": "La luge",
+  "t": "Sports d'hiver",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-092",
+  "q": "Comment s'appelle le sport d'hiver où l'on glisse debout sur une seule planche ?",
+  "r": "Le snowboard",
+  "t": "Sports d'hiver",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-093",
+  "q": "Que met-on aux pieds pour glisser sur la glace d'une patinoire ?",
+  "r": "Des patins à glace",
+  "t": "Sports d'hiver",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-094",
+  "q": "Quel sport de glisse se pratique sur l'eau, tiré par un bateau à moteur ?",
+  "r": "Le ski nautique",
+  "t": "Sports nautiques",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-095",
+  "q": "Quelle médaille reçoit le gagnant d'une épreuve aux Jeux olympiques ?",
+  "r": "L'or",
+  "t": "Jeux olympiques",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-096",
+  "q": "Quelle médaille reçoit le deuxième d'une épreuve aux Jeux olympiques ?",
+  "r": "L'argent",
+  "t": "Jeux olympiques",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-097",
+  "q": "Quelle médaille reçoit le troisième d'une épreuve aux Jeux olympiques ?",
+  "r": "Le bronze",
+  "t": "Jeux olympiques",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-098",
+  "q": "Sur quelle petite estrade à trois marches montent les trois premiers d'une compétition ?",
+  "r": "Le podium",
+  "t": "Jeux olympiques",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-099",
+  "q": "Quel feu, porté de main en main à travers le pays, annonce l'arrivée des Jeux olympiques ?",
+  "r": "La flamme",
+  "t": "Jeux olympiques",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-100",
+  "q": "Quelle ville a accueilli les Jeux olympiques d'été en 2024 ?",
+  "r": "Paris",
+  "t": "Jeux olympiques",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-101",
+  "q": "Comment s'appelaient les mascottes des Jeux de Paris 2024, en forme de petit bonnet rouge ?",
+  "r": "Les Phryges",
+  "t": "Jeux olympiques",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-102",
+  "q": "Sur quel fleuve les sportifs ont-ils défilé en bateau lors de l'ouverture des Jeux de Paris 2024 ?",
+  "r": "La Seine",
+  "t": "Jeux olympiques",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-103",
+  "q": "Quel coureur jamaïcain célèbre ses victoires en imitant un éclair avec ses bras ?",
+  "r": "Usain Bolt",
+  "t": "Jeux olympiques",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-104",
+  "q": "Quel chant entend-on à la remise des médailles quand un Français gagne l'or ?",
+  "r": "La Marseillaise",
+  "t": "Jeux olympiques",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-105",
+  "q": "Comment appelle-t-on la grande fête qui marque le début des Jeux olympiques ?",
+  "r": "La cérémonie d'ouverture",
+  "t": "Jeux olympiques",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-106",
+  "q": "Comment s'appelle le quartier où logent tous les sportifs pendant les Jeux ?",
+  "r": "Le village olympique",
+  "t": "Jeux olympiques",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-107",
+  "q": "De quelle couleur est le fond du drapeau olympique ?",
+  "r": "Blanc",
+  "t": "Jeux olympiques",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-108",
+  "q": "Que veulent dire les lettres « JO » ?",
+  "r": "Jeux olympiques",
+  "t": "Jeux olympiques",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-109",
+  "q": "Dans quels Jeux olympiques trouve-t-on le ski, le patinage et le bobsleigh ?",
+  "r": "Les Jeux d'hiver",
+  "t": "Jeux olympiques",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-110",
+  "q": "Comment s'appelle le sport qui réunit des courses, des sauts et des lancers ?",
+  "r": "L'athlétisme",
+  "t": "Athlétisme",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-111",
+  "q": "Quel mot manque au départ d'une course : « À vos marques, …, partez ! » ?",
+  "r": "Prêts",
+  "t": "Athlétisme",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-112",
+  "q": "Comment s'appelle la course où chaque coureur passe un bâton à un coéquipier ?",
+  "r": "Le relais",
+  "t": "Athlétisme",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-113",
+  "q": "Comment appelle-t-on les petites barrières que les coureurs sautent sur la piste ?",
+  "r": "Les haies",
+  "t": "Athlétisme",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-114",
+  "q": "Dans quel saut, après une course d'élan, fait-on un seul grand bond pour atterrir le plus loin possible dans le sable ?",
+  "r": "Le saut en longueur",
+  "t": "Athlétisme",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-115",
+  "q": "Dans quel saut franchit-on une barre sans perche, en s'élançant avec ses jambes, avant de retomber sur un gros tapis ?",
+  "r": "Le saut en hauteur",
+  "t": "Athlétisme",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-116",
+  "q": "Dans quel lancer pousse-t-on une lourde boule de métal, tenue contre le cou, le plus loin possible ?",
+  "r": "Le lancer du poids",
+  "t": "Athlétisme",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-117",
+  "q": "Dans quelle épreuve lance-t-on une longue tige pointue le plus loin possible ?",
+  "r": "Le javelot",
+  "t": "Athlétisme",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-118",
+  "q": "Avec quel objet mesure-t-on le temps d'une course ?",
+  "r": "Un chronomètre",
+  "t": "Athlétisme",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-119",
+  "q": "Comment appelle-t-on l'endroit où se termine une course ?",
+  "r": "L'arrivée",
+  "t": "Athlétisme",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-120",
+  "q": "Que doit-on faire avant le sport pour préparer ses muscles ?",
+  "r": "S'échauffer",
+  "t": "Athlétisme",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-121",
+  "q": "Que faut-il boire pendant le sport pour ne pas avoir soif ?",
+  "r": "De l'eau",
+  "t": "Athlétisme",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-122",
+  "q": "Comment s'appelle le sport où l'on fait des figures au sol, sur des barres et sur une poutre ?",
+  "r": "La gymnastique",
+  "t": "Gymnastique",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-123",
+  "q": "Comment appelle-t-on la figure où l'on se met en boule pour basculer en avant sur le tapis ?",
+  "r": "La roulade",
+  "t": "Gymnastique",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-124",
+  "q": "Comment appelle-t-on la position où l'on tient en équilibre sur la tête et les mains, les jambes en l'air ?",
+  "r": "Le poirier",
+  "t": "Gymnastique",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-125",
+  "q": "Sur quel grand tapis tendu peut-on rebondir très haut ?",
+  "r": "Le trampoline",
+  "t": "Gymnastique",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-126",
+  "q": "Dans quel grand bâtiment couvert fait-on du sport avec sa classe quand il pleut ?",
+  "r": "Le gymnase",
+  "t": "Gymnastique",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-127",
+  "q": "Avec quelle longue ficelle à deux poignées bondit-on en la faisant tourner au-dessus de sa tête ?",
+  "r": "La corde à sauter",
+  "t": "Gymnastique",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-128",
+  "q": "Au judo, de quelle couleur est la ceinture des débutants ?",
+  "r": "Blanche",
+  "t": "Sports de combat",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-129",
+  "q": "Que porte un judoka autour de la taille pour fermer sa veste ?",
+  "r": "Une ceinture",
+  "t": "Sports de combat",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-130",
+  "q": "Dans quel sport japonais cherche-t-on à faire tomber l'adversaire sur le dos, sur un tatami ?",
+  "r": "Le judo",
+  "t": "Sports de combat",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-131",
+  "q": "Dans quel sport se bat-on avec une épée, protégé par un masque grillagé ?",
+  "r": "L'escrime",
+  "t": "Sports de combat",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-132",
+  "q": "Dans quel sport frappe-t-on avec de gros gants rembourrés, sur un ring ?",
+  "r": "La boxe",
+  "t": "Sports de combat",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-133",
+  "q": "Dans quel art martial japonais casse-t-on parfois des planches avec le tranchant de la main ?",
+  "r": "Le karaté",
+  "t": "Sports de combat",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-134",
+  "q": "Quel sport consiste à grimper le long d'un mur couvert de prises colorées ?",
+  "r": "L'escalade",
+  "t": "Autres sports",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-135",
+  "q": "Dans quel sport tire-t-on des flèches vers une cible ronde ?",
+  "r": "Le tir à l'arc",
+  "t": "Autres sports",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-136",
+  "q": "Comment appelle-t-on le sport où l'on monte à cheval ?",
+  "r": "L'équitation",
+  "t": "Équitation",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-137",
+  "q": "Comment s'appelle le petit cheval sur lequel les enfants apprennent à monter ?",
+  "r": "Le poney",
+  "t": "Équitation",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-138",
+  "q": "Quand on est à cheval, dans quoi met-on ses pieds ?",
+  "r": "Les étriers",
+  "t": "Équitation",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-139",
+  "q": "Comment appelle-t-on une personne qui monte à cheval ?",
+  "r": "Un cavalier",
+  "t": "Équitation",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-140",
+  "q": "Quel sport se pratique sur la glace, en musique, avec des sauts, des pirouettes et des pas de danse ?",
+  "r": "Le patinage artistique",
+  "t": "Autres sports",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-141",
+  "q": "Dans quel sport des pilotes sautent-ils des bosses sur des chemins pleins de boue, sur un deux-roues à moteur ?",
+  "r": "Le motocross",
+  "t": "Autres sports",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-142",
+  "q": "Quel sport consiste à soulever des barres très lourdes au-dessus de sa tête ?",
+  "r": "L'haltérophilie",
+  "t": "Autres sports",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-143",
+  "q": "Comment s'appelle une longue marche sportive sur des sentiers, sac au dos ?",
+  "r": "La randonnée",
+  "t": "Autres sports",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-144",
+  "q": "Que porte-t-on sur le dos pour sauter d'un avion et descendre doucement ?",
+  "r": "Un parachute",
+  "t": "Autres sports",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-145",
+  "q": "Quel bateau avance seulement grâce au vent, sans moteur ni rames ?",
+  "r": "Le voilier",
+  "t": "Autres sports",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-146",
+  "q": "À la marelle, comment s'appelle souvent la toute dernière case, en haut ?",
+  "r": "Le ciel",
+  "t": "Jeux de cour",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-147",
+  "q": "Que lance-t-on dans les cases de la marelle avant de sauter ?",
+  "r": "Un caillou",
+  "t": "Jeux de cour",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-148",
+  "q": "À cache-cache, que fait celui qui cherche pendant que les autres vont se cacher ?",
+  "r": "Il compte",
+  "t": "Jeux de cour",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-149",
+  "q": "À cache-cache, que crie souvent celui qui cherche quand il a fini de compter ?",
+  "r": "J'arrive",
+  "t": "Jeux de cour",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-150",
+  "q": "Au jeu du chat, que doit faire le chat pour attraper un autre joueur ?",
+  "r": "Le toucher",
+  "t": "Jeux de cour",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-151",
+  "q": "Dans quelle version du jeu du chat est-on à l'abri quand on grimpe sur un banc ou un muret ?",
+  "r": "Le chat perché",
+  "t": "Jeux de cour",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-152",
+  "q": "Quel jeu de poursuite oblige celui qui est touché à devenir à son tour le poursuivant ?",
+  "r": "Le chat",
+  "t": "Jeux de cour",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-153",
+  "q": "Dans quel jeu doit-on s'arrêter net dès que le meneur se retourne ?",
+  "r": "1, 2, 3, soleil",
+  "t": "Jeux de cour",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-154",
+  "q": "Dans quel jeu de cour doit-on toucher les joueurs d'en face avec un ballon pour les éliminer ?",
+  "r": "La balle aux prisonniers",
+  "t": "Jeux de cour",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-155",
+  "q": "À quel jeu saute-t-on sur un long ruban tendu autour des chevilles de deux enfants ?",
+  "r": "L'élastique",
+  "t": "Jeux de cour",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-156",
+  "q": "Quel jeu se joue les yeux bandés, en essayant d'attraper les autres joueurs ?",
+  "r": "Colin-maillard",
+  "t": "Jeux de cour",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-157",
+  "q": "Dans quelle ronde demande-t-on : « Loup, y es-tu ? M'entends-tu ? Que fais-tu ? » ?",
+  "r": "Promenons-nous dans les bois",
+  "t": "Comptines et jeux",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-158",
+  "q": "Quel mot termine la comptine « Am stram gram, pic et pic et… » ?",
+  "r": "Colégram",
+  "t": "Comptines et jeux",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-159",
+  "q": "Quel mot termine la comptine « Une poule sur un mur, qui picore du pain… » ?",
+  "r": "Dur",
+  "t": "Comptines et jeux",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-160",
+  "q": "Quel autre nom donne-t-on au jeu « pierre, feuille, ciseaux » ?",
+  "r": "Le chifoumi",
+  "t": "Comptines et jeux",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-161",
+  "q": "Au chifoumi, qu'est-ce qui gagne contre la pierre ?",
+  "r": "La feuille",
+  "t": "Comptines et jeux",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-162",
+  "q": "Au chifoumi, qu'est-ce qui gagne contre les ciseaux ?",
+  "r": "La pierre",
+  "t": "Comptines et jeux",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-163",
+  "q": "Quel mot dit-on, le doigt levé, pour arrêter un jeu un petit moment ?",
+  "r": "Pouce",
+  "t": "Comptines et jeux",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-164",
+  "q": "Dans quel jeu d'école deux équipes courent-elles attraper un foulard posé au milieu ?",
+  "r": "Le béret",
+  "t": "Jeux de cour",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-165",
+  "q": "Quel jeu demande de n'obéir aux ordres que s'ils commencent par le prénom d'un certain monsieur ?",
+  "r": "Jacques a dit",
+  "t": "Comptines et jeux",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-166",
+  "q": "Dans le jeu « Le facteur n'est pas passé », que dépose-t-on discrètement derrière un enfant assis ?",
+  "r": "Un mouchoir",
+  "t": "Jeux de cour",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-167",
+  "q": "Dans quelle course de kermesse avance-t-on en sautant, les jambes enfermées dans une toile de jute ?",
+  "r": "La course en sac",
+  "t": "Kermesse",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-168",
+  "q": "Que transporte-t-on dans une cuillère, sans le faire tomber, lors d'une célèbre course de kermesse ?",
+  "r": "Un œuf",
+  "t": "Kermesse",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-169",
+  "q": "Dans quelle course marche-t-on sur les mains pendant qu'un camarade tient nos jambes ?",
+  "r": "La brouette",
+  "t": "Kermesse",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-170",
+  "q": "Comment appelle-t-on la course à deux où la jambe de l'un est attachée à celle de l'autre ?",
+  "r": "La course à trois jambes",
+  "t": "Kermesse",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-171",
+  "q": "Comment appelle-t-on l'artiste qui fait sortir un lapin d'un chapeau ?",
+  "r": "Le magicien",
+  "t": "Cirque",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-172",
+  "q": "Qu'est-ce qui est tendu sous les trapézistes pour les rattraper s'ils tombent ?",
+  "r": "Le filet",
+  "t": "Cirque",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-173",
+  "q": "Quelles sortes de quilles en bois les jongleurs lancent-ils aussi en l'air ?",
+  "r": "Les massues",
+  "t": "Cirque",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-174",
+  "q": "Quel jouet de jonglage tourne sur une ficelle tenue par deux baguettes ?",
+  "r": "Le diabolo",
+  "t": "Cirque",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-175",
+  "q": "Comment appelle-t-on les longs bâtons sur lesquels on marche pour paraître très grand ?",
+  "r": "Les échasses",
+  "t": "Cirque",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-176",
+  "q": "Quelle célèbre troupe canadienne d'acrobates porte le nom de l'astre qui nous éclaire le jour ?",
+  "r": "Le Cirque du Soleil",
+  "t": "Cirque",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-177",
+  "q": "Quel artiste de cirque se plie dans tous les sens tellement il est souple ?",
+  "r": "Le contorsionniste",
+  "t": "Cirque",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-178",
+  "q": "Comment appelle-t-on le numéro où les acrobates montent les uns sur les autres en forme de triangle ?",
+  "r": "La pyramide humaine",
+  "t": "Cirque",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-179",
+  "q": "Quel artiste tient en équilibre debout sur une planche posée sur un rouleau ?",
+  "r": "L'équilibriste",
+  "t": "Cirque",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-180",
+  "q": "Quel animal marin sait faire tourner un ballon sur le bout de son nez ?",
+  "r": "L'otarie",
+  "t": "Cirque",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-181",
+  "q": "Comment appelle-t-on l'artiste qui présente des numéros avec des lions ou des tigres ?",
+  "r": "Le dompteur",
+  "t": "Cirque",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-182",
+  "q": "Que portent souvent les clowns aux pieds pour faire rire ?",
+  "r": "De très grandes chaussures",
+  "t": "Cirque",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-183",
+  "q": "De quel instrument fait-on un roulement pour annoncer un numéro difficile ?",
+  "r": "Le tambour",
+  "t": "Cirque",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-184",
+  "q": "Comment appelle-t-on l'artiste de cirque qui enchaîne sauts, saltos et pirouettes ?",
+  "r": "L'acrobate",
+  "t": "Cirque",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-185",
+  "q": "Quelle jupe légère et bouffante portent les danseuses classiques ?",
+  "r": "Le tutu",
+  "t": "Danse",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-186",
+  "q": "Comment appelle-t-on un spectacle de danse classique, comme « Casse-Noisette » ?",
+  "r": "Un ballet",
+  "t": "Danse",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-187",
+  "q": "Dans quel ballet célèbre une princesse est-elle changée en oiseau blanc ?",
+  "r": "Le Lac des cygnes",
+  "t": "Danse",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-188",
+  "q": "Quel ballet de Noël a pour héros un soldat de bois offert à la petite Clara ?",
+  "r": "Casse-Noisette",
+  "t": "Danse",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-189",
+  "q": "Comment appelle-t-on un tour complet sur soi-même, sur une seule jambe ?",
+  "r": "Une pirouette",
+  "t": "Danse",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-190",
+  "q": "Quelle danse se fait avec des chaussures à plaques de métal qui font du bruit sur le sol ?",
+  "r": "Les claquettes",
+  "t": "Danse",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-191",
+  "q": "Quelle danse espagnole se danse avec des castagnettes et des talons qui frappent le sol ?",
+  "r": "Le flamenco",
+  "t": "Danse",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-192",
+  "q": "Quelle danse brésilienne fait danser tout le monde au carnaval de Rio ?",
+  "r": "La samba",
+  "t": "Danse",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-193",
+  "q": "Comment appelle-t-on une danseuse en tutu ?",
+  "r": "Une ballerine",
+  "t": "Danse",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-194",
+  "q": "Comment appelle-t-on les meilleurs danseurs de l'Opéra de Paris, comme les astres qui brillent la nuit ?",
+  "r": "Les étoiles",
+  "t": "Danse",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-195",
+  "q": "Comment surnomme-t-on les jeunes élèves de l'école de danse de l'Opéra de Paris ?",
+  "r": "Les petits rats",
+  "t": "Danse",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-196",
+  "q": "À quoi les danseurs classiques se tiennent-ils pour s'échauffer ?",
+  "r": "À la barre",
+  "t": "Danse",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-197",
+  "q": "Devant quoi les danseurs s'entraînent-ils pour regarder leurs mouvements ?",
+  "r": "Un miroir",
+  "t": "Danse",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-198",
+  "q": "Comment appelle-t-on la personne qui invente les pas d'un ballet ?",
+  "r": "Le chorégraphe",
+  "t": "Danse",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-199",
+  "q": "Comment appelle-t-on le salut où l'on plie les genoux en se penchant, à la fin d'un spectacle ?",
+  "r": "La révérence",
+  "t": "Spectacle",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-200",
+  "q": "Quel petit mot crie-t-on à la fin d'un spectacle pour que les artistes recommencent ?",
+  "r": "Bis",
+  "t": "Spectacle",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-201",
+  "q": "Quelle danse de fête fait avancer les gens en file, les mains sur les épaules de celui de devant ?",
+  "r": "La chenille",
+  "t": "Danse",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-202",
+  "q": "Quel jeu vidéo fait danser les joueurs, qui imitent les mouvements d'un personnage à l'écran ?",
+  "r": "Just Dance",
+  "t": "Danse",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-203",
+  "q": "Quelle danse hawaïenne se danse avec une jupe en herbes et des colliers de fleurs ?",
+  "r": "Le hula",
+  "t": "Danse",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-204",
+  "q": "Quelle danse de cow-boys se danse en ligne, souvent avec des bottes et un chapeau ?",
+  "r": "La country",
+  "t": "Danse",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-205",
+  "q": "Quel cours de sport très populaire mélange danse et musiques d'Amérique latine ?",
+  "r": "La zumba",
+  "t": "Danse",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-206",
+  "q": "Quel objet brillant, souvent en forme de grande coupe, reçoit l'équipe gagnante ?",
+  "r": "Un trophée",
+  "t": "Équipement",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-207",
+  "q": "Comment appelle-t-on les chaussures de sport que l'on met pour courir ou aller au gymnase ?",
+  "r": "Des baskets",
+  "t": "Équipement",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-208",
+  "q": "Comment appelle-t-on la tenue de sport composée d'une veste et d'un pantalon assortis ?",
+  "r": "Un survêtement",
+  "t": "Équipement",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-209",
+  "q": "Comment appelle-t-on le haut que portent les joueurs d'une équipe, avec un numéro dans le dos ?",
+  "r": "Le maillot",
+  "t": "Équipement",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-210",
+  "q": "Quel objet en plastique met-on dans la bouche, au rugby ou à la boxe, pour ne pas se blesser ?",
+  "r": "Un protège-dents",
+  "t": "Équipement",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-211",
+  "q": "Comment appelle-t-on un coureur spécialiste des courses très rapides, comme le 100 mètres ?",
+  "r": "Un sprinteur",
+  "t": "Sportifs",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-212",
+  "q": "Comment appelle-t-on le fait de courir tranquillement pour garder la forme ?",
+  "r": "Le footing",
+  "t": "Sportifs",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-213",
+  "q": "Combien de joueurs s'affrontent dans un match de tennis en simple ?",
+  "r": "Deux",
+  "t": "Tennis",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-214",
+  "q": "Dans quel sport marque-t-on en lançant le ballon à la main dans un but gardé par un gardien ?",
+  "r": "Le handball",
+  "t": "Sports de ballon",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-215",
+  "q": "Quel sport se joue avec une petite balle blanche, sur une table coupée en deux par un filet ?",
+  "r": "Le ping-pong",
+  "t": "Sports de ballon",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-216",
+  "q": "Quel sport américain se joue avec un ballon ovale, des casques et de grosses épaulettes ?",
+  "r": "Le football américain",
+  "t": "Sports de ballon",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-217",
+  "q": "Quand on lance deux dés, quel est le plus grand total possible ?",
+  "r": "12",
+  "t": "Jeux de société",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-218",
+  "q": "Comment appelle-t-on deux dés qui montrent le même nombre ?",
+  "r": "Un double",
+  "t": "Jeux de société",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-219",
+  "q": "Quel petit cube lance-t-on pour savoir de combien de cases avancer ?",
+  "r": "Le dé",
+  "t": "Jeux de société",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-220",
+  "q": "Comment appelle-t-on le grand carton sur lequel on pose les pions d'un jeu de société ?",
+  "r": "Le plateau",
+  "t": "Jeux de société",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-221",
+  "q": "Comment appelle-t-on les petites figurines que l'on avance sur le plateau ?",
+  "r": "Les pions",
+  "t": "Jeux de société",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-222",
+  "q": "Dans un jeu, que doit-on faire quand on n'a pas le droit de jouer cette fois-ci ?",
+  "r": "Passer son tour",
+  "t": "Jeux de société",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-223",
+  "q": "Aux échecs, quelle pièce ne peut avancer que d'une seule case à la fois, dans toutes les directions ?",
+  "r": "Le roi",
+  "t": "Jeux de société",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-224",
+  "q": "Aux échecs, combien de pièces a chaque joueur au début de la partie ?",
+  "r": "16",
+  "t": "Jeux de société",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-225",
+  "q": "Au jeu de dames, que fait-on d'un pion adverse quand on saute par-dessus ?",
+  "r": "On le prend",
+  "t": "Jeux de société",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-226",
+  "q": "Au Monopoly, de quelle couleur sont les petites maisons ?",
+  "r": "Vert",
+  "t": "Jeux de société",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-227",
+  "q": "Au Monopoly, de quelle couleur sont les hôtels ?",
+  "r": "Rouge",
+  "t": "Jeux de société",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-228",
+  "q": "Au Monopoly, où va-t-on si l'on fait trois doubles de suite avec les dés ?",
+  "r": "En prison",
+  "t": "Jeux de société",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-229",
+  "q": "Dans quel jeu des hippopotames affamés doivent-ils attraper le plus de billes possible ?",
+  "r": "Hippos Gloutons",
+  "t": "Jeux de société",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-230",
+  "q": "À la bataille navale, que dit-on quand le tir ne touche aucun bateau ?",
+  "r": "À l'eau",
+  "t": "Jeux de société",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-231",
+  "q": "Dans quel jeu de parcours peut-on tomber dans le puits ou dans la prison ?",
+  "r": "Le jeu de l'oie",
+  "t": "Jeux de société",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-232",
+  "q": "Au jeu des petits chevaux, combien de chevaux a chaque joueur ?",
+  "r": "4",
+  "t": "Jeux de société",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-233",
+  "q": "Dans quel jeu couvre-t-on les numéros de son carton quand on les entend ?",
+  "r": "Le loto",
+  "t": "Jeux de société",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-234",
+  "q": "Quel jeu se joue avec des billes qu'on fait sauter sur un plateau en forme d'étoile ?",
+  "r": "Les dames chinoises",
+  "t": "Jeux de société",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-235",
+  "q": "Quel jeu de billes se joue seul, en sautant par-dessus les billes jusqu'à n'en garder qu'une ?",
+  "r": "Le solitaire",
+  "t": "Jeux de société",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-236",
+  "q": "Au 1000 Bornes, quelle carte permet de repartir quand on est arrêté au rouge ?",
+  "r": "Le feu vert",
+  "t": "Jeux de société",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-237",
+  "q": "Au jeu des sept familles, que dit-on quand on n'a pas la carte demandée ?",
+  "r": "Pioche !",
+  "t": "Jeux de société",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-238",
+  "q": "Dans quel jeu de pièces rectangulaires à points doit-on poser le même nombre côte à côte ?",
+  "r": "Les dominos",
+  "t": "Jeux de société",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-239",
+  "q": "À quel jeu joue-t-on quand on fait semblant de tenir un magasin ?",
+  "r": "À la marchande",
+  "t": "Jeux d'imitation",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-240",
+  "q": "Dans quel jeu de société avance-t-on sur un calendrier en recevant son salaire à la fin du mois ?",
+  "r": "La Bonne Paye",
+  "t": "Jeux de société",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-241",
+  "q": "Quel jeu de questions pour enfants se présente en éventail, avec des questions selon la classe ?",
+  "r": "Les Incollables",
+  "t": "Jeux de société",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-242",
+  "q": "Dans quel jeu faut-il repérer très vite des images sur un grand plateau qui porte le nom d'un félin ?",
+  "r": "Le Lynx",
+  "t": "Jeux de société",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-243",
+  "q": "Comment appelle-t-on une petite question amusante dont il faut trouver la réponse, souvent grâce à un jeu de mots ?",
+  "r": "Une devinette",
+  "t": "Jeux de société",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-244",
+  "q": "Dans un jeu de cartes, quelle couleur rouge a la forme d'un losange ?",
+  "r": "Le carreau",
+  "t": "Jeux de cartes",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-245",
+  "q": "Dans un jeu de cartes, quelle couleur noire ressemble à un cœur à l'envers avec une petite queue ?",
+  "r": "Le pique",
+  "t": "Jeux de cartes",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-246",
+  "q": "Dans un jeu de cartes, quelle figure est juste en dessous de la dame ?",
+  "r": "Le valet",
+  "t": "Jeux de cartes",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-247",
+  "q": "Comment appelle-t-on la carte qui porte un seul symbole, comme le numéro 1 ?",
+  "r": "L'as",
+  "t": "Jeux de cartes",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-248",
+  "q": "Dans un jeu de 52 cartes, combien y a-t-il de rois ?",
+  "r": "4",
+  "t": "Jeux de cartes",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-249",
+  "q": "Dans chaque couleur d'un jeu de cartes, combien y a-t-il de figures : valet, dame et roi ?",
+  "r": "3",
+  "t": "Jeux de cartes",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-250",
+  "q": "Comment appelle-t-on une construction de cartes posées en équilibre les unes sur les autres ?",
+  "r": "Un château de cartes",
+  "t": "Jeux de cartes",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-251",
+  "q": "Quel jeu de cartes se joue tout seul, en rangeant les cartes en colonnes ?",
+  "r": "La réussite",
+  "t": "Jeux de cartes",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-252",
+  "q": "Combien de cartes a un joueur dans sa main au début d'une partie de Uno ?",
+  "r": "7",
+  "t": "Jeux de cartes",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-253",
+  "q": "Combien de couleurs différentes y a-t-il dans les cartes du Uno ?",
+  "r": "4",
+  "t": "Jeux de cartes",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-254",
+  "q": "Quel verbe veut dire « mélanger les cartes » avant de jouer ?",
+  "r": "Battre",
+  "t": "Jeux de cartes",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-255",
+  "q": "Par quelles pièces commence-t-on souvent un puzzle, car elles ont un côté tout droit ?",
+  "r": "Les bords",
+  "t": "Puzzles",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-256",
+  "q": "Combien de côtés tout droits a une pièce de coin d'un puzzle ?",
+  "r": "2",
+  "t": "Puzzles",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-257",
+  "q": "Combien de faces de couleur a un Rubik's Cube classique ?",
+  "r": "6",
+  "t": "Puzzles",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-258",
+  "q": "Quel jeu consiste à trouver et entourer des mots dans une grille de lettres ?",
+  "r": "Les mots mêlés",
+  "t": "Puzzles",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-259",
+  "q": "Comment appelle-t-on un chemin plein d'impasses dont il faut trouver la sortie ?",
+  "r": "Un labyrinthe",
+  "t": "Puzzles",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-260",
+  "q": "Comment appelle-t-on un jeu de réflexion très difficile à résoudre, comme le Rubik's Cube ?",
+  "r": "Un casse-tête",
+  "t": "Puzzles",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-261",
+  "q": "Quel fruit à la peau verte et rugueuse, au gros noyau rond, se mange souvent en entrée avec de la vinaigrette ?",
+  "r": "L'avocat",
+  "t": "Fruits",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-262",
+  "q": "Quel fruit à coquille dure ressemble à un petit cerveau quand on l'ouvre ?",
+  "r": "La noix",
+  "t": "Fruits",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-263",
+  "q": "Quel fruit à coque est l'ingrédient vedette de la pâte à tartiner au chocolat la plus connue ?",
+  "r": "La noisette",
+  "t": "Fruits",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-264",
+  "q": "Quel fruit à noyau porte le même nom que le loisir qui consiste à attraper des poissons ?",
+  "r": "La pêche",
+  "t": "Fruits",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-265",
+  "q": "Quel petit fruit rouge et acide pousse en grappes et sert à faire de la gelée ?",
+  "r": "La groseille",
+  "t": "Fruits",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-266",
+  "q": "Quel gros agrume jaune ou rose, un peu amer, se mange souvent coupé en deux à la cuillère ?",
+  "r": "Le pamplemousse",
+  "t": "Fruits",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-267",
+  "q": "Quel fruit exotique a une coque violette et ridée, remplie de pépins dans un jus parfumé ?",
+  "r": "Le fruit de la passion",
+  "t": "Fruits",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-268",
+  "q": "Comment appelle-t-on un mélange de fruits coupés en morceaux, servi en dessert ?",
+  "r": "Une salade de fruits",
+  "t": "Fruits",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-269",
+  "q": "Comment appelle-t-on des fruits cuits et écrasés en purée, souvent servis en petit pot au goûter ?",
+  "r": "La compote",
+  "t": "Fruits",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-270",
+  "q": "Comment appelle-t-on le petit repas de l'après-midi, à la sortie de l'école ?",
+  "r": "Le goûter",
+  "t": "Goûter",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-271",
+  "q": "Que tartine-t-on sur du pain, fait avec des fruits cuits et beaucoup de sucre ?",
+  "r": "La confiture",
+  "t": "Goûter",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-272",
+  "q": "Comment appelle-t-on une tranche de pain recouverte de beurre ou de confiture ?",
+  "r": "Une tartine",
+  "t": "Goûter",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-273",
+  "q": "Quel pain sucré et moelleux, très riche en beurre et en œufs, mange-t-on au goûter ?",
+  "r": "La brioche",
+  "t": "Goûter",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-274",
+  "q": "Quel biscuit rectangulaire, avec de petites dents sur les bords, a été créé à Nantes ?",
+  "r": "Le petit-beurre",
+  "t": "Goûter",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-275",
+  "q": "Quelle viennoiserie en forme d'escargot est parsemée de petits fruits secs ?",
+  "r": "Le pain aux raisins",
+  "t": "Goûter",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-276",
+  "q": "Quelle pâtisserie feuilletée en forme de demi-lune est garnie de compote ?",
+  "r": "Le chausson aux pommes",
+  "t": "Goûter",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-277",
+  "q": "Quelle boisson chaude prépare-t-on avec du lait et du cacao ?",
+  "r": "Le chocolat chaud",
+  "t": "Goûter",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-278",
+  "q": "Comment appelle-t-on une limonade mélangée avec un sirop, comme la menthe ?",
+  "r": "Un diabolo",
+  "t": "Goûter",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-279",
+  "q": "Quelle boisson froide et épaisse prépare-t-on en mixant des fruits, parfois avec du yaourt ?",
+  "r": "Un smoothie",
+  "t": "Goûter",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-280",
+  "q": "Quel produit laitier, fait avec du lait et des ferments, se mange en petit pot à la cuillère ?",
+  "r": "Le yaourt",
+  "t": "Goûter",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-281",
+  "q": "Quel gâteau au chocolat américain, coupé en carrés, contient souvent des noix ?",
+  "r": "Le brownie",
+  "t": "Gâteaux",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-282",
+  "q": "Quel biscuit américain rond est parsemé de pépites de chocolat ?",
+  "r": "Le cookie",
+  "t": "Gâteaux",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-283",
+  "q": "Quel beignet américain a la forme d'un anneau avec un trou au milieu ?",
+  "r": "Le donut",
+  "t": "Gâteaux",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-284",
+  "q": "Quels petits gâteaux ronds et colorés sont faits de deux coques collées par une crème ?",
+  "r": "Les macarons",
+  "t": "Gâteaux",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-285",
+  "q": "Quel gâteau à deux couleurs mélange la pâte à la vanille et la pâte au chocolat en tourbillons ?",
+  "r": "Le marbré",
+  "t": "Gâteaux",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-286",
+  "q": "Quelle pâtisserie ronde, faite d'un fond de pâte, est garnie de fruits comme les fraises ou les pommes ?",
+  "r": "La tarte",
+  "t": "Gâteaux",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-287",
+  "q": "Quelle pâtisserie frite et sucrée, souvent fourrée à la confiture, vend-on sur les plages ?",
+  "r": "Le beignet",
+  "t": "Gâteaux",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-288",
+  "q": "Quels longs beignets striés, saupoudrés de sucre, vend-on dans les fêtes foraines ?",
+  "r": "Les churros",
+  "t": "Gâteaux",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-289",
+  "q": "Dans le gâteau au yaourt, quel récipient sert à mesurer la farine et le sucre ?",
+  "r": "Le pot",
+  "t": "Gâteaux",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-290",
+  "q": "Comment appelle-t-on un dessert glacé fait de fruits mixés, sans lait ni crème ?",
+  "r": "Un sorbet",
+  "t": "Desserts glacés",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-291",
+  "q": "Quel parfum de glace est blanc avec de tout petits points noirs ?",
+  "r": "La vanille",
+  "t": "Desserts glacés",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-292",
+  "q": "Dans quel biscuit en forme de cône pose-t-on des boules de glace ?",
+  "r": "Un cornet",
+  "t": "Desserts glacés",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-293",
+  "q": "Quelle friandise rose et légère, enroulée sur un bâton, vend-on à la fête foraine ?",
+  "r": "La barbe à papa",
+  "t": "Bonbons",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-294",
+  "q": "Quel fruit, recouvert de caramel rouge et piqué sur un bâton, vend-on à la fête foraine ?",
+  "r": "La pomme d'amour",
+  "t": "Bonbons",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-295",
+  "q": "Quel bonbon rond, fixé au bout d'un bâton, se lèche longtemps ?",
+  "r": "La sucette",
+  "t": "Bonbons",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-296",
+  "q": "Quel bonbon mou et tout léger, souvent rose et blanc, fait-on griller au-dessus d'un feu de camp ?",
+  "r": "La guimauve",
+  "t": "Bonbons",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-297",
+  "q": "Que devient le sucre quand on le fait chauffer jusqu'à ce qu'il soit brun et collant ?",
+  "r": "Du caramel",
+  "t": "Bonbons",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-298",
+  "q": "Quelle plante donne leur goût aux bonbons noirs enroulés en spirale ?",
+  "r": "La réglisse",
+  "t": "Bonbons",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-299",
+  "q": "Quel bonbon en forme de canne, rayé de rouge et de blanc, accroche-t-on au sapin ?",
+  "r": "Le sucre d'orge",
+  "t": "Bonbons",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-300",
+  "q": "Quel bonbon ne s'avale pas, se mâche longtemps et permet de faire des bulles ?",
+  "r": "Le chewing-gum",
+  "t": "Bonbons",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-301",
+  "q": "Quelles amandes recouvertes de sucre dur offre-t-on aux baptêmes et aux mariages ?",
+  "r": "Les dragées",
+  "t": "Bonbons",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-302",
+  "q": "Quel bonbon en forme de petite barre cache une blague dans son emballage ?",
+  "r": "Le Carambar",
+  "t": "Bonbons",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-303",
+  "q": "Quel plat italien est une pâte ronde et plate garnie de sauce tomate et de fromage, cuite au four ?",
+  "r": "La pizza",
+  "t": "Plats préférés",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-304",
+  "q": "Quelles pâtes très longues et très fines enroule-t-on autour de sa fourchette ?",
+  "r": "Les spaghettis",
+  "t": "Plats préférés",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-305",
+  "q": "Quelle sauce à la tomate et à la viande hachée accompagne souvent les spaghettis ?",
+  "r": "La bolognaise",
+  "t": "Plats préférés",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-306",
+  "q": "Quelles petites pâtes courbées mange-t-on souvent avec du jambon ?",
+  "r": "Les coquillettes",
+  "t": "Plats préférés",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-307",
+  "q": "Quels petits coussins de pâte farcis de viande trouve-t-on souvent en boîte, avec de la sauce tomate ?",
+  "r": "Les raviolis",
+  "t": "Plats préférés",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-308",
+  "q": "Quel sandwich américain contient un steak haché dans un petit pain rond ?",
+  "r": "Le hamburger",
+  "t": "Plats préférés",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-309",
+  "q": "Quel sandwich américain contient une saucisse dans un petit pain allongé ?",
+  "r": "Le hot-dog",
+  "t": "Plats préférés",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-310",
+  "q": "Comment appelle-t-on les petits morceaux de poulet panés que l'on trempe dans une sauce ?",
+  "r": "Les nuggets",
+  "t": "Plats préférés",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-311",
+  "q": "Quel sandwich chaud au jambon et au fromage fondu est grillé au four ou à la poêle ?",
+  "r": "Le croque-monsieur",
+  "t": "Plats préférés",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-312",
+  "q": "Quel plat fait-on en battant des œufs et en les cuisant à plat dans une poêle ?",
+  "r": "L'omelette",
+  "t": "Plats préférés",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-313",
+  "q": "Comment appelle-t-on les bâtonnets de pain que l'on trempe dans un œuf à la coque ?",
+  "r": "Les mouillettes",
+  "t": "Plats préférés",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-314",
+  "q": "Quel plat associe de la viande hachée et une couche de purée gratinée au four ?",
+  "r": "Le hachis parmentier",
+  "t": "Plats préférés",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-315",
+  "q": "Quel plat du Maghreb se mange avec de la semoule, des légumes et un bouillon ?",
+  "r": "Le couscous",
+  "t": "Plats préférés",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-316",
+  "q": "Quelles crêpes épaisses mangent les Américains au petit-déjeuner, avec du sirop ?",
+  "r": "Les pancakes",
+  "t": "Plats préférés",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-317",
+  "q": "Quel gâteau quadrillé, cuit dans un moule en fer, se mange avec du sucre glace ou de la chantilly ?",
+  "r": "La gaufre",
+  "t": "Plats préférés",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-318",
+  "q": "Comment appelle-t-on la croûte dorée de fromage fondu sur un plat passé au four ?",
+  "r": "Le gratin",
+  "t": "Plats préférés",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-319",
+  "q": "Comment appelle-t-on un repas pris dans l'herbe, assis sur une nappe ?",
+  "r": "Un pique-nique",
+  "t": "Plats préférés",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-320",
+  "q": "Comment appelle-t-on l'appareil qui fait griller la viande sur des braises, dans le jardin ?",
+  "r": "Le barbecue",
+  "t": "Plats préférés",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-321",
+  "q": "Avec quel ustensile étale-t-on une pâte pour la rendre bien plate ?",
+  "r": "Le rouleau à pâtisserie",
+  "t": "Cuisine",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-322",
+  "q": "Quel ustensile permet de transformer un morceau de fromage en petits filaments ?",
+  "r": "La râpe",
+  "t": "Cuisine",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-323",
+  "q": "Dans quel ustensile plat à long manche fait-on sauter les crêpes ?",
+  "r": "La poêle",
+  "t": "Cuisine",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-324",
+  "q": "Quel appareil électrique réduit la soupe en purée bien lisse ?",
+  "r": "Le mixeur",
+  "t": "Cuisine",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-325",
+  "q": "Dans quoi verse-t-on la pâte d'un gâteau avant de la mettre au four ?",
+  "r": "Un moule",
+  "t": "Cuisine",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-326",
+  "q": "Pour une pâte à crêpes, on mélange de la farine, des œufs et quel liquide blanc ?",
+  "r": "Le lait",
+  "t": "Cuisine",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-327",
+  "q": "Quelle poudre ajoute-t-on à la pâte pour faire gonfler un gâteau ?",
+  "r": "La levure",
+  "t": "Cuisine",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-328",
+  "q": "Quand on casse un œuf, comment appelle-t-on la partie transparente qui entoure le jaune ?",
+  "r": "Le blanc",
+  "t": "Cuisine",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-329",
+  "q": "Que devient la crème quand on la fouette très, très longtemps ?",
+  "r": "Du beurre",
+  "t": "Cuisine",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-330",
+  "q": "Quel grand chapeau blanc porte le chef cuisinier ?",
+  "r": "La toque",
+  "t": "Cuisine",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-331",
+  "q": "Quel artisan fabrique les gâteaux, les éclairs et les tartes dans sa boutique ?",
+  "r": "Le pâtissier",
+  "t": "Cuisine",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-332",
+  "q": "Comment appelle-t-on la liste des ingrédients et des étapes pour préparer un plat ?",
+  "r": "Une recette",
+  "t": "Cuisine",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-333",
+  "q": "Que met-on aux mains pour sortir un plat brûlant du four sans se brûler ?",
+  "r": "Des gants de cuisine",
+  "t": "Cuisine",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-334",
+  "q": "Quel objet pointu plante-t-on dans un gâteau pour voir s'il est cuit : s'il ressort sec, c'est prêt ?",
+  "r": "Un couteau",
+  "t": "Cuisine",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-335",
+  "q": "Quelle poudre blanche et très fine saupoudre-t-on sur les crêpes et les beignets ?",
+  "r": "Le sucre glace",
+  "t": "Cuisine",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-336",
+  "q": "Quelle feuille rugueuse frotte-t-on sur le bois pour le rendre tout lisse ?",
+  "r": "Le papier de verre",
+  "t": "Bricolage",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-337",
+  "q": "Comment appelle-t-on la petite tige de métal pointue qu'on enfonce avec un marteau ?",
+  "r": "Un clou",
+  "t": "Bricolage",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-338",
+  "q": "Quelle petite pièce de métal, avec un pas en spirale, se serre avec un tournevis ?",
+  "r": "Une vis",
+  "t": "Bricolage",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-339",
+  "q": "Dans quel coffre range-t-on le marteau, le tournevis et les clés ?",
+  "r": "La boîte à outils",
+  "t": "Bricolage",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-340",
+  "q": "Quelle petite maison en bois fabrique-t-on pour accueillir les oiseaux dans le jardin ?",
+  "r": "Un nichoir",
+  "t": "Bricolage",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-341",
+  "q": "Pour faire une pâte à modeler qui durcit au four, on mélange de la farine, de l'eau et quoi d'autre ?",
+  "r": "Du sel",
+  "t": "Bricolage",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-342",
+  "q": "Quels petits tubes en plastique pose-t-on sur une plaque à picots avant de les faire fondre au fer ?",
+  "r": "Les perles à repasser",
+  "t": "Bricolage",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-343",
+  "q": "Sur quelle plaque, percée d'un trou pour le pouce, le peintre mélange-t-il ses couleurs ?",
+  "r": "La palette",
+  "t": "Bricolage",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-344",
+  "q": "Comment appelle-t-on la poupée que l'on fait bouger avec des fils ou en glissant sa main dedans ?",
+  "r": "Une marionnette",
+  "t": "Bricolage",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-345",
+  "q": "Quel tissu épais et doux, facile à découper, utilise-t-on pour les bricolages ?",
+  "r": "La feutrine",
+  "t": "Bricolage",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-346",
+  "q": "Comment appelle-t-on le retour à l'école, à la fin de l'été ?",
+  "r": "La rentrée",
+  "t": "Vacances",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-347",
+  "q": "Que construit-on sur la plage, avec des tours, des remparts et des douves ?",
+  "r": "Un château de sable",
+  "t": "Vacances",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-348",
+  "q": "Dans quel petit récipient à anse les enfants transportent-ils l'eau et le sable à la plage ?",
+  "r": "Un seau",
+  "t": "Vacances",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-349",
+  "q": "Quel grand objet planté dans le sable fait de l'ombre sur la plage ?",
+  "r": "Le parasol",
+  "t": "Vacances",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-350",
+  "q": "Quel anneau gonflé d'air aide à flotter dans l'eau ?",
+  "r": "La bouée",
+  "t": "Vacances",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-351",
+  "q": "Que porte-t-on devant les yeux quand la lumière de l'été est trop forte ?",
+  "r": "Des lunettes de soleil",
+  "t": "Vacances",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-352",
+  "q": "Quelles chaussures de plage tiennent au pied grâce à une lanière entre les orteils ?",
+  "r": "Les tongs",
+  "t": "Vacances",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-353",
+  "q": "Quel objet trouvé sur la plage était autrefois la maison d'un petit animal marin ?",
+  "r": "Un coquillage",
+  "t": "Vacances",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-354",
+  "q": "Sur quoi s'allonge-t-on pour sécher au soleil sur le sable ?",
+  "r": "Une serviette de plage",
+  "t": "Vacances",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-355",
+  "q": "Comment dit-on d'une peau qui a pris une jolie couleur dorée au soleil ?",
+  "r": "Bronzée",
+  "t": "Vacances",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-356",
+  "q": "Comment appelle-t-on la maison de toile que l'on monte au camping ?",
+  "r": "La tente",
+  "t": "Vacances",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-357",
+  "q": "Dans quoi se glisse-t-on pour dormir bien au chaud sous la tente ?",
+  "r": "Le sac de couchage",
+  "t": "Vacances",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-358",
+  "q": "Comment appelle-t-on la petite maison sur roues que l'on tire derrière une voiture ?",
+  "r": "Une caravane",
+  "t": "Vacances",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-359",
+  "q": "Quel véhicule est comme une maison qui roule, avec des lits et une petite cuisine ?",
+  "r": "Le camping-car",
+  "t": "Vacances",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-360",
+  "q": "Comment appelle-t-on le séjour d'été entre enfants, avec des animateurs, loin des parents ?",
+  "r": "La colonie de vacances",
+  "t": "Vacances",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-361",
+  "q": "Qu'envoie-t-on à sa famille pendant les vacances, avec une jolie photo d'un côté et un petit mot de l'autre ?",
+  "r": "Une carte postale",
+  "t": "Vacances",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-362",
+  "q": "Dans quoi range-t-on ses vêtements pour partir en voyage ?",
+  "r": "Une valise",
+  "t": "Vacances",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-363",
+  "q": "Quel petit livret avec sa photo faut-il montrer pour entrer dans certains pays lointains ?",
+  "r": "Le passeport",
+  "t": "Vacances",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-364",
+  "q": "Dans quel endroit les avions décollent-ils et atterrissent-ils ?",
+  "r": "L'aéroport",
+  "t": "Vacances",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-365",
+  "q": "Qu'emporte-t-on en randonnée, avec deux bretelles, pour transporter son pique-nique ?",
+  "r": "Le sac à dos",
+  "t": "Vacances",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-366",
+  "q": "Comment appelle-t-on une longue file de voitures arrêtées sur la route des vacances ?",
+  "r": "Un bouchon",
+  "t": "Vacances",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-367",
+  "q": "Comment appelle-t-on l'attraction où l'on tourne en rond, assis sur des chevaux de bois ?",
+  "r": "Le manège",
+  "t": "Vacances",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-368",
+  "q": "Comment appelle-t-on l'attraction où des wagons montent et descendent à toute vitesse sur des rails ?",
+  "r": "Les montagnes russes",
+  "t": "Vacances",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-369",
+  "q": "Quelle attraction très haute fait tourner lentement des nacelles en cercle dans le ciel ?",
+  "r": "La grande roue",
+  "t": "Vacances",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-370",
+  "q": "Comment appelle-t-on les petites voitures électriques qui se cognent à la fête foraine ?",
+  "r": "Les autos tamponneuses",
+  "t": "Vacances",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-371",
+  "q": "Comment appelle-t-on le parc où l'on va voir des lions, des girafes et des singes ?",
+  "r": "Le zoo",
+  "t": "Vacances",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-372",
+  "q": "Quelle grande glissade, souvent en spirale, fait plonger dans l'eau de la piscine ?",
+  "r": "Le toboggan",
+  "t": "Vacances",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-373",
+  "q": "Que fait-on en secret, dans sa tête, au moment de souffler les bougies ?",
+  "r": "Un vœu",
+  "t": "Anniversaires",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-374",
+  "q": "Que gonfle-t-on en soufflant dedans pour décorer la salle de la fête ?",
+  "r": "Des ballons",
+  "t": "Anniversaires",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-375",
+  "q": "Quels longs rubans de papier coloré se déroulent quand on les lance pendant une fête ?",
+  "r": "Les serpentins",
+  "t": "Anniversaires",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-376",
+  "q": "Quel objet en carton rempli de bonbons, suspendu en l'air, casse-t-on avec un bâton ?",
+  "r": "La piñata",
+  "t": "Anniversaires",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-377",
+  "q": "Quelle carte donne-t-on aux copains pour leur demander de venir à sa fête ?",
+  "r": "Une invitation",
+  "t": "Anniversaires",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-378",
+  "q": "À quelle fréquence fête-t-on son anniversaire ?",
+  "r": "Tous les ans",
+  "t": "Anniversaires",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-379",
+  "q": "Comment souhaite-t-on un joyeux anniversaire en anglais ?",
+  "r": "Happy birthday",
+  "t": "Anniversaires",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-380",
+  "q": "En général, une personne née un 29 février retrouve sa vraie date d'anniversaire tous les combien d'années ?",
+  "r": "4",
+  "t": "Anniversaires",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-381",
+  "q": "Dans quoi emballe-t-on un présent pour faire une surprise ?",
+  "r": "Le papier cadeau",
+  "t": "Anniversaires",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-382",
+  "q": "Quel petit tube de papier enroulé se déplie en sifflant quand on souffle dedans ?",
+  "r": "La langue de belle-mère",
+  "t": "Anniversaires",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-383",
+  "q": "Quel jeu de fête consiste à suivre des indices pour retrouver un objet caché, comme les pirates ?",
+  "r": "La chasse au trésor",
+  "t": "Anniversaires",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-384",
+  "q": "À quel âge un bébé souffle-t-il sa toute première bougie d'anniversaire ?",
+  "r": "1 an",
+  "t": "Anniversaires",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-385",
+  "q": "Quelle longue sangle accroche-t-on au chien pour le promener en ville ?",
+  "r": "La laisse",
+  "t": "Animaux de compagnie",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-386",
+  "q": "Dans quel récipient met-on la nourriture ou l'eau du chien et du chat ?",
+  "r": "La gamelle",
+  "t": "Animaux de compagnie",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-387",
+  "q": "Comment appelle-t-on la nourriture sèche en petites boulettes pour chiens et chats ?",
+  "r": "Les croquettes",
+  "t": "Animaux de compagnie",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-388",
+  "q": "Que donne-t-on à ronger à un chien pour lui faire plaisir ?",
+  "r": "Un os",
+  "t": "Animaux de compagnie",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-389",
+  "q": "Quel ordre donne-t-on au chien pour qu'il pose ses fesses par terre ?",
+  "r": "Assis !",
+  "t": "Animaux de compagnie",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-390",
+  "q": "Que fait un chien content avec sa queue ?",
+  "r": "Il la remue",
+  "t": "Animaux de compagnie",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-391",
+  "q": "De quel animal sauvage le chien descend-il ?",
+  "r": "Le loup",
+  "t": "Animaux de compagnie",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-392",
+  "q": "Comment s'appelle le docteur qui soigne les animaux ?",
+  "r": "Le vétérinaire",
+  "t": "Animaux de compagnie",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-393",
+  "q": "Quelle race de chien a un pelage blanc couvert de taches noires ?",
+  "r": "Le dalmatien",
+  "t": "Animaux de compagnie",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-394",
+  "q": "Quelle race de tout petit chien porte le nom d'un État du Mexique ?",
+  "r": "Le chihuahua",
+  "t": "Animaux de compagnie",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-395",
+  "q": "Quel chien au corps très long et aux pattes très courtes est surnommé « chien saucisse » ?",
+  "r": "Le teckel",
+  "t": "Animaux de compagnie",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-396",
+  "q": "Quel grand chien au pelage noir et fauve est souvent un chien policier ?",
+  "r": "Le berger allemand",
+  "t": "Animaux de compagnie",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-397",
+  "q": "Quel gros chien de montagne porte, dans les dessins, un petit tonneau autour du cou ?",
+  "r": "Le saint-bernard",
+  "t": "Animaux de compagnie",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-398",
+  "q": "Quel chien aux poils frisés est souvent toiletté avec des pompons ?",
+  "r": "Le caniche",
+  "t": "Animaux de compagnie",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-399",
+  "q": "Quel petit chien au museau écrasé, aux oreilles de chauve-souris, porte le nom de notre pays ?",
+  "r": "Le bouledogue français",
+  "t": "Animaux de compagnie",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-400",
+  "q": "Quel chat au pelage clair, au bout des pattes foncé et aux yeux bleus, vient de Thaïlande ?",
+  "r": "Le siamois",
+  "t": "Animaux de compagnie",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-401",
+  "q": "Quel chat très poilu a un visage tout plat, avec un petit nez écrasé ?",
+  "r": "Le persan",
+  "t": "Animaux de compagnie",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-402",
+  "q": "Quel chat n'a presque pas de poils et paraît tout nu ?",
+  "r": "Le sphynx",
+  "t": "Animaux de compagnie",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-403",
+  "q": "Dans quel bac rempli de petits grains le chat fait-il ses besoins à la maison ?",
+  "r": "La litière",
+  "t": "Animaux de compagnie",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-404",
+  "q": "Quels longs poils raides, sur le museau du chat, l'aident à se repérer ?",
+  "r": "Les moustaches",
+  "t": "Animaux de compagnie",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-405",
+  "q": "Comment appelle-t-on familièrement un chat mâle ?",
+  "r": "Un matou",
+  "t": "Animaux de compagnie",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-406",
+  "q": "Selon l'expression française, combien de vies a un chat ?",
+  "r": "7",
+  "t": "Animaux de compagnie",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-407",
+  "q": "Quel petit rongeur dodu, venu d'Amérique du Sud, pousse des petits cris aigus pour réclamer à manger ?",
+  "r": "Le cochon d'Inde",
+  "t": "Animaux de compagnie",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-408",
+  "q": "Quelle herbe séchée est la base de la nourriture d'un lapin ?",
+  "r": "Le foin",
+  "t": "Animaux de compagnie",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-409",
+  "q": "Comment appelle-t-on un lapin de compagnie dont les longues oreilles tombent ?",
+  "r": "Un bélier",
+  "t": "Animaux de compagnie",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-410",
+  "q": "Où le hamster cache-t-il sa nourriture pour l'emporter dans son nid ?",
+  "r": "Dans ses joues",
+  "t": "Animaux de compagnie",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-411",
+  "q": "Quel petit rongeur gris, très doux, vient des montagnes des Andes ?",
+  "r": "Le chinchilla",
+  "t": "Animaux de compagnie",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-412",
+  "q": "Quel grand oiseau coloré au bec crochu peut imiter la voix humaine ?",
+  "r": "Le perroquet",
+  "t": "Animaux de compagnie",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-413",
+  "q": "Quel animal de compagnie très lent, qui dort tout l'hiver, adore la salade et les pissenlits ?",
+  "r": "La tortue",
+  "t": "Animaux de compagnie",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-414",
+  "q": "Comment appelle-t-on le grand bac en verre où vivent des poissons à la maison ?",
+  "r": "L'aquarium",
+  "t": "Animaux de compagnie",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-415",
+  "q": "Comment appelle-t-on le joueur qui distribue les cartes au début de la partie ?",
+  "r": "Le donneur",
+  "t": "Jeux de cartes",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-416",
+  "q": "Au Uno, quelle carte fait changer le sens du jeu ?",
+  "r": "L'inversion",
+  "t": "Jeux de cartes",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-417",
+  "q": "Dans un jeu de 52 cartes, combien y a-t-il de cartes de chaque couleur, par exemple de cœur ?",
+  "r": "13",
+  "t": "Jeux de cartes",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-418",
+  "q": "Dans quel jeu de cartes faut-il finir avec le moins de points possible, en retournant ses cartes posées en grille ?",
+  "r": "Skyjo",
+  "t": "Jeux de cartes",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-419",
+  "q": "Comment appelle-t-on le premier repas de la journée, le matin ?",
+  "r": "Le petit-déjeuner",
+  "t": "Plats préférés",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-420",
+  "q": "Comment appelle-t-on le plat servi au début du repas, avant le plat principal ?",
+  "r": "L'entrée",
+  "t": "Plats préférés",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-421",
+  "q": "Avec quels deux petits bâtons mange-t-on souvent dans les restaurants chinois ou japonais ?",
+  "r": "Les baguettes",
+  "t": "Plats préférés",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-422",
+  "q": "Comment appelle-t-on le terrain où l'on passe ses vacances sous la tente ou en caravane ?",
+  "r": "Le camping",
+  "t": "Vacances",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-423",
+  "q": "Quel grand bateau transporte les voitures et les passagers jusqu'à une île ?",
+  "r": "Le ferry",
+  "t": "Vacances",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-424",
+  "q": "Comment dit-on quand on dort dehors, sans tente, sous le ciel de la nuit ?",
+  "r": "À la belle étoile",
+  "t": "Vacances",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-425",
+  "q": "Comment appelle-t-on les flammes qu'on allume le soir en pleine nature, pour chanter autour ?",
+  "r": "Le feu de camp",
+  "t": "Vacances",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-426",
+  "q": "Quel petit objet à piles emporte-t-on pour s'éclairer la nuit sous la tente ?",
+  "r": "La lampe de poche",
+  "t": "Vacances",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-427",
+  "q": "Comment appelle-t-on le séjour à la montagne, en hiver, avec ses camarades et sa maîtresse ?",
+  "r": "La classe de neige",
+  "t": "Vacances",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-428",
+  "q": "Quel petit bateau fait-on avancer avec les pieds, comme un vélo, sur un lac ou à la mer ?",
+  "r": "Le pédalo",
+  "t": "Vacances",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-429",
+  "q": "Quel vêtement met-on pour aller nager à la piscine ou à la mer ?",
+  "r": "Le maillot de bain",
+  "t": "Vacances",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-430",
+  "q": "Comment appelle-t-on les personnes que l'on accueille à sa fête d'anniversaire ?",
+  "r": "Les invités",
+  "t": "Anniversaires",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-431",
+  "q": "Quel mot magique prononce-t-on en faisant un tour de magie ?",
+  "r": "Abracadabra",
+  "t": "Anniversaires",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-432",
+  "q": "Comment appelle-t-on les dessins faits sur le visage des enfants, comme une tête de tigre ou de papillon ?",
+  "r": "Le maquillage",
+  "t": "Anniversaires",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-433",
+  "q": "Avec quelle boule de laine enroulée le chat adore-t-il jouer ?",
+  "r": "Une pelote",
+  "t": "Animaux de compagnie",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-434",
+  "q": "Quel chien bas sur pattes a de très longues oreilles qui traînent presque par terre ?",
+  "r": "Le basset",
+  "t": "Animaux de compagnie",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-435",
+  "q": "Quel chien très fin et élancé est le plus rapide à la course ?",
+  "r": "Le lévrier",
+  "t": "Animaux de compagnie",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-436",
+  "q": "Comment appelle-t-on les petites parties douces et roses sous les pattes du chat ?",
+  "r": "Les coussinets",
+  "t": "Animaux de compagnie",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-437",
+  "q": "Que fait le chat avec sa langue râpeuse pour faire sa toilette ?",
+  "r": "Il se lèche",
+  "t": "Animaux de compagnie",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-438",
+  "q": "Comment appelle-t-on le petit du lapin ?",
+  "r": "Le lapereau",
+  "t": "Animaux de compagnie",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-439",
+  "q": "Quel petit oiseau d'Australie, souvent vert ou bleu, vit très souvent en cage chez nous ?",
+  "r": "La perruche",
+  "t": "Animaux de compagnie",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-440",
+  "q": "Dans quel jeu se répète-t-on une phrase à l'oreille, l'un après l'autre, jusqu'à ce qu'elle soit toute déformée ?",
+  "r": "Le téléphone sans fil",
+  "t": "Jeux de société",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-441",
+  "q": "Dans quel jeu de dés construit-on, pièce par pièce, un petit animal rose en plastique ?",
+  "r": "Le Cochon qui rit",
+  "t": "Jeux de société",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-442",
+  "q": "Quelle boisson sucrée et pétillante, souvent au citron, se boit bien fraîche en été ?",
+  "r": "La limonade",
+  "t": "Goûter",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-443",
+  "q": "Que verse-t-on dans un bol de lait le matin, sous forme de flocons ou de petites boules croustillantes ?",
+  "r": "Des céréales",
+  "t": "Goûter",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-444",
+  "q": "Quel dessert glacé au chocolat ou au café, recouvert de chantilly, porte le nom d'une ville de Belgique ?",
+  "r": "Le liégeois",
+  "t": "Desserts glacés",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-445",
+  "q": "Comment appelle-t-on les très fines tranches de pommes de terre frites, vendues en sachet ?",
+  "r": "Les chips",
+  "t": "Goûter",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-446",
+  "q": "Quel ustensile à roue tranchante sert à couper une pizza en parts ?",
+  "r": "La roulette",
+  "t": "Cuisine",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-447",
+  "q": "Quel petit moule sans fond permet de découper des biscuits en forme d'étoile ou de cœur ?",
+  "r": "L'emporte-pièce",
+  "t": "Cuisine",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-448",
+  "q": "Que fait-on en soufflant doucement à travers un petit anneau trempé dans de l'eau savonneuse ?",
+  "r": "Des bulles",
+  "t": "Bricolage",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-449",
+  "q": "Comment appelle-t-on la petite maison de planches que l'on construit dans un arbre ?",
+  "r": "Une cabane",
+  "t": "Bricolage",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-450",
+  "q": "Comment appelle-t-on la pâte faite de morceaux de journal trempés dans la colle, qui durcit en séchant ?",
+  "r": "Le papier mâché",
+  "t": "Bricolage",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-451",
+  "q": "Quel petit objet en bois, avec un ressort, sert à accrocher les vêtements mouillés sur le fil ?",
+  "r": "La pince à linge",
+  "t": "Bricolage",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-452",
+  "q": "Quel petit objet rond, percé de deux ou quatre trous, coud-on sur une chemise ?",
+  "r": "Un bouton",
+  "t": "Bricolage",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-453",
+  "q": "Au stand de pêche de la fête foraine, quels animaux en plastique attrape-t-on ?",
+  "r": "Des canards",
+  "t": "Vacances",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-454",
+  "q": "Comment appelle-t-on le petit lit superposé où l'on dort dans un train de nuit ?",
+  "r": "La couchette",
+  "t": "Vacances",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-455",
+  "q": "Quel ordre donne-t-on au chien pour qu'il s'allonge par terre ?",
+  "r": "Couché !",
+  "t": "Animaux de compagnie",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-456",
+  "q": "Comment appelle-t-on tous les petits nés en même temps d'une chatte ou d'une chienne ?",
+  "r": "Une portée",
+  "t": "Animaux de compagnie",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-457",
+  "q": "Quel petit animal au corps long et souple, cousin de la belette, est un animal de compagnie très joueur ?",
+  "r": "Le furet",
+  "t": "Animaux de compagnie",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-458",
+  "q": "Quelle petite plaque de métal, accrochée au collier, porte le nom du chien ?",
+  "r": "La médaille",
+  "t": "Animaux de compagnie",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-459",
+  "q": "Que fait un chat en colère qui souffle très fort en montrant les dents ?",
+  "r": "Il crache",
+  "t": "Animaux de compagnie",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-460",
+  "q": "Dans quoi dort souvent le chien ou le chat à la maison, comme un petit lit en osier ?",
+  "r": "Le panier",
+  "t": "Animaux de compagnie",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-461",
+  "q": "Dans quel saut s'aide-t-on d'une longue tige souple pour passer par-dessus une barre très haute ?",
+  "r": "Le saut à la perche",
+  "t": "Athlétisme",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-462",
+  "q": "En gym, comment appelle-t-on la figure où l'on passe sur le côté, une main puis l'autre au sol, jambes écartées en l'air ?",
+  "r": "La roue",
+  "t": "Gymnastique",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-463",
+  "q": "Au judo, comment appelle-t-on le geste où l'on s'incline vers son adversaire, avant et après le combat ?",
+  "r": "Le salut",
+  "t": "Judo",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-464",
+  "q": "Quelles longues lanières le cavalier tient-il dans ses mains pour diriger son cheval ?",
+  "r": "Les rênes",
+  "t": "Équitation",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-465",
+  "q": "Au football, comment appelle-t-on le geste de frapper le ballon avec le front ?",
+  "r": "Une tête",
+  "t": "Football",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-466",
+  "q": "À la piscine, comment appelle-t-on un trajet à la nage d'un bout du bassin jusqu'à l'autre ?",
+  "r": "Une longueur",
+  "t": "Natation",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-467",
+  "q": "Comment appelle-t-on le morceau de papier ou de tissu portant un numéro, que les coureurs accrochent sur leur maillot ?",
+  "r": "Le dossard",
+  "t": "Course à pied",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-468",
+  "q": "Dans quel jeu de poursuite doit-on rester immobile quand on est touché, jusqu'à ce qu'un camarade vienne nous délivrer ?",
+  "r": "Le loup glacé",
+  "t": "Jeux de cour",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-469",
+  "q": "Dans quel jeu de cour une équipe doit-elle attraper les bandits de l'autre équipe pour les mettre en prison ?",
+  "r": "Les gendarmes et les voleurs",
+  "t": "Jeux de cour",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-470",
+  "q": "Dans quel jeu faut-il rester le plus longtemps possible sans parler ni faire de bruit ?",
+  "r": "Le roi du silence",
+  "t": "Jeux",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-471",
+  "q": "Dans quel jeu lève-t-on le doigt seulement quand le meneur nomme un animal ou un objet capable de traverser les airs ?",
+  "r": "Pigeon vole",
+  "t": "Jeux",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-472",
+  "q": "À quel jeu de fête lance-t-on des balles pour faire tomber une pyramide de boîtes de conserve ?",
+  "r": "Le chamboule-tout",
+  "t": "Fête foraine",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-473",
+  "q": "Sur quel siège accroché à deux chaînes va-t-on d'avant en arrière, de plus en plus haut, au parc ?",
+  "r": "La balançoire",
+  "t": "Aire de jeux",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-474",
+  "q": "Quel jeu du parc, en forme de grand plateau rond, tourne sur lui-même quand on le pousse en courant ?",
+  "r": "Le tourniquet",
+  "t": "Aire de jeux",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-475",
+  "q": "Dans quel espace du square, entouré d'un petit rebord, les tout-petits jouent-ils avec une pelle, un seau et un râteau ?",
+  "r": "Le bac à sable",
+  "t": "Aire de jeux",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-476",
+  "q": "Comment appelle-t-on la petite forme de sable mouillé que l'on démoule en retournant un seau ?",
+  "r": "Un pâté",
+  "t": "Plage",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-477",
+  "q": "Quel long bâton, muni d'un fil et d'un hameçon, sert à attraper des poissons ?",
+  "r": "La canne à pêche",
+  "t": "Pêche",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-478",
+  "q": "À la pêche, quel petit objet coloré, qui flotte sur l'eau, s'enfonce quand un poisson mord ?",
+  "r": "Le bouchon",
+  "t": "Pêche",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-479",
+  "q": "Quelle activité consiste à passer d'arbre en arbre, accroché à un harnais, sur des ponts de singe et des tyroliennes ?",
+  "r": "L'accrobranche",
+  "t": "Loisirs",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-480",
+  "q": "Dans quel jeu de cartes faut-il taper sur la sonnette dès qu'il y a exactement cinq fruits identiques sur la table ?",
+  "r": "Halli Galli",
+  "t": "Jeux de société",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-481",
+  "q": "Dans quel jeu plante-t-on des épées en plastique dans un tonneau, jusqu'à ce que le petit personnage caché dedans saute en l'air ?",
+  "r": "Pic Pirate",
+  "t": "Jeux de société",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-482",
+  "q": "Comment appelle-t-on la petite vaisselle-jouet avec laquelle on fait semblant de servir un repas ?",
+  "r": "La dînette",
+  "t": "Jouets",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-483",
+  "q": "Quel tout petit chien aux longs poils soyeux, venu d'Angleterre, porte souvent un nœud sur la tête ?",
+  "r": "Le yorkshire",
+  "t": "Animaux de compagnie",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-484",
+  "q": "Quels petits morceaux de bois met-on au fond de la cage d'un hamster ?",
+  "r": "Des copeaux",
+  "t": "Animaux de compagnie",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-485",
+  "q": "Comment appelle-t-on le cours de sport en musique que l'on fait dans l'eau de la piscine, en sautant et en bougeant les bras ?",
+  "r": "L'aquagym",
+  "t": "Natation",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-486",
+  "q": "Quelle tenue moulante, d'une seule pièce, portent les gymnastes et les danseuses ?",
+  "r": "Le justaucorps",
+  "t": "Gymnastique",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-487",
+  "q": "Au foot, comment dit-on quand on garde le ballon en l'air en le faisant rebondir sur son pied, sans qu'il touche le sol ?",
+  "r": "Jongler",
+  "t": "Ballon",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-488",
+  "q": "Dans quel jeu de société pose-t-on des pièces de formes variées, qui ne doivent toucher celles de sa couleur que par les coins ?",
+  "r": "Blokus",
+  "t": "Jeux de société",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-489",
+  "q": "Dans quel jeu de cartes faut-il taper le premier sur le tas quand deux cartes de même valeur se suivent ?",
+  "r": "La bataille corse",
+  "t": "Jeux de cartes",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-490",
+  "q": "Quel jouet tout rond se relève toujours tout seul quand on le pousse ?",
+  "r": "Le culbuto",
+  "t": "Jouets",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-491",
+  "q": "Quel livret d'exercices fait-on pendant l'été pour réviser avant la rentrée ?",
+  "r": "Le cahier de vacances",
+  "t": "Vacances",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-492",
+  "q": "Comment appelle-t-on le petit bateau à rames que l'on loue pour se promener sur un lac ?",
+  "r": "Une barque",
+  "t": "Vacances",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-493",
+  "q": "Dans quelle grande structure remplie d'air, aux murs tout mous, saute-t-on pendant les fêtes ?",
+  "r": "Le château gonflable",
+  "t": "Fêtes",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-494",
+  "q": "À vélo, comment prévient-on les autres qu'on va tourner à droite ou à gauche ?",
+  "r": "En tendant le bras",
+  "t": "Vélo",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-495",
+  "q": "Comment appelle-t-on le loisir qui consiste à planter des fleurs et des légumes, puis à les arroser ?",
+  "r": "Le jardinage",
+  "t": "Loisirs",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-496",
+  "q": "Comment appelle-t-on le lieu où l'on emprunte des jeux et des jouets, comme on emprunte des livres à la bibliothèque ?",
+  "r": "La ludothèque",
+  "t": "Loisirs",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-497",
+  "q": "Quelle gourmandise en tablette ne faut-il jamais donner à un chien, car elle peut le rendre très malade ?",
+  "r": "Le chocolat",
+  "t": "Animaux de compagnie",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-498",
+  "q": "Quelle petite boule de métal qui tinte accroche-t-on parfois au collier du chat pour l'entendre arriver ?",
+  "r": "Un grelot",
+  "t": "Animaux de compagnie",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-499",
+  "q": "Dans quel jeu de jardin pousse-t-on des boules en bois avec un maillet pour les faire passer sous de petits arceaux ?",
+  "r": "Le croquet",
+  "t": "Jeux de plein air",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-500",
+  "q": "Dans quel jeu se passe-t-on vite un objet en musique, car celui qui le tient quand elle s'arrête a perdu ?",
+  "r": "La patate chaude",
+  "t": "Jeux",
+  "niveau": "enfant"
+ },
+ {
+  "id": "spo_enfant-501",
+  "q": "Dans quel jeu compare-t-on deux dessins presque identiques pour trouver ce qui a changé ?",
+  "r": "Le jeu des sept différences",
+  "t": "Jeux",
+  "niveau": "enfant"
+ }
+]

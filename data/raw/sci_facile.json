@@ -1,0 +1,3663 @@
+[
+ {
+  "id": "sci_facile-001",
+  "q": "Quel organe pompe le sang dans tout le corps ?",
+  "r": "Le cœur",
+  "t": "Corps humain",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-002",
+  "q": "Dans quel organe les aliments sont-ils brassés avec des sucs acides juste après l'œsophage ?",
+  "r": "L'estomac",
+  "t": "Corps humain",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-003",
+  "q": "Quels organes nous permettent de respirer en faisant entrer l'air dans le corps ?",
+  "r": "Les poumons",
+  "t": "Corps humain",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-004",
+  "q": "Quel os protège le cerveau ?",
+  "r": "Le crâne",
+  "t": "Corps humain",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-005",
+  "q": "Comment appelle-t-on le petit trou noir au centre de l'œil qui laisse entrer la lumière ?",
+  "r": "La pupille",
+  "t": "Corps humain",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-006",
+  "q": "Quel liquide fabriqué dans la bouche commence la digestion des aliments ?",
+  "r": "La salive",
+  "t": "Corps humain",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-007",
+  "q": "Combien de sens l'être humain possède-t-il traditionnellement ?",
+  "r": "5",
+  "t": "Corps humain",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-008",
+  "q": "Avec quel organe sent-on les odeurs ?",
+  "r": "Le nez",
+  "t": "Corps humain",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-009",
+  "q": "Quel sens est associé à la langue ?",
+  "r": "Le goût",
+  "t": "Corps humain",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-010",
+  "q": "Quelle est la température normale du corps humain, en degrés Celsius, à un degré près ?",
+  "r": "37 °C",
+  "t": "Santé",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-011",
+  "q": "Quel médecin soigne les dents ?",
+  "r": "Le dentiste",
+  "t": "Santé",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-012",
+  "q": "Quel médecin est spécialiste du cœur ?",
+  "r": "Le cardiologue",
+  "t": "Santé",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-013",
+  "q": "Quel type de médicament combat les infections dues aux bactéries ?",
+  "r": "Les antibiotiques",
+  "t": "Santé",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-014",
+  "q": "Quelle maladie se caractérise par un excès de sucre dans le sang ?",
+  "r": "Le diabète",
+  "t": "Santé",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-015",
+  "q": "Quels vaisseaux sanguins ramènent le sang vers le cœur ?",
+  "r": "Les veines",
+  "t": "Corps humain",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-016",
+  "q": "Quels vaisseaux sanguins transportent le sang du cœur vers les organes ?",
+  "r": "Les artères",
+  "t": "Corps humain",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-017",
+  "q": "Quel organe, situé dans le crâne, commande tout le corps ?",
+  "r": "Le cerveau",
+  "t": "Corps humain",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-018",
+  "q": "Quel tube relie la bouche à l'estomac ?",
+  "r": "L'œsophage",
+  "t": "Corps humain",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-019",
+  "q": "Quelle articulation relie la cuisse à la jambe ?",
+  "r": "Le genou",
+  "t": "Corps humain",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-020",
+  "q": "Quelle articulation relie le bras à l'avant-bras ?",
+  "r": "Le coude",
+  "t": "Corps humain",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-021",
+  "q": "Comment appelle-t-on les os en forme d'arc qui forment la cage thoracique ?",
+  "r": "Les côtes",
+  "t": "Corps humain",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-022",
+  "q": "Comment appelle-t-on l'ensemble des os du corps ?",
+  "r": "Le squelette",
+  "t": "Corps humain",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-023",
+  "q": "Dans quel organe le bébé se développe-t-il pendant la grossesse ?",
+  "r": "L'utérus",
+  "t": "Corps humain",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-024",
+  "q": "Combien de mois dure environ une grossesse humaine ?",
+  "r": "9",
+  "t": "Corps humain",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-025",
+  "q": "Comment appelle-t-on la petite cicatrice ronde au milieu du ventre ?",
+  "r": "Le nombril",
+  "t": "Corps humain",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-026",
+  "q": "Quel gaz notre corps rejette-t-il quand on expire ?",
+  "r": "Le dioxyde de carbone",
+  "t": "Corps humain",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-027",
+  "q": "Quel gaz, puisé dans l'air, notre sang transporte-t-il vers les organes ?",
+  "r": "L'oxygène",
+  "t": "Corps humain",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-028",
+  "q": "Quel numéro d'urgence européen peut-on composer depuis n'importe quel pays de l'Union européenne ?",
+  "r": "112",
+  "t": "Santé",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-029",
+  "q": "Quelle maladie due à un virus a provoqué une pandémie mondiale à partir de 2020 ?",
+  "r": "Le Covid-19",
+  "t": "Santé",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-030",
+  "q": "Quelles dents pointues sont situées entre les incisives et les prémolaires ?",
+  "r": "Les canines",
+  "t": "Corps humain",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-031",
+  "q": "Combien de fois environ le cœur d'un adulte au repos bat-il par minute : 20, 70 ou 150 ?",
+  "r": "70",
+  "t": "Corps humain",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-032",
+  "q": "Quel est le plus grand animal terrestre actuel ?",
+  "r": "L'éléphant",
+  "t": "Animaux",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-033",
+  "q": "Quel est l'animal le plus haut du monde, grâce à son très long cou ?",
+  "r": "La girafe",
+  "t": "Animaux",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-034",
+  "q": "Comment appelle-t-on le petit de la vache ?",
+  "r": "Le veau",
+  "t": "Petits des animaux",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-035",
+  "q": "Comment appelle-t-on le petit de la brebis ?",
+  "r": "L'agneau",
+  "t": "Petits des animaux",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-036",
+  "q": "Comment appelle-t-on le petit de la jument ?",
+  "r": "Le poulain",
+  "t": "Petits des animaux",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-037",
+  "q": "Comment appelle-t-on le petit de la poule ?",
+  "r": "Le poussin",
+  "t": "Petits des animaux",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-038",
+  "q": "Comment appelle-t-on le petit de l'ours ?",
+  "r": "L'ourson",
+  "t": "Petits des animaux",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-039",
+  "q": "Comment appelle-t-on le petit du lion ?",
+  "r": "Le lionceau",
+  "t": "Petits des animaux",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-040",
+  "q": "Comment appelle-t-on le petit du chat ?",
+  "r": "Le chaton",
+  "t": "Petits des animaux",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-041",
+  "q": "Comment appelle-t-on le petit du chien ?",
+  "r": "Le chiot",
+  "t": "Petits des animaux",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-042",
+  "q": "Quel animal rugit ?",
+  "r": "Le lion",
+  "t": "Cris des animaux",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-043",
+  "q": "Comment appelle-t-on le cri du loup ?",
+  "r": "Le hurlement",
+  "t": "Cris des animaux",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-044",
+  "q": "Comment appelle-t-on le cri du serpent ?",
+  "r": "Le sifflement",
+  "t": "Cris des animaux",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-045",
+  "q": "Quel animal de la basse-cour glousse ?",
+  "r": "La poule",
+  "t": "Cris des animaux",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-046",
+  "q": "Comment s'appelle la femelle du cheval ?",
+  "r": "La jument",
+  "t": "Animaux",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-047",
+  "q": "Comment s'appelle le mâle de la poule ?",
+  "r": "Le coq",
+  "t": "Animaux",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-048",
+  "q": "Comment s'appelle le mâle de la cane ?",
+  "r": "Le canard",
+  "t": "Animaux",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-049",
+  "q": "Combien de pattes possède une araignée ?",
+  "r": "8",
+  "t": "Classification",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-050",
+  "q": "Combien de bras possède une pieuvre ?",
+  "r": "8",
+  "t": "Animaux",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-051",
+  "q": "À quelle classe d'animaux appartient la baleine, qui allaite ses petits ?",
+  "r": "Les mammifères",
+  "t": "Classification",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-052",
+  "q": "À quelle classe d'animaux appartiennent le serpent, le lézard et la tortue ?",
+  "r": "Les reptiles",
+  "t": "Classification",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-053",
+  "q": "À quelle classe d'animaux appartiennent la grenouille et le crapaud ?",
+  "r": "Les amphibiens",
+  "t": "Classification",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-054",
+  "q": "Comment appelle-t-on un animal qui ne mange que des végétaux ?",
+  "r": "Un herbivore",
+  "t": "Classification",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-055",
+  "q": "Comment appelle-t-on un animal qui mange à la fois de la viande et des végétaux, comme l'ours ou l'homme ?",
+  "r": "Un omnivore",
+  "t": "Classification",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-056",
+  "q": "Comment appelle-t-on un animal qui se nourrit de viande ?",
+  "r": "Un carnivore",
+  "t": "Classification",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-057",
+  "q": "Dans quel grand groupe classe-t-on les animaux sans squelette interne, comme les insectes, les vers et les mollusques ?",
+  "r": "Les invertébrés",
+  "t": "Classification",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-058",
+  "q": "Avec quel organe le poisson respire-t-il dans l'eau ?",
+  "r": "Les branchies",
+  "t": "Animaux",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-059",
+  "q": "Quel insecte fabrique le miel ?",
+  "r": "L'abeille",
+  "t": "Animaux",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-060",
+  "q": "Comment appelle-t-on la seule femelle qui pond les œufs dans une ruche ?",
+  "r": "La reine",
+  "t": "Animaux",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-061",
+  "q": "Quel animal transporte sa maison sur son dos et laisse une trace de bave ?",
+  "r": "L'escargot",
+  "t": "Animaux",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-062",
+  "q": "Quel mammifère d'Australie transporte son petit dans une poche ventrale et se déplace en sautant ?",
+  "r": "Le kangourou",
+  "t": "Animaux",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-063",
+  "q": "Dans quel pays vit le panda géant à l'état sauvage ?",
+  "r": "La Chine",
+  "t": "Habitats",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-064",
+  "q": "Sur quel continent vivent les manchots empereurs ?",
+  "r": "L'Antarctique",
+  "t": "Habitats",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-065",
+  "q": "Quel grand ours vit sur la banquise de l'Arctique ?",
+  "r": "L'ours polaire",
+  "t": "Habitats",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-066",
+  "q": "Quel animal du désert peut rester plusieurs jours sans boire et possède deux bosses ?",
+  "r": "Le chameau",
+  "t": "Habitats",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-067",
+  "q": "Quel petit mammifère couvert de piquants se roule en boule pour se protéger ?",
+  "r": "Le hérisson",
+  "t": "Animaux",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-068",
+  "q": "Quel rongeur roux vit dans les arbres et fait des réserves de noisettes ?",
+  "r": "L'écureuil",
+  "t": "Animaux",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-069",
+  "q": "Comment appelle-t-on le long sommeil de la marmotte pendant la saison froide ?",
+  "r": "L'hibernation",
+  "t": "Animaux",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-070",
+  "q": "Quel animal de la savane est rayé noir et blanc ?",
+  "r": "Le zèbre",
+  "t": "Animaux",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-071",
+  "q": "Quel oiseau est le symbole de la France et figure sur les maillots des Bleus ?",
+  "r": "Le coq",
+  "t": "Animaux",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-072",
+  "q": "Quel oiseau migrateur blanc et noir, au long bec rouge, est le symbole de l'Alsace ?",
+  "r": "La cigogne",
+  "t": "Animaux",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-073",
+  "q": "Quel oiseau fait la roue en déployant ses longues plumes bleues et vertes ?",
+  "r": "Le paon",
+  "t": "Animaux",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-074",
+  "q": "Quel animal marin possède cinq bras et peut régénérer un bras perdu ?",
+  "r": "L'étoile de mer",
+  "t": "Animaux",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-075",
+  "q": "Quel reptile peut vivre plus de 150 ans et porte une carapace ?",
+  "r": "La tortue",
+  "t": "Animaux",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-076",
+  "q": "Quel est le plus grand reptile du monde ?",
+  "r": "Le crocodile marin",
+  "t": "Animaux",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-077",
+  "q": "Quel serpent venimeux d'Asie et d'Afrique peut dresser sa tête et déployer une collerette ?",
+  "r": "Le cobra",
+  "t": "Animaux",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-078",
+  "q": "Quel serpent venimeux de France se reconnaît à sa tête triangulaire ?",
+  "r": "La vipère",
+  "t": "Animaux",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-079",
+  "q": "Quel petit insecte, qui vit en colonie, peut porter plusieurs fois son propre poids ?",
+  "r": "La fourmi",
+  "t": "Animaux",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-080",
+  "q": "Quel petit animal tisse une toile pour attraper des insectes ?",
+  "r": "L'araignée",
+  "t": "Animaux",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-081",
+  "q": "Quel animal marin à longues tentacules peut provoquer des brûlures aux baigneurs ?",
+  "r": "La méduse",
+  "t": "Animaux",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-082",
+  "q": "Quel grand mammifère d'Afrique passe ses journées dans l'eau et a un nom qui signifie « cheval de rivière » ?",
+  "r": "L'hippopotame",
+  "t": "Animaux",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-083",
+  "q": "Quel animal porte une ou deux cornes sur le nez ?",
+  "r": "Le rhinocéros",
+  "t": "Animaux",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-084",
+  "q": "Quel fruit jaune et courbé pousse en régimes ?",
+  "r": "La banane",
+  "t": "Fruits",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-085",
+  "q": "De quel fruit fait-on le vin ?",
+  "r": "Le raisin",
+  "t": "Fruits",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-086",
+  "q": "De quel fruit tire-t-on le cidre ?",
+  "r": "La pomme",
+  "t": "Fruits",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-087",
+  "q": "Quel fruit rouge, dont la gariguette est une variété, se mange souvent avec de la chantilly ?",
+  "r": "La fraise",
+  "t": "Fruits",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-088",
+  "q": "Quel fruit à la peau brune et poilue a une chair verte parsemée de petits grains noirs ?",
+  "r": "Le kiwi",
+  "t": "Fruits",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-089",
+  "q": "Quel gros fruit à la chair rouge et aux pépins noirs est très rafraîchissant l'été ?",
+  "r": "La pastèque",
+  "t": "Fruits",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-090",
+  "q": "Quel agrume jaune et très acide accompagne souvent les fruits de mer ?",
+  "r": "Le citron",
+  "t": "Fruits",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-091",
+  "q": "Quel fruit à noyau, à la peau veloutée, a une variété dite de vigne ?",
+  "r": "La pêche",
+  "t": "Fruits",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-092",
+  "q": "Quel fruit, cousin de la pêche, a une peau lisse et sans duvet ?",
+  "r": "Le brugnon",
+  "t": "Fruits",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-093",
+  "q": "Quel petit fruit orange à noyau est souvent associé au Roussillon et à la vallée du Rhône ?",
+  "r": "L'abricot",
+  "t": "Fruits",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-094",
+  "q": "Quel fruit exotique à la chair orange est surnommé « le roi des fruits » en Inde et a un gros noyau plat ?",
+  "r": "La mangue",
+  "t": "Fruits",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-095",
+  "q": "Quel fruit tropical à la chair orange contient de nombreuses graines noires en son centre ?",
+  "r": "La papaye",
+  "t": "Fruits",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-096",
+  "q": "Quel fruit fait-on traditionnellement griller sur un feu en automne et se trouve dans une bogue piquante ?",
+  "r": "La châtaigne",
+  "t": "Fruits",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-097",
+  "q": "Quel fruit à coque donne son goût au Nutella, avec le cacao ?",
+  "r": "La noisette",
+  "t": "Fruits",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-098",
+  "q": "Quel fruit à coque est l'ingrédient principal du massepain et des calissons ?",
+  "r": "L'amande",
+  "t": "Fruits",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-099",
+  "q": "Quelle graine, qui pousse sous la terre, est utilisée pour faire du beurre très apprécié aux États-Unis ?",
+  "r": "La cacahuète",
+  "t": "Fruits",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-100",
+  "q": "Quelle petite baie noire, transformée en crème et mélangée au vin blanc, donne le kir ?",
+  "r": "Le cassis",
+  "t": "Fruits",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-101",
+  "q": "Quel fruit sauvage noir pousse sur la ronce ?",
+  "r": "La mûre",
+  "t": "Fruits",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-102",
+  "q": "Quel fruit rouge, qui ressemble à une petite mûre, est creux à l'intérieur ?",
+  "r": "La framboise",
+  "t": "Fruits",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-103",
+  "q": "Quelle petite baie bleu-noir des sous-bois sert à faire des tartes, notamment dans les Vosges ?",
+  "r": "La myrtille",
+  "t": "Fruits",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-104",
+  "q": "Quel fruit est l'ingrédient principal du guacamole ?",
+  "r": "L'avocat",
+  "t": "Fruits",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-105",
+  "q": "Quel fruit, botaniquement, sert de base au ketchup ?",
+  "r": "La tomate",
+  "t": "Fruits",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-106",
+  "q": "Quel fruit tropical, à coque dure et poilue, contient une eau sucrée ?",
+  "r": "La noix de coco",
+  "t": "Fruits",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-107",
+  "q": "Quel fruit rouge pousse par paires sur un arbre qui fleurit en blanc au printemps et sert à faire le clafoutis ?",
+  "r": "La cerise",
+  "t": "Fruits",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-108",
+  "q": "Quel légume orange, que l'on dit bon pour la vue, est le préféré de Bugs Bunny ?",
+  "r": "La carotte",
+  "t": "Légumes",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-109",
+  "q": "Quel légume vert, cher à Popeye, est réputé riche en fer ?",
+  "r": "L'épinard",
+  "t": "Légumes",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-110",
+  "q": "Quel légume fait pleurer quand on l'épluche et qu'on le coupe ?",
+  "r": "L'oignon",
+  "t": "Légumes",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-111",
+  "q": "Quel bulbe, dont on sépare les gousses, est réputé éloigner les vampires ?",
+  "r": "L'ail",
+  "t": "Légumes",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-112",
+  "q": "Quel légume vert en forme de petit arbre est un cousin du chou-fleur ?",
+  "r": "Le brocoli",
+  "t": "Légumes",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-113",
+  "q": "Quel légume violet, rond ou allongé, entre dans la ratatouille et la moussaka ?",
+  "r": "L'aubergine",
+  "t": "Légumes",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-114",
+  "q": "Quel légume vert allongé, de la famille des courges, se mange souvent en ratatouille ?",
+  "r": "La courgette",
+  "t": "Légumes",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-115",
+  "q": "Quelle grosse courge orange est creusée et décorée pour Halloween ?",
+  "r": "La citrouille",
+  "t": "Légumes",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-116",
+  "q": "Quel légume rouge et rond, à la saveur piquante, se croque avec du beurre et du sel ?",
+  "r": "Le radis",
+  "t": "Légumes",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-117",
+  "q": "Quel légume à grosses feuilles, une fois fermenté, accompagne les saucisses en Alsace ?",
+  "r": "Le chou",
+  "t": "Légumes",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-118",
+  "q": "Quelle céréale jaune, originaire d'Amérique, sert à faire le pop-corn ?",
+  "r": "Le maïs",
+  "t": "Plantes",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-119",
+  "q": "Quelle céréale est la base de l'alimentation en Asie et pousse dans des champs inondés ?",
+  "r": "Le riz",
+  "t": "Plantes",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-120",
+  "q": "Quelle céréale sert à fabriquer la farine de la baguette ?",
+  "r": "Le blé",
+  "t": "Plantes",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-121",
+  "q": "Quel légume sec de couleur orange ou verte sert à préparer le dal indien ?",
+  "r": "La lentille",
+  "t": "Légumes",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-122",
+  "q": "Quel légume sec est l'ingrédient principal du houmous ?",
+  "r": "Le pois chiche",
+  "t": "Légumes",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-123",
+  "q": "Quel légume sec blanc est l'ingrédient principal du cassoulet ?",
+  "r": "Le haricot blanc",
+  "t": "Légumes",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-124",
+  "q": "Quel tubercule est l'ingrédient principal des frites et de la purée ?",
+  "r": "La pomme de terre",
+  "t": "Légumes",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-125",
+  "q": "Quelle plante aromatique est l'ingrédient principal du pesto ?",
+  "r": "Le basilic",
+  "t": "Plantes",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-126",
+  "q": "Quelle plante aromatique au goût frais parfume le thé à la marocaine ?",
+  "r": "La menthe",
+  "t": "Plantes",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-127",
+  "q": "Quel légume, servi en bâtonnets à l'apéritif, a de longues tiges vertes et croquantes ?",
+  "r": "Le céleri",
+  "t": "Légumes",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-128",
+  "q": "Quel légume en forme de grosse fleur verte se mange feuille par feuille, en trempant la base dans une vinaigrette ?",
+  "r": "L'artichaut",
+  "t": "Légumes",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-129",
+  "q": "Quel légume blanc ou vert, dont on mange les jeunes pousses au printemps, se cultive notamment dans les Landes ?",
+  "r": "L'asperge",
+  "t": "Légumes",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-130",
+  "q": "Quel légume vert en gousse se décortique pour récupérer de petites billes rondes ?",
+  "r": "Le petit pois",
+  "t": "Légumes",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-131",
+  "q": "Comment appelle-t-on la partie de la plante qui puise l'eau dans le sol ?",
+  "r": "Les racines",
+  "t": "Plantes",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-132",
+  "q": "Comment appelle-t-on la poudre jaune produite par les fleurs, transportée par les abeilles ?",
+  "r": "Le pollen",
+  "t": "Plantes",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-133",
+  "q": "Comment appelle-t-on le liquide sucré des fleurs que butinent les abeilles ?",
+  "r": "Le nectar",
+  "t": "Plantes",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-134",
+  "q": "Quel arbre décore-t-on traditionnellement à Noël ?",
+  "r": "Le sapin",
+  "t": "Plantes",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-135",
+  "q": "Comment appelle-t-on les arbres à aiguilles, comme le pin ou le sapin ?",
+  "r": "Les conifères",
+  "t": "Plantes",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-136",
+  "q": "Quel arbre des parcs, aux fleurs en chandelles, donne des fruits bruns brillants qui ne se mangent pas ?",
+  "r": "Le marronnier",
+  "t": "Plantes",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-137",
+  "q": "Quelle fleur rouge des champs pousse souvent au bord des routes et dans les blés ?",
+  "r": "Le coquelicot",
+  "t": "Plantes",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-138",
+  "q": "Quelle fleur blanche au cœur jaune effeuille-t-on en disant « un peu, beaucoup, passionnément » ?",
+  "r": "La marguerite",
+  "t": "Plantes",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-139",
+  "q": "Quelle fleur rouge est traditionnellement offerte à la Saint-Valentin ?",
+  "r": "La rose",
+  "t": "Plantes",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-140",
+  "q": "Quelle fleur jaune du printemps, en forme de trompette, est aussi appelée narcisse ?",
+  "r": "La jonquille",
+  "t": "Plantes",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-141",
+  "q": "Quelle plante grasse du désert est couverte d'épines ?",
+  "r": "Le cactus",
+  "t": "Plantes",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-142",
+  "q": "Quelle plante grimpante toujours verte recouvre souvent les vieux murs ?",
+  "r": "Le lierre",
+  "t": "Plantes",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-143",
+  "q": "Quelle plante sauvage aux fleurs jaunes donne des boules de graines que l'on souffle ?",
+  "r": "Le pissenlit",
+  "t": "Plantes",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-144",
+  "q": "Quelle plante au gel apaisant est utilisée pour soigner les coups de soleil ?",
+  "r": "L'aloe vera",
+  "t": "Plantes",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-145",
+  "q": "Quel champignon au chapeau brun, dont une variété porte le nom de Bordeaux, est très recherché en automne ?",
+  "r": "Le cèpe",
+  "t": "Nature",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-146",
+  "q": "Quelle grande plante tropicale à tiges sert à fabriquer le rhum ?",
+  "r": "La canne à sucre",
+  "t": "Plantes",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-147",
+  "q": "De quelle plante tire-t-on les fèves qui servent à fabriquer le chocolat ?",
+  "r": "Le cacaoyer",
+  "t": "Plantes",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-148",
+  "q": "Quelle fibre végétale blanche, récoltée en capsules, sert à fabriquer les jeans et les tee-shirts ?",
+  "r": "Le coton",
+  "t": "Plantes",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-149",
+  "q": "Quelle plante aux fleurs bleues, cultivée en Normandie, donne une fibre textile et des graines riches en oméga-3 ?",
+  "r": "Le lin",
+  "t": "Plantes",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-150",
+  "q": "De quel arbuste proviennent les grains torréfiés servant à préparer l'expresso ?",
+  "r": "Le caféier",
+  "t": "Plantes",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-151",
+  "q": "Quel fruit, produit par un arbuste méditerranéen, éclate en graines rouges et juteuses quand on l'ouvre ?",
+  "r": "La grenade",
+  "t": "Fruits",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-152",
+  "q": "Quel fruit en forme de petite poire violette ou verte, très sucré, pousse en Méditerranée et se mange frais ou sec ?",
+  "r": "La figue",
+  "t": "Fruits",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-153",
+  "q": "Quel fruit tropical couronné de feuilles pousse au ras du sol, au centre d'une plante ?",
+  "r": "L'ananas",
+  "t": "Fruits",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-154",
+  "q": "Comment s'appelle l'abri souterrain creusé par le lapin de garenne ?",
+  "r": "Le terrier",
+  "t": "Habitats",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-155",
+  "q": "Comment appelle-t-on l'abri où l'on élève les lapins domestiques ?",
+  "r": "Le clapier",
+  "t": "Habitats",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-156",
+  "q": "Comment appelle-t-on le bâtiment de la ferme où vivent les chevaux ?",
+  "r": "L'écurie",
+  "t": "Habitats",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-157",
+  "q": "Comment appelle-t-on le bâtiment de la ferme où l'on abrite les vaches ?",
+  "r": "L'étable",
+  "t": "Habitats",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-158",
+  "q": "Comment appelle-t-on le bâtiment de la ferme où l'on abrite les moutons ?",
+  "r": "La bergerie",
+  "t": "Habitats",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-159",
+  "q": "Comment appelle-t-on le bâtiment de la ferme où vivent les cochons ?",
+  "r": "La porcherie",
+  "t": "Habitats",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-160",
+  "q": "Dans quelle maison fabriquée par l'homme vivent les abeilles d'élevage ?",
+  "r": "La ruche",
+  "t": "Habitats",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-161",
+  "q": "Comment appelle-t-on l'abri où se cachent l'ours ou le renard ?",
+  "r": "La tanière",
+  "t": "Habitats",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-162",
+  "q": "Comment appelle-t-on un grand groupe de poissons qui nagent ensemble ?",
+  "r": "Un banc",
+  "t": "Animaux",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-163",
+  "q": "Comment appelle-t-on un groupe de vaches ou de moutons gardés ensemble ?",
+  "r": "Un troupeau",
+  "t": "Animaux",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-164",
+  "q": "Comment appelle-t-on le long nez de l'éléphant, qui lui sert à boire et à attraper la nourriture ?",
+  "r": "La trompe",
+  "t": "Animaux",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-165",
+  "q": "Comment appelle-t-on les longs poils qui entourent la tête du lion mâle ?",
+  "r": "La crinière",
+  "t": "Animaux",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-166",
+  "q": "Comment appelle-t-on les petites plaques qui recouvrent la peau des poissons et des serpents ?",
+  "r": "Les écailles",
+  "t": "Animaux",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-167",
+  "q": "Comment appelle-t-on les membres plats qui permettent aux poissons de se déplacer dans l'eau ?",
+  "r": "Les nageoires",
+  "t": "Animaux",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-168",
+  "q": "Comment appelle-t-on le bout du nez humide d'un chien ?",
+  "r": "La truffe",
+  "t": "Animaux",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-169",
+  "q": "Quel grand éléphant couvert de longs poils vivait pendant la dernière ère glaciaire ?",
+  "r": "Le mammouth",
+  "t": "Animaux",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-170",
+  "q": "Quel est le plus célèbre des grands dinosaures carnivores, connu pour ses bras minuscules ?",
+  "r": "Le tyrannosaure",
+  "t": "Animaux",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-171",
+  "q": "Quel dinosaure herbivore portait trois cornes sur la tête ?",
+  "r": "Le tricératops",
+  "t": "Animaux",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-172",
+  "q": "Quel oiseau de nuit peut tourner la tête de près de trois quarts de tour ?",
+  "r": "La chouette",
+  "t": "Animaux",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-173",
+  "q": "Quel oiseau marin noir et blanc, qui ne vole pas, vit dans l'hémisphère Sud et se déplace en se dandinant ?",
+  "r": "Le manchot",
+  "t": "Animaux",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-174",
+  "q": "Quel oiseau tape le tronc des arbres avec son bec pour y trouver des insectes ?",
+  "r": "Le pic",
+  "t": "Animaux",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-175",
+  "q": "Quel oiseau noir et blanc est réputé voler les objets brillants ?",
+  "r": "La pie",
+  "t": "Animaux",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-176",
+  "q": "Quel oiseau blanc au long cou est le symbole de l'élégance et de la fidélité sur les lacs ?",
+  "r": "Le cygne",
+  "t": "Animaux",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-177",
+  "q": "Quel oiseau des villes, souvent gris, est surnommé « rat volant » ?",
+  "r": "Le pigeon",
+  "t": "Animaux",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-178",
+  "q": "Quel oiseau migrateur, qui revient chez nous au printemps, fait son nid sous les toits ?",
+  "r": "L'hirondelle",
+  "t": "Animaux",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-179",
+  "q": "Quel rongeur porte une longue queue et vit souvent dans les égouts des villes ?",
+  "r": "Le rat",
+  "t": "Animaux",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-180",
+  "q": "Quel petit rongeur domestique fait des réserves de nourriture dans ses joues ?",
+  "r": "Le hamster",
+  "t": "Animaux",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-181",
+  "q": "Quel animal rusé, au pelage roux et à la queue touffue, est surnommé « goupil » ?",
+  "r": "Le renard",
+  "t": "Animaux",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-182",
+  "q": "Quel animal des Andes, cousin du chameau, est réputé pour cracher ?",
+  "r": "Le lama",
+  "t": "Animaux",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-183",
+  "q": "Quel mammifère marin, qui aboie et joue avec un ballon dans les cirques, a des oreilles visibles ?",
+  "r": "L'otarie",
+  "t": "Animaux",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-184",
+  "q": "Quel poisson redouté possède plusieurs rangées de dents et un aileron dorsal ?",
+  "r": "Le requin",
+  "t": "Animaux",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-185",
+  "q": "Quel crustacé marche de côté sur la plage ?",
+  "r": "Le crabe",
+  "t": "Animaux",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-186",
+  "q": "Quel gros crustacé marin aux deux grosses pinces est un mets de fête, notamment en Bretagne ?",
+  "r": "Le homard",
+  "t": "Animaux",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-187",
+  "q": "Quel coquillage s'accroche aux rochers et se mange souvent avec des frites en Belgique ?",
+  "r": "La moule",
+  "t": "Animaux",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-188",
+  "q": "Quel coquillage peut produire une perle ?",
+  "r": "L'huître",
+  "t": "Animaux",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-189",
+  "q": "Quel animal sans pattes aère la terre des jardins en creusant des galeries ?",
+  "r": "Le ver de terre",
+  "t": "Animaux",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-190",
+  "q": "Quel insecte à longues pattes arrière saute dans l'herbe et a une couleur verte ?",
+  "r": "La sauterelle",
+  "t": "Animaux",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-191",
+  "q": "Quel insecte qui pique peut transmettre des maladies et vole en zigzag autour de nos oreilles la nuit ?",
+  "r": "Le moustique",
+  "t": "Animaux",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-192",
+  "q": "Quel insecte jaune et noir, à la taille fine, pique et adore les boissons sucrées l'été ?",
+  "r": "La guêpe",
+  "t": "Animaux",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-193",
+  "q": "Quel petit reptile, souvent vu au soleil sur les murs, peut perdre sa queue pour fuir ?",
+  "r": "Le lézard",
+  "t": "Animaux",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-194",
+  "q": "Quel est le nom de la larve du papillon ?",
+  "r": "La chenille",
+  "t": "Animaux",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-195",
+  "q": "Comment appelle-t-on un animal qui pond des œufs ?",
+  "r": "Ovipare",
+  "t": "Classification",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-196",
+  "q": "Comment appelle-t-on un animal dont les petits se développent dans le ventre de la mère, comme le chien ?",
+  "r": "Vivipare",
+  "t": "Classification",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-197",
+  "q": "Comment qualifie-t-on un animal qui dort le jour et chasse dans l'obscurité, comme la chouette ?",
+  "r": "Nocturne",
+  "t": "Animaux",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-198",
+  "q": "Comment appelle-t-on le voyage saisonnier des oiseaux vers les pays chauds ?",
+  "r": "La migration",
+  "t": "Animaux",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-199",
+  "q": "Quel animal de la ferme fournit la laine ?",
+  "r": "Le mouton",
+  "t": "Animaux",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-200",
+  "q": "Quel animal de la ferme se roule dans la boue pour se rafraîchir ?",
+  "r": "Le cochon",
+  "t": "Animaux",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-201",
+  "q": "Quel animal, cousin du lapin, a de plus longues oreilles et vit en plein champ ?",
+  "r": "Le lièvre",
+  "t": "Animaux",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-202",
+  "q": "Quelle grande chèvre sauvage aux cornes recourbées vit dans les Alpes, notamment dans le parc de la Vanoise ?",
+  "r": "Le bouquetin",
+  "t": "Animaux",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-203",
+  "q": "Quel animal des montagnes, proche de la chèvre, est aussi appelé isard dans les Pyrénées ?",
+  "r": "Le chamois",
+  "t": "Animaux",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-204",
+  "q": "Quel cervidé du Grand Nord tire le traîneau du Père Noël ?",
+  "r": "Le renne",
+  "t": "Animaux",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-205",
+  "q": "Comment appelle-t-on les cornes ramifiées du cerf, qui tombent et repoussent chaque année ?",
+  "r": "Les bois",
+  "t": "Animaux",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-206",
+  "q": "Quel grand cervidé du Canada et de Scandinavie possède des bois en forme de pelle ?",
+  "r": "L'élan",
+  "t": "Animaux",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-207",
+  "q": "Quel gaz, principal responsable humain de l'effet de serre, est rejeté par les voitures ?",
+  "r": "Le dioxyde de carbone",
+  "t": "Environnement",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-208",
+  "q": "Quelle couche de gaz protège la Terre des rayons ultraviolets du Soleil ?",
+  "r": "La couche d'ozone",
+  "t": "Environnement",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-209",
+  "q": "Comment appelle-t-on la destruction des forêts par l'homme, notamment en Amazonie ?",
+  "r": "La déforestation",
+  "t": "Environnement",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-210",
+  "q": "Comment appelle-t-on le mélange de déchets de cuisine et de jardin qui se décompose pour devenir de l'engrais ?",
+  "r": "Le compost",
+  "t": "Environnement",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-211",
+  "q": "Quel animal est le logo du WWF, l'organisation de protection de la nature ?",
+  "r": "Le panda",
+  "t": "Environnement",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-212",
+  "q": "Quelle matière, fabriquée à partir du pétrole, met des centaines d'années à se dégrader dans la nature ?",
+  "r": "Le plastique",
+  "t": "Environnement",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-213",
+  "q": "Comment appelle-t-on un espace naturel protégé, comme la Vanoise ou les Cévennes, où la nature est préservée ?",
+  "r": "Un parc national",
+  "t": "Environnement",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-214",
+  "q": "Comment appelle-t-on la suite « qui mange qui » entre les êtres vivants d'un milieu ?",
+  "r": "La chaîne alimentaire",
+  "t": "Environnement",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-215",
+  "q": "Comment appelle-t-on la roche en fusion qui s'écoule d'un volcan en éruption ?",
+  "r": "La lave",
+  "t": "Nature",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-216",
+  "q": "Quelles concrétions calcaires pendent du plafond des grottes ?",
+  "r": "Les stalactites",
+  "t": "Nature",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-217",
+  "q": "Comment appelle-t-on le mouvement de la mer qui monte et descend deux fois par jour ?",
+  "r": "La marée",
+  "t": "Nature",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-218",
+  "q": "Quel insecte parasite vit dans les cheveux et se transmet souvent à l'école ?",
+  "r": "Le pou",
+  "t": "Santé",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-219",
+  "q": "Quel petit insecte sauteur parasite souvent les chiens et les chats ?",
+  "r": "La puce",
+  "t": "Animaux",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-220",
+  "q": "Quelle maladie fréquente, au nez qui coule, est appelée aussi rhinite ?",
+  "r": "Le rhume",
+  "t": "Santé",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-221",
+  "q": "Quelle maladie virale saisonnière provoque chaque hiver fièvre, courbatures et fatigue ?",
+  "r": "La grippe",
+  "t": "Santé",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-222",
+  "q": "Quel nom porte le petit appareil qui mesure la température du corps ?",
+  "r": "Le thermomètre",
+  "t": "Santé",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-223",
+  "q": "Quel examen médical permet de voir les os grâce aux rayons X ?",
+  "r": "La radiographie",
+  "t": "Santé",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-224",
+  "q": "Quel professionnel de santé vend les médicaments en officine ?",
+  "r": "Le pharmacien",
+  "t": "Santé",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-225",
+  "q": "Comment appelle-t-on la cassure d'un os ?",
+  "r": "Une fracture",
+  "t": "Santé",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-226",
+  "q": "Comment appelle-t-on le liquide qui sort de la peau quand on a chaud ou qu'on fait du sport ?",
+  "r": "La sueur",
+  "t": "Corps humain",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-227",
+  "q": "Quelle maladie de la peau, fréquente à l'adolescence, se manifeste par des boutons sur le visage ?",
+  "r": "L'acné",
+  "t": "Santé",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-228",
+  "q": "Quel tube, situé dans le cou, conduit l'air jusqu'aux bronches ?",
+  "r": "La trachée",
+  "t": "Corps humain",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-229",
+  "q": "Quel os, en forme de cuvette à la base de la colonne, porte les jambes et soutient le ventre ?",
+  "r": "Le bassin",
+  "t": "Corps humain",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-230",
+  "q": "Quelle articulation relie la jambe au pied et se tord souvent au sport ?",
+  "r": "La cheville",
+  "t": "Corps humain",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-231",
+  "q": "Quel est le plus petit doigt de la main ?",
+  "r": "L'auriculaire",
+  "t": "Corps humain",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-232",
+  "q": "Comment appelle-t-on le doigt situé à côté du pouce, avec lequel on montre du doigt ?",
+  "r": "L'index",
+  "t": "Corps humain",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-233",
+  "q": "Quel est le seul doigt qui n'a que deux phalanges ?",
+  "r": "Le pouce",
+  "t": "Corps humain",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-234",
+  "q": "Quel animal de compagnie ronronne quand il est content ?",
+  "r": "Le chat",
+  "t": "Animaux",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-235",
+  "q": "Combien de vies a le chat, selon la croyance populaire française ?",
+  "r": "9",
+  "t": "Animaux",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-236",
+  "q": "Quel oiseau de basse-cour, servi à Noël, fait la roue et glougloute ?",
+  "r": "Le dindon",
+  "t": "Animaux",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-237",
+  "q": "Quel oiseau noir au bec jaune chante souvent dans les jardins au lever du jour ?",
+  "r": "Le merle",
+  "t": "Animaux",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-238",
+  "q": "Quel oiseau est le symbole de la paix, souvent représenté avec un rameau d'olivier ?",
+  "r": "La colombe",
+  "t": "Animaux",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-239",
+  "q": "Quel petit oiseau jaune est souvent élevé en cage pour son chant ?",
+  "r": "Le canari",
+  "t": "Animaux",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-240",
+  "q": "Quel poisson plat, très apprécié en cuisine, se pêche sur les fonds sableux et se prépare « meunière » ?",
+  "r": "La sole",
+  "t": "Animaux",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-241",
+  "q": "Quel petit poisson est vendu en conserve à l'huile, souvent dans une boîte métallique plate ?",
+  "r": "La sardine",
+  "t": "Animaux",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-242",
+  "q": "Quel grand poisson à chair rouge est très utilisé dans les sushis et vendu en conserve au naturel ?",
+  "r": "Le thon",
+  "t": "Animaux",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-243",
+  "q": "Quel fruit à noyau est récolté pour faire l'huile et la tapenade ?",
+  "r": "L'olive",
+  "t": "Fruits",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-244",
+  "q": "Quelle variété de pomme verte et acidulée porte le nom d'une grand-mère australienne ?",
+  "r": "La granny smith",
+  "t": "Fruits",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-245",
+  "q": "Quelle plante aquatique, symbole de Monet à Giverny, a des feuilles rondes qui flottent sur l'eau ?",
+  "r": "Le nénuphar",
+  "t": "Plantes",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-246",
+  "q": "Quelle plante est réputée porter bonheur lorsqu'on trouve un spécimen à quatre feuilles ?",
+  "r": "Le trèfle",
+  "t": "Plantes",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-247",
+  "q": "Quelle plante grimpante aux grappes de fleurs mauves parfume les façades au printemps ?",
+  "r": "La glycine",
+  "t": "Plantes",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-248",
+  "q": "Quel arbuste méditerranéen très toxique, aux fleurs en bouquets, borde souvent les routes du Midi ?",
+  "r": "Le laurier-rose",
+  "t": "Plantes",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-249",
+  "q": "Quelle planète porte le nom de la déesse romaine de l'amour ?",
+  "r": "Vénus",
+  "t": "Espace",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-250",
+  "q": "Quelle planète, souvent la plus brillante du ciel, est surnommée « l'étoile du Berger » ?",
+  "r": "Vénus",
+  "t": "Espace",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-251",
+  "q": "Quelle planète porte le nom du dieu romain de la mer ?",
+  "r": "Neptune",
+  "t": "Espace",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-252",
+  "q": "Quelle est la plus petite planète du système solaire ?",
+  "r": "Mercure",
+  "t": "Espace",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-253",
+  "q": "Quelle planète est la plus éloignée du Soleil dans notre système solaire ?",
+  "r": "Neptune",
+  "t": "Espace",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-254",
+  "q": "Quelle planète géante se trouve entre Saturne et Neptune ?",
+  "r": "Uranus",
+  "t": "Espace",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-255",
+  "q": "Quelle planète est surnommée « la planète bleue » ?",
+  "r": "La Terre",
+  "t": "Espace",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-256",
+  "q": "Combien de temps met la Terre pour faire le tour du Soleil ?",
+  "r": "Un an",
+  "t": "Espace",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-257",
+  "q": "Combien de temps met environ la Terre pour faire un tour complet sur elle-même ?",
+  "r": "24 heures",
+  "t": "Espace",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-258",
+  "q": "Comment appelle-t-on le scientifique qui étudie les étoiles, les planètes et les galaxies ?",
+  "r": "Un astronome",
+  "t": "Espace",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-259",
+  "q": "Quelle croyance prétend prédire le caractère ou l'avenir selon la position des astres à la naissance ?",
+  "r": "L'astrologie",
+  "t": "Espace",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-260",
+  "q": "Quel instrument d'optique permet d'observer les astres lointains en les grossissant ?",
+  "r": "Le télescope",
+  "t": "Espace",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-261",
+  "q": "Comment appelle-t-on un voyageur de l'espace soviétique ou russe ?",
+  "r": "Un cosmonaute",
+  "t": "Astronautes",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-262",
+  "q": "Quelle agence spatiale américaine a mené le programme Apollo ?",
+  "r": "La NASA",
+  "t": "Astronautes",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-263",
+  "q": "Quel est le seul satellite naturel de la Terre ?",
+  "r": "La Lune",
+  "t": "Espace",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-264",
+  "q": "Comment appelle-t-on la couche de gaz qui entoure la Terre ?",
+  "r": "L'atmosphère",
+  "t": "Espace",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-265",
+  "q": "Comment appelle-t-on les voiles de lumière colorée qui ondulent dans le ciel des régions proches du pôle Nord ?",
+  "r": "Les aurores boréales",
+  "t": "Espace",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-266",
+  "q": "Comment appelle-t-on un engin placé en orbite autour de la Terre pour transmettre la télévision ou les données GPS ?",
+  "r": "Un satellite",
+  "t": "Espace",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-267",
+  "q": "Combien d'astronautes ont marché sur la Lune lors de la mission Apollo 11 ?",
+  "r": "2",
+  "t": "Astronautes",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-268",
+  "q": "Quel astronaute a prononcé la phrase « C'est un petit pas pour l'homme, un bond de géant pour l'humanité » ?",
+  "r": "Neil Armstrong",
+  "t": "Astronautes",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-269",
+  "q": "Comment appelle-t-on la phase où l'on ne voit qu'un mince arc lumineux de la Lune ?",
+  "r": "Le croissant",
+  "t": "Espace",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-270",
+  "q": "Comment appelle-t-on le jour le plus court de l'année dans l'hémisphère Nord, vers le 21 décembre ?",
+  "r": "Le solstice d'hiver",
+  "t": "Espace",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-271",
+  "q": "Comment appelle-t-on le véhicule qui emporte satellites et astronautes dans l'espace en décollant à la verticale ?",
+  "r": "Une fusée",
+  "t": "Astronautes",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-272",
+  "q": "Comment appelle-t-on la tenue étanche que portent les astronautes lors de leurs sorties dans l'espace ?",
+  "r": "Le scaphandre",
+  "t": "Astronautes",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-273",
+  "q": "Comment appelait-on les vaisseaux américains réutilisables, comme Challenger et Columbia, qui ont volé de 1981 à 2011 ?",
+  "r": "Les navettes spatiales",
+  "t": "Astronautes",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-274",
+  "q": "Comment appelle-t-on la partie de la Lune que l'on ne voit jamais depuis la Terre ?",
+  "r": "La face cachée",
+  "t": "Espace",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-275",
+  "q": "Comment appelle-t-on le décompte des dernières secondes avant le décollage d'une fusée ?",
+  "r": "Le compte à rebours",
+  "t": "Astronautes",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-276",
+  "q": "Dans quelle catégorie d'astres le Soleil est-il classé ?",
+  "r": "Une étoile",
+  "t": "Espace",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-277",
+  "q": "De quel côté de l'horizon le Soleil se lève-t-il ?",
+  "r": "À l'est",
+  "t": "Espace",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-278",
+  "q": "De quel côté de l'horizon le Soleil se couche-t-il ?",
+  "r": "À l'ouest",
+  "t": "Espace",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-279",
+  "q": "Quelle planète porte le nom du messager des dieux romains ?",
+  "r": "Mercure",
+  "t": "Espace",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-280",
+  "q": "À quelle température, en degrés Celsius, l'eau pure gèle-t-elle ?",
+  "r": "0 °C",
+  "t": "L'eau",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-281",
+  "q": "Dans quel état de la matière se trouve l'eau lorsqu'elle est sous forme de glace ?",
+  "r": "Solide",
+  "t": "L'eau",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-282",
+  "q": "Quels sont les trois principaux états de la matière étudiés à l'école ?",
+  "r": "Solide, liquide et gazeux",
+  "t": "États de la matière",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-283",
+  "q": "Comment appelle-t-on le passage lent de l'eau liquide en vapeur, qui fait sécher le linge ?",
+  "r": "L'évaporation",
+  "t": "États de la matière",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-284",
+  "q": "Comment appelle-t-on le moment où l'eau chauffée forme de grosses bulles et se transforme en vapeur ?",
+  "r": "L'ébullition",
+  "t": "États de la matière",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-285",
+  "q": "Quel élément chimique a pour symbole la lettre O ?",
+  "r": "L'oxygène",
+  "t": "Éléments chimiques",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-286",
+  "q": "Quel élément chimique a pour symbole la lettre H ?",
+  "r": "L'hydrogène",
+  "t": "Éléments chimiques",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-287",
+  "q": "Quel élément chimique a pour symbole la lettre C ?",
+  "r": "Le carbone",
+  "t": "Éléments chimiques",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-288",
+  "q": "Quel métal orangé est le plus utilisé pour fabriquer les fils électriques ?",
+  "r": "Le cuivre",
+  "t": "Métaux",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-289",
+  "q": "Quel métal léger sert à fabriquer les canettes de boisson et le papier d'emballage de cuisine ?",
+  "r": "L'aluminium",
+  "t": "Métaux",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-290",
+  "q": "Quel métal courant, qui rouille à l'air humide, est attiré par les aimants ?",
+  "r": "Le fer",
+  "t": "Métaux",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-291",
+  "q": "Quel gaz donne leurs bulles aux boissons gazeuses comme les sodas ?",
+  "r": "Le dioxyde de carbone",
+  "t": "Chimie",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-292",
+  "q": "Comment appelle-t-on le fait que le sucre « disparaisse » en se mélangeant à l'eau ?",
+  "r": "La dissolution",
+  "t": "Chimie",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-293",
+  "q": "Comment appelle-t-on la plus petite particule d'un élément chimique, longtemps jugée insécable ?",
+  "r": "L'atome",
+  "t": "Chimie",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-294",
+  "q": "Quelle particule de charge positive se trouve dans le noyau de l'atome ?",
+  "r": "Le proton",
+  "t": "Chimie",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-295",
+  "q": "Comment appelle-t-on le centre de l'atome, autour duquel tournent les électrons ?",
+  "r": "Le noyau",
+  "t": "Chimie",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-296",
+  "q": "Comment appelle-t-on un assemblage d'atomes liés entre eux, comme celui de l'eau ?",
+  "r": "Une molécule",
+  "t": "Chimie",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-297",
+  "q": "Comment appelle-t-on la grille qui range tous les éléments chimiques selon leur numéro atomique ?",
+  "r": "Le tableau périodique",
+  "t": "Chimie",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-298",
+  "q": "Quelle est l'unité de mesure de la tension électrique ?",
+  "r": "Le volt",
+  "t": "Électricité",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-299",
+  "q": "Quelle énergie renouvelable exploite la force du vent ?",
+  "r": "L'énergie éolienne",
+  "t": "Énergie",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-300",
+  "q": "Quelle énergie renouvelable est produite par les barrages grâce à la force de l'eau ?",
+  "r": "L'hydroélectricité",
+  "t": "Énergie",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-301",
+  "q": "Quel combustible fossile noir était extrait des mines du Nord de la France ?",
+  "r": "Le charbon",
+  "t": "Énergie",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-302",
+  "q": "Comment appelle-t-on les énergies inépuisables comme celles du soleil, du vent ou de l'eau ?",
+  "r": "Les énergies renouvelables",
+  "t": "Énergie",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-303",
+  "q": "Comment appelle-t-on les énergies comme le pétrole, le charbon et le gaz, issues de restes d'êtres vivants enfouis ?",
+  "r": "Les énergies fossiles",
+  "t": "Énergie",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-304",
+  "q": "De quel liquide noir et épais, extrait du sous-sol, tire-t-on l'essence ?",
+  "r": "Le pétrole",
+  "t": "Énergie",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-305",
+  "q": "Quel matériau, fabriqué à partir du pétrole, sert à faire la plupart des bouteilles d'eau ?",
+  "r": "Le plastique",
+  "t": "Matériaux",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-306",
+  "q": "Comment appelle-t-on un matériau qui laisse bien passer le courant électrique, comme le métal ?",
+  "r": "Un conducteur",
+  "t": "Électricité",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-307",
+  "q": "Comment appelle-t-on un matériau qui empêche le passage du courant électrique, comme le plastique ?",
+  "r": "Un isolant",
+  "t": "Électricité",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-308",
+  "q": "Quelle est la masse d'un litre d'eau ?",
+  "r": "1 kilogramme",
+  "t": "L'eau",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-309",
+  "q": "Comment appelle-t-on un mélange de plusieurs métaux, comme le bronze ou le laiton ?",
+  "r": "Un alliage",
+  "t": "Métaux",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-310",
+  "q": "Quelle couleur obtient-on en mélangeant de la peinture bleue et de la peinture jaune ?",
+  "r": "Le vert",
+  "t": "Couleurs",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-311",
+  "q": "Quelle couleur obtient-on en mélangeant de la peinture rouge et de la peinture jaune ?",
+  "r": "L'orange",
+  "t": "Couleurs",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-312",
+  "q": "Quel objet en verre bombé, muni d'un manche, grossit les petits caractères ?",
+  "r": "La loupe",
+  "t": "Optique",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-313",
+  "q": "Dans un circuit électrique, quel dispositif permet d'allumer ou d'éteindre une lampe ?",
+  "r": "L'interrupteur",
+  "t": "Électricité",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-314",
+  "q": "Quel génie italien de la Renaissance a dessiné des machines volantes et un ancêtre du parachute ?",
+  "r": "Léonard de Vinci",
+  "t": "Savants",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-315",
+  "q": "Quel peintre et inventeur de la Renaissance remplissait ses carnets d'une écriture en miroir, de droite à gauche ?",
+  "r": "Léonard de Vinci",
+  "t": "Savants",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-316",
+  "q": "Quel physicien, auteur de la théorie de la relativité, a été photographié en 1951 en train de tirer la langue ?",
+  "r": "Albert Einstein",
+  "t": "Savants",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-317",
+  "q": "Quel prix, remis chaque année à Stockholm, récompense notamment les plus grands chercheurs en physique, chimie et médecine ?",
+  "r": "Le prix Nobel",
+  "t": "Savants",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-318",
+  "q": "Quelle entreprise, fondée par Jeff Bezos en 1994, a commencé par vendre des livres sur Internet ?",
+  "r": "Amazon",
+  "t": "Inventions",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-319",
+  "q": "Quelle invention, apparue en Mésopotamie il y a plus de 5 000 ans, a révolutionné les transports ?",
+  "r": "La roue",
+  "t": "Inventions",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-320",
+  "q": "Quel mélange explosif, inventé en Chine, a servi aux feux d'artifice avant les armes à feu ?",
+  "r": "La poudre noire",
+  "t": "Inventions",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-321",
+  "q": "Quelle machine, fonctionnant au charbon, faisait avancer les premières locomotives ?",
+  "r": "La machine à vapeur",
+  "t": "Inventions",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-322",
+  "q": "Quel instrument mesure le temps grâce à du sable qui s'écoule d'une ampoule de verre à l'autre ?",
+  "r": "Le sablier",
+  "t": "Inventions",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-323",
+  "q": "Quel instrument très ancien indique l'heure grâce à l'ombre projetée par le Soleil ?",
+  "r": "Le cadran solaire",
+  "t": "Inventions",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-324",
+  "q": "Combien font 7 fois 8 ?",
+  "r": "56",
+  "t": "Calcul",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-325",
+  "q": "Combien font 6 fois 9 ?",
+  "r": "54",
+  "t": "Calcul",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-326",
+  "q": "Combien font 8 fois 8 ?",
+  "r": "64",
+  "t": "Calcul",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-327",
+  "q": "Combien font 25 fois 4 ?",
+  "r": "100",
+  "t": "Calcul",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-328",
+  "q": "Combien font 2 + 2 × 2, en respectant les priorités de calcul ?",
+  "r": "6",
+  "t": "Calcul",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-329",
+  "q": "Combien de côtés possède un quadrilatère ?",
+  "r": "4",
+  "t": "Géométrie",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-330",
+  "q": "Combien de sommets possède un cube ?",
+  "r": "8",
+  "t": "Géométrie",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-331",
+  "q": "Combien d'arêtes possède un cube ?",
+  "r": "12",
+  "t": "Géométrie",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-332",
+  "q": "Comment appelle-t-on un angle qui mesure moins de 90 degrés ?",
+  "r": "Un angle aigu",
+  "t": "Géométrie",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-333",
+  "q": "Comment appelle-t-on un angle qui mesure exactement 180 degrés ?",
+  "r": "Un angle plat",
+  "t": "Géométrie",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-334",
+  "q": "Comment appelle-t-on le résultat d'une addition ?",
+  "r": "La somme",
+  "t": "Calcul",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-335",
+  "q": "Comment appelle-t-on le résultat d'une multiplication ?",
+  "r": "Le produit",
+  "t": "Calcul",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-336",
+  "q": "Comment appelle-t-on le résultat d'une soustraction ?",
+  "r": "La différence",
+  "t": "Calcul",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-337",
+  "q": "Comment appelle-t-on le nombre situé au-dessus de la barre d'une fraction ?",
+  "r": "Le numérateur",
+  "t": "Calcul",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-338",
+  "q": "Comment appelle-t-on un nombre entier qui se divise par 2 sans reste, comme 4 ou 10 ?",
+  "r": "Un nombre pair",
+  "t": "Calcul",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-339",
+  "q": "Combien de zéros compte l'écriture d'un million ?",
+  "r": "6",
+  "t": "Nombres",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-340",
+  "q": "Combien de centimètres y a-t-il dans un mètre ?",
+  "r": "100",
+  "t": "Mesures",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-341",
+  "q": "Combien de mètres y a-t-il dans un kilomètre ?",
+  "r": "1 000",
+  "t": "Mesures",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-342",
+  "q": "Combien de grammes y a-t-il dans un kilogramme ?",
+  "r": "1 000",
+  "t": "Mesures",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-343",
+  "q": "Combien de millimètres y a-t-il dans un centimètre ?",
+  "r": "10",
+  "t": "Mesures",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-344",
+  "q": "Combien de semaines compte à peu près une année ?",
+  "r": "52",
+  "t": "Calendrier",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-345",
+  "q": "Combien de mois de l'année comptent 31 jours ?",
+  "r": "7",
+  "t": "Calendrier",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-346",
+  "q": "Combien de jours compte le mois de février lors d'une année non bissextile ?",
+  "r": "28",
+  "t": "Calendrier",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-347",
+  "q": "Tous les combien d'années revient en général une année bissextile ?",
+  "r": "4",
+  "t": "Calendrier",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-348",
+  "q": "Combien de jours compte une année non bissextile ?",
+  "r": "365",
+  "t": "Calendrier",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-349",
+  "q": "Combien d'années compte une décennie ?",
+  "r": "10",
+  "t": "Calendrier",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-350",
+  "q": "Combien d'années compte un millénaire ?",
+  "r": "1 000",
+  "t": "Calendrier",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-351",
+  "q": "Comment écrit-on le nombre 4 en chiffres romains ?",
+  "r": "IV",
+  "t": "Chiffres romains",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-352",
+  "q": "Comment écrit-on le nombre 9 en chiffres romains ?",
+  "r": "IX",
+  "t": "Chiffres romains",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-353",
+  "q": "Quel nombre s'écrit avec la lettre X en chiffres romains ?",
+  "r": "10",
+  "t": "Chiffres romains",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-354",
+  "q": "Quel nombre s'écrit avec la lettre C en chiffres romains ?",
+  "r": "100",
+  "t": "Chiffres romains",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-355",
+  "q": "Comment appelle-t-on un quadrilatère qui a quatre angles droits et quatre côtés de même longueur ?",
+  "r": "Un carré",
+  "t": "Géométrie",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-356",
+  "q": "Comment appelle-t-on un quadrilatère à quatre angles droits dont les côtés ne sont pas tous égaux ?",
+  "r": "Un rectangle",
+  "t": "Géométrie",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-357",
+  "q": "Comment appelle-t-on un quadrilatère qui a seulement deux côtés parallèles ?",
+  "r": "Un trapèze",
+  "t": "Géométrie",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-358",
+  "q": "Comment qualifie-t-on un triangle qui possède un angle droit ?",
+  "r": "Rectangle",
+  "t": "Géométrie",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-359",
+  "q": "Quel solide a la forme d'un ballon parfaitement rond ?",
+  "r": "Une sphère",
+  "t": "Géométrie",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-360",
+  "q": "Quel solide a la forme d'une boîte de conserve ?",
+  "r": "Un cylindre",
+  "t": "Géométrie",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-361",
+  "q": "Quel solide a une base carrée et quatre faces triangulaires réunies en un sommet, comme à Gizeh ?",
+  "r": "Une pyramide",
+  "t": "Géométrie",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-362",
+  "q": "Comment appelle-t-on deux droites qui ne se croisent jamais ?",
+  "r": "Parallèles",
+  "t": "Géométrie",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-363",
+  "q": "Comment appelle-t-on deux droites qui se coupent en formant un angle droit ?",
+  "r": "Perpendiculaires",
+  "t": "Géométrie",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-364",
+  "q": "Comment appelle-t-on le résultat obtenu en additionnant des notes puis en divisant par leur nombre ?",
+  "r": "La moyenne",
+  "t": "Calcul",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-365",
+  "q": "Comment appelle-t-on le segment qui traverse un cercle en passant par son centre ?",
+  "r": "Le diamètre",
+  "t": "Géométrie",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-366",
+  "q": "Comment appelle-t-on la longueur du contour d'une figure ?",
+  "r": "Le périmètre",
+  "t": "Géométrie",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-367",
+  "q": "Comment appelle-t-on la mesure de la surface d'une figure, exprimée par exemple en mètres carrés ?",
+  "r": "L'aire",
+  "t": "Géométrie",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-368",
+  "q": "Combien vaut 5 au carré ?",
+  "r": "25",
+  "t": "Calcul",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-369",
+  "q": "Quelle est la racine carrée de 81 ?",
+  "r": "9",
+  "t": "Calcul",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-370",
+  "q": "Combien font 10 % de 200 ?",
+  "r": "20",
+  "t": "Calcul",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-371",
+  "q": "Combien font 50 % de 300 ?",
+  "r": "150",
+  "t": "Calcul",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-372",
+  "q": "Quel pourcentage correspond au quart d'une quantité ?",
+  "r": "25 %",
+  "t": "Calcul",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-373",
+  "q": "Combien de minutes y a-t-il dans trois quarts d'heure ?",
+  "r": "45",
+  "t": "Calendrier",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-374",
+  "q": "Quel nombre, multiplié par n'importe quel autre, donne toujours zéro ?",
+  "r": "0",
+  "t": "Calcul",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-375",
+  "q": "Quel nombre, multiplié par n'importe quel autre, le laisse inchangé ?",
+  "r": "1",
+  "t": "Calcul",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-376",
+  "q": "Comment écrit-on un quart sous forme de nombre décimal ?",
+  "r": "0,25",
+  "t": "Calcul",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-377",
+  "q": "Combien d'œufs compte une douzaine ?",
+  "r": "12",
+  "t": "Nombres",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-378",
+  "q": "Quel nombre suit logiquement la série 2, 4, 8, 16… ?",
+  "r": "32",
+  "t": "Calcul",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-379",
+  "q": "Lequel est le plus lourd : un kilo de plumes ou un kilo de plomb ?",
+  "r": "Aucun, ils pèsent autant",
+  "t": "Mesures",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-380",
+  "q": "Combien vaut 3 au cube ?",
+  "r": "27",
+  "t": "Calcul",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-381",
+  "q": "Quel instrument, souvent en forme de coq sur les clochers, indique la direction du vent ?",
+  "r": "La girouette",
+  "t": "Météo",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-382",
+  "q": "Comment appelle-t-on le grondement qui accompagne un éclair pendant un orage ?",
+  "r": "Le tonnerre",
+  "t": "Météo",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-383",
+  "q": "Lors d'un orage, quel phénomène lumineux voit-on avant d'entendre le tonnerre ?",
+  "r": "L'éclair",
+  "t": "Météo",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-384",
+  "q": "Comment appelle-t-on le nuage posé au ras du sol qui réduit fortement la visibilité ?",
+  "r": "Le brouillard",
+  "t": "Météo",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-385",
+  "q": "Quel phénomène coloré apparaît dans le ciel quand le soleil brille pendant une averse ?",
+  "r": "L'arc-en-ciel",
+  "t": "Météo",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-386",
+  "q": "Comment appelle-t-on la violente colonne d'air tourbillonnante qui touche le sol, fréquente dans le centre des États-Unis ?",
+  "r": "Une tornade",
+  "t": "Météo",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-387",
+  "q": "Comment appelle-t-on une longue période sans pluie qui assèche les sols ?",
+  "r": "Une sécheresse",
+  "t": "Climat",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-388",
+  "q": "Comment appelle-t-on une période de très fortes chaleurs qui dure plusieurs jours, comme en août 2003 ?",
+  "r": "Une canicule",
+  "t": "Climat",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-389",
+  "q": "Comment appelle-t-on la hausse de la température moyenne de la Terre liée aux activités humaines ?",
+  "r": "Le réchauffement climatique",
+  "t": "Climat",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-390",
+  "q": "Quel organisme public est chargé des prévisions météorologiques officielles en France ?",
+  "r": "Météo-France",
+  "t": "Météo",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-391",
+  "q": "Quelle couleur correspond au plus haut niveau de vigilance météorologique en France ?",
+  "r": "Le rouge",
+  "t": "Météo",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-392",
+  "q": "Quand c'est l'été en France, quelle saison est-il en Australie ?",
+  "r": "L'hiver",
+  "t": "Climat",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-393",
+  "q": "Comment appelle-t-on une pluie soudaine, forte et de courte durée ?",
+  "r": "Une averse",
+  "t": "Météo",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-394",
+  "q": "Comment appelle-t-on le débordement d'un cours d'eau qui recouvre les terres voisines ?",
+  "r": "Une inondation",
+  "t": "Météo",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-395",
+  "q": "Comment appelle-t-on une masse de neige qui dévale brutalement la pente d'une montagne ?",
+  "r": "Une avalanche",
+  "t": "Météo",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-396",
+  "q": "Comment appelle-t-on un coup de vent soudain et bref, plus fort que le vent moyen ?",
+  "r": "Une rafale",
+  "t": "Météo",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-397",
+  "q": "Quel type de climat, aux étés chauds et secs, caractérise le pourtour de la Méditerranée ?",
+  "r": "Le climat méditerranéen",
+  "t": "Climat",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-398",
+  "q": "Quel type de climat, aux hivers froids et aux étés chauds, règne loin des océans, par exemple en Alsace ?",
+  "r": "Le climat continental",
+  "t": "Climat",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-399",
+  "q": "Quel type de climat, chaud et humide toute l'année, règne en Amazonie ?",
+  "r": "Le climat équatorial",
+  "t": "Climat",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-400",
+  "q": "Quel type de climat, glacial toute l'année, règne en Antarctique ?",
+  "r": "Le climat polaire",
+  "t": "Climat",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-401",
+  "q": "Comment appelle-t-on le spécialiste qui étudie et prévoit le temps qu'il fera ?",
+  "r": "Un météorologue",
+  "t": "Météo",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-402",
+  "q": "Comment appelle-t-on une zone de basses pressions, souvent synonyme de pluie et de vent ?",
+  "r": "Une dépression",
+  "t": "Météo",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-403",
+  "q": "Quel anticyclone, du nom d'un archipel portugais, apporte souvent le beau temps en France ?",
+  "r": "L'anticyclone des Açores",
+  "t": "Météo",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-404",
+  "q": "Comment appelle-t-on un énorme bloc de glace d'eau douce qui flotte sur la mer après s'être détaché d'un glacier ?",
+  "r": "Un iceberg",
+  "t": "Climat",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-405",
+  "q": "En quelle unité les températures sont-elles exprimées dans les bulletins météo français ?",
+  "r": "En degrés Celsius",
+  "t": "Météo",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-406",
+  "q": "Comment se termine le dicton « En avril, ne te découvre pas d'un fil… » ?",
+  "r": "« En mai, fais ce qu'il te plaît »",
+  "t": "Météo",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-407",
+  "q": "Comment appelle-t-on les flocons de glace blancs qui tombent du ciel quand il fait très froid ?",
+  "r": "La neige",
+  "t": "Météo",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-408",
+  "q": "Quelle saison commence au solstice de décembre dans l'hémisphère Nord ?",
+  "r": "L'hiver",
+  "t": "Climat",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-409",
+  "q": "Quel système de navigation par satellites, désigné par trois lettres, guide les automobilistes ?",
+  "r": "Le GPS",
+  "t": "Technologie",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-410",
+  "q": "Quelle technologie sans fil permet de connecter des écouteurs ou une enceinte à un téléphone à courte distance ?",
+  "r": "Le Bluetooth",
+  "t": "Technologie",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-411",
+  "q": "Comment appelle-t-on le pictogramme carré noir et blanc que l'on scanne avec son téléphone pour ouvrir un lien ?",
+  "r": "Le QR code",
+  "t": "Technologie",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-412",
+  "q": "Quelle console de Nintendo, sortie en 2017, se joue aussi bien sur la télévision qu'en mode portable ?",
+  "r": "La Switch",
+  "t": "Jeux vidéo",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-413",
+  "q": "Quelle console de jeux vidéo est fabriquée par le japonais Sony depuis 1994 ?",
+  "r": "La PlayStation",
+  "t": "Jeux vidéo",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-414",
+  "q": "Comment appelle-t-on une voiture qui combine un moteur à essence et un moteur électrique ?",
+  "r": "Une voiture hybride",
+  "t": "Technologie",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-415",
+  "q": "Comment appelle-t-on un petit aéronef sans pilote à bord, piloté à distance ?",
+  "r": "Un drone",
+  "t": "Technologie",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-416",
+  "q": "Que signifie le sigle TGV ?",
+  "r": "Train à grande vitesse",
+  "t": "Transports",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-417",
+  "q": "Quel train à grande vitesse relie Paris à Londres en passant sous la Manche ?",
+  "r": "L'Eurostar",
+  "t": "Transports",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-418",
+  "q": "Quelle marque désigne le système d'attache à crochets et à boucles, aussi appelé « scratch » ?",
+  "r": "Velcro",
+  "t": "Technologie",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-419",
+  "q": "Comment appelle-t-on la cinquième génération de réseau de téléphonie mobile ?",
+  "r": "La 5G",
+  "t": "Technologie",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-420",
+  "q": "Quel petit boîtier à boutons permet de changer de chaîne sans se lever du canapé ?",
+  "r": "La télécommande",
+  "t": "Technologie",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-421",
+  "q": "Quelle invention permet de fermer un vêtement grâce à deux rangées de petites dents qui s'emboîtent ?",
+  "r": "La fermeture Éclair",
+  "t": "Technologie",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-422",
+  "q": "Quel appareil électroménager conserve les aliments au frais, à environ 4 °C ?",
+  "r": "Le réfrigérateur",
+  "t": "Technologie",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-423",
+  "q": "Comment appelle-t-on la petite carte à puce que l'on insère dans un téléphone portable pour l'identifier sur le réseau ?",
+  "r": "La carte SIM",
+  "t": "Technologie",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-424",
+  "q": "Comment appelle-t-on l'appareil qui délivre des billets de banque grâce à une carte bancaire ?",
+  "r": "Un distributeur automatique de billets",
+  "t": "Technologie",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-425",
+  "q": "Comment appelle-t-on le code secret à quatre chiffres d'une carte bancaire ?",
+  "r": "Le code PIN",
+  "t": "Technologie",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-426",
+  "q": "Comment appelle-t-on une voiture capable de rouler sans que personne ne la conduise ?",
+  "r": "Une voiture autonome",
+  "t": "Technologie",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-427",
+  "q": "Quel appareil, installé au bord des routes, flashe les automobilistes qui roulent trop vite ?",
+  "r": "Le radar",
+  "t": "Technologie",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-428",
+  "q": "Quel carburant fait rouler les voitures équipées d'un moteur diesel ?",
+  "r": "Le gazole",
+  "t": "Technologie",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-429",
+  "q": "Comment appelle-t-on un téléphone portable doté d'un écran tactile et d'un accès à Internet ?",
+  "r": "Un smartphone",
+  "t": "Technologie",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-430",
+  "q": "Comment appelle-t-on une photo de soi-même prise avec son téléphone ?",
+  "r": "Un selfie",
+  "t": "Technologie",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-431",
+  "q": "Comment appelle-t-on les petits pictogrammes, comme le visage jaune qui rit, utilisés dans les messages ?",
+  "r": "Les émojis",
+  "t": "Technologie",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-432",
+  "q": "Comment appelle-t-on un court message écrit envoyé d'un téléphone portable à un autre ?",
+  "r": "Un SMS",
+  "t": "Technologie",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-433",
+  "q": "Comment appelle-t-on l'appareil à écran tactile, plus grand qu'un smartphone, comme l'iPad ?",
+  "r": "Une tablette",
+  "t": "Technologie",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-434",
+  "q": "Quelle énergie est produite par les panneaux installés sur les toits pour capter la lumière du jour ?",
+  "r": "L'énergie solaire",
+  "t": "Énergie",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-435",
+  "q": "Quel système d'exploitation de Google équipe la plupart des smartphones qui ne sont pas des iPhone ?",
+  "r": "Android",
+  "t": "Informatique",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-436",
+  "q": "Quel système d'exploitation fait fonctionner les iPhone ?",
+  "r": "iOS",
+  "t": "Informatique",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-437",
+  "q": "Comment appelle-t-on le petit appareil que l'on fait glisser sur le bureau pour déplacer le curseur à l'écran ?",
+  "r": "La souris",
+  "t": "Informatique",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-438",
+  "q": "Quel nom porte la disposition de clavier utilisée dans les pays anglophones, d'après ses premières lettres ?",
+  "r": "QWERTY",
+  "t": "Informatique",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-439",
+  "q": "Comment appelle-t-on une personne qui s'introduit illégalement dans des systèmes informatiques ?",
+  "r": "Un hacker",
+  "t": "Informatique",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-440",
+  "q": "Comment appelle-t-on une suite d'instructions permettant de résoudre un problème, base de tout programme informatique ?",
+  "r": "Un algorithme",
+  "t": "Informatique",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-441",
+  "q": "Quelle application chinoise de courtes vidéos, souvent dansées, a connu un succès mondial à la fin des années 2010 ?",
+  "r": "TikTok",
+  "t": "Internet",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-442",
+  "q": "Quelle combinaison de touches permet de copier une sélection sur un ordinateur sous Windows ?",
+  "r": "Ctrl + C",
+  "t": "Informatique",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-443",
+  "q": "Quelle combinaison de touches permet de coller ce que l'on a copié sur un ordinateur sous Windows ?",
+  "r": "Ctrl + V",
+  "t": "Informatique",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-444",
+  "q": "Comment appelle-t-on la petite image sur laquelle on clique pour ouvrir un programme ou un fichier ?",
+  "r": "Une icône",
+  "t": "Informatique",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-445",
+  "q": "Comment appelle-t-on le fait de récupérer un fichier depuis Internet sur son ordinateur ?",
+  "r": "Le téléchargement",
+  "t": "Internet",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-446",
+  "q": "Quelle unité de stockage informatique vaut environ mille mégaoctets ?",
+  "r": "Le gigaoctet",
+  "t": "Informatique",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-447",
+  "q": "Comment appelle-t-on l'écran d'accueil d'un ordinateur, où sont posées les icônes ?",
+  "r": "Le bureau",
+  "t": "Informatique",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-448",
+  "q": "Comment appelle-t-on un logiciel que l'on installe sur un smartphone ?",
+  "r": "Une application",
+  "t": "Informatique",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-449",
+  "q": "Que signifient les deux lettres IA, très présentes dans l'actualité technologique ?",
+  "r": "Intelligence artificielle",
+  "t": "Informatique",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-450",
+  "q": "Quelle touche du clavier, maintenue enfoncée, permet d'écrire une lettre en majuscule ?",
+  "r": "La touche Maj",
+  "t": "Informatique",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-451",
+  "q": "Quelle plateforme de vidéo par abonnement, au logo en forme de N rouge, propose des séries comme « Stranger Things » ?",
+  "r": "Netflix",
+  "t": "Internet",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-452",
+  "q": "Comment appelle-t-on la lecture d'une vidéo ou d'une musique en ligne, sans la télécharger ?",
+  "r": "Le streaming",
+  "t": "Internet",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-453",
+  "q": "Quel logiciel de Microsoft sert à créer des tableaux de chiffres et à faire des calculs ?",
+  "r": "Excel",
+  "t": "Informatique",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-454",
+  "q": "Comment appelle-t-on la copie de ses fichiers faite pour ne pas les perdre en cas de panne ?",
+  "r": "Une sauvegarde",
+  "t": "Informatique",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-455",
+  "q": "Comment appelle-t-on une erreur dans un programme informatique qui le fait mal fonctionner ?",
+  "r": "Un bug",
+  "t": "Informatique",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-456",
+  "q": "Comment appelle-t-on, sur les réseaux sociaux, un mot-clé précédé du signe dièse ?",
+  "r": "Un hashtag",
+  "t": "Internet",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-457",
+  "q": "Quelle entreprise américaine fabrique les ordinateurs Mac et les tablettes iPad ?",
+  "r": "Apple",
+  "t": "Informatique",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-458",
+  "q": "Par quelles lettres se terminent les adresses de nombreux sites internet français ?",
+  "r": ".fr",
+  "t": "Internet",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-459",
+  "q": "Quel anglicisme désigne une fausse information diffusée volontairement, notamment sur les réseaux sociaux ?",
+  "r": "Une fake news",
+  "t": "Internet",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-460",
+  "q": "Comment appelle-t-on le mot secret qui protège l'accès à un compte en ligne ?",
+  "r": "Le mot de passe",
+  "t": "Informatique",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-461",
+  "q": "Quel appareil permet d'imprimer sur papier un document affiché à l'écran ?",
+  "r": "L'imprimante",
+  "t": "Informatique",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-462",
+  "q": "Comment appelle-t-on le réseau informatique mondial qui relie des milliards d'appareils ?",
+  "r": "Internet",
+  "t": "Internet",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-463",
+  "q": "Comment appelle-t-on un ordinateur que l'on peut emporter partout, avec écran et clavier repliables ?",
+  "r": "Un ordinateur portable",
+  "t": "Informatique",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-464",
+  "q": "Que signifie le sigle PC, utilisé pour désigner un ordinateur ?",
+  "r": "Personal computer",
+  "t": "Informatique",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-465",
+  "q": "Quelle touche du clavier sert à valider une saisie ou à aller à la ligne ?",
+  "r": "Entrée",
+  "t": "Informatique",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-466",
+  "q": "Quelle unité de masse vaut 1 000 kilogrammes ?",
+  "r": "La tonne",
+  "t": "Mesures",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-467",
+  "q": "Combien de centilitres contient un litre ?",
+  "r": "100",
+  "t": "Mesures",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-468",
+  "q": "Combien de centimes compte un euro ?",
+  "r": "100",
+  "t": "Calcul",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-469",
+  "q": "Combien de minutes dure une heure et demie ?",
+  "r": "90",
+  "t": "Calendrier",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-470",
+  "q": "Comment appelle-t-on une période de cent ans ?",
+  "r": "Un siècle",
+  "t": "Calendrier",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-471",
+  "q": "Comment appelle-t-on l'eau lorsqu'elle se trouve à l'état de gaz ?",
+  "r": "La vapeur",
+  "t": "L'eau",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-472",
+  "q": "Dans quel état se trouve l'eau pure à température ambiante, vers 20 °C ?",
+  "r": "Liquide",
+  "t": "L'eau",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-473",
+  "q": "Quel élément d'un téléphone portable ou d'une voiture électrique stocke l'énergie et doit être rechargé ?",
+  "r": "La batterie",
+  "t": "Technologie",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-474",
+  "q": "Comment appelle-t-on une pluie très fine et légère, fréquente en Bretagne ?",
+  "r": "La bruine",
+  "t": "Météo",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-475",
+  "q": "Comment appelle-t-on un vent doux et léger, souvent venu de la mer ?",
+  "r": "La brise",
+  "t": "Météo",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-476",
+  "q": "Comment appelle-t-on la ligne lointaine où le ciel semble toucher la terre ou la mer ?",
+  "r": "L'horizon",
+  "t": "Météo",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-477",
+  "q": "Comment appelle-t-on la première lueur du jour, juste avant le lever du soleil ?",
+  "r": "L'aube",
+  "t": "Météo",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-478",
+  "q": "Quelle est la deuxième plus grosse planète du système solaire, après Jupiter ?",
+  "r": "Saturne",
+  "t": "Espace",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-479",
+  "q": "Quelle est la quatrième planète du système solaire en partant du Soleil ?",
+  "r": "Mars",
+  "t": "Espace",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-480",
+  "q": "Comment appelle-t-on les pluies chargées de polluants industriels qui abîment les forêts et les monuments ?",
+  "r": "Les pluies acides",
+  "t": "Climat",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-481",
+  "q": "En quelle unité la pression atmosphérique est-elle indiquée sur les cartes météo ?",
+  "r": "L'hectopascal",
+  "t": "Climat",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-482",
+  "q": "Comment appelle-t-on la quantité de gaz à effet de serre émise par une personne, un produit ou une activité ?",
+  "r": "L'empreinte carbone",
+  "t": "Climat",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-483",
+  "q": "Comment appelle-t-on les violents orages d'automne du Gard et de l'Hérault, nommés d'après un massif voisin ?",
+  "r": "Un épisode cévenol",
+  "t": "Climat",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-484",
+  "q": "Quel appareil de chauffage puise les calories de l'air extérieur ou du sol pour chauffer une maison ?",
+  "r": "La pompe à chaleur",
+  "t": "Énergie",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-485",
+  "q": "Comment appelle-t-on les petits cylindres de sciure compressée qui alimentent certains poêles ?",
+  "r": "Les granulés de bois",
+  "t": "Énergie",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-486",
+  "q": "Comment s'appelle le compteur électrique communicant installé dans les foyers français à partir de 2015 ?",
+  "r": "Linky",
+  "t": "Électricité",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-487",
+  "q": "De quelles couleurs est la gaine du fil de terre dans une installation électrique ?",
+  "r": "Vert et jaune",
+  "t": "Électricité",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-488",
+  "q": "Quelle entreprise publique a été créée en 1946 pour produire et distribuer l'électricité en France ?",
+  "r": "EDF",
+  "t": "Énergie",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-489",
+  "q": "Comment appelle-t-on l'énergie tirée du bois, des résidus agricoles et des déchets végétaux ?",
+  "r": "La biomasse",
+  "t": "Énergie",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-490",
+  "q": "Quel solvant à l'odeur forte sert à enlever le vernis à ongles ?",
+  "r": "L'acétone",
+  "t": "Chimie",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-491",
+  "q": "Quelle substance contenue dans le tabac rend les fumeurs dépendants ?",
+  "r": "La nicotine",
+  "t": "Chimie",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-492",
+  "q": "Parmi les quatre pierres précieuses, laquelle est de couleur bleue ?",
+  "r": "Le saphir",
+  "t": "Terre et roches",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-493",
+  "q": "Comment appelle-t-on la couche de terre sombre et fertile formée par la décomposition des feuilles mortes ?",
+  "r": "L'humus",
+  "t": "Terre et roches",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-494",
+  "q": "Comment appelle-t-on une roche dont on extrait un métal, comme le fer ou l'aluminium ?",
+  "r": "Un minerai",
+  "t": "Terre et roches",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-495",
+  "q": "Quel élément en terre cuite couvre les toits de la plupart des maisons du Midi ?",
+  "r": "La tuile",
+  "t": "Terre et roches",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-496",
+  "q": "Quel coussin se gonfle instantanément lors d'un choc pour protéger les occupants d'une voiture ?",
+  "r": "L'airbag",
+  "t": "Automobile",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-497",
+  "q": "Quel équipement placé sur l'échappement d'une voiture réduit les gaz polluants qu'elle rejette ?",
+  "r": "Le pot catalytique",
+  "t": "Automobile",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-498",
+  "q": "Quel système de sécurité, désigné par trois lettres, empêche les roues d'une voiture de se bloquer au freinage ?",
+  "r": "L'ABS",
+  "t": "Automobile",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-499",
+  "q": "Quel constructeur automobile a lancé la Clio en 1990 ?",
+  "r": "Renault",
+  "t": "Automobile",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-500",
+  "q": "Quelle petite Renault, lancée en 1972, a fait son retour en version électrique en 2024 ?",
+  "r": "La Renault 5",
+  "t": "Automobile",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-501",
+  "q": "Quel constructeur japonais a lancé en 1997 la Prius, première voiture hybride vendue en grande série ?",
+  "r": "Toyota",
+  "t": "Automobile",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-502",
+  "q": "Quelle lettre désigne en France le permis de conduire une voiture ?",
+  "r": "B",
+  "t": "Transports",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-503",
+  "q": "Quel petit appareil, dans lequel on souffle, indique si un conducteur a bu de l'alcool ?",
+  "r": "L'éthylotest",
+  "t": "Transports",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-504",
+  "q": "Comment appelle-t-on l'équipement sur lequel on branche une voiture électrique dans la rue ou sur un parking ?",
+  "r": "La borne de recharge",
+  "t": "Automobile",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-505",
+  "q": "Quelle hormone les personnes atteintes de diabète doivent-elles souvent s'injecter ?",
+  "r": "L'insuline",
+  "t": "Médecine",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-506",
+  "q": "Quel professionnel de santé soigne les pieds et fabrique des semelles orthopédiques ?",
+  "r": "Le podologue",
+  "t": "Médecine",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-507",
+  "q": "Comment appelle-t-on un violent mal de tête qui revient par crises, souvent d'un seul côté du crâne ?",
+  "r": "La migraine",
+  "t": "Médecine",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-508",
+  "q": "Comment appelle-t-on la difficulté à s'endormir ou à rester endormi ?",
+  "r": "L'insomnie",
+  "t": "Médecine",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-509",
+  "q": "Quel médecin spécialiste réalise et interprète les scanners et les IRM ?",
+  "r": "Le radiologue",
+  "t": "Médecine",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-510",
+  "q": "Quel médecin spécialiste suit la santé des femmes et peut accompagner leur grossesse ?",
+  "r": "Le gynécologue",
+  "t": "Médecine",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-511",
+  "q": "Quelle maladie très contagieuse provoque vomissements et diarrhée, surtout en hiver ?",
+  "r": "La gastro-entérite",
+  "t": "Médecine",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-512",
+  "q": "Quel professionnel de santé aide à rééduquer un genou ou un dos par des massages et des exercices ?",
+  "r": "Le kinésithérapeute",
+  "t": "Médecine",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-513",
+  "q": "À partir de quelle température du corps parle-t-on généralement de fièvre ?",
+  "r": "38 °C",
+  "t": "Médecine",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-514",
+  "q": "Quel produit désinfectant pour les mains, utilisé sans eau ni savon, s'est généralisé pendant l'épidémie de Covid-19 ?",
+  "r": "Le gel hydroalcoolique",
+  "t": "Médecine",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-515",
+  "q": "Comment appelle-t-on la bande adhésive qui sert à maintenir un pansement sur la peau ?",
+  "r": "Le sparadrap",
+  "t": "Médecine",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-516",
+  "q": "Quel dépôt dur et jaunâtre se forme sur les dents et doit être retiré chez le dentiste ?",
+  "r": "Le tartre",
+  "t": "Médecine",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-517",
+  "q": "Comment appelle-t-on les fines lamelles posées directement sur l'œil pour corriger la vue sans lunettes ?",
+  "r": "Les lentilles de contact",
+  "t": "Médecine",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-518",
+  "q": "En quelle unité exprime-t-on habituellement la diagonale d'un écran de télévision ?",
+  "r": "Le pouce",
+  "t": "Unités",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-519",
+  "q": "Quel préfixe, placé devant une unité, la multiplie par un million ?",
+  "r": "Méga",
+  "t": "Unités",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-520",
+  "q": "Combien de litres contient un hectolitre ?",
+  "r": "100",
+  "t": "Unités",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-521",
+  "q": "Combien de millilitres contient un litre ?",
+  "r": "1 000",
+  "t": "Unités",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-522",
+  "q": "Comment appelle-t-on le segment qui relie deux coins opposés d'un carré ?",
+  "r": "La diagonale",
+  "t": "Mathématiques",
+  "niveau": "facile"
+ },
+ {
+  "id": "sci_facile-523",
+  "q": "Comment appelle-t-on la demi-droite qui partage un angle en deux angles égaux ?",
+  "r": "La bissectrice",
+  "t": "Mathématiques",
+  "niveau": "facile"
+ }
+]

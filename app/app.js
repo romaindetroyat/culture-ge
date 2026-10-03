@@ -1,9 +1,7 @@
 /* Culture Gé — application sans dépendance. */
 'use strict';
 
-const CLE_PIOCHE = 'trivial1000.pioche';
-const CLE_PARTIE = 'trivial1000.partie';
-const CLE_JOUEURS = 'trivial1000.joueurs';
+const CLE_JOUEURS = 'trivial1000.joueurs'; // derniers noms inscrits (quiz en groupe)
 const CLE_SOLO = 'trivial1000.solo';
 const CLE_SOLO_VUES = 'trivial1000.solo.vues';
 const CLE_SOLO_RECORDS = 'trivial1000.solo.records';
@@ -81,49 +79,21 @@ function typo(t) { return String(t).replace(/\s+([?!:;»])/g, '\u00a0$1').replac
 const styleCat = c => `--c:${c.couleur};--c-texte:${COULEUR_TEXTE[c.id] || c.couleur}`;
 const catParId = id => CATS.find(c => c.id === id);
 
-function niveau(d) {
-  const libelle = ['', 'facile', 'moyenne', 'difficile'][d] || '';
-  return h('span', { class: 'niv', title: `Difficulté ${libelle}`, 'aria-label': `difficulté ${libelle}` },
-    [1, 2, 3].map(i => h('i', { class: i <= d ? 'on' : null })));
-}
-
-function camembert(parts, taille = 36) {
-  // parts : tableau de booléens dans l'ordre des catégories
-  const ns = 'http://www.w3.org/2000/svg';
-  const svg = document.createElementNS(ns, 'svg');
-  svg.setAttribute('viewBox', '0 0 64 64');
-  svg.setAttribute('width', taille);
-  svg.setAttribute('height', taille);
-  svg.setAttribute('aria-hidden', 'true');
-  const fond = document.createElementNS(ns, 'circle');
-  fond.setAttribute('cx', 32); fond.setAttribute('cy', 32); fond.setAttribute('r', 30);
-  fond.setAttribute('fill', '#fff');
-  svg.append(fond);
-  const n = CATS.length;
-  CATS.forEach((c, i) => {
-    const a0 = (i / n) * 2 * Math.PI - Math.PI / 2;
-    const a1 = ((i + 1) / n) * 2 * Math.PI - Math.PI / 2;
-    const r = 27;
-    const p = document.createElementNS(ns, 'path');
-    p.setAttribute('d', `M32 32 L${32 + r * Math.cos(a0)} ${32 + r * Math.sin(a0)} A${r} ${r} 0 0 1 ${32 + r * Math.cos(a1)} ${32 + r * Math.sin(a1)} Z`);
-    p.setAttribute('fill', parts[i] ? c.couleur : '#dcd6c8');
-    p.setAttribute('stroke', '#fff');
-    p.setAttribute('stroke-width', '1.5');
-    svg.append(p);
-  });
-  return svg;
+function niveau(niv) {
+  const nom = NOMS_NIVEAUX[niv] || '';
+  return h('span', { class: `niv niv-${niv}`, title: `Niveau ${nom.toLowerCase()}` }, nom);
 }
 
 /* ---------------- Rendu d'une carte ---------------- */
 
-function ligneQuestion(cat, [q, r, d], { ouvert = false, cliquable = true } = {}) {
+function ligneQuestion(cat, [q, r, niv], { ouvert = false, cliquable = true } = {}) {
   const el = h(cliquable ? 'button' : 'div', {
     class: 'ligne-q' + (ouvert ? ' ouvert' : ''),
     style: styleCat(cat),
     type: cliquable ? 'button' : null,
     'aria-expanded': cliquable ? String(ouvert) : null,
   },
-    h('span', { class: 'cat' }, cat.nom, niveau(d)),
+    h('span', { class: 'cat' }, cat.nom, niveau(niv)),
     h('span', { class: 'q' }, q),
     h('span', { class: 'r' }, r),
   );
@@ -137,319 +107,24 @@ function ligneQuestion(cat, [q, r, d], { ouvert = false, cliquable = true } = {}
   return el;
 }
 
-function rendreCarte(conteneur, index) {
-  const carte = DATA.cartes[index];
-  conteneur.replaceChildren(
-    h('div', { class: 'carte-tete' }, h('span', {}, 'CARTE'), h('span', { class: 'num' }, 'N° ' + numero(index + 1))),
-    ...CATS.map((c, i) => ligneQuestion(c, carte[i])),
-  );
-}
+/* ---------------- Difficulté ---------------- */
 
-/* ---------------- Pioche ---------------- */
+// Cinq niveaux de questions (champ niv) : 1 enfant (6 à 10 ans), 2 facile, 3 moyenne,
+// 4 difficile, 5 expert. Une bonne réponse rapporte 1 point jusqu'à moyenne, 2 en difficile, 3 en expert.
+const NOMS_NIVEAUX = ['', 'Enfant', 'Facile', 'Moyenne', 'Difficile', 'Expert'];
+const pointsNiveau = niv => (niv <= 3 ? 1 : niv - 2);
 
-function cartesDuPaquet(choix) {
-  // choix : 'tout' ou l'indice d'une édition (plage de numéros de cartes).
-  const ed = (DATA.editions || [])[choix];
-  if (!ed) return [...DATA.cartes.keys()];
-  return Array.from({ length: ed.a - ed.de + 1 }, (_, i) => ed.de - 1 + i);
-}
-
-function nouvellePioche(choix) {
-  return { paquet: choix, ordre: melanger(cartesDuPaquet(choix)), pos: 0 };
-}
-
-function etatPioche() {
-  let etat = lire(CLE_PIOCHE, null);
-  const choix = etat && etat.paquet != null ? etat.paquet : 'tout';
-  if (!etat || !Array.isArray(etat.ordre) || etat.ordre.length !== cartesDuPaquet(choix).length
-    || etat.ordre.some(i => !DATA.cartes[i])) {
-    etat = nouvellePioche(choix);
-    ecrire(CLE_PIOCHE, etat);
-  }
-  return etat;
-}
-
-function afficherPioche(avancer = false) {
-  let etat = etatPioche();
-  if (avancer) etat.pos++;
-  if (etat.pos >= etat.ordre.length) etat = nouvellePioche(etat.paquet);
-  ecrire(CLE_PIOCHE, etat);
-  rendreCarte($('#pioche-carte'), etat.ordre[etat.pos]);
-  $('#pioche-info').textContent = `Carte ${etat.pos + 1} sur ${etat.ordre.length}`;
-  $('#pioche-paquet').value = String(etat.paquet);
-}
-
-function initPioche() {
-  $('#pioche-suivante').addEventListener('click', () => {
-    afficherPioche(true);
-    $('#pioche-carte').scrollIntoView({ block: 'nearest', behavior: 'smooth' });
-  });
-  $('#pioche-retourner').addEventListener('click', () => {
-    const lignes = [...document.querySelectorAll('#pioche-carte .ligne-q')];
-    const toutOuvert = lignes.every(l => l.classList.contains('ouvert'));
-    lignes.forEach(l => {
-      l.classList.toggle('ouvert', !toutOuvert);
-      l.setAttribute('aria-expanded', String(!toutOuvert));
-    });
-  });
-  $('#pioche-reset').addEventListener('click', () => {
-    if (!confirm('Remélanger tout le paquet ? Les cartes déjà vues pourront ressortir.')) return;
-    ecrire(CLE_PIOCHE, nouvellePioche(etatPioche().paquet));
-    afficherPioche();
-  });
-  const editions = DATA.editions || [];
-  if (editions.length > 1) {
-    const choix = $('#pioche-paquet');
-    choix.append(
-      h('option', { value: 'tout' }, `Toutes les cartes (1 à ${DATA.cartes.length})`),
-      ...editions.map((ed, i) => h('option', { value: String(i) }, `${ed.nom} (${ed.de} à ${ed.a})`)));
-    choix.hidden = false;
-    choix.addEventListener('change', () => {
-      ecrire(CLE_PIOCHE, nouvellePioche(choix.value === 'tout' ? 'tout' : Number(choix.value)));
-      afficherPioche();
-    });
-  }
-}
-
-/* ---------------- Partie sans plateau ---------------- */
-
-let partie = null;
-
+// Réglages proposés (solo, quiz en groupe, soirée) → niveaux de questions retenus.
 const NIVEAUX = {
-  0: [1, 2, 3],
-  1: [1],
-  2: [1, 2],
-  3: [2, 3],
+  0: [2, 3, 4, 5], // toutes (sauf enfants)
+  1: [2],
+  2: [2, 3],
+  3: [3, 4],
+  4: [4, 5],
+  5: [5],
+  6: [1], // enfants
 };
-
-function sauverPartie() { ecrire(CLE_PARTIE, partie); }
-
-function champJoueur(nom = '') {
-  const ligne = h('div', { class: 'joueur-champ' },
-    h('input', { type: 'text', name: 'joueur', value: nom, placeholder: 'Nom du joueur', maxlength: 20, 'aria-label': 'Nom du joueur' }),
-    h('button', {
-      type: 'button', class: 'btn-lien', 'aria-label': 'Retirer ce joueur',
-      onclick: () => {
-        if ($('#liste-joueurs').children.length > 2) ligne.remove();
-      },
-    }, 'Retirer'),
-  );
-  return ligne;
-}
-
-function afficherConfig() {
-  $('#partie-config').hidden = false;
-  $('#partie-jeu').hidden = true;
-  const liste = $('#liste-joueurs');
-  const noms = lire(CLE_JOUEURS, ['Joueur 1', 'Joueur 2']);
-  liste.replaceChildren(...noms.map(n => champJoueur(n)));
-}
-
-function tirerQuestion(catId) {
-  const niveaux = NIVEAUX[partie.niveau] || NIVEAUX[0];
-  const deja = new Set(partie.utilisees);
-  let pool = QUESTIONS.filter(q => q.cat === catId && niveaux.includes(q.d) && !deja.has(q.id));
-  if (!pool.length) {
-    // Toutes les questions de ce niveau ont servi : on recycle celles de cette catégorie.
-    partie.utilisees = partie.utilisees.filter(id => QUESTIONS[id].cat !== catId);
-    pool = QUESTIONS.filter(q => q.cat === catId && niveaux.includes(q.d));
-  }
-  const q = pool[Math.floor(Math.random() * pool.length)];
-  partie.utilisees.push(q.id);
-  return q.id;
-}
-
-function rendreScores() {
-  $('#scores').replaceChildren(...partie.joueurs.map((j, i) =>
-    h('div', { class: 'score' + (i === partie.tour ? ' actif' : '') },
-      camembert(CATS.map(c => j.parts.includes(c.id))),
-      h('div', {},
-        h('div', { class: 'nom' }, j.nom),
-        h('div', { class: 'meta', style: 'font-size:.8rem;color:var(--texte-doux)' }, `${j.parts.length}/6`),
-      ),
-    )));
-}
-
-function joueurCourant() { return partie.joueurs[partie.tour]; }
-
-function passerAuSuivant() {
-  partie.tour = (partie.tour + 1) % partie.joueurs.length;
-  partie.phase = 'de';
-  partie.question = null;
-  partie.cat = null;
-  sauverPartie();
-  rendrePartie();
-}
-
-function lancerDe() {
-  const de = $('.de');
-  const bouton = $('#btn-de');
-  bouton.disabled = true;
-  de.classList.add('roule');
-  let n = 0;
-  const final = CATS[Math.floor(Math.random() * CATS.length)];
-  const t = setInterval(() => {
-    const c = n < 11 ? CATS[Math.floor(Math.random() * CATS.length)] : final;
-    de.style.setProperty('--c', c.couleur);
-    de.textContent = c.nom;
-    if (++n > 11) {
-      clearInterval(t);
-      de.classList.remove('roule');
-      setTimeout(() => {
-        partie.cat = final.id;
-        partie.question = tirerQuestion(final.id);
-        partie.phase = 'question';
-        sauverPartie();
-        rendrePartie();
-      }, 450);
-    }
-  }, 90);
-}
-
-function choisirCategorieFinale(catId) {
-  partie.cat = catId;
-  partie.question = tirerQuestion(catId);
-  partie.phase = 'question';
-  sauverPartie();
-  rendrePartie();
-}
-
-function repondre(bon) {
-  const j = joueurCourant();
-  const final = j.parts.length === CATS.length;
-  if (bon) {
-    if (final) {
-      partie.phase = 'victoire';
-      partie.gagnant = partie.tour;
-      sauverPartie();
-      rendrePartie();
-      return;
-    }
-    if (!j.parts.includes(partie.cat)) {
-      j.bonnes[partie.cat] = (j.bonnes[partie.cat] || 0) + 1;
-      if (j.bonnes[partie.cat] >= partie.requis) j.parts.push(partie.cat);
-    }
-    // Bonne réponse : le joueur rejoue.
-    partie.phase = 'de';
-    partie.question = null;
-    partie.cat = null;
-    sauverPartie();
-    rendrePartie();
-  } else {
-    passerAuSuivant();
-  }
-}
-
-function rendrePartie() {
-  if (!partie) { afficherConfig(); return; }
-  $('#partie-config').hidden = true;
-  $('#partie-jeu').hidden = false;
-  rendreScores();
-  const tour = $('#tour');
-  const j = joueurCourant();
-  const complet = j.parts.length === CATS.length;
-
-  if (partie.phase === 'victoire') {
-    const g = partie.joueurs[partie.gagnant];
-    tour.replaceChildren(h('div', { class: 'hero victoire' },
-      camembert(CATS.map(() => true), 140),
-      h('h2', { style: 'margin-top:14px' }, `${g.nom} a gagné !`),
-      h('p', { class: 'message' }, 'Camembert complet et question finale réussie.'),
-      h('button', { type: 'button', class: 'btn', onclick: nouvellePartie }, 'Nouvelle partie'),
-    ));
-    return;
-  }
-
-  const entete = h('p', { class: 'tour-joueur' }, 'À ', h('b', {}, j.nom), ' de jouer');
-
-  if (partie.phase === 'de' && complet) {
-    tour.replaceChildren(entete,
-      h('p', { class: 'message' }, `${j.nom} a tous ses camemberts ! Question finale : les autres joueurs choisissent la catégorie.`),
-      h('div', { class: 'choix-cat' }, CATS.map(c =>
-        h('button', { type: 'button', 'data-cat': c.id, style: styleCat(c), onclick: () => choisirCategorieFinale(c.id) }, c.nom))),
-    );
-    return;
-  }
-
-  if (partie.phase === 'de') {
-    tour.replaceChildren(entete,
-      h('div', { class: 'de' }, '?'),
-      h('button', { type: 'button', class: 'btn', id: 'btn-de', onclick: lancerDe }, 'Lancer le dé'),
-    );
-    return;
-  }
-
-  // Phase question
-  const q = QUESTIONS[partie.question];
-  const cat = catParId(q.cat);
-  const ligne = ligneQuestion(cat, [q.q, q.r, q.d], { cliquable: false, ouvert: partie.phase === 'reponse' });
-  const carte = h('article', { class: 'carte' },
-    h('div', { class: 'carte-tete' },
-      h('span', {}, complet ? 'QUESTION FINALE' : (j.parts.includes(q.cat) ? 'QUESTION' : 'QUESTION CAMEMBERT')),
-      h('span', { class: 'num' }, 'N° ' + numero(q.carte + 1))),
-    ligne);
-
-  if (partie.phase === 'question') {
-    tour.replaceChildren(entete, carte,
-      h('div', { class: 'repondre' },
-        boutonLire(`${cat.nom}. ${q.l}`),
-        h('button', {
-          type: 'button', class: 'btn',
-          onclick: () => { partie.phase = 'reponse'; sauverPartie(); rendrePartie(); },
-        }, 'Voir la réponse')));
-    direUneFois(`partie-q-${partie.utilisees.length}-${partie.question}`, [{ t: `${j.nom},`, s: null }, `${cat.nom}. ${q.l}`]);
-    prechargerVoix(q.r);
-  } else {
-    direUneFois(`partie-r-${partie.utilisees.length}-${partie.question}`, ['La réponse :', reponseLue(q.r)]);
-    tour.replaceChildren(entete, carte,
-      h('div', { class: 'actions' },
-        h('button', { type: 'button', class: 'btn btn-ko', onclick: () => repondre(false) }, 'Mauvaise réponse'),
-        h('button', { type: 'button', class: 'btn btn-ok', onclick: () => repondre(true) }, 'Bonne réponse'),
-      ));
-  }
-}
-
-function nouvellePartie() {
-  partie = null;
-  effacer(CLE_PARTIE);
-  afficherConfig();
-}
-
-function initPartie() {
-  $('#ajout-joueur').addEventListener('click', () => {
-    const liste = $('#liste-joueurs');
-    if (liste.children.length >= 6) return;
-    const champ = champJoueur('');
-    liste.append(champ);
-    $('input', champ).focus();
-  });
-  initReglagesVoix($('#form-partie'));
-  $('#form-partie').addEventListener('submit', e => {
-    e.preventDefault();
-    const form = e.target;
-    const noms = [...form.querySelectorAll('input[name="joueur"]')]
-      .map((i, k) => i.value.trim() || `Joueur ${k + 1}`);
-    if (noms.length < 1) return;
-    ecrire(CLE_JOUEURS, noms);
-    partie = {
-      joueurs: melanger(noms).map(nom => ({ nom, parts: [], bonnes: {} })),
-      tour: 0,
-      niveau: Number(form.niveau.value),
-      requis: Number(form.requis.value),
-      phase: 'de',
-      utilisees: [],
-      question: null,
-      cat: null,
-    };
-    sauverPartie();
-    rendrePartie();
-  });
-  $('#partie-abandon').addEventListener('click', () => {
-    if (confirm('Terminer la partie en cours ?')) nouvellePartie();
-  });
-  partie = lire(CLE_PARTIE, null);
-  if (partie && (partie.question != null && !QUESTIONS[partie.question])) partie = null;
-}
+const NIVEAU_DEFAUT = 2;
 
 /* ---------------- Lecture à voix haute ---------------- */
 
@@ -645,7 +320,7 @@ function initReglagesVoix(form) {
     const p = { ...prefsVoix(), lecture: form.lecture.checked };
     if (mains) { mains.disabled = !p.lecture; p.mainsLibres = mains.checked && p.lecture; }
     ecrire(CLE_VOIX, p);
-    // Garde les deux formulaires (solo, partie) synchronisés.
+    // Garde les deux formulaires (solo, quiz en groupe) synchronisés.
     document.querySelectorAll('input[name="lecture"]').forEach(i => { i.checked = p.lecture; });
   });
 }
@@ -654,7 +329,7 @@ function initReglagesVoix(form) {
 
 let solo = null;
 const VIES = 3;
-const LIBELLE_NIVEAU = ['toutes difficultés', 'faciles', 'faciles et moyennes', 'moyennes et difficiles'];
+const LIBELLE_NIVEAU = ['tous niveaux', 'faciles', 'faciles et moyennes', 'moyennes et difficiles', 'difficiles et expert', 'expert', 'enfants'];
 
 function sauverSolo() { ecrire(CLE_SOLO, solo); }
 
@@ -672,7 +347,7 @@ function tirerQuestionSolo() {
   if (solo.liste) return solo.liste[solo.historique.length];
   const niveaux = NIVEAUX[solo.niveau] || NIVEAUX[0];
   const dansPartie = new Set(solo.historique.map(e => e.id));
-  const convient = q => (!solo.cat || q.cat === solo.cat) && niveaux.includes(q.d) && !dansPartie.has(q.id);
+  const convient = q => (!solo.cat || q.cat === solo.cat) && niveaux.includes(q.niv) && !dansPartie.has(q.id);
   let vues = new Set(lire(CLE_SOLO_VUES, []));
   let pool = QUESTIONS.filter(q => convient(q) && !vues.has(q.id));
   if (!pool.length) {
@@ -681,6 +356,8 @@ function tirerQuestionSolo() {
     vues = new Set([...vues].filter(id => !aRetirer.has(id)));
     pool = QUESTIONS.filter(convient);
   }
+  // Niveau absent des données (ancienne version en cache) : n'importe quel niveau.
+  if (!pool.length) pool = QUESTIONS.filter(q => (!solo.cat || q.cat === solo.cat) && !dansPartie.has(q.id));
   const q = pool[Math.floor(Math.random() * pool.length)];
   vues.add(q.id);
   ecrire(CLE_SOLO_VUES, [...vues]);
@@ -770,9 +447,16 @@ const ecoutesActives = new Set();
 // qu'on arrête dès son démarrage (voir SpeechRecognitionServer::handleRequest dans WebKit).
 const WEBKIT = /AppleWebKit/.test(navigator.userAgent) && !/Chrome\/|Chromium\/|Edg\//.test(navigator.userAgent);
 let purgeEnCours = false;
+let microAPurger = false; // une écoute a servi depuis la dernière purge : le micro est peut-être encore pris
+
+/** Mains libres en pleine série : la prochaine écoute reprend le micro (et rend l'ancien) ; une purge
+ * entre deux questions ferait seulement clignoter le micro. */
+function ecouteAttendue() {
+  return !!Reco && enJeu('solo') && !!solo && solo.phase !== 'fin' && prefsVoix().mainsLibres;
+}
 
 function libererMicro(essais = 0) {
-  if (!WEBKIT || purgeEnCours || ecoutesActives.size) return;
+  if (!WEBKIT || !microAPurger || purgeEnCours || ecoutesActives.size || ecouteAttendue()) return;
   // Pas pendant la lecture : sur iPhone, ouvrir le micro fait passer le son en mode enregistrement.
   const parle = (lecteur && lecteur.src !== SILENCE && !lecteur.paused && !lecteur.ended) || (Synthese && Synthese.speaking);
   if (parle) {
@@ -784,7 +468,7 @@ function libererMicro(essais = 0) {
   purgeEnCours = true;
   purge.lang = 'fr-FR';
   const arreter = () => { try { purge.abort(); } catch { /* déjà arrêtée */ } };
-  purge.onstart = arreter;
+  purge.onstart = () => { microAPurger = false; arreter(); };
   purge.onresult = arreter;
   purge.onend = purge.onerror = () => { purgeEnCours = false; };
   setTimeout(() => { purgeEnCours = false; }, 5000);
@@ -793,6 +477,7 @@ function libererMicro(essais = 0) {
 
 function nouvelleEcoute() {
   const reco = new Reco();
+  microAPurger = true;
   reco.lang = 'fr-FR';
   reco.interimResults = true;
   reco.maxAlternatives = 5;
@@ -821,6 +506,7 @@ function couperMicro() {
   }
   ecoutesActives.clear();
   ecouteEnCours = null;
+  setTimeout(libererMicro, 400); // écoute finie d'elle-même plus tôt : micro peut-être encore pris (Safari)
   const bouton = $('#btn-micro');
   if (bouton) {
     bouton.classList.remove('ecoute-active');
@@ -906,7 +592,7 @@ function rendreSolo() {
     h('div', { class: 'carte-tete' },
       h('span', {}, `${q.d} PT${q.d > 1 ? 'S' : ''}${solo.serie >= 2 ? ' + 1 BONUS' : ''}`),
       h('span', { class: 'num' }, 'N° ' + numero(q.carte + 1))),
-    ligneQuestion(cat, [q.q, q.r, q.d], { cliquable: false, ouvert: solo.phase === 'reponse' }));
+    ligneQuestion(cat, [q.q, q.r, q.niv], { cliquable: false, ouvert: solo.phase === 'reponse' }));
 
   let actions;
   if (solo.phase === 'question') {
@@ -1165,6 +851,8 @@ function panneauPartage({ titre, texte, lien, image }) {
 }
 
 function nomJoueur() { return lire(CLE_NOM, ''); }
+/** « de Bruno », « d'Alice » (h non élidé : on ne sait pas s'il est aspiré). */
+const deNom = nom => (/^[aeiouyàâäéèêëîïôöùûüœæ]/i.test(nom) ? 'd\'' : 'de ') + nom;
 
 /* ---------------- Défi ---------------- */
 
@@ -1241,6 +929,42 @@ function carteDuJour(n) {
   return (((n - 1) * 787 + 101) % total + total) % total;
 }
 
+// À partir de la carte du jour n°7 (4 octobre 2026) : six questions de tous les niveaux, dans un
+// ordre aléatoire (les cinq niveaux, plus un tiré au sort), au lieu d'une carte du paquet.
+const JOUR_MELANGE = 7;
+
+function aleaJour(graine) { // mulberry32 : même suite pour tout le monde un jour donné
+  let a = graine >>> 0;
+  return () => {
+    a = (a + 0x6D2B79F5) >>> 0;
+    let t = Math.imul(a ^ (a >>> 15), a | 1);
+    t ^= t + Math.imul(t ^ (t >>> 7), t | 61);
+    return ((t ^ (t >>> 14)) >>> 0) / 4294967296;
+  };
+}
+
+let questionsParNiveau = null; // [catégorie][niveau - 1] → identifiants
+
+/** Les six questions (une par couleur, dans l'ordre des catégories) de la carte du jour n. */
+function questionsDuJour(n) {
+  if (n < JOUR_MELANGE) { const c = carteDuJour(n); return CATS.map((_, i) => c * 6 + i); }
+  if (!questionsParNiveau) {
+    questionsParNiveau = CATS.map(c => [1, 2, 3, 4, 5].map(niv => QUESTIONS.filter(q => q.cat === c.id && q.niv === niv).map(q => q.id)));
+  }
+  const alea = aleaJour(Math.imul(n, 2654435761));
+  const niveaux = [1, 2, 3, 4, 5, 1 + Math.floor(alea() * 5)];
+  for (let i = niveaux.length - 1; i > 0; i--) {
+    const j = Math.floor(alea() * (i + 1));
+    [niveaux[i], niveaux[j]] = [niveaux[j], niveaux[i]];
+  }
+  return CATS.map((c, i) => {
+    const niv = niveaux[i];
+    const pool = questionsParNiveau[i][niv - 1].length ? questionsParNiveau[i][niv - 1] : questionsParNiveau[i].find(p => p.length);
+    // Pas de 7919 premier avec la taille du lot : pas de répétition avant d'en avoir fait le tour.
+    return pool[((n * 7919 + (i + 1) * 104729 + niv * 15485863) % pool.length + pool.length) % pool.length];
+  });
+}
+
 function resultatsJour() { return lire(CLE_JOUR, {}); }
 
 function enregistrerJour(s) {
@@ -1283,9 +1007,8 @@ function jouerJour() {
   if (solo && solo.mode === 'jour' && solo.jour === n && solo.phase !== 'fin') { location.hash = '#solo'; return; }
   if (solo && solo.phase !== 'fin' && solo.mode !== 'jour'
     && !confirm('Une série est en cours : elle sera abandonnée. Continuer ?')) return;
-  const c = carteDuJour(n);
   derniereLecture = null;
-  nouveauSolo({ mode: 'jour', jour: n, format: '6', cat: '', niveau: 0, liste: CATS.map((_, i) => c * 6 + i) });
+  nouveauSolo({ mode: 'jour', jour: n, format: '6', cat: '', niveau: 0, liste: questionsDuJour(n) });
   location.hash = '#solo';
 }
 
@@ -1306,11 +1029,11 @@ function partageJour(n, r) {
 
 function blocResultatJour(n, r, avecDetail) {
   const bonnes = r.res.filter(Boolean).length;
-  const c = carteDuJour(n);
+  const ids = questionsDuJour(n);
   const serie = serieJours();
   const stats = statsJour();
   return h('div', { class: 'jour-resultat' },
-    h('p', { class: 'solo-config-rappel' }, `Carte du jour n°${n} · carte N° ${numero(c + 1)}`),
+    h('p', { class: 'solo-config-rappel' }, n < JOUR_MELANGE ? `Carte du jour n°${n} · carte N° ${numero(carteDuJour(n) + 1)}` : `Carte du jour n°${n}`),
     h('div', { class: 'jour-cases' }, CATS.map((cat, i) =>
       h('span', { class: 'jour-case ' + (r.res[i] ? 'ok' : 'ko'), style: styleCat(cat), title: cat.nom }, r.res[i] ? '✓' : '✗'))),
     h('div', { class: 'solo-total' }, h('b', {}, `${bonnes}/6`), `${r.score} points`),
@@ -1327,9 +1050,9 @@ function blocResultatJour(n, r, avecDetail) {
     avecDetail ? h('div', { class: 'ratees' },
       h('h3', {}, 'Les réponses'),
       h('ol', { class: 'resultats' }, CATS.map((cat, i) => {
-        const q = QUESTIONS[c * 6 + i];
+        const q = QUESTIONS[ids[i]];
         return h('li', { style: styleCat(cat) },
-          h('div', { class: 'meta' }, `${cat.nom} ${r.res[i] ? '✅' : '❌'}`),
+          h('div', { class: 'meta' }, `${cat.nom} ${r.res[i] ? '✅' : '❌'}`, niveau(q.niv)),
           h('div', {}, q.q), h('div', { class: 'r' }, q.r));
       }))) : null);
 }
@@ -1358,7 +1081,7 @@ function rendreJour() {
   zone.replaceChildren(
     invitationGroupeEnAttente(),
     h('h2', {}, `Carte du jour n°${n}`),
-    h('p', {}, 'Six questions, une par couleur : la même carte pour tout le monde aujourd\'hui. Une seule tentative !'),
+    h('p', {}, 'Six questions, une par couleur et de tous les niveaux, de « enfant » à « expert » : la même carte pour tout le monde aujourd\'hui. Une seule tentative !'),
     h('div', { class: 'jour-cases' }, CATS.map(cat => h('span', { class: 'jour-case', style: styleCat(cat), title: cat.nom }))),
     serie ? h('p', { class: 'message' }, `🔥 Série en cours : ${serie} jour${serie > 1 ? 's' : ''}. Ne la cassez pas !`) : null,
     h('div', { class: 'actions' },
@@ -1434,7 +1157,7 @@ function filtrer() {
   const mots = num ? [] : normaliser(texte).split(/\s+/).filter(Boolean);
   resultats = QUESTIONS.filter(q =>
     (!cat || q.cat === cat) &&
-    (!niv || q.d === niv) &&
+    (!niv || q.niv === niv) &&
     (num == null || q.carte + 1 === num) &&
     mots.every(m => INDEX_RECHERCHE[q.id].includes(m)));
   affiches = 0;
@@ -1448,7 +1171,7 @@ function afficherPlus() {
   $('#resultats').append(...lot.map(q => {
     const c = catParId(q.cat);
     return h('li', { style: styleCat(c) },
-      h('div', { class: 'meta' }, `${c.nom} · carte ${numero(q.carte + 1)} · ${q.t}`, niveau(q.d)),
+      h('div', { class: 'meta' }, `${c.nom} · carte ${numero(q.carte + 1)} · ${q.t}`, niveau(q.niv)),
       h('div', {}, q.q),
       h('div', { class: 'r' }, q.r));
   }));
@@ -1465,65 +1188,9 @@ function initParcourir() {
   $('#plus-resultats').addEventListener('click', afficherPlus);
 }
 
-/* ---------------- Impression ---------------- */
-
-function carteImprimee(index, verso) {
-  if (index == null) return h('div', { class: 'pc vide' });
-  const carte = DATA.cartes[index];
-  return h('div', { class: 'pc' },
-    h('div', { class: 'pc-tete' }, h('span', {}, verso ? 'RÉPONSES' : 'CULTURE GÉ'), h('span', {}, 'N° ' + numero(index + 1))),
-    h('div', { class: 'pc-lignes' }, CATS.map((c, i) =>
-      h('div', { class: 'pc-l', style: `--c:${c.couleur}` }, h('i'), h('span', {}, verso ? carte[i][1] : carte[i][0])))));
-}
-
-function ajusterTexte(racine) {
-  // Réduit la police des cartes dont le texte déborde.
-  for (const lignes of racine.querySelectorAll('.pc-lignes')) {
-    let taille = lignes.closest('.verso') ? 11 : 9;
-    lignes.style.setProperty('--taille', taille + 'pt');
-    while (lignes.scrollHeight > lignes.clientHeight + 1 && taille > 5.5) {
-      taille -= 0.25;
-      lignes.style.setProperty('--taille', taille + 'pt');
-    }
-  }
-}
-
-function imprimer(de, a) {
-  const zone = $('#impression');
-  const indices = [];
-  for (let i = de; i <= a; i++) indices.push(i - 1);
-  const planches = [];
-  for (let p = 0; p < indices.length; p += 6) {
-    const lot = indices.slice(p, p + 6);
-    while (lot.length < 6) lot.push(null);
-    planches.push(h('section', { class: 'planche recto' }, lot.map(i => carteImprimee(i, false))));
-    // Verso : colonnes inversées pour un retournement bord long.
-    const miroir = [];
-    for (let r = 0; r < 3; r++) miroir.push(lot[r * 2 + 1], lot[r * 2]);
-    planches.push(h('section', { class: 'planche verso' }, miroir.map(i => carteImprimee(i, true))));
-  }
-  zone.replaceChildren(...planches);
-  ajusterTexte(zone);
-  window.print();
-}
-
-function initImpression() {
-  const total = DATA.cartes.length;
-  $('#imp-de').max = total;
-  $('#imp-a').max = total;
-  $('#form-impression').addEventListener('submit', e => {
-    e.preventDefault();
-    let de = Math.max(1, Math.min(total, Number($('#imp-de').value) || 1));
-    let a = Math.max(1, Math.min(total, Number($('#imp-a').value) || de));
-    if (a < de) [de, a] = [a, de];
-    imprimer(de, a);
-  });
-  window.addEventListener('afterprint', () => $('#impression').replaceChildren());
-}
-
 /* ---------------- Navigation ---------------- */
 
-const VUES = ['accueil', 'jour', 'carte', 'solo', 'partie', 'soiree', 'parcourir', 'imprimer', 'reglages'];
+const VUES = ['accueil', 'jour', 'solo', 'groupe', 'soiree', 'parcourir', 'reglages'];
 
 function naviguer() {
   couperMicro();
@@ -1531,14 +1198,13 @@ function naviguer() {
   const vue = VUES.includes(location.hash.slice(1)) ? location.hash.slice(1) : 'accueil';
   document.querySelectorAll('.vue').forEach(v => { v.hidden = v.dataset.vue !== vue; });
   document.querySelectorAll('.topnav a').forEach(a => a.classList.toggle('actif', a.getAttribute('href') === '#' + vue));
-  if (vue === 'carte') afficherPioche();
   // Carte du jour terminée : son écran de fin ne sert plus une fois qu'on l'a quitté.
   if (vue !== 'solo' && solo && solo.mode === 'jour' && solo.phase === 'fin') { solo = null; effacer(CLE_SOLO); }
   if (vue === 'accueil') { majMenuJour(); banniereProfil(); }
   if (vue === 'reglages') rendreProfil();
   if (vue === 'jour') rendreJour();
   if (vue === 'solo') rendreSolo();
-  if (vue === 'partie') rendrePartie();
+  if (vue === 'groupe') rendreGroupe();
   if (vue === 'soiree') rendreSoiree();
   if (vue === 'parcourir' && !$('#resultats').children.length) filtrer();
   window.scrollTo(0, 0);
@@ -1572,9 +1238,12 @@ async function demarrer() {
   CATS = DATA.categories;
   DATA.cartes.forEach(carte => carte.forEach(q => { q[0] = typo(q[0]); q[1] = typo(q[1]); }));
   QUESTIONS = [];
-  DATA.cartes.forEach((carte, n) => carte.forEach(([q, r, d, t, a, l], i) => {
-    // a : autres réponses acceptées ; l : texte à lire à voix haute (si différent de l'énoncé).
-    QUESTIONS.push({ id: QUESTIONS.length, carte: n, cat: CATS[i].id, q, r, d, t, a: a || [], l: l || q });
+  // Données d'avant les cinq niveaux (version 1) : difficulté 1 à 3 = moyenne à expert.
+  const decalage = (DATA.version || 1) >= 2 ? 0 : 2;
+  DATA.cartes.forEach((carte, n) => carte.forEach(([q, r, niv, t, a, l], i) => {
+    // niv : niveau 1 à 5 ; d : points ; a : autres réponses acceptées ; l : texte à lire (si différent).
+    niv += decalage;
+    QUESTIONS.push({ id: QUESTIONS.length, carte: n, cat: CATS[i].id, q, r, niv, d: pointsNiveau(niv), t, a: a || [], l: l || q });
   }));
 
   document.querySelectorAll('[data-stat="cartes"]').forEach(e => { e.textContent = DATA.cartes.length; });
@@ -1590,11 +1259,11 @@ async function demarrer() {
     $('#installer').hidden = true;
   });
 
-  initPioche();
+  // Modes retirés (pioche, partie sans plateau) : leurs sauvegardes ne servent plus.
+  ['trivial1000.pioche', 'trivial1000.partie'].forEach(effacer);
   initSolo();
-  initPartie();
+  initGroupe();
   initParcourir();
-  initImpression();
   initReglages();
   initSoiree();
   initQuotidien();
