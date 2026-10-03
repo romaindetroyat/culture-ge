@@ -1,0 +1,13 @@
+name: LOMBRIX iPhone isolated preview
+on:
+  push:
+    branches: [lombrix-iphone-20261003]
+    paths: ['.github/workflows/lombrix-iphone.yml']
+permissions:
+  contents: read
+jobs:
+  preparation:
+    runs-on: ubuntu-latest
+    timeout-minutes: 2
+    steps:
+      - run: echo 'Dedicated LOMBRIX preview branch prepared. No production application is modified.'
