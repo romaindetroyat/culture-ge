@@ -11,7 +11,7 @@ concurrency:
 jobs:
   deploy:
     runs-on: ubuntu-latest
-    timeout-minutes: 12
+    timeout-minutes: 15
     steps:
       - uses: actions/checkout@v4
         with:
@@ -19,32 +19,44 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: '22'
-      - name: Fetch verified game bundle
+      - name: Install deployment and browser tools
+        working-directory: iphone
         run: |
-          curl --fail --location --retry 2 --max-time 90 'https://at.adobe.com/nBCsN8yx5fIfIZSS' -o /tmp/lombrix.zip
-          echo '4ff62d8ce9248a3e326cce376fa804092a93439ddd37fd29f9afabad2bd9c220  /tmp/lombrix.zip' | sha256sum -c -
-          mkdir -p iphone
-          unzip -oq /tmp/lombrix.zip -d iphone
-      - name: Test Fetch authority adapter
+          npm ci --ignore-scripts --no-audit --no-fund
+          python3 -m pip install playwright --quiet
+          python3 -m playwright install --with-deps webkit chromium > /tmp/browser-install.log 2>&1
+      - name: Test Fetch authority
         working-directory: iphone
         run: node --test worker.test.mjs
-      - name: Install deployment tool
-        working-directory: iphone
-        run: npm install --ignore-scripts --no-audit --no-fund
-      - name: Deploy with private claim handling
+      - name: Deploy and inspect public HTTPS
         working-directory: iphone
         env:
           CI: 'true'
           WRANGLER_SEND_METRICS: 'false'
         run: |
+          cat > claim-public.pem <<'KEY'
+          -----BEGIN PUBLIC KEY-----
+          MIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAtn/GNVVx8ktTWD9aVcoB
+          V23odDbjJz/QXzLyDURzUtlrLK28wV/Vx36hqNFycxuK++m69ws42Xe6AH4Jwj9o
+          1l9tWcUX7BEjd3Y7aSLDGW8F4czHmgQ+E3+3st3oKfCKg7PjBSXz0zAV3QXTqXtD
+          zGBRt8wa+eWNym/97nL9arvL7ak19eLP/EHRkqnvRzcF10cMc8XMETeosP8HfGmr
+          /P5LQzNhtUVJbfKKn20QTAQ1pPfTEFrdr17focsROI0OL4/ZYOhUWNXv0n8mJUR+
+          lhWpX8A90iGDMcdPfeJOn9KgSdxwGh1pJxAy45x9kaidICVslH7oDOJ3S/O3tYmh
+          ROkIwGbrS4pFD6JxD/xiSH95+lQG7gbXjuVfP6DSJxTkjiM4qPvHPlEVatzSw1Sv
+          SphcD0JFAuVj2euqJnhdC747zl2dYNEDzH+LtiHdRdyoUaDHzwI8fAImCPKItVL3
+          2OW8lNJnK/X70qlZTQ0n0txmQf0Tw2aR4WMEI0glYB3an3WS67BZ9+6hv5iZ4/oG
+          R/s09LTzPF3sOPvqHAs3qZ6TbdE5oo1DBdm42lIM5SXg121TwGOzC3PUshKSQVFo
+          GD83dvUV0yDpHs45dldIoUk3iROgtBPC91f6vZr5kXY3VZXeUniC6S/ch9aXSfQ/
+          ym2Vt6KuMtN038YixNT0k68CAwEAAQ==
+          -----END PUBLIC KEY-----
+          KEY
           python3 - <<'PY'
-          import subprocess,re,json,base64,os,datetime,urllib.request
+          import subprocess,re,json,base64,datetime,time,urllib.request,urllib.error
           from pathlib import Path
-          result={'version':'0.5.1','startedAt':datetime.datetime.now(datetime.timezone.utc).isoformat(),'status':'pending'}
+          result={'version':'0.5.1','startedAt':datetime.datetime.now(datetime.timezone.utc).isoformat(),'status':'pending','checks':[]}
           try:
             proc=subprocess.run(['npx','--no-install','wrangler','deploy','--temporary'],capture_output=True,text=True,timeout=300)
             text=re.sub(r'\x1b\[[0-9;]*m','',proc.stdout+'\n'+proc.stderr)
-            Path('/tmp/lombrix-deploy-private.log').write_text(text)
             live=re.findall(r'https://[a-zA-Z0-9.-]+\.workers\.dev',text)
             claims=re.findall(r'https://dash\.cloudflare\.com/claim-preview\?[^\s\x1b]+',text)
             if claims:
@@ -52,29 +64,37 @@ jobs:
               result['encryptedClaim']=base64.b64encode(encrypted).decode()
             result['exitCode']=proc.returncode
             if proc.returncode==0 and live:
-              result['url']=live[-1];result['status']='deployed'
-              with urllib.request.urlopen(live[-1]+'/health',timeout=30) as r:result['health']=json.load(r)
-              with urllib.request.urlopen(live[-1]+'/',timeout=30) as r:
-                html=r.read().decode();result['htmlVerified']=('LOMBRIX 0.5.1' in html and 'id="solo"' in html)
-              print('DEPLOYED',result['url'],'health=',result.get('health'),'html=',result.get('htmlVerified'))
+              result['url']=live[-1];result['status']='deployed-unverified'
+              for attempt in range(6):
+                for path in ['/health','/']:
+                  try:
+                    req=urllib.request.Request(live[-1]+path,headers={'User-Agent':'Mozilla/5.0'})
+                    with urllib.request.urlopen(req,timeout=20) as r:
+                      content=r.read().decode();result['checks'].append({'path':path,'http':r.status,'body':content[:800] if path=='/health' else 'LOMBRIX 0.5.1' in content})
+                      if path=='/health':result['health']=json.loads(content)
+                      else:result['htmlVerified']='LOMBRIX 0.5.1' in content and 'id="solo"' in content
+                  except urllib.error.HTTPError as e:result['checks'].append({'path':path,'http':e.code,'body':e.read().decode(errors='replace')[:1500]})
+                  except Exception as e:result['checks'].append({'path':path,'error':str(e)})
+                if result.get('health',{}).get('ok') and result.get('htmlVerified'):result['status']='verified-http';break
+                time.sleep(5)
+              print('PUBLIC RESULT',result['url'],result['status'],json.dumps(result['checks'][-2:]))
             else:
               result['status']='deployment-failed'
               safe=re.sub(r'https://dash\.cloudflare\.com/claim-preview\?[^\s]+','[PRIVATE CLAIM REDACTED]',text)
               safe=re.sub(r'(?i)(api.?token|claimToken)([\s:=]+)[^\s]+',r'\1\2[REDACTED]',safe)
-              result['error']=safe[-10000:];print(result['error'])
-          except Exception as e:
-            result['status']='error';result['error']=type(e).__name__+': '+str(e)
-            print(result['status'],result['error'])
+              result['error']=safe[-6000:];print(result['error'])
+          except Exception as e:result['status']='error';result['error']=type(e).__name__+': '+str(e);print(result['error'])
           Path('deployment.json').write_text(json.dumps(result,indent=2))
           PY
-      - name: Save deployment and sources on isolated branch only
+      - name: WebKit mobile and two independent online guests
+        working-directory: iphone
+        run: timeout 240 python3 check-live.py
+        continue-on-error: true
+      - name: Save measured results on isolated branch
         if: always()
-        env:
-          GH_TOKEN: ${{ github.token }}
         run: |
           git config user.name 'LOMBRIX build'
           git config user.email 'lombrix-build@users.noreply.github.com'
-          printf 'node_modules/\n.wrangler/\n*.log\n' > iphone/.gitignore
           git add iphone
-          git diff --cached --quiet || git commit -m 'LOMBRIX iPhone deployment result and reproducible source'
+          git diff --cached --quiet || git commit -m 'LOMBRIX live HTTPS and WebKit verification results'
           git push origin HEAD:lombrix-iphone-20261003
