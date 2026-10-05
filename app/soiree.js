@@ -342,7 +342,8 @@ function formulaireReponse(e, cle) {
     },
       h('input', { type: 'text', name: 'reponse', placeholder: 'Votre réponse', autocomplete: 'off', 'aria-label': 'Votre réponse' }),
       h('button', { type: 'submit', class: 'btn btn-clair' }, 'OK')),
-    info);
+    info,
+    h('button', { type: 'button', class: 'btn btn-clair btn-passe', onclick: () => envoyer(['Je ne sais pas'], 'Je ne sais pas') }, 'Je ne sais pas'));
 }
 
 function rendreAccueilSoiree() {

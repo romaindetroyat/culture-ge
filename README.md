@@ -38,14 +38,18 @@ dans une application web progressive (PWA) installable sur téléphone et utilis
   nombres en lettres ou en chiffres romains, variantes entre parenthèses, mots déjà présents dans la
   question) et aux **autres formulations acceptées** préparées par IA pour chaque question
   (synonymes, graphies, sigles, noms courants). On peut toujours corriger le verdict.
+  **Je ne sais pas** (bouton, ou dit/tapé : « je sais pas », « aucune idée », « je passe »…)
+  passe la question, comptée fausse, en montrant la réponse.
   L'application peut **lire les questions à voix haute** (aussi en quiz en groupe), et un mode
   **mains libres** enchaîne lecture de la question, écoute de la réponse, verdict et question suivante.
   En fin de série, **Défier un ami** partage un lien (`?defi=…`) qui contient la série exacte : l'ami
   joue les mêmes questions et voit qui l'emporte. Partage par le menu natif du téléphone, WhatsApp,
   Messenger, SMS, Facebook, X, e-mail, copie du lien, ou une image du score.
-- **Mon profil** (Réglages) : un code de transfert (`KX7P-2MQH`) retrouve groupes, historique de la
-  carte du jour (donc la série), prénom et records dans l'appli installée, un autre navigateur ou un
-  nouveau téléphone. Sur iPhone, Safari et l'appli installée ont chacun leur stockage : l'appli
+- **Mon profil** (Réglages) : un code de transfert (`KX7P-2MQH`), saisi une fois sur chaque appareil
+  (iPhone, ordinateur, appli installée, autre navigateur, nouveau téléphone), les réunit sous un même
+  profil, **synchronisé automatiquement** à l'ouverture, au retour dans l'appli et en fin de partie :
+  carte du jour et série (une carte jouée sur l'iPhone compte partout, et n'est plus jouable
+  ailleurs), records, questions déjà vues en solo, groupes et prénom (le dernier changé). Sur iPhone, Safari et l'appli installée ont chacun leur stockage : l'appli
   installée propose de coller ce code à sa première ouverture (et le retrouve seule quand le système
   a copié le cookie du navigateur).
 - **Réglages** : prénom affiché dans les défis, choix de la voix de lecture, vitesse. Par défaut,
