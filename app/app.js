@@ -348,19 +348,14 @@ function tirerQuestionSolo() {
   const niveaux = NIVEAUX[solo.niveau] || NIVEAUX[0];
   const dansPartie = new Set(solo.historique.map(e => e.id));
   const convient = q => (!solo.cat || q.cat === solo.cat) && niveaux.includes(q.niv) && !dansPartie.has(q.id);
-  let vues = new Set(lire(CLE_SOLO_VUES, []));
+  // Questions déjà vues (sur tous les appareils du profil, voir profil.js) : proposées en dernier.
+  const vues = new Set(lire(CLE_SOLO_VUES, []));
   let pool = QUESTIONS.filter(q => convient(q) && !vues.has(q.id));
-  if (!pool.length) {
-    // Toutes les questions de ces réglages ont déjà été vues : on les remet en jeu.
-    const aRetirer = new Set(QUESTIONS.filter(convient).map(q => q.id));
-    vues = new Set([...vues].filter(id => !aRetirer.has(id)));
-    pool = QUESTIONS.filter(convient);
-  }
+  if (!pool.length) pool = QUESTIONS.filter(convient); // toutes vues : n'importe laquelle
   // Niveau absent des données (ancienne version en cache) : n'importe quel niveau.
   if (!pool.length) pool = QUESTIONS.filter(q => (!solo.cat || q.cat === solo.cat) && !dansPartie.has(q.id));
   const q = pool[Math.floor(Math.random() * pool.length)];
-  vues.add(q.id);
-  ecrire(CLE_SOLO_VUES, [...vues]);
+  if (!vues.has(q.id)) ecrire(CLE_SOLO_VUES, [...vues, q.id]);
   return q.id;
 }
 
@@ -392,6 +387,7 @@ function repondreSolo(bon) {
   solo.historique.push({ id: q.id, ok: bon, pts });
   if (soloTermine()) {
     solo.phase = 'fin';
+    setTimeout(sauverProfil, 0); // records et questions vues, pour les autres appareils du profil
     if (solo.mode === 'jour') enregistrerJour(solo);
     if (!solo.mode) {
       // Les records ne concernent que les séries libres (pas les défis ni la carte du jour).
@@ -525,7 +521,9 @@ window.addEventListener('pagehide', () => { couperMicro(); taire(); });
 
 function juger(propositions, entendu) {
   const q = QUESTIONS[solo.question];
-  solo.verdict = { ok: Reponse.verifier(propositions, q.r, { question: q.q, alias: q.a }), entendu };
+  const ok = Reponse.verifier(propositions, q.r, { question: q.q, alias: q.a });
+  // « Je ne sais pas » (dit ou tapé) : question passée, sauf si c'était la réponse (« Aucune »).
+  solo.verdict = !ok && propositions.some(Reponse.passe) ? { ok: false, passe: true } : { ok, entendu };
   solo.phase = 'reponse';
   sauverSolo();
   rendreSolo();
@@ -612,9 +610,18 @@ function rendreSolo() {
         h('button', { type: 'submit', class: 'btn btn-clair' }, 'OK')),
       h('p', { class: 'ecoute', id: 'ecoute', 'aria-live': 'polite' }),
       h('button', {
+        type: 'button', class: 'btn btn-clair btn-passe',
+        onclick: () => { solo.verdict = { ok: false, passe: true }; solo.phase = 'reponse'; sauverSolo(); rendreSolo(); },
+      }, 'Je ne sais pas'),
+      h('button', {
         type: 'button', class: 'btn-lien',
         onclick: () => { solo.phase = 'reponse'; solo.verdict = null; sauverSolo(); rendreSolo(); },
       }, 'Voir la réponse sans répondre'));
+  } else if (solo.verdict && solo.verdict.passe) {
+    actions = h('div', {},
+      h('p', { class: 'verdict faux' }, 'Question passée.'),
+      h('div', { class: 'actions' },
+        h('button', { type: 'button', class: 'btn btn-ko', onclick: () => repondreSolo(false) }, 'Continuer')));
   } else if (solo.verdict) {
     const v = solo.verdict;
     actions = h('div', {},
@@ -668,7 +675,7 @@ function lireSolo(q, cat) {
     const suite = prefs.mainsLibres
       ? () => setTimeout(() => { if (enJeu('solo') && solo && solo.question === id && solo.verdict === v) repondreSolo(v.ok); }, 1500)
       : null;
-    direUneFois(`solo-v-${id}`, v.ok ? 'Bonne réponse !' : ['Non. La réponse était :', reponseLue(q.r)], suite);
+    direUneFois(`solo-v-${id}`, v.ok ? 'Bonne réponse !' : [v.passe ? 'La réponse était :' : 'Non. La réponse était :', reponseLue(q.r)], suite);
   } else {
     direUneFois(`solo-r-${id}`, ['La réponse :', reponseLue(q.r)]);
   }

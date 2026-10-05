@@ -225,7 +225,18 @@
     return false;
   }
 
-  const api = { verifier, normaliser, jetons, variantes };
+  // « Je ne sais pas », dit ou tapé : on passe la question (comptée fausse) au lieu de la juger.
+  const JE = '(?:je |j |ch )?(?:ne |n )?';
+  const PASSE = new RegExp('^(?:euh |ben |bah |alors |heu |hum |ah )*(?:'
+    + [JE + 'sais (?:pas|plus|vraiment pas)', 'chais pas', JE + 'en sais rien', JE + 'en ai aucune idee',
+      'aucune idee', 'pas (?:la moindre |d )idee', JE + 'vois pas', JE + 'trouve pas', JE + 'me souviens (?:pas|plus)',
+      'je passe', 'passe', 'je donne ma langue au chat', 'joker', 'aucune', 'rien', 'je seche', 'mystere']
+      .join('|') + ')(?: du tout)?$');
+  function passe(texte) {
+    return PASSE.test(normaliser(texte));
+  }
+
+  const api = { verifier, normaliser, jetons, variantes, passe };
   if (typeof module !== 'undefined' && module.exports) module.exports = api;
   else global.Reponse = api;
 })(typeof window !== 'undefined' ? window : globalThis);
