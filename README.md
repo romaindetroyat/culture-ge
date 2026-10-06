@@ -166,6 +166,11 @@ python3 scripts/voix.py essai "Le XVIIIe siècle"          # texte réellement p
 python3 scripts/voix.py produire ../culture-ge-voix chemin/fr_FR-siwis-medium.onnx
 ```
 
+Tous les fichiers sont au même volume : chaque texte est mis au même niveau moyen de parole
+(`VOLUME_CIBLE`, silences exclus), crêtes adoucies, plutôt que calé sur son pic. Pour que la voix du
+téléphone ne prenne pas le relais faute de réseau, l'application télécharge à l'avance la question
+suivante (solo, carte du jour, quiz en groupe, soirée) et la réponse de la question affichée.
+
 `produire` ne génère que les fichiers absents ou dont les sons ont changé (index `sons.tsv` du
 dépôt culture-ge-voix ; compter environ 0,2 s par texte).
 

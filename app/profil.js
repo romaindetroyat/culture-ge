@@ -143,8 +143,10 @@ function synchroniserProfil({ force = false } = {}) {
   derniereSynchro = Date.now();
   synchroEnCours = (async () => {
     try {
-      const p = await rpc('profil_joueur', { p_joueur: idJoueur() });
-      if (!p) return false;
+      const joueur = idJoueur();
+      const p = await rpc('profil_joueur', { p_joueur: joueur });
+      // Profil changé entre-temps (code saisi pendant la synchronisation) : réponse périmée.
+      if (!p || idJoueur() !== joueur) return false;
       if (p.code) codeProfilCache = p.code;
       const change = fusionnerProfil(p);
       ecrire(CLE_GROUPES, (p.groupes || []).map(({ code, nom }) => ({ code, nom })));

@@ -138,7 +138,7 @@ let voixDispo = [];
 let derniereLecture = null; // évite de relire la même question à chaque rafraîchissement
 let jetonLecture = 0; // change à chaque nouvelle lecture ou à chaque arrêt : les suites en attente s'annulent
 let lecteur = null;
-let siwisEnPauseJusqua = 0; // réseau trop lent : voix du téléphone pendant une minute
+let siwisEnPauseJusqua = 0; // réseau trop lent : voix du téléphone pendant 30 s
 
 // Les voix « naturelles », « améliorées » ou « premium » passent en tête.
 function scoreVoix(v) {
@@ -184,6 +184,11 @@ function cleVoix(texte) {
 }
 const urlVoix = texte => { const c = cleVoix(texte); return `${URL_VOIX}${c.slice(0, 2)}/${c}.mp3`; };
 
+/** Préchargement de la lecture d'une question (« Catégorie. Question »). */
+function prechargerTexteQuestion(q) {
+  if (q) prechargerVoix(`${catParId(q.cat).nom}. ${q.l}`);
+}
+
 /** Met un fichier en cache HTTP pour qu'il parte sans attente (réponse d'une question affichée…). */
 const dejaPrecharges = new Set();
 function prechargerVoix(texte) {
@@ -227,7 +232,8 @@ function jouerClip(texte, jeton) {
     a.onended = fin;
     a.onerror = () => terminer(false);
     a.onplaying = () => clearTimeout(minuteur);
-    minuteur = setTimeout(() => { siwisEnPauseJusqua = Date.now() + 60000; terminer(false); }, 6000);
+    // Les fichiers sont préchargés : une attente de 10 s signale un réseau vraiment lent.
+    minuteur = setTimeout(() => { siwisEnPauseJusqua = Date.now() + 30000; terminer(false); }, 10000);
     a.src = urlVoix(texte);
     a.defaultPlaybackRate = a.playbackRate = vitesseVoix();
     const p = a.play();
@@ -347,7 +353,7 @@ function tirerQuestionSolo() {
   if (solo.liste) return solo.liste[solo.historique.length];
   const niveaux = NIVEAUX[solo.niveau] || NIVEAUX[0];
   const dansPartie = new Set(solo.historique.map(e => e.id));
-  const convient = q => (!solo.cat || q.cat === solo.cat) && niveaux.includes(q.niv) && !dansPartie.has(q.id);
+  const convient = q => (!solo.cat || q.cat === solo.cat) && niveaux.includes(q.niv) && !dansPartie.has(q.id) && q.id !== solo.question;
   // Questions déjà vues (sur tous les appareils du profil, voir profil.js) : proposées en dernier.
   const vues = new Set(lire(CLE_SOLO_VUES, []));
   let pool = QUESTIONS.filter(q => convient(q) && !vues.has(q.id));
@@ -400,7 +406,8 @@ function repondreSolo(bon) {
       }
     }
   } else {
-    solo.question = tirerQuestionSolo();
+    solo.question = solo.suivante != null ? solo.suivante : tirerQuestionSolo();
+    solo.suivante = null;
     solo.phase = 'question';
   }
   solo.verdict = null;
@@ -660,6 +667,18 @@ function rendreSolo() {
   lireSolo(q, cat);
 }
 
+/** Question suivante tirée dès maintenant, pour que sa voix soit téléchargée avant d'être lue. */
+function prechargerSuivanteSolo() {
+  if (!prefsVoix().lecture) return;
+  let id = null;
+  if (solo.liste) id = solo.liste[solo.historique.length + 1];
+  else if (solo.format === 'survie' || solo.historique.length + 1 < Number(solo.format)) {
+    if (solo.suivante == null) { solo.suivante = tirerQuestionSolo(); sauverSolo(); }
+    id = solo.suivante;
+  }
+  if (id != null) prechargerTexteQuestion(QUESTIONS[id]);
+}
+
 function lireSolo(q, cat) {
   const prefs = prefsVoix();
   const id = solo.question;
@@ -669,6 +688,7 @@ function lireSolo(q, cat) {
       : null;
     direUneFois(`solo-q-${id}`, `${cat.nom}. ${q.l}`, ecouteAuto);
     prechargerVoix(q.r);
+    prechargerSuivanteSolo();
   } else if (solo.verdict) {
     const v = solo.verdict;
     // Mains libres : après le verdict, on passe seul à la question suivante (sauf correction entre-temps).
