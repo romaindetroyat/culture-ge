@@ -354,9 +354,33 @@ def textes():
     return uniques
 
 
+# Réglage du volume : un changement ici refait tous les fichiers (il entre dans l'empreinte).
+VOLUME_CIBLE = -14.0  # volume moyen de la parole, en dBFS (le même pour tous les fichiers)
+CRETE_MAX = -1.0      # crêtes adoucies au-delà
+REGLAGE_SON = f'rms{VOLUME_CIBLE}/crete{CRETE_MAX}'
+
+
 def empreinte(sons):
     import hashlib
-    return hashlib.sha1('|'.join(''.join(p) for p in sons).encode()).hexdigest()[:12]
+    return hashlib.sha1((REGLAGE_SON + '#' + '|'.join(''.join(p) for p in sons)).encode()).hexdigest()[:12]
+
+
+def egaliser(audio):
+    """Met un texte au volume commun : même niveau moyen de parole pour tous les fichiers (les
+    silences ne comptent pas), crêtes adoucies sans saturation."""
+    import numpy as np
+    x = audio.astype(np.float64)
+    seuil = 0.05 * float(np.max(np.abs(x)) or 1)
+    parole = x[np.abs(x) > seuil]
+    rms = float(np.sqrt(np.mean(parole ** 2))) if parole.size else 1e-4
+    x *= 10 ** (VOLUME_CIBLE / 20) / max(rms, 1e-6)
+    # Limiteur doux : au-dessus du coude, la courbe s'aplatit vers la crête maximale.
+    plafond = 10 ** (CRETE_MAX / 20)
+    coude = plafond * 0.7
+    a = np.abs(x)
+    haut = a > coude
+    a[haut] = coude + (plafond - coude) * np.tanh((a[haut] - coude) / (plafond - coude))
+    return np.sign(x) * a
 
 
 def produire(dossier, lot=None):
@@ -370,7 +394,7 @@ def produire(dossier, lot=None):
     voix = PiperVoice.load(str(modele))
     sr = voix.config.sample_rate
     cfg = SynthesisConfig(length_scale=1.05)
-    silence = np.zeros(int(sr * 0.25), dtype=np.int16)
+    silence = np.zeros(int(sr * 0.25))
     dossier = Path(dossier)
     index_chemin = dossier / (f'sons-{lot.replace("/", "-")}.tsv' if lot else 'sons.tsv')
     index = {}
@@ -390,10 +414,9 @@ def produire(dossier, lot=None):
             continue
         morceaux = []
         for sons in sons_phrases:
-            audio = voix.phoneme_ids_to_audio(voix.phonemes_to_ids(sons), cfg)
-            audio = audio / max(float(np.max(np.abs(audio))), 1e-8)
-            morceaux += [(np.clip(audio, -1, 1) * 32767).astype(np.int16), silence]
-        pcm = np.concatenate(morceaux[:-1] or [silence]).tobytes()
+            morceaux += [voix.phoneme_ids_to_audio(voix.phonemes_to_ids(sons), cfg).astype(np.float64), silence]
+        audio = egaliser(np.concatenate(morceaux[:-1])) if morceaux else silence
+        pcm = (np.clip(audio, -1, 1) * 32767).astype(np.int16).tobytes()
         enc = lameenc.Encoder()
         enc.set_bit_rate(32)
         enc.set_in_sample_rate(sr)

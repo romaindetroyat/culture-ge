@@ -17,11 +17,14 @@ dans une application web progressive (PWA) installable sur téléphone et utilis
 ## Ce que fait l'application
 
 - **Carte du jour** : chaque jour, les mêmes 6 questions pour tout le monde (une par couleur, de
-  tous les niveaux, de « enfant » à « expert », dans le désordre), jouables une seule fois. Série de jours consécutifs, statistiques, et partage du résultat façon Wordle (lien `?jour`).
+  tous les niveaux, de « enfant » à « expert », dans le désordre), jouables une seule fois. Une carte
+  manquée se **rattrape jusqu'à dimanche** (bandeau « Cette semaine ») : elle compte pour la série et
+  le classement de la semaine, marquée ⏰ dans les groupes. Série de jours consécutifs, statistiques, et partage du résultat façon Wordle (lien `?jour`).
   - **Classement du jour** : « vous faites mieux que 72 % des joueurs du jour » et répartition des
     scores (scores anonymes, envoyés une fois la carte jouée, ou dès le retour de la connexion).
-  - **Entre amis** : un groupe (code de 6 lettres, lien `?groupe=…` à partager) affiche le score du
-    jour de chacun et le classement de la semaine (lundi à dimanche). Le prénom n'est visible que des
+  - **Entre amis** : un groupe (code de 6 lettres, lien `?groupe=…` à partager) affiche le classement
+    de la semaine (lundi à dimanche) et, pour chacun, les bonnes réponses jour par jour ; il se met à
+    jour au retour dans l'appli. Le prénom n'est visible que des
     membres du groupe.
   - **Rappel quotidien** : notification chaque jour à l'heure choisie (sauf si la carte est déjà
     jouée), avec la série en cours. Sur iPhone, il faut avoir installé l'appli sur l'écran d'accueil.
@@ -165,6 +168,11 @@ pip install piper-tts lameenc
 python3 scripts/voix.py essai "Le XVIIIe siècle"          # texte réellement prononcé
 python3 scripts/voix.py produire ../culture-ge-voix chemin/fr_FR-siwis-medium.onnx
 ```
+
+Tous les fichiers sont au même volume : chaque texte est mis au même niveau moyen de parole
+(`VOLUME_CIBLE`, silences exclus), crêtes adoucies, plutôt que calé sur son pic. Pour que la voix du
+téléphone ne prenne pas le relais faute de réseau, l'application télécharge à l'avance la question
+suivante (solo, carte du jour, quiz en groupe, soirée) et la réponse de la question affichée.
 
 `produire` ne génère que les fichiers absents ou dont les sons ont changé (index `sons.tsv` du
 dépôt culture-ge-voix ; compter environ 0,2 s par texte).

@@ -149,7 +149,8 @@ function lancerQuestionEnsemble() {
   e.n = (e.n || 0) + 1;
   const cat = CATS[(e.n - 1) % CATS.length];
   e.cat = cat.id;
-  e.qid = tirerQuestionSoiree(e, cat.id);
+  e.qid = e.suivante != null ? e.suivante : tirerQuestionSoiree(e, cat.id);
+  e.suivante = null;
   e.reponses = {};
   e.phase = 'question';
   e.finQuestion = Date.now() + DUREE_QUESTION * 1000;
@@ -491,7 +492,15 @@ function rendreJeuEnsemble(e) {
         return h('li', { class: r ? (r.ok ? 'juste' : 'faux') : 'faux' },
           h('b', {}, noms[j.id]), ' : ', r ? `« ${r.texte} »` : 'pas de réponse', r && r.ok ? ' ✅' : ' ❌');
       })));
-    if (soiree.hote) direUneFois(`soiree-r-${e.n}`, ['La réponse était :', reponseLue(q.r)]);
+    if (soiree.hote) {
+      direUneFois(`soiree-r-${e.n}`, ['La réponse était :', reponseLue(q.r)]);
+      // Question suivante tirée dès maintenant : sa voix est téléchargée avant d'être lue.
+      if (e.n < e.nbQuestions && prefsVoix().lecture) {
+        if (e.suivante == null) e.suivante = tirerQuestionSoiree(e, CATS[e.n % CATS.length].id);
+        prechargerVoix(`Question ${e.n + 1}.`);
+        prechargerTexteQuestion(QUESTIONS[e.suivante]);
+      }
+    }
     if (soiree.hote) blocs.push(h('div', { class: 'actions' }, h('button', { type: 'button', class: 'btn', onclick: suiteEnsemble }, e.n >= e.nbQuestions ? 'Voir le classement' : 'Question suivante')));
     else blocs.push(h('p', { class: 'message' }, 'L\'hôte passe à la question suivante.'));
   }
@@ -518,7 +527,7 @@ function rendreFinSoiree(e) {
       soiree.hote ? h('button', {
         type: 'button', class: 'btn',
         onclick: () => {
-          Object.assign(e, { phase: 'salon', scores: {}, utilisees: [], reponses: {}, n: 0, qid: null });
+          Object.assign(e, { phase: 'salon', scores: {}, utilisees: [], reponses: {}, n: 0, qid: null, suivante: null });
           diffuser();
         },
       }, 'Rejouer avec les mêmes joueurs') : null,

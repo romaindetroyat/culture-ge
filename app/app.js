@@ -138,7 +138,7 @@ let voixDispo = [];
 let derniereLecture = null; // évite de relire la même question à chaque rafraîchissement
 let jetonLecture = 0; // change à chaque nouvelle lecture ou à chaque arrêt : les suites en attente s'annulent
 let lecteur = null;
-let siwisEnPauseJusqua = 0; // réseau trop lent : voix du téléphone pendant une minute
+let siwisEnPauseJusqua = 0; // réseau trop lent : voix du téléphone pendant 30 s
 
 // Les voix « naturelles », « améliorées » ou « premium » passent en tête.
 function scoreVoix(v) {
@@ -184,6 +184,11 @@ function cleVoix(texte) {
 }
 const urlVoix = texte => { const c = cleVoix(texte); return `${URL_VOIX}${c.slice(0, 2)}/${c}.mp3`; };
 
+/** Préchargement de la lecture d'une question (« Catégorie. Question »). */
+function prechargerTexteQuestion(q) {
+  if (q) prechargerVoix(`${catParId(q.cat).nom}. ${q.l}`);
+}
+
 /** Met un fichier en cache HTTP pour qu'il parte sans attente (réponse d'une question affichée…). */
 const dejaPrecharges = new Set();
 function prechargerVoix(texte) {
@@ -227,7 +232,8 @@ function jouerClip(texte, jeton) {
     a.onended = fin;
     a.onerror = () => terminer(false);
     a.onplaying = () => clearTimeout(minuteur);
-    minuteur = setTimeout(() => { siwisEnPauseJusqua = Date.now() + 60000; terminer(false); }, 6000);
+    // Les fichiers sont préchargés : une attente de 10 s signale un réseau vraiment lent.
+    minuteur = setTimeout(() => { siwisEnPauseJusqua = Date.now() + 30000; terminer(false); }, 10000);
     a.src = urlVoix(texte);
     a.defaultPlaybackRate = a.playbackRate = vitesseVoix();
     const p = a.play();
@@ -347,7 +353,7 @@ function tirerQuestionSolo() {
   if (solo.liste) return solo.liste[solo.historique.length];
   const niveaux = NIVEAUX[solo.niveau] || NIVEAUX[0];
   const dansPartie = new Set(solo.historique.map(e => e.id));
-  const convient = q => (!solo.cat || q.cat === solo.cat) && niveaux.includes(q.niv) && !dansPartie.has(q.id);
+  const convient = q => (!solo.cat || q.cat === solo.cat) && niveaux.includes(q.niv) && !dansPartie.has(q.id) && q.id !== solo.question;
   // Questions déjà vues (sur tous les appareils du profil, voir profil.js) : proposées en dernier.
   const vues = new Set(lire(CLE_SOLO_VUES, []));
   let pool = QUESTIONS.filter(q => convient(q) && !vues.has(q.id));
@@ -400,7 +406,8 @@ function repondreSolo(bon) {
       }
     }
   } else {
-    solo.question = tirerQuestionSolo();
+    solo.question = solo.suivante != null ? solo.suivante : tirerQuestionSolo();
+    solo.suivante = null;
     solo.phase = 'question';
   }
   solo.verdict = null;
@@ -581,7 +588,7 @@ function rendreSolo() {
   const progression = solo.format === 'survie'
     ? h('span', { class: 'vies', 'aria-label': `${VIES - (solo.erreurs || 0)} vies restantes` },
       Array.from({ length: VIES }, (_, i) => h('i', { class: i < VIES - (solo.erreurs || 0) ? 'on' : null })))
-    : h('span', {}, `${solo.mode === 'jour' ? 'Carte du jour · ' : solo.mode === 'defi' ? 'Défi · ' : ''}Question ${n} / ${solo.liste ? solo.liste.length : solo.format}`);
+    : h('span', {}, `${solo.mode === 'jour' ? (solo.jour < numeroJour() ? `Carte n°${solo.jour} (rattrapage) · ` : 'Carte du jour · ') : solo.mode === 'defi' ? 'Défi · ' : ''}Question ${n} / ${solo.liste ? solo.liste.length : solo.format}`);
   const derniere = solo.historique[solo.historique.length - 1];
 
   const q = QUESTIONS[solo.question];
@@ -660,6 +667,18 @@ function rendreSolo() {
   lireSolo(q, cat);
 }
 
+/** Question suivante tirée dès maintenant, pour que sa voix soit téléchargée avant d'être lue. */
+function prechargerSuivanteSolo() {
+  if (!prefsVoix().lecture) return;
+  let id = null;
+  if (solo.liste) id = solo.liste[solo.historique.length + 1];
+  else if (solo.format === 'survie' || solo.historique.length + 1 < Number(solo.format)) {
+    if (solo.suivante == null) { solo.suivante = tirerQuestionSolo(); sauverSolo(); }
+    id = solo.suivante;
+  }
+  if (id != null) prechargerTexteQuestion(QUESTIONS[id]);
+}
+
 function lireSolo(q, cat) {
   const prefs = prefsVoix();
   const id = solo.question;
@@ -669,6 +688,7 @@ function lireSolo(q, cat) {
       : null;
     direUneFois(`solo-q-${id}`, `${cat.nom}. ${q.l}`, ecouteAuto);
     prechargerVoix(q.r);
+    prechargerSuivanteSolo();
   } else if (solo.verdict) {
     const v = solo.verdict;
     // Mains libres : après le verdict, on passe seul à la question suivante (sauf correction entre-temps).
@@ -1008,10 +1028,18 @@ function avantDemain() {
   return min >= 60 ? `${Math.floor(min / 60)} h ${String(min % 60).padStart(2, '0')}` : `${min} min`;
 }
 
-function jouerJour() {
-  const n = numeroJour();
-  if (resultatsJour()[n]) { location.hash = '#jour'; return; }
+/** Joue la carte du jour n (aujourd'hui par défaut, ou un jour manqué de la semaine en cours). */
+function jouerJour(n) {
+  if (typeof n !== 'number') n = numeroJour();
+  if (n < semaine().du || n > numeroJour()) return; // hors de la semaine : plus jouable
+  if (resultatsJour()[n]) { jourVu = n === numeroJour() ? null : n; location.hash = '#jour'; rendreJour(); return; }
   if (solo && solo.mode === 'jour' && solo.jour === n && solo.phase !== 'fin') { location.hash = '#solo'; return; }
+  // Une carte commencée se termine avant d'en ouvrir une autre (sinon elle pourrait se rejouer).
+  if (solo && solo.mode === 'jour' && solo.phase !== 'fin') {
+    alert(`Terminez d'abord la carte n°${solo.jour}, commencée plus tôt.`);
+    location.hash = '#solo';
+    return;
+  }
   if (solo && solo.phase !== 'fin' && solo.mode !== 'jour'
     && !confirm('Une série est en cours : elle sera abandonnée. Continuer ?')) return;
   derniereLecture = null;
@@ -1075,12 +1103,55 @@ function rendreFinJour(zone, n) {
       h('button', { type: 'button', class: 'btn', onclick: () => { solo = null; effacer(CLE_SOLO); location.hash = '#solo'; rendreSolo(); } }, 'Une série en solo'))));
 }
 
+let jourVu = null; // carte d'un jour passé de la semaine affichée à la place de celle du jour
+
+const NOMS_JOURS = ['lundi', 'mardi', 'mercredi', 'jeudi', 'vendredi', 'samedi', 'dimanche'];
+
+/** Les sept cartes de la semaine : jouées (score), à rattraper (jusqu'à dimanche), à venir. */
+function blocSemaine() {
+  const { du } = semaine();
+  const n = numeroJour();
+  const tous = resultatsJour();
+  const enCours = solo && solo.mode === 'jour' && solo.phase !== 'fin' ? solo.jour : null;
+  const manquees = [];
+  const cases = NOMS_JOURS.map((nom, i) => {
+    const j = du + i;
+    const r = tous[j];
+    const etat = j > n ? 'avenir' : r ? 'jouee' : j === n ? 'aujourdhui' : 'manquee';
+    if (etat === 'manquee') manquees.push(j);
+    const titre = `${nom[0].toUpperCase()}${nom.slice(1)} · carte n°${j}`
+      + (r ? ` · ${r.res.filter(Boolean).length}/6, ${points(r.score)}` : etat === 'manquee' ? ' · à rattraper' : etat === 'avenir' ? ' · à venir' : '');
+    const contenu = [h('span', { class: 'sem-nom' }, nom.slice(0, 3)),
+      h('span', { class: 'sem-val' }, r ? `${r.res.filter(Boolean).length}/6` : etat === 'manquee' ? (j === enCours ? '…' : 'Jouer') : etat === 'aujourdhui' ? '?' : '')];
+    const actif = (etat === 'jouee' && j !== n) || etat === 'manquee';
+    return actif
+      ? h('button', { type: 'button', class: `sem-jour ${etat}${j === jourVu ? ' vu' : ''}`, title: titre,
+        onclick: () => (etat === 'jouee' ? (jourVu = j, rendreJour(), $('#jour-contenu').scrollIntoView()) : jouerJour(j)) }, contenu)
+      : h('span', { class: `sem-jour ${etat}${j === n && jourVu ? ' vu-non' : ''}`, title: titre }, contenu);
+  });
+  return h('section', { class: 'semaine-jour' },
+    h('h3', {}, 'Cette semaine'),
+    h('div', { class: 'sem-jours' }, cases),
+    h('p', { class: 'aide' }, manquees.length
+      ? `${manquees.length === 1 ? 'Une carte manquée' : `${manquees.length} cartes manquées`} : elle${manquees.length > 1 ? 's' : ''} se rattrape${manquees.length > 1 ? 'nt' : ''} jusqu'à dimanche, et compte${manquees.length > 1 ? 'nt' : ''} pour la série et le classement de la semaine.`
+      : 'Une carte manquée se rattrape jusqu\'à dimanche.'));
+}
+
 function rendreJour() {
   const n = numeroJour();
-  const r = resultatsJour()[n];
   const zone = $('#jour-contenu');
+  if (jourVu != null && (jourVu < semaine().du || jourVu >= n || !resultatsJour()[jourVu])) jourVu = null;
+  if (jourVu != null) {
+    // Carte d'un jour passé de la semaine, déjà jouée.
+    zone.replaceChildren(
+      h('p', {}, h('button', { type: 'button', class: 'btn-lien', onclick: () => { jourVu = null; rendreJour(); } }, '← Carte d\'aujourd\'hui')),
+      h('h2', {}, `Carte du ${NOMS_JOURS[jourVu - semaine().du]}`),
+      blocSemaine(), blocResultatJour(jourVu, resultatsJour()[jourVu], true));
+    return;
+  }
+  const r = resultatsJour()[n];
   if (r) {
-    zone.replaceChildren(invitationGroupeEnAttente(), h('h2', {}, 'Carte du jour'), blocResultatJour(n, r, true), blocRappel());
+    zone.replaceChildren(invitationGroupeEnAttente(), h('h2', {}, 'Carte du jour'), blocSemaine(), blocResultatJour(n, r, true), blocRappel());
     return;
   }
   const enCours = solo && solo.mode === 'jour' && solo.jour === n && solo.phase !== 'fin';
@@ -1092,8 +1163,8 @@ function rendreJour() {
     h('div', { class: 'jour-cases' }, CATS.map(cat => h('span', { class: 'jour-case', style: styleCat(cat), title: cat.nom }))),
     serie ? h('p', { class: 'message' }, `🔥 Série en cours : ${serie} jour${serie > 1 ? 's' : ''}. Ne la cassez pas !`) : null,
     h('div', { class: 'actions' },
-      h('button', { type: 'button', class: 'btn', onclick: jouerJour }, enCours ? 'Reprendre la carte du jour' : 'Jouer la carte du jour')),
-    blocGroupes(), blocRappel());
+      h('button', { type: 'button', class: 'btn', onclick: () => jouerJour() }, enCours ? 'Reprendre la carte du jour' : 'Jouer la carte du jour')),
+    blocSemaine(), blocGroupes(), blocRappel());
 }
 
 function majMenuJour() {
@@ -1102,9 +1173,13 @@ function majMenuJour() {
   const n = numeroJour();
   const r = resultatsJour()[n];
   const serie = serieJours();
+  const { du } = semaine();
+  let manquees = 0;
+  for (let j = du; j < n; j++) if (!resultatsJour()[j]) manquees++;
+  const rattrapage = manquees ? ` · ${manquees} à rattraper` : '';
   etat.textContent = r
-    ? `Faite : ${r.res.filter(Boolean).length}/6 · ${r.score} pts${serie > 1 ? ` · 🔥 ${serie} jours` : ''} · prochaine dans ${avantDemain()}`
-    : `N°${n} à jouer · 6 questions, la même carte pour tout le monde${serie ? ` · 🔥 ${serie}` : ''}`;
+    ? `Faite : ${r.res.filter(Boolean).length}/6 · ${r.score} pts${serie > 1 ? ` · 🔥 ${serie} jours` : ''}${rattrapage || ` · prochaine dans ${avantDemain()}`}`
+    : `N°${n} à jouer · 6 questions, la même carte pour tout le monde${serie ? ` · 🔥 ${serie}` : ''}${rattrapage}`;
   $('#menu-jour').classList.toggle('fait', !!r);
 }
 

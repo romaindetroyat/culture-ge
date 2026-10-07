@@ -75,11 +75,14 @@ async function publierJour(n) {
   return stats;
 }
 
-/** Résultats joués hors connexion : on les renvoie dès que possible (le serveur accepte la veille). */
+/** Résultats joués hors connexion : on les renvoie dès que possible (le serveur accepte toute la
+ * semaine en cours, et la veille le lundi). */
 function rattraperPublication() {
   const deja = lire(CLE_JOUR_PUBLIE, []);
   const n = numeroJour();
-  [n - 1, n].filter(j => resultatsJour()[j] && !deja.includes(j)).forEach(j => publierJour(j).catch(() => {}));
+  for (let j = Math.min(semaine().du, n - 1); j <= n; j++) {
+    if (resultatsJour()[j] && !deja.includes(j)) publierJour(j).catch(() => {});
+  }
 }
 
 function pourcent(x) { return `${Math.round(x * 100)} %`; }
@@ -130,23 +133,47 @@ function inviterGroupe(g) {
   });
 }
 
+/** Classement de la semaine : points, et pour chaque jour (lundi → dimanche) le score de la carte. */
 function tableauGroupe(g, cl) {
   const n = numeroJour();
+  const { du } = semaine();
   const jaiJoue = !!resultatsJour()[n];
-  return h('table', { class: 'tableau-groupe' },
-    h('thead', {}, h('tr', {}, h('th', {}, '#'), h('th', {}, 'Joueur'), h('th', {}, 'Aujourd\'hui'), h('th', {}, 'Semaine'))),
-    h('tbody', {}, cl.membres.map((m, i) => h('tr', { class: m.moi ? 'moi' : null },
-      h('td', {}, String(i + 1)),
-      h('td', {}, m.nom),
-      h('td', { title: m.jour && jaiJoue ? m.jour.res.split('').map((c, k) => `${EMOJI_CAT[CATS[k].id]}${c === '1' ? '✅' : '❌'}`).join(' ') : null },
-        m.jour ? `${m.jour.bonnes}/6` : '—'),
-      h('td', {}, h('b', {}, `${m.points} pts`), h('span', { class: 'aide' }, ` · ${m.joues} j`))))));
+  const lettres = ['L', 'M', 'M', 'J', 'V', 'S', 'D'];
+  const cases = m => {
+    const parJour = Object.fromEntries((m.jours || []).map(x => [x.jour, x]));
+    // Ancien serveur (sans détail par jour) : seul le jour même est connu.
+    if (!m.jours && m.jour) parJour[n] = { ...m.jour, jour: n };
+    return h('span', { class: 'cases-semaine' }, lettres.map((l, i) => {
+      const j = du + i;
+      const r = parJour[j];
+      const avenir = j > n;
+      // Le détail du jour même n'est montré qu'à ceux qui ont déjà joué cette carte.
+      const detail = r && j === n && jaiJoue && m.jour ? ' · ' + m.jour.res.split('').map((c, k) => `${EMOJI_CAT[CATS[k].id]}${c === '1' ? '✅' : '❌'}`).join(' ') : '';
+      return h('span', {
+        class: 'case-sem' + (r ? ' faite' : avenir ? ' avenir' : '') + (r && r.retard ? ' retard' : '') + (j === n ? ' aujourdhui' : ''),
+        title: `${NOMS_JOURS[i]} : ${r ? `${r.bonnes}/6, ${r.points} pts${r.retard ? ' (rattrapée)' : ''}${detail}` : avenir ? 'à venir' : 'pas jouée'}`,
+      }, r ? String(r.bonnes) : l);
+    }));
+  };
+  const noms = cl.membres.map(m => m.nom.trim().toLowerCase());
+  const doublons = [...new Set(noms.filter((x, i) => noms.indexOf(x) !== i))];
+  return h('div', {},
+    h('table', { class: 'tableau-groupe' },
+      h('thead', {}, h('tr', {}, h('th', {}, '#'), h('th', {}, 'Joueur'), h('th', {}, 'Bonnes réponses par jour'), h('th', {}, 'Semaine'))),
+      h('tbody', {}, cl.membres.map((m, i) => h('tr', { class: m.moi ? 'moi' : null },
+        h('td', {}, String(i + 1)),
+        h('td', {}, m.nom),
+        h('td', {}, cases(m)),
+        h('td', {}, h('b', {}, `${m.points} pts`), h('span', { class: 'aide' }, ` · ${m.joues} j`)))))),
+    doublons.length ? h('p', { class: 'aide' }, `Deux « ${cl.membres.find(m => m.nom.trim().toLowerCase() === doublons[0]).nom} » dans ce groupe : si c'est la même personne sur deux appareils, il suffit de saisir sur l'un le code de transfert de l'autre (Réglages → Mon profil) pour que ses scores soient réunis.`) : null,
+    h('p', { class: 'aide maj-groupe' }, `Mis à jour à ${new Date().toLocaleTimeString('fr-FR', { hour: '2-digit', minute: '2-digit' })} · chiffre = bonnes réponses du jour, ⏰ = carte rattrapée.`));
 }
 
 function blocGroupe(g, zone) {
   const corps = h('div', { class: 'groupe-corps' }, h('p', { class: 'message' }, 'Chargement…'));
+  const charger = () => {
   const { du, au } = semaine();
-  rpc('classement_groupe', { p_code: g.code, p_joueur: idJoueur(), p_du: du, p_au: au })
+  return rpc('classement_groupe', { p_code: g.code, p_joueur: idJoueur(), p_du: du, p_au: au })
     .then(cl => {
       if (!cl) { // retiré du groupe entre-temps
         ecrire(CLE_GROUPES, mesGroupesLocaux().filter(x => x.code !== g.code));
@@ -155,9 +182,11 @@ function blocGroupe(g, zone) {
       }
       corps.replaceChildren(tableauGroupe(g, cl));
     })
-    .catch(() => corps.replaceChildren(h('p', { class: 'message' }, 'Classement indisponible hors connexion.')));
+    .catch(() => { if (!corps.querySelector('table')) corps.replaceChildren(h('p', { class: 'message' }, 'Classement indisponible hors connexion.')); });
+  };
+  charger();
   const inviter = h('details', { class: 'groupe-inviter' }, h('summary', {}, `Inviter dans « ${g.nom} » (code ${g.code})`), inviterGroupe(g));
-  return h('section', { class: 'groupe', 'data-code': g.code },
+  const section = h('section', { class: 'groupe', 'data-code': g.code },
     h('div', { class: 'groupe-tete' },
       h('h4', {}, g.nom),
       h('button', {
@@ -170,6 +199,8 @@ function blocGroupe(g, zone) {
         },
       }, 'Quitter')),
     corps, inviter);
+  section.rafraichir = charger; // retour dans l'appli : classement relu (voir initQuotidien)
+  return section;
 }
 
 function demanderPrenom(form) {
@@ -397,6 +428,10 @@ function initQuotidien() {
   ecrireCookieJoueur(idJoueur()); // prolonge le cookie
   initProfil();
   rattraperPublication();
+  // Retour dans l'appli : les scores des autres membres ont pu changer.
+  document.addEventListener('visibilitychange', () => {
+    if (document.visibilityState === 'visible') document.querySelectorAll('.groupe[data-code]').forEach(s => s.rafraichir && s.rafraichir());
+  });
   window.addEventListener('online', rattraperPublication);
   reprendreAncienneAdresse().catch(() => {}).then(() => {
     // L'abonnement a pu être retiré par le navigateur : on oublie l'état local.

@@ -14,10 +14,10 @@ function sauverGroupe() { ecrire(CLE_GROUPE, groupe); }
 
 const pointsQuestion = q => q.d; // 1 point jusqu'à moyenne, 2 en difficile, 3 en expert
 
-function tirerQuestionGroupe() {
+function tirerQuestionGroupe(n = groupe.n) {
   const niveaux = NIVEAUX[groupe.niveau] || NIVEAUX[0];
   // Toutes catégories : on les fait tourner, comme sur une carte.
-  const cat = groupe.cat || CATS[(groupe.n - 1) % CATS.length].id;
+  const cat = groupe.cat || CATS[(n - 1) % CATS.length].id;
   const deja = new Set(groupe.utilisees);
   let pool = QUESTIONS.filter(q => q.cat === cat && niveaux.includes(q.niv) && !deja.has(q.id));
   if (!pool.length) pool = QUESTIONS.filter(q => q.cat === cat && niveaux.includes(q.niv));
@@ -29,7 +29,8 @@ function tirerQuestionGroupe() {
 
 function questionSuivanteGroupe() {
   groupe.n++;
-  groupe.qid = tirerQuestionGroupe();
+  groupe.qid = groupe.suivante != null ? groupe.suivante : tirerQuestionGroupe();
+  groupe.suivante = null;
   groupe.phase = 'question';
   groupe.gagnant = null;
   sauverGroupe();
@@ -172,6 +173,11 @@ function rendreGroupe() {
   if (!reponse) {
     direUneFois(`groupe-q-${groupe.n}-${groupe.qid}`, `${cat.nom}. ${q.l}`);
     prechargerVoix(q.r);
+    // Question suivante tirée dès maintenant : sa voix est téléchargée avant d'être lue.
+    if (prefsVoix().lecture && (!groupe.nb || groupe.n < groupe.nb)) {
+      if (groupe.suivante == null) { groupe.suivante = tirerQuestionGroupe(groupe.n + 1); sauverGroupe(); }
+      prechargerTexteQuestion(QUESTIONS[groupe.suivante]);
+    }
   } else {
     direUneFois(`groupe-r-${groupe.n}-${groupe.qid}`, ['La réponse :', reponseLue(q.r)]);
   }
