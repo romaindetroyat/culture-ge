@@ -17,11 +17,14 @@ dans une application web progressive (PWA) installable sur téléphone et utilis
 ## Ce que fait l'application
 
 - **Carte du jour** : chaque jour, les mêmes 6 questions pour tout le monde (une par couleur, de
-  tous les niveaux, de « enfant » à « expert », dans le désordre), jouables une seule fois. Série de jours consécutifs, statistiques, et partage du résultat façon Wordle (lien `?jour`).
+  tous les niveaux, de « enfant » à « expert », dans le désordre), jouables une seule fois. Une carte
+  manquée se **rattrape jusqu'à dimanche** (bandeau « Cette semaine ») : elle compte pour la série et
+  le classement de la semaine, marquée ⏰ dans les groupes. Série de jours consécutifs, statistiques, et partage du résultat façon Wordle (lien `?jour`).
   - **Classement du jour** : « vous faites mieux que 72 % des joueurs du jour » et répartition des
     scores (scores anonymes, envoyés une fois la carte jouée, ou dès le retour de la connexion).
-  - **Entre amis** : un groupe (code de 6 lettres, lien `?groupe=…` à partager) affiche le score du
-    jour de chacun et le classement de la semaine (lundi à dimanche). Le prénom n'est visible que des
+  - **Entre amis** : un groupe (code de 6 lettres, lien `?groupe=…` à partager) affiche le classement
+    de la semaine (lundi à dimanche) et, pour chacun, les bonnes réponses jour par jour ; il se met à
+    jour au retour dans l'appli. Le prénom n'est visible que des
     membres du groupe.
   - **Rappel quotidien** : notification chaque jour à l'heure choisie (sauf si la carte est déjà
     jouée), avec la série en cours. Sur iPhone, il faut avoir installé l'appli sur l'écran d'accueil.
