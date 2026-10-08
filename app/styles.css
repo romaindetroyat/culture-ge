@@ -529,7 +529,7 @@ button.sem-jour.jouee { cursor: pointer; }
 /* Classement de groupe : bonnes réponses jour par jour */
 .cases-semaine { display: inline-flex; gap: 3px; }
 .case-sem {
-  width: 1.45em; height: 1.45em; border-radius: 5px; display: inline-grid; place-items: center;
+  min-width: 1.45em; height: 1.45em; padding: 0 2px; box-sizing: border-box; border-radius: 5px; display: inline-grid; place-items: center;
   font-size: .72rem; font-weight: 700; background: var(--fond-3); color: var(--texte-doux); position: relative;
 }
 .case-sem.faite { background: var(--sci); color: #fff; }
@@ -538,6 +538,6 @@ button.sem-jour.jouee { cursor: pointer; }
 .case-sem.retard::after { content: '⏰'; position: absolute; top: -.55em; right: -.45em; font-size: .6rem; }
 .tableau-groupe td:nth-child(3), .tableau-groupe th:nth-child(3) { white-space: nowrap; }
 @media (max-width: 420px) {
-  .case-sem { width: 1.25em; height: 1.25em; font-size: .66rem; }
+  .case-sem { min-width: 1.25em; height: 1.25em; font-size: .66rem; }
   .cases-semaine { gap: 2px; }
 }
