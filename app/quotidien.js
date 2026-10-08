@@ -133,7 +133,7 @@ function inviterGroupe(g) {
   });
 }
 
-/** Classement de la semaine : points, et pour chaque jour (lundi → dimanche) le score de la carte. */
+/** Classement de la semaine : pour chaque jour (lundi → dimanche) les points de la carte, et leur total. */
 function tableauGroupe(g, cl) {
   const n = numeroJour();
   const { du } = semaine();
@@ -152,21 +152,22 @@ function tableauGroupe(g, cl) {
       return h('span', {
         class: 'case-sem' + (r ? ' faite' : avenir ? ' avenir' : '') + (r && r.retard ? ' retard' : '') + (j === n ? ' aujourdhui' : ''),
         title: `${NOMS_JOURS[i]} : ${r ? `${r.bonnes}/6, ${r.points} pts${r.retard ? ' (rattrapée)' : ''}${detail}` : avenir ? 'à venir' : 'pas jouée'}`,
-      }, r ? String(r.bonnes) : l);
+      }, r ? String(r.points) : l);
     }));
   };
   const noms = cl.membres.map(m => m.nom.trim().toLowerCase());
   const doublons = [...new Set(noms.filter((x, i) => noms.indexOf(x) !== i))];
   return h('div', {},
     h('table', { class: 'tableau-groupe' },
-      h('thead', {}, h('tr', {}, h('th', {}, '#'), h('th', {}, 'Joueur'), h('th', {}, 'Bonnes réponses par jour'), h('th', {}, 'Semaine'))),
+      h('thead', {}, h('tr', {}, h('th', {}, '#'), h('th', {}, 'Joueur'), h('th', {}, 'Points par jour'), h('th', {}, 'Semaine'))),
       h('tbody', {}, cl.membres.map((m, i) => h('tr', { class: m.moi ? 'moi' : null },
         h('td', {}, String(i + 1)),
         h('td', {}, m.nom),
         h('td', {}, cases(m)),
-        h('td', {}, h('b', {}, `${m.points} pts`), h('span', { class: 'aide' }, ` · ${m.joues} j`)))))),
+        h('td', { title: `${m.bonnes} bonne${m.bonnes > 1 ? 's' : ''} réponse${m.bonnes > 1 ? 's' : ''} sur ${m.joues * 6}` },
+          h('b', {}, `${m.points} pts`), h('span', { class: 'aide' }, ` · ${m.joues} j`)))))),
     doublons.length ? h('p', { class: 'aide' }, `Deux « ${cl.membres.find(m => m.nom.trim().toLowerCase() === doublons[0]).nom} » dans ce groupe : si c'est la même personne sur deux appareils, il suffit de saisir sur l'un le code de transfert de l'autre (Réglages → Mon profil) pour que ses scores soient réunis.`) : null,
-    h('p', { class: 'aide maj-groupe' }, `Mis à jour à ${new Date().toLocaleTimeString('fr-FR', { hour: '2-digit', minute: '2-digit' })} · chiffre = bonnes réponses du jour, ⏰ = carte rattrapée.`));
+    h('p', { class: 'aide maj-groupe' }, `Mis à jour à ${new Date().toLocaleTimeString('fr-FR', { hour: '2-digit', minute: '2-digit' })} · chiffre = points du jour (bonnes réponses au survol), ⏰ = carte rattrapée.`));
 }
 
 function blocGroupe(g, zone) {
