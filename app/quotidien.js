@@ -117,10 +117,43 @@ function blocClassementJour(n) {
 
 /* ---------------- Groupes d'amis ---------------- */
 
-function semaine() {
+/** Semaine en cours (decalage 0) ou l'une des précédentes : numéros des cartes du lundi (du) et du
+ * dernier jour connu (au : aujourd'hui pour la semaine en cours, dimanche sinon). */
+function semaine(decalage = 0) {
   const n = numeroJour();
   const jourSemaine = (new Date().getDay() + 6) % 7; // lundi = 0
-  return { du: n - jourSemaine, au: n };
+  const du = n - jourSemaine - 7 * decalage;
+  return { du, au: decalage ? du + 6 : n };
+}
+
+const SEMAINES_HISTORIQUE = 3; // semaines passées que l'on peut consulter
+
+/** Nombre de semaines passées consultables (pas avant la carte n°1). */
+function semainesPassees() {
+  return Math.max(0, Math.min(SEMAINES_HISTORIQUE, Math.ceil((semaine().du - 1) / 7)));
+}
+
+/** « 12 octobre » : date de la carte n°j. */
+function dateCarte(j, options = { day: 'numeric', month: 'long' }) {
+  return new Date(JOUR_DEBUT + (j - 1) * 864e5).toLocaleDateString('fr-FR', { ...options, timeZone: 'UTC' });
+}
+
+function libelleSemaine(decalage) {
+  if (!decalage) return 'Cette semaine';
+  const { du, au } = semaine(decalage);
+  // « du 12 au 18 octobre », mais « du 28 septembre au 4 octobre » quand le mois change.
+  const memeMois = dateCarte(du, { month: 'long' }) === dateCarte(au, { month: 'long' });
+  const debut = memeMois ? dateCarte(du, { day: 'numeric' }) : dateCarte(du), fin = dateCarte(au);
+  return `${decalage === 1 ? 'Semaine dernière' : `Il y a ${decalage} semaines`} · du ${debut} au ${fin}`;
+}
+
+/** « ‹ Semaine dernière · du 5 au 11 octobre › » : passer d'une semaine à l'autre. */
+function navSemaine(decalage, aller) {
+  const max = semainesPassees();
+  return h('div', { class: 'nav-semaine' },
+    h('button', { type: 'button', class: 'btn-nav', disabled: decalage >= max, 'aria-label': 'Semaine précédente', onclick: () => aller(decalage + 1) }, '‹'),
+    h('span', { class: 'nav-semaine-titre' }, libelleSemaine(decalage)),
+    h('button', { type: 'button', class: 'btn-nav', disabled: decalage <= 0, 'aria-label': 'Semaine suivante', onclick: () => aller(decalage - 1) }, '›'));
 }
 
 function mesGroupesLocaux() { return lire(CLE_GROUPES, []); }
@@ -135,9 +168,8 @@ function inviterGroupe(g) {
 
 /** Classement de la semaine : pour chaque jour (lundi → dimanche) les bonnes réponses et les points de la
  * carte, et leurs totaux. */
-function tableauGroupe(g, cl) {
+function tableauGroupe(g, cl, du = semaine().du) {
   const n = numeroJour();
-  const { du } = semaine();
   const jaiJoue = !!resultatsJour()[n];
   const lettres = ['L', 'M', 'M', 'J', 'V', 'S', 'D'];
   const cases = m => {
@@ -176,18 +208,22 @@ function tableauGroupe(g, cl) {
     h('p', { class: 'aide maj-groupe' }, `Mis à jour à ${new Date().toLocaleTimeString('fr-FR', { hour: '2-digit', minute: '2-digit' })} · chaque jour : bonnes réponses sur 6, puis points (selon le niveau des questions et la série) ; ⏰ = carte rattrapée.`));
 }
 
-function blocGroupe(g, zone) {
+function blocGroupe(g, zone, decalageInitial = 0) {
   const corps = h('div', { class: 'groupe-corps' }, h('p', { class: 'message' }, 'Chargement…'));
+  let decalage = decalageInitial; // semaine affichée : 0 = en cours, 1 = semaine dernière…
+  const nav = h('div', {});
   const charger = () => {
-  const { du, au } = semaine();
+  const { du, au } = semaine(decalage);
+  nav.replaceChildren(navSemaine(decalage, d => { decalage = d; corps.classList.add('chargement'); charger(); }));
   return rpc('classement_groupe', { p_code: g.code, p_joueur: idJoueur(), p_du: du, p_au: au })
     .then(cl => {
+      corps.classList.remove('chargement');
       if (!cl) { // retiré du groupe entre-temps
         ecrire(CLE_GROUPES, mesGroupesLocaux().filter(x => x.code !== g.code));
         corps.replaceChildren(h('p', { class: 'message' }, 'Vous ne faites plus partie de ce groupe.'));
         return;
       }
-      corps.replaceChildren(tableauGroupe(g, cl));
+      corps.replaceChildren(tableauGroupe(g, cl, du));
     })
     .catch(() => { if (!corps.querySelector('table')) corps.replaceChildren(h('p', { class: 'message' }, 'Classement indisponible hors connexion.')); });
   };
@@ -205,7 +241,7 @@ function blocGroupe(g, zone) {
           remplirGroupes(zone);
         },
       }, 'Quitter')),
-    corps, inviter);
+    nav, corps, inviter);
   section.rafraichir = charger; // retour dans l'appli : classement relu (voir initQuotidien)
   return section;
 }
@@ -275,8 +311,9 @@ function formulaireNouveauGroupe(zone) {
       info));
 }
 
-function blocGroupes() {
+function blocGroupes(decalage = 0) {
   const zone = h('div', { class: 'groupes' });
+  zone.decalage = decalage; // semaine affichée à l'ouverture (celle de la carte consultée)
   remplirGroupes(zone);
   // Le serveur fait foi : récupère les groupes rejoints depuis un autre écran ou effacés.
   rpc('mes_groupes', { p_joueur: idJoueur() }).then(liste => {
@@ -292,7 +329,7 @@ function remplirGroupes(zone, nouveau) {
   zone.replaceChildren(
     h('h3', {}, 'Entre amis'),
     groupes.length ? null : h('p', { class: 'aide' }, 'Créez un groupe, invitez vos amis ou votre famille : chacun joue la carte du jour de son côté, et vous voyez le classement de la semaine.'),
-    ...groupes.map(g => blocGroupe(g, zone)),
+    ...groupes.map(g => blocGroupe(g, zone, zone.decalage || 0)),
     formulaireNouveauGroupe(zone));
   if (nouveau) {
     const d = zone.querySelector(`.groupe[data-code="${nouveau}"] .groupe-inviter`);

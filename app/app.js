@@ -1081,7 +1081,7 @@ function blocResultatJour(n, r, avecDetail) {
     h('p', { class: 'message' }, `Prochaine carte dans ${avantDemain()}.`),
     h('h3', {}, 'Partager votre résultat'),
     partageJour(n, r),
-    blocGroupes(),
+    blocGroupes(decalageDe(n)),
     avecDetail ? h('div', { class: 'ratees' },
       h('h3', {}, 'Les réponses'),
       h('ol', { class: 'resultats' }, CATS.map((cat, i) => {
@@ -1103,13 +1103,21 @@ function rendreFinJour(zone, n) {
       h('button', { type: 'button', class: 'btn', onclick: () => { solo = null; effacer(CLE_SOLO); location.hash = '#solo'; rendreSolo(); } }, 'Une série en solo'))));
 }
 
-let jourVu = null; // carte d'un jour passé de la semaine affichée à la place de celle du jour
+let jourVu = null; // carte d'un jour passé (jusqu'à trois semaines) affichée à la place de celle du jour
+let semaineVue = 0; // semaine du bandeau : 0 = en cours, 1 = semaine dernière…
 
 const NOMS_JOURS = ['lundi', 'mardi', 'mercredi', 'jeudi', 'vendredi', 'samedi', 'dimanche'];
 
-/** Les sept cartes de la semaine : jouées (score), à rattraper (jusqu'à dimanche), à venir. */
+/** Semaine (0 = en cours, 1 = semaine dernière…) de la carte n°j ; les semaines commencent le lundi. */
+const decalageDe = j => Math.round((semaine().du - (j - ((j - 1) % 7))) / 7);
+/** « lundi 12 octobre » : jour de la carte n°j. */
+const nomCarte = j => `${NOMS_JOURS[(j - 1) % 7]} ${dateCarte(j)}`;
+
+/** Les sept cartes d'une semaine : jouées (score), à rattraper (semaine en cours, jusqu'à dimanche),
+ * manquées (semaines passées), à venir. */
 function blocSemaine() {
-  const { du } = semaine();
+  if (semaineVue > semainesPassees()) semaineVue = 0;
+  const { du } = semaine(semaineVue);
   const n = numeroJour();
   const tous = resultatsJour();
   const enCours = solo && solo.mode === 'jour' && solo.phase !== 'fin' ? solo.jour : null;
@@ -1117,22 +1125,34 @@ function blocSemaine() {
   const cases = NOMS_JOURS.map((nom, i) => {
     const j = du + i;
     const r = tous[j];
-    const etat = j > n ? 'avenir' : r ? 'jouee' : j === n ? 'aujourdhui' : 'manquee';
+    const etat = j > n ? 'avenir' : r ? 'jouee' : j === n ? 'aujourdhui' : semaineVue ? 'passee' : 'manquee';
     if (etat === 'manquee') manquees.push(j);
     const titre = `${nom[0].toUpperCase()}${nom.slice(1)} · carte n°${j}`
       + (r ? ` · ${r.res.filter(Boolean).length}/6, ${points(r.score)}` : etat === 'manquee' ? ' · à rattraper' : etat === 'avenir' ? ' · à venir' : '');
     const contenu = [h('span', { class: 'sem-nom' }, nom.slice(0, 3)),
-      h('span', { class: 'sem-val' }, r ? `${r.res.filter(Boolean).length}/6` : etat === 'manquee' ? (j === enCours ? '…' : 'Jouer') : etat === 'aujourdhui' ? '?' : '')];
+      h('span', { class: 'sem-val' }, r ? `${r.res.filter(Boolean).length}/6` : etat === 'manquee' ? (j === enCours ? '…' : 'Jouer') : etat === 'aujourdhui' ? '?' : etat === 'passee' ? '–' : ''),
+      r ? h('span', { class: 'sem-pts' }, points(r.score).replace('point', 'pt')) : null];
     const actif = (etat === 'jouee' && j !== n) || etat === 'manquee';
     return actif
       ? h('button', { type: 'button', class: `sem-jour ${etat}${j === jourVu ? ' vu' : ''}`, title: titre,
         onclick: () => (etat === 'jouee' ? (jourVu = j, rendreJour(), $('#jour-contenu').scrollIntoView()) : jouerJour(j)) }, contenu)
       : h('span', { class: `sem-jour ${etat}${j === n && jourVu ? ' vu-non' : ''}`, title: titre }, contenu);
   });
+  // Bilan d'une semaine passée : cartes jouées, bonnes réponses et points.
+  const jouees = Array.from({ length: 7 }, (_, i) => tous[du + i]).filter(Boolean);
+  const bilan = `${jouees.length} carte${jouees.length > 1 ? 's' : ''} jouée${jouees.length > 1 ? 's' : ''} sur 7`
+    + (jouees.length ? ` · ${jouees.reduce((t, r) => t + r.res.filter(Boolean).length, 0)} bonnes réponses · ${points(jouees.reduce((t, r) => t + r.score, 0))}` : '')
+    + '. Touchez une carte jouée pour revoir ses questions.';
   return h('section', { class: 'semaine-jour' },
-    h('h3', {}, 'Cette semaine'),
+    navSemaine(semaineVue, d => {
+      semaineVue = d;
+      if (jourVu != null && decalageDe(jourVu) !== d) jourVu = null;
+      rendreJour();
+      const bloc = $('#jour-contenu .semaine-jour');
+      if (bloc) bloc.scrollIntoView({ block: 'nearest' });
+    }),
     h('div', { class: 'sem-jours' }, cases),
-    h('p', { class: 'aide' }, manquees.length
+    h('p', { class: 'aide' }, semaineVue ? bilan : manquees.length
       ? `${manquees.length === 1 ? 'Une carte manquée' : `${manquees.length} cartes manquées`} : elle${manquees.length > 1 ? 's' : ''} se rattrape${manquees.length > 1 ? 'nt' : ''} jusqu'à dimanche, et compte${manquees.length > 1 ? 'nt' : ''} pour la série et le classement de la semaine.`
       : 'Une carte manquée se rattrape jusqu\'à dimanche.'));
 }
@@ -1140,12 +1160,13 @@ function blocSemaine() {
 function rendreJour() {
   const n = numeroJour();
   const zone = $('#jour-contenu');
-  if (jourVu != null && (jourVu < semaine().du || jourVu >= n || !resultatsJour()[jourVu])) jourVu = null;
+  if (jourVu != null && (jourVu < semaine(semainesPassees()).du || jourVu >= n || !resultatsJour()[jourVu])) jourVu = null;
   if (jourVu != null) {
-    // Carte d'un jour passé de la semaine, déjà jouée.
+    // Carte d'un jour passé (cette semaine ou l'une des trois précédentes), déjà jouée.
+    semaineVue = decalageDe(jourVu);
     zone.replaceChildren(
-      h('p', {}, h('button', { type: 'button', class: 'btn-lien', onclick: () => { jourVu = null; rendreJour(); } }, '← Carte d\'aujourd\'hui')),
-      h('h2', {}, `Carte du ${NOMS_JOURS[jourVu - semaine().du]}`),
+      h('p', {}, h('button', { type: 'button', class: 'btn-lien', onclick: () => { jourVu = null; semaineVue = 0; rendreJour(); } }, '← Carte d\'aujourd\'hui')),
+      h('h2', {}, `Carte du ${nomCarte(jourVu)}`),
       blocSemaine(), blocResultatJour(jourVu, resultatsJour()[jourVu], true));
     return;
   }
@@ -1284,7 +1305,7 @@ function naviguer() {
   if (vue !== 'solo' && solo && solo.mode === 'jour' && solo.phase === 'fin') { solo = null; effacer(CLE_SOLO); }
   if (vue === 'accueil') { majMenuJour(); banniereProfil(); }
   if (vue === 'reglages') rendreProfil();
-  if (vue === 'jour') rendreJour();
+  if (vue === 'jour') { if (jourVu == null) semaineVue = 0; rendreJour(); }
   if (vue === 'solo') rendreSolo();
   if (vue === 'groupe') rendreGroupe();
   if (vue === 'soiree') rendreSoiree();
