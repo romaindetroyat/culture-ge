@@ -558,3 +558,15 @@ button.sem-jour.jouee { cursor: pointer; }
   .total-semaine b, .total-semaine span { display: inline; }
   .total-semaine span::before { content: ' · '; }
 }
+
+/* Historique : d'une semaine à l'autre (trois semaines en arrière) */
+.nav-semaine { display: flex; align-items: center; justify-content: space-between; gap: 8px; margin: 6px 0 10px; }
+.nav-semaine-titre { font-weight: 700; text-align: center; flex: 1; }
+.btn-nav {
+  width: 2.2em; height: 2.2em; border-radius: 50%; border: 0; background: var(--fond-3); color: var(--texte);
+  font: inherit; font-size: 1.2rem; line-height: 1; cursor: pointer;
+}
+.btn-nav:disabled { opacity: .3; cursor: default; }
+.sem-pts { font-size: .62rem; color: var(--texte-doux); }
+.sem-jour.passee { opacity: .6; }
+.groupe-corps.chargement { opacity: .5; }
