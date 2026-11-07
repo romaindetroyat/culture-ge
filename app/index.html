@@ -29,12 +29,14 @@
     </a>
     <nav class="topnav">
       <a href="#jour">Du jour</a>
+      <a href="#classement">Classement</a>
       <a href="#solo">Solo</a>
       <a href="#groupe">Groupe</a>
       <a href="#soiree">Soirée</a>
       <a href="#parcourir">Parcourir</a>
       <a href="#reglages" aria-label="Réglages">⚙︎</a>
     </nav>
+    <a href="#reglages" class="topbar-reglages" aria-label="Réglages">⚙︎</a>
   </header>
 
   <main id="app">
@@ -52,6 +54,10 @@
         <span class="menu-jour-etat" id="menu-jour-etat">6 questions, une par couleur. La même pour tout le monde.</span>
       </a>
       <div class="menu">
+        <a class="menu-item" href="#classement">
+          <span class="menu-titre">Classements</span>
+          <span class="menu-desc">Votre place parmi les joueurs du jour, et les scores de la semaine entre amis.</span>
+        </a>
         <a class="menu-item" href="#solo">
           <span class="menu-titre">Solo</span>
           <span class="menu-desc">Une série de questions, des points selon la difficulté, et votre record à battre.</span>
@@ -79,6 +85,11 @@
     <!-- CARTE DU JOUR -->
     <section class="vue" data-vue="jour" hidden>
       <div id="jour-contenu"></div>
+    </section>
+
+    <!-- CLASSEMENTS -->
+    <section class="vue" data-vue="classement" hidden>
+      <div id="classement-contenu"></div>
     </section>
 
     <!-- RÉGLAGES -->
@@ -245,6 +256,16 @@
     </section>
 
   </main>
+
+  <!-- Onglets du bas (téléphone) : chaque section à un doigt, où qu'on soit. -->
+  <nav class="tabbar" aria-label="Sections du jeu">
+    <a href="#jour"><span class="ico" aria-hidden="true">⭐</span>Du jour</a>
+    <a href="#classement"><span class="ico" aria-hidden="true">🏆</span>Classement</a>
+    <a href="#solo"><span class="ico" aria-hidden="true">🎯</span>Solo</a>
+    <a href="#groupe"><span class="ico" aria-hidden="true">🎤</span>Groupe</a>
+    <a href="#soiree"><span class="ico" aria-hidden="true">🎉</span>Soirée</a>
+    <a href="#parcourir"><span class="ico" aria-hidden="true">🔍</span>Parcourir</a>
+  </nav>
 
   <script src="reponse.js"></script>
   <script src="app.js"></script>

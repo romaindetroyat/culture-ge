@@ -80,9 +80,80 @@ h2 { font-size: 1.5rem; }
 }
 .topnav a.actif { background: var(--fond-3); color: var(--texte); }
 
+.topbar-reglages { display: none; }
+
+/* Onglets du bas : sur téléphone, la barre du haut ne garde que le logo et les réglages. */
+.tabbar { display: none; }
+
 @media (max-width: 560px) {
   .topnav { display: none; }
+  .topbar-reglages {
+    display: grid;
+    place-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 999px;
+    text-decoration: none;
+    font-size: 1.3rem;
+    color: var(--texte-doux);
+  }
+  .topbar-reglages.actif, .topbar-reglages:active { background: var(--fond-3); color: var(--texte); }
+  .tabbar {
+    display: flex;
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 10;
+    gap: 2px;
+    padding: 4px 4px calc(4px + env(safe-area-inset-bottom));
+    background: rgba(22, 33, 62, .96);
+    backdrop-filter: blur(8px);
+    border-top: 1px solid rgba(255, 255, 255, .1);
+  }
+  .tabbar a {
+    flex: 1 1 0;
+    min-width: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2px;
+    padding: 6px 0 5px;
+    border-radius: 12px;
+    font-size: .66rem;
+    letter-spacing: -.01em;
+    color: var(--texte-doux);
+    text-decoration: none;
+    white-space: nowrap;
+    -webkit-tap-highlight-color: transparent;
+  }
+  .tabbar .ico { font-size: 1.3rem; line-height: 1; filter: grayscale(1) opacity(.75); }
+  .tabbar a.actif { background: var(--fond-3); color: var(--texte); font-weight: 700; }
+  .tabbar a.actif .ico { filter: none; }
+  main { padding-bottom: calc(84px + env(safe-area-inset-bottom)); }
+  /* Clavier ouvert : la barre laisserait trop peu de place à la question. */
+  body:has(input[type="text"]:focus, input[type="search"]:focus, input:not([type]):focus, textarea:focus) .tabbar { display: none; }
 }
+
+/* Raccourcis de l'écran de résultat du jour */
+.liens-rapides { display: flex; flex-wrap: wrap; justify-content: center; gap: 6px; margin: 16px 0 4px; }
+.puce {
+  appearance: none;
+  border: 1px solid rgba(255, 255, 255, .14);
+  border-radius: 999px;
+  padding: 8px 10px;
+  font: inherit;
+  font-size: .85rem;
+  font-weight: 600;
+  white-space: nowrap;
+  background: var(--fond-3);
+  color: var(--texte);
+  cursor: pointer;
+}
+.puce:active { transform: scale(.97); }
+.puce:focus-visible { outline: 3px solid #fff; outline-offset: 2px; }
+.classement-jour, .groupes, .ratees { scroll-margin-top: 84px; }
+.classement-moi { text-align: center; font-size: 1.1rem; margin: 0 0 8px; }
 
 main {
   max-width: 720px;
