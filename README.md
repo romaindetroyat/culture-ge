@@ -16,6 +16,10 @@ dans une application web progressive (PWA) installable sur téléphone et utilis
 
 ## Ce que fait l'application
 
+Sur téléphone, une barre d'onglets en bas de l'écran (Du jour, Classement, Solo, Groupe, Soirée,
+Parcourir) donne accès à chaque section ; les réglages sont sous la roue dentée en haut à droite.
+Sur ordinateur, ces liens sont dans la barre du haut.
+
 - **Carte du jour** : chaque jour, les mêmes 6 questions pour tout le monde (une par couleur, de
   tous les niveaux, de « enfant » à « expert », dans le désordre), jouables une seule fois. Une carte
   manquée se **rattrape jusqu'à dimanche** (bandeau « Cette semaine ») : elle compte pour la série et
@@ -27,6 +31,9 @@ dans une application web progressive (PWA) installable sur téléphone et utilis
     de la semaine (lundi à dimanche) et, pour chacun, les bonnes réponses et les points jour par jour ;
     il se met à jour au retour dans l'appli, et les flèches ‹ › affichent les trois semaines précédentes. Le prénom n'est visible que des
     membres du groupe.
+  - **Onglet « Classement »** : le classement du jour et les groupes d'amis en un geste, depuis
+    n'importe quel écran. Après la carte, des raccourcis (🏆 Classement, 👥 Entre amis, 📝 Réponses)
+    mènent directement à chaque section du résultat.
   - **Rappel quotidien** : notification chaque jour à l'heure choisie (sauf si la carte est déjà
     jouée), avec la série en cours. Sur iPhone, il faut avoir installé l'appli sur l'écran d'accueil.
     Autre possibilité : un rendez-vous quotidien dans Google Agenda ou tout agenda (fichiers

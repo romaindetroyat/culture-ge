@@ -1077,11 +1077,12 @@ function blocResultatJour(n, r, avecDetail) {
       h('li', {}, h('b', {}, String(stats.meilleure)), 'meilleure série'),
       h('li', {}, h('b', {}, String(stats.joues)), 'cartes jouées'),
       h('li', {}, h('b', {}, stats.moyenne.toFixed(1).replace('.', ',')), 'moyenne /6')),
+    liensRapides(avecDetail),
     blocClassementJour(n),
+    blocGroupes(decalageDe(n)),
     h('p', { class: 'message' }, `Prochaine carte dans ${avantDemain()}.`),
     h('h3', {}, 'Partager votre résultat'),
     partageJour(n, r),
-    blocGroupes(decalageDe(n)),
     avecDetail ? h('div', { class: 'ratees' },
       h('h3', {}, 'Les réponses'),
       h('ol', { class: 'resultats' }, CATS.map((cat, i) => {
@@ -1090,6 +1091,37 @@ function blocResultatJour(n, r, avecDetail) {
           h('div', { class: 'meta' }, `${cat.nom} ${r.res[i] ? '✅' : '❌'}`, niveau(q.niv)),
           h('div', {}, q.q), h('div', { class: 'r' }, q.r));
       }))) : null);
+}
+
+/** Raccourcis vers les sections de l'écran de résultat : classement du jour, groupes, réponses. */
+function liensRapides(avecReponses) {
+  const aller = (bouton, selecteur) => {
+    const cible = bouton.closest('.jour-resultat').querySelector(selecteur);
+    if (cible) cible.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  };
+  const lien = (texte, selecteur) => h('button', { type: 'button', class: 'puce',
+    onclick: e => aller(e.currentTarget, selecteur) }, texte);
+  return h('nav', { class: 'liens-rapides', 'aria-label': 'Aller à' },
+    lien('🏆 Classement', '.classement-jour'),
+    lien('👥 Entre amis', '.groupes'),
+    avecReponses ? lien('📝 Réponses', '.ratees') : null);
+}
+
+/** Onglet « Classement » : sa place parmi les joueurs du jour et les groupes d'amis, en un geste. */
+function rendreClassement() {
+  const n = numeroJour();
+  const r = resultatsJour()[n];
+  const enCours = solo && solo.mode === 'jour' && solo.jour === n && solo.phase !== 'fin';
+  $('#classement-contenu').replaceChildren(
+    h('h2', {}, 'Classements'),
+    r ? h('p', { class: 'classement-moi' }, `Carte du jour : `, h('b', {}, `${r.res.filter(Boolean).length}/6`), ` · ${points(r.score)}`)
+      : h('div', { class: 'classement-jour' },
+        h('h3', {}, 'Classement du jour'),
+        h('p', { class: 'aide' }, 'Jouez la carte du jour pour découvrir votre place parmi les joueurs d\'aujourd\'hui.'),
+        h('div', { class: 'actions' },
+          h('button', { type: 'button', class: 'btn', onclick: () => jouerJour() }, enCours ? 'Reprendre la carte du jour' : 'Jouer la carte du jour'))),
+    r ? blocClassementJour(n) : null,
+    blocGroupes());
 }
 
 function rendreFinJour(zone, n) {
@@ -1293,19 +1325,20 @@ function initParcourir() {
 
 /* ---------------- Navigation ---------------- */
 
-const VUES = ['accueil', 'jour', 'solo', 'groupe', 'soiree', 'parcourir', 'reglages'];
+const VUES = ['accueil', 'jour', 'classement', 'solo', 'groupe', 'soiree', 'parcourir', 'reglages'];
 
 function naviguer() {
   couperMicro();
   taire();
   const vue = VUES.includes(location.hash.slice(1)) ? location.hash.slice(1) : 'accueil';
   document.querySelectorAll('.vue').forEach(v => { v.hidden = v.dataset.vue !== vue; });
-  document.querySelectorAll('.topnav a').forEach(a => a.classList.toggle('actif', a.getAttribute('href') === '#' + vue));
+  document.querySelectorAll('.topnav a, .tabbar a, .topbar-reglages').forEach(a => a.classList.toggle('actif', a.getAttribute('href') === '#' + vue));
   // Carte du jour terminée : son écran de fin ne sert plus une fois qu'on l'a quitté.
   if (vue !== 'solo' && solo && solo.mode === 'jour' && solo.phase === 'fin') { solo = null; effacer(CLE_SOLO); }
   if (vue === 'accueil') { majMenuJour(); banniereProfil(); }
   if (vue === 'reglages') rendreProfil();
   if (vue === 'jour') { if (jourVu == null) semaineVue = 0; rendreJour(); }
+  if (vue === 'classement') rendreClassement();
   if (vue === 'solo') rendreSolo();
   if (vue === 'groupe') rendreGroupe();
   if (vue === 'soiree') rendreSoiree();
